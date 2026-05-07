@@ -469,3 +469,16 @@ img { max-width: 100%; height: auto; }
   .container { padding: 0 1rem; }
   .product-card { padding: 1.5rem; }
 }
+
+/* Product image placeholder */
+.img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 4rem;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  border-radius: 8px;
+  opacity: 0.8;
+}
