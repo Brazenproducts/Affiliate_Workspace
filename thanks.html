@@ -14,5 +14,11 @@ a { color: #f0a500; }
 <h1>✅ You're in!</h1>
 <p>Thanks for subscribing. We'll send our best picks straight to your inbox.</p>
 <p><a href="/">← Back to the site</a></p>
+
+<div id="cookie-consent-banner" style="position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;color:#ccc;font-family:sans-serif;font-size:13px;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;z-index:99999;border-top:1px solid #333;box-shadow:0 -2px 8px rgba(0,0,0,.4)">
+  <span>We use cookies to improve your experience and serve relevant ads. By using this site, you agree to our use of cookies. <a href="/privacy.html" style="color:#f0a500;text-decoration:underline">Privacy Policy</a></span>
+  <button onclick="document.getElementById('cookie-consent-banner').style.display='none';localStorage.setItem('cookie_ok','1')" style="background:#f0a500;color:#000;border:none;padding:8px 20px;border-radius:4px;cursor:pointer;font-weight:700;white-space:nowrap;font-size:13px">Accept</button>
+</div>
+<script>if(localStorage.getItem('cookie_ok'))document.getElementById('cookie-consent-banner').style.display='none';</script>
 </body>
 </html>
