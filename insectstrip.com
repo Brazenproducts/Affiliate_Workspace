@@ -1,0 +1,1 @@
+sites/insectstrip.com

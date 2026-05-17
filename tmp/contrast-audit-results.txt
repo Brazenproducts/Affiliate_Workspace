@@ -1,0 +1,78 @@
+Contrast Audit Results — May 5, 2026
+======================================
+
+TASK: Fix hero section text contrast on affiliate sites with dark backgrounds.
+Criteria: h1 → #ffffff, subtitle/p → #f0f0f0, add text-shadow: 0 2px 10px rgba(0,0,0,0.4)
+
+SITES FIXED (10 files, 9 repos):
+---------------------------------
+1. broncomolle.com/style.css
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#c8c8c8) → #f0f0f0 + text-shadow
+
+2. broncotent.com/style.css
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#c8c8c8) → #f0f0f0 + text-shadow
+
+3. cybertrucktires.com/style.css
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#c8c8c8) → #f0f0f0 + text-shadow
+
+4. cybertruckshell.com/style.css
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#c8c8c8) → #f0f0f0 + text-shadow
+
+5. r1sstorage.com/style.css
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#c8c8c8) → #f0f0f0 + text-shadow
+
+6. r1tstorage.com/style.css
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#c8c8c8) → #f0f0f0 + text-shadow
+
+7. broncolift.com/style.css
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#c8c8c8) → #f0f0f0 + text-shadow
+
+8. broncofloormats.com/style.css
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#c8c8c8) → #f0f0f0 + text-shadow
+
+9. rivianaftermarket.com/style.css (root + affiliate-sites/ copy)
+   - h1: no explicit color → #ffffff + text-shadow
+   - p: var(--muted) (#b7c6ba) → #f0f0f0 + text-shadow
+
+SITES ALREADY FIXED (had #ffffff h1 + #e0e0e0 p + text-shadow):
+----------------------------------------------------------------
+- cybertruckseat.com
+- cybertruckseatcovers.com
+- broncobumper.com
+- broncorollbar.com
+- r2sparts.com
+- r2tparts.com
+- scoutsuvparts.com
+- cybertruckgen1.com
+- broncoheadliner.com
+- broncoshade.com
+- broncorollcage.com
+- ramrevparts.com
+- broncotops.com
+- broncobiminis.com
+- broncoupgrade.com
+- slatetruckparts.com
+- sportadventurevehicleparts.com
+- broncotents.com
+
+SITES WITH ACCEPTABLE CONTRAST (no fix needed):
+-------------------------------------------------
+- cybertruckstorage.com: h1 #fff, p var(--text-dim)=#888 on gradient (5.3:1 AA pass)
+- cybertruckbumpers.com: h1 inherits #e0e0e0, p var(--text-dim)=#888 (5.3:1 AA pass)
+- gladiatorseatcover.com: --muted=#b7ada1 on #111 bg (~7:1 pass)
+- bestsmokergrill.com: --text-muted=#b8a99a on #1a1210 (~7:1 pass)
+- bestinstantpot.com: --text-muted=#b8a99a on #1a1210 (~7:1 pass)
+- jlseatcovers.com: .hero has color:var(--white) cascading to children
+- whatarebest.com: .hero h1, .hero p { color: #ffffff }
+- subscriptionfilter-com: .hero { color: #FFFFFF }
+- whatsizehvacfilter-com: .hero h1 { color:#fff }
+
+All fixes committed and pushed to respective GitHub repos.

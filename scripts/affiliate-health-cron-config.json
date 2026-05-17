@@ -1,0 +1,8 @@
+{
+  "name": "Affiliate Daily Health Check",
+  "schedule": "0 8 * * *",
+  "tz": "America/Los_Angeles",
+  "command": "node /home/ubuntu/.openclaw/workspace/scripts/affiliate-daily-health.js --local-only",
+  "alertIfCritical": true,
+  "reportPath": "/home/ubuntu/.openclaw/workspace/memory/affiliate-health-YYYY-MM-DD.json"
+}

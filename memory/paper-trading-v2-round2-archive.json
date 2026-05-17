@@ -1,0 +1,5891 @@
+{
+  "created": "2026-04-07T16:55:09.966Z",
+  "portfolios": {
+    "T1": {
+      "name": "Tier 1 Momentum",
+      "startingCash": 1000,
+      "cash": 125.20122327569148,
+      "holdings": {
+        "ZKP": {
+          "qty": 1722.4284627268328,
+          "avgCost": 0.086738,
+          "totalInvested": 150,
+          "peakPrice": 0.086738,
+          "enteredAt": "2026-04-24T12:15:03.514Z",
+          "entryVolume": 17882301,
+          "source": "coingecko",
+          "cgId": "zkpass",
+          "trailingStopPct": null,
+          "lastCheckPrice": 0.083119
+        },
+        "API3": {
+          "qty": 268.4506470436825,
+          "avgCost": 0.39905,
+          "totalInvested": 107.55545251283284,
+          "peakPrice": 0.39905,
+          "enteredAt": "2026-04-25T11:45:03.408Z",
+          "entryVolume": 354411001,
+          "source": "coingecko",
+          "cgId": "api3",
+          "trailingStopPct": null,
+          "lastCheckPrice": 0.341281
+        },
+        "OPG": {
+          "qty": 400.5155699427822,
+          "avgCost": 0.348518,
+          "totalInvested": 140.14747530654472,
+          "peakPrice": 0.348518,
+          "enteredAt": "2026-04-26T13:15:03.580Z",
+          "entryVolume": 135290700,
+          "source": "coingecko",
+          "cgId": "opengradient",
+          "trailingStopPct": null,
+          "lastCheckPrice": 0.31212
+        },
+        "ZBT": {
+          "qty": 676.3720173532421,
+          "avgCost": 0.1875,
+          "totalInvested": 127.32906953186034,
+          "peakPrice": 0.26889,
+          "enteredAt": "2026-04-26T14:30:03.307Z",
+          "entryVolume": 257191239,
+          "source": "coingecko",
+          "cgId": "zerobase",
+          "trailingStopPct": null,
+          "lastCheckPrice": 0.256395
+        },
+        "BURNIE": {
+          "qty": 4882.4443808854685,
+          "avgCost": 0.022900609999999995,
+          "totalInvested": 112.25999459171642,
+          "peakPrice": 0.02290061,
+          "enteredAt": "2026-04-26T16:00:03.170Z",
+          "entryVolume": 14466352,
+          "source": "coingecko",
+          "cgId": "burnie-senders",
+          "trailingStopPct": null,
+          "lastCheckPrice": 0.02088613
+        }
+      }
+    },
+    "T2": {
+      "name": "Tier 2 Moonshots",
+      "startingCash": 1000,
+      "cash": 880.4717367183528,
+      "holdings": {}
+    }
+  },
+  "exitRules": {
+    "trailingStopPct": 15,
+    "takeProfitTiers": [
+      {
+        "pct": 50,
+        "sellPct": 25
+      },
+      {
+        "pct": 100,
+        "sellPct": 25
+      },
+      {
+        "pct": 200,
+        "sellPct": 25
+      }
+    ],
+    "maxHoldHours": 72,
+    "volumeDecayPct": 60
+  },
+  "trades": [
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "EDGE",
+      "qty": 1086.9633001777306,
+      "price": 0.128284,
+      "amountUSD": 140,
+      "fee": 0.56,
+      "reason": "Score 55: 24h+25% solid, vol/mcap 3.1x, small-cap",
+      "time": "2026-04-07T16:55:15.828Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "NOM",
+      "qty": 20693.464928698675,
+      "price": 0.00569017,
+      "amountUSD": 118.22222222222221,
+      "fee": 0.47288888888888886,
+      "reason": "Score 55: 24h+26% solid, vol/mcap 4.5x, small-cap",
+      "time": "2026-04-07T16:55:15.828Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BULLA",
+      "qty": 6570.6572370948215,
+      "price": 0.01513285,
+      "amountUSD": 99.8320987654321,
+      "fee": 0.3993283950617284,
+      "reason": "Score 55: 24h+57% solid, 1h-8% fading, vol/mcap 5.8x EXTREME, micro-cap",
+      "time": "2026-04-07T16:55:15.828Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "SOLV",
+      "qty": 18382.16012615407,
+      "price": 0.00433938,
+      "amountUSD": 80.08752812071332,
+      "fee": 0.3203501124828533,
+      "reason": "Score 50: 24h+14%, vol/mcap 6.5x EXTREME, micro-cap",
+      "time": "2026-04-07T16:55:15.828Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "XION",
+      "qty": 524.6697567461351,
+      "price": 0.129566,
+      "amountUSD": 68.25237118731901,
+      "fee": 0.27300948474927605,
+      "reason": "Score 50: 24h+30% solid, vol/mcap 1.9x, micro-cap",
+      "time": "2026-04-07T16:55:15.828Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BULLA",
+      "qty": 6570.6572370948215,
+      "price": 0.01764206,
+      "amountUSD": 115.45624949939602,
+      "fee": 0.4636797168650443,
+      "pnl": 16.02347912902566,
+      "reason": "TRAILING STOP: -19.8% from peak $0.022011 (stop: 15.0%)",
+      "time": "2026-04-08T06:00:02.503Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "EDU",
+      "qty": 2659.1673637933186,
+      "price": 0.056183,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+30% solid, 1h+12% accelerating, small-cap",
+      "time": "2026-04-08T06:00:03.106Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "NOM",
+      "qty": 20693.464928698675,
+      "price": 0.00644843,
+      "amountUSD": 132.90659860996772,
+      "fee": 0.5337614402006735,
+      "pnl": 15.15726527663439,
+      "reason": "TRAILING STOP: -16.5% from peak $0.007719 (stop: 15.0%)",
+      "time": "2026-04-08T10:15:01.860Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "JOE",
+      "qty": 2494.0320184297952,
+      "price": 0.059903,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+64% solid, vol/mcap 3.1x, small-cap",
+      "time": "2026-04-08T10:15:02.764Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "XION",
+      "qty": 524.6697567461351,
+      "price": 0.121909,
+      "amountUSD": 63.70611751366393,
+      "fee": 0.25584786150065836,
+      "pnl": -4.2732441889057995,
+      "reason": "TRAILING STOP: -15.5% from peak $0.144341 (stop: 15.0%)",
+      "time": "2026-04-08T12:45:03.038Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "HOODX",
+      "qty": 1.9832735961768222,
+      "price": 75.33,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+10%, vol/mcap 5.8x EXTREME, micro-cap",
+      "time": "2026-04-08T12:45:03.641Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "EDU",
+      "qty": 2659.1673637933186,
+      "price": 0.04760465,
+      "amountUSD": 126.08237671822438,
+      "fee": 0.5063549265792144,
+      "pnl": -23.317623281775624,
+      "reason": "TRAILING STOP: -15.3% from peak $0.056183 (stop: 15.0%)",
+      "time": "2026-04-08T15:15:02.157Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BULLA",
+      "qty": 9062.547959015932,
+      "price": 0.01648543,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 1h+12% accelerating, vol/mcap 3.5x, micro-cap",
+      "time": "2026-04-08T15:30:02.775Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "JOE",
+      "qty": 2494.0320184297952,
+      "price": 0.051518,
+      "amountUSD": 127.97359135936432,
+      "fee": 0.5139501661018647,
+      "pnl": -21.426408640635685,
+      "reason": "TRAILING STOP: -17.5% from peak $0.062455 (stop: 15.0%)",
+      "time": "2026-04-08T23:45:02.823Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ENJ",
+      "qty": 5281.43061016785,
+      "price": 0.02828779,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+42% solid, vol/mcap 2.1x, 🔥TRENDING",
+      "time": "2026-04-08T23:45:03.433Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "EDGE",
+      "qty": 1086.9633001777306,
+      "price": 0.109425,
+      "amountUSD": 118.46519528546038,
+      "fee": 0.4757638364877927,
+      "pnl": -20.974804714539616,
+      "reason": "TRAILING STOP: -15.4% from peak $0.129309 (stop: 15.0%)",
+      "time": "2026-04-09T01:15:01.577Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BLUR",
+      "qty": 6606.813242990101,
+      "price": 0.02261302,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+21% solid, 1h+17% SURGING",
+      "time": "2026-04-09T03:45:03.087Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ENJ",
+      "qty": 5281.43061016785,
+      "price": 0.0337464,
+      "amountUSD": 177.5163528631965,
+      "fee": 0.7129170797718735,
+      "pnl": 28.116352863196482,
+      "reason": "TRAILING STOP: -13.9% from peak $0.039216 (stop: 12.0%)",
+      "time": "2026-04-09T04:15:02.749Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "STO",
+      "qty": 968.3880293238785,
+      "price": 0.154277,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+17%, 1h+9%, vol/mcap 2.8x, small-cap, 🔥TRENDING",
+      "time": "2026-04-09T06:45:02.814Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "SOLV",
+      "qty": 18382.16012615407,
+      "price": 0.00444988,
+      "amountUSD": 81.47121307536179,
+      "fee": 0.32719362680868186,
+      "pnl": 1.7040350671313291,
+      "reason": "TRAILING STOP: -15.0% from peak $0.005237 (stop: 15.0%)",
+      "time": "2026-04-09T08:30:02.310Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BULLA",
+      "qty": 9062.547959015932,
+      "price": 0.01974407,
+      "amountUSD": 178.21585495604302,
+      "fee": 0.7157263251246708,
+      "pnl": 28.81585495604301,
+      "reason": "TRAILING STOP: -17.2% from peak $0.023835 (stop: 15.0%)",
+      "time": "2026-04-09T08:30:02.911Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "TNSR",
+      "qty": 2855.1771585827314,
+      "price": 0.052326,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 75: 24h+41% solid, 1h+12% accelerating, vol/mcap 2.8x, small-cap, 🔥TRENDING",
+      "time": "2026-04-09T08:30:03.518Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ENJ",
+      "qty": 4294.438660328079,
+      "price": 0.02986954,
+      "amountUSD": 128.78805958053812,
+      "fee": 0.5151522383221525,
+      "reason": "Score 60: 24h+45% solid, vol/mcap 4.1x, 🔥TRENDING",
+      "time": "2026-04-09T08:30:03.519Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "Iroha",
+      "qty": 58726.415094339616,
+      "price": 0.001696,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 90: 24h+88% solid, 1h+24% SURGING, vol/mcap 1.2x, micro-cap, 5min+14% RIGHT NOW",
+      "time": "2026-04-09T14:45:03.636Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "LOL",
+      "qty": 11258.053577483892,
+      "price": 0.008847,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 65: 24h+26% solid, 1h+13% accelerating, micro-cap, liq $399K OK",
+      "time": "2026-04-09T15:15:03.897Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ENJ",
+      "qty": 4294.438660328079,
+      "price": 0.03081162,
+      "amountUSD": 131.7893376668765,
+      "fee": 0.5292744484613514,
+      "pnl": 3.5164303246605186,
+      "reason": "TRAILING STOP: -15.5% from peak $0.036483 (stop: 15.0%)",
+      "time": "2026-04-09T15:45:02.703Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "NOM",
+      "qty": 19150.4334483983,
+      "price": 0.00780139,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+26% solid, 1h+6%, vol/mcap 3.6x, small-cap",
+      "time": "2026-04-09T15:45:03.351Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "Iroha",
+      "qty": 58726.415094339616,
+      "price": 0.001712,
+      "amountUSD": 100.13746415094339,
+      "fee": 0.4021584905660377,
+      "pnl": 0.5374641509433928,
+      "reason": "TRAILING STOP: -18.4% from peak $0.002099 (stop: 15.0%)",
+      "time": "2026-04-09T18:30:04.171Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "LOL",
+      "qty": 11258.053577483892,
+      "price": 0.007096,
+      "amountUSD": 79.56759959308239,
+      "fee": 0.3195485927433028,
+      "pnl": -20.032400406917603,
+      "reason": "TRAILING STOP: -19.8% from peak $0.008847 (stop: 15.0%)",
+      "time": "2026-04-09T18:30:04.491Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "Iroha",
+      "qty": 65612.64822134387,
+      "price": 0.001518,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 60: 24h+95% solid, 1h+16% SURGING, vol/mcap 1.3x, micro-cap, ⚠️ thin vol",
+      "time": "2026-04-09T22:45:02.970Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "Iroha",
+      "qty": 65612.64822134387,
+      "price": 0.001388,
+      "amountUSD": 90.70607430830039,
+      "fee": 0.3642814229249012,
+      "pnl": -8.893925691699607,
+      "reason": "TRAILING STOP: -18.6% from peak $0.001705 (stop: 15.0%)",
+      "time": "2026-04-10T01:00:03.432Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "TNSR",
+      "qty": 2855.1771585827314,
+      "price": 0.04778576,
+      "amountUSD": 135.89106321568627,
+      "fee": 0.5457472418300654,
+      "pnl": -13.508936784313732,
+      "reason": "TRAILING STOP: -15.1% from peak $0.056269 (stop: 15.0%)",
+      "time": "2026-04-10T04:00:03.319Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "CFG",
+      "qty": 631.4775051989112,
+      "price": 0.236588,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+31% solid, 1h+8%, 🔥TRENDING",
+      "time": "2026-04-10T04:15:02.702Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "NOM",
+      "qty": 19150.4334483983,
+      "price": 0.00672901,
+      "amountUSD": 128.3480043458922,
+      "fee": 0.5154538327144266,
+      "pnl": -21.0519956541078,
+      "reason": "TRAILING STOP: -15.5% from peak $0.007966 (stop: 15.0%)",
+      "time": "2026-04-10T05:15:02.682Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "MON",
+      "qty": 4109.901065273152,
+      "price": 0.03635124,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+23% solid, 1h+6%, 🔥TRENDING",
+      "time": "2026-04-10T05:15:02.984Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "CFG",
+      "qty": 631.4775051989112,
+      "price": 0.215121,
+      "amountUSD": 135.3006961063114,
+      "fee": 0.54337628958358,
+      "pnl": -14.099303893688614,
+      "reason": "TRAILING STOP: -15.1% from peak $0.253466 (stop: 15.0%)",
+      "time": "2026-04-10T10:45:02.593Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "MDT",
+      "qty": 13693.444652911508,
+      "price": 0.01091033,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+68% solid, vol/mcap 3.1x, micro-cap",
+      "time": "2026-04-10T10:45:02.896Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "STO",
+      "qty": 968.3880293238785,
+      "price": 0.130532,
+      "amountUSD": 125.9000037387297,
+      "fee": 0.5056225049748181,
+      "pnl": -23.49999626127031,
+      "reason": "TRAILING STOP: -15.4% from peak $0.154277 (stop: 15.0%)",
+      "time": "2026-04-10T11:45:02.898Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ILV",
+      "qty": 28.786127167630056,
+      "price": 5.19,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+38% solid, 1h+26% SURGING, small-cap, 🔥TRENDING",
+      "time": "2026-04-10T13:00:03.376Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "MDT",
+      "qty": 13693.444652911508,
+      "price": 0.00924741,
+      "amountUSD": 126.12238142970928,
+      "fee": 0.5065155880711216,
+      "pnl": -23.277618570290727,
+      "reason": "TRAILING STOP: -19.4% from peak $0.011470 (stop: 15.0%)",
+      "time": "2026-04-10T14:00:02.944Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ARIA",
+      "qty": 362.3065394632819,
+      "price": 0.412358,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+33% solid, 1h+13% accelerating, vol/mcap 1.3x",
+      "time": "2026-04-10T14:00:03.247Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ILV",
+      "qty": 28.786127167630056,
+      "price": 4.89,
+      "amountUSD": 140.20110520231214,
+      "fee": 0.5630566473988439,
+      "pnl": -9.19889479768787,
+      "reason": "TRAILING STOP: -15.7% from peak $5.800000 (stop: 15.0%)",
+      "time": "2026-04-10T16:45:03.003Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "币安人生",
+      "qty": 1444.5529524380458,
+      "price": 0.103423,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+28% solid, 1h+10% accelerating",
+      "time": "2026-04-10T17:30:02.668Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ARIA",
+      "qty": 90.57663486582048,
+      "price": 0.621081,
+      "amountUSD": 56.03040525126225,
+      "fee": 0.2250217078363946,
+      "pnl": 18.68040525126225,
+      "reason": "TAKE PROFIT: +50.6% (tier 50%)",
+      "time": "2026-04-10T22:00:02.955Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ARIA",
+      "qty": 271.7299045974614,
+      "price": 0.526626,
+      "amountUSD": 142.52763260758854,
+      "fee": 0.5724001309541709,
+      "pnl": 30.477632607588546,
+      "reason": "TRAILING STOP: -15.2% from peak $0.621081 (stop: 15.0%)",
+      "time": "2026-04-11T03:30:02.469Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "RAVE",
+      "qty": 75.45454545454545,
+      "price": 1.98,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+93% solid, 1h+16% SURGING, 🔥TRENDING",
+      "time": "2026-04-11T03:30:02.771Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 75.45454545454545,
+      "price": 1.66,
+      "amountUSD": 124.75352727272727,
+      "fee": 0.5010181818181818,
+      "pnl": -24.646472727272737,
+      "reason": "TRAILING STOP: -24.5% from peak $2.200000 (stop: 15.0%)",
+      "time": "2026-04-11T09:15:03.315Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "DRIFT",
+      "qty": 4285.060340762684,
+      "price": 0.03486532,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+22% solid, 1h+13% accelerating, small-cap",
+      "time": "2026-04-11T09:15:03.316Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "HOODX",
+      "qty": 1.9832735961768222,
+      "price": 69.44,
+      "amountUSD": 137.16764444444445,
+      "fee": 0.5508740740740741,
+      "pnl": -12.232355555555557,
+      "reason": "MAX HOLD: 72h, only +-7.8%",
+      "time": "2026-04-11T13:00:01.896Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "SKYAI",
+      "qty": 1275.3207508514943,
+      "price": 0.117147,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+67% solid, 1h+12% accelerating",
+      "time": "2026-04-11T13:00:03.102Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "币安人生",
+      "qty": 1444.5529524380458,
+      "price": 0.116827,
+      "amountUSD": 168.08773662338166,
+      "fee": 0.6750511510979184,
+      "pnl": 18.687736623381653,
+      "reason": "TRAILING STOP: -15.5% from peak $0.138227 (stop: 15.0%)",
+      "time": "2026-04-11T15:15:03.012Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "TRU",
+      "qty": 20335.135002701823,
+      "price": 0.00734689,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+14%, 1h+16% SURGING, vol/mcap 1.1x, small-cap",
+      "time": "2026-04-11T15:15:03.623Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "SKYAI",
+      "qty": 1275.3207508514943,
+      "price": 0.11051,
+      "amountUSD": 140.37195339189225,
+      "fee": 0.5637427847063946,
+      "pnl": -9.028046608107758,
+      "reason": "TRAILING STOP: -20.1% from peak $0.138226 (stop: 15.0%)",
+      "time": "2026-04-11T17:00:02.707Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "Q",
+      "qty": 13659.028947267372,
+      "price": 0.01093782,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+37% solid, 1h+23% SURGING, small-cap",
+      "time": "2026-04-11T17:45:02.738Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "Q",
+      "qty": 13659.028947267372,
+      "price": 0.00753056,
+      "amountUSD": 102.44869648101725,
+      "fee": 0.41144054811653513,
+      "pnl": -46.951303518982755,
+      "reason": "TRAILING STOP: -31.2% from peak $0.010938 (stop: 15.0%)",
+      "time": "2026-04-11T18:15:03.121Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ARIA",
+      "qty": 171.017659222621,
+      "price": 0.781263,
+      "amountUSD": 134.14635491691018,
+      "fee": 0.5365854196676407,
+      "reason": "Score 50: 24h+45% solid, 1h+8%, 🔥TRENDING",
+      "time": "2026-04-11T19:00:02.844Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "BURNIE",
+      "qty": 27131.571778806865,
+      "price": 0.003671,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 55: 24h+30% solid, 1h+17% SURGING, micro-cap, ⚠️ thin vol, liq $213K OK",
+      "time": "2026-04-11T20:30:03.715Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ARIA",
+      "qty": 171.017659222621,
+      "price": 0.758934,
+      "amountUSD": 129.2719517197228,
+      "fee": 0.5191644647378426,
+      "pnl": -4.337817777519746,
+      "reason": "TRAILING STOP: -15.2% from peak $0.894461 (stop: 15.0%)",
+      "time": "2026-04-11T20:45:03.124Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "BURNIE",
+      "qty": 6782.892944701716,
+      "price": 0.005645,
+      "amountUSD": 38.13627295014982,
+      "fee": 0.15315772269136474,
+      "pnl": 13.236272950149818,
+      "reason": "TAKE PROFIT: +53.8% (tier 50%)",
+      "time": "2026-04-11T22:30:03.017Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "AIOT",
+      "qty": 1508.5124376100457,
+      "price": 0.090729,
+      "amountUSD": 137.41548689951992,
+      "fee": 0.5496619475980797,
+      "reason": "Score 55: 24h+192% hot, 1h+26% SURGING, vol/mcap 1.3x, small-cap",
+      "time": "2026-04-11T22:30:03.019Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "BURNIE",
+      "qty": 20348.67883410515,
+      "price": 0.005049,
+      "amountUSD": 102.32951751566331,
+      "fee": 0.4109619177335876,
+      "pnl": 27.62951751566331,
+      "reason": "TRAILING STOP: -10.6% from peak $0.005645 (stop: 9.6%)",
+      "time": "2026-04-11T23:15:03.864Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "TRU",
+      "qty": 20335.135002701823,
+      "price": 0.00905398,
+      "amountUSD": 183.3774499893152,
+      "fee": 0.736455622447049,
+      "pnl": 33.977449989315204,
+      "reason": "TRAILING STOP: -15.3% from peak $0.010692 (stop: 15.0%)",
+      "time": "2026-04-12T03:00:03.265Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BLUR",
+      "qty": 6606.813242990101,
+      "price": 0.0228273,
+      "amountUSD": 150.2124451099411,
+      "fee": 0.6032628317668317,
+      "pnl": 0.8124451099410805,
+      "reason": "MAX HOLD: 72h, only +0.9%",
+      "time": "2026-04-12T04:00:01.618Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "AIOT",
+      "qty": 1508.5124376100457,
+      "price": 0.083329,
+      "amountUSD": 125.20002158195307,
+      "fee": 0.50281133165443,
+      "pnl": -11.66580336996877,
+      "reason": "TRAILING STOP: -20.1% from peak $0.104334 (stop: 15.0%)",
+      "time": "2026-04-12T04:30:02.574Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BASED",
+      "qty": 2530.2306676150797,
+      "price": 0.059046,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+12%, 1h+6%, vol/mcap 4.0x, small-cap",
+      "time": "2026-04-12T06:15:01.805Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ARIA",
+      "qty": 150.68972095671361,
+      "price": 0.849901,
+      "amountUSD": 128.58568727995166,
+      "fee": 0.5143427491198066,
+      "reason": "Score 50: 24h+66% solid, 1h+9%, 🔥TRENDING",
+      "time": "2026-04-12T06:15:01.805Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "RAVE",
+      "qty": 58.818897637795274,
+      "price": 2.54,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+19%, 1h+28% SURGING, 🔥TRENDING",
+      "time": "2026-04-12T06:45:02.493Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ARIA",
+      "qty": 150.68972095671361,
+      "price": 0.806381,
+      "amountUSD": 121.0272745632965,
+      "fee": 0.48605331149918274,
+      "pnl": -7.04406996753535,
+      "reason": "TRAILING STOP: -16.0% from peak $0.959600 (stop: 15.0%)",
+      "time": "2026-04-12T14:30:03.126Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "TRU",
+      "qty": 17044.59889289968,
+      "price": 0.00876524,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+37% solid, vol/mcap 9.3x EXTREME, small-cap",
+      "time": "2026-04-12T14:30:03.429Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 14.704724409448819,
+      "price": 4.02,
+      "amountUSD": 58.87654015748031,
+      "fee": 0.23645196850393696,
+      "pnl": 21.526540157480305,
+      "reason": "TAKE PROFIT: +58.3% (tier 50%)",
+      "time": "2026-04-12T17:30:02.821Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 11.028543307086615,
+      "price": 5.22,
+      "amountUSD": 57.33872007874016,
+      "fee": 0.23027598425196852,
+      "pnl": 29.326220078740157,
+      "reason": "TAKE PROFIT: +105.5% (tier 100%)",
+      "time": "2026-04-12T20:15:02.668Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "MON",
+      "qty": 4109.901065273152,
+      "price": 0.03210154,
+      "amountUSD": 131.40641682913707,
+      "fee": 0.5277366137716348,
+      "pnl": -17.993583170862934,
+      "reason": "MAX HOLD: 72h, only +-11.7%",
+      "time": "2026-04-13T05:30:02.123Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "INX",
+      "qty": 7382.684984686117,
+      "price": 0.02023654,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+61% solid, 1h+11% accelerating, small-cap, 🔥TRENDING",
+      "time": "2026-04-13T05:30:03.332Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 8.271407480314961,
+      "price": 7.87,
+      "amountUSD": 64.83559296259843,
+      "fee": 0.260383907480315,
+      "pnl": 43.82621796259842,
+      "reason": "TAKE PROFIT: +209.8% (tier 200%)",
+      "time": "2026-04-13T07:30:02.113Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "INX",
+      "qty": 7382.684984686117,
+      "price": 0.02082897,
+      "amountUSD": 153.15862916921566,
+      "fee": 0.6150948962619104,
+      "pnl": 3.758629169215652,
+      "reason": "TRAILING STOP: -26.6% from peak $0.028390 (stop: 15.0%)",
+      "time": "2026-04-13T08:45:03.105Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "FIGHT",
+      "qty": 30331.022301625166,
+      "price": 0.00492565,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+57% solid, 1h+11% accelerating, vol/mcap 1.6x, small-cap",
+      "time": "2026-04-13T08:45:03.106Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "DRIFT",
+      "qty": 4285.060340762684,
+      "price": 0.04245503,
+      "amountUSD": 181.1946758576144,
+      "fee": 0.7276894612755599,
+      "pnl": 31.794675857614408,
+      "reason": "TRAILING STOP: -16.4% from peak $0.050797 (stop: 15.0%)",
+      "time": "2026-04-13T09:15:01.567Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 24.81422244094488,
+      "price": 8.58,
+      "amountUSD": 212.05440442913385,
+      "fee": 0.8516241141732284,
+      "pnl": 149.02627942913387,
+      "reason": "TRAILING STOP: -12.4% from peak $9.790000 (stop: 12.0%)",
+      "time": "2026-04-13T09:15:02.168Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "WET",
+      "qty": 1193.6911743556145,
+      "price": 0.125158,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+38% solid, 1h+16% SURGING, vol/mcap 1.2x, small-cap",
+      "time": "2026-04-13T09:15:02.772Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "LAB",
+      "qty": 237.81894242202833,
+      "price": 0.628209,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+31% solid, 1h+10%, vol/mcap 1.5x, small-cap",
+      "time": "2026-04-13T09:15:02.772Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "FIGHT",
+      "qty": 30331.022301625166,
+      "price": 0.00435757,
+      "amountUSD": 131.6408746394892,
+      "fee": 0.5286782114035711,
+      "pnl": -17.759125360510808,
+      "reason": "TRAILING STOP: -15.7% from peak $0.005168 (stop: 15.0%)",
+      "time": "2026-04-13T13:15:02.595Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "INX",
+      "qty": 8692.687320429677,
+      "price": 0.01718686,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+29% solid, vol/mcap 1.8x, small-cap, 🔥TRENDING",
+      "time": "2026-04-13T13:15:03.199Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "ALONSHOUSE",
+      "qty": 147621.16496220542,
+      "price": 0.0006747,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 70: 24h+14%, 1h+37% SURGING, vol/mcap 4.2x, micro-cap",
+      "time": "2026-04-13T13:15:03.200Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "TRU",
+      "qty": 17044.59889289968,
+      "price": 0.00755376,
+      "amountUSD": 128.23580609589698,
+      "fee": 0.5150032373329195,
+      "pnl": -21.16419390410303,
+      "reason": "TRAILING STOP: -15.6% from peak $0.008945 (stop: 15.0%)",
+      "time": "2026-04-13T13:30:02.375Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BULLA",
+      "qty": 14687.16053145107,
+      "price": 0.01017215,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+35% solid, vol/mcap 5.9x EXTREME, micro-cap",
+      "time": "2026-04-13T13:30:03.707Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "WET",
+      "qty": 1193.6911743556145,
+      "price": 0.138802,
+      "amountUSD": 165.02397549337638,
+      "fee": 0.6627468895316321,
+      "pnl": 15.623975493376378,
+      "reason": "TRAILING STOP: -15.0% from peak $0.163369 (stop: 15.0%)",
+      "time": "2026-04-13T14:00:02.222Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ON",
+      "qty": 993.0803437892597,
+      "price": 0.150441,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+77% solid, 1h+13% accelerating, small-cap",
+      "time": "2026-04-13T14:15:02.842Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "ALONSHOUSE",
+      "qty": 147621.16496220542,
+      "price": 0.0004924,
+      "amountUSD": 72.3979069808804,
+      "fee": 0.29075464650955984,
+      "pnl": -27.202093019119587,
+      "reason": "TRAILING STOP: -27.0% from peak $0.000675 (stop: 15.0%)",
+      "time": "2026-04-13T14:30:03.529Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "INX",
+      "qty": 8692.687320429677,
+      "price": 0.01486529,
+      "amountUSD": 128.70244062592005,
+      "fee": 0.5168772715900404,
+      "pnl": -20.697559374079958,
+      "reason": "TRAILING STOP: -16.4% from peak $0.017771 (stop: 15.0%)",
+      "time": "2026-04-13T20:45:02.862Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "FIGHT",
+      "qty": 32976.565448770445,
+      "price": 0.00453049,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+33% solid, 1h+7%, vol/mcap 3.0x, micro-cap",
+      "time": "2026-04-13T20:45:03.466Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ON",
+      "qty": 993.0803437892597,
+      "price": 0.156975,
+      "amountUSD": 155.26523181845374,
+      "fee": 0.6235551478652761,
+      "pnl": 5.865231818453736,
+      "reason": "TRAILING STOP: -15.6% from peak $0.186052 (stop: 15.0%)",
+      "time": "2026-04-14T01:00:02.861Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "WET",
+      "qty": 837.1389348051439,
+      "price": 0.178465,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 80: 24h+73% solid, 1h+12% accelerating, vol/mcap 5.2x EXTREME, small-cap",
+      "time": "2026-04-14T01:00:03.163Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "WET",
+      "qty": 837.1389348051439,
+      "price": 0.148964,
+      "amountUSD": 124.20475002717622,
+      "fee": 0.4988142571372539,
+      "pnl": -25.195249972823788,
+      "reason": "TRAILING STOP: -16.5% from peak $0.178465 (stop: 15.0%)",
+      "time": "2026-04-14T01:15:03.044Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "TST",
+      "qty": 14373.870727525675,
+      "price": 0.01039386,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+27% solid, vol/mcap 5.5x EXTREME, micro-cap",
+      "time": "2026-04-14T01:15:03.046Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BASED",
+      "qty": 2530.2306676150797,
+      "price": 0.061814,
+      "amountUSD": 155.77806377400668,
+      "fee": 0.6256147139518341,
+      "pnl": 6.378063774006677,
+      "reason": "TRAILING STOP: -15.1% from peak $0.072835 (stop: 15.0%)",
+      "time": "2026-04-14T02:00:02.264Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "GIGGLE",
+      "qty": 3.87448132780083,
+      "price": 38.56,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+23% solid, vol/mcap 3.4x, small-cap",
+      "time": "2026-04-14T02:00:03.471Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "SPIKE",
+      "qty": 17261.698440207972,
+      "price": 0.00577,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 65: 24h+61% solid, 1h+13% accelerating, micro-cap, liq $221K OK",
+      "time": "2026-04-14T02:00:03.472Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "LAB",
+      "qty": 237.81894242202833,
+      "price": 0.606157,
+      "amountUSD": 143.57899421498257,
+      "fee": 0.5766224667268376,
+      "pnl": -5.821005785017434,
+      "reason": "MAX HOLD: 118h, only +-3.5%",
+      "time": "2026-04-18T07:30:02.444Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BULLA",
+      "qty": 14687.16053145107,
+      "price": 0.00865492,
+      "amountUSD": 126.60773462915904,
+      "fee": 0.508464797707466,
+      "pnl": -22.792265370840965,
+      "reason": "TRAILING STOP: -16.1% from peak $0.010321 (stop: 15.0%)",
+      "time": "2026-04-18T07:30:02.745Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "FIGHT",
+      "qty": 32976.565448770445,
+      "price": 0.00383743,
+      "amountUSD": 126.03908050387489,
+      "fee": 0.5061810462003007,
+      "pnl": -23.36091949612512,
+      "reason": "TRAILING STOP: -17.7% from peak $0.004661 (stop: 15.0%)",
+      "time": "2026-04-18T07:30:03.045Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "SPIKE",
+      "qty": 4315.424610051993,
+      "price": 0.008945,
+      "amountUSD": 38.44706724436742,
+      "fee": 0.1544058925476603,
+      "pnl": 13.547067244367419,
+      "reason": "TAKE PROFIT: +55.0% (tier 50%)",
+      "time": "2026-04-18T07:30:04.071Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "WET",
+      "qty": 988.1671285609403,
+      "price": 0.151189,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+44% solid, vol/mcap 5.9x EXTREME, small-cap",
+      "time": "2026-04-18T07:30:04.075Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "RAVE",
+      "qty": 17.535211267605636,
+      "price": 8.52,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+37% solid, 1h+10%, 🔥TRENDING",
+      "time": "2026-04-18T07:30:04.075Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ENJ",
+      "qty": 2643.4259445738926,
+      "price": 0.04433674,
+      "amountUSD": 117.67157511428422,
+      "fee": 0.4706863004571369,
+      "reason": "Score 50: 24h+22% solid, vol/mcap 3.4x",
+      "time": "2026-04-18T07:30:04.075Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "WET",
+      "qty": 988.1671285609403,
+      "price": 0.114623,
+      "amountUSD": 112.8136140539325,
+      "fee": 0.45306672310816265,
+      "pnl": -36.58638594606751,
+      "reason": "TRAILING STOP: -24.2% from peak $0.151189 (stop: 15.0%)",
+      "time": "2026-04-18T07:45:02.730Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 4.383802816901409,
+      "price": 26.55,
+      "amountUSD": 115.92440492957748,
+      "fee": 0.46555985915492964,
+      "pnl": 78.57440492957747,
+      "reason": "TAKE PROFIT: +211.6% (tier 50%)",
+      "time": "2026-04-18T07:45:03.031Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 3.287852112676057,
+      "price": 26.55,
+      "amountUSD": 86.94330369718311,
+      "fee": 0.3491698943661973,
+      "pnl": 58.93080369718311,
+      "reason": "TAKE PROFIT: +211.6% (tier 100%)",
+      "time": "2026-04-18T07:45:03.032Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 2.465889084507043,
+      "price": 26.55,
+      "amountUSD": 65.20747777288734,
+      "fee": 0.261877420774648,
+      "pnl": 44.19810277288734,
+      "reason": "TAKE PROFIT: +211.6% (tier 200%)",
+      "time": "2026-04-18T07:45:03.032Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ALICE",
+      "qty": 830.2536886270806,
+      "price": 0.179945,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 80: 24h+50% solid, 1h+27% SURGING, vol/mcap 3.2x, small-cap",
+      "time": "2026-04-18T07:45:03.780Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ALICE",
+      "qty": 830.2536886270806,
+      "price": 0.17834,
+      "amountUSD": 147.47517305843454,
+      "fee": 0.5922697713190143,
+      "pnl": -1.9248269415654704,
+      "reason": "TRAILING STOP: -20.7% from peak $0.224820 (stop: 15.0%)",
+      "time": "2026-04-18T08:45:02.884Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "AUDIO",
+      "qty": 5871.418297288694,
+      "price": 0.0254453,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+43% solid, vol/mcap 6.1x EXTREME, small-cap",
+      "time": "2026-04-18T08:45:03.275Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "GIGGLE",
+      "qty": 3.87448132780083,
+      "price": 41.06,
+      "amountUSD": 158.44985850622407,
+      "fee": 0.6363448132780084,
+      "pnl": 9.04985850622407,
+      "reason": "TRAILING STOP: -12.4% from peak $46.850000 (stop: 12.0%)",
+      "time": "2026-04-18T11:45:02.099Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "RAVE",
+      "qty": 7.397667253521129,
+      "price": 20.03,
+      "amountUSD": 147.5825739876761,
+      "fee": 0.5927011003521129,
+      "pnl": 84.5544489876761,
+      "reason": "TRAILING STOP: -24.6% from peak $26.550000 (stop: 15.0%)",
+      "time": "2026-04-18T11:45:02.401Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "AUDIO",
+      "qty": 5871.418297288694,
+      "price": 0.02150699,
+      "amountUSD": 125.77142846718255,
+      "fee": 0.5051061384224199,
+      "pnl": -23.62857153281746,
+      "reason": "TRAILING STOP: -15.5% from peak $0.025445 (stop: 15.0%)",
+      "time": "2026-04-18T11:45:03.003Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "PORTAL",
+      "qty": 10218.962125544122,
+      "price": 0.01461988,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+57% solid, vol/mcap 6.7x EXTREME, small-cap",
+      "time": "2026-04-18T11:45:03.439Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "GENIUS",
+      "qty": 160.66865692187244,
+      "price": 0.929864,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+44% solid, 1h+12% accelerating, 🔥TRENDING",
+      "time": "2026-04-18T11:45:03.439Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ACE",
+      "qty": 929.708391316168,
+      "price": 0.16024,
+      "amountUSD": 149.57477171134815,
+      "fee": 0.5982990868453926,
+      "reason": "Score 55: 24h+26% solid, vol/mcap 4.0x, small-cap",
+      "time": "2026-04-18T11:45:03.439Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "GENIUS",
+      "qty": 160.66865692187244,
+      "price": 0.773244,
+      "amountUSD": 123.73913065308476,
+      "fee": 0.4969442998115854,
+      "pnl": -25.66086934691525,
+      "reason": "TRAILING STOP: -16.8% from peak $0.929864 (stop: 15.0%)",
+      "time": "2026-04-18T12:45:02.507Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "API3",
+      "qty": 330.94612046527396,
+      "price": 0.451433,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+43% solid, 1h+36% SURGING, vol/mcap 1.6x",
+      "time": "2026-04-18T12:45:03.166Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "SPIKE",
+      "qty": 12946.27383015598,
+      "price": 0.009146,
+      "amountUSD": 117.93299396880417,
+      "fee": 0.4736264818024264,
+      "pnl": 43.232993968804166,
+      "reason": "TRAILING STOP: -13.0% from peak $0.010510 (stop: 12.0%)",
+      "time": "2026-04-18T15:00:03.873Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "PORTAL",
+      "qty": 10218.962125544122,
+      "price": 0.01191844,
+      "amountUSD": 121.3069106077478,
+      "fee": 0.4871763478222803,
+      "pnl": -28.09308939225221,
+      "reason": "TRAILING STOP: -18.5% from peak $0.014620 (stop: 15.0%)",
+      "time": "2026-04-18T15:30:02.175Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ACE",
+      "qty": 929.708391316168,
+      "price": 0.13602,
+      "amountUSD": 125.95309964527787,
+      "fee": 0.5058357415473007,
+      "pnl": -23.023372979224874,
+      "reason": "TRAILING STOP: -15.1% from peak $0.160240 (stop: 15.0%)",
+      "time": "2026-04-18T15:45:02.664Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "OFC",
+      "qty": 2098.4914459083634,
+      "price": 0.071194,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+36% solid, 1h+9%, vol/mcap 19.9x EXTREME, small-cap",
+      "time": "2026-04-18T16:15:02.348Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "NCT",
+      "qty": 14621.113514254117,
+      "price": 0.0102181,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+64% solid, 1h+27% SURGING, vol/mcap 1.5x, small-cap",
+      "time": "2026-04-18T16:15:02.348Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "OFC",
+      "qty": 2098.4914459083634,
+      "price": 0.060105,
+      "amountUSD": 125.62530904289689,
+      "fee": 0.5045193134252888,
+      "pnl": -23.774690957103118,
+      "reason": "TRAILING STOP: -15.6% from peak $0.071194 (stop: 15.0%)",
+      "time": "2026-04-18T19:45:02.779Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ASTEROID",
+      "qty": 52595.818386005434,
+      "price": 0.00284053,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+17%, 1h+91% SURGING, small-cap, 🔥TRENDING",
+      "time": "2026-04-18T19:45:03.081Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ASTEROID",
+      "qty": 52595.818386005434,
+      "price": 0.00222902,
+      "amountUSD": 116.76818257437874,
+      "fee": 0.4689485243950953,
+      "pnl": -32.631817425621264,
+      "reason": "TRAILING STOP: -21.5% from peak $0.002841 (stop: 15.0%)",
+      "time": "2026-04-18T20:00:03.298Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ALICE",
+      "qty": 850.8069567990524,
+      "price": 0.175598,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+40% solid, vol/mcap 13.6x EXTREME, small-cap",
+      "time": "2026-04-18T20:00:03.299Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "NCT",
+      "qty": 14621.113514254117,
+      "price": 0.00977797,
+      "amountUSD": 142.39295007173544,
+      "fee": 0.5718592372358853,
+      "pnl": -7.007049928264564,
+      "reason": "TRAILING STOP: -15.4% from peak $0.011563 (stop: 15.0%)",
+      "time": "2026-04-18T23:00:02.670Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "PHB",
+      "qty": 847.4383990561329,
+      "price": 0.176296,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 80: 24h+65% solid, 1h+34% SURGING, vol/mcap 3.5x, small-cap",
+      "time": "2026-04-18T23:00:02.972Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "API3",
+      "qty": 330.94612046527396,
+      "price": 0.3776,
+      "amountUSD": 124.4653940673367,
+      "fee": 0.4998610203507498,
+      "pnl": -24.934605932663302,
+      "reason": "TRAILING STOP: -17.0% from peak $0.454924 (stop: 15.0%)",
+      "time": "2026-04-18T23:30:02.454Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BTR",
+      "qty": 3715.8864092822546,
+      "price": 0.04020575,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+22% solid, 1h+8%, vol/mcap 2.0x, small-cap",
+      "time": "2026-04-18T23:30:03.058Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "PHB",
+      "qty": 847.4383990561329,
+      "price": 0.156515,
+      "amountUSD": 132.10627374415753,
+      "fee": 0.5305472841130825,
+      "pnl": -17.293726255842472,
+      "reason": "TRAILING STOP: -17.0% from peak $0.188644 (stop: 15.0%)",
+      "time": "2026-04-19T00:00:03.397Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "OFC",
+      "qty": 2304.488662656178,
+      "price": 0.06483,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+21% solid, vol/mcap 18.5x EXTREME, small-cap",
+      "time": "2026-04-19T00:00:03.698Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "ASTEROID",
+      "qty": 50151.057401812686,
+      "price": 0.001986,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 60: 1h+44% SURGING, vol/mcap 6.4x EXTREME, micro-cap",
+      "time": "2026-04-19T02:00:03.002Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ALICE",
+      "qty": 850.8069567990524,
+      "price": 0.154722,
+      "amountUSD": 131.11199975398353,
+      "fee": 0.526554215879452,
+      "pnl": -18.28800024601648,
+      "reason": "TRAILING STOP: -15.0% from peak $0.182035 (stop: 15.0%)",
+      "time": "2026-04-19T02:30:02.350Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "PIEVERSE",
+      "qty": 233.33286479344417,
+      "price": 0.640287,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+33% solid, 1h+7%, 🔥TRENDING",
+      "time": "2026-04-19T03:00:03.297Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "ASTEROID",
+      "qty": 50151.057401812686,
+      "price": 0.001569,
+      "amountUSD": 78.37226102719033,
+      "fee": 0.31474803625377645,
+      "pnl": -21.22773897280966,
+      "reason": "TRAILING STOP: -21.7% from peak $0.002004 (stop: 15.0%)",
+      "time": "2026-04-19T03:30:03.956Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ENJ",
+      "qty": 660.8564861434731,
+      "price": 0.069911,
+      "amountUSD": 46.01633325156524,
+      "fee": 0.18480455121110542,
+      "pnl": 16.71611104810847,
+      "reason": "TAKE PROFIT: +57.7% (tier 50%)",
+      "time": "2026-04-19T06:30:02.156Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "TST",
+      "qty": 14373.870727525675,
+      "price": 0.01110918,
+      "amountUSD": 159.0431895399784,
+      "fee": 0.6387276688352547,
+      "pnl": 9.643189539978408,
+      "reason": "TRAILING STOP: -12.1% from peak $0.012633 (stop: 12.0%)",
+      "time": "2026-04-19T07:00:01.934Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "MOVE",
+      "qty": 6371.703155400466,
+      "price": 0.02344742,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+23% solid, 1h+22% SURGING, vol/mcap 2.2x",
+      "time": "2026-04-19T07:00:03.139Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "OFC",
+      "qty": 2304.488662656178,
+      "price": 0.05627,
+      "amountUSD": 129.1548827394725,
+      "fee": 0.5186943081906525,
+      "pnl": -20.245117260527508,
+      "reason": "TRAILING STOP: -15.3% from peak $0.066463 (stop: 15.0%)",
+      "time": "2026-04-19T14:15:02.886Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "GTC",
+      "qty": 1053.8864708911478,
+      "price": 0.141761,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+34% solid, 1h+7%, vol/mcap 5.6x EXTREME, small-cap",
+      "time": "2026-04-19T14:15:03.490Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "GTC",
+      "qty": 1053.8864708911478,
+      "price": 0.114598,
+      "amountUSD": 120.29018866401903,
+      "fee": 0.48309312716473507,
+      "pnl": -29.10981133598098,
+      "reason": "TRAILING STOP: -19.2% from peak $0.141761 (stop: 15.0%)",
+      "time": "2026-04-19T15:30:03.142Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BLUR",
+      "qty": 4032.3701618643045,
+      "price": 0.03705017,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+46% solid, 1h+17% SURGING, vol/mcap 2.0x",
+      "time": "2026-04-19T15:30:03.145Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BTR",
+      "qty": 3715.8864092822546,
+      "price": 0.03783354,
+      "amountUSD": 140.0227965526324,
+      "fee": 0.5623405484041462,
+      "pnl": -9.377203447367606,
+      "reason": "TRAILING STOP: -15.6% from peak $0.044806 (stop: 15.0%)",
+      "time": "2026-04-19T15:45:02.042Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "AUDIO",
+      "qty": 5887.053683309612,
+      "price": 0.02537772,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+22% solid, 1h+30% SURGING, vol/mcap 1.1x, small-cap",
+      "time": "2026-04-19T15:45:02.946Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "UNCEROID",
+      "qty": 77570.09345794392,
+      "price": 0.001284,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 75: 1h+31% SURGING, vol/mcap 29.0x EXTREME, micro-cap, 5min+26% RIGHT NOW",
+      "time": "2026-04-19T16:15:02.726Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "UNCEROID",
+      "qty": 19392.52336448598,
+      "price": 0.002018,
+      "amountUSD": 38.97757570093457,
+      "fee": 0.15653644859813082,
+      "pnl": 14.077575700934574,
+      "reason": "TAKE PROFIT: +57.2% (tier 50%)",
+      "time": "2026-04-19T16:45:03.924Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ENJ",
+      "qty": 1982.5694584304194,
+      "price": 0.061338,
+      "amountUSD": 121.12041805944024,
+      "fee": 0.48642738176482025,
+      "pnl": 33.21975144906993,
+      "reason": "TRAILING STOP: -15.4% from peak $0.072492 (stop: 15.0%)",
+      "time": "2026-04-19T17:00:02.070Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "UNCEROID",
+      "qty": 14544.392523364484,
+      "price": 0.002593,
+      "amountUSD": 37.56275537383177,
+      "fee": 0.15085443925233644,
+      "pnl": 18.887755373831773,
+      "reason": "TAKE PROFIT: +101.9% (tier 100%)",
+      "time": "2026-04-19T17:00:03.659Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BOME",
+      "qty": 247277.30146645042,
+      "price": 0.00060418,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 75: 24h+20% solid, 1h+8%, vol/mcap 3.6x, small-cap, 🔥TRENDING",
+      "time": "2026-04-19T17:00:03.660Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "UNCEROID",
+      "qty": 43633.17757009345,
+      "price": 0.001453,
+      "amountUSD": 63.1454109813084,
+      "fee": 0.2535960280373832,
+      "pnl": 7.12041098130841,
+      "reason": "TRAILING STOP: -45.0% from peak $0.002643 (stop: 12.0%)",
+      "time": "2026-04-19T17:30:03.611Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "MOVE",
+      "qty": 6371.703155400466,
+      "price": 0.01992551,
+      "amountUSD": 126.4515972002037,
+      "fee": 0.5078377397598541,
+      "pnl": -22.948402799796312,
+      "reason": "TRAILING STOP: -15.0% from peak $0.023447 (stop: 15.0%)",
+      "time": "2026-04-19T18:00:02.516Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "DOGS",
+      "qty": 3587896.2536023054,
+      "price": 0.00004164,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 75: 24h+30% solid, 1h+15% accelerating, vol/mcap 1.7x, small-cap, 🔥TRENDING",
+      "time": "2026-04-19T18:00:03.420Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "PIEVERSE",
+      "qty": 58.33321619836104,
+      "price": 1.14,
+      "amountUSD": 66.23386700026705,
+      "fee": 0.26599946586452633,
+      "pnl": 28.883867000267053,
+      "reason": "TAKE PROFIT: +78.0% (tier 50%)",
+      "time": "2026-04-19T18:45:01.699Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "PIEVERSE",
+      "qty": 43.74991214877078,
+      "price": 1.35,
+      "amountUSD": 58.826131875237195,
+      "fee": 0.23624952560336224,
+      "pnl": 30.813631875237196,
+      "reason": "TAKE PROFIT: +110.8% (tier 100%)",
+      "time": "2026-04-19T19:15:01.808Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "DOGS",
+      "qty": 3587896.2536023054,
+      "price": 0.00003525,
+      "amountUSD": 125.96744956772335,
+      "fee": 0.505893371757925,
+      "pnl": -23.432550432276656,
+      "reason": "TRAILING STOP: -15.3% from peak $0.000042 (stop: 15.0%)",
+      "time": "2026-04-19T19:30:03.301Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BELIEF",
+      "qty": 10789.964033453223,
+      "price": 0.0138462,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+55% solid, 1h+11% accelerating, vol/mcap 1.3x, small-cap",
+      "time": "2026-04-19T19:30:03.302Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "PIEVERSE",
+      "qty": 131.24973644631234,
+      "price": 1.22,
+      "amountUSD": 159.48417975064305,
+      "fee": 0.6404987138580042,
+      "pnl": 75.44667975064306,
+      "reason": "TRAILING STOP: -9.6% from peak $1.350000 (stop: 9.6%)",
+      "time": "2026-04-19T20:15:01.786Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "GTC",
+      "qty": 1278.507552094476,
+      "price": 0.116855,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+25% solid, vol/mcap 6.9x EXTREME, small-cap",
+      "time": "2026-04-19T20:15:02.992Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BELIEF",
+      "qty": 10789.964033453223,
+      "price": 0.01155081,
+      "amountUSD": 124.13429315942282,
+      "fee": 0.49853129782900735,
+      "pnl": -25.26570684057718,
+      "reason": "TRAILING STOP: -16.6% from peak $0.013846 (stop: 15.0%)",
+      "time": "2026-04-19T22:45:03.082Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ST",
+      "qty": 1937.3913945587053,
+      "price": 0.077114,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+33% solid, vol/mcap 4.5x, micro-cap",
+      "time": "2026-04-19T22:45:03.384Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BLUR",
+      "qty": 4032.3701618643045,
+      "price": 0.03147968,
+      "amountUSD": 126.42997144768837,
+      "fee": 0.507750889348146,
+      "pnl": -22.970028552311632,
+      "reason": "TRAILING STOP: -15.0% from peak $0.037050 (stop: 15.0%)",
+      "time": "2026-04-20T00:30:02.377Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "GUN",
+      "qty": 6472.719048900223,
+      "price": 0.02308149,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+58% solid, 1h+12% accelerating, vol/mcap 1.9x, small-cap",
+      "time": "2026-04-20T01:45:03.143Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "ASTROID",
+      "qty": 97170.73170731706,
+      "price": 0.001025,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 55: 24h+14%, 1h+14% accelerating, vol/mcap 2.3x, micro-cap",
+      "time": "2026-04-20T03:45:02.782Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "AUDIO",
+      "qty": 5887.053683309612,
+      "price": 0.02134228,
+      "amountUSD": 125.14057549188817,
+      "fee": 0.5025725923369003,
+      "pnl": -24.259424508111834,
+      "reason": "TRAILING STOP: -15.9% from peak $0.025378 (stop: 15.0%)",
+      "time": "2026-04-20T04:30:02.331Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ST",
+      "qty": 1937.3913945587053,
+      "price": 0.093007,
+      "amountUSD": 179.47019758798663,
+      "fee": 0.7207638457348862,
+      "pnl": 30.070197587986627,
+      "reason": "TRAILING STOP: -15.3% from peak $0.109824 (stop: 15.0%)",
+      "time": "2026-04-20T04:30:03.233Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "SPK",
+      "qty": 4677.8410917968395,
+      "price": 0.03193781,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+41% solid, 1h+15% SURGING, vol/mcap 1.2x",
+      "time": "2026-04-20T04:30:03.962Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BASED",
+      "qty": 1400.0394603745274,
+      "price": 0.099509,
+      "amountUSD": 139.87603078555105,
+      "fee": 0.5595041231422042,
+      "reason": "Score 50: 24h+17%, 1h+6%, vol/mcap 3.1x, small-cap",
+      "time": "2026-04-20T04:30:03.962Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "ASTROID",
+      "qty": 97170.73170731706,
+      "price": 0.001137,
+      "amountUSD": 110.04118946341461,
+      "fee": 0.441932487804878,
+      "pnl": 10.441189463414617,
+      "reason": "TRAILING STOP: -11.5% from peak $0.001285 (stop: 9.6%)",
+      "time": "2026-04-20T06:00:04.111Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "GUN",
+      "qty": 6472.719048900223,
+      "price": 0.0194587,
+      "amountUSD": 125.44689536420742,
+      "fee": 0.5038027926273391,
+      "pnl": -23.953104635792585,
+      "reason": "TRAILING STOP: -16.2% from peak $0.023231 (stop: 15.0%)",
+      "time": "2026-04-20T07:45:03.000Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "SPK",
+      "qty": 4677.8410917968395,
+      "price": 0.02680753,
+      "amountUSD": 124.89975994196222,
+      "fee": 0.5016054616143061,
+      "pnl": -24.50024005803779,
+      "reason": "TRAILING STOP: -16.1% from peak $0.031938 (stop: 15.0%)",
+      "time": "2026-04-20T07:45:03.300Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "SUPER",
+      "qty": 962.8832359063929,
+      "price": 0.155159,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+35% solid, 1h+10% accelerating",
+      "time": "2026-04-20T08:00:02.192Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BELIEF",
+      "qty": 9926.712424337056,
+      "price": 0.0150503,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+65% solid, 1h+6%, vol/mcap 1.1x, small-cap",
+      "time": "2026-04-20T08:15:02.781Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BELIEF",
+      "qty": 9926.712424337056,
+      "price": 0.0121955,
+      "amountUSD": 120.57697648551856,
+      "fee": 0.4842448854840103,
+      "pnl": -28.82302351448145,
+      "reason": "TRAILING STOP: -19.0% from peak $0.015050 (stop: 15.0%)",
+      "time": "2026-04-20T08:30:03.120Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "PIEVERSE",
+      "qty": 145.6140350877193,
+      "price": 1.026,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+75% solid, 1h+13% accelerating, vol/mcap 1.9x, 🔥TRENDING",
+      "time": "2026-04-20T08:45:02.789Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "PIEVERSE",
+      "qty": 145.6140350877193,
+      "price": 0.951545,
+      "amountUSD": 138.00407378947367,
+      "fee": 0.5542332280701754,
+      "pnl": -11.39592621052634,
+      "reason": "TRAILING STOP: -16.5% from peak $1.140000 (stop: 15.0%)",
+      "time": "2026-04-20T15:00:03.515Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "GUN",
+      "qty": 5745.994726299887,
+      "price": 0.02600072,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 90: 24h+72% solid, 1h+15% SURGING, vol/mcap 3.5x, small-cap, 🔥TRENDING",
+      "time": "2026-04-20T15:00:03.518Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "TARDI",
+      "qty": 43607.7057793345,
+      "price": 0.002284,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 75: 24h+165% hot, 1h+16% SURGING, vol/mcap 5.8x EXTREME, micro-cap",
+      "time": "2026-04-20T19:30:02.779Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "TARDI",
+      "qty": 43607.7057793345,
+      "price": 0.001944,
+      "amountUSD": 84.43428651488615,
+      "fee": 0.3390935201401051,
+      "pnl": -15.16571348511384,
+      "reason": "TRAILING STOP: -15.9% from peak $0.002311 (stop: 15.0%)",
+      "time": "2026-04-20T22:00:03.379Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "SPIKE",
+      "qty": 10842.586544741998,
+      "price": 0.009186,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 55: 24h+28% solid, 1h+5%, micro-cap, liq $321K OK",
+      "time": "2026-04-21T01:15:03.485Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "SUPER",
+      "qty": 962.8832359063929,
+      "price": 0.13151,
+      "amountUSD": 126.12225925663351,
+      "fee": 0.5065150974161988,
+      "pnl": -23.277740743366493,
+      "reason": "TRAILING STOP: -15.2% from peak $0.155159 (stop: 15.0%)",
+      "time": "2026-04-21T02:30:02.829Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "PORTAL",
+      "qty": 9869.29460306807,
+      "price": 0.01513786,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+33% solid, 1h+7%, vol/mcap 3.5x, small-cap",
+      "time": "2026-04-21T02:30:03.527Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "DUMBMONEY",
+      "qty": 27766.936158349596,
+      "price": 0.003587,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 55: 24h+51% solid, 1h+8%, micro-cap, liq $209K OK",
+      "time": "2026-04-21T03:15:04.048Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "ASTEROID",
+      "qty": 96887.15953307392,
+      "price": 0.001028,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 55: 24h+111% hot, 1h-43% fading, vol/mcap 6.0x EXTREME, micro-cap, 5min+65% RIGHT NOW",
+      "time": "2026-04-21T04:30:03.788Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "GUN",
+      "qty": 5745.994726299887,
+      "price": 0.02431016,
+      "amountUSD": 139.12730695088442,
+      "fee": 0.5587442046220258,
+      "pnl": -10.272693049115588,
+      "reason": "TRAILING STOP: -15.0% from peak $0.028601 (stop: 15.0%)",
+      "time": "2026-04-21T05:00:02.968Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ASTEROID",
+      "qty": 331183.0817317284,
+      "price": 0.00045111,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+65% solid, 1h+15% accelerating, 🔥TRENDING",
+      "time": "2026-04-21T05:00:04.437Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "PORTAL",
+      "qty": 9869.29460306807,
+      "price": 0.01445116,
+      "amountUSD": 142.05226437448886,
+      "fee": 0.5704910215842927,
+      "pnl": -7.347735625511149,
+      "reason": "TRAILING STOP: -15.2% from peak $0.017032 (stop: 15.0%)",
+      "time": "2026-04-21T05:15:03.276Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "EDU",
+      "qty": 2240.215924426451,
+      "price": 0.06669,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+45% solid, vol/mcap 3.2x, small-cap",
+      "time": "2026-04-21T05:15:04.595Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BASED",
+      "qty": 350.00986509363184,
+      "price": 0.157268,
+      "amountUSD": 54.8251700576911,
+      "fee": 0.22018140585418117,
+      "pnl": 19.99603839208889,
+      "reason": "TAKE PROFIT: +58.0% (tier 50%)",
+      "time": "2026-04-21T05:45:02.336Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "ASTEROID",
+      "qty": 96887.15953307392,
+      "price": 0.00117,
+      "amountUSD": 112.90454474708172,
+      "fee": 0.453431906614786,
+      "pnl": 13.30454474708172,
+      "reason": "TRAILING STOP: -21.2% from peak $0.001485 (stop: 9.6%)",
+      "time": "2026-04-21T06:15:04.740Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BASED",
+      "qty": 1050.0295952808956,
+      "price": 0.135781,
+      "amountUSD": 142.00377220292796,
+      "fee": 0.5702962739073412,
+      "pnl": 37.51637720612132,
+      "reason": "TRAILING STOP: -13.7% from peak $0.157268 (stop: 12.0%)",
+      "time": "2026-04-21T06:30:02.549Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "QI",
+      "qty": 73672.99840227232,
+      "price": 0.00202788,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+25% solid, 1h+12% accelerating, small-cap",
+      "time": "2026-04-21T06:30:03.942Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "BULL",
+      "qty": 17622.08067940552,
+      "price": 0.005652,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 65: 24h+30% solid, 1h+11% accelerating, micro-cap, ⚠️ thin vol, 5min+8% RIGHT NOW, liq $282K OK",
+      "time": "2026-04-21T08:15:03.895Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "DUMBMONEY",
+      "qty": 27766.936158349596,
+      "price": 0.003334,
+      "amountUSD": 92.20466529132982,
+      "fee": 0.3702998606077503,
+      "pnl": -7.395334708670177,
+      "reason": "TRAILING STOP: -16.2% from peak $0.003978 (stop: 15.0%)",
+      "time": "2026-04-21T08:45:04.134Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BOME",
+      "qty": 247277.30146645042,
+      "price": 0.00053633,
+      "amountUSD": 132.09174615511935,
+      "fee": 0.5304889403820054,
+      "pnl": -17.308253844880653,
+      "reason": "TRAILING STOP: -15.1% from peak $0.000631 (stop: 15.0%)",
+      "time": "2026-04-21T09:15:01.839Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "TRU",
+      "qty": 27501.909854851034,
+      "price": 0.00543235,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 75: 24h+39% solid, 1h+19% SURGING, vol/mcap 2.1x, micro-cap",
+      "time": "2026-04-21T09:15:03.885Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "TRU",
+      "qty": 27501.909854851034,
+      "price": 0.00460131,
+      "amountUSD": 126.03863358288771,
+      "fee": 0.5061792513368985,
+      "pnl": -23.361366417112293,
+      "reason": "TRAILING STOP: -15.3% from peak $0.005432 (stop: 15.0%)",
+      "time": "2026-04-21T10:15:03.485Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "FIGHT",
+      "qty": 35749.49510418561,
+      "price": 0.00417908,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 75: 24h+39% solid, 1h+19% SURGING, vol/mcap 1.5x, micro-cap",
+      "time": "2026-04-21T10:15:04.289Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ASTEROID",
+      "qty": 331183.0817317284,
+      "price": 0.0003895,
+      "amountUSD": 128.47982709317017,
+      "fee": 0.5159832413380329,
+      "pnl": -20.920172906829833,
+      "reason": "TRAILING STOP: -15.2% from peak $0.000459 (stop: 15.0%)",
+      "time": "2026-04-21T10:30:01.807Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "EDU",
+      "qty": 2240.215924426451,
+      "price": 0.056539,
+      "amountUSD": 126.15292987854251,
+      "fee": 0.5066382726045884,
+      "pnl": -23.247070121457497,
+      "reason": "TRAILING STOP: -15.2% from peak $0.066690 (stop: 15.0%)",
+      "time": "2026-04-21T10:30:02.108Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "DENT",
+      "qty": 1320584.4672472782,
+      "price": 0.00010158,
+      "amountUSD": 134.68370500299048,
+      "fee": 0.5387348200119619,
+      "reason": "Score 50: 24h+38% solid, 1h-14% fading, vol/mcap 3.1x, micro-cap",
+      "time": "2026-04-21T10:30:03.497Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "NEWT",
+      "qty": 935.860241402824,
+      "price": 0.090383,
+      "amountUSD": 84.92555843244122,
+      "fee": 0.3397022337297649,
+      "reason": "Score 50: 24h+19%, 1h+12% accelerating, vol/mcap 1.4x, small-cap",
+      "time": "2026-04-21T10:30:03.497Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "SPIKE",
+      "qty": 10842.586544741998,
+      "price": 0.007703,
+      "amountUSD": 83.18636237753103,
+      "fee": 0.33408177661659044,
+      "pnl": -16.41363762246897,
+      "reason": "TRAILING STOP: -16.1% from peak $0.009186 (stop: 15.0%)",
+      "time": "2026-04-21T13:30:03.540Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "DENT",
+      "qty": 1320584.4672472782,
+      "price": 0.00009254,
+      "amountUSD": 121.71805905266687,
+      "fee": 0.48882754639625253,
+      "pnl": -12.426911130311638,
+      "reason": "TRAILING STOP: -18.7% from peak $0.000114 (stop: 15.0%)",
+      "time": "2026-04-21T13:45:02.724Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BASED",
+      "qty": 1161.0195834628537,
+      "price": 0.12868,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+23% solid, vol/mcap 5.3x EXTREME, small-cap",
+      "time": "2026-04-21T13:45:03.445Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "QI",
+      "qty": 73672.99840227232,
+      "price": 0.00171937,
+      "amountUSD": 126.16445868986331,
+      "fee": 0.5066845730516599,
+      "pnl": -23.235541310136696,
+      "reason": "TRAILING STOP: -15.2% from peak $0.002028 (stop: 15.0%)",
+      "time": "2026-04-21T16:30:02.522Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "BULL",
+      "qty": 17622.08067940552,
+      "price": 0.005336,
+      "amountUSD": 93.65529681528662,
+      "fee": 0.37612569002123136,
+      "pnl": -5.944703184713376,
+      "reason": "TRAILING STOP: -15.8% from peak $0.006339 (stop: 15.0%)",
+      "time": "2026-04-21T16:30:03.859Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "CORE",
+      "qty": 3719.4471318183014,
+      "price": 0.04016726,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+24% solid, 1h+6%, vol/mcap 1.1x, small-cap",
+      "time": "2026-04-21T16:30:03.862Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "NEWT",
+      "qty": 935.860241402824,
+      "price": 0.084868,
+      "amountUSD": 79.10688861950537,
+      "fee": 0.31769834786949946,
+      "pnl": -5.478967579206085,
+      "reason": "TRAILING STOP: -15.4% from peak $0.100281 (stop: 15.0%)",
+      "time": "2026-04-21T21:15:03.035Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "OPG",
+      "qty": 427.0789629315008,
+      "price": 0.34306,
+      "amountUSD": 147.10211749325367,
+      "fee": 0.5884084699730147,
+      "reason": "Score 65: 24h+84% solid, 1h+42% SURGING, 🔥TRENDING",
+      "time": "2026-04-21T21:15:03.638Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "OPG",
+      "qty": 427.0789629315008,
+      "price": 0.388445,
+      "amountUSD": 165.23310100490312,
+      "fee": 0.6635867510237073,
+      "pnl": 18.719391981622465,
+      "reason": "TRAILING STOP: -16.5% from peak $0.465457 (stop: 15.0%)",
+      "time": "2026-04-22T03:15:03.539Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BSB",
+      "qty": 353.32762888204616,
+      "price": 0.416723,
+      "amountUSD": 147.83107378575593,
+      "fee": 0.5913242951430238,
+      "reason": "Score 55: 24h+42% solid, 1h+21% SURGING",
+      "time": "2026-04-22T03:15:03.541Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BSB",
+      "qty": 353.32762888204616,
+      "price": 0.324525,
+      "amountUSD": 114.20499416789424,
+      "fee": 0.45865459505178413,
+      "pnl": -33.03475532271868,
+      "reason": "TRAILING STOP: -22.1% from peak $0.416723 (stop: 15.0%)",
+      "time": "2026-04-22T04:15:03.291Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "MET",
+      "qty": 625.7811129251942,
+      "price": 0.18398,
+      "amountUSD": 115.59358348993698,
+      "fee": 0.4623743339597479,
+      "reason": "Score 50: 24h+25% solid, 1h+5%, vol/mcap 1.8x",
+      "time": "2026-04-22T04:15:03.293Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "CORE",
+      "qty": 929.8617829545753,
+      "price": 0.060723,
+      "amountUSD": 56.238141058165276,
+      "fee": 0.2258559881854027,
+      "pnl": 18.888141058165274,
+      "reason": "TAKE PROFIT: +51.2% (tier 50%)",
+      "time": "2026-04-22T14:30:03.075Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BASED",
+      "qty": 1161.0195834628537,
+      "price": 0.11622,
+      "amountUSD": 134.39396120609265,
+      "fee": 0.5397347839602115,
+      "pnl": -15.00603879390735,
+      "reason": "TRAILING STOP: -15.1% from peak $0.136840 (stop: 15.0%)",
+      "time": "2026-04-22T15:30:02.355Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "CHIP",
+      "qty": 1312.7603114071314,
+      "price": 0.113806,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 75: 24h+94% solid, 1h+10%, vol/mcap 7.1x EXTREME, 🔥TRENDING",
+      "time": "2026-04-22T15:30:02.959Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "FOF",
+      "qty": 14014.352047277333,
+      "price": 0.007107,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 70: 24h+49% solid, 1h+24% SURGING, micro-cap, ⚠️ thin vol, 5min+24% RIGHT NOW, liq $214K OK",
+      "time": "2026-04-22T19:30:03.696Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "GTC",
+      "qty": 1278.507552094476,
+      "price": 0.103373,
+      "amountUSD": 131.63450853793165,
+      "fee": 0.5286526447306492,
+      "pnl": -17.765491462068354,
+      "reason": "MAX HOLD: 72h, only +-11.5%",
+      "time": "2026-04-22T20:30:02.355Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "OPG",
+      "qty": 375.5061415612912,
+      "price": 0.397863,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 60: 24h+60% solid, 1h+6%, vol/mcap 2.1x, 🔥TRENDING",
+      "time": "2026-04-22T20:30:03.959Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "CORE",
+      "qty": 2789.585348863726,
+      "price": 0.057495,
+      "amountUSD": 159.74566079438821,
+      "fee": 0.6415488385316797,
+      "pnl": 47.69566079438823,
+      "reason": "TRAILING STOP: -16.1% from peak $0.068567 (stop: 15.0%)",
+      "time": "2026-04-22T21:15:02.590Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "SPK",
+      "qty": 3963.140143956954,
+      "price": 0.03769738,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 50: 24h+37% solid, vol/mcap 1.8x, 🔥TRENDING",
+      "time": "2026-04-22T21:15:03.910Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "OPG",
+      "qty": 375.5061415612912,
+      "price": 0.327336,
+      "amountUSD": 122.4250116406904,
+      "fee": 0.4916667134164273,
+      "pnl": -26.974988359309606,
+      "reason": "TRAILING STOP: -17.7% from peak $0.397863 (stop: 15.0%)",
+      "time": "2026-04-23T00:45:03.200Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "FIGHT",
+      "qty": 35749.49510418561,
+      "price": 0.00352697,
+      "amountUSD": 125.58304716061907,
+      "fee": 0.5043495869904381,
+      "pnl": -23.81695283938093,
+      "reason": "TRAILING STOP: -15.6% from peak $0.004179 (stop: 15.0%)",
+      "time": "2026-04-23T02:30:02.244Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BIO",
+      "qty": 4056.082535578278,
+      "price": 0.03683357,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+27% solid, 1h+20% SURGING, vol/mcap 1.6x",
+      "time": "2026-04-23T02:30:03.547Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "CORE",
+      "qty": 2373.7297422765732,
+      "price": 0.052975,
+      "amountUSD": 126.2533464830336,
+      "fee": 0.5050133859321344,
+      "reason": "Score 50: 24h+21% solid, vol/mcap 2.6x, 🔥TRENDING",
+      "time": "2026-04-23T02:45:03.100Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "CHIP",
+      "qty": 1312.7603114071314,
+      "price": 0.103775,
+      "amountUSD": 135.68677451100996,
+      "fee": 0.5449268052651003,
+      "pnl": -13.713225488990048,
+      "reason": "TRAILING STOP: -22.7% from peak $0.134180 (stop: 15.0%)",
+      "time": "2026-04-23T03:45:02.195Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "XNY",
+      "qty": 19463.238632568493,
+      "price": 0.00717632,
+      "amountUSD": 140.23537014425094,
+      "fee": 0.5609414805770038,
+      "reason": "Score 55: 24h+22% solid, 1h+6%, vol/mcap 1.1x, small-cap",
+      "time": "2026-04-23T03:45:03.485Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "SPK",
+      "qty": 990.7850359892385,
+      "price": 0.060282,
+      "amountUSD": 59.487597525345265,
+      "fee": 0.2389060141580131,
+      "pnl": 22.137597525345264,
+      "reason": "TAKE PROFIT: +59.9% (tier 50%)",
+      "time": "2026-04-23T10:30:02.738Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "SPK",
+      "qty": 2972.3551079677154,
+      "price": 0.054593,
+      "amountUSD": 161.62070327964437,
+      "fee": 0.649079129637126,
+      "pnl": 49.57070327964438,
+      "reason": "TRAILING STOP: -13.0% from peak $0.062775 (stop: 12.0%)",
+      "time": "2026-04-23T13:00:02.559Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BB",
+      "qty": 4775.943056948805,
+      "price": 0.03128178,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 55: 24h+23% solid, vol/mcap 4.2x, small-cap",
+      "time": "2026-04-23T13:00:03.912Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BIO",
+      "qty": 4056.082535578278,
+      "price": 0.03121606,
+      "amountUSD": 126.1084561323814,
+      "fee": 0.5064596631822547,
+      "pnl": -23.2915438676186,
+      "reason": "TRAILING STOP: -15.3% from peak $0.036834 (stop: 15.0%)",
+      "time": "2026-04-23T14:15:02.107Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "FOF",
+      "qty": 14014.352047277333,
+      "price": 0.00001384,
+      "amountUSD": 0.19318279780498102,
+      "fee": 0.0007758345293372732,
+      "pnl": -99.40681720219501,
+      "reason": "DEAD POSITION: -99.8% — force exit",
+      "time": "2026-04-23T14:15:03.517Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "KAT",
+      "qty": 11367.016934116193,
+      "price": 0.01314329,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 80: 24h+35% solid, 1h+8%, vol/mcap 5.1x EXTREME, small-cap, 🔥TRENDING",
+      "time": "2026-04-23T14:15:03.519Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "CORE",
+      "qty": 2373.7297422765732,
+      "price": 0.04596096,
+      "amountUSD": 108.66250214464155,
+      "fee": 0.43639559094233554,
+      "pnl": -17.085830952459915,
+      "reason": "TRAILING STOP: -15.5% from peak $0.054361 (stop: 15.0%)",
+      "time": "2026-04-24T03:30:01.861Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "STO",
+      "qty": 1435.0620035156137,
+      "price": 0.104107,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+26% solid, 1h+13% accelerating, vol/mcap 1.9x, small-cap",
+      "time": "2026-04-24T03:30:02.765Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "XNY",
+      "qty": 19463.238632568493,
+      "price": 0.00645965,
+      "amountUSD": 125.22280659513959,
+      "fee": 0.5029028377314843,
+      "pnl": -14.451622068534334,
+      "reason": "TRAILING STOP: -15.8% from peak $0.007668 (stop: 15.0%)",
+      "time": "2026-04-24T09:00:02.721Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ZTX",
+      "qty": 288907.797029703,
+      "price": 0.00051712,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 90: 24h+58% solid, 1h+18% SURGING, vol/mcap 7.1x EXTREME, micro-cap",
+      "time": "2026-04-24T09:00:03.625Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "KAT",
+      "qty": 2841.754233529048,
+      "price": 0.02122433,
+      "amountUSD": 60.07307231279231,
+      "fee": 0.24125731852527035,
+      "pnl": 22.72307231279231,
+      "reason": "TAKE PROFIT: +61.5% (tier 50%)",
+      "time": "2026-04-24T11:45:02.441Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ZTX",
+      "qty": 288907.797029703,
+      "price": 0.00041198,
+      "amountUSD": 118.54813728341584,
+      "fee": 0.47609693688118815,
+      "pnl": -30.851862716584165,
+      "reason": "TRAILING STOP: -20.3% from peak $0.000517 (stop: 15.0%)",
+      "time": "2026-04-24T12:15:03.511Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ZKP",
+      "qty": 1722.4284627268328,
+      "price": 0.086738,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+25% solid, 1h+10% accelerating, vol/mcap 1.0x, small-cap",
+      "time": "2026-04-24T12:15:03.514Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "STO",
+      "qty": 1435.0620035156137,
+      "price": 0.098505,
+      "amountUSD": 140.7953395256803,
+      "fee": 0.5654431306252221,
+      "pnl": -8.6046604743197,
+      "reason": "TRAILING STOP: -17.3% from peak $0.119158 (stop: 15.0%)",
+      "time": "2026-04-24T16:30:03.352Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "APE",
+      "qty": 838.3791336748952,
+      "price": 0.178201,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 75: 24h+73% solid, 1h+49% SURGING, vol/mcap 1.1x, 🔥TRENDING",
+      "time": "2026-04-24T16:30:03.654Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "MET",
+      "qty": 625.7811129251942,
+      "price": 0.167252,
+      "amountUSD": 104.24449012816872,
+      "fee": 0.4186525707958583,
+      "pnl": -10.88671902780851,
+      "reason": "TRAILING STOP: -15.0% from peak $0.196807 (stop: 15.0%)",
+      "time": "2026-04-24T17:45:01.744Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "D",
+      "qty": 10904.599876455215,
+      "price": 0.01131768,
+      "amountUSD": 123.91041358409605,
+      "fee": 0.4956416543363842,
+      "reason": "Score 65: 24h+25% solid, vol/mcap 5.5x EXTREME, micro-cap",
+      "time": "2026-04-24T17:45:02.948Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "APE",
+      "qty": 838.3791336748952,
+      "price": 0.191784,
+      "amountUSD": 160.1445529576153,
+      "fee": 0.6431508150908245,
+      "pnl": 10.744552957615298,
+      "reason": "TRAILING STOP: -24.9% from peak $0.255221 (stop: 9.6%)",
+      "time": "2026-04-24T20:30:02.469Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ZBT",
+      "qty": 941.3336189678095,
+      "price": 0.158711,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 65: 24h+42% solid, 1h+14% accelerating, vol/mcap 1.7x, small-cap",
+      "time": "2026-04-24T20:30:02.772Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "KAT",
+      "qty": 2131.315675146786,
+      "price": 0.02676259,
+      "amountUSD": 56.81136946422851,
+      "fee": 0.22815811029810648,
+      "pnl": 28.798869464228517,
+      "reason": "TAKE PROFIT: +103.6% (tier 100%)",
+      "time": "2026-04-24T21:30:02.461Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "SPIKE",
+      "qty": 7750.9727626459135,
+      "price": 0.01285,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 65: 24h+29% solid, 1h+33% SURGING, small-cap, liq $396K OK",
+      "time": "2026-04-24T22:00:03.203Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "KAT",
+      "qty": 6393.947025440358,
+      "price": 0.02238106,
+      "amountUSD": 142.53089876514937,
+      "fee": 0.5724132480528088,
+      "pnl": 58.49339876514938,
+      "reason": "TRAILING STOP: -20.4% from peak $0.028127 (stop: 12.0%)",
+      "time": "2026-04-25T00:15:02.613Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ZTX",
+      "qty": 319435.5355997434,
+      "price": 0.0004677,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 75: 24h+30% solid, 1h+9%, vol/mcap 7.5x EXTREME, micro-cap",
+      "time": "2026-04-25T00:15:03.877Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ZBT",
+      "qty": 941.3336189678095,
+      "price": 0.134083,
+      "amountUSD": 125.71196828953256,
+      "fee": 0.5048673425282433,
+      "pnl": -23.688031710467442,
+      "reason": "TRAILING STOP: -16.7% from peak $0.161021 (stop: 15.0%)",
+      "time": "2026-04-25T01:45:02.963Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "APE",
+      "qty": 730.2052785923754,
+      "price": 0.2046,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+100% hot, 1h+13% accelerating, vol/mcap 5.1x EXTREME, 🔥TRENDING",
+      "time": "2026-04-25T01:45:03.653Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ZTX",
+      "qty": 319435.5355997434,
+      "price": 0.0003961,
+      "amountUSD": 126.02230198845413,
+      "fee": 0.5061136626042335,
+      "pnl": -23.377698011545874,
+      "reason": "TRAILING STOP: -15.3% from peak $0.000468 (stop: 15.0%)",
+      "time": "2026-04-25T09:30:03.131Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "AXS",
+      "qty": 92.79503105590062,
+      "price": 1.61,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 70: 24h+47% solid, 1h+10% accelerating, vol/mcap 1.2x, 🔥TRENDING",
+      "time": "2026-04-25T09:30:03.846Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "APE",
+      "qty": 730.2052785923754,
+      "price": 0.179098,
+      "amountUSD": 130.25519176539592,
+      "fee": 0.5231132199413491,
+      "pnl": -19.144808234604085,
+      "reason": "TRAILING STOP: -15.1% from peak $0.210999 (stop: 15.0%)",
+      "time": "2026-04-25T10:00:02.524Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "KAT",
+      "qty": 5512.677586663015,
+      "price": 0.02282066,
+      "amountUSD": 126.30817358921406,
+      "fee": 0.5052326943568562,
+      "reason": "Score 55: 24h+24% solid, 1h-6% fading, vol/mcap 12.5x EXTREME, 🔥TRENDING",
+      "time": "2026-04-25T10:00:03.166Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "KAT",
+      "qty": 5512.677586663015,
+      "price": 0.01861309,
+      "amountUSD": 102.19753220529533,
+      "fee": 0.41043185624616596,
+      "pnl": -23.60540868956187,
+      "reason": "TRAILING STOP: -18.4% from peak $0.022821 (stop: 15.0%)",
+      "time": "2026-04-25T11:45:03.008Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "API3",
+      "qty": 268.4506470436825,
+      "price": 0.39905,
+      "amountUSD": 107.55545251283284,
+      "fee": 0.43022181005133137,
+      "reason": "Score 55: 24h+30% solid, vol/mcap 6.2x EXTREME",
+      "time": "2026-04-25T11:45:03.409Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "SPIKE",
+      "qty": 7750.9727626459135,
+      "price": 0.01107,
+      "amountUSD": 85.46005540856031,
+      "fee": 0.3432130739299611,
+      "pnl": -14.139944591439686,
+      "reason": "TRAILING STOP: -16.5% from peak $0.013250 (stop: 15.0%)",
+      "time": "2026-04-25T15:00:04.017Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "D",
+      "qty": 10904.599876455215,
+      "price": 0.01251522,
+      "amountUSD": 135.92757259994661,
+      "fee": 0.5458938658632394,
+      "pnl": 12.512800670186962,
+      "reason": "TRAILING STOP: -15.1% from peak $0.014740 (stop: 15.0%)",
+      "time": "2026-04-25T15:45:02.733Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "HYPER",
+      "qty": 852.4613952003959,
+      "price": 0.174166,
+      "amountUSD": 149.06605557878729,
+      "fee": 0.5962642223151492,
+      "reason": "Score 70: 24h+78% solid, 1h+9%, vol/mcap 4.1x, 🔥TRENDING",
+      "time": "2026-04-25T15:45:03.338Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "mexicanunc",
+      "qty": 10005.022601707684,
+      "price": 0.009955,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 65: 1h+27% SURGING, vol/mcap 2.2x, micro-cap, 5min+12% RIGHT NOW, liq $338K OK",
+      "time": "2026-04-25T18:15:02.873Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "mexicanunc",
+      "qty": 10005.022601707684,
+      "price": 0.004195,
+      "amountUSD": 41.80318553490708,
+      "fee": 0.16788427925665494,
+      "pnl": -57.796814465092915,
+      "reason": "TRAILING STOP: -57.9% from peak $0.009955 (stop: 15.0%)",
+      "time": "2026-04-25T18:30:03.780Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "maxxing",
+      "qty": 24292.682926829264,
+      "price": 0.0041,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 55: 24h+62% solid, 1h+33% SURGING, micro-cap, ⚠️ thin vol, liq $296K OK",
+      "time": "2026-04-25T23:45:03.613Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "AXS",
+      "qty": 92.79503105590062,
+      "price": 1.47,
+      "amountUSD": 135.86306086956523,
+      "fee": 0.5456347826086957,
+      "pnl": -13.536939130434774,
+      "reason": "TRAILING STOP: -15.0% from peak $1.730000 (stop: 15.0%)",
+      "time": "2026-04-26T00:45:02.734Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "HYPER",
+      "qty": 852.4613952003959,
+      "price": 0.144666,
+      "amountUSD": 122.82889147726823,
+      "fee": 0.4932887207922419,
+      "pnl": -25.640899879203914,
+      "reason": "TRAILING STOP: -16.9% from peak $0.174166 (stop: 15.0%)",
+      "time": "2026-04-26T00:45:03.335Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ORCA",
+      "qty": 88.47601541256206,
+      "price": 1.27,
+      "amountUSD": 112.81580278509419,
+      "fee": 0.45126321114037676,
+      "reason": "Score 60: 24h+35% solid, 1h+13% accelerating, vol/mcap 2.7x",
+      "time": "2026-04-26T00:45:03.787Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "SOMI",
+      "qty": 308.1424625554156,
+      "price": 0.215752,
+      "amountUSD": 66.74934998118074,
+      "fee": 0.266997399924723,
+      "reason": "Score 60: 24h+26% solid, 1h+20% SURGING, small-cap",
+      "time": "2026-04-26T00:45:03.787Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "SAM",
+      "qty": 60181.26888217522,
+      "price": 0.001655,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 85: 24h+28% solid, 1h+13% accelerating, vol/mcap 1.7x, micro-cap, 5min+10% RIGHT NOW",
+      "time": "2026-04-26T00:45:03.787Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "SAM",
+      "qty": 60181.26888217522,
+      "price": 0.001645,
+      "amountUSD": 98.60219456193353,
+      "fee": 0.39599274924471295,
+      "pnl": -0.9978054380664645,
+      "reason": "TRAILING STOP: -15.4% from peak $0.001944 (stop: 15.0%)",
+      "time": "2026-04-26T01:30:03.921Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "maxxing",
+      "qty": 24292.682926829264,
+      "price": 0.003466,
+      "amountUSD": 83.86164526829266,
+      "fee": 0.3367937560975609,
+      "pnl": -15.738354731707332,
+      "reason": "TRAILING STOP: -15.5% from peak $0.004100 (stop: 15.0%)",
+      "time": "2026-04-26T02:00:03.310Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "SPIKE",
+      "qty": 6578.599735799206,
+      "price": 0.01514,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 60: 24h+26% solid, 1h+15% accelerating, small-cap, liq $440K OK",
+      "time": "2026-04-26T03:30:03.001Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "SOMI",
+      "qty": 308.1424625554156,
+      "price": 0.213152,
+      "amountUSD": 65.4184574498975,
+      "fee": 0.2627247287144478,
+      "pnl": -1.063895131358521,
+      "reason": "TRAILING STOP: -15.3% from peak $0.251581 (stop: 15.0%)",
+      "time": "2026-04-26T03:45:03.179Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ZBT",
+      "qty": 771.8432646397409,
+      "price": 0.16273,
+      "amountUSD": 126.10648037633037,
+      "fee": 0.5044259215053215,
+      "reason": "Score 55: 24h+21% solid, vol/mcap 3.4x, small-cap",
+      "time": "2026-04-26T03:45:03.525Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ORCA",
+      "qty": 22.119003853140516,
+      "price": 1.96,
+      "amountUSD": 43.17983456194679,
+      "fee": 0.17341299020862164,
+      "pnl": 15.088699668458336,
+      "reason": "TAKE PROFIT: +54.3% (tier 50%)",
+      "time": "2026-04-26T04:30:02.965Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ORCA",
+      "qty": 66.35701155942155,
+      "price": 1.68,
+      "amountUSD": 111.0338603021489,
+      "fee": 0.4459191176793128,
+      "pnl": 26.76045562168352,
+      "reason": "TRAILING STOP: -17.2% from peak $2.030000 (stop: 15.0%)",
+      "time": "2026-04-26T05:45:03.168Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ENSO",
+      "qty": 126.61016949152544,
+      "price": 1.18,
+      "amountUSD": 150,
+      "fee": 0.6,
+      "reason": "Score 85: 24h+49% solid, 1h+21% SURGING, vol/mcap 7.7x EXTREME, small-cap",
+      "time": "2026-04-26T05:45:03.964Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "CATCOIN",
+      "qty": 110335.65968760385,
+      "price": 0.0009027,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 60: 24h+63% solid, 1h+30% SURGING, vol/mcap 1.9x, micro-cap, ⚠️ thin vol",
+      "time": "2026-04-26T09:45:03.527Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ZBT",
+      "qty": 771.8432646397409,
+      "price": 0.173338,
+      "amountUSD": 133.25460873489894,
+      "fee": 0.5351590712244937,
+      "pnl": 7.652554280073886,
+      "reason": "TRAILING STOP: -15.6% from peak $0.205288 (stop: 15.0%)",
+      "time": "2026-04-26T10:15:03.258Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ORCA",
+      "qty": 83.05845404257336,
+      "price": 1.78,
+      "amountUSD": 148.437799393354,
+      "fee": 0.593751197573416,
+      "reason": "Score 65: 24h+87% solid, vol/mcap 6.3x EXTREME, 🔥TRENDING",
+      "time": "2026-04-26T10:15:04.304Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "CATCOIN",
+      "qty": 110335.65968760385,
+      "price": 0.0007516,
+      "amountUSD": 82.59656869391823,
+      "fee": 0.33171312728481217,
+      "pnl": -17.003431306081765,
+      "reason": "TRAILING STOP: -16.7% from peak $0.000903 (stop: 15.0%)",
+      "time": "2026-04-26T12:00:03.901Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "BB",
+      "qty": 4775.943056948805,
+      "price": 0.02767083,
+      "amountUSD": 131.62569118483665,
+      "fee": 0.5286172336740429,
+      "pnl": -17.77430881516335,
+      "reason": "MAX HOLD: 72h, only +-11.5%",
+      "time": "2026-04-26T13:15:02.037Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "OPG",
+      "qty": 400.5155699427822,
+      "price": 0.348518,
+      "amountUSD": 140.14747530654472,
+      "fee": 0.5605899012261789,
+      "reason": "Score 70: 24h+36% solid, 1h+12% accelerating, vol/mcap 2.0x, 🔥TRENDING",
+      "time": "2026-04-26T13:15:03.580Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ENSO",
+      "qty": 126.61016949152544,
+      "price": 0.997721,
+      "amountUSD": 125.81633841559324,
+      "fee": 0.505286499661017,
+      "pnl": -23.58366158440677,
+      "reason": "TRAILING STOP: -15.4% from peak $1.180000 (stop: 15.0%)",
+      "time": "2026-04-26T14:30:02.243Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ZBT",
+      "qty": 676.3720173532421,
+      "price": 0.1875,
+      "amountUSD": 127.32906953186034,
+      "fee": 0.5093162781274414,
+      "reason": "Score 70: 24h+38% solid, 1h+7%, vol/mcap 5.5x EXTREME, small-cap",
+      "time": "2026-04-26T14:30:03.307Z"
+    },
+    {
+      "tier": "T2",
+      "type": "BUY",
+      "symbol": "ASTEROID",
+      "qty": 21765.734265734263,
+      "price": 0.004576,
+      "amountUSD": 100,
+      "fee": 0.4,
+      "reason": "Score 65: 24h+72% solid, 1h+110% SURGING, micro-cap, ⚠️ thin vol, 5min+10% RIGHT NOW",
+      "time": "2026-04-26T14:30:03.308Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "ASTEROID",
+      "qty": 5441.433566433566,
+      "price": 0.009141,
+      "amountUSD": 49.54118365384615,
+      "fee": 0.1989605769230769,
+      "pnl": 24.64118365384615,
+      "reason": "TAKE PROFIT: +99.8% (tier 50%)",
+      "time": "2026-04-26T15:30:04.131Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "ASTEROID",
+      "qty": 16324.300699300697,
+      "price": 0.007345,
+      "amountUSD": 119.42238068181815,
+      "fee": 0.47960795454545446,
+      "pnl": 44.722380681818166,
+      "reason": "TRAILING STOP: -19.6% from peak $0.009141 (stop: 9.6%)",
+      "time": "2026-04-26T15:45:04.300Z"
+    },
+    {
+      "tier": "T1",
+      "type": "SELL",
+      "symbol": "ORCA",
+      "qty": 83.05845404257336,
+      "price": 1.48,
+      "amountUSD": 122.43480593507653,
+      "fee": 0.49170604793203426,
+      "pnl": -25.409242260704048,
+      "reason": "TRAILING STOP: -18.2% from peak $1.810000 (stop: 15.0%)",
+      "time": "2026-04-26T16:00:02.170Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "BURNIE",
+      "qty": 4882.4443808854685,
+      "price": 0.02290061,
+      "amountUSD": 112.25999459171642,
+      "fee": 0.4490399783668657,
+      "reason": "Score 60: 24h+36% solid, 1h+24% SURGING, small-cap",
+      "time": "2026-04-26T16:00:03.170Z"
+    },
+    {
+      "tier": "T2",
+      "type": "SELL",
+      "symbol": "SPIKE",
+      "qty": 6578.599735799206,
+      "price": 0.01295,
+      "amountUSD": 84.85209511228533,
+      "fee": 0.34077146631439886,
+      "pnl": -14.747904887714668,
+      "reason": "TRAILING STOP: -21.6% from peak $0.016520 (stop: 15.0%)",
+      "time": "2026-04-26T16:15:03.555Z"
+    }
+  ],
+  "snapshots": [
+    {
+      "time": "2026-04-24T17:00:03.569Z",
+      "T1": {
+        "total": 815.9670725676609,
+        "cash": 140.58586341168382
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1750.2995003704523
+    },
+    {
+      "time": "2026-04-24T17:15:03.007Z",
+      "T1": {
+        "total": 815.9670725676609,
+        "cash": 140.58586341168382
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1750.2995003704523
+    },
+    {
+      "time": "2026-04-24T17:30:03.484Z",
+      "T1": {
+        "total": 815.9670725676609,
+        "cash": 140.58586341168382
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1750.2995003704523
+    },
+    {
+      "time": "2026-04-24T17:45:02.971Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T18:00:03.481Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T18:15:02.732Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T18:30:03.117Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T18:45:03.740Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T19:00:03.169Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T19:15:03.037Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T19:30:03.679Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T19:45:03.254Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T20:00:03.535Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T20:15:02.816Z",
+      "T1": {
+        "total": 804.5847118855161,
+        "cash": 120.91993995575648
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1738.9171396883075
+    },
+    {
+      "time": "2026-04-24T20:30:02.800Z",
+      "T1": {
+        "total": 814.7292648431314,
+        "cash": 131.0644929133718
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1749.061692645923
+    },
+    {
+      "time": "2026-04-24T20:45:02.988Z",
+      "T1": {
+        "total": 814.7292648431314,
+        "cash": 131.0644929133718
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1749.061692645923
+    },
+    {
+      "time": "2026-04-24T21:00:02.860Z",
+      "T1": {
+        "total": 814.7292648431314,
+        "cash": 131.0644929133718
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1749.061692645923
+    },
+    {
+      "time": "2026-04-24T21:15:03.673Z",
+      "T1": {
+        "total": 814.7292648431314,
+        "cash": 131.0644929133718
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1749.061692645923
+    },
+    {
+      "time": "2026-04-24T21:30:03.391Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1777.8605621101515
+    },
+    {
+      "time": "2026-04-24T21:45:03.368Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 934.3324278027914,
+        "cash": 934.3324278027914
+      },
+      "grand": 1777.8605621101515
+    },
+    {
+      "time": "2026-04-24T22:00:03.576Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 937.420365545982,
+        "cash": 834.3324278027914
+      },
+      "grand": 1780.9484998533421
+    },
+    {
+      "time": "2026-04-24T22:15:03.707Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 930.0569414214684,
+        "cash": 834.3324278027914
+      },
+      "grand": 1773.5850757288285
+    },
+    {
+      "time": "2026-04-24T22:30:03.702Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 927.7316495926746,
+        "cash": 834.3324278027914
+      },
+      "grand": 1771.2597839000346
+    },
+    {
+      "time": "2026-04-24T22:45:03.910Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 929.3593538728303,
+        "cash": 834.3324278027914
+      },
+      "grand": 1772.8874881801903
+    },
+    {
+      "time": "2026-04-24T23:00:04.158Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 937.0328169078497,
+        "cash": 834.3324278027914
+      },
+      "grand": 1780.5609512152096
+    },
+    {
+      "time": "2026-04-24T23:15:04.381Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 933.4673694370326,
+        "cash": 834.3324278027914
+      },
+      "grand": 1776.9955037443926
+    },
+    {
+      "time": "2026-04-24T23:30:03.651Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 935.7151515382,
+        "cash": 834.3324278027914
+      },
+      "grand": 1779.24328584556
+    },
+    {
+      "time": "2026-04-24T23:45:03.931Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 929.5918830557097,
+        "cash": 834.3324278027914
+      },
+      "grand": 1773.1200173630696
+    },
+    {
+      "time": "2026-04-25T00:00:04.000Z",
+      "T1": {
+        "total": 843.52813430736,
+        "cash": 187.8758623776003
+      },
+      "T2": {
+        "total": 933.699898619912,
+        "cash": 834.3324278027914
+      },
+      "grand": 1777.2280329272721
+    },
+    {
+      "time": "2026-04-25T00:15:04.210Z",
+      "T1": {
+        "total": 901.4215330725093,
+        "cash": 180.4067611427497
+      },
+      "T2": {
+        "total": 928.0416885031805,
+        "cash": 834.3324278027914
+      },
+      "grand": 1829.4632215756897
+    },
+    {
+      "time": "2026-04-25T00:30:03.976Z",
+      "T1": {
+        "total": 901.4215330725093,
+        "cash": 180.4067611427497
+      },
+      "T2": {
+        "total": 929.5143733280831,
+        "cash": 834.3324278027914
+      },
+      "grand": 1830.9359064005926
+    },
+    {
+      "time": "2026-04-25T00:45:04.255Z",
+      "T1": {
+        "total": 901.4215330725093,
+        "cash": 180.4067611427497
+      },
+      "T2": {
+        "total": 930.9870581529859,
+        "cash": 834.3324278027914
+      },
+      "grand": 1832.4085912254952
+    },
+    {
+      "time": "2026-04-25T01:00:03.746Z",
+      "T1": {
+        "total": 901.4215330725093,
+        "cash": 180.4067611427497
+      },
+      "T2": {
+        "total": 925.8714161296396,
+        "cash": 834.3324278027914
+      },
+      "grand": 1827.292949202149
+    },
+    {
+      "time": "2026-04-25T01:15:04.009Z",
+      "T1": {
+        "total": 901.4215330725093,
+        "cash": 180.4067611427497
+      },
+      "T2": {
+        "total": 922.228458931196,
+        "cash": 834.3324278027914
+      },
+      "grand": 1823.6499920037054
+    },
+    {
+      "time": "2026-04-25T01:30:04.036Z",
+      "T1": {
+        "total": 901.4215330725093,
+        "cash": 180.4067611427497
+      },
+      "T2": {
+        "total": 922.9260464798341,
+        "cash": 834.3324278027914
+      },
+      "grand": 1824.3475795523434
+    },
+    {
+      "time": "2026-04-25T01:45:03.987Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 925.251338308628,
+        "cash": 834.3324278027914
+      },
+      "grand": 1802.3848396706699
+    },
+    {
+      "time": "2026-04-25T02:00:04.137Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 923.7786534837252,
+        "cash": 834.3324278027914
+      },
+      "grand": 1800.912154845767
+    },
+    {
+      "time": "2026-04-25T02:15:04.038Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 926.1039453125189,
+        "cash": 834.3324278027914
+      },
+      "grand": 1803.237446674561
+    },
+    {
+      "time": "2026-04-25T02:30:03.593Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 930.5995095148536,
+        "cash": 834.3324278027914
+      },
+      "grand": 1807.7330108768956
+    },
+    {
+      "time": "2026-04-25T02:45:03.719Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 929.5918830557097,
+        "cash": 834.3324278027914
+      },
+      "grand": 1806.7253844177517
+    },
+    {
+      "time": "2026-04-25T03:00:03.724Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 927.5766301374217,
+        "cash": 834.3324278027914
+      },
+      "grand": 1804.7101314994636
+    },
+    {
+      "time": "2026-04-25T03:15:03.855Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 928.2742176860598,
+        "cash": 834.3324278027914
+      },
+      "grand": 1805.4077190481016
+    },
+    {
+      "time": "2026-04-25T03:30:04.034Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 925.4063577638808,
+        "cash": 834.3324278027914
+      },
+      "grand": 1802.5398591259227
+    },
+    {
+      "time": "2026-04-25T03:45:04.277Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 924.6312604876163,
+        "cash": 834.3324278027914
+      },
+      "grand": 1801.764761849658
+    },
+    {
+      "time": "2026-04-25T04:00:03.498Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 927.3441009545423,
+        "cash": 834.3324278027914
+      },
+      "grand": 1804.4776023165841
+    },
+    {
+      "time": "2026-04-25T04:15:03.737Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 928.816785779445,
+        "cash": 834.3324278027914
+      },
+      "grand": 1805.950287141487
+    },
+    {
+      "time": "2026-04-25T04:30:03.837Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 928.816785779445,
+        "cash": 834.3324278027914
+      },
+      "grand": 1805.950287141487
+    },
+    {
+      "time": "2026-04-25T04:45:03.557Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 931.7621554292505,
+        "cash": 834.3324278027914
+      },
+      "grand": 1808.8956567912924
+    },
+    {
+      "time": "2026-04-25T05:00:03.453Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 927.6541398650481,
+        "cash": 834.3324278027914
+      },
+      "grand": 1804.78764122709
+    },
+    {
+      "time": "2026-04-25T05:15:04.248Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 927.0340620440365,
+        "cash": 834.3324278027914
+      },
+      "grand": 1804.1675634060784
+    },
+    {
+      "time": "2026-04-25T05:30:04.243Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 928.3517274136863,
+        "cash": 834.3324278027914
+      },
+      "grand": 1805.485228775728
+    },
+    {
+      "time": "2026-04-25T05:45:04.213Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 925.7163966743867,
+        "cash": 834.3324278027914
+      },
+      "grand": 1802.8498980364286
+    },
+    {
+      "time": "2026-04-25T06:00:04.225Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 926.1814550401455,
+        "cash": 834.3324278027914
+      },
+      "grand": 1803.3149564021874
+    },
+    {
+      "time": "2026-04-25T06:15:04.368Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 924.0111826666046,
+        "cash": 834.3324278027914
+      },
+      "grand": 1801.1446840286465
+    },
+    {
+      "time": "2026-04-25T06:30:04.433Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 924.2437118494839,
+        "cash": 834.3324278027914
+      },
+      "grand": 1801.377213211526
+    },
+    {
+      "time": "2026-04-25T06:45:04.146Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 921.7634005654372,
+        "cash": 834.3324278027914
+      },
+      "grand": 1798.8969019274791
+    },
+    {
+      "time": "2026-04-25T07:00:03.473Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 921.9184200206902,
+        "cash": 834.3324278027914
+      },
+      "grand": 1799.051921382732
+    },
+    {
+      "time": "2026-04-25T07:15:04.088Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 927.8866690479275,
+        "cash": 834.3324278027914
+      },
+      "grand": 1805.0201704099695
+    },
+    {
+      "time": "2026-04-25T07:30:04.279Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 926.95655231641,
+        "cash": 834.3324278027914
+      },
+      "grand": 1804.090053678452
+    },
+    {
+      "time": "2026-04-25T07:45:04.347Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 925.4063577638808,
+        "cash": 834.3324278027914
+      },
+      "grand": 1802.5398591259227
+    },
+    {
+      "time": "2026-04-25T08:00:03.685Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 926.2589647677719,
+        "cash": 834.3324278027914
+      },
+      "grand": 1803.3924661298138
+    },
+    {
+      "time": "2026-04-25T08:15:04.006Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 926.5690036782778,
+        "cash": 834.3324278027914
+      },
+      "grand": 1803.7025050403197
+    },
+    {
+      "time": "2026-04-25T08:30:04.764Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 927.111571771663,
+        "cash": 834.3324278027914
+      },
+      "grand": 1804.2450731337049
+    },
+    {
+      "time": "2026-04-25T08:45:03.594Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 929.1268246899509,
+        "cash": 834.3324278027914
+      },
+      "grand": 1806.2603260519927
+    },
+    {
+      "time": "2026-04-25T09:00:03.879Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 928.5842565965656,
+        "cash": 834.3324278027914
+      },
+      "grand": 1805.7177579586075
+    },
+    {
+      "time": "2026-04-25T09:15:04.121Z",
+      "T1": {
+        "total": 877.1335013620419,
+        "cash": 156.1187294322823
+      },
+      "T2": {
+        "total": 929.824412238589,
+        "cash": 834.3324278027914
+      },
+      "grand": 1806.957913600631
+    },
+    {
+      "time": "2026-04-25T09:30:04.176Z",
+      "T1": {
+        "total": 853.1558033504961,
+        "cash": 132.14103142073645
+      },
+      "T2": {
+        "total": 928.7392760518186,
+        "cash": 834.3324278027914
+      },
+      "grand": 1781.8950794023146
+    },
+    {
+      "time": "2026-04-25T09:45:04.371Z",
+      "T1": {
+        "total": 853.1558033504961,
+        "cash": 132.14103142073645
+      },
+      "T2": {
+        "total": 926.1814550401455,
+        "cash": 834.3324278027914
+      },
+      "grand": 1779.3372583906416
+    },
+    {
+      "time": "2026-04-25T10:00:03.500Z",
+      "T1": {
+        "total": 833.5057624215352,
+        "cash": 136.08804959691832
+      },
+      "T2": {
+        "total": 927.1890814992894,
+        "cash": 834.3324278027914
+      },
+      "grand": 1760.6948439208245
+    },
+    {
+      "time": "2026-04-25T10:15:03.707Z",
+      "T1": {
+        "total": 833.5057624215352,
+        "cash": 136.08804959691832
+      },
+      "T2": {
+        "total": 928.4292371413128,
+        "cash": 834.3324278027914
+      },
+      "grand": 1761.9349995628481
+    },
+    {
+      "time": "2026-04-25T10:30:03.883Z",
+      "T1": {
+        "total": 833.5057624215352,
+        "cash": 136.08804959691832
+      },
+      "T2": {
+        "total": 934.8625445343089,
+        "cash": 834.3324278027914
+      },
+      "grand": 1768.3683069558442
+    },
+    {
+      "time": "2026-04-25T10:45:03.519Z",
+      "T1": {
+        "total": 833.5057624215352,
+        "cash": 136.08804959691832
+      },
+      "T2": {
+        "total": 931.8396651568769,
+        "cash": 834.3324278027914
+      },
+      "grand": 1765.345427578412
+    },
+    {
+      "time": "2026-04-25T11:00:03.680Z",
+      "T1": {
+        "total": 833.5057624215352,
+        "cash": 136.08804959691832
+      },
+      "T2": {
+        "total": 930.2119608767213,
+        "cash": 834.3324278027914
+      },
+      "grand": 1763.7177232982565
+    },
+    {
+      "time": "2026-04-25T11:15:03.786Z",
+      "T1": {
+        "total": 833.5057624215352,
+        "cash": 136.08804959691832
+      },
+      "T2": {
+        "total": 928.5067468689392,
+        "cash": 834.3324278027914
+      },
+      "grand": 1762.0125092904746
+    },
+    {
+      "time": "2026-04-25T11:30:03.506Z",
+      "T1": {
+        "total": 833.5057624215352,
+        "cash": 136.08804959691832
+      },
+      "T2": {
+        "total": 929.5143733280831,
+        "cash": 834.3324278027914
+      },
+      "grand": 1763.0201357496185
+    },
+    {
+      "time": "2026-04-25T11:45:03.743Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 924.3987313047369,
+        "cash": 834.3324278027914
+      },
+      "grand": 1733.868863226659
+    },
+    {
+      "time": "2026-04-25T12:00:03.869Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 924.4762410323633,
+        "cash": 834.3324278027914
+      },
+      "grand": 1733.9463729542854
+    },
+    {
+      "time": "2026-04-25T12:15:04.047Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 923.1585756627135,
+        "cash": 834.3324278027914
+      },
+      "grand": 1732.6287075846353
+    },
+    {
+      "time": "2026-04-25T12:30:04.441Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 924.1662021218575,
+        "cash": 834.3324278027914
+      },
+      "grand": 1733.6363340437795
+    },
+    {
+      "time": "2026-04-25T12:45:03.785Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 924.1662021218575,
+        "cash": 834.3324278027914
+      },
+      "grand": 1733.6363340437795
+    },
+    {
+      "time": "2026-04-25T13:00:04.015Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 924.7862799428692,
+        "cash": 834.3324278027914
+      },
+      "grand": 1734.256411864791
+    },
+    {
+      "time": "2026-04-25T13:15:03.721Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 924.6312604876163,
+        "cash": 834.3324278027914
+      },
+      "grand": 1734.1013924095382
+    },
+    {
+      "time": "2026-04-25T13:30:03.944Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 922.3059686588225,
+        "cash": 834.3324278027914
+      },
+      "grand": 1731.7761005807445
+    },
+    {
+      "time": "2026-04-25T13:45:04.227Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 924.0111826666046,
+        "cash": 834.3324278027914
+      },
+      "grand": 1733.4813145885264
+    },
+    {
+      "time": "2026-04-25T14:00:03.558Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 926.0264355848925,
+        "cash": 834.3324278027914
+      },
+      "grand": 1735.4965675068145
+    },
+    {
+      "time": "2026-04-25T14:15:04.127Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 925.8714161296396,
+        "cash": 834.3324278027914
+      },
+      "grand": 1735.3415480515614
+    },
+    {
+      "time": "2026-04-25T14:30:03.612Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 921.9184200206902,
+        "cash": 834.3324278027914
+      },
+      "grand": 1731.3885519426121
+    },
+    {
+      "time": "2026-04-25T14:45:03.835Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 921.8409102930638,
+        "cash": 834.3324278027914
+      },
+      "grand": 1731.3110422149857
+    },
+    {
+      "time": "2026-04-25T15:00:04.039Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1729.2626151332736
+    },
+    {
+      "time": "2026-04-25T15:15:02.864Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1729.2626151332736
+    },
+    {
+      "time": "2026-04-25T15:30:03.109Z",
+      "T1": {
+        "total": 809.470131921922,
+        "cash": 130.73012928938078
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1729.2626151332736
+    },
+    {
+      "time": "2026-04-25T15:45:03.366Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T16:00:03.634Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T16:15:02.801Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T16:30:03.050Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T16:45:03.165Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T17:00:03.657Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T17:15:03.004Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T17:30:03.580Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T17:45:03.120Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T18:00:03.435Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 919.7924832113516,
+        "cash": 919.7924832113516
+      },
+      "grand": 1741.1791515811456
+    },
+    {
+      "time": "2026-04-25T18:15:03.256Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 908.1668478522356,
+        "cash": 819.7924832113516
+      },
+      "grand": 1729.5535162220294
+    },
+    {
+      "time": "2026-04-25T18:30:03.817Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T18:45:02.753Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T19:00:03.318Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T19:15:03.468Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T19:30:03.127Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T19:45:03.567Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T20:00:02.960Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T20:15:03.392Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T20:30:03.455Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T20:45:03.490Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T21:00:03.591Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T21:15:03.323Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T21:30:03.385Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T21:45:03.694Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T22:00:03.070Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T22:15:03.577Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T22:30:02.888Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T22:45:03.138Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T23:00:03.440Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T23:15:03.369Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T23:30:03.713Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 861.5956687462588,
+        "cash": 861.5956687462588
+      },
+      "grand": 1682.9823371160526
+    },
+    {
+      "time": "2026-04-25T23:45:04.096Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 867.1959614291856,
+        "cash": 761.5956687462588
+      },
+      "grand": 1688.5826297989793
+    },
+    {
+      "time": "2026-04-26T00:00:03.485Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 857.7704004535758,
+        "cash": 761.5956687462588
+      },
+      "grand": 1679.1570688233696
+    },
+    {
+      "time": "2026-04-26T00:15:03.562Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 850.5068882584538,
+        "cash": 761.5956687462588
+      },
+      "grand": 1671.8935566282476
+    },
+    {
+      "time": "2026-04-26T00:30:03.939Z",
+      "T1": {
+        "total": 821.3866683697938,
+        "cash": 117.59164631054014
+      },
+      "T2": {
+        "total": 856.2399614291855,
+        "cash": 761.5956687462588
+      },
+      "grand": 1677.6266297989794
+    },
+    {
+      "time": "2026-04-26T00:45:04.435Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 857.7316348504514,
+        "cash": 661.5956687462588
+      },
+      "grand": 1639.2222035995414
+    },
+    {
+      "time": "2026-04-26T01:00:05.066Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 865.3858115507684,
+        "cash": 661.5956687462588
+      },
+      "grand": 1646.8763802998583
+    },
+    {
+      "time": "2026-04-26T01:15:04.467Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 847.8338710894906,
+        "cash": 661.5956687462588
+      },
+      "grand": 1629.3244398385805
+    },
+    {
+      "time": "2026-04-26T01:30:04.261Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 849.5706437959972,
+        "cash": 760.1978633081923
+      },
+      "grand": 1631.061212545087
+    },
+    {
+      "time": "2026-04-26T01:45:04.085Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 846.9956194057532,
+        "cash": 760.1978633081923
+      },
+      "grand": 1628.4861881548431
+    },
+    {
+      "time": "2026-04-26T02:00:03.339Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 844.059508576485,
+        "cash": 844.059508576485
+      },
+      "grand": 1625.5500773255749
+    },
+    {
+      "time": "2026-04-26T02:15:03.309Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 844.059508576485,
+        "cash": 844.059508576485
+      },
+      "grand": 1625.5500773255749
+    },
+    {
+      "time": "2026-04-26T02:30:03.127Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 844.059508576485,
+        "cash": 844.059508576485
+      },
+      "grand": 1625.5500773255749
+    },
+    {
+      "time": "2026-04-26T02:45:03.588Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 844.059508576485,
+        "cash": 844.059508576485
+      },
+      "grand": 1625.5500773255749
+    },
+    {
+      "time": "2026-04-26T03:00:03.206Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 844.059508576485,
+        "cash": 844.059508576485
+      },
+      "grand": 1625.5500773255749
+    },
+    {
+      "time": "2026-04-26T03:15:03.574Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 844.059508576485,
+        "cash": 844.059508576485
+      },
+      "grand": 1625.5500773255749
+    },
+    {
+      "time": "2026-04-26T03:30:03.424Z",
+      "T1": {
+        "total": 781.49056874909,
+        "cash": 196.71844589109867
+      },
+      "T2": {
+        "total": 850.2381083122841,
+        "cash": 744.059508576485
+      },
+      "grand": 1631.7286770613741
+    },
+    {
+      "time": "2026-04-26T03:45:03.857Z",
+      "T1": {
+        "total": 779.9222476962262,
+        "cash": 136.03042296466583
+      },
+      "T2": {
+        "total": 852.7379762118878,
+        "cash": 744.059508576485
+      },
+      "grand": 1632.660223908114
+    },
+    {
+      "time": "2026-04-26T04:00:04.052Z",
+      "T1": {
+        "total": 779.9222476962262,
+        "cash": 136.03042296466583
+      },
+      "T2": {
+        "total": 851.751186251518,
+        "cash": 744.059508576485
+      },
+      "grand": 1631.6734339477443
+    },
+    {
+      "time": "2026-04-26T04:15:03.842Z",
+      "T1": {
+        "total": 779.9222476962262,
+        "cash": 136.03042296466583
+      },
+      "T2": {
+        "total": 849.0539603598403,
+        "cash": 744.059508576485
+      },
+      "grand": 1628.9762080560665
+    },
+    {
+      "time": "2026-04-26T04:30:04.047Z",
+      "T1": {
+        "total": 795.0109473646846,
+        "cash": 179.21025752661262
+      },
+      "T2": {
+        "total": 846.4883064628787,
+        "cash": 744.059508576485
+      },
+      "grand": 1641.4992538275633
+    },
+    {
+      "time": "2026-04-26T04:45:03.995Z",
+      "T1": {
+        "total": 795.0109473646846,
+        "cash": 179.21025752661262
+      },
+      "T2": {
+        "total": 850.1723223149262,
+        "cash": 744.059508576485
+      },
+      "grand": 1645.183269679611
+    },
+    {
+      "time": "2026-04-26T05:00:04.017Z",
+      "T1": {
+        "total": 795.0109473646846,
+        "cash": 179.21025752661262
+      },
+      "T2": {
+        "total": 838.9887027640675,
+        "cash": 744.059508576485
+      },
+      "grand": 1633.9996501287521
+    },
+    {
+      "time": "2026-04-26T05:15:03.473Z",
+      "T1": {
+        "total": 795.0109473646846,
+        "cash": 179.21025752661262
+      },
+      "T2": {
+        "total": 840.6991386953753,
+        "cash": 744.059508576485
+      },
+      "grand": 1635.71008606006
+    },
+    {
+      "time": "2026-04-26T05:30:04.337Z",
+      "T1": {
+        "total": 795.0109473646846,
+        "cash": 179.21025752661262
+      },
+      "T2": {
+        "total": 837.4098388274757,
+        "cash": 744.059508576485
+      },
+      "grand": 1632.4207861921604
+    },
+    {
+      "time": "2026-04-26T05:45:04.294Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 837.7387688142657,
+        "cash": 744.059508576485
+      },
+      "grand": 1658.9101718006336
+    },
+    {
+      "time": "2026-04-26T06:00:03.971Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 840.5017807033014,
+        "cash": 744.059508576485
+      },
+      "grand": 1661.6731836896695
+    },
+    {
+      "time": "2026-04-26T06:15:03.905Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 838.8571307693516,
+        "cash": 744.059508576485
+      },
+      "grand": 1660.0285337557198
+    },
+    {
+      "time": "2026-04-26T06:30:03.882Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 838.2650567931296,
+        "cash": 744.059508576485
+      },
+      "grand": 1659.4364597794977
+    },
+    {
+      "time": "2026-04-26T06:45:03.774Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 850.5670382990742,
+        "cash": 744.059508576485
+      },
+      "grand": 1671.7384412854421
+    },
+    {
+      "time": "2026-04-26T07:00:03.913Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 849.9091783254942,
+        "cash": 744.059508576485
+      },
+      "grand": 1671.0805813118623
+    },
+    {
+      "time": "2026-04-26T07:15:04.309Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 848.0013844021124,
+        "cash": 744.059508576485
+      },
+      "grand": 1669.1727873884806
+    },
+    {
+      "time": "2026-04-26T07:30:04.404Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 851.290684270012,
+        "cash": 744.059508576485
+      },
+      "grand": 1672.46208725638
+    },
+    {
+      "time": "2026-04-26T07:45:03.587Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 849.4486763439883,
+        "cash": 744.059508576485
+      },
+      "grand": 1670.6200793303565
+    },
+    {
+      "time": "2026-04-26T08:00:03.956Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 852.3432602277398,
+        "cash": 744.059508576485
+      },
+      "grand": 1673.514663214108
+    },
+    {
+      "time": "2026-04-26T08:15:03.691Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 852.540618219814,
+        "cash": 744.059508576485
+      },
+      "grand": 1673.712021206182
+    },
+    {
+      "time": "2026-04-26T08:30:04.054Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 849.7118203334203,
+        "cash": 744.059508576485
+      },
+      "grand": 1670.8832233197884
+    },
+    {
+      "time": "2026-04-26T08:45:04.232Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 848.4618863836183,
+        "cash": 744.059508576485
+      },
+      "grand": 1669.6332893699864
+    },
+    {
+      "time": "2026-04-26T09:00:04.487Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 846.7514504523106,
+        "cash": 744.059508576485
+      },
+      "grand": 1667.9228534386787
+    },
+    {
+      "time": "2026-04-26T09:15:03.805Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 848.0013844021124,
+        "cash": 744.059508576485
+      },
+      "grand": 1669.1727873884806
+    },
+    {
+      "time": "2026-04-26T09:30:04.361Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 842.1464306372511,
+        "cash": 744.059508576485
+      },
+      "grand": 1663.3178336236192
+    },
+    {
+      "time": "2026-04-26T09:45:04.236Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 834.5546226178922,
+        "cash": 644.059508576485
+      },
+      "grand": 1655.7260256042603
+    },
+    {
+      "time": "2026-04-26T10:00:04.585Z",
+      "T1": {
+        "total": 821.1714029863681,
+        "cash": 140.24411782876155
+      },
+      "T2": {
+        "total": 840.5278046130779,
+        "cash": 644.059508576485
+      },
+      "grand": 1661.699207599446
+    },
+    {
+      "time": "2026-04-26T10:15:04.941Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 840.8194799174158,
+        "cash": 644.059508576485
+      },
+      "grand": 1669.0496859862844
+    },
+    {
+      "time": "2026-04-26T10:30:05.040Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 837.23730956366,
+        "cash": 644.059508576485
+      },
+      "grand": 1665.4675156325286
+    },
+    {
+      "time": "2026-04-26T10:45:04.155Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 841.6376253929225,
+        "cash": 644.059508576485
+      },
+      "grand": 1669.867831461791
+    },
+    {
+      "time": "2026-04-26T11:00:04.304Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 834.1155901775645,
+        "cash": 644.059508576485
+      },
+      "grand": 1662.345796246433
+    },
+    {
+      "time": "2026-04-26T11:15:04.469Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 834.4432739689908,
+        "cash": 644.059508576485
+      },
+      "grand": 1662.6734800378595
+    },
+    {
+      "time": "2026-04-26T11:30:04.315Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 828.2996547166641,
+        "cash": 644.059508576485
+      },
+      "grand": 1656.5298607855327
+    },
+    {
+      "time": "2026-04-26T11:45:04.476Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 826.6689461378651,
+        "cash": 644.059508576485
+      },
+      "grand": 1654.8991522067336
+    },
+    {
+      "time": "2026-04-26T12:00:04.240Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 826.9797232413412,
+        "cash": 726.6560772704032
+      },
+      "grand": 1655.2099293102096
+    },
+    {
+      "time": "2026-04-26T12:15:03.686Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 830.5321670986726,
+        "cash": 726.6560772704032
+      },
+      "grand": 1658.7623731675412
+    },
+    {
+      "time": "2026-04-26T12:30:04.304Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 829.7427351303768,
+        "cash": 726.6560772704032
+      },
+      "grand": 1657.9729411992453
+    },
+    {
+      "time": "2026-04-26T12:45:04.269Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 830.7295250907466,
+        "cash": 726.6560772704032
+      },
+      "grand": 1658.9597311596153
+    },
+    {
+      "time": "2026-04-26T13:00:03.587Z",
+      "T1": {
+        "total": 828.2302060688686,
+        "cash": 125.06092717030651
+      },
+      "T2": {
+        "total": 832.5057470194124,
+        "cash": 726.6560772704032
+      },
+      "grand": 1660.735953088281
+    },
+    {
+      "time": "2026-04-26T13:15:03.909Z",
+      "T1": {
+        "total": 809.8953073524791,
+        "cash": 116.53914304859848
+      },
+      "T2": {
+        "total": 829.0190891594389,
+        "cash": 726.6560772704032
+      },
+      "grand": 1638.9143965119179
+    },
+    {
+      "time": "2026-04-26T13:30:04.149Z",
+      "T1": {
+        "total": 809.8953073524791,
+        "cash": 116.53914304859848
+      },
+      "T2": {
+        "total": 834.4793269401522,
+        "cash": 726.6560772704032
+      },
+      "grand": 1644.3746342926313
+    },
+    {
+      "time": "2026-04-26T13:45:04.261Z",
+      "T1": {
+        "total": 809.8953073524791,
+        "cash": 116.53914304859848
+      },
+      "T2": {
+        "total": 830.4663811013147,
+        "cash": 726.6560772704032
+      },
+      "grand": 1640.3616884537937
+    },
+    {
+      "time": "2026-04-26T14:00:04.308Z",
+      "T1": {
+        "total": 809.8953073524791,
+        "cash": 116.53914304859848
+      },
+      "T2": {
+        "total": 830.3348091065988,
+        "cash": 726.6560772704032
+      },
+      "grand": 1640.2301164590779
+    },
+    {
+      "time": "2026-04-26T14:15:03.746Z",
+      "T1": {
+        "total": 809.8953073524791,
+        "cash": 116.53914304859848
+      },
+      "T2": {
+        "total": 831.4531710616845,
+        "cash": 726.6560772704032
+      },
+      "grand": 1641.3484784141638
+    },
+    {
+      "time": "2026-04-26T14:30:04.018Z",
+      "T1": {
+        "total": 785.8023294899448,
+        "cash": 115.02641193233137
+      },
+      "T2": {
+        "total": 873.0338957201172,
+        "cash": 626.6560772704032
+      },
+      "grand": 1658.836225210062
+    },
+    {
+      "time": "2026-04-26T14:45:04.154Z",
+      "T1": {
+        "total": 785.8023294899448,
+        "cash": 115.02641193233137
+      },
+      "T2": {
+        "total": 854.4997548114882,
+        "cash": 626.6560772704032
+      },
+      "grand": 1640.3020843014328
+    },
+    {
+      "time": "2026-04-26T15:00:04.257Z",
+      "T1": {
+        "total": 785.8023294899448,
+        "cash": 115.02641193233137
+      },
+      "T2": {
+        "total": 847.1754558442731,
+        "cash": 626.6560772704032
+      },
+      "grand": 1632.977785334218
+    },
+    {
+      "time": "2026-04-26T15:15:04.493Z",
+      "T1": {
+        "total": 785.8023294899448,
+        "cash": 115.02641193233137
+      },
+      "T2": {
+        "total": 865.9805614553068,
+        "cash": 626.6560772704032
+      },
+      "grand": 1651.7828909452514
+    },
+    {
+      "time": "2026-04-26T15:30:04.771Z",
+      "T1": {
+        "total": 785.8023294899448,
+        "cash": 115.02641193233137
+      },
+      "T2": {
+        "total": 927.5833475135187,
+        "cash": 676.1972609242493
+      },
+      "grand": 1713.3856770034636
+    },
+    {
+      "time": "2026-04-26T15:45:04.631Z",
+      "T1": {
+        "total": 785.8023294899448,
+        "cash": 115.02641193233137
+      },
+      "T2": {
+        "total": 892.8513457011798,
+        "cash": 795.6196416060675
+      },
+      "grand": 1678.6536751911244
+    },
+    {
+      "time": "2026-04-26T16:00:03.500Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 891.7987697434519,
+        "cash": 795.6196416060675
+      },
+      "grand": 1651.742816994326
+    },
+    {
+      "time": "2026-04-26T16:15:03.576Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T16:30:03.649Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T16:45:02.998Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T17:00:03.287Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T17:15:03.477Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T17:30:03.691Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T17:45:02.819Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T18:00:02.851Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T18:15:02.907Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T18:30:03.282Z",
+      "T1": {
+        "total": 759.944047250874,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1640.4157839692266
+    },
+    {
+      "time": "2026-04-26T18:41:44.284Z",
+      "T1": {
+        "total": 754.2802986954983,
+        "cash": 125.20122327569148
+      },
+      "T2": {
+        "total": 880.4717367183528,
+        "cash": 880.4717367183528
+      },
+      "grand": 1634.752035413851
+    }
+  ],
+  "lastUpdated": "2026-04-26T18:41:44.285Z"
+}

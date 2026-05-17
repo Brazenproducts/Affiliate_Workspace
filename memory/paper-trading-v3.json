@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "created": "2026-04-26T18:53:59.815Z",
+  "portfolios": {
+    "T1": {
+      "name": "Tier 1 — Pullback/Accumulation",
+      "startingCash": 1000,
+      "cash": 400,
+      "holdings": {
+        "HEMI": {
+          "qty": 21283.34738333424,
+          "avgCost": 0.00935943,
+          "totalInvested": 200,
+          "peakPrice": 0.00935943,
+          "enteredAt": "2026-04-26T18:56:25.269Z",
+          "entryVolume": 29392428,
+          "source": "coingecko",
+          "cgId": "hemi",
+          "stopPct": 18,
+          "entryPattern": "PULLBACK: 7d+28% but 24h 1.3% (dip buy)",
+          "lastCheckPrice": 0.00892663
+        },
+        "LAB": {
+          "qty": 241.36531342958057,
+          "avgCost": 0.825305,
+          "totalInvested": 200,
+          "peakPrice": 0.825305,
+          "enteredAt": "2026-04-26T18:56:25.269Z",
+          "entryVolume": 121917235,
+          "source": "coingecko",
+          "cgId": "lab",
+          "stopPct": 18,
+          "entryPattern": "PULLBACK: 7d+42% but 24h -1.8% (dip buy)",
+          "lastCheckPrice": 0.764441
+        },
+        "ENSO": {
+          "qty": 212.43468060147168,
+          "avgCost": 0.9377,
+          "totalInvested": 200,
+          "peakPrice": 0.9377,
+          "enteredAt": "2026-04-27T02:58:14.889Z",
+          "entryVolume": 239605673,
+          "source": "coingecko",
+          "cgId": "enso",
+          "stopPct": 18,
+          "entryPattern": "PULLBACK: 7d+16% but 24h 4.9% (dip buy)",
+          "lastCheckPrice": 0.9377
+        }
+      }
+    },
+    "T2": {
+      "name": "Tier 2 — DEX Breakouts",
+      "startingCash": 1000,
+      "cash": 1000,
+      "holdings": {}
+    }
+  },
+  "exitRules": {
+    "defaultStopPct": 25,
+    "takeProfitTiers": [
+      {
+        "pct": 40,
+        "sellPct": 25
+      },
+      {
+        "pct": 80,
+        "sellPct": 25
+      },
+      {
+        "pct": 150,
+        "sellPct": 25
+      }
+    ],
+    "maxHoldHours": 120
+  },
+  "btcBenchmark": {
+    "startPrice": 78248,
+    "currentPrice": 78926
+  },
+  "trades": [
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "HEMI",
+      "qty": 21283.34738333424,
+      "price": 0.00935943,
+      "amountUSD": 200,
+      "fee": 0.8,
+      "reason": "Score 80: PULLBACK: 7d+28% but 24h 1.3% (dip buy), ACCUMULATION: vol/mcap 3.2x but price flat, vol/mcap 3.2x (unusual activity), small-cap upside",
+      "pattern": "PULLBACK: 7d+28% but 24h 1.3% (dip buy)",
+      "time": "2026-04-26T18:56:25.269Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "LAB",
+      "qty": 241.36531342958057,
+      "price": 0.825305,
+      "amountUSD": 200,
+      "fee": 0.8,
+      "reason": "Score 70: PULLBACK: 7d+42% but 24h -1.8% (dip buy), ACCUMULATION: vol/mcap 2.0x but price flat, vol/mcap 2.0x",
+      "pattern": "PULLBACK: 7d+42% but 24h -1.8% (dip buy)",
+      "time": "2026-04-26T18:56:25.269Z"
+    },
+    {
+      "tier": "T1",
+      "type": "BUY",
+      "symbol": "ENSO",
+      "qty": 212.43468060147168,
+      "price": 0.9377,
+      "amountUSD": 200,
+      "fee": 0.8,
+      "reason": "Score 80: PULLBACK: 7d+16% but 24h 4.9% (dip buy), ACCUMULATION: vol/mcap 12.4x but price flat, vol/mcap 12.4x (unusual activity), small-cap upside",
+      "pattern": "PULLBACK: 7d+16% but 24h 4.9% (dip buy)",
+      "time": "2026-04-27T02:58:14.889Z"
+    }
+  ],
+  "dailyEntries": {
+    "2026-04-26": 2,
+    "2026-04-27": 1
+  },
+  "snapshots": [
+    {
+      "time": "2026-04-26T18:56:25.433Z",
+      "T1": {
+        "total": 998.4000000000001,
+        "cash": 600
+      },
+      "T2": {
+        "total": 1000,
+        "cash": 1000
+      },
+      "grand": 1998.4,
+      "btcPrice": 78257
+    },
+    {
+      "time": "2026-04-26T18:58:04.088Z",
+      "T1": {
+        "total": 997.9796680070732,
+        "cash": 600
+      },
+      "T2": {
+        "total": 1000,
+        "cash": 1000
+      },
+      "grand": 1997.979668007073,
+      "btcPrice": 78291
+    },
+    {
+      "time": "2026-04-26T22:58:16.570Z",
+      "T1": {
+        "total": 981.6161278154268,
+        "cash": 600
+      },
+      "T2": {
+        "total": 1000,
+        "cash": 1000
+      },
+      "grand": 1981.6161278154268,
+      "btcPrice": null
+    },
+    {
+      "time": "2026-04-27T02:58:14.983Z",
+      "T1": {
+        "total": 973.7752226049731,
+        "cash": 400
+      },
+      "T2": {
+        "total": 1000,
+        "cash": 1000
+      },
+      "grand": 1973.7752226049731,
+      "btcPrice": null
+    },
+    {
+      "time": "2026-04-27T04:58:03.237Z",
+      "T1": {
+        "total": 966.1336555642985,
+        "cash": 400
+      },
+      "T2": {
+        "total": 1000,
+        "cash": 1000
+      },
+      "grand": 1966.1336555642984,
+      "btcPrice": 78926
+    }
+  ],
+  "lastUpdated": "2026-04-27T04:58:03.237Z"
+}

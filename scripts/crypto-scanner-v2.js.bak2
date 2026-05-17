@@ -1,0 +1,222 @@
+const https = require('https');
+const fs = require('fs');
+
+const WATCHLIST_FILE = '/home/ubuntu/.openclaw/workspace/memory/momentum-watchlist.json';
+const PAPER_FILE = '/home/ubuntu/.openclaw/workspace/memory/paper-trading-v2.json';
+
+function httpGet(url) {
+  return new Promise((resolve, reject) => {
+    const u = new URL(url);
+    https.get({ hostname: u.hostname, path: u.pathname + u.search, headers: { 'User-Agent': 'Mozilla/5.0' }, timeout: 10000 }, res => {
+      let d = ''; res.on('data', c => d += c);
+      res.on('end', () => { try { resolve(JSON.parse(d)); } catch(e) { resolve(null); } });
+    }).on('error', e => resolve(null)).on('timeout', () => resolve(null));
+  });
+}
+
+function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function scoreToken(t) {
+  let score = 0; const reasons = [];
+  const c24 = t.change24h || 0, c1 = t.change1h || 0;
+  const vol = t.volume || 0, mcap = t.mcap || 0;
+  const vmr = mcap > 0 ? vol / mcap : 0;
+
+  // Price momentum — reward moderate gains, penalize extreme
+  if (c24 >= 20 && c24 <= 100) { score += 30; reasons.push('24h+' + c24.toFixed(0) + '% solid'); }
+  else if (c24 > 10 && c24 < 20) { score += 15; reasons.push('24h+' + c24.toFixed(0) + '%'); }
+  else if (c24 > 100 && c24 <= 200) { score += 15; reasons.push('24h+' + c24.toFixed(0) + '% hot'); }
+  else if (c24 > 200) { score -= 20; reasons.push('⚠️ 24h+' + c24.toFixed(0) + '% OVEREXTENDED'); }
+
+  // 1h acceleration — early signal
+  if (c1 > 15) { score += 25; reasons.push('1h+' + c1.toFixed(0) + '% SURGING'); }
+  else if (c1 > 10) { score += 20; reasons.push('1h+' + c1.toFixed(0) + '% accelerating'); }
+  else if (c1 > 5) { score += 10; reasons.push('1h+' + c1.toFixed(0) + '%'); }
+  else if (c1 < -5) { score -= 10; reasons.push('1h' + c1.toFixed(0) + '% fading'); }
+
+  // Volume/mcap ratio — shows unusual activity
+  if (vmr > 5) { score += 25; reasons.push('vol/mcap ' + vmr.toFixed(1) + 'x EXTREME'); }
+  else if (vmr > 3) { score += 20; reasons.push('vol/mcap ' + vmr.toFixed(1) + 'x'); }
+  else if (vmr > 1) { score += 10; reasons.push('vol/mcap ' + vmr.toFixed(1) + 'x'); }
+
+  // Market cap tiers
+  if (mcap > 0 && mcap < 10e6) { score += 10; reasons.push('micro-cap'); }
+  else if (mcap < 50e6) { score += 5; reasons.push('small-cap'); }
+
+  // HARD FILTERS — disqualify garbage
+  if (vol < 500000) { score -= 50; reasons.push('⚠️ NO VOLUME — SKIP'); }
+  else if (vol < 2e6) { score -= 15; reasons.push('⚠️ thin vol'); }
+
+  // HARD REJECT parabolic dumps
+  if (c24 > 500) { score = -100; reasons.push('🚫 PARABOLIC >500% — guaranteed dump'); }
+  else if (c24 > 300) { score -= 40; reasons.push('⚠️ 24h>' + c24.toFixed(0) + '% extended — high dump risk'); }
+
+  return { score, reasons };
+}
+
+async function getMarketTrend() {
+  // Check BTC + ETH + overall market direction
+  // Returns: 'bull', 'bear', 'neutral'
+  const data = await httpGet('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd&include_24hr_change=true&include_1hr_change=true');
+  if (!data) return { trend: 'neutral', reason: 'API unavailable', btc24h: 0, eth24h: 0 };
+
+  const btc24h = data?.bitcoin?.usd_24h_change || 0;
+  const eth24h = data?.ethereum?.usd_24h_change || 0;
+  const btc1h  = data?.bitcoin?.usd_1h_change  || 0;
+  const avg24h = (btc24h + eth24h) / 2;
+
+  let trend, reason;
+  if (avg24h <= -5 || (avg24h <= -3 && btc1h <= -1.5)) {
+    trend = 'bear';
+    reason = `BTC ${btc24h.toFixed(1)}% / ETH ${eth24h.toFixed(1)}% — MARKET DOWN, parking in stablecoins`;
+  } else if (avg24h >= 3) {
+    trend = 'bull';
+    reason = `BTC ${btc24h.toFixed(1)}% / ETH ${eth24h.toFixed(1)}% — market rising, deploying`;
+  } else {
+    trend = 'neutral';
+    reason = `BTC ${btc24h.toFixed(1)}% / ETH ${eth24h.toFixed(1)}% — neutral, selective entries only`;
+  }
+  return { trend, reason, btc24h, eth24h, btc1h };
+}
+
+async function scanCoinGecko() {
+  console.log('Scanning CoinGecko...');
+  const [markets, trending] = await Promise.all([
+    httpGet('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=volume_desc&per_page=250&page=1&sparkline=false&price_change_percentage=1h,24h,7d'),
+    httpGet('https://api.coingecko.com/api/v3/search/trending')
+  ]);
+
+  const trendingSyms = (trending?.coins || []).map(c => c.item?.symbol?.toUpperCase()).filter(Boolean);
+  const results = [];
+
+  if (Array.isArray(markets)) {
+    for (const m of markets) {
+      const t = {
+        symbol: m.symbol.toUpperCase(), name: m.name, id: m.id,
+        price: m.current_price, change24h: m.price_change_percentage_24h || 0,
+        change1h: m.price_change_percentage_1h_in_currency || 0,
+        change7d: m.price_change_percentage_7d_in_currency || 0,
+        volume: m.total_volume || 0, mcap: m.market_cap || 0,
+        source: 'coingecko', tier: 1
+      };
+      const s = scoreToken(t);
+      if (trendingSyms.includes(t.symbol)) { s.score += 10; s.reasons.push('🔥TRENDING'); }
+      results.push({ ...t, ...s });
+    }
+  }
+  return results;
+}
+
+async function scanDexScreener() {
+  console.log('Scanning DexScreener...');
+  const results = [];
+
+  // Token boosts (promoted/trending tokens)
+  const boosts = await httpGet('https://api.dexscreener.com/token-boosts/latest/v1');
+  
+  // Search for trending solana tokens
+  const solTrending = await httpGet('https://api.dexscreener.com/latest/dex/search?q=solana');
+  
+  const seen = new Set();
+  const pairs = [];
+
+  if (Array.isArray(boosts)) {
+    // Get details for boosted tokens on solana
+    const solBoosts = boosts.filter(b => b.chainId === 'solana').slice(0, 15);
+    for (const b of solBoosts) {
+      if (b.tokenAddress && !seen.has(b.tokenAddress)) {
+        seen.add(b.tokenAddress);
+        const detail = await httpGet('https://api.dexscreener.com/latest/dex/tokens/' + b.tokenAddress);
+        if (detail?.pairs?.length > 0) pairs.push(...detail.pairs.slice(0, 1));
+        await delay(200); // rate limit
+      }
+    }
+  }
+
+  if (solTrending?.pairs) {
+    for (const p of solTrending.pairs.slice(0, 30)) {
+      if (p.chainId === 'solana' && p.baseToken && !seen.has(p.baseToken.address)) {
+        seen.add(p.baseToken.address);
+        pairs.push(p);
+      }
+    }
+  }
+
+  for (const p of pairs) {
+    if (!p.baseToken || !p.priceUsd) continue;
+    const vol24 = p.volume?.h24 || 0;
+    const liq = p.liquidity?.usd || 0;
+    const c24 = p.priceChange?.h24 || 0;
+    const c1 = p.priceChange?.h1 || 0;
+    const c5m = p.priceChange?.m5 || 0;
+    const fdv = p.fdv || 0;
+
+    const t = {
+      symbol: p.baseToken.symbol, name: p.baseToken.name,
+      address: p.baseToken.address, pairAddress: p.pairAddress,
+      price: parseFloat(p.priceUsd), change24h: c24, change1h: c1, change5m: c5m,
+      volume: vol24, mcap: fdv, liquidity: liq,
+      dex: p.dexId, chain: p.chainId,
+      source: 'dexscreener', tier: 2
+    };
+    const s = scoreToken(t);
+
+    // Bonus for very recent acceleration
+    if (c5m > 5) { s.score += 15; s.reasons.push('5min+' + c5m.toFixed(0) + '% RIGHT NOW'); }
+
+    // Liquidity check — need enough to exit
+    if (liq < 25000) { s.score -= 30; s.reasons.push('⚠️ <$25K liq DANGER'); }
+    else if (liq < 50000) { s.score -= 10; s.reasons.push('⚠️ thin liq $' + (liq/1000).toFixed(0) + 'K'); }
+    else if (liq > 200000) { s.score += 5; s.reasons.push('liq $' + (liq/1000).toFixed(0) + 'K OK'); }
+
+    results.push({ ...t, ...s });
+  }
+  return results;
+}
+
+async function fullScan() {
+  const now = new Date().toISOString();
+  console.log('=== MOMENTUM SCANNER v2 ===');
+  console.log('Time: ' + now + '\n');
+
+  const marketTrend = await getMarketTrend();
+  console.log('=== MARKET TREND: ' + marketTrend.trend.toUpperCase() + ' ===');
+  console.log(marketTrend.reason + '\n');
+
+  const [cg, dex] = await Promise.all([scanCoinGecko(), scanDexScreener()]);
+
+  // In bear market, raise minimum scores significantly
+  const t1MinScore = marketTrend.trend === 'bear' ? 60 : 25;
+  const t2MinScore = marketTrend.trend === 'bear' ? 60 : 20;
+
+  // Sort each tier
+  const tier1 = cg.filter(t => t.score >= t1MinScore).sort((a, b) => b.score - a.score).slice(0, 15);
+  const tier2 = dex.filter(t => t.score >= t2MinScore).sort((a, b) => b.score - a.score).slice(0, 15);
+
+  console.log('\n=== TIER 1 — CoinGecko Listed (easier exits) ===');
+  tier1.forEach((t, i) => {
+    console.log(`${i + 1}. ${t.symbol} (${t.name}) — Score: ${t.score}`);
+    console.log(`   $${t.price} | 1h: ${t.change1h?.toFixed(1)}% | 24h: ${t.change24h?.toFixed(1)}% | Vol: $${(t.volume / 1e6).toFixed(1)}M | MCap: $${(t.mcap / 1e6).toFixed(1)}M`);
+    console.log(`   ${t.reasons.join(', ')}`);
+  });
+
+  console.log('\n=== TIER 2 — DEX Micro-caps (moonshots) ===');
+  tier2.forEach((t, i) => {
+    console.log(`${i + 1}. ${t.symbol} (${t.name}) — Score: ${t.score}`);
+    console.log(`   $${t.price} | 1h: ${t.change1h?.toFixed(1)}% | 24h: ${t.change24h?.toFixed(1)}% | 5m: ${(t.change5m || 0).toFixed(1)}% | Vol: $${(t.volume / 1e6).toFixed(2)}M | Liq: $${((t.liquidity || 0) / 1000).toFixed(1)}K`);
+    console.log(`   ${t.reasons.join(', ')}`);
+  });
+
+  // Save watchlist
+  const watchlist = { lastScan: now, marketTrend, tier1, tier2 };
+  fs.writeFileSync(WATCHLIST_FILE, JSON.stringify(watchlist, null, 2));
+  console.log('\nWatchlist saved to ' + WATCHLIST_FILE);
+
+  return watchlist;
+}
+
+if (require.main === module) {
+  fullScan().catch(e => console.error('FATAL:', e.message));
+}
+
+module.exports = { fullScan, httpGet, scoreToken, getMarketTrend };

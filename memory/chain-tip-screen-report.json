@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-05-14T05:13:46.297Z",
+  "chains": [
+    {
+      "name": "Subway",
+      "riskLevel": "low",
+      "hits": [],
+      "checkedAt": "2026-05-14T05:13:46.297Z",
+      "manualSearchUrls": [
+        "https://www.reddit.com/search/?q=\"Subway\" tip screen&sort=new",
+        "https://duckduckgo.com/?q=\"Subway\" \"tip screen\" OR \"tip prompt\""
+      ]
+    }
+  ],
+  "summary": {
+    "high": [],
+    "medium": [],
+    "lowCount": 1
+  }
+}

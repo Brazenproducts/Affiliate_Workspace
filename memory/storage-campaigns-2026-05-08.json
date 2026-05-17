@@ -1,0 +1,69 @@
+{
+  "created": "2026-05-08T20:53:00.179Z",
+  "customerId": "1770651698",
+  "campaigns": [
+    {
+      "name": "Wrangler Storage - Search NEW",
+      "budget": "customers/1770651698/campaignBudgets/15565211454",
+      "campaign": "customers/1770651698/campaigns/23836158886",
+      "adGroup": "customers/1770651698/adGroups/197356209018",
+      "keywords": [
+        "customers/1770651698/adGroupCriteria/197356209018~306679144462",
+        "customers/1770651698/adGroupCriteria/197356209018~313794883907",
+        "customers/1770651698/adGroupCriteria/197356209018~566392179016",
+        "customers/1770651698/adGroupCriteria/197356209018~825140487035",
+        "customers/1770651698/adGroupCriteria/197356209018~1396734063532",
+        "customers/1770651698/adGroupCriteria/197356209018~2440836554807",
+        "customers/1770651698/adGroupCriteria/197356209018~866430153043",
+        "customers/1770651698/adGroupCriteria/197356209018~2486622220701",
+        "customers/1770651698/adGroupCriteria/197356209018~300602034651",
+        "customers/1770651698/adGroupCriteria/197356209018~300602033411"
+      ],
+      "rsa": "customers/1770651698/adGroupAds/197356209018~808289152946",
+      "finalUrl": "https://www.bartact.com/collections/storage-bags",
+      "dailyBudgetUSD": 45
+    },
+    {
+      "name": "Gladiator Storage - Search NEW",
+      "budget": "customers/1770651698/campaignBudgets/15565211481",
+      "campaign": "customers/1770651698/campaigns/23836158889",
+      "adGroup": "customers/1770651698/adGroups/199394142627",
+      "keywords": [
+        "customers/1770651698/adGroupCriteria/199394142627~572870922224",
+        "customers/1770651698/adGroupCriteria/199394142627~847365038347",
+        "customers/1770651698/adGroupCriteria/199394142627~2484263344238",
+        "customers/1770651698/adGroupCriteria/199394142627~2484263343758",
+        "customers/1770651698/adGroupCriteria/199394142627~2484263343798",
+        "customers/1770651698/adGroupCriteria/199394142627~2484263343838",
+        "customers/1770651698/adGroupCriteria/199394142627~1438632512355",
+        "customers/1770651698/adGroupCriteria/199394142627~1652096818275",
+        "customers/1770651698/adGroupCriteria/199394142627~2484263343998",
+        "customers/1770651698/adGroupCriteria/199394142627~2484263344038"
+      ],
+      "rsa": "customers/1770651698/adGroupAds/199394142627~808172547081",
+      "finalUrl": "https://www.bartact.com/collections/storage-bags",
+      "dailyBudgetUSD": 40
+    },
+    {
+      "name": "Bronco Storage - Search NEW",
+      "budget": "customers/1770651698/campaignBudgets/15565211433",
+      "campaign": "customers/1770651698/campaigns/23831664860",
+      "adGroup": "customers/1770651698/adGroups/195035661543",
+      "keywords": [
+        "customers/1770651698/adGroupCriteria/195035661543~320507070194",
+        "customers/1770651698/adGroupCriteria/195035661543~302569649433",
+        "customers/1770651698/adGroupCriteria/195035661543~1742121169837",
+        "customers/1770651698/adGroupCriteria/195035661543~1741854998844",
+        "customers/1770651698/adGroupCriteria/195035661543~2079499685270",
+        "customers/1770651698/adGroupCriteria/195035661543~1457234173125",
+        "customers/1770651698/adGroupCriteria/195035661543~2484264135758",
+        "customers/1770651698/adGroupCriteria/195035661543~2484264135798",
+        "customers/1770651698/adGroupCriteria/195035661543~2488278100794",
+        "customers/1770651698/adGroupCriteria/195035661543~2484264135838"
+      ],
+      "rsa": "customers/1770651698/adGroupAds/195035661543~808289150588",
+      "finalUrl": "https://www.bartact.com/collections/storage-bags",
+      "dailyBudgetUSD": 40
+    }
+  ]
+}

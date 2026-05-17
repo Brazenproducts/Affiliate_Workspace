@@ -1,0 +1,387 @@
+# Amazon Bartact Listing Fixes — 2026-04-14T16:59Z
+
+## Summary
+- Descriptions: **7** patched / 10 processed
+- Colors: **70** fixed / 108 processed
+- Unit count: **16** fixed / 16 processed
+- Other issues (not fixable via API): 93 SKUs
+
+## Description Fixes
+- **BTJKSC1112FP-Parent**: patched (ACCEPTED) [AUTO_ACCESSORY]
+- **BTJKAI0710CC-Parent**: no HTML found — "Jeep Center Console Cover 2 Inch Padded 07-10 Wrangler JK/JKU Olive Drab/Black. The new Bartact padd..."
+- **BTJKSC2007R4-Parent**: patched (ACCEPTED) [AUTO_ACCESSORY]
+- **BTJKSC0710FP-Parent**: patched (ACCEPTED) [VEHICLE_SEAT_COVER]
+- **JKSC0710FPBA**: patched (ACCEPTED) [VEHICLE_SEAT_COVER]
+- **BTJKSC2013R2-Parent**: patched (ACCEPTED) [VEHICLE_SEAT_COVER]
+- **RBFEFEH25G**: no HTML found — "Dry Chemical Fire Extinguishers. Stored pressure dry chemical fire extinguishers for use on ordinary..."
+- **RBFEFEH-PARENT**: no HTML found — "We use Amerex on all of our vehicles and we've been making this same proven Fire Extinguisher Holder..."
+- **BTTJSC9702RB-Parent**: patched (ACCEPTED) [VEHICLE_SEAT_COVER]
+- **BTTJSC0306RB-Parent**: patched (ACCEPTED) [VEHICLE_SEAT_COVER]
+
+## Color Fixes
+- **JKSC1112FPBK**: ✅ "Black/Khaki" ["brown"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0710FPBU**: ⏭️ already correct ("blue" = ["blue"])
+- **JKSC2007R4BU**: ⏭️ already correct ("Black/Blue" = ["blue"])
+- **JKSC2007R4BR**: ✅ "Black/Red" ["red"] → ["brown"] [AUTO_ACCESSORY]
+- **JKSC2007R4BO**: ✅ "Black/Olive Drab" ["green"] → ["orange"] [VEHICLE_SEAT_COVER]
+- **JKSC2007R4BK**: ✅ "Black/Khaki" ["brown"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC2007R4BC**: ✅ "Black/Coyote" ["brown"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0710FPBR**: ✅ "Black/Red" ["red"] → ["brown"] [VEHICLE_SEAT_COVER]
+- **JKSC2013FPBR**: ✅ "Black/Red" ["red"] → ["brown"] [VEHICLE_SEAT_COVER]
+- **JKSC0710R2BB**: ⏭️ already correct ("Black/Black" = ["black"])
+- **BTJKSC2013FP-Parent**: ❌ unknown color: ""
+- **WQ-VQ1G-GIFU**: ❌ unknown color: ""
+- **JLTC2018FPBW**: ⏭️ already correct ("BLACK/WHITE" = ["white"])
+- **JKSC2013FPBU**: ⏭️ already correct ("Black / Blue" = ["blue"])
+- **JKSC2013FPBK**: ❌ no color attr
+- **JKSC2013FPBC**: ✅ "Black/Coyote" ["brown"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R2BT-FXVD**: ✅ "Black/Navy" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R2BO-FXVD**: ✅ "Black/Olive Drab" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R2BK-FXVD**: ✅ "Black/Khaki" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R2BC-FXVD**: ✅ "Black/Coyote" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R2BB-FXVD**: ✅ "Black/Black" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112FPBT**: ✅ "Black/Navy" ["blue"] → ["beige"] [VEHICLE_SEAT_COVER]
+- **JKSC1112FPBO**: ✅ "Black/Olive Drab" ["green"] → ["orange"] [VEHICLE_SEAT_COVER]
+- **JKSC1112FPBN**: ✅ "Black / Orange" ["orange"] → ["blue"] [VEHICLE_SEAT_COVER]
+- **JKSC0710FPBT**: ✅ "Black/Navy" ["navy"] → ["beige"] [VEHICLE_SEAT_COVER]
+- **JKSC0710FPBO**: ✅ "Black/Olive Drab" ["green"] → ["orange"] [VEHICLE_SEAT_COVER]
+- **JKSC0710FPBK**: ✅ "khaki" ["TAN"] → ["beige"] [VEHICLE_SEAT_COVER]
+- **JKBC2013R4B**: ⏭️ already correct ("Black" = ["black"])
+- **JKBC1112FPG**: ⏭️ already correct ("Graphite" = ["gray"])
+- **D5-MCGU-E02C**: ❌ no color attr
+- **BTJKAI0710CCUB**: ✅ "Blue/Black" ["Blue"] → ["black"] [AUTO_ACCESSORY]
+- **BTJKAI0710CCNB**: ✅ "Orange/Black" ["Orange"] → ["black"] [AUTO_ACCESSORY]
+- **BTJKAI0710CCGB**: ✅ "Graphite / Black" ["Charcoal"] → ["black"] [VEHICLE_COVER]
+- **XXJC60FB-FXVD**: ❌ unknown color: "60 inch"
+- **XXDHBVB**: ⏭️ already correct ("Black Vinyl" = ["black"])
+- **WM-MUMY-K2KB**: ❌ unknown color: ""
+- **JKSC0810R4BT-FXVD**: ✅ "Black/Navy" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC0306RBBN-FXVD**: ✅ "Black/Orange" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0810R4BN-FXVD**: ✅ "Black/Orange" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R4BN-FXVD**: ✅ "Black/Orange" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **MASHKB-PARENT**: ❌ unknown color: "PALS/MOLLE Acetal Swivel Hook Every Which Way Quick Side Release Buckle Kit (Pair of 2)"
+- **JKSC1112R4BT-FXVD**: ✅ "Black/Navy" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC0306RBBT-FXVD**: ✅ "Black/Navy" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC0306RBBR-FXVD**: ✅ "Black/Red" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC2013R4BT-FXVD**: ✅ "Black/Navy" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R2BN-FXVD**: ✅ "Black/Orange" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC2013R4BN-FXVD**: ✅ "Black/Orange" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC0306FPBK**: ✅ "Black/Khaki" ["brown"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC9702FPBT**: ✅ "Black/Navy" ["blue"] → ["beige"] [VEHICLE_SEAT_COVER]
+- **TJSC9702FPBO**: ✅ "Black / Olive" ["green"] → ["orange"] [VEHICLE_SEAT_COVER]
+- **TJSC9702FPBC**: ✅ "Black / Coyote" ["brown"] → ["multicolor"] [VEHICLE_SEAT_COVER]
+- **5F-IGMX-US3B**: ⏭️ already correct ("Red Fabric" = ["red"])
+- **TJSC0306FPBO**: ✅ "Black/Olive Drab" ["green"] → ["orange"] [VEHICLE_SEAT_COVER]
+- **TJSC0306FPBR**: ✅ "Black/Red" ["red"] → ["brown"] [VEHICLE_SEAT_COVER]
+- **TJSC0306FPBG**: ✅ "Black/Graphite" ["gray"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC0306FPBB**: ⏭️ already correct ("Black/Black" = ["black"])
+- **TJSC9702FPBN**: ✅ "Black/Orange" ["orange"] → ["blue"] [VEHICLE_SEAT_COVER]
+- **TJSC9702FPBG**: ✅ "Black/Graphite" ["gray"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC9702FPBU**: ⏭️ already correct ("Black/Blue" = ["blue"])
+- **TJSC9702FPBK**: ✅ "Black/Khaki" ["brown"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R2BU**: ⏭️ already correct ("Black/Blue" = ["blue"])
+- **JKSC2013R4BU**: ⏭️ already correct ("Black/Blue" = ["blue"])
+- **TJSC9702RBBC-FXVD**: ✅ "Black/Coyote" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **CX-6U8W-CQDV**: ⏭️ already correct ("Black Vinyl" = ["black"])
+- **JKSC1112R4BO-FXVD**: ✅ "Black/Olive Drab" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **XXFSBY**: ❌ unknown color: "Yellow"
+- **RBIAFEH10A**: ✅ "ACU Camo" ["gray"] → ["multicolor"] [AUTO_ACCESSORY]
+- **JKSC2013R2BO-FXVD**: ✅ "Black/Olive Drab" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **RBIAFEH10G**: ⏭️ already correct ("Graphite" = ["gray"])
+- **RBIAFEH10K**: ✅ "Khaki" ["TAN"] → ["beige"] [AUTO_ACCESSORY]
+- **JKSC2013R4BO-FXVD**: ✅ "Black/Olive Drab" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R4BK-FXVD**: ✅ "Black/Khaki" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC2013R4BC-FXVD**: ✅ "Black/Coyote" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TAOGHHPBY**: ⏭️ already correct ("Black/Yellow" = ["black"])
+- **TAOGHUPBI**: ⏭️ already correct ("Black/Pink Camo" = ["black"])
+- **TAOGHUPBH**: ⏭️ already correct ("Black/Chameleon" = ["black"])
+- **TAOGHUPBL**: ⏭️ already correct ("Black/Gecko" = ["black"])
+- **TAOGHUPBC**: ⏭️ already correct ("Black/Coyote" = ["black"])
+- **TAOGHUPBJ**: ⏭️ already correct ("Black/Orange Camo" = ["black"])
+- **TAOGHUPBP**: ⏭️ already correct ("Black/Hot Pink" = ["black"])
+- **TAOGHUPBE**: ⏭️ already correct ("Black/Urban Camo" = ["black"])
+- **TAOGHUPBM**: ✅ "Black/Multicam" ["black"] → ["green"] [HARDWARE_HANDLE]
+- **TAOGHUPBF**: ⏭️ already correct ("Black/Anvil" = ["black"])
+- **TAOGHUPBD**: ⏭️ already correct ("Black/Dozer" = ["black"])
+- **TAOGHUPBN**: ✅ "Black/Neon Orange" ["black"] → ["blue"] [HARDWARE_HANDLE]
+- **TAOGHUPBZ**: ⏭️ already correct ("Black/Cosmos Blue" = ["black"])
+- **TJSC0306RBBO-FXVD**: ✅ "Black/Olive Drab" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC9702RBBO-FXVD**: ✅ "Black/Olive Drab" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0810R4BO-FXVD**: ✅ "Black/Olive Drab" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **RBIAFEH50B**: ⏭️ already correct ("Black" = ["black"])
+- **JKSC0810R4BK-FXVD**: ✅ "Black/Khaki" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC0306RBBK-FXVD**: ✅ "Black/Khaki" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0710R2BG-FXVD**: ✅ "Black/Graphite" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0810R4BR-FXVD**: ✅ "Black/Red" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **WCWZEFU**: ⏭️ already correct ("Blue Fabric" = ["blue"])
+- **WCWZEVW**: ⏭️ already correct ("White Vinyl" = ["white"])
+- **TJSC0306RBBC-FXVD**: ✅ "Black/Coyote" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC9702RBBK-FXVD**: ✅ "Black/Khaki" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0810R4BB-FXVD**: ✅ "Black/Black" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC9702RBBT-FXVD**: ✅ "Black/Navy" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC9702RBBN-FXVD**: ✅ "Black/Orange" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0810R4BC-FXVD**: ✅ "Black/Coyote" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC9702RBBG-FXVD**: ✅ "Black/Graphite" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **TJSC9702RBBR-FXVD**: ✅ "Black/Red" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC0710R2BR-FXVD**: ✅ "Black/Red" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **MASDKB-FXVD**: ❌ unknown color: "PALS/MOLLE Acetal Heavy Duty Swivel Hook Every Which Way Quick Side Release Buckle Kit (Pair of 2)"
+- **JKSC2013R4BK-FXVD**: ✅ "Black/Khaki" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+- **JKSC1112R4BC-FXVD**: ✅ "Black/Coyote" ["Black"] → ["black"] [VEHICLE_SEAT_COVER]
+
+## Unit Count Fixes
+- **JLMP140502G**: fixed (INVALID) [CADDY]
+- **FBIACPLM-B**: fixed (INVALID) [CADDY]
+- **FBFDBMV2-P-B**: fixed (INVALID) [CADDY]
+- **FBFDBMV2-D-B**: fixed (INVALID) [CADDY]
+- **FBFDBMV2-2-B**: fixed (INVALID) [CADDY]
+- **LSBTBS-38-FXVD**: fixed (INVALID) [CARGO_STRAP]
+- **RBFEFEH25T**: fixed (INVALID) [MOUNT_BRACKET]
+- **RBFEFEH25C**: fixed (INVALID) [MOUNT_BRACKET]
+- **TAOGHHPBI**: fixed (INVALID) [HARDWARE_HANDLE]
+- **TAOGHRPBV**: fixed (INVALID) [HARDWARE_HANDLE]
+- **TAOGHHPBK**: fixed (INVALID) [HARDWARE_HANDLE]
+- **TAOGHRPBI**: fixed (INVALID) [HARDWARE_HANDLE]
+- **XXFSBG**: fixed (INVALID) [CADDY]
+- **TAOGHHPBQ**: fixed (INVALID) [HARDWARE_HANDLE]
+- **TAOGHHPBD**: fixed (INVALID) [HARDWARE_HANDLE]
+- **RBIAFEH50R**: fixed (INVALID) [MOUNT_BRACKET]
+
+## Other Issues (not auto-fixable)
+- **JTIA2019CCNB**: The main image is missing or incorrect. Please submit a compliant image to lift ; We do not support the file type of the image uploaded. Please refer to https://s
+- **JLVM2019FC**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **TH-98SB-FHGY**: We do not support the file type of the image uploaded. Please refer to https://s
+- **JLMP140502C**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JLVM2019FK**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JLMP140502R**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **8Z-QYB4-ORS4**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark; We believe the main image has text, logo, graphic or watermark which is not perm
+- **JLVM2019FM**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JLMP140502A**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **BTJKAI0710CCCC**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **BTJKAI0710CCCB**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JKSC2007R4BB**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JTIA2019CCRB**: We do not support the file type of the image uploaded. Please refer to https://s
+- **JTIA2019CCBB**: We do not support the file type of the image uploaded. Please refer to https://s
+- **JTIA2019CCGB**: We do not support the file type of the image uploaded. Please refer to https://s
+- **708624736663**: An internal error occurred. Please resubmit . For more details, see http://selle
+- **JTVM2019FO**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JTVM2019FM**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JTVM2019FC**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JTIA2019CCTB**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JTIA2019CCOB**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JTIA2019CCMB**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JTIA2019CCKB**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JLVM2019FO**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JLTC2018F2BK-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JLTC2018F2BG-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JLMP140502M**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JLBC2018F2G**: This ASIN is suppressed due to problems with its parent ASIN B07Z42HMPW. Please ; We believe the main image has text, logo, graphic or watermark which is not perm
+- **JLBC2018F2B**: This ASIN is suppressed due to problems with its parent ASIN B07Z42HMPW. Please ; We believe the main image has text, logo, graphic or watermark which is not perm
+- **JLAC2018FPBA**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JKSC1112R2BR-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JKAC0710FP-PARENT**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **BTJKAI0710CCOB**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **BTJKAI0710CCAB**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **XXBPTB-FXVD**: The MAIN image you submitted for US/Global has non-pure white background which i
+- **JLMP140502O**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **FBIAMPFP-MP**: 'Product Compliance Certificate' is required but missing.
+- **FBIAMPFP**: 'Product Compliance Certificate' is required but missing.
+- **FBIAMPFD-MP**: 'Product Compliance Certificate' is required but missing.
+- **FBIAMPFD**: 'Product Compliance Certificate' is required but missing.
+- **FBIAMPF2-MP**: 'Product Compliance Certificate' is required but missing.
+- **FBIAMPF2**: 'Product Compliance Certificate' is required but missing.
+- **C8-GIDS-XZ5F**: Your offer is paused because you cancelled multiple customer orders. To confirm 
+- **PVCMEDWR-FXVD**: Trademark misuse
+- **MASMKB-PARENT**: The MAIN image you submitted for US/Global has non-pure white background which i
+- **MASMKB-FXVD**: The MAIN image you submitted for US/Global has non-pure white background which i
+- **MAHDTB-FXVD**: 'Department Name' is required but missing.
+- **MAMDTB-FXVD**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **MARSRK-C-PARENT**: The MAIN image you submitted for US/Global has non-pure white background which i
+- **MARSRK-C-FXVD**: 'Department Name' is required but missing.
+- **FLAGLP23RL-FXVD**: Trademark Text Misuse Velcro
+- **RBFEFEH25U**: This product has other listing limitations.; Copyright Infringement; In order to sell this product on the Amazon marketplace, you must provide docume; Copyright Infringement
+- **JKSC1112R4B-PARENT**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **TJSC9702FPB-PARENT**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **TJSC9702RBBA-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JKSC0710R2BM-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **MASHKB-FXVD**: 'Department Name' is required but missing.
+- **TJSC0306FPBN-FXVD**: Trademark misuse
+- **TJSC0306FPBU-FXVD**: Trademark misuse
+- **TJSC9702FPBA-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **BTJKSC0710R2-Parent**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **BTJKSC2013R4-Parent**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **4N-UD1Q-6FCC**: Trademark on Product Detail Page
+- **BGB7W-AS**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JKSC2013R4BR-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark; The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **BGB8W-AM**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JKSC2013R4BG-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **EJ-P49N-2F8S**: Trademark on Product Detail Page
+- **XXPZ5N**: The Listing data provided is different from what's already in the Amazon catalog
+- **JKSC2013R4B-PARENT**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JKSC1112R4BG-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **BGB6W-AS**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **XM-MH5P-L26G**: The MAIN image you submitted for US/Global has non-pure white background which i
+- **BGB8W-AS**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **RBIAFEH10M**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **BGB8W-A2**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **BGB8W-YS**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **QR-1R9G-COTC**: Trademark on Product Detail Page
+- **2H-K9FK-IKHX**: Trademark on Product Detail Page
+- **JKSC1112R4BB-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JKSC2013R4BB-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **BGB8W-YL**: The main image is missing or incorrect. Please submit a compliant image to lift 
+- **JKSC0810R4BG-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JKSC0710R2B-PARENT**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **TJSC0306RBBM-FXVD**: We believe the main image has text, logo, graphic or watermark which is not perm; The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **BTJKSC1112R4-Parent**: We believe the main image has text, logo, graphic or watermark which is not perm; The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **TJSC0306RBBB-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **TJSC0306RBBG-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **TJSC0306RB-PARENT**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JKSC0810R4B-PARENT**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **TJSC9702RBBM-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark; We believe the main image has text, logo, graphic or watermark which is not perm
+- **JKSC1112R4BR-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+- **JKSC1112R2BG-FXVD**: The MAIN image you submitted for US/Global has text, logo, graphic and watermark
+
+## Phase 3: Color Corrections (re-fix + rescan)
+_Run at 2026-04-14T17:02Z_
+
+### Summary
+- Re-fixed from Phase 2 errors: 21 SKUs
+- Rescanned remaining: 87 SKUs  
+- **Fixed: 67** | Already correct: 32 | Failed: 9
+
+### Details
+- ✅ **JKSC2007R4BR**: "Black/Red" ["brown"] → ["red"] [AUTO_ACCESSORY]
+- ✅ **JKSC2007R4BO**: "Black/Olive Drab" ["orange"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC2007R4BC**: "Black/Coyote" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0710FPBR**: "Black/Red" ["brown"] → ["red"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC2013FPBR**: "Black/Red" ["brown"] → ["red"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC2013FPBC**: "Black/Coyote" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112FPBT**: "Black/Navy" ["beige"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112FPBO**: "Black/Olive Drab" ["orange"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112FPBN**: "Black / Orange" ["blue"] → ["orange"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0710FPBT**: "Black/Navy" ["beige"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0710FPBO**: "Black/Olive Drab" ["orange"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702FPBT**: "Black/Navy" ["beige"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702FPBO**: "Black / Olive" ["orange"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702FPBC**: "Black / Coyote" ["multicolor"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC0306FPBO**: "Black/Olive Drab" ["orange"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC0306FPBR**: "Black/Red" ["brown"] → ["red"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC0306FPBG**: "Black/Graphite" ["black"] → ["gray"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702FPBN**: "Black/Orange" ["blue"] → ["orange"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702FPBG**: "Black/Graphite" ["black"] → ["gray"] [VEHICLE_SEAT_COVER]
+- ✅ **TAOGHUPBM**: "Black/Multicam" ["green"] → ["multicolor"] [HARDWARE_HANDLE]
+- ✅ **TAOGHUPBN**: "Black/Neon Orange" ["blue"] → ["orange"] [HARDWARE_HANDLE]
+- ✅ **JKSC1112FPBK**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ⏭️ **JKSC0710FPBU**: already correct ("blue" = ["blue"])
+- ⏭️ **JKSC2007R4BU**: already correct ("Black/Blue" = ["blue"])
+- ✅ **JKSC2007R4BK**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ⏭️ **JKSC0710R2BB**: already correct ("Black/Black" = ["black"])
+- ❌ **BTJKSC2013FP-Parent**: cannot map ""
+- ❌ **WQ-VQ1G-GIFU**: cannot map ""
+- ⏭️ **JLTC2018FPBW**: already correct ("BLACK/WHITE" = ["white"])
+- ⏭️ **JKSC2013FPBU**: already correct ("Black / Blue" = ["blue"])
+- ❌ **JKSC2013FPBK**: no color attr
+- ✅ **JKSC1112R2BT-FXVD**: "Black/Navy" ["black"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112R2BO-FXVD**: "Black/Olive Drab" ["black"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112R2BK-FXVD**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112R2BC-FXVD**: "Black/Coyote" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ⏭️ **JKSC1112R2BB-FXVD**: already correct ("Black/Black" = ["black"])
+- ⏭️ **JKSC0710FPBK**: already correct ("khaki" = ["beige"])
+- ⏭️ **JKBC2013R4B**: already correct ("Black" = ["black"])
+- ⏭️ **JKBC1112FPG**: already correct ("Graphite" = ["gray"])
+- ❌ **D5-MCGU-E02C**: no color attr
+- ⏭️ **BTJKAI0710CCUB**: already correct ("Blue/Black" = ["black"])
+- ⏭️ **BTJKAI0710CCNB**: already correct ("Orange/Black" = ["black"])
+- ⏭️ **BTJKAI0710CCGB**: already correct ("Graphite / Black" = ["black"])
+- ❌ **XXJC60FB-FXVD**: cannot map "60 inch"
+- ⏭️ **XXDHBVB**: already correct ("Black Vinyl" = ["black"])
+- ❌ **WM-MUMY-K2KB**: cannot map ""
+- ✅ **JKSC0810R4BT-FXVD**: "Black/Navy" ["black"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC0306RBBN-FXVD**: "Black/Orange" ["black"] → ["orange"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0810R4BN-FXVD**: "Black/Orange" ["black"] → ["orange"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112R4BN-FXVD**: "Black/Orange" ["black"] → ["orange"] [VEHICLE_SEAT_COVER]
+- ❌ **MASHKB-PARENT**: cannot map "PALS/MOLLE Acetal Swivel Hook Every Which Way Quick Side Release Buckle Kit (Pair of 2)"
+- ✅ **JKSC1112R4BT-FXVD**: "Black/Navy" ["black"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC0306RBBT-FXVD**: "Black/Navy" ["black"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC0306RBBR-FXVD**: "Black/Red" ["black"] → ["red"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC2013R4BT-FXVD**: "Black/Navy" ["black"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112R2BN-FXVD**: "Black/Orange" ["black"] → ["orange"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC2013R4BN-FXVD**: "Black/Orange" ["black"] → ["orange"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC0306FPBK**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ⏭️ **5F-IGMX-US3B**: already correct ("Red Fabric" = ["red"])
+- ⏭️ **TJSC0306FPBB**: already correct ("Black/Black" = ["black"])
+- ⏭️ **TJSC9702FPBU**: already correct ("Black/Blue" = ["blue"])
+- ✅ **TJSC9702FPBK**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ⏭️ **JKSC1112R2BU**: already correct ("Black/Blue" = ["blue"])
+- ⏭️ **JKSC2013R4BU**: already correct ("Black/Blue" = ["blue"])
+- ✅ **TJSC9702RBBC-FXVD**: "Black/Coyote" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ⏭️ **CX-6U8W-CQDV**: already correct ("Black Vinyl" = ["black"])
+- ✅ **JKSC1112R4BO-FXVD**: "Black/Olive Drab" ["black"] → ["green"] [VEHICLE_SEAT_COVER]
+- ❌ **XXFSBY**: cannot map "Yellow"
+- ⏭️ **RBIAFEH10A**: already correct ("ACU Camo" = ["multicolor"])
+- ✅ **JKSC2013R2BO-FXVD**: "Black/Olive Drab" ["black"] → ["green"] [VEHICLE_SEAT_COVER]
+- ⏭️ **RBIAFEH10G**: already correct ("Graphite" = ["gray"])
+- ⏭️ **RBIAFEH10K**: already correct ("Khaki" = ["beige"])
+- ✅ **JKSC2013R4BO-FXVD**: "Black/Olive Drab" ["black"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112R4BK-FXVD**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC2013R4BC-FXVD**: "Black/Coyote" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ⏭️ **TAOGHHPBY**: already correct ("Black/Yellow" = ["black"])
+- ✅ **TAOGHUPBI**: "Black/Pink Camo" ["black"] → ["pink"] [HARDWARE_HANDLE]
+- ⏭️ **TAOGHUPBH**: already correct ("Black/Chameleon" = ["black"])
+- ⏭️ **TAOGHUPBL**: already correct ("Black/Gecko" = ["black"])
+- ✅ **TAOGHUPBC**: "Black/Coyote" ["black"] → ["beige"] [HARDWARE_HANDLE]
+- ✅ **TAOGHUPBJ**: "Black/Orange Camo" ["black"] → ["multicolor"] [HARDWARE_HANDLE]
+- ✅ **TAOGHUPBP**: "Black/Hot Pink" ["black"] → ["pink"] [HARDWARE_HANDLE]
+- ✅ **TAOGHUPBE**: "Black/Urban Camo" ["black"] → ["multicolor"] [HARDWARE_HANDLE]
+- ⏭️ **TAOGHUPBF**: already correct ("Black/Anvil" = ["black"])
+- ⏭️ **TAOGHUPBD**: already correct ("Black/Dozer" = ["black"])
+- ⏭️ **TAOGHUPBZ**: already correct ("Black/Cosmos Blue" = ["black"])
+- ✅ **TJSC0306RBBO-FXVD**: "Black/Olive Drab" ["black"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702RBBO-FXVD**: "Black/Olive Drab" ["black"] → ["green"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0810R4BO-FXVD**: "Black/Olive Drab" ["black"] → ["green"] [VEHICLE_SEAT_COVER]
+- ⏭️ **RBIAFEH50B**: already correct ("Black" = ["black"])
+- ✅ **JKSC0810R4BK-FXVD**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC0306RBBK-FXVD**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0710R2BG-FXVD**: "Black/Graphite" ["black"] → ["gray"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0810R4BR-FXVD**: "Black/Red" ["black"] → ["red"] [VEHICLE_SEAT_COVER]
+- ⏭️ **WCWZEFU**: already correct ("Blue Fabric" = ["blue"])
+- ⏭️ **WCWZEVW**: already correct ("White Vinyl" = ["white"])
+- ✅ **TJSC0306RBBC-FXVD**: "Black/Coyote" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702RBBK-FXVD**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ⏭️ **JKSC0810R4BB-FXVD**: already correct ("Black/Black" = ["black"])
+- ✅ **TJSC9702RBBT-FXVD**: "Black/Navy" ["black"] → ["blue"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702RBBN-FXVD**: "Black/Orange" ["black"] → ["orange"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0810R4BC-FXVD**: "Black/Coyote" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702RBBG-FXVD**: "Black/Graphite" ["black"] → ["gray"] [VEHICLE_SEAT_COVER]
+- ✅ **TJSC9702RBBR-FXVD**: "Black/Red" ["black"] → ["red"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC0710R2BR-FXVD**: "Black/Red" ["black"] → ["red"] [VEHICLE_SEAT_COVER]
+- ❌ **MASDKB-FXVD**: cannot map "PALS/MOLLE Acetal Heavy Duty Swivel Hook Every Which Way Quick Side Release Buckle Kit (Pair of 2)"
+- ✅ **JKSC2013R4BK-FXVD**: "Black/Khaki" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+- ✅ **JKSC1112R4BC-FXVD**: "Black/Coyote" ["black"] → ["beige"] [VEHICLE_SEAT_COVER]
+
+## Phase 4: Remaining Color Failure Inspection
+_Run at 2026-04-14T17:04Z_
+
+### Findings
+- **BTJKSC2013FP-Parent**: productType=VEHICLE_SEAT_COVER; colorCount=1; value=""; current=["black"]; issues=99022,99022
+- **WQ-VQ1G-GIFU**: productType=VEHICLE_SEAT_COVER; colorCount=1; value=""; current=["black"]; issues=99022,99022
+- **JKSC2013FPBK**: productType=VEHICLE_SEAT_COVER; colorCount=0; value=""; current=[]; issues=99022,99022
+- **D5-MCGU-E02C**: productType=VEHICLE_SEAT_COVER; colorCount=0; value=""; current=[]; issues=99022,99022
+- **XXJC60FB-FXVD**: productType=AUTO_ACCESSORY; colorCount=1; value="60 inch"; current=["Black"]; issues=100899
+- **WM-MUMY-K2KB**: productType=VEHICLE_SEAT_COVER; colorCount=1; value=""; current=["black"]; issues=99022,99022
+- **MASHKB-PARENT**: productType=BODY_STRAP; colorCount=1; value="PALS/MOLLE Acetal Swivel Hook Every Which Way Quick Side Release Buckle Kit (Pair of 2)"; current=[]; issues=90225
+- **XXFSBY**: productType=CADDY; colorCount=1; value="Yellow"; current=["yellow"]; issues=99022,99022
+- **MASDKB-FXVD**: productType=BUCKLE; colorCount=1; value="PALS/MOLLE Acetal Heavy Duty Swivel Hook Every Which Way Quick Side Release Buckle Kit (Pair of 2)"; current=["Black"]; issues=90225
+
+### Fixes
+- none
+
+## Phase 5: Missing Color Value Backfill
+_Run at 2026-04-14T17:05Z_
+
+- **BTJKSC2013FP-Parent**: no defensible sku color inference
+- **WQ-VQ1G-GIFU**: no defensible sku color inference
+- **JKSC2013FPBK**: patched {"value":"Black","standardized_values":["black"]}; HTTP 200; status=ACCEPTED; issues=none
+- **D5-MCGU-E02C**: no defensible sku color inference
+- **WM-MUMY-K2KB**: no defensible sku color inference
+- **XXFSBY**: patched {"value":"Yellow","standardized_values":["yellow"]}; HTTP 200; status=ACCEPTED; issues=none

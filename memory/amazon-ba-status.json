@@ -1,0 +1,26 @@
+{
+  "search-terms": {
+    "id": "272170020578",
+    "state": "FATAL",
+    "documentId": "amzn1.spdoc.1.4.na.6515a0d7-2360-427d-a086-62d84c387713.T29PT2X0SSO81W.5600"
+  },
+  "search-query-performance": {
+    "id": "272171020578",
+    "state": "IN_PROGRESS"
+  },
+  "repeat-purchase": {
+    "id": "272172020578",
+    "state": "FATAL",
+    "documentId": "amzn1.spdoc.1.4.na.44d1a626-386e-4166-a6d5-68a5deade00e.T1G4STBERHBYE2.2900"
+  },
+  "market-basket": {
+    "id": "272173020578",
+    "state": "FATAL",
+    "documentId": "amzn1.spdoc.1.4.na.417c0768-2abf-41c5-ae12-1cbf48a95bce.TF2YKF7RGQEE9.88700"
+  },
+  "item-comparison": {
+    "id": "272174020578",
+    "state": "FATAL",
+    "documentId": "amzn1.spdoc.1.4.na.054d7dee-ba6b-45b5-9dd1-cbb1c39f579f.T125TNLOR5HO5Y.95300"
+  }
+}

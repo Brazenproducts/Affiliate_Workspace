@@ -1,0 +1,702 @@
+{
+  "Luxury Beauty (10%)": [
+    {
+      "domain": "bestluxuryperfume.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestnicheperfume.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxuryskincare.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxurymakeup.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestdesignerfragrance.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxuryfragrance.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxurycologne.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestnichefragrance.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxurylotion.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxuryserum.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxuryeyecream.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxuryfacecream.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmensluxurycologne.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestwomensluxuryperfume.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxuryhaircare.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxurylipstick.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxuryfoundation.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxurymascara.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestluxurybeauty.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    }
+  ],
+  "Kitchen (4.5%)": [
+    {
+      "domain": "bestespressomachine.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "beststandmixer.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestsousvide.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestrangehood.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcoffeegrinder.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestimmersionblender.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestpastamaker.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestdutchoven.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcookwareset.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestnonstickpan.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcastironskillet.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestknifeset.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbreadmaker.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestricecooker.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestfoodprocessor.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestjuicer.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestpelletgrill.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestoutdoorkitchen.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmeatgrinder.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestvacuumsealer.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmilkfrother.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestautodripcoffeemaker.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestpressurecooker.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "besttoasteroven.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestwaffleiron.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestelectrickettle.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcoffeemaker.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestkitchenscale.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    }
+  ],
+  "Automotive (4.5%)": [
+    {
+      "domain": "bestcarwashkit.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcarwax.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbatterycharger.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestdashcam.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestjumpstarter.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcardetailing.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcarpolisher.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestobd2scanner.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "besttireinflator.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcarvacuum.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcarcover.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestrooftopcargo.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcarseatcover.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestfloormats.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcarphone-mount.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbacku-pcamera.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "besttowingstrap.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestleafblower.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestpressurewasher.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcarcleaningkit.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbikeracksuv.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "besttruckbedliner.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestautomotivetools.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "besttirepatch.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmotoroil.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestairfreshener-car.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestwiperblades.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestheadlightrestoration.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    }
+  ],
+  "Furniture/Home (3% high-$)": [
+    {
+      "domain": "beststandingdesk.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestofficechair.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmattress2026.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestrecliner.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestsectionalsofa.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbedframe.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestdiningtable.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestkingmattress.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmemoryfoammattress.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestadjustablebed.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestdesk-chair.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmasagechair.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestpatiofurniture.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestoutdoorsofa.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmurphybed.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestplatformbed.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestnightstands.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbookshelves.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbarstools.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbarcabinet.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    }
+  ],
+  "Tools (3% high-$)": [
+    {
+      "domain": "bestcordlessdrill.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmitersaw.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "besttablesaw.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "besttoolchest.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestgenerator.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestpressurewasher2026.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbenchgrinder.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestrouter-tool.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestairsander.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestnailgun.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestjigsaw.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestreciprocatingsaw.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestplaner.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestdrumsander.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestbandsaw.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestcombinationsquare.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestlevelset.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "beststudfinder.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestlasermeasure.com",
+      "available": true,
+      "price": 12.99,
+      "currency": "USD"
+    },
+    {
+      "domain": "bestmultitool.com",
+      "available": false,
+      "price": null,
+      "currency": "USD"
+    }
+  ]
+}

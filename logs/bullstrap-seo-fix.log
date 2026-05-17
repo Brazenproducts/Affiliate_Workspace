@@ -1,0 +1,482 @@
+Resuming from since_id: 0 | Total fixed: 0 | Images fixed: 0
+Resuming from since_id: 8259819995409 | Total fixed: 0 | Images fixed: 0
+Batch done: processed 250 | fixed 0 | images 0 | skipped 250 | since_id 10410820239633
+Batch done: processed 500 | fixed 0 | images 0 | skipped 500 | since_id 10410837803281
+Batch done: processed 750 | fixed 0 | images 0 | skipped 750 | since_id 10410851991825
+Batch done: processed 1000 | fixed 0 | images 0 | skipped 1000 | since_id 10410867949841
+Batch done: processed 1250 | fixed 0 | images 0 | skipped 1250 | since_id 10410883645713
+Batch done: processed 1500 | fixed 175 | images 1363 | skipped 1325 | since_id 10410898817297
+Batch done: processed 1750 | fixed 425 | images 2590 | skipped 1325 | since_id 10410914906385
+Batch done: processed 2000 | fixed 675 | images 4219 | skipped 1325 | since_id 10410927915281
+Batch done: processed 2250 | fixed 925 | images 6215 | skipped 1325 | since_id 10410942497041
+Batch done: processed 2500 | fixed 1175 | images 8145 | skipped 1325 | since_id 10410957340945
+Batch done: processed 2750 | fixed 1425 | images 9950 | skipped 1325 | since_id 10410975396113
+Batch done: processed 3000 | fixed 1675 | images 11177 | skipped 1325 | since_id 10410998333713
+Batch done: processed 3250 | fixed 1925 | images 12014 | skipped 1325 | since_id 10411016749329
+Batch done: processed 3500 | fixed 2175 | images 12974 | skipped 1325 | since_id 10411033002257
+Batch done: processed 3750 | fixed 2425 | images 14803 | skipped 1325 | since_id 10411046076689
+Batch done: processed 4000 | fixed 2675 | images 16860 | skipped 1325 | since_id 10411061543185
+Batch done: processed 4250 | fixed 2925 | images 18254 | skipped 1325 | since_id 10411081040145
+Batch done: processed 4500 | fixed 3175 | images 18520 | skipped 1325 | since_id 10411097489681
+Batch done: processed 4750 | fixed 3425 | images 18895 | skipped 1325 | since_id 10411111973137
+Batch done: processed 5000 | fixed 3675 | images 20428 | skipped 1325 | since_id 10411155783953
+
+=== RUN COMPLETE ===
+This run: 3675 products, 20428 images fixed
+Cumulative: 3675 products, 20428 images
+Next since_id: 10411155783953
+Resuming from since_id: 10411155783953 | Total fixed: 3675 | Images fixed: 20428
+Batch done: processed 250 | fixed 250 | images 1765 | skipped 0 | since_id 10411171021073
+Run: 250 products fixed, 1765 images | Total: 3925 products, 22193 images | Processed: 5500
+Batch done: processed 500 | fixed 500 | images 2198 | skipped 0 | since_id 10411184488721
+Run: 500 products fixed, 2198 images | Total: 4175 products, 22626 images | Processed: 5750
+Batch done: processed 750 | fixed 750 | images 4821 | skipped 0 | since_id 10411201495313
+Run: 750 products fixed, 4821 images | Total: 4425 products, 25249 images | Processed: 6000
+Error: Unexpected token '<', "<html>
+<h"... is not valid JSON
+Resuming from since_id: 10411201495313 | Total fixed: 4425 | Images fixed: 25249
+Batch done: processed 250 | fixed 30 | images 387 | skipped 220 | since_id 10411216896273
+Batch done: processed 500 | fixed 280 | images 2508 | skipped 220 | since_id 10411236491537
+Batch done: processed 750 | fixed 530 | images 4437 | skipped 220 | since_id 10411249893649
+Batch done: processed 1000 | fixed 780 | images 4871 | skipped 220 | since_id 10411262345489
+Batch done: processed 1250 | fixed 1030 | images 5138 | skipped 220 | since_id 10411272798481
+Batch done: processed 1500 | fixed 1280 | images 5412 | skipped 220 | since_id 10411285709073
+Batch done: processed 1750 | fixed 1530 | images 5683 | skipped 220 | since_id 10411302387985
+Batch done: processed 2000 | fixed 1780 | images 5941 | skipped 220 | since_id 10411312349457
+Batch done: processed 2250 | fixed 2030 | images 7583 | skipped 220 | since_id 10411337056529
+Batch done: processed 2500 | fixed 2280 | images 9911 | skipped 220 | since_id 10411355406609
+Batch done: processed 2750 | fixed 2530 | images 12152 | skipped 220 | since_id 10411370381585
+Batch done: processed 3000 | fixed 2780 | images 14089 | skipped 220 | since_id 10411382964497
+Batch done: processed 3250 | fixed 3030 | images 15980 | skipped 220 | since_id 10411407147281
+Batch done: processed 3500 | fixed 3280 | images 16318 | skipped 220 | since_id 10411422810385
+Batch done: processed 3750 | fixed 3530 | images 16983 | skipped 220 | since_id 10411441455377
+Batch done: processed 4000 | fixed 3780 | images 18223 | skipped 220 | since_id 10411454365969
+Error: socket hang up
+Resuming from since_id: 10411201495313 | Total fixed: 4425 | Images fixed: 25249
+Batch done: processed 250 | fixed 0 | images 0 | skipped 250 | since_id 10411216896273
+Batch done: processed 500 | fixed 0 | images 0 | skipped 500 | since_id 10411236491537
+Batch done: processed 750 | fixed 0 | images 0 | skipped 750 | since_id 10411249893649
+Batch done: processed 1000 | fixed 0 | images 0 | skipped 1000 | since_id 10411262345489
+Batch done: processed 1250 | fixed 0 | images 0 | skipped 1250 | since_id 10411272798481
+Batch done: processed 1500 | fixed 0 | images 0 | skipped 1500 | since_id 10411285709073
+Batch done: processed 1750 | fixed 0 | images 0 | skipped 1750 | since_id 10411302387985
+Batch done: processed 2000 | fixed 0 | images 0 | skipped 2000 | since_id 10411312349457
+Batch done: processed 2250 | fixed 0 | images 0 | skipped 2250 | since_id 10411337056529
+Batch done: processed 2500 | fixed 0 | images 0 | skipped 2500 | since_id 10411355406609
+Batch done: processed 2750 | fixed 0 | images 0 | skipped 2750 | since_id 10411370381585
+Batch done: processed 3000 | fixed 0 | images 0 | skipped 3000 | since_id 10411382964497
+Batch done: processed 3250 | fixed 0 | images 0 | skipped 3250 | since_id 10411407147281
+Batch done: processed 3500 | fixed 0 | images 0 | skipped 3500 | since_id 10411422810385
+Batch done: processed 3750 | fixed 0 | images 0 | skipped 3750 | since_id 10411441455377
+Batch done: processed 4000 | fixed 0 | images 0 | skipped 4000 | since_id 10411454365969
+Batch done: processed 4250 | fixed 138 | images 541 | skipped 4112 | since_id 10411468161297
+Batch done: processed 4500 | fixed 388 | images 1121 | skipped 4112 | since_id 10411487789329
+Batch done: processed 4750 | fixed 638 | images 1373 | skipped 4112 | since_id 10411498635537
+Batch done: processed 5000 | fixed 888 | images 1623 | skipped 4112 | since_id 10411509317905
+
+=== RUN COMPLETE ===
+This run: 888 products, 1623 images fixed
+Cumulative: 5313 products, 26872 images
+Next since_id: 10411509317905
+Resuming from since_id: 10411509317905 | Total fixed: 5313 | Images fixed: 26872
+Batch done: processed 250 | fixed 250 | images 250 | skipped 0 | since_id 10411519607057
+Run: 250 products fixed, 250 images | Total: 5563 products, 27122 images | Processed: 11250
+Batch done: processed 500 | fixed 500 | images 911 | skipped 0 | since_id 10411572920593
+Run: 500 products fixed, 911 images | Total: 5813 products, 27783 images | Processed: 11500
+Batch done: processed 750 | fixed 750 | images 1334 | skipped 0 | since_id 10411599986961
+Run: 750 products fixed, 1334 images | Total: 6063 products, 28206 images | Processed: 11750
+Batch done: processed 1000 | fixed 1000 | images 2212 | skipped 0 | since_id 10411626955025
+Run: 1000 products fixed, 2212 images | Total: 6313 products, 29084 images | Processed: 12000
+Batch done: processed 1250 | fixed 1250 | images 2951 | skipped 0 | since_id 10411650777361
+Run: 1250 products fixed, 2951 images | Total: 6563 products, 29823 images | Processed: 12250
+Batch done: processed 1500 | fixed 1500 | images 3784 | skipped 0 | since_id 10411667816721
+Run: 1500 products fixed, 3784 images | Total: 6813 products, 30656 images | Processed: 12500
+Batch done: processed 1750 | fixed 1750 | images 5543 | skipped 0 | since_id 10411690590481
+Run: 1750 products fixed, 5543 images | Total: 7063 products, 32415 images | Processed: 12750
+Batch done: processed 2000 | fixed 2000 | images 6171 | skipped 0 | since_id 10411717263633
+Run: 2000 products fixed, 6171 images | Total: 7313 products, 33043 images | Processed: 13000
+Batch done: processed 2250 | fixed 2250 | images 6844 | skipped 0 | since_id 10411730764049
+Run: 2250 products fixed, 6844 images | Total: 7563 products, 33716 images | Processed: 13250
+Batch done: processed 2500 | fixed 2500 | images 8381 | skipped 0 | since_id 10411748327697
+Run: 2500 products fixed, 8381 images | Total: 7813 products, 35253 images | Processed: 13500
+Batch done: processed 2750 | fixed 2750 | images 9606 | skipped 0 | since_id 10411764810001
+Run: 2750 products fixed, 9606 images | Total: 8063 products, 36478 images | Processed: 13750
+Batch done: processed 3000 | fixed 3000 | images 11725 | skipped 0 | since_id 10411782308113
+Run: 3000 products fixed, 11725 images | Total: 8313 products, 38597 images | Processed: 14000
+Batch done: processed 3250 | fixed 3250 | images 13217 | skipped 0 | since_id 10411798003985
+Run: 3250 products fixed, 13217 images | Total: 8563 products, 40089 images | Processed: 14250
+Batch done: processed 3500 | fixed 3500 | images 15171 | skipped 0 | since_id 10411811471633
+Run: 3500 products fixed, 15171 images | Total: 8813 products, 42043 images | Processed: 14500
+Batch done: processed 3750 | fixed 3750 | images 17131 | skipped 0 | since_id 10411824972049
+Run: 3750 products fixed, 17131 images | Total: 9063 products, 44003 images | Processed: 14750
+Batch done: processed 4000 | fixed 4000 | images 18647 | skipped 0 | since_id 10411840798993
+Run: 4000 products fixed, 18647 images | Total: 9313 products, 45519 images | Processed: 15000
+Batch done: processed 4250 | fixed 4250 | images 19267 | skipped 0 | since_id 10411853775121
+Run: 4250 products fixed, 19267 images | Total: 9563 products, 46139 images | Processed: 15250
+Batch done: processed 4500 | fixed 4500 | images 19743 | skipped 0 | since_id 10411868356881
+Run: 4500 products fixed, 19743 images | Total: 9813 products, 46615 images | Processed: 15500
+Batch done: processed 4750 | fixed 4750 | images 20202 | skipped 0 | since_id 10411885035793
+Run: 4750 products fixed, 20202 images | Total: 10063 products, 47074 images | Processed: 15750
+Batch done: processed 5000 | fixed 5000 | images 20646 | skipped 0 | since_id 10411904827665
+Run: 5000 products fixed, 20646 images | Total: 10313 products, 47518 images | Processed: 16000
+
+=== RUN COMPLETE ===
+This run: 5000 products, 20646 images fixed
+Cumulative: 10313 products, 47518 images
+Next since_id: 10411904827665
+Resuming from since_id: 10411904827665 | Total fixed: 10313 | Images fixed: 47518
+Batch done: processed 250 | fixed 250 | images 473 | skipped 0 | since_id 10411923636497
+Run: 250 products fixed, 473 images | Total: 10563 products, 47991 images | Processed: 16250
+Batch done: processed 500 | fixed 500 | images 1481 | skipped 0 | since_id 10411937988881
+Run: 500 products fixed, 1481 images | Total: 10813 products, 48999 images | Processed: 16500
+Batch done: processed 750 | fixed 750 | images 2584 | skipped 0 | since_id 10411974328593
+Run: 750 products fixed, 2584 images | Total: 11063 products, 50102 images | Processed: 16750
+Batch done: processed 1000 | fixed 1000 | images 3361 | skipped 0 | since_id 10411987206417
+Run: 1000 products fixed, 3361 images | Total: 11313 products, 50879 images | Processed: 17000
+Batch done: processed 1250 | fixed 1250 | images 4129 | skipped 0 | since_id 10412002148625
+Run: 1250 products fixed, 4129 images | Total: 11563 products, 51647 images | Processed: 17250
+Batch done: processed 1500 | fixed 1500 | images 5054 | skipped 0 | since_id 10412023578897
+Run: 1500 products fixed, 5054 images | Total: 11813 products, 52572 images | Processed: 17500
+Batch done: processed 1750 | fixed 1750 | images 6137 | skipped 0 | since_id 10412037144849
+Run: 1750 products fixed, 6137 images | Total: 12063 products, 53655 images | Processed: 17750
+Batch done: processed 2000 | fixed 2000 | images 6990 | skipped 0 | since_id 10412057886993
+Run: 2000 products fixed, 6990 images | Total: 12313 products, 54508 images | Processed: 18000
+Batch done: processed 2250 | fixed 2250 | images 7371 | skipped 0 | since_id 10412077613329
+Run: 2250 products fixed, 7371 images | Total: 12563 products, 54889 images | Processed: 18250
+Batch done: processed 2500 | fixed 2500 | images 8369 | skipped 0 | since_id 10412096979217
+Run: 2500 products fixed, 8369 images | Total: 12813 products, 55887 images | Processed: 18500
+Batch done: processed 2750 | fixed 2750 | images 8962 | skipped 0 | since_id 10412111233297
+Run: 2750 products fixed, 8962 images | Total: 13063 products, 56480 images | Processed: 18750
+Batch done: processed 3000 | fixed 3000 | images 9540 | skipped 0 | since_id 10412124602641
+Run: 3000 products fixed, 9540 images | Total: 13313 products, 57058 images | Processed: 19000
+Batch done: processed 3250 | fixed 3250 | images 11642 | skipped 0 | since_id 10412142756113
+Run: 3250 products fixed, 11642 images | Total: 13563 products, 59160 images | Processed: 19250
+Batch done: processed 3500 | fixed 3500 | images 13182 | skipped 0 | since_id 10412160483601
+Run: 3500 products fixed, 13182 images | Total: 13813 products, 60700 images | Processed: 19500
+Batch done: processed 3750 | fixed 3750 | images 13622 | skipped 0 | since_id 10412176703761
+Run: 3750 products fixed, 13622 images | Total: 14063 products, 61140 images | Processed: 19750
+Batch done: processed 4000 | fixed 4000 | images 14125 | skipped 0 | since_id 10412191940881
+Run: 4000 products fixed, 14125 images | Total: 14313 products, 61643 images | Processed: 20000
+Batch done: processed 4250 | fixed 4250 | images 14640 | skipped 0 | since_id 10412207046929
+Run: 4250 products fixed, 14640 images | Total: 14563 products, 62158 images | Processed: 20250
+Batch done: processed 4500 | fixed 4500 | images 16111 | skipped 0 | since_id 10412228247825
+Run: 4500 products fixed, 16111 images | Total: 14813 products, 63629 images | Processed: 20500
+Batch done: processed 4750 | fixed 4750 | images 16502 | skipped 0 | since_id 10412246434065
+Run: 4750 products fixed, 16502 images | Total: 15063 products, 64020 images | Processed: 20750
+Batch done: processed 5000 | fixed 5000 | images 16779 | skipped 0 | since_id 10412260491537
+Run: 5000 products fixed, 16779 images | Total: 15313 products, 64297 images | Processed: 21000
+
+=== RUN COMPLETE ===
+This run: 5000 products, 16779 images fixed
+Cumulative: 15313 products, 64297 images
+Next since_id: 10412260491537
+Resuming from since_id: 10412260491537 | Total fixed: 15313 | Images fixed: 64297
+Batch done: processed 250 | fixed 250 | images 637 | skipped 0 | since_id 10412275695889
+Run: 250 products fixed, 637 images | Total: 15563 products, 64934 images | Processed: 21250
+Batch done: processed 500 | fixed 500 | images 1387 | skipped 0 | since_id 10412288573713
+Run: 500 products fixed, 1387 images | Total: 15813 products, 65684 images | Processed: 21500
+Batch done: processed 750 | fixed 750 | images 2138 | skipped 0 | since_id 10412302008593
+Run: 750 products fixed, 2138 images | Total: 16063 products, 66435 images | Processed: 21750
+Batch done: processed 1000 | fixed 1000 | images 4037 | skipped 0 | since_id 10412331139345
+Run: 1000 products fixed, 4037 images | Total: 16313 products, 68334 images | Processed: 22000
+Batch done: processed 1250 | fixed 1250 | images 5800 | skipped 0 | since_id 10412351455505
+Run: 1250 products fixed, 5800 images | Total: 16563 products, 70097 images | Processed: 22250
+Batch done: processed 1500 | fixed 1500 | images 7164 | skipped 0 | since_id 10412362334481
+Run: 1500 products fixed, 7164 images | Total: 16813 products, 71461 images | Processed: 22500
+Batch done: processed 1750 | fixed 1750 | images 9707 | skipped 0 | since_id 10412377604369
+Run: 1750 products fixed, 9707 images | Total: 17063 products, 74004 images | Processed: 22750
+Batch done: processed 2000 | fixed 2000 | images 12645 | skipped 0 | since_id 10412406374673
+Run: 2000 products fixed, 12645 images | Total: 17313 products, 76942 images | Processed: 23000
+Batch done: processed 2250 | fixed 2250 | images 13581 | skipped 0 | since_id 10412430229777
+Run: 2250 products fixed, 13581 images | Total: 17563 products, 77878 images | Processed: 23250
+Batch done: processed 2500 | fixed 2500 | images 14683 | skipped 0 | since_id 10412449104145
+Run: 2500 products fixed, 14683 images | Total: 17813 products, 78980 images | Processed: 23500
+Batch done: processed 2750 | fixed 2750 | images 15981 | skipped 0 | since_id 10412471550225
+Run: 2750 products fixed, 15981 images | Total: 18063 products, 80278 images | Processed: 23750
+Batch done: processed 3000 | fixed 3000 | images 16750 | skipped 0 | since_id 10412496290065
+Run: 3000 products fixed, 16750 images | Total: 18313 products, 81047 images | Processed: 24000
+Batch done: processed 3250 | fixed 3250 | images 19103 | skipped 0 | since_id 10412515459345
+Run: 3250 products fixed, 19103 images | Total: 18563 products, 83400 images | Processed: 24250
+Batch done: processed 3500 | fixed 3500 | images 22307 | skipped 0 | since_id 10412532007185
+Run: 3500 products fixed, 22307 images | Total: 18813 products, 86604 images | Processed: 24500
+Batch done: processed 3750 | fixed 3750 | images 25726 | skipped 0 | since_id 10412548751633
+Run: 3750 products fixed, 25726 images | Total: 19063 products, 90023 images | Processed: 24750
+Batch done: processed 4000 | fixed 4000 | images 28728 | skipped 0 | since_id 10412567003409
+Run: 4000 products fixed, 28728 images | Total: 19313 products, 93025 images | Processed: 25000
+Batch done: processed 4250 | fixed 4250 | images 31121 | skipped 0 | since_id 10412591546641
+Run: 4250 products fixed, 31121 images | Total: 19563 products, 95418 images | Processed: 25250
+Batch done: processed 4500 | fixed 4500 | images 33313 | skipped 0 | since_id 10412621496593
+Run: 4500 products fixed, 33313 images | Total: 19813 products, 97610 images | Processed: 25500
+Batch done: processed 4750 | fixed 4750 | images 34011 | skipped 0 | since_id 10412658688273
+Run: 4750 products fixed, 34011 images | Total: 20063 products, 98308 images | Processed: 25750
+Batch done: processed 5000 | fixed 5000 | images 34637 | skipped 0 | since_id 10412689391889
+Run: 5000 products fixed, 34637 images | Total: 20313 products, 98934 images | Processed: 26000
+
+=== RUN COMPLETE ===
+This run: 5000 products, 34637 images fixed
+Cumulative: 20313 products, 98934 images
+Next since_id: 10412689391889
+Resuming from since_id: 10412689391889 | Total fixed: 20313 | Images fixed: 98934
+Batch done: processed 250 | fixed 250 | images 253 | skipped 0 | since_id 10412714426641
+Run: 250 products fixed, 253 images | Total: 20563 products, 99187 images | Processed: 26250
+Batch done: processed 500 | fixed 500 | images 895 | skipped 0 | since_id 10412731236625
+Run: 500 products fixed, 895 images | Total: 20813 products, 99829 images | Processed: 26500
+Batch done: processed 750 | fixed 750 | images 1572 | skipped 0 | since_id 10412741460241
+Run: 750 products fixed, 1572 images | Total: 21063 products, 100506 images | Processed: 26750
+Batch done: processed 1000 | fixed 1000 | images 2223 | skipped 0 | since_id 10412752044305
+Run: 1000 products fixed, 2223 images | Total: 21313 products, 101157 images | Processed: 27000
+Batch done: processed 1250 | fixed 1250 | images 2686 | skipped 0 | since_id 10412770328849
+Run: 1250 products fixed, 2686 images | Total: 21563 products, 101620 images | Processed: 27250
+Batch done: processed 1500 | fixed 1500 | images 4093 | skipped 0 | since_id 10412839895313
+Run: 1500 products fixed, 4093 images | Total: 21813 products, 103027 images | Processed: 27500
+Batch done: processed 1750 | fixed 1750 | images 4947 | skipped 0 | since_id 10412872335633
+Run: 1750 products fixed, 4947 images | Total: 22063 products, 103881 images | Processed: 27750
+Batch done: processed 2000 | fixed 2000 | images 8733 | skipped 0 | since_id 10412893110545
+Run: 2000 products fixed, 8733 images | Total: 22313 products, 107667 images | Processed: 28000
+Batch done: processed 2250 | fixed 2250 | images 15076 | skipped 0 | since_id 10412918735121
+Run: 2250 products fixed, 15076 images | Total: 22563 products, 114010 images | Processed: 28250
+Error: Unexpected token 'e', "error code: 502" is not valid JSON
+Resuming from since_id: 10412918735121 | Total fixed: 22563 | Images fixed: 114010
+Batch done: processed 250 | fixed 48 | images 48 | skipped 202 | since_id 10412943606033
+Batch done: processed 500 | fixed 298 | images 970 | skipped 202 | since_id 10412971360529
+Batch done: processed 750 | fixed 548 | images 1525 | skipped 202 | since_id 10412997280017
+Batch done: processed 1000 | fixed 798 | images 2891 | skipped 202 | since_id 10413014778129
+Batch done: processed 1250 | fixed 1048 | images 4429 | skipped 202 | since_id 10413028540689
+Batch done: processed 1500 | fixed 1298 | images 6104 | skipped 202 | since_id 10413044465937
+Batch done: processed 1750 | fixed 1548 | images 8738 | skipped 202 | since_id 10413058588945
+Batch done: processed 2000 | fixed 1798 | images 10117 | skipped 202 | since_id 10413082870033
+Batch done: processed 2250 | fixed 2048 | images 10820 | skipped 202 | since_id 10413102858513
+Batch done: processed 2500 | fixed 2298 | images 11211 | skipped 202 | since_id 10413115474193
+Batch done: processed 2750 | fixed 2548 | images 11867 | skipped 202 | since_id 10413129466129
+Batch done: processed 3000 | fixed 2798 | images 12827 | skipped 202 | since_id 10413147226385
+Batch done: processed 3250 | fixed 3048 | images 13623 | skipped 202 | since_id 10413163217169
+Batch done: processed 3500 | fixed 3298 | images 13946 | skipped 202 | since_id 10413177241873
+Batch done: processed 3750 | fixed 3548 | images 16109 | skipped 202 | since_id 10413192053009
+Batch done: processed 4000 | fixed 3798 | images 17347 | skipped 202 | since_id 10413210796305
+Batch done: processed 4250 | fixed 4048 | images 17972 | skipped 202 | since_id 10413223870737
+Batch done: processed 4500 | fixed 4298 | images 19415 | skipped 202 | since_id 10413237633297
+Batch done: processed 4750 | fixed 4548 | images 20015 | skipped 202 | since_id 10413260374289
+Batch done: processed 5000 | fixed 4798 | images 20750 | skipped 202 | since_id 10413456621841
+
+=== RUN COMPLETE ===
+This run: 4798 products, 20750 images fixed
+Cumulative: 27361 products, 134760 images
+Next since_id: 10413456621841
+Resuming from since_id: 10413456621841 | Total fixed: 27361 | Images fixed: 134760
+Batch done: processed 250 | fixed 250 | images 476 | skipped 0 | since_id 10413472252177
+Run: 250 products fixed, 476 images | Total: 27611 products, 135236 images | Processed: 33500
+Batch done: processed 500 | fixed 500 | images 1509 | skipped 0 | since_id 10414533378321
+Run: 500 products fixed, 1509 images | Total: 27861 products, 136269 images | Processed: 33750
+Batch done: processed 750 | fixed 750 | images 2197 | skipped 0 | since_id 10414708850961
+Run: 750 products fixed, 2197 images | Total: 28111 products, 136957 images | Processed: 34000
+Batch done: processed 1000 | fixed 1000 | images 2506 | skipped 0 | since_id 10414727659793
+Run: 1000 products fixed, 2506 images | Total: 28361 products, 137266 images | Processed: 34250
+Batch done: processed 1250 | fixed 1250 | images 2938 | skipped 0 | since_id 10415468970257
+Run: 1250 products fixed, 2938 images | Total: 28611 products, 137698 images | Processed: 34500
+Batch done: processed 1500 | fixed 1500 | images 3238 | skipped 0 | since_id 10415483650321
+Run: 1500 products fixed, 3238 images | Total: 28861 products, 137998 images | Processed: 34750
+Batch done: processed 1750 | fixed 1750 | images 4230 | skipped 0 | since_id 10415498264849
+Run: 1750 products fixed, 4230 images | Total: 29111 products, 138990 images | Processed: 35000
+Batch done: processed 2000 | fixed 2000 | images 4647 | skipped 0 | since_id 10415901016337
+Run: 2000 products fixed, 4647 images | Total: 29361 products, 139407 images | Processed: 35250
+Batch done: processed 2250 | fixed 2250 | images 4980 | skipped 0 | since_id 10415911764241
+Run: 2250 products fixed, 4980 images | Total: 29611 products, 139740 images | Processed: 35500
+Batch done: processed 2500 | fixed 2500 | images 5300 | skipped 0 | since_id 10415932145937
+Run: 2500 products fixed, 5300 images | Total: 29861 products, 140060 images | Processed: 35750
+Batch done: processed 2750 | fixed 2750 | images 5807 | skipped 0 | since_id 10415945711889
+Run: 2750 products fixed, 5807 images | Total: 30111 products, 140567 images | Processed: 36000
+Batch done: processed 3000 | fixed 3000 | images 7550 | skipped 0 | since_id 10418013798673
+Run: 3000 products fixed, 7550 images | Total: 30361 products, 142310 images | Processed: 36250
+Batch done: processed 3250 | fixed 3250 | images 10420 | skipped 0 | since_id 10418024907025
+Run: 3250 products fixed, 10420 images | Total: 30611 products, 145180 images | Processed: 36500
+Batch done: processed 3500 | fixed 3500 | images 11674 | skipped 0 | since_id 10418055708945
+Run: 3500 products fixed, 11674 images | Total: 30861 products, 146434 images | Processed: 36750
+Batch done: processed 3750 | fixed 3750 | images 12417 | skipped 0 | since_id 10420251722001
+Run: 3750 products fixed, 12417 images | Total: 31111 products, 147177 images | Processed: 37000
+Batch done: processed 4000 | fixed 4000 | images 13042 | skipped 0 | since_id 10420574486801
+Run: 4000 products fixed, 13042 images | Total: 31361 products, 147802 images | Processed: 37250
+Batch done: processed 4250 | fixed 4250 | images 14215 | skipped 0 | since_id 10420588970257
+Run: 4250 products fixed, 14215 images | Total: 31611 products, 148975 images | Processed: 37500
+Batch done: processed 4500 | fixed 4500 | images 15411 | skipped 0 | since_id 10422605775121
+Run: 4500 products fixed, 15411 images | Total: 31861 products, 150171 images | Processed: 37750
+Batch done: processed 4750 | fixed 4750 | images 16422 | skipped 0 | since_id 10422695461137
+Run: 4750 products fixed, 16422 images | Total: 32111 products, 151182 images | Processed: 38000
+Batch done: processed 5000 | fixed 5000 | images 17486 | skipped 0 | since_id 10424656658705
+Run: 5000 products fixed, 17486 images | Total: 32361 products, 152246 images | Processed: 38250
+
+=== RUN COMPLETE ===
+This run: 5000 products, 17486 images fixed
+Cumulative: 32361 products, 152246 images
+Next since_id: 10424656658705
+Resuming from since_id: 10424656658705 | Total fixed: 32361 | Images fixed: 152246
+Batch done: processed 250 | fixed 250 | images 1012 | skipped 0 | since_id 10424696897809
+Run: 250 products fixed, 1012 images | Total: 32611 products, 153258 images | Processed: 38500
+Batch done: processed 500 | fixed 500 | images 2502 | skipped 0 | since_id 10426766295313
+Run: 500 products fixed, 2502 images | Total: 32861 products, 154748 images | Processed: 38750
+Batch done: processed 750 | fixed 750 | images 3218 | skipped 0 | since_id 10426941931793
+Run: 750 products fixed, 3218 images | Total: 33111 products, 155464 images | Processed: 39000
+Batch done: processed 1000 | fixed 1000 | images 4105 | skipped 0 | since_id 10428257501457
+Run: 1000 products fixed, 4105 images | Total: 33361 products, 156351 images | Processed: 39250
+Batch done: processed 1250 | fixed 1250 | images 5219 | skipped 0 | since_id 10429997646097
+Run: 1250 products fixed, 5219 images | Total: 33611 products, 157465 images | Processed: 39500
+Batch done: processed 1500 | fixed 1500 | images 6845 | skipped 0 | since_id 10430013014289
+Run: 1500 products fixed, 6845 images | Total: 33861 products, 159091 images | Processed: 39750
+Batch done: processed 1750 | fixed 1750 | images 8314 | skipped 0 | since_id 10430036869393
+Run: 1750 products fixed, 8314 images | Total: 34111 products, 160560 images | Processed: 40000
+Batch done: processed 2000 | fixed 2000 | images 8993 | skipped 0 | since_id 10433166147857
+Run: 2000 products fixed, 8993 images | Total: 34361 products, 161239 images | Processed: 40250
+Batch done: processed 2250 | fixed 2250 | images 9901 | skipped 0 | since_id 10433184137489
+Run: 2250 products fixed, 9901 images | Total: 34611 products, 162147 images | Processed: 40500
+Batch done: processed 2500 | fixed 2500 | images 10595 | skipped 0 | since_id 10433660190993
+Run: 2500 products fixed, 10595 images | Total: 34861 products, 162841 images | Processed: 40750
+Batch done: processed 2750 | fixed 2750 | images 11262 | skipped 0 | since_id 10433893400849
+Run: 2750 products fixed, 11262 images | Total: 35111 products, 163508 images | Processed: 41000
+Batch done: processed 3000 | fixed 3000 | images 12217 | skipped 0 | since_id 10433910178065
+Run: 3000 products fixed, 12217 images | Total: 35361 products, 164463 images | Processed: 41250
+Batch done: processed 3250 | fixed 3250 | images 13191 | skipped 0 | since_id 10435716972817
+Run: 3250 products fixed, 13191 images | Total: 35611 products, 165437 images | Processed: 41500
+Batch done: processed 3500 | fixed 3500 | images 14581 | skipped 0 | since_id 10436054810897
+Run: 3500 products fixed, 14581 images | Total: 35861 products, 166827 images | Processed: 41750
+Batch done: processed 3750 | fixed 3750 | images 17246 | skipped 0 | since_id 10436078207249
+Run: 3750 products fixed, 17246 images | Total: 36111 products, 169492 images | Processed: 42000
+Batch done: processed 4000 | fixed 4000 | images 18267 | skipped 0 | since_id 10436369449233
+Run: 4000 products fixed, 18267 images | Total: 36361 products, 170513 images | Processed: 42250
+Batch done: processed 4250 | fixed 4250 | images 19434 | skipped 0 | since_id 10437164663057
+Run: 4250 products fixed, 19434 images | Total: 36611 products, 171680 images | Processed: 42500
+Batch done: processed 4500 | fixed 4500 | images 20436 | skipped 0 | since_id 10439005864209
+Run: 4500 products fixed, 20436 images | Total: 36861 products, 172682 images | Processed: 42750
+Batch done: processed 4750 | fixed 4750 | images 22144 | skipped 0 | since_id 10439029227793
+Run: 4750 products fixed, 22144 images | Total: 37111 products, 174390 images | Processed: 43000
+Batch done: processed 5000 | fixed 5000 | images 23632 | skipped 0 | since_id 10440453554449
+Run: 5000 products fixed, 23632 images | Total: 37361 products, 175878 images | Processed: 43250
+
+=== RUN COMPLETE ===
+This run: 5000 products, 23632 images fixed
+Cumulative: 37361 products, 175878 images
+Next since_id: 10440453554449
+Resuming from since_id: 10440453554449 | Total fixed: 37361 | Images fixed: 175878
+Batch done: processed 250 | fixed 250 | images 863 | skipped 0 | since_id 10440466989329
+Run: 250 products fixed, 863 images | Total: 37611 products, 176741 images | Processed: 43500
+Batch done: processed 500 | fixed 500 | images 1629 | skipped 0 | since_id 10440943796497
+Run: 500 products fixed, 1629 images | Total: 37861 products, 177507 images | Processed: 43750
+Batch done: processed 750 | fixed 750 | images 2472 | skipped 0 | since_id 10441021653265
+Run: 750 products fixed, 2472 images | Total: 38111 products, 178350 images | Processed: 44000
+Batch done: processed 1000 | fixed 1000 | images 3005 | skipped 0 | since_id 10441034826001
+Run: 1000 products fixed, 3005 images | Total: 38361 products, 178883 images | Processed: 44250
+Batch done: processed 1250 | fixed 1250 | images 3493 | skipped 0 | since_id 10441612886289
+Run: 1250 products fixed, 3493 images | Total: 38611 products, 179371 images | Processed: 44500
+Batch done: processed 1500 | fixed 1500 | images 4646 | skipped 0 | since_id 10441628057873
+Run: 1500 products fixed, 4646 images | Total: 38861 products, 180524 images | Processed: 44750
+Batch done: processed 1750 | fixed 1750 | images 4905 | skipped 0 | since_id 10441639756049
+Run: 1750 products fixed, 4905 images | Total: 39111 products, 180783 images | Processed: 45000
+Batch done: processed 2000 | fixed 2000 | images 6935 | skipped 0 | since_id 10442197631249
+Run: 2000 products fixed, 6935 images | Total: 39361 products, 182813 images | Processed: 45250
+Batch done: processed 2250 | fixed 2250 | images 8377 | skipped 0 | since_id 10442425925905
+Run: 2250 products fixed, 8377 images | Total: 39611 products, 184255 images | Processed: 45500
+Batch done: processed 2500 | fixed 2500 | images 8731 | skipped 0 | since_id 10442443850001
+Run: 2500 products fixed, 8731 images | Total: 39861 products, 184609 images | Processed: 45750
+Batch done: processed 2750 | fixed 2750 | images 9299 | skipped 0 | since_id 10442896965905
+Run: 2750 products fixed, 9299 images | Total: 40111 products, 185177 images | Processed: 46000
+Error: Unexpected token 'e', "error code: 502" is not valid JSON
+Resuming from since_id: 10442896965905 | Total fixed: 40111 | Images fixed: 185177
+Batch done: processed 250 | fixed 23 | images 77 | skipped 227 | since_id 10442908205329
+Batch done: processed 500 | fixed 273 | images 1080 | skipped 227 | since_id 10442926588177
+Batch done: processed 750 | fixed 523 | images 2081 | skipped 227 | since_id 10445629325585
+Batch done: processed 1000 | fixed 773 | images 3016 | skipped 227 | since_id 10445666255121
+Batch done: processed 1250 | fixed 1023 | images 3951 | skipped 227 | since_id 10449324998929
+Batch done: processed 1500 | fixed 1273 | images 4887 | skipped 227 | since_id 10449355505937
+Batch done: processed 1750 | fixed 1523 | images 5732 | skipped 227 | since_id 10449495163153
+Batch done: processed 2000 | fixed 1773 | images 6541 | skipped 227 | since_id 10455264788753
+Error: Unexpected token 'e', "error code: 502" is not valid JSON
+Resuming from since_id: 10442896965905 | Total fixed: 40111 | Images fixed: 185177
+Batch done: processed 250 | fixed 0 | images 0 | skipped 250 | since_id 10442908205329
+Batch done: processed 500 | fixed 0 | images 0 | skipped 500 | since_id 10442926588177
+Batch done: processed 750 | fixed 0 | images 0 | skipped 750 | since_id 10445629325585
+Batch done: processed 1000 | fixed 0 | images 0 | skipped 1000 | since_id 10445666255121
+Batch done: processed 1250 | fixed 0 | images 0 | skipped 1250 | since_id 10449324998929
+Batch done: processed 1500 | fixed 0 | images 0 | skipped 1500 | since_id 10449355505937
+Batch done: processed 1750 | fixed 0 | images 0 | skipped 1750 | since_id 10449495163153
+Batch done: processed 2000 | fixed 0 | images 0 | skipped 2000 | since_id 10455264788753
+Batch done: processed 2250 | fixed 142 | images 146 | skipped 2108 | since_id 10456144314641
+Batch done: processed 2500 | fixed 392 | images 613 | skipped 2108 | since_id 10456196481297
+Batch done: processed 2750 | fixed 642 | images 1540 | skipped 2108 | since_id 10460875129105
+Batch done: processed 3000 | fixed 892 | images 2239 | skipped 2108 | since_id 10460946465041
+Batch done: processed 3250 | fixed 1142 | images 3549 | skipped 2108 | since_id 10461021896977
+Batch done: processed 3500 | fixed 1392 | images 4492 | skipped 2108 | since_id 10464810008849
+Batch done: processed 3750 | fixed 1642 | images 5327 | skipped 2108 | since_id 10464836813073
+Batch done: processed 4000 | fixed 1892 | images 6109 | skipped 2108 | since_id 10464938393873
+Batch done: processed 4250 | fixed 2142 | images 7601 | skipped 2108 | since_id 10467776692497
+Batch done: processed 4500 | fixed 2392 | images 8946 | skipped 2108 | since_id 10467855401233
+Batch done: processed 4750 | fixed 2642 | images 9959 | skipped 2108 | since_id 10468452466961
+Batch done: processed 5000 | fixed 2892 | images 10876 | skipped 2108 | since_id 10469440651537
+
+=== RUN COMPLETE ===
+This run: 2892 products, 10876 images fixed
+Cumulative: 43003 products, 196053 images
+Next since_id: 10469440651537
+Resuming from since_id: 10469440651537 | Total fixed: 43003 | Images fixed: 196053
+Batch done: processed 250 | fixed 250 | images 1267 | skipped 0 | since_id 10471262486801
+Run: 250 products fixed, 1267 images | Total: 43253 products, 197320 images | Processed: 51250
+Batch done: processed 500 | fixed 500 | images 2311 | skipped 0 | since_id 10472348352785
+Run: 500 products fixed, 2311 images | Total: 43503 products, 198364 images | Processed: 51500
+Batch done: processed 750 | fixed 750 | images 3796 | skipped 0 | since_id 10475381883153
+Run: 750 products fixed, 3796 images | Total: 43753 products, 199849 images | Processed: 51750
+Batch done: processed 1000 | fixed 1000 | images 4710 | skipped 0 | since_id 10477243138321
+Run: 1000 products fixed, 4710 images | Total: 44003 products, 200763 images | Processed: 52000
+Batch done: processed 1250 | fixed 1250 | images 5653 | skipped 0 | since_id 10482742493457
+Run: 1250 products fixed, 5653 images | Total: 44253 products, 201706 images | Processed: 52250
+Batch done: processed 1500 | fixed 1500 | images 6399 | skipped 0 | since_id 10487235445009
+Run: 1500 products fixed, 6399 images | Total: 44503 products, 202452 images | Processed: 52500
+Batch done: processed 1750 | fixed 1750 | images 7243 | skipped 0 | since_id 10490234175761
+Run: 1750 products fixed, 7243 images | Total: 44753 products, 203296 images | Processed: 52750
+Batch done: processed 2000 | fixed 2000 | images 8211 | skipped 0 | since_id 10491292746001
+Run: 2000 products fixed, 8211 images | Total: 45003 products, 204264 images | Processed: 53000
+Batch done: processed 2250 | fixed 2250 | images 9530 | skipped 0 | since_id 10492378382609
+Run: 2250 products fixed, 9530 images | Total: 45253 products, 205583 images | Processed: 53250
+Batch done: processed 2500 | fixed 2500 | images 10746 | skipped 0 | since_id 10497208287505
+Run: 2500 products fixed, 10746 images | Total: 45503 products, 206799 images | Processed: 53500
+Batch done: processed 2750 | fixed 2750 | images 12069 | skipped 0 | since_id 10497535148305
+Run: 2750 products fixed, 12069 images | Total: 45753 products, 208122 images | Processed: 53750
+Batch done: processed 3000 | fixed 3000 | images 13209 | skipped 0 | since_id 10497725595921
+Run: 3000 products fixed, 13209 images | Total: 46003 products, 209262 images | Processed: 54000
+Batch done: processed 3250 | fixed 3250 | images 14845 | skipped 0 | since_id 10498077065489
+Run: 3250 products fixed, 14845 images | Total: 46253 products, 210898 images | Processed: 54250
+Batch done: processed 3500 | fixed 3500 | images 16803 | skipped 0 | since_id 10498088141073
+Run: 3500 products fixed, 16803 images | Total: 46503 products, 212856 images | Processed: 54500
+Batch done: processed 3750 | fixed 3750 | images 18174 | skipped 0 | since_id 10498132508945
+Run: 3750 products fixed, 18174 images | Total: 46753 products, 214227 images | Processed: 54750
+Error: Unexpected token 'e', "error code: 502" is not valid JSON
+Resuming from since_id: 10498132508945 | Total fixed: 46753 | Images fixed: 214227
+Batch done: processed 250 | fixed 14 | images 80 | skipped 236 | since_id 10499108831505
+Batch done: processed 500 | fixed 264 | images 938 | skipped 236 | since_id 10499354919185
+Batch done: processed 750 | fixed 514 | images 2254 | skipped 236 | since_id 10499375104273
+Batch done: processed 1000 | fixed 764 | images 4583 | skipped 236 | since_id 10499430187281
+Batch done: processed 1250 | fixed 1014 | images 5972 | skipped 236 | since_id 10499946021137
+Batch done: processed 1500 | fixed 1264 | images 8534 | skipped 236 | since_id 10500042031377
+Batch done: processed 1750 | fixed 1514 | images 9737 | skipped 236 | since_id 10500055204113
+Batch done: processed 2000 | fixed 1764 | images 10826 | skipped 236 | since_id 10500072210705
+Batch done: processed 2250 | fixed 2014 | images 11589 | skipped 236 | since_id 10500084891921
+Batch done: processed 2500 | fixed 2264 | images 12592 | skipped 236 | since_id 10500155867409
+Batch done: processed 2750 | fixed 2514 | images 13134 | skipped 236 | since_id 10500166385937
+Batch done: processed 3000 | fixed 2764 | images 14615 | skipped 236 | since_id 10500179624209
+Batch done: processed 3250 | fixed 3014 | images 16217 | skipped 236 | since_id 10500194205969
+Batch done: processed 3500 | fixed 3264 | images 17355 | skipped 236 | since_id 10500204658961
+Batch done: processed 3750 | fixed 3514 | images 19704 | skipped 236 | since_id 10500556882193
+Batch done: processed 4000 | fixed 3764 | images 20502 | skipped 236 | since_id 10500565238033
+Batch done: processed 4250 | fixed 4014 | images 21177 | skipped 236 | since_id 10500574216465
+Error: Unexpected token 'e', "error code: 502" is not valid JSON
+Resuming from since_id: 10498132508945 | Total fixed: 46753 | Images fixed: 214227
+Error: Unexpected token '<', "<!--
+  The"... is not valid JSON
+Resuming from since_id: 10498132508945 | Total fixed: 46753 | Images fixed: 214227
+Batch done: processed 250 | fixed 0 | images 0 | skipped 250 | since_id 10499108831505
+Batch done: processed 500 | fixed 0 | images 0 | skipped 500 | since_id 10499354919185
+Batch done: processed 750 | fixed 0 | images 0 | skipped 750 | since_id 10499375104273
+Batch done: processed 1000 | fixed 0 | images 0 | skipped 1000 | since_id 10499430187281
+Batch done: processed 1250 | fixed 0 | images 0 | skipped 1250 | since_id 10499946021137
+Batch done: processed 1500 | fixed 0 | images 0 | skipped 1500 | since_id 10500042031377
+Batch done: processed 1750 | fixed 0 | images 0 | skipped 1750 | since_id 10500055204113
+Batch done: processed 2000 | fixed 0 | images 0 | skipped 2000 | since_id 10500072210705
+Batch done: processed 2250 | fixed 0 | images 0 | skipped 2250 | since_id 10500084891921
+Batch done: processed 2500 | fixed 0 | images 0 | skipped 2500 | since_id 10500155867409
+Error: Unexpected token 'e', "error code: 502" is not valid JSON

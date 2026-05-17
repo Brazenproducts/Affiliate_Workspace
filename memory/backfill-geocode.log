@@ -1,0 +1,8426 @@
+[
+  {
+    "id": "eda7859e-5a9f-4b2e-bf4d-e8b27f7ec903",
+    "name": "Arby's",
+    "city": "Rock Hill",
+    "state": "SC",
+    "lat": 34.9652731,
+    "lng": -80.9992519,
+    "result": "ok"
+  },
+  {
+    "id": "9701bb77-9262-4b62-a064-4128978b8b42",
+    "name": "Arby's",
+    "city": "Kyle",
+    "state": "TX",
+    "lat": 30.0138849,
+    "lng": -97.8589352,
+    "result": "ok"
+  },
+  {
+    "id": "663b181f-71a0-4453-abdb-3aa2ab4398a3",
+    "name": "Arby's",
+    "city": "Concord",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "415cf874-b693-4e5a-8910-02a5744c194e",
+    "name": "Arby's",
+    "city": "Mount Pleasant",
+    "state": "SC",
+    "lat": 32.8133275,
+    "lng": -79.8568145,
+    "result": "ok"
+  },
+  {
+    "id": "6a764168-4a8d-4de3-8e32-72022a03320e",
+    "name": "Arby's",
+    "city": "Charleston",
+    "state": "IL",
+    "lat": 39.4840597,
+    "lng": -88.177958,
+    "result": "ok"
+  },
+  {
+    "id": "a82f6e40-5ffb-4a84-af4a-5832ee3ec479",
+    "name": "Arby's",
+    "city": "Buda",
+    "state": "TX",
+    "lat": 30.0847124,
+    "lng": -97.8261696,
+    "result": "ok"
+  },
+  {
+    "id": "15773271-428c-4634-9ac7-ba0b691cf990",
+    "name": "Arby's",
+    "city": "Apple Valley",
+    "state": "MN",
+    "lat": 44.7285825,
+    "lng": -93.218518,
+    "result": "ok"
+  },
+  {
+    "id": "72cdc0c7-5ec1-4862-aac6-603cbb6addd2",
+    "name": "Arby's",
+    "city": "Santa Clarita",
+    "state": "CA",
+    "lat": 34.4159444,
+    "lng": -118.4557887,
+    "result": "ok"
+  },
+  {
+    "id": "c2d29851-b966-473a-88f6-a31cfefaba85",
+    "name": "Arby's",
+    "city": "Bangor",
+    "state": "ME",
+    "result": "no_result"
+  },
+  {
+    "id": "5cbd30f5-bf86-482f-841a-54360bc4661a",
+    "name": "Arby's",
+    "city": "North Charleston",
+    "state": "SC",
+    "lat": 32.9761678,
+    "lng": -80.063876,
+    "result": "ok"
+  },
+  {
+    "id": "f5a3b24c-7437-44f9-9309-1e1049aa3b30",
+    "name": "Arby's",
+    "city": "Tulsa",
+    "state": "OK",
+    "lat": 36.0177642,
+    "lng": -95.7967958,
+    "result": "ok"
+  },
+  {
+    "id": "e976d06a-cf70-481b-aac7-b0e855b6f162",
+    "name": "Arby's",
+    "city": "Mattoon",
+    "state": "IL",
+    "lat": 39.4812361,
+    "lng": -88.363618,
+    "result": "ok"
+  },
+  {
+    "id": "8a18c6f1-c1da-4d3a-815d-543ffe9a662b",
+    "name": "Arby's",
+    "city": "Bartlesville",
+    "state": "OK",
+    "lat": 36.7501089,
+    "lng": -95.9457653,
+    "result": "ok"
+  },
+  {
+    "id": "169af765-6bd4-405b-974c-d95f0e91cbee",
+    "name": "Arby's",
+    "city": "Aurora",
+    "state": "CO",
+    "lat": 39.6376142,
+    "lng": -104.7910189,
+    "result": "ok"
+  },
+  {
+    "id": "1f89c5da-d84e-4f22-8c15-d4e4a5dbec59",
+    "name": "Arby's",
+    "city": "Spring Hill",
+    "state": "FL",
+    "lat": 28.4490477,
+    "lng": -82.6333163,
+    "result": "ok"
+  },
+  {
+    "id": "f0a04f59-020c-4ebf-9baa-6111da88f4ce",
+    "name": "Arby's",
+    "city": "Moorhead",
+    "state": "MN",
+    "lat": 46.8772707,
+    "lng": -96.72941,
+    "result": "ok"
+  },
+  {
+    "id": "a3208b40-9b61-482d-992e-02d496463c8f",
+    "name": "Arby's",
+    "city": "La Vergne",
+    "state": "TN",
+    "result": "no_result"
+  },
+  {
+    "id": "62a6d878-d243-4930-9e9e-c2af391df804",
+    "name": "Arby's",
+    "city": "Sunnyvale",
+    "state": "CA",
+    "lat": 37.3734436,
+    "lng": -122.0568924,
+    "result": "ok"
+  },
+  {
+    "id": "ae782d83-bf98-4471-8afc-97ac0358240b",
+    "name": "Arby's",
+    "city": "Nampa",
+    "state": "ID",
+    "lat": 43.6021538,
+    "lng": -116.5975704,
+    "result": "ok"
+  },
+  {
+    "id": "d97cf6c7-1dd5-46f0-8931-4adc4d0867f9",
+    "name": "Arby's",
+    "city": "Lewiston",
+    "state": "ME",
+    "result": "no_result"
+  },
+  {
+    "id": "7b74bb28-ce5b-4c57-8b79-f81ca3bb89cd",
+    "name": "Arby's",
+    "city": "Bellevue",
+    "state": "NE",
+    "lat": 41.1579294,
+    "lng": -95.93347,
+    "result": "ok"
+  },
+  {
+    "id": "fc52359d-e900-4e8e-8a2a-862bc0f7a9d9",
+    "name": "Arby's",
+    "city": "Charleston",
+    "state": "SC",
+    "lat": 32.8058133,
+    "lng": -80.0116059,
+    "result": "ok"
+  },
+  {
+    "id": "4ef8e41b-92c6-4278-bc79-3e3ebebca7d8",
+    "name": "Arby's",
+    "city": "Newport News",
+    "state": "VA",
+    "lat": 37.1123116,
+    "lng": -76.4694667,
+    "result": "ok"
+  },
+  {
+    "id": "f284a90a-acb3-4c14-a009-22f7f0b1d0a7",
+    "name": "Arby's",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "lat": 35.5661507,
+    "lng": -97.6583263,
+    "result": "ok"
+  },
+  {
+    "id": "b3645ccb-b1c6-432e-85be-af609f0e08dc",
+    "name": "Arby's",
+    "city": "Broomfield",
+    "state": "CO",
+    "lat": 39.9080033,
+    "lng": -105.0972431,
+    "result": "ok"
+  },
+  {
+    "id": "e41b5850-fb88-4576-ab59-70a16d199455",
+    "name": "Arby's",
+    "city": "Moline",
+    "state": "IL",
+    "lat": 41.4903753,
+    "lng": -90.4683323,
+    "result": "ok"
+  },
+  {
+    "id": "8bfa3d5a-aa85-4a4d-bdbc-fb9732d02b04",
+    "name": "Arby's",
+    "city": "Wildwood",
+    "state": "MO",
+    "result": "no_result"
+  },
+  {
+    "id": "49fa25c8-5300-465c-beb9-6c2a7d9ad014",
+    "name": "Arby's",
+    "city": "Muskogee",
+    "state": "OK",
+    "lat": 35.7681915,
+    "lng": -95.3587631,
+    "result": "ok"
+  },
+  {
+    "id": "e1a40c89-eb49-4223-a71d-0347f2e29041",
+    "name": "Arby's",
+    "city": "Herriman",
+    "state": "UT",
+    "result": "no_result"
+  },
+  {
+    "id": "0763b1c8-82d6-4602-9023-69b735bf8397",
+    "name": "Arby's",
+    "city": "South Jordan",
+    "state": "UT",
+    "lat": 40.5381084,
+    "lng": -112.0197737,
+    "result": "ok"
+  },
+  {
+    "id": "751fb29d-62d6-47da-93af-a2a7a810cf06",
+    "name": "Arby's",
+    "city": "Rocklin",
+    "state": "CA",
+    "lat": 38.7880658,
+    "lng": -121.2259047,
+    "result": "ok"
+  },
+  {
+    "id": "ed6ec5f4-19fc-4829-9453-83728fb55d53",
+    "name": "Arby's",
+    "city": "Milford",
+    "state": "DE",
+    "lat": 39.1912919,
+    "lng": -84.2548459,
+    "result": "ok"
+  },
+  {
+    "id": "1a8963f7-ff08-489c-9a1a-95bb798d30bf",
+    "name": "Arby's",
+    "city": "Germantown",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "4b5fe575-4e82-48bd-95b5-ff5af1d5c295",
+    "name": "Arby's",
+    "city": "Minnetonka",
+    "state": "MN",
+    "lat": 44.9118357,
+    "lng": -93.5038711,
+    "result": "ok"
+  },
+  {
+    "id": "ef40030a-064e-4aaf-9bb5-09908730b68b",
+    "name": "Arby's",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "result": "no_result"
+  },
+  {
+    "id": "dbc95184-1be1-4885-a6aa-123b684614d3",
+    "name": "Arby's",
+    "city": "Lebanon",
+    "state": "TN",
+    "lat": 36.2177367,
+    "lng": -86.3331688,
+    "result": "ok"
+  },
+  {
+    "id": "bd4b4993-3fc4-432a-b01a-17c1fbb96f72",
+    "name": "Arby's",
+    "city": "Springdale",
+    "state": "AR",
+    "lat": 36.1759708,
+    "lng": -94.1394572,
+    "result": "ok"
+  },
+  {
+    "id": "f9dfca4c-2035-444f-bbb5-15f85a89b779",
+    "name": "Arby's",
+    "city": "Victorville",
+    "state": "CA",
+    "lat": 34.4709578,
+    "lng": -117.334032,
+    "result": "ok"
+  },
+  {
+    "id": "75404ae6-f440-468b-bd18-b2efcec55408",
+    "name": "Arby's",
+    "city": "Pembroke Pines",
+    "state": "FL",
+    "lat": 26.0083135,
+    "lng": -80.3049219,
+    "result": "ok"
+  },
+  {
+    "id": "eb85d8ef-c361-4720-8603-efd3afa048b9",
+    "name": "Arby's",
+    "city": "Boise",
+    "state": "ID",
+    "lat": 43.570256,
+    "lng": -116.1877745,
+    "result": "ok"
+  },
+  {
+    "id": "0e396a4d-d7eb-4ca6-ba79-c39f5be71938",
+    "name": "Arby's",
+    "city": "Wichita",
+    "state": "KS",
+    "lat": 37.7504632,
+    "lng": -97.4621434,
+    "result": "ok"
+  },
+  {
+    "id": "61818510-66d8-4449-b75d-3d8b9a21708b",
+    "name": "Arby's",
+    "city": "Portland",
+    "state": "ME",
+    "result": "no_result"
+  },
+  {
+    "id": "f57df84e-2f4d-426d-b509-ae96ceec497a",
+    "name": "Arby's",
+    "city": "Minneapolis",
+    "state": "MN",
+    "result": "no_result"
+  },
+  {
+    "id": "00d0d737-ec4f-4527-b5f2-c31d6f5aab29",
+    "name": "Arby's",
+    "city": "Lincoln",
+    "state": "NE",
+    "lat": 40.7702091,
+    "lng": -96.6823806,
+    "result": "ok"
+  },
+  {
+    "id": "be625730-3bc0-4107-a5d9-56a1b8f1d71b",
+    "name": "Arby's",
+    "city": "New Rochelle",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "b6d38ab9-b1cf-4854-ad3a-3f5eaa0d0c52",
+    "name": "Arby's",
+    "city": "Columbia",
+    "state": "SC",
+    "lat": 33.962986,
+    "lng": -80.9425373,
+    "result": "ok"
+  },
+  {
+    "id": "c383c18b-da4f-4026-bb31-29927a3cf538",
+    "name": "Arby's",
+    "city": "Irving",
+    "state": "TX",
+    "lat": 32.9191381,
+    "lng": -96.9699828,
+    "result": "ok"
+  },
+  {
+    "id": "51ea6159-261d-4442-be84-6d3c20519a56",
+    "name": "Arby's",
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.5060838,
+    "lng": -77.5984387,
+    "result": "ok"
+  },
+  {
+    "id": "a7b61af0-6cea-4afb-84e4-788c2cec8794",
+    "name": "Arby's",
+    "city": "Eau Claire",
+    "state": "WI",
+    "lat": 44.8067051,
+    "lng": -91.4704503,
+    "result": "ok"
+  },
+  {
+    "id": "88946b50-c4c7-4823-b9f2-9514db124d5b",
+    "name": "Arby's",
+    "city": "Lorain",
+    "state": "OH",
+    "lat": 41.4179225,
+    "lng": -82.2005351,
+    "result": "ok"
+  },
+  {
+    "id": "38c66cc8-a40f-4dfb-ae98-5d383aef1de8",
+    "name": "Arby's",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "e7ecc5fa-aad2-48e5-af73-ff965e0645f5",
+    "name": "Arby's",
+    "city": "Brighton",
+    "state": "CO",
+    "lat": 39.955777,
+    "lng": -104.7772836,
+    "result": "ok"
+  },
+  {
+    "id": "cabb96c0-0d50-469a-808e-8da02457ec34",
+    "name": "Arby's",
+    "city": "Statesboro",
+    "state": "GA",
+    "lat": 32.4303736,
+    "lng": -81.778473,
+    "result": "ok"
+  },
+  {
+    "id": "6eaaf0dd-bcb2-49ce-b480-b0a99efb4af5",
+    "name": "Arby's",
+    "city": "Galesburg",
+    "state": "IL",
+    "lat": 40.9680044,
+    "lng": -90.3826603,
+    "result": "ok"
+  },
+  {
+    "id": "5d1f3cdd-e9e7-464a-a064-8825eb3d14e8",
+    "name": "Arby's",
+    "city": "Florence",
+    "state": "KY",
+    "lat": 38.9826988,
+    "lng": -84.6437997,
+    "result": "ok"
+  },
+  {
+    "id": "f4d702c4-1673-4f0c-9e26-ae3d31b8788d",
+    "name": "Arby's",
+    "city": "Chesterfield",
+    "state": "MO",
+    "result": "no_result"
+  },
+  {
+    "id": "420ea1b9-550f-4dcc-b4f2-c72d004d610d",
+    "name": "Arby's",
+    "city": "Perth Amboy",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "57b3e155-edc8-40e5-b118-c4a6224d7a9d",
+    "name": "Arby's",
+    "city": "Stillwater",
+    "state": "OK",
+    "lat": 36.1324694,
+    "lng": -97.0616134,
+    "result": "ok"
+  },
+  {
+    "id": "5c9ab5fa-aede-4d7c-96b2-32600472d86f",
+    "name": "Arby's",
+    "city": "Sumter",
+    "state": "SC",
+    "lat": 33.9563494,
+    "lng": -80.3881646,
+    "result": "ok"
+  },
+  {
+    "id": "fdae1343-4d17-4411-ae56-1bd2fa1cfc10",
+    "name": "Arby's",
+    "city": "Galveston",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "5310d4e4-2976-4365-8463-b530ccf8a0be",
+    "name": "Arby's",
+    "city": "Rock Springs",
+    "state": "WY",
+    "lat": 41.5750129,
+    "lng": -109.2505279,
+    "result": "ok"
+  },
+  {
+    "id": "9f67248c-0880-474c-ae60-ece4840d2ccb",
+    "name": "Arby's",
+    "city": "Millcreek",
+    "state": "UT",
+    "lat": 40.6685175,
+    "lng": -111.8647339,
+    "result": "ok"
+  },
+  {
+    "id": "0ce9f804-8971-4422-b868-aec78168d444",
+    "name": "Arby's",
+    "city": "Redding",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "b429a8d7-4224-47a8-83e6-9a475ebc2407",
+    "name": "Arby's",
+    "city": "Citrus Heights",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "817eb4dd-f425-45e8-9b35-343f6efac2d2",
+    "name": "Arby's",
+    "city": "Hawthorne",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "d059f373-c510-408b-93b4-2a9a6079f3a1",
+    "name": "Arby's",
+    "city": "Smyrna",
+    "state": "DE",
+    "lat": 33.8292969,
+    "lng": -84.4930748,
+    "result": "ok"
+  },
+  {
+    "id": "002ff6fa-f87f-420e-b1e8-0c4cc622eeaa",
+    "name": "Arby's",
+    "city": "Marietta",
+    "state": "GA",
+    "lat": 33.9687173,
+    "lng": -84.4901207,
+    "result": "ok"
+  },
+  {
+    "id": "9dcd3773-18e2-475e-9b13-1b54b10cc1b1",
+    "name": "Arby's",
+    "city": "Ellicott City",
+    "state": "MD",
+    "lat": 39.2790526,
+    "lng": -76.8609406,
+    "result": "ok"
+  },
+  {
+    "id": "509ef650-642a-472d-877d-28ea3c7d7c30",
+    "name": "Arby's",
+    "city": "Peabody",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "332001e7-2e65-4e16-a331-689b676e0ddb",
+    "name": "Arby's",
+    "city": "Lakeville",
+    "state": "MN",
+    "result": "no_result"
+  },
+  {
+    "id": "ce9660df-95d1-4d63-866c-9067c755a019",
+    "name": "Arby's",
+    "city": "Boulder City",
+    "state": "NV",
+    "result": "no_result"
+  },
+  {
+    "id": "709889b5-556e-406f-bc00-94623dcdfd47",
+    "name": "Arby's",
+    "city": "Rocky Mount",
+    "state": "NC",
+    "lat": 35.9687688,
+    "lng": -77.816212,
+    "result": "ok"
+  },
+  {
+    "id": "271cecb5-a0a6-4722-8ba5-38e44afaae6f",
+    "name": "Arby's",
+    "city": "Wilkes-Barre",
+    "state": "PA",
+    "result": "no_result"
+  },
+  {
+    "id": "ef63e187-f88d-4fba-979e-c4aab7e6e372",
+    "name": "Arby's",
+    "city": "Bristol",
+    "state": "TN",
+    "lat": 36.5619023,
+    "lng": -82.2086118,
+    "result": "ok"
+  },
+  {
+    "id": "420f175b-279f-44b5-8013-cbd2699817a9",
+    "name": "Arby's",
+    "city": "Martinsburg",
+    "state": "WV",
+    "lat": 39.4448629,
+    "lng": -77.986522,
+    "result": "ok"
+  },
+  {
+    "id": "55fa4bf7-8444-4baa-8c17-f72d5e36daab",
+    "name": "Arby's",
+    "city": "Fayetteville",
+    "state": "AR",
+    "lat": 36.0563465,
+    "lng": -94.1786069,
+    "result": "ok"
+  },
+  {
+    "id": "0b2f5951-b903-4d8e-891d-429c8e9eb9f5",
+    "name": "Arby's",
+    "city": "Moreno Valley",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "dad66292-72cc-4375-aa0c-ac7c10635944",
+    "name": "Arby's",
+    "city": "Visalia",
+    "state": "CA",
+    "lat": 36.3267305,
+    "lng": -119.3382617,
+    "result": "ok"
+  },
+  {
+    "id": "b46e3a25-8f6a-41e1-8b58-50475b21da5e",
+    "name": "Arby's",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "lat": 38.9700542,
+    "lng": -104.7422899,
+    "result": "ok"
+  },
+  {
+    "id": "28f238fc-9f2c-4009-b409-ba6623ba2c4b",
+    "name": "Arby's",
+    "city": "Cape Coral",
+    "state": "FL",
+    "lat": 26.6507439,
+    "lng": -81.9755572,
+    "result": "ok"
+  },
+  {
+    "id": "c42a6fd0-abfe-460f-b8c1-60f87dab1d76",
+    "name": "Arby's",
+    "city": "Augusta",
+    "state": "GA",
+    "lat": 33.4494365,
+    "lng": -82.0321795,
+    "result": "ok"
+  },
+  {
+    "id": "b49ebc9d-892e-4e95-b52e-01846ed9ca26",
+    "name": "Arby's",
+    "city": "Hilo",
+    "state": "HI",
+    "result": "no_result"
+  },
+  {
+    "id": "ab463dfb-e27c-4252-a63e-cf7013342e07",
+    "name": "Arby's",
+    "city": "Cicero",
+    "state": "IL",
+    "lat": 41.69195,
+    "lng": -87.7394043,
+    "result": "ok"
+  },
+  {
+    "id": "277278c1-ef11-42c5-b59a-ec60cd6cc1e1",
+    "name": "Arby's",
+    "city": "Iowa City",
+    "state": "IA",
+    "lat": 41.646336,
+    "lng": -91.5407414,
+    "result": "ok"
+  },
+  {
+    "id": "edd4e48e-4891-496e-a375-a94e43cbf3b1",
+    "name": "Arby's",
+    "city": "New Orleans",
+    "state": "LA",
+    "result": "no_result"
+  },
+  {
+    "id": "de11dd3d-9887-4791-9c2e-4ede93af2e8e",
+    "name": "Arby's",
+    "city": "Bossier City",
+    "state": "LA",
+    "lat": 32.5299318,
+    "lng": -93.7040912,
+    "result": "ok"
+  },
+  {
+    "id": "e55962b7-d519-414e-bd88-30630aba2db8",
+    "name": "Arby's",
+    "city": "Brockton",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "55381298-6018-4aa6-9142-809af4fa47a4",
+    "name": "Arby's",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "lat": 42.2705974,
+    "lng": -85.6454863,
+    "result": "ok"
+  },
+  {
+    "id": "f59f8bf1-31aa-42d7-b3b6-742993b5991a",
+    "name": "Arby's",
+    "city": "Meridian",
+    "state": "MS",
+    "lat": 32.3574129,
+    "lng": -88.6860235,
+    "result": "ok"
+  },
+  {
+    "id": "d3ab2943-3055-45b4-9318-f7b047c505f3",
+    "name": "Arby's",
+    "city": "Omaha",
+    "state": "NE",
+    "lat": 41.2338296,
+    "lng": -96.044957,
+    "result": "ok"
+  },
+  {
+    "id": "286f0f09-d2fc-465a-90e3-4e6374bbcf4c",
+    "name": "Arby's",
+    "city": "Elizabeth",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "1dee3232-889b-41e5-bcfb-94aceb185711",
+    "name": "Arby's",
+    "city": "Albany",
+    "state": "NY",
+    "lat": 42.7184534,
+    "lng": -73.8059138,
+    "result": "ok"
+  },
+  {
+    "id": "9cf717e3-f7fb-49f2-a679-190fdabeed8a",
+    "name": "Arby's",
+    "city": "Bend",
+    "state": "OR",
+    "lat": 44.0444264,
+    "lng": -121.3029513,
+    "result": "ok"
+  },
+  {
+    "id": "6410a3d9-1626-4d05-bc2f-32de18ebcdf2",
+    "name": "Arby's",
+    "city": "Pawtucket",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "2cef146f-29c3-46a9-abb6-62b7372dc165",
+    "name": "Arby's",
+    "city": "Houston",
+    "state": "TX",
+    "lat": 29.5737803,
+    "lng": -95.1092461,
+    "result": "ok"
+  },
+  {
+    "id": "e0ca21e5-38fd-4659-af78-04642fe715d5",
+    "name": "Arby's",
+    "city": "Garland",
+    "state": "TX",
+    "lat": 32.96007,
+    "lng": -96.6480657,
+    "result": "ok"
+  },
+  {
+    "id": "7d88dd78-710e-40a1-b923-6402c4b35b61",
+    "name": "Arby's",
+    "city": "Beaumont",
+    "state": "TX",
+    "lat": 29.9892634,
+    "lng": -94.2116225,
+    "result": "ok"
+  },
+  {
+    "id": "fa32a6ef-7d37-49e3-87ae-c84fb0a25a9d",
+    "name": "Arby's",
+    "city": "Chesapeake",
+    "state": "VA",
+    "lat": 36.6562657,
+    "lng": -76.233141,
+    "result": "ok"
+  },
+  {
+    "id": "57241ecd-0286-49c2-abdd-5dbe8ba2fb8b",
+    "name": "Arby's",
+    "city": "Renton",
+    "state": "WA",
+    "result": "no_result"
+  },
+  {
+    "id": "507daf72-f68e-4151-9305-ab7cdad62276",
+    "name": "Arby's",
+    "city": "Oshkosh",
+    "state": "WI",
+    "lat": 43.9953008,
+    "lng": -88.5785169,
+    "result": "ok"
+  },
+  {
+    "id": "1e0bf718-d43a-4484-81c1-30bdaab2cddb",
+    "name": "Arby's",
+    "city": "High Point",
+    "state": "NC",
+    "lat": 36.033423,
+    "lng": -79.9662794,
+    "result": "ok"
+  },
+  {
+    "id": "287fc62e-e667-4f07-aad0-b168cec9b361",
+    "name": "Arby's",
+    "city": "Youngstown",
+    "state": "OH",
+    "lat": 41.04703,
+    "lng": -80.6161591,
+    "result": "ok"
+  },
+  {
+    "id": "63a4ec8a-f001-462f-8108-208c850340f8",
+    "name": "Arby's",
+    "city": "Lake Havasu City",
+    "state": "AZ",
+    "lat": 34.4680442,
+    "lng": -114.3403417,
+    "result": "ok"
+  },
+  {
+    "id": "8bca08e8-7bdd-48ce-a7c7-5782a4047e73",
+    "name": "Arby's",
+    "city": "Oceanside",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "4f75ab2c-11bd-4f43-b793-a7de045a1f35",
+    "name": "Arby's",
+    "city": "Downey",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "0012248b-f493-478d-81c3-4c0cec8e9ce4",
+    "name": "Arby's",
+    "city": "Greeley",
+    "state": "CO",
+    "lat": 40.3954681,
+    "lng": -104.750505,
+    "result": "ok"
+  },
+  {
+    "id": "5f549770-1420-4da2-ab15-2b3def6c218e",
+    "name": "Arby's",
+    "city": "Homestead",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "8de2c09e-efde-413b-b23f-240abbb11802",
+    "name": "Arby's",
+    "city": "Rome",
+    "state": "GA",
+    "lat": 34.305538,
+    "lng": -85.1747851,
+    "result": "ok"
+  },
+  {
+    "id": "a6514a31-6529-452e-8eb0-b95e525faea0",
+    "name": "Arby's",
+    "city": "Caldwell",
+    "state": "ID",
+    "lat": 43.6021538,
+    "lng": -116.5975704,
+    "result": "ok"
+  },
+  {
+    "id": "56f60a00-83f8-4032-9750-3cc09c6fdad1",
+    "name": "Arby's",
+    "city": "Normal",
+    "state": "IL",
+    "lat": 40.5325478,
+    "lng": -88.9969918,
+    "result": "ok"
+  },
+  {
+    "id": "7fb745cd-074b-40eb-81b7-dde8255981fc",
+    "name": "Arby's",
+    "city": "West Des Moines",
+    "state": "IA",
+    "lat": 41.5895966,
+    "lng": -93.8069237,
+    "result": "ok"
+  },
+  {
+    "id": "67276f65-241c-41e0-96e2-58e8321b3132",
+    "name": "Arby's",
+    "city": "Elizabethtown",
+    "state": "KY",
+    "lat": 37.7130875,
+    "lng": -85.8318162,
+    "result": "ok"
+  },
+  {
+    "id": "8a3f91c3-2197-49e9-9266-28d6dfa20d20",
+    "name": "Arby's",
+    "city": "South Portland",
+    "state": "ME",
+    "result": "no_result"
+  },
+  {
+    "id": "966e5ba0-e2ff-48c2-bcca-90469c7a0ebb",
+    "name": "Arby's",
+    "city": "Raytown",
+    "state": "MO",
+    "result": "no_result"
+  },
+  {
+    "id": "f3ce5671-cede-454e-a540-bebb3bd9317c",
+    "name": "Arby's",
+    "city": "Columbus",
+    "state": "NE",
+    "lat": 41.438359,
+    "lng": -97.358654,
+    "result": "ok"
+  },
+  {
+    "id": "51d232dd-1c03-41cf-bf2c-ffeea98754fe",
+    "name": "Arby's",
+    "city": "Plainfield",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "1d2ea041-9c28-470b-8d3c-1a6db898bfdc",
+    "name": "Arby's",
+    "city": "Islip",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "e3370277-9949-43fb-949a-5a077884778d",
+    "name": "Arby's",
+    "city": "Enid",
+    "state": "OK",
+    "lat": 36.391245,
+    "lng": -97.9255768,
+    "result": "ok"
+  },
+  {
+    "id": "d7331617-c286-4854-a187-e44df791934e",
+    "name": "Arby's",
+    "city": "York",
+    "state": "PA",
+    "lat": 39.9097472,
+    "lng": -76.702436,
+    "result": "ok"
+  },
+  {
+    "id": "b16d6d8c-cc55-489c-8fd3-78fc7d450b42",
+    "name": "Arby's",
+    "city": "Bluffton",
+    "state": "SC",
+    "result": "no_result"
+  },
+  {
+    "id": "a692acc7-fbcf-4609-a820-252c4dafe05b",
+    "name": "Arby's",
+    "city": "Lewisville",
+    "state": "TX",
+    "lat": 33.0029299,
+    "lng": -96.9884819,
+    "result": "ok"
+  },
+  {
+    "id": "050ff9e6-5227-4cb2-9ba9-3f8f53900565",
+    "name": "Arby's",
+    "city": "Missouri City",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "4e9ea5a7-6abc-40d0-9484-300ae4dba275",
+    "name": "Arby's",
+    "city": "Beloit",
+    "state": "WI",
+    "lat": 42.5232945,
+    "lng": -89.0343389,
+    "result": "ok"
+  },
+  {
+    "id": "5f77376b-8ef6-471a-9246-53dc9d9f9bde",
+    "name": "Arby's",
+    "city": "Sun Prairie",
+    "state": "WI",
+    "lat": 43.1671964,
+    "lng": -89.2662951,
+    "result": "ok"
+  },
+  {
+    "id": "dd3eb027-fda3-467e-b701-c4ad771242df",
+    "name": "Arby's",
+    "city": "Appleton",
+    "state": "WI",
+    "lat": 44.2428406,
+    "lng": -88.4138544,
+    "result": "ok"
+  },
+  {
+    "id": "29aefd05-c34d-48e2-9e23-ed06366bdb9a",
+    "name": "Arby's",
+    "city": "Cottonwood Heights",
+    "state": "UT",
+    "result": "no_result"
+  },
+  {
+    "id": "fa1d602d-6b82-4464-95c1-3b3120d0a62c",
+    "name": "Arby's",
+    "city": "Temecula",
+    "state": "CA",
+    "lat": 33.5145401,
+    "lng": -117.1587252,
+    "result": "ok"
+  },
+  {
+    "id": "e4e24add-18a5-49d6-b626-13d3fd2176b8",
+    "name": "Arby's",
+    "city": "Hesperia",
+    "state": "CA",
+    "lat": 34.4271195,
+    "lng": -117.3765652,
+    "result": "ok"
+  },
+  {
+    "id": "dca093d2-0475-416a-95c7-442058131034",
+    "name": "Arby's",
+    "city": "Compton",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "69f19a10-2311-43c2-9e43-7b16b787e94b",
+    "name": "Arby's",
+    "city": "Folsom",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "f46ac631-ea7c-4de5-9289-04aa556d1fe3",
+    "name": "Arby's",
+    "city": "Rialto",
+    "state": "CA",
+    "lat": 34.1064275,
+    "lng": -117.3949088,
+    "result": "ok"
+  },
+  {
+    "id": "630471d2-282b-4ae9-8417-11d801573e62",
+    "name": "Arby's",
+    "city": "Westminster",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "7ea6f8a9-df97-47b3-b50a-5287ab5a8203",
+    "name": "Arby's",
+    "city": "Meriden",
+    "state": "CT",
+    "lat": 41.5632025,
+    "lng": -72.8734064,
+    "result": "ok"
+  },
+  {
+    "id": "1f380094-b12c-4b28-a5bf-ba38f74684bb",
+    "name": "Arby's",
+    "city": "Middletown",
+    "state": "DE",
+    "lat": 39.4999968,
+    "lng": -84.3506438,
+    "result": "ok"
+  },
+  {
+    "id": "b58ed388-6696-4d45-baf3-8c02320d67df",
+    "name": "Arby's",
+    "city": "Palm Beach Gardens",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "7b0a295a-f4ec-4da4-a2d8-675f16cd9966",
+    "name": "Arby's",
+    "city": "Palm Coast",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "c574b34e-a7f7-46f2-bae3-2d410ab1734c",
+    "name": "Arby's",
+    "city": "Jeffersontown",
+    "state": "KY",
+    "lat": 38.2281002,
+    "lng": -85.5767079,
+    "result": "ok"
+  },
+  {
+    "id": "f5085d2c-64f5-4617-aa92-f11f63624d96",
+    "name": "Arby's",
+    "city": "Dundalk",
+    "state": "MD",
+    "lat": 39.294898,
+    "lng": -76.5104843,
+    "result": "ok"
+  },
+  {
+    "id": "89dd05e8-b585-4779-b244-16a6c36fdb20",
+    "name": "Arby's",
+    "city": "Haverhill",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "8ca2448c-647c-41e0-a122-031e80bd5ba7",
+    "name": "Arby's",
+    "city": "Chicopee",
+    "state": "MA",
+    "lat": 42.179907,
+    "lng": -72.5785274,
+    "result": "ok"
+  },
+  {
+    "id": "b96ebdea-e228-4f29-bfeb-c95e9ce3f653",
+    "name": "Arby's",
+    "city": "Battle Creek",
+    "state": "MI",
+    "lat": 42.2968678,
+    "lng": -85.2363085,
+    "result": "ok"
+  },
+  {
+    "id": "fcf39ecb-c812-472c-86bb-04fb0f10022b",
+    "name": "Arby's",
+    "city": "Blaine",
+    "state": "MN",
+    "lat": 45.1577716,
+    "lng": -93.2341521,
+    "result": "ok"
+  },
+  {
+    "id": "ad2dc4e8-3a6d-4a47-813d-b296618bd008",
+    "name": "Arby's",
+    "city": "Vicksburg",
+    "state": "MS",
+    "result": "no_result"
+  },
+  {
+    "id": "7a2cde24-88f5-4228-9a33-00c25f54bf44",
+    "name": "Arby's",
+    "city": "Whitney",
+    "state": "NV",
+    "lat": 36.0610424,
+    "lng": -115.0457694,
+    "result": "ok"
+  },
+  {
+    "id": "85eebb44-32e0-4a63-8a3a-84d02d1b2f8a",
+    "name": "Arby's",
+    "city": "Alamogordo",
+    "state": "NM",
+    "lat": 32.8862626,
+    "lng": -105.9598167,
+    "result": "ok"
+  },
+  {
+    "id": "c2836318-3b8e-4bc6-abc9-23df51883af5",
+    "name": "Arby's",
+    "city": "Greenville",
+    "state": "NC",
+    "lat": 35.6049025,
+    "lng": -77.3700596,
+    "result": "ok"
+  },
+  {
+    "id": "97322be7-9e7b-489d-946a-09f5e7f98d0d",
+    "name": "Arby's",
+    "city": "Mandan",
+    "state": "ND",
+    "lat": 46.8487459,
+    "lng": -100.909618,
+    "result": "ok"
+  },
+  {
+    "id": "fcde2044-f9ca-4e10-8623-e1526e87d0f7",
+    "name": "Arby's",
+    "city": "Chester",
+    "state": "PA",
+    "lat": 39.8430902,
+    "lng": -75.7295199,
+    "result": "ok"
+  },
+  {
+    "id": "ebe3d1ec-9ba7-4308-81ea-18e7ce89bddd",
+    "name": "Arby's",
+    "city": "Chambersburg",
+    "state": "PA",
+    "lat": 39.9243562,
+    "lng": -77.6102742,
+    "result": "ok"
+  },
+  {
+    "id": "2ec2a689-df73-4d0c-ad4b-0e73c0520f2e",
+    "name": "Arby's",
+    "city": "Kingsport",
+    "state": "TN",
+    "lat": 36.5481887,
+    "lng": -82.5183191,
+    "result": "ok"
+  },
+  {
+    "id": "0f9ba331-209a-4bf5-ae92-162b1531d186",
+    "name": "Arby's",
+    "city": "Kennewick",
+    "state": "WA",
+    "lat": 46.2251998,
+    "lng": -119.223084,
+    "result": "ok"
+  },
+  {
+    "id": "d1830bc5-1cf4-45ee-acd7-7b3288f05b68",
+    "name": "Arby's",
+    "city": "Weirton",
+    "state": "WV",
+    "lat": 40.4015891,
+    "lng": -80.5502176,
+    "result": "ok"
+  },
+  {
+    "id": "cbc8c0f8-d22f-4b4c-a74e-4ec991c0785f",
+    "name": "Arby's",
+    "city": "La Crosse",
+    "state": "WI",
+    "lat": 43.8777147,
+    "lng": -91.1776846,
+    "result": "ok"
+  },
+  {
+    "id": "e8be26cb-9982-4285-9b85-818ff0648442",
+    "name": "Arby's",
+    "city": "Fort Smith",
+    "state": "AR",
+    "lat": 35.3565694,
+    "lng": -94.3586465,
+    "result": "ok"
+  },
+  {
+    "id": "3c91f021-734f-404c-b18a-fc29b268c7de",
+    "name": "Arby's",
+    "city": "Stockton",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "f35936fc-0511-41f1-aa67-f295faffab61",
+    "name": "Arby's",
+    "city": "Fontana",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "abcbc2b0-2d7b-4f2a-85a4-f33547da94c2",
+    "name": "Arby's",
+    "city": "Ontario",
+    "state": "CA",
+    "lat": 34.0295632,
+    "lng": -117.593703,
+    "result": "ok"
+  },
+  {
+    "id": "7cf2793c-7d66-4734-85b5-310212a6fc7b",
+    "name": "Arby's",
+    "city": "Roseville",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "cb74cf4a-5269-40f4-9f3c-af0322a487a4",
+    "name": "Arby's",
+    "city": "Hayward",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "fffd2ced-7575-4731-9206-f25aa3f24114",
+    "name": "Arby's",
+    "city": "Denver",
+    "state": "CO",
+    "lat": 39.7815583,
+    "lng": -104.7727917,
+    "result": "ok"
+  },
+  {
+    "id": "d40845f4-c228-4463-9037-4e68a6945db4",
+    "name": "Arby's",
+    "city": "Miami",
+    "state": "FL",
+    "lat": 25.7627499,
+    "lng": -80.3052117,
+    "result": "ok"
+  },
+  {
+    "id": "da6acf2e-9109-4e81-b74b-959a4ce35a95",
+    "name": "Arby's",
+    "city": "Port St. Lucie",
+    "state": "FL",
+    "lat": 27.3136122,
+    "lng": -80.3978326,
+    "result": "ok"
+  },
+  {
+    "id": "b09e4021-57d6-4e91-9b01-8d1a2b23c6fe",
+    "name": "Arby's",
+    "city": "Clearwater",
+    "state": "FL",
+    "lat": 27.9608444,
+    "lng": -82.7576773,
+    "result": "ok"
+  },
+  {
+    "id": "0c477c90-538a-4842-9d99-99e7a4383534",
+    "name": "Arby's",
+    "city": "Columbus",
+    "state": "GA",
+    "lat": 32.5419261,
+    "lng": -84.9499405,
+    "result": "ok"
+  },
+  {
+    "id": "e48872e0-e008-42f6-9a9c-f68a40ac4acb",
+    "name": "Arby's",
+    "city": "Sandy Springs",
+    "state": "GA",
+    "lat": 33.9957107,
+    "lng": -84.3504671,
+    "result": "ok"
+  },
+  {
+    "id": "f2059ec3-dd02-425c-9344-8242634c940b",
+    "name": "Arby's",
+    "city": "Pearl City",
+    "state": "HI",
+    "result": "no_result"
+  },
+  {
+    "id": "ff2cd20c-bbda-4b40-9658-955909b601c3",
+    "name": "Arby's",
+    "city": "Naperville",
+    "state": "IL",
+    "lat": 41.7673478,
+    "lng": -88.2052227,
+    "result": "ok"
+  },
+  {
+    "id": "0f130d38-9054-436b-91ba-b69260ea2df7",
+    "name": "Arby's",
+    "city": "Waukegan",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "c3c598ba-c9b3-4858-9a56-d202669e068a",
+    "name": "Arby's",
+    "city": "Fishers",
+    "state": "IN",
+    "lat": 39.9571656,
+    "lng": -86.0367492,
+    "result": "ok"
+  },
+  {
+    "id": "0d5952fb-996c-4422-be31-27a7c748d569",
+    "name": "Arby's",
+    "city": "Davenport",
+    "state": "IA",
+    "lat": 41.554429,
+    "lng": -90.5695831,
+    "result": "ok"
+  },
+  {
+    "id": "31ef00b2-8c8d-4770-956f-b4a4adf9bdc7",
+    "name": "Arby's",
+    "city": "Olathe",
+    "state": "KS",
+    "lat": 38.9132538,
+    "lng": -94.7948563,
+    "result": "ok"
+  },
+  {
+    "id": "ef9e6a18-edf0-482f-967e-94ac939886bb",
+    "name": "Arby's",
+    "city": "Covington",
+    "state": "KY",
+    "result": "no_result"
+  },
+  {
+    "id": "d94ae9ca-c77e-4617-a70b-87339fe288b0",
+    "name": "Arby's",
+    "city": "Metairie",
+    "state": "LA",
+    "lat": 30.0048967,
+    "lng": -90.1710216,
+    "result": "ok"
+  },
+  {
+    "id": "921ad3ea-c021-4fad-a440-4221e69cf17d",
+    "name": "Arby's",
+    "city": "Kenner",
+    "state": "LA",
+    "lat": 30.0212535,
+    "lng": -90.2540578,
+    "result": "ok"
+  },
+  {
+    "id": "b86f2403-014e-45b5-b4a0-58ac61d01f3f",
+    "name": "Arby's",
+    "city": "Hagerstown",
+    "state": "MD",
+    "lat": 39.6552355,
+    "lng": -77.7507752,
+    "result": "ok"
+  },
+  {
+    "id": "91bd0b7d-dad7-4394-b64e-12afbb9cf012",
+    "name": "Arby's",
+    "city": "New Bedford",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "4e1ce06e-c5a5-4a96-93e8-0088cd101d71",
+    "name": "Arby's",
+    "city": "Lansing",
+    "state": "MI",
+    "lat": 42.6989022,
+    "lng": -84.5667668,
+    "result": "ok"
+  },
+  {
+    "id": "4bb2520e-98f1-4f3d-8e82-855c50d6d34e",
+    "name": "Arby's",
+    "city": "Farmington Hills",
+    "state": "MI",
+    "lat": 42.5001826,
+    "lng": -83.3577583,
+    "result": "ok"
+  },
+  {
+    "id": "b88956a5-b4d1-4d77-b2fb-fbb523e14918",
+    "name": "Arby's",
+    "city": "Maple Grove",
+    "state": "MN",
+    "lat": 45.097691,
+    "lng": -93.447748,
+    "result": "ok"
+  },
+  {
+    "id": "4d61de63-f876-4e0a-ba70-04bb62be3de5",
+    "name": "Arby's",
+    "city": "Biloxi",
+    "state": "MS",
+    "lat": 30.406247,
+    "lng": -88.9098746,
+    "result": "ok"
+  },
+  {
+    "id": "929aea2e-6ae0-4c29-a992-710d9427c602",
+    "name": "Arby's",
+    "city": "O'Fallon",
+    "state": "MO",
+    "lat": 38.8013666,
+    "lng": -90.7007311,
+    "result": "ok"
+  },
+  {
+    "id": "6ede5e43-2125-4997-8ae7-3725d6cdb0ae",
+    "name": "Arby's",
+    "city": "Bozeman",
+    "state": "MT",
+    "lat": 45.6693159,
+    "lng": -111.0811732,
+    "result": "ok"
+  },
+  {
+    "id": "09c3b773-e599-49fc-affb-beac795d9f59",
+    "name": "Arby's",
+    "city": "Sparks",
+    "state": "NV",
+    "result": "no_result"
+  },
+  {
+    "id": "7c3ebd1c-a82d-4554-81a6-5e30593f1c43",
+    "name": "Arby's",
+    "city": "Paterson",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "521fac33-09fc-413a-b0c4-47a6be9066f1",
+    "name": "Arby's",
+    "city": "Albuquerque",
+    "state": "NM",
+    "lat": 35.1009217,
+    "lng": -106.5158727,
+    "result": "ok"
+  },
+  {
+    "id": "442f9f0c-d5f1-4882-a232-dfff897b0920",
+    "name": "Arby's",
+    "city": "Syracuse",
+    "state": "NY",
+    "lat": 43.047899,
+    "lng": -76.1702405,
+    "result": "ok"
+  },
+  {
+    "id": "abc96746-5743-4574-a541-c6523d2eefcf",
+    "name": "Arby's",
+    "city": "Moore",
+    "state": "OK",
+    "lat": 35.3224267,
+    "lng": -97.4949307,
+    "result": "ok"
+  },
+  {
+    "id": "8348b8ba-13f3-4f22-8839-653eacb749cf",
+    "name": "Arby's",
+    "city": "Beaverton",
+    "state": "OR",
+    "lat": 45.4995663,
+    "lng": -122.8066016,
+    "result": "ok"
+  },
+  {
+    "id": "bfa204f9-304b-4929-a691-45bcce019152",
+    "name": "Arby's",
+    "city": "Scranton",
+    "state": "PA",
+    "lat": 41.4141458,
+    "lng": -75.6701735,
+    "result": "ok"
+  },
+  {
+    "id": "d3310709-c112-4011-989a-c97909e4b9ba",
+    "name": "Arby's",
+    "city": "Warwick",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "4d05b199-1c6f-44ea-a62d-15c3d2093f8e",
+    "name": "Arby's",
+    "city": "Knoxville",
+    "state": "TN",
+    "lat": 35.9329735,
+    "lng": -84.0202104,
+    "result": "ok"
+  },
+  {
+    "id": "b5215a37-5e73-4311-8f02-55cbf13d9e04",
+    "name": "Arby's",
+    "city": "Bartlett",
+    "state": "TN",
+    "lat": 35.2052342,
+    "lng": -89.7955002,
+    "result": "ok"
+  },
+  {
+    "id": "f10de2d1-b319-4452-b92d-2b17855d00c1",
+    "name": "Arby's",
+    "city": "Austin",
+    "state": "TX",
+    "lat": 30.3633841,
+    "lng": -97.7181432,
+    "result": "ok"
+  },
+  {
+    "id": "5b310c4a-e442-49c9-8ccb-616f92ff7c30",
+    "name": "Arby's",
+    "city": "Lubbock",
+    "state": "TX",
+    "lat": 33.543834,
+    "lng": -101.9402513,
+    "result": "ok"
+  },
+  {
+    "id": "177d55c0-1f80-46af-b6a4-97951d9c8aeb",
+    "name": "Arby's",
+    "city": "McKinney",
+    "state": "TX",
+    "lat": 33.217015,
+    "lng": -96.6324814,
+    "result": "ok"
+  },
+  {
+    "id": "320b3cf9-76ff-486d-a03b-350d40260de9",
+    "name": "Arby's",
+    "city": "Abilene",
+    "state": "TX",
+    "lat": 32.4051969,
+    "lng": -99.7650258,
+    "result": "ok"
+  },
+  {
+    "id": "8e1ece8a-220a-4b50-b6e7-8503f7ea1762",
+    "name": "Arby's",
+    "city": "Ogden",
+    "state": "UT",
+    "lat": 41.2439656,
+    "lng": -111.9731414,
+    "result": "ok"
+  },
+  {
+    "id": "47114b7b-54e1-4147-b54f-c0fcace0d0b7",
+    "name": "Arby's",
+    "city": "Norfolk",
+    "state": "VA",
+    "lat": 36.8480724,
+    "lng": -76.2094756,
+    "result": "ok"
+  },
+  {
+    "id": "aea55b60-3352-4eb4-9ce7-9035f2e84dc2",
+    "name": "Arby's",
+    "city": "Suffolk",
+    "state": "VA",
+    "lat": 36.877157,
+    "lng": -76.428304,
+    "result": "ok"
+  },
+  {
+    "id": "0e535323-36ec-4e14-97a0-d284b4ae3c9c",
+    "name": "Arby's",
+    "city": "Everett",
+    "state": "WA",
+    "lat": 47.9113407,
+    "lng": -122.2188469,
+    "result": "ok"
+  },
+  {
+    "id": "5c0a8d25-dc44-49ff-94cc-0b0845411588",
+    "name": "Arby's",
+    "city": "Morgantown",
+    "state": "WV",
+    "lat": 39.6192838,
+    "lng": -79.9232808,
+    "result": "ok"
+  },
+  {
+    "id": "bc841eff-bb16-413f-9f62-e823af960476",
+    "name": "Arby's",
+    "city": "Waukesha",
+    "state": "WI",
+    "lat": 42.9555804,
+    "lng": -88.110362,
+    "result": "ok"
+  },
+  {
+    "id": "18eb2df9-083b-4bd5-93d5-68f9846722a9",
+    "name": "Arby's",
+    "city": "Gillette",
+    "state": "WY",
+    "lat": 44.2694506,
+    "lng": -105.4945642,
+    "result": "ok"
+  },
+  {
+    "id": "c953e149-3a24-4377-a893-bf20ff86fbc6",
+    "name": "Arby's",
+    "city": "Wilmington",
+    "state": "NC",
+    "lat": 34.2436055,
+    "lng": -77.8825427,
+    "result": "ok"
+  },
+  {
+    "id": "53c11c24-ce33-48ee-be2a-6d141db4d20c",
+    "name": "Arby's",
+    "city": "Cleveland",
+    "state": "OH",
+    "lat": 41.5040149,
+    "lng": -81.6747985,
+    "result": "ok"
+  },
+  {
+    "id": "f5f261c6-f2e9-4fe5-864a-c2451a66861c",
+    "name": "Arby's",
+    "city": "Canton",
+    "state": "OH",
+    "lat": 40.8536046,
+    "lng": -81.4379721,
+    "result": "ok"
+  },
+  {
+    "id": "008774d8-a94d-4795-a557-bde3a4a2d504",
+    "name": "Arby's",
+    "city": "Avondale",
+    "state": "AZ",
+    "lat": 33.463181,
+    "lng": -112.2905408,
+    "result": "ok"
+  },
+  {
+    "id": "a79416b1-5bb7-4f04-a4ba-204b93c4c4b1",
+    "name": "Arby's",
+    "city": "Buckeye",
+    "state": "AZ",
+    "result": "no_result"
+  },
+  {
+    "id": "d8591a50-e47b-415b-85c2-9c5ce253062f",
+    "name": "Arby's",
+    "city": "Escondido",
+    "state": "CA",
+    "lat": 33.1291446,
+    "lng": -117.0906033,
+    "result": "ok"
+  },
+  {
+    "id": "bf58c61a-ffd3-4847-8625-59ddbd18133a",
+    "name": "Arby's",
+    "city": "El Cajon",
+    "state": "CA",
+    "lat": 32.7980671,
+    "lng": -116.9352141,
+    "result": "ok"
+  },
+  {
+    "id": "007be92f-0480-40b0-9bf6-a9c50cdb045a",
+    "name": "Arby's",
+    "city": "Fairfield",
+    "state": "CA",
+    "lat": 38.221062,
+    "lng": -122.125689,
+    "result": "ok"
+  },
+  {
+    "id": "c7dda355-7d55-4396-9b02-380547c2f724",
+    "name": "Arby's",
+    "city": "South Gate",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "d292b63f-c283-4ad9-a086-894cf5f53ec5",
+    "name": "Arby's",
+    "city": "Carson",
+    "state": "CA",
+    "lat": 33.8157825,
+    "lng": -118.3046681,
+    "result": "ok"
+  },
+  {
+    "id": "89475489-dcdc-4b69-8ada-98b683400b49",
+    "name": "Arby's",
+    "city": "Longmont",
+    "state": "CO",
+    "lat": 40.1979454,
+    "lng": -105.1019781,
+    "result": "ok"
+  },
+  {
+    "id": "c9eed444-3ea7-4ad8-8487-c7547398dc73",
+    "name": "Arby's",
+    "city": "Northglenn",
+    "state": "CO",
+    "lat": 39.8846725,
+    "lng": -104.9977089,
+    "result": "ok"
+  },
+  {
+    "id": "0ce82331-eb99-4a8f-8299-39152b212297",
+    "name": "Arby's",
+    "city": "Margate",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "0cd27103-4b29-441a-89e8-d951ed34717a",
+    "name": "Arby's",
+    "city": "Gainesville",
+    "state": "GA",
+    "lat": 34.2891906,
+    "lng": -83.8425954,
+    "result": "ok"
+  },
+  {
+    "id": "992485e6-aa62-49ef-a766-b0971f3edeb7",
+    "name": "Arby's",
+    "city": "Carrollton",
+    "state": "GA",
+    "lat": 33.5537727,
+    "lng": -85.0725794,
+    "result": "ok"
+  },
+  {
+    "id": "2832e30a-34b3-4f77-889d-a2c86604d7f4",
+    "name": "Arby's",
+    "city": "Kailua",
+    "state": "HI",
+    "result": "no_result"
+  },
+  {
+    "id": "e76bae4e-5b2f-4a27-a54b-d46e5eaf76b6",
+    "name": "Arby's",
+    "city": "Lewiston",
+    "state": "ID",
+    "lat": 46.3835528,
+    "lng": -116.9814236,
+    "result": "ok"
+  },
+  {
+    "id": "504065aa-ae2d-44ed-9021-5f618d6f73e5",
+    "name": "Arby's",
+    "city": "Palatine",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "1e4c0919-f85d-4d59-9b1b-c7d97da39a3e",
+    "name": "Arby's",
+    "city": "Wheaton",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "a44d6488-ad0b-44a3-85f5-fbcb69551d5d",
+    "name": "Arby's",
+    "city": "Greenwood",
+    "state": "IN",
+    "lat": 39.6146799,
+    "lng": -86.0843504,
+    "result": "ok"
+  },
+  {
+    "id": "821fd6c5-144c-4463-91c5-a5d16bd219a6",
+    "name": "Arby's",
+    "city": "Ames",
+    "state": "IA",
+    "lat": 42.0186016,
+    "lng": -93.610921,
+    "result": "ok"
+  },
+  {
+    "id": "a014a701-a50a-45ba-84d7-07c503a94263",
+    "name": "Arby's",
+    "city": "Shawnee",
+    "state": "KS",
+    "lat": 39.0440866,
+    "lng": -95.760254,
+    "result": "ok"
+  },
+  {
+    "id": "bebedd69-85dc-42f5-bb04-b2706f307cfa",
+    "name": "Arby's",
+    "city": "Dodge City",
+    "state": "KS",
+    "result": "no_result"
+  },
+  {
+    "id": "62e40c88-066f-4ec7-b0e6-1d9e16d6014d",
+    "name": "Arby's",
+    "city": "Slidell",
+    "state": "LA",
+    "lat": 30.285209,
+    "lng": -89.7529121,
+    "result": "ok"
+  },
+  {
+    "id": "5b090643-cf0f-4ee6-8441-6adf3d5945d4",
+    "name": "Arby's",
+    "city": "Biddeford",
+    "state": "ME",
+    "result": "no_result"
+  },
+  {
+    "id": "faa14a84-c710-4bb0-97be-287536102fae",
+    "name": "Arby's",
+    "city": "Wyoming",
+    "state": "MI",
+    "lat": 42.8846357,
+    "lng": -85.6835908,
+    "result": "ok"
+  },
+  {
+    "id": "720f8f81-add5-425b-b315-fbc81d104dd2",
+    "name": "Arby's",
+    "city": "Joplin",
+    "state": "MO",
+    "lat": 37.0630251,
+    "lng": -94.4786956,
+    "result": "ok"
+  },
+  {
+    "id": "004015d9-3fb4-46e4-9395-0b67e9f35ef1",
+    "name": "Arby's",
+    "city": "Maryland Heights",
+    "state": "MO",
+    "result": "no_result"
+  },
+  {
+    "id": "f99ebece-028c-4b04-ba03-bf38eecb563e",
+    "name": "Arby's",
+    "city": "Norfolk",
+    "state": "NE",
+    "lat": 42.018535,
+    "lng": -97.4244402,
+    "result": "ok"
+  },
+  {
+    "id": "8df3ae5a-50d2-4475-baac-53b0ea910701",
+    "name": "Arby's",
+    "city": "Camden",
+    "state": "NJ",
+    "lat": 39.8921169,
+    "lng": -75.089907,
+    "result": "ok"
+  },
+  {
+    "id": "7789e882-98ce-44a8-93d8-009d1925a642",
+    "name": "Arby's",
+    "city": "New Brunswick",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "bb0e0170-3f84-4ffe-b09a-cfa33a28c4a2",
+    "name": "Arby's",
+    "city": "Clovis",
+    "state": "NM",
+    "result": "no_result"
+  },
+  {
+    "id": "107debc6-b10f-4ba6-b6b8-7be686988544",
+    "name": "Arby's",
+    "city": "Brookhaven",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "386fd624-756d-4d49-9c28-1bc2b6a3b110",
+    "name": "Arby's",
+    "city": "White Plains",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "44f77385-766e-446d-a9e3-0e1fc56aa1ce",
+    "name": "Arby's",
+    "city": "Hilliard",
+    "state": "OH",
+    "lat": 39.9828163,
+    "lng": -83.1500429,
+    "result": "ok"
+  },
+  {
+    "id": "610a3825-7b35-4572-9695-1454832a1cc5",
+    "name": "Arby's",
+    "city": "Corvallis",
+    "state": "OR",
+    "lat": 44.5929426,
+    "lng": -123.2519565,
+    "result": "ok"
+  },
+  {
+    "id": "5696709c-3852-4e87-9198-2c3ebaedf770",
+    "name": "Arby's",
+    "city": "Tualatin",
+    "state": "OR",
+    "result": "no_result"
+  },
+  {
+    "id": "b9d87327-bc53-4b42-8bb9-de317969e612",
+    "name": "Arby's",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "lat": 33.7039608,
+    "lng": -78.8694643,
+    "result": "ok"
+  },
+  {
+    "id": "aa6e11da-2041-4a0e-9393-674fac1c773c",
+    "name": "Arby's",
+    "city": "Lexington",
+    "state": "SC",
+    "lat": 34.0887312,
+    "lng": -81.1777089,
+    "result": "ok"
+  },
+  {
+    "id": "2dfaeefb-1b3c-49c0-abea-8dfd20ddc8fb",
+    "name": "Arby's",
+    "city": "Columbia",
+    "state": "TN",
+    "lat": 35.6047359,
+    "lng": -87.0658456,
+    "result": "ok"
+  },
+  {
+    "id": "33e458de-bf6a-4010-8d0f-e57c13be8d80",
+    "name": "Arby's",
+    "city": "Wichita Falls",
+    "state": "TX",
+    "lat": 33.9097477,
+    "lng": -98.5029431,
+    "result": "ok"
+  },
+  {
+    "id": "dc9eacb6-bffd-4924-b8f7-e92f0c9dcad7",
+    "name": "Arby's",
+    "city": "Wylie",
+    "state": "TX",
+    "lat": 33.0081257,
+    "lng": -96.5562811,
+    "result": "ok"
+  },
+  {
+    "id": "aaf100a6-47c5-4ca1-8f98-f1be66dfddb9",
+    "name": "Arby's",
+    "city": "Baytown",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "d62c91b0-7de6-4f7e-b435-0d222bbc0cb8",
+    "name": "Arby's",
+    "city": "Logan",
+    "state": "UT",
+    "lat": 41.7556108,
+    "lng": -111.8338457,
+    "result": "ok"
+  },
+  {
+    "id": "1966ef41-b0e8-4fcd-bb66-e8ed0d544477",
+    "name": "Arby's",
+    "city": "Richland",
+    "state": "WA",
+    "lat": 46.2818985,
+    "lng": -119.2743801,
+    "result": "ok"
+  },
+  {
+    "id": "0412dd26-8c58-4169-99c9-9eb350c9748c",
+    "name": "Arby's",
+    "city": "Greenfield",
+    "state": "WI",
+    "lat": 42.9564491,
+    "lng": -87.9494542,
+    "result": "ok"
+  },
+  {
+    "id": "467265dd-2890-4a2b-bdaa-b95ca1b7d14b",
+    "name": "Arby's",
+    "city": "Wausau",
+    "state": "WI",
+    "lat": 44.9951699,
+    "lng": -89.6611634,
+    "result": "ok"
+  },
+  {
+    "id": "52d7d19e-8ed1-4da4-9007-83879529a51e",
+    "name": "Arby's",
+    "city": "Sheridan",
+    "state": "WY",
+    "lat": 44.7788802,
+    "lng": -106.9420212,
+    "result": "ok"
+  },
+  {
+    "id": "82d5a4c2-dcbe-436c-81fe-b07536e9feca",
+    "name": "Arby's",
+    "city": "Sioux City",
+    "state": "IA",
+    "lat": 42.475154,
+    "lng": -96.3338495,
+    "result": "ok"
+  },
+  {
+    "id": "813a60c4-3106-4a91-bc5c-73a6b2d8e1e9",
+    "name": "Arby's",
+    "city": "Redmond",
+    "state": "WA",
+    "lat": 47.6312908,
+    "lng": -122.1390416,
+    "result": "ok"
+  },
+  {
+    "id": "e6c532f9-302d-49c7-b9a7-f3f24592fb72",
+    "name": "Arby's",
+    "city": "Burien",
+    "state": "WA",
+    "lat": 47.4613237,
+    "lng": -122.3335482,
+    "result": "ok"
+  },
+  {
+    "id": "5d94a618-2f88-4cf2-8ba1-0d231320154d",
+    "name": "Arby's",
+    "city": "Bentonville",
+    "state": "AR",
+    "lat": 36.3568753,
+    "lng": -94.180498,
+    "result": "ok"
+  },
+  {
+    "id": "2beea68e-c81b-497a-86b2-f4aa61de0344",
+    "name": "Arby's",
+    "city": "Russellville",
+    "state": "AR",
+    "lat": 35.3030598,
+    "lng": -93.1381261,
+    "result": "ok"
+  },
+  {
+    "id": "1e852e2f-7005-498e-86f8-fb09881ef550",
+    "name": "Arby's",
+    "city": "Menifee",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "139a2c25-5c43-43c9-b67b-5341e14e3e88",
+    "name": "Arby's",
+    "city": "Indio",
+    "state": "CA",
+    "lat": 33.7425206,
+    "lng": -116.2325405,
+    "result": "ok"
+  },
+  {
+    "id": "188aa999-a061-4913-8708-2fddb161ce97",
+    "name": "Arby's",
+    "city": "Burbank",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "e63eedf1-fe40-4450-a8b6-f6d639def472",
+    "name": "Arby's",
+    "city": "Pomona",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "f18f6887-4c64-48d8-87c9-7d80ac7fed76",
+    "name": "Arby's",
+    "city": "Merced",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "a2100097-f119-41d4-87e1-0c985cef1cca",
+    "name": "Arby's",
+    "city": "Tracy",
+    "state": "CA",
+    "lat": 37.7617381,
+    "lng": -121.4363241,
+    "result": "ok"
+  },
+  {
+    "id": "2ae534d4-fee9-449f-886b-596103fe5c14",
+    "name": "Arby's",
+    "city": "Ventura",
+    "state": "CA",
+    "lat": 34.27133,
+    "lng": -118.7718,
+    "result": "ok"
+  },
+  {
+    "id": "1763e8b9-d0ef-4749-9e76-5b98263f9ef8",
+    "name": "Arby's",
+    "city": "Redlands",
+    "state": "CA",
+    "lat": 34.0625675,
+    "lng": -117.2016841,
+    "result": "ok"
+  },
+  {
+    "id": "740ae4ce-efa2-4608-949e-3d80a3cfce19",
+    "name": "Arby's",
+    "city": "Apple Valley",
+    "state": "CA",
+    "lat": 34.4717807,
+    "lng": -117.1932525,
+    "result": "ok"
+  },
+  {
+    "id": "4359ee97-639e-4457-9dd3-5dd752d7da05",
+    "name": "Arby's",
+    "city": "Tustin",
+    "state": "CA",
+    "lat": 33.8061396,
+    "lng": -117.8351872,
+    "result": "ok"
+  },
+  {
+    "id": "ab0704fa-9203-4599-b499-8c40820afe82",
+    "name": "Arby's",
+    "city": "Littleton",
+    "state": "CO",
+    "lat": 39.5738075,
+    "lng": -104.9907279,
+    "result": "ok"
+  },
+  {
+    "id": "be0448df-a2e8-4d69-b03b-4bfc12464670",
+    "name": "Arby's",
+    "city": "West Hartford",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "f8f98c2a-7ae2-4e0e-92fd-b6615fa978d2",
+    "name": "Arby's",
+    "city": "Milford",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "d6dbd60c-4bc4-4e22-a46c-1f745de6b42b",
+    "name": "Arby's",
+    "city": "Newark",
+    "state": "DE",
+    "lat": 39.694808,
+    "lng": -75.7177828,
+    "result": "ok"
+  },
+  {
+    "id": "b6e30ce3-768d-43f9-b0fc-62399c5ccacb",
+    "name": "Arby's",
+    "city": "Davie",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "08d8692e-a4c9-4049-ab73-4a754185bd98",
+    "name": "Arby's",
+    "city": "Deltona",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "a0a6f2e9-afdf-4ed7-826b-1218b63ac4f6",
+    "name": "Arby's",
+    "city": "Boca Raton",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "2530b61b-c18f-4fab-9255-7e4a9b7bdd24",
+    "name": "Arby's",
+    "city": "Deerfield Beach",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "aae0a64c-9347-4fa1-afbf-d09d535863ad",
+    "name": "Arby's",
+    "city": "Michigan City",
+    "state": "IN",
+    "lat": 41.724379,
+    "lng": -86.249981,
+    "result": "ok"
+  },
+  {
+    "id": "47f2cc37-7011-4949-b1f1-828e85ca1d61",
+    "name": "Arby's",
+    "city": "Paducah",
+    "state": "KY",
+    "lat": 37.0491962,
+    "lng": -88.6528347,
+    "result": "ok"
+  },
+  {
+    "id": "c9bbbada-b1e6-4b73-993b-9a2075ce53f4",
+    "name": "Arby's",
+    "city": "Houma",
+    "state": "LA",
+    "lat": 29.6146392,
+    "lng": -90.7571595,
+    "result": "ok"
+  },
+  {
+    "id": "68cdc982-4c28-4511-8468-8e880e5e2d10",
+    "name": "Arby's",
+    "city": "Glen Burnie",
+    "state": "MD",
+    "lat": 39.1513419,
+    "lng": -76.6326723,
+    "result": "ok"
+  },
+  {
+    "id": "38eef68d-c72e-4a25-8e08-b5b58df74c05",
+    "name": "Arby's",
+    "city": "Wheaton",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "119bf395-28d1-4bbc-82df-0ac88deb43e9",
+    "name": "Arby's",
+    "city": "Somerville",
+    "state": "MA",
+    "lat": 40.5287704,
+    "lng": -111.8555372,
+    "result": "ok"
+  },
+  {
+    "id": "e9b367f5-fe9d-4d04-8a51-934b2339854a",
+    "name": "Arby's",
+    "city": "Waltham",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "d41e9eb9-d7c5-400f-a013-2dab0a701e9c",
+    "name": "Arby's",
+    "city": "Framingham",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "1675cc2f-7065-477a-b479-c2ebcaff1b5e",
+    "name": "Arby's",
+    "city": "Pontiac",
+    "state": "MI",
+    "lat": 42.6778138,
+    "lng": -83.2520384,
+    "result": "ok"
+  },
+  {
+    "id": "66e50f31-918c-4c27-984f-0da16fa5d96d",
+    "name": "Arby's",
+    "city": "Holland",
+    "state": "MI",
+    "lat": 42.7555067,
+    "lng": -86.1158388,
+    "result": "ok"
+  },
+  {
+    "id": "48fac423-af27-44f4-b7b0-8de273fdf6a1",
+    "name": "Arby's",
+    "city": "Burnsville",
+    "state": "MN",
+    "lat": 44.7460544,
+    "lng": -93.2798176,
+    "result": "ok"
+  },
+  {
+    "id": "fdc401de-b7d2-4f45-b9ea-292a3e4f6163",
+    "name": "Arby's",
+    "city": "Eden Prairie",
+    "state": "MN",
+    "lat": 44.8514862,
+    "lng": -93.4282595,
+    "result": "ok"
+  },
+  {
+    "id": "d1482120-0450-4b3f-b26e-1d077f38ff8e",
+    "name": "Arby's",
+    "city": "Cottage Grove",
+    "state": "MN",
+    "lat": 44.8308545,
+    "lng": -92.9607351,
+    "result": "ok"
+  },
+  {
+    "id": "2b7dbbc0-e6a0-4d37-bdf9-17ee0db11989",
+    "name": "Arby's",
+    "city": "Tupelo",
+    "state": "MS",
+    "lat": 34.3009773,
+    "lng": -88.7067111,
+    "result": "ok"
+  },
+  {
+    "id": "e48d28a2-69fd-4603-b730-bac28b263c12",
+    "name": "Arby's",
+    "city": "Horn Lake",
+    "state": "MS",
+    "lat": 34.9632712,
+    "lng": -90.0035238,
+    "result": "ok"
+  },
+  {
+    "id": "6c400a09-d574-4138-aa8d-b93df21d4a64",
+    "name": "Arby's",
+    "city": "Paradise",
+    "state": "NV",
+    "lat": 36.1004028,
+    "lng": -115.1148658,
+    "result": "ok"
+  },
+  {
+    "id": "305da969-6d42-4962-a4dd-4f73dc8f4b9b",
+    "name": "Arby's",
+    "city": "Dover",
+    "state": "NH",
+    "result": "no_result"
+  },
+  {
+    "id": "42651e21-72e1-4f27-a5ff-a229db34cf28",
+    "name": "Arby's",
+    "city": "Portsmouth",
+    "state": "NH",
+    "result": "no_result"
+  },
+  {
+    "id": "9569de3a-506c-4de4-85c2-92dd526201a5",
+    "name": "Arby's",
+    "city": "Gastonia",
+    "state": "NC",
+    "lat": 35.2530435,
+    "lng": -81.176983,
+    "result": "ok"
+  },
+  {
+    "id": "23ef9912-f2a2-4246-b33f-909ba0229af7",
+    "name": "Arby's",
+    "city": "Burlington",
+    "state": "NC",
+    "lat": 36.0707292,
+    "lng": -79.4949054,
+    "result": "ok"
+  },
+  {
+    "id": "5307363d-5d8b-45f7-92d2-7dae59b278e8",
+    "name": "Arby's",
+    "city": "Mooresville",
+    "state": "NC",
+    "lat": 35.5573278,
+    "lng": -80.8610812,
+    "result": "ok"
+  },
+  {
+    "id": "26d829bf-3a95-4f29-9074-0ea8eee476ba",
+    "name": "Arby's",
+    "city": "Asheville",
+    "state": "NC",
+    "lat": 35.5637589,
+    "lng": -82.5418841,
+    "result": "ok"
+  },
+  {
+    "id": "5b6ddede-17fe-43a2-bf0a-7e67b86bf7d4",
+    "name": "Arby's",
+    "city": "Roseburg",
+    "state": "OR",
+    "lat": 43.1504707,
+    "lng": -123.367994,
+    "result": "ok"
+  },
+  {
+    "id": "68422429-3afb-482e-a93a-e8831e1bb5ea",
+    "name": "Arby's",
+    "city": "Levittown",
+    "state": "PA",
+    "lat": 40.1386096,
+    "lng": -74.8220317,
+    "result": "ok"
+  },
+  {
+    "id": "81d02b73-6c78-47b3-b6dd-61750f1de0c8",
+    "name": "Arby's",
+    "city": "Easton",
+    "state": "PA",
+    "lat": 40.7158367,
+    "lng": -75.284519,
+    "result": "ok"
+  },
+  {
+    "id": "f387452d-965f-41d0-b937-58e89640a8d0",
+    "name": "Arby's",
+    "city": "Monroeville",
+    "state": "PA",
+    "lat": 40.4379657,
+    "lng": -79.7728627,
+    "result": "ok"
+  },
+  {
+    "id": "6a469093-2130-4d0d-aa0a-5192612f2ec0",
+    "name": "Arby's",
+    "city": "Johnstown",
+    "state": "PA",
+    "lat": 40.2768691,
+    "lng": -78.8602521,
+    "result": "ok"
+  },
+  {
+    "id": "78043ab1-c00d-4457-a0c7-1c83e736bc66",
+    "name": "Arby's",
+    "city": "Cookeville",
+    "state": "TN",
+    "lat": 36.1491414,
+    "lng": -85.5012144,
+    "result": "ok"
+  },
+  {
+    "id": "68190a42-3774-4645-b8d4-2352b9b9deee",
+    "name": "Arby's",
+    "city": "Springville",
+    "state": "UT",
+    "lat": 40.1596159,
+    "lng": -111.6446338,
+    "result": "ok"
+  },
+  {
+    "id": "0ee6428b-2082-49c9-b244-28fe5f749de3",
+    "name": "Arby's",
+    "city": "Pasco",
+    "state": "WA",
+    "lat": 46.2738244,
+    "lng": -119.1844259,
+    "result": "ok"
+  },
+  {
+    "id": "e690229c-9d20-484f-8fd9-3fe671a11f47",
+    "name": "Arby's",
+    "city": "Lake Stevens",
+    "state": "WA",
+    "result": "no_result"
+  },
+  {
+    "id": "d2015310-0767-4085-9006-6f3dd61e1e6a",
+    "name": "Arby's",
+    "city": "Lacey",
+    "state": "WA",
+    "lat": 47.0436067,
+    "lng": -122.8334101,
+    "result": "ok"
+  },
+  {
+    "id": "99643411-f2ae-4b31-b53f-6fd1779b46d0",
+    "name": "Arby's",
+    "city": "Clarksburg",
+    "state": "WV",
+    "lat": 39.2652526,
+    "lng": -80.2877026,
+    "result": "ok"
+  },
+  {
+    "id": "19f7b0af-8733-4f28-818d-f05cc88fd2fb",
+    "name": "Arby's",
+    "city": "West Allis",
+    "state": "WI",
+    "lat": 42.9936971,
+    "lng": -88.0461327,
+    "result": "ok"
+  },
+  {
+    "id": "3e17b3c9-a439-4f55-bf0c-5cbba8da7f2a",
+    "name": "Arby's",
+    "city": "Tempe",
+    "state": "AZ",
+    "lat": 33.3923317,
+    "lng": -111.9778006,
+    "result": "ok"
+  },
+  {
+    "id": "90ee58e6-91a8-44c6-a1b7-ee4c499b9a78",
+    "name": "Arby's",
+    "city": "Little Rock",
+    "state": "AR",
+    "lat": 34.7609911,
+    "lng": -92.3810458,
+    "result": "ok"
+  },
+  {
+    "id": "1f872ffa-ed8e-4a9c-8931-f2a159d973a0",
+    "name": "Arby's",
+    "city": "Oakland",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "ed765c98-568a-4410-b9d6-414a7242e5b1",
+    "name": "Arby's",
+    "city": "Riverside",
+    "state": "CA",
+    "lat": 33.9142312,
+    "lng": -117.4595859,
+    "result": "ok"
+  },
+  {
+    "id": "a1c6cb93-3261-45cf-90fe-f72b71f67bb8",
+    "name": "Arby's",
+    "city": "Fremont",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "205fad11-d323-4575-91c2-4a777cf9d48a",
+    "name": "Arby's",
+    "city": "Modesto",
+    "state": "CA",
+    "lat": 37.6894156,
+    "lng": -121.0333599,
+    "result": "ok"
+  },
+  {
+    "id": "16c7df13-c35e-4760-8108-c948004918ee",
+    "name": "Arby's",
+    "city": "Santa Ana",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "299715bf-7b9c-45d6-a6b5-5c461e8a10a5",
+    "name": "Arby's",
+    "city": "Rancho Cucamonga",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "d86be01c-a230-4381-b515-8ac3721c031a",
+    "name": "Arby's",
+    "city": "Torrance",
+    "state": "CA",
+    "lat": 33.8157825,
+    "lng": -118.3046681,
+    "result": "ok"
+  },
+  {
+    "id": "24b3cfe0-9b9d-4a28-a025-96afe5679747",
+    "name": "Arby's",
+    "city": "Orange",
+    "state": "CA",
+    "lat": 33.6925973,
+    "lng": -117.826204,
+    "result": "ok"
+  },
+  {
+    "id": "7523dfb8-229d-4e41-9940-9cdabe984d33",
+    "name": "Arby's",
+    "city": "Thousand Oaks",
+    "state": "CA",
+    "lat": 34.1784645,
+    "lng": -118.8587906,
+    "result": "ok"
+  },
+  {
+    "id": "10d588be-aa10-46ab-8aea-5142b0c7f373",
+    "name": "Arby's",
+    "city": "Simi Valley",
+    "state": "CA",
+    "lat": 34.27133,
+    "lng": -118.7718,
+    "result": "ok"
+  },
+  {
+    "id": "0acb7ee7-9566-4ce8-84b0-99da75b2d0f4",
+    "name": "Arby's",
+    "city": "Lancaster",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "a6437ec7-6128-45b9-9d44-b97ce2f693fa",
+    "name": "Arby's",
+    "city": "Antioch",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "9e8674f0-596f-43e8-9699-8a3d84514222",
+    "name": "Arby's",
+    "city": "Waterbury",
+    "state": "CT",
+    "lat": 41.5632025,
+    "lng": -72.8734064,
+    "result": "ok"
+  },
+  {
+    "id": "da0d592a-3e4a-4794-bbdf-868df966471a",
+    "name": "Arby's",
+    "city": "Jacksonville",
+    "state": "FL",
+    "lat": 30.4783085,
+    "lng": -81.635927,
+    "result": "ok"
+  },
+  {
+    "id": "c62b8065-bc3b-4fcf-ae77-a75dee4fe18e",
+    "name": "Arby's",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "lat": 27.8591197,
+    "lng": -82.6382277,
+    "result": "ok"
+  },
+  {
+    "id": "6bdbfc68-b7de-4fcd-9c25-4ec51285ed0e",
+    "name": "Arby's",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "lat": 26.1370546,
+    "lng": -80.1250852,
+    "result": "ok"
+  },
+  {
+    "id": "753d51c2-6569-44ef-acac-94223049d0bd",
+    "name": "Arby's",
+    "city": "Gainesville",
+    "state": "FL",
+    "lat": 29.6600471,
+    "lng": -82.4146068,
+    "result": "ok"
+  },
+  {
+    "id": "24e0a716-897f-4222-8082-a0befb8c3f8f",
+    "name": "Arby's",
+    "city": "Coral Springs",
+    "state": "FL",
+    "lat": 26.2878944,
+    "lng": -80.2027428,
+    "result": "ok"
+  },
+  {
+    "id": "6f49f77c-3fe8-4842-b4ae-b5a6dd069dc6",
+    "name": "Arby's",
+    "city": "Lakeland",
+    "state": "FL",
+    "lat": 27.9949145,
+    "lng": -81.9575079,
+    "result": "ok"
+  },
+  {
+    "id": "79d5f541-a6ad-42b6-a50b-abd852a2e5c0",
+    "name": "Arby's",
+    "city": "Atlanta",
+    "state": "GA",
+    "lat": 33.8016898,
+    "lng": -84.4149464,
+    "result": "ok"
+  },
+  {
+    "id": "02aa46ea-faa2-4276-90b4-bf26b490ba40",
+    "name": "Arby's",
+    "city": "Macon",
+    "state": "GA",
+    "lat": 32.8704768,
+    "lng": -83.7028423,
+    "result": "ok"
+  },
+  {
+    "id": "898def9a-913e-4c5f-a390-83fa5be691d3",
+    "name": "Arby's",
+    "city": "Athens",
+    "state": "GA",
+    "lat": 33.9231449,
+    "lng": -83.3411694,
+    "result": "ok"
+  },
+  {
+    "id": "e3391017-be36-47f6-8ca8-ccdb4be5112c",
+    "name": "Arby's",
+    "city": "Albany",
+    "state": "GA",
+    "lat": 31.5921043,
+    "lng": -84.1764523,
+    "result": "ok"
+  },
+  {
+    "id": "63a4cdad-5ab4-47de-b5c3-95f62e9132f7",
+    "name": "Arby's",
+    "city": "Honolulu",
+    "state": "HI",
+    "lat": 21.384827,
+    "lng": -158.0023959,
+    "result": "ok"
+  },
+  {
+    "id": "8144e538-8690-42fc-9661-b91ed477763d",
+    "name": "Arby's",
+    "city": "Idaho Falls",
+    "state": "ID",
+    "lat": 43.4963164,
+    "lng": -112.0606336,
+    "result": "ok"
+  },
+  {
+    "id": "24f6cc29-8cf3-4d87-81d1-d0e3922db37f",
+    "name": "Arby's",
+    "city": "Aurora",
+    "state": "IL",
+    "lat": 41.7805286,
+    "lng": -88.3724217,
+    "result": "ok"
+  },
+  {
+    "id": "3923ebf9-572a-4496-a996-658931da71c3",
+    "name": "Arby's",
+    "city": "Springfield",
+    "state": "IL",
+    "lat": 39.834412,
+    "lng": -89.6039992,
+    "result": "ok"
+  },
+  {
+    "id": "7b34bc03-9247-4041-ac2e-ec58f558acda",
+    "name": "Arby's",
+    "city": "Champaign",
+    "state": "IL",
+    "lat": 40.112414,
+    "lng": -88.2794705,
+    "result": "ok"
+  },
+  {
+    "id": "c1e31200-d949-4266-bdcc-cae60a6e7dee",
+    "name": "Arby's",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "lat": 41.1331352,
+    "lng": -85.136909,
+    "result": "ok"
+  },
+  {
+    "id": "965a9353-15a3-4817-91c1-bf59ac503261",
+    "name": "Arby's",
+    "city": "Carmel",
+    "state": "IN",
+    "lat": 40.0085323,
+    "lng": -86.1266254,
+    "result": "ok"
+  },
+  {
+    "id": "cf744459-2445-4632-8c81-83e14a7c12b8",
+    "name": "Arby's",
+    "city": "Gary",
+    "state": "IN",
+    "result": "no_result"
+  },
+  {
+    "id": "a6c6fa05-9aaf-4c17-8c46-0de2800754b4",
+    "name": "Arby's",
+    "city": "Cedar Rapids",
+    "state": "IA",
+    "lat": 41.9873047,
+    "lng": -91.6529179,
+    "result": "ok"
+  },
+  {
+    "id": "6b0e8d94-5058-46a2-ad78-b75644d17e28",
+    "name": "Arby's",
+    "city": "Overland Park",
+    "state": "KS",
+    "lat": 38.856044,
+    "lng": -94.6671513,
+    "result": "ok"
+  },
+  {
+    "id": "4420c21d-b9af-4da1-83f8-97ded6545430",
+    "name": "Arby's",
+    "city": "Topeka",
+    "state": "KS",
+    "lat": 39.0440866,
+    "lng": -95.760254,
+    "result": "ok"
+  },
+  {
+    "id": "537ae3bb-e711-4ec6-951d-df046592d7a2",
+    "name": "Arby's",
+    "city": "Louisville",
+    "state": "KY",
+    "lat": 38.2191288,
+    "lng": -85.6299913,
+    "result": "ok"
+  },
+  {
+    "id": "551b4c6d-bf30-4d1f-945c-a1e73a8b595b",
+    "name": "Arby's",
+    "city": "Owensboro",
+    "state": "KY",
+    "lat": 37.7253314,
+    "lng": -87.1240433,
+    "result": "ok"
+  },
+  {
+    "id": "9738809a-bcb9-4725-aba8-90a90a95a1bf",
+    "name": "Arby's",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "lat": 30.4241713,
+    "lng": -91.0520439,
+    "result": "ok"
+  },
+  {
+    "id": "de52c085-22d0-4e5d-acb3-2257430a9ecf",
+    "name": "Arby's",
+    "city": "Shreveport",
+    "state": "LA",
+    "lat": 32.4026352,
+    "lng": -93.8055619,
+    "result": "ok"
+  },
+  {
+    "id": "37f39f2f-51f7-40e2-95a2-0219681cd5cf",
+    "name": "Arby's",
+    "city": "Pharr",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "dae9b73c-8415-4819-962e-ad3efd69f122",
+    "name": "Arby's",
+    "city": "Lake Charles",
+    "state": "LA",
+    "lat": 30.1986963,
+    "lng": -93.2499817,
+    "result": "ok"
+  },
+  {
+    "id": "1100db17-a9b8-4e7f-8e7d-6c61d29b7b11",
+    "name": "Arby's",
+    "city": "Frederick",
+    "state": "MD",
+    "lat": 39.419045,
+    "lng": -77.4517321,
+    "result": "ok"
+  },
+  {
+    "id": "44d77466-a0fa-47c8-b514-2bc36e858ad6",
+    "name": "Arby's",
+    "city": "Bowie",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "8a5f2cd4-b61f-4d45-bbfa-f6e2acf38fcc",
+    "name": "Arby's",
+    "city": "Worcester",
+    "state": "MA",
+    "lat": 42.2028128,
+    "lng": -71.8385106,
+    "result": "ok"
+  },
+  {
+    "id": "4fde6aeb-b714-45a1-8a4f-65724d1dfe07",
+    "name": "Arby's",
+    "city": "Cambridge",
+    "state": "MA",
+    "lat": 38.5549585,
+    "lng": -76.0538545,
+    "result": "ok"
+  },
+  {
+    "id": "43569411-e6ab-47b9-8be2-7d26c6937221",
+    "name": "Arby's",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "lat": 43.0265165,
+    "lng": -85.6329633,
+    "result": "ok"
+  },
+  {
+    "id": "01682a61-7243-4536-98d7-6db938543695",
+    "name": "Arby's",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "lat": 42.2894433,
+    "lng": -83.841438,
+    "result": "ok"
+  },
+  {
+    "id": "9763c691-5a08-4b24-a6bd-66f3fa8b5d28",
+    "name": "Arby's",
+    "city": "Livonia",
+    "state": "MI",
+    "lat": 42.439914,
+    "lng": -83.380007,
+    "result": "ok"
+  },
+  {
+    "id": "96ec5d5c-8874-420e-bdea-6da7929a00ef",
+    "name": "Arby's",
+    "city": "Troy",
+    "state": "MI",
+    "lat": 42.5935123,
+    "lng": -83.0915768,
+    "result": "ok"
+  },
+  {
+    "id": "a4e29761-d928-4c8a-abfc-027418f50318",
+    "name": "Arby's",
+    "city": "Duluth",
+    "state": "MN",
+    "lat": 46.7487027,
+    "lng": -92.1559902,
+    "result": "ok"
+  },
+  {
+    "id": "c0e9e7bc-f792-469b-b19f-25a649d0378b",
+    "name": "Arby's",
+    "city": "Plymouth",
+    "state": "MN",
+    "lat": 45.011833,
+    "lng": -93.4629025,
+    "result": "ok"
+  },
+  {
+    "id": "035a65d8-a150-4c1c-ad48-ef1dbcaa62fc",
+    "name": "Arby's",
+    "city": "Gulfport",
+    "state": "MS",
+    "lat": 30.4218633,
+    "lng": -89.091846,
+    "result": "ok"
+  },
+  {
+    "id": "aa000717-6add-4ca7-907b-f9315f8f820d",
+    "name": "Arby's",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "lat": 31.3198647,
+    "lng": -89.3887555,
+    "result": "ok"
+  },
+  {
+    "id": "aceec1bc-ebd3-4c8b-861e-c48d46ca4640",
+    "name": "Arby's",
+    "city": "Springfield",
+    "state": "MO",
+    "lat": 37.2405383,
+    "lng": -93.3085818,
+    "result": "ok"
+  },
+  {
+    "id": "f40ccc6c-8b22-4396-ae75-cc41aece470a",
+    "name": "Arby's",
+    "city": "Lee's Summit",
+    "state": "MO",
+    "lat": 38.8532449,
+    "lng": -94.379896,
+    "result": "ok"
+  },
+  {
+    "id": "c3863461-f903-49a2-954a-b6aa3324d17f",
+    "name": "Arby's",
+    "city": "Blue Springs",
+    "state": "MO",
+    "lat": 39.0263843,
+    "lng": -94.2458764,
+    "result": "ok"
+  },
+  {
+    "id": "8517ed3f-ba76-452f-9fb6-485c05a35354",
+    "name": "Arby's",
+    "city": "Great Falls",
+    "state": "MT",
+    "lat": 47.5185588,
+    "lng": -111.311191,
+    "result": "ok"
+  },
+  {
+    "id": "70767dac-3952-4531-983c-c967b5f96289",
+    "name": "Arby's",
+    "city": "Henderson",
+    "state": "NV",
+    "lat": 36.036158,
+    "lng": -114.9771851,
+    "result": "ok"
+  },
+  {
+    "id": "8fb34873-5a29-48ca-8b69-f996a822f636",
+    "name": "Arby's",
+    "city": "North Las Vegas",
+    "state": "NV",
+    "lat": 36.2874044,
+    "lng": -115.1783414,
+    "result": "ok"
+  },
+  {
+    "id": "0a7ea351-a9dd-43b4-a2ed-8529ba677855",
+    "name": "Arby's",
+    "city": "Nashua",
+    "state": "NH",
+    "lat": 42.8026243,
+    "lng": -71.539452,
+    "result": "ok"
+  },
+  {
+    "id": "74cf8e17-4b9e-4a0d-803f-c34a4ac9a8c0",
+    "name": "Arby's",
+    "city": "Jersey City",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "b7549391-0bdb-4dff-9252-e0f01bf474fa",
+    "name": "Arby's",
+    "city": "Lakewood",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "25185719-ddd8-4968-845e-8c29b01f65c0",
+    "name": "Arby's",
+    "city": "Trenton",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "4a6ab124-af32-4774-b932-c67b630016ce",
+    "name": "Arby's",
+    "city": "New York City",
+    "state": "NY",
+    "lat": 40.7384928,
+    "lng": -73.7936377,
+    "result": "ok"
+  },
+  {
+    "id": "3f8db319-4163-4952-91b8-ab13cfc91596",
+    "name": "Arby's",
+    "city": "Yonkers",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "442962f3-23cf-4e69-bb1d-396d87ea06f3",
+    "name": "Arby's",
+    "city": "Utica",
+    "state": "NY",
+    "lat": 43.087433,
+    "lng": -75.2586364,
+    "result": "ok"
+  },
+  {
+    "id": "8d39f065-4dc5-4152-a7d8-290e8419d399",
+    "name": "Arby's",
+    "city": "Edmond",
+    "state": "OK",
+    "lat": 35.6515225,
+    "lng": -97.481289,
+    "result": "ok"
+  },
+  {
+    "id": "c1bd246e-f44c-4e75-b848-4a4da9e680ad",
+    "name": "Arby's",
+    "city": "Salem",
+    "state": "OR",
+    "lat": 44.9429758,
+    "lng": -122.9829787,
+    "result": "ok"
+  },
+  {
+    "id": "7190515b-d26f-4106-88d2-c3f567a2f5fb",
+    "name": "Arby's",
+    "city": "Hillsboro",
+    "state": "OR",
+    "lat": 45.5371438,
+    "lng": -122.901967,
+    "result": "ok"
+  },
+  {
+    "id": "6386079f-7d96-411d-95b2-1d3c434087b5",
+    "name": "Arby's",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "lat": 40.4559532,
+    "lng": -79.9424463,
+    "result": "ok"
+  },
+  {
+    "id": "90ebdc8b-cb0d-42e6-927f-c6f91d75ca45",
+    "name": "Arby's",
+    "city": "Reading",
+    "state": "PA",
+    "lat": 40.3838812,
+    "lng": -75.9281152,
+    "result": "ok"
+  },
+  {
+    "id": "aed17ed8-d183-42dc-b83e-9280483e4d31",
+    "name": "Arby's",
+    "city": "Harrisburg",
+    "state": "PA",
+    "lat": 40.2795863,
+    "lng": -76.8126682,
+    "result": "ok"
+  },
+  {
+    "id": "793d5a59-7dc5-4e57-b3f4-4763224c30da",
+    "name": "Arby's",
+    "city": "Cranston",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "71c85be3-24d0-4399-ac6a-aea3719811e7",
+    "name": "Arby's",
+    "city": "Spartanburg",
+    "state": "SC",
+    "lat": 34.9507407,
+    "lng": -81.9183118,
+    "result": "ok"
+  },
+  {
+    "id": "9835df8d-7c73-4664-8691-10bb6df19692",
+    "name": "Arby's",
+    "city": "Memphis",
+    "state": "TN",
+    "lat": 35.1759312,
+    "lng": -89.7923681,
+    "result": "ok"
+  },
+  {
+    "id": "66c33b6e-f821-431b-846e-e570e656c1b1",
+    "name": "Arby's",
+    "city": "Murfreesboro",
+    "state": "TN",
+    "lat": 35.8460227,
+    "lng": -86.4305517,
+    "result": "ok"
+  },
+  {
+    "id": "7809e5c6-a2ad-49f5-9bd2-97dd17b2d212",
+    "name": "Arby's",
+    "city": "Johnson City",
+    "state": "TN",
+    "lat": 36.3549878,
+    "lng": -82.3830051,
+    "result": "ok"
+  },
+  {
+    "id": "bcdb70b8-e01b-4d3d-99ea-3b18db23de78",
+    "name": "Arby's",
+    "city": "San Antonio",
+    "state": "TX",
+    "lat": 29.6365169,
+    "lng": -98.4535028,
+    "result": "ok"
+  },
+  {
+    "id": "3d0301df-00d1-4ec4-bc45-b747aac22e52",
+    "name": "Arby's",
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.8137779,
+    "lng": -96.8388942,
+    "result": "ok"
+  },
+  {
+    "id": "11d13645-0b05-494c-997d-266bd37f3333",
+    "name": "Arby's",
+    "city": "Arlington",
+    "state": "TX",
+    "lat": 32.676172,
+    "lng": -97.1985215,
+    "result": "ok"
+  },
+  {
+    "id": "09ac1b38-1a2a-440c-9f61-81efed3843a5",
+    "name": "Arby's",
+    "city": "Laredo",
+    "state": "TX",
+    "lat": 27.6137106,
+    "lng": -99.4642158,
+    "result": "ok"
+  },
+  {
+    "id": "779abf8b-477d-450e-a443-d6b111bb60dd",
+    "name": "Arby's",
+    "city": "Brownsville",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "47ac35fc-ef23-496a-b1ea-bd411f641eec",
+    "name": "Arby's",
+    "city": "Killeen",
+    "state": "TX",
+    "lat": 31.1289829,
+    "lng": -97.7363367,
+    "result": "ok"
+  },
+  {
+    "id": "547f9072-11d6-433b-bf8d-b9f3f8407942",
+    "name": "Arby's",
+    "city": "McAllen",
+    "state": "TX",
+    "lat": 26.1913919,
+    "lng": -98.2058939,
+    "result": "ok"
+  },
+  {
+    "id": "7e140429-3dea-46c2-9ef0-66f77f57198b",
+    "name": "Arby's",
+    "city": "Midland",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "1299249a-8976-4224-aa91-b35d5eb01c8c",
+    "name": "Arby's",
+    "city": "West Valley City",
+    "state": "UT",
+    "lat": 40.6962836,
+    "lng": -111.9680329,
+    "result": "ok"
+  },
+  {
+    "id": "bc59e849-d477-4fe1-9804-06d6ed51a886",
+    "name": "Arby's",
+    "city": "Sandy",
+    "state": "UT",
+    "lat": 40.5651158,
+    "lng": -111.8525516,
+    "result": "ok"
+  },
+  {
+    "id": "86f39c81-92a9-4829-bade-04b76e9e2691",
+    "name": "Arby's",
+    "city": "Taylorsville",
+    "state": "UT",
+    "lat": 40.6534891,
+    "lng": -111.9422341,
+    "result": "ok"
+  },
+  {
+    "id": "d5bedd3a-e993-4db0-97b0-f5398ab40f07",
+    "name": "Arby's",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "lat": 36.7983956,
+    "lng": -76.1756486,
+    "result": "ok"
+  },
+  {
+    "id": "a2dbaad0-6880-434c-946c-ec61c46766d0",
+    "name": "Arby's",
+    "city": "Hampton",
+    "state": "VA",
+    "lat": 37.0331829,
+    "lng": -76.4178367,
+    "result": "ok"
+  },
+  {
+    "id": "8638363d-be6a-402b-8b6f-30dfa23174a7",
+    "name": "Arby's",
+    "city": "Portsmouth",
+    "state": "VA",
+    "lat": 36.7965696,
+    "lng": -76.3270789,
+    "result": "ok"
+  },
+  {
+    "id": "76782ee3-fddd-4a9d-8bbc-e965fc15618f",
+    "name": "Arby's",
+    "city": "Tacoma",
+    "state": "WA",
+    "lat": 47.2221634,
+    "lng": -122.4722862,
+    "result": "ok"
+  },
+  {
+    "id": "a2f7db44-d4a0-451a-b5f6-5afba674145e",
+    "name": "Arby's",
+    "city": "Kent",
+    "state": "WA",
+    "lat": 47.412881,
+    "lng": -122.2521046,
+    "result": "ok"
+  },
+  {
+    "id": "dee52f9a-2749-46be-8daa-ab7956b7a9da",
+    "name": "Arby's",
+    "city": "Kirkland",
+    "state": "WA",
+    "result": "no_result"
+  },
+  {
+    "id": "f81bd850-1513-4a6e-b113-5a404458f228",
+    "name": "Arby's",
+    "city": "Huntington",
+    "state": "WV",
+    "lat": 38.3963834,
+    "lng": -82.4127686,
+    "result": "ok"
+  },
+  {
+    "id": "51360ee0-3bb7-42a6-a8cf-6fd8ffa4c9ae",
+    "name": "Arby's",
+    "city": "Madison",
+    "state": "WI",
+    "lat": 43.0472058,
+    "lng": -89.3056115,
+    "result": "ok"
+  },
+  {
+    "id": "c7c5899a-136f-4640-96e1-ec3edd2e1c22",
+    "name": "Arby's",
+    "city": "Racine",
+    "state": "WI",
+    "lat": 42.7568826,
+    "lng": -87.8003873,
+    "result": "ok"
+  },
+  {
+    "id": "dcc69083-d3ff-4381-96bb-4880368efc92",
+    "name": "Arby's",
+    "city": "Cheyenne",
+    "state": "WY",
+    "lat": 41.1344596,
+    "lng": -104.8116337,
+    "result": "ok"
+  },
+  {
+    "id": "f7de0c44-ba82-4a08-b4d0-d9bc0055432d",
+    "name": "Arby's",
+    "city": "Laramie",
+    "state": "WY",
+    "lat": 41.1344596,
+    "lng": -104.8116337,
+    "result": "ok"
+  },
+  {
+    "id": "67e3d4a9-83be-419c-b57d-aaec84a03fca",
+    "name": "Arby's",
+    "city": "Durham",
+    "state": "NC",
+    "lat": 35.9024607,
+    "lng": -78.8936269,
+    "result": "ok"
+  },
+  {
+    "id": "cb57f720-159e-42f7-ab46-4f6bd81eb952",
+    "name": "Arby's",
+    "city": "Cary",
+    "state": "NC",
+    "result": "no_result"
+  },
+  {
+    "id": "70b1fa2f-2514-4bb0-88d0-455013d208e2",
+    "name": "Arby's",
+    "city": "Bismarck",
+    "state": "ND",
+    "lat": 46.7948313,
+    "lng": -100.7471238,
+    "result": "ok"
+  },
+  {
+    "id": "81c15779-5791-4abd-a6f3-7f120769c9bf",
+    "name": "Arby's",
+    "city": "Columbus",
+    "state": "OH",
+    "lat": 39.9205529,
+    "lng": -83.1242671,
+    "result": "ok"
+  },
+  {
+    "id": "08585bf3-09cf-4f36-a159-0935e3552450",
+    "name": "Arby's",
+    "city": "Akron",
+    "state": "OH",
+    "lat": 41.1086009,
+    "lng": -81.5679599,
+    "result": "ok"
+  },
+  {
+    "id": "c46546d9-8da6-4d28-b45e-ef73774bf863",
+    "name": "Arby's",
+    "city": "Parma",
+    "state": "OH",
+    "lat": 41.4049851,
+    "lng": -81.6897958,
+    "result": "ok"
+  },
+  {
+    "id": "b7fa5576-e3cf-4b28-a2d7-ec64ac293dee",
+    "name": "Arby's",
+    "city": "Broken Arrow",
+    "state": "OK",
+    "lat": 36.0177642,
+    "lng": -95.7967958,
+    "result": "ok"
+  },
+  {
+    "id": "62988061-66a4-44e3-9481-b308cc367590",
+    "name": "Arby's",
+    "city": "Kenai",
+    "state": "AK",
+    "lat": 60.5570307,
+    "lng": -151.2418179,
+    "result": "ok"
+  },
+  {
+    "id": "5c69448b-d0f9-4647-92e0-161a12137bda",
+    "name": "Arby's",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "lat": 35.1824914,
+    "lng": -111.660823,
+    "result": "ok"
+  },
+  {
+    "id": "d8116bbb-4c43-4bf6-9f65-5f39f0e64da7",
+    "name": "Arby's",
+    "city": "Maricopa",
+    "state": "AZ",
+    "lat": 33.6842226,
+    "lng": -112.1073241,
+    "result": "ok"
+  },
+  {
+    "id": "594bb727-0b4a-42fa-ab99-40f488ed1a4a",
+    "name": "Arby's",
+    "city": "Sierra Vista",
+    "state": "AZ",
+    "lat": 31.5550622,
+    "lng": -110.278023,
+    "result": "ok"
+  },
+  {
+    "id": "98dde569-f21e-4ea2-b966-96198ccb3d52",
+    "name": "Arby's",
+    "city": "Conway",
+    "state": "AR",
+    "lat": 35.0895094,
+    "lng": -92.4121177,
+    "result": "ok"
+  },
+  {
+    "id": "dfec403b-ec4a-47a7-8b87-43c5ecd14dd3",
+    "name": "Arby's",
+    "city": "Vista",
+    "state": "CA",
+    "lat": 32.646863,
+    "lng": -116.9675451,
+    "result": "ok"
+  },
+  {
+    "id": "ac69b915-e705-4b75-9990-680d4cc81453",
+    "name": "Arby's",
+    "city": "Carlsbad",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "0c4af619-3e49-45fb-8318-951846c15b91",
+    "name": "Arby's",
+    "city": "Barre",
+    "state": "VT",
+    "result": "no_result"
+  },
+  {
+    "id": "28100f7c-1274-4144-a0d1-6a82c8d5c3c0",
+    "name": "Arby's",
+    "city": "Vacaville",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "11913b5b-85e6-477f-8377-f49c6936ce78",
+    "name": "Arby's",
+    "city": "Richmond",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "9a27d3a0-4c78-4516-81b6-6f2dd7f6bb2c",
+    "name": "Arby's",
+    "city": "Daly City",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "c4049bb8-fb94-41a5-8a83-c79527dd2292",
+    "name": "Arby's",
+    "city": "West Covina",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "6ce0f82b-a4e8-421d-9198-fad6640284d8",
+    "name": "Arby's",
+    "city": "Lakewood",
+    "state": "CA",
+    "lat": 33.8580599,
+    "lng": -118.1162616,
+    "result": "ok"
+  },
+  {
+    "id": "47bb3346-1cb2-4c51-b8b4-ad64d90eaca6",
+    "name": "Arby's",
+    "city": "Commerce City",
+    "state": "CO",
+    "result": "no_result"
+  },
+  {
+    "id": "b6d1212e-1e06-4e95-95ef-0a2e551b6083",
+    "name": "Arby's",
+    "city": "Centennial",
+    "state": "CO",
+    "lat": 39.5956873,
+    "lng": -104.8206785,
+    "result": "ok"
+  },
+  {
+    "id": "e8193105-2a65-4010-820d-f51774b5bdcc",
+    "name": "Arby's",
+    "city": "Leesburg",
+    "state": "VA",
+    "lat": 39.0990561,
+    "lng": -77.5277826,
+    "result": "ok"
+  },
+  {
+    "id": "82b5012c-2992-4ea7-a99c-63c33c085bd2",
+    "name": "Arby's",
+    "city": "Loveland",
+    "state": "CO",
+    "lat": 40.4079189,
+    "lng": -105.0528286,
+    "result": "ok"
+  },
+  {
+    "id": "5873f5c1-0eed-49b0-914c-90961f54148e",
+    "name": "Arby's",
+    "city": "Erie",
+    "state": "CO",
+    "lat": 42.1227116,
+    "lng": -80.0827035,
+    "result": "ok"
+  },
+  {
+    "id": "2a7c4f4d-5ad2-4e91-a096-ad84aad2ad13",
+    "name": "Arby's",
+    "city": "Englewood",
+    "state": "CO",
+    "lat": 30.2932214,
+    "lng": -81.6054646,
+    "result": "ok"
+  },
+  {
+    "id": "5b6a22a6-c971-49b3-9608-4d04da568ea6",
+    "name": "Arby's",
+    "city": "Bradenton",
+    "state": "FL",
+    "lat": 27.468298,
+    "lng": -82.563318,
+    "result": "ok"
+  },
+  {
+    "id": "85e7f7ec-778c-40a9-9ea1-1c01a7726c4e",
+    "name": "Arby's",
+    "city": "Smyrna",
+    "state": "GA",
+    "lat": 33.8292969,
+    "lng": -84.4930748,
+    "result": "ok"
+  },
+  {
+    "id": "cda2cd7d-f6b3-486f-9ee7-02f0b5a31189",
+    "name": "Arby's",
+    "city": "Valdosta",
+    "state": "GA",
+    "lat": 30.8718597,
+    "lng": -83.290088,
+    "result": "ok"
+  },
+  {
+    "id": "cf9f688e-2c07-43dd-926a-a189c8bad1e5",
+    "name": "Arby's",
+    "city": "Reston",
+    "state": "VA",
+    "result": "no_result"
+  },
+  {
+    "id": "5f0e43f5-c79e-46a0-a49c-e2f1491c5146",
+    "name": "Arby's",
+    "city": "Kennesaw",
+    "state": "GA",
+    "lat": 34.0553295,
+    "lng": -84.5558307,
+    "result": "ok"
+  },
+  {
+    "id": "b7b08661-bd80-4638-a90f-88adba97f3bc",
+    "name": "Arby's",
+    "city": "Hinesville",
+    "state": "GA",
+    "lat": 31.8429753,
+    "lng": -81.6006037,
+    "result": "ok"
+  },
+  {
+    "id": "6f777d2b-7966-4006-b017-f7eeee1a2ef8",
+    "name": "Arby's",
+    "city": "Ewa Beach",
+    "state": "HI",
+    "result": "no_result"
+  },
+  {
+    "id": "88d94628-f711-4e19-a706-3afff2ec1cda",
+    "name": "Arby's",
+    "city": "Coeur d'Alene",
+    "state": "ID",
+    "lat": 47.7004833,
+    "lng": -116.7951681,
+    "result": "ok"
+  },
+  {
+    "id": "bb917f83-e468-42e7-8c52-65b180a2226d",
+    "name": "Arby's",
+    "city": "Evanston",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "f1a55b43-e22d-4968-aebd-d7af5a4f4ad4",
+    "name": "Arby's",
+    "city": "Arlington Heights",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "48721b23-bbd6-4bfc-87ae-915fe9b3715d",
+    "name": "Arby's",
+    "city": "Orland Park",
+    "state": "IL",
+    "lat": 41.6046609,
+    "lng": -87.7935665,
+    "result": "ok"
+  },
+  {
+    "id": "652f0b6a-75c8-4362-af46-ad0b9ab45cf5",
+    "name": "Arby's",
+    "city": "Mount Prospect",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "36bdf40e-978c-4cd5-b90d-79e2beb0d4cf",
+    "name": "Arby's",
+    "city": "Anderson",
+    "state": "IN",
+    "lat": 40.061544,
+    "lng": -85.6521349,
+    "result": "ok"
+  },
+  {
+    "id": "6940d0d5-c7b9-461d-a897-39f97dd55b0d",
+    "name": "Arby's",
+    "city": "Noblesville",
+    "state": "IN",
+    "lat": 40.0434044,
+    "lng": -85.9959438,
+    "result": "ok"
+  },
+  {
+    "id": "e249bdc5-2442-42ad-8047-3c222b31cac6",
+    "name": "Arby's",
+    "city": "New Albany",
+    "state": "IN",
+    "lat": 38.3035187,
+    "lng": -85.8389612,
+    "result": "ok"
+  },
+  {
+    "id": "ffb7d4dd-d169-41c0-bb62-1fee3db56363",
+    "name": "Arby's",
+    "city": "Council Bluffs",
+    "state": "IA",
+    "lat": 41.2615529,
+    "lng": -95.8978674,
+    "result": "ok"
+  },
+  {
+    "id": "c0953695-0a90-41b8-87bf-c2a7104349dc",
+    "name": "Arby's",
+    "city": "Marion",
+    "state": "IA",
+    "lat": 42.0328596,
+    "lng": -91.5804842,
+    "result": "ok"
+  },
+  {
+    "id": "ff8a576f-ee60-45fd-83bc-b2c942a6ce14",
+    "name": "Arby's",
+    "city": "Lawrence",
+    "state": "KS",
+    "lat": 38.9710403,
+    "lng": -95.3026313,
+    "result": "ok"
+  },
+  {
+    "id": "718eb78c-6c19-44ab-93d5-25846f73839d",
+    "name": "Arby's",
+    "city": "Salina",
+    "state": "KS",
+    "lat": 38.8320845,
+    "lng": -97.6255957,
+    "result": "ok"
+  },
+  {
+    "id": "4c4e59dd-bf4f-4abd-a694-551da34ae92d",
+    "name": "Arby's",
+    "city": "Garden City",
+    "state": "KS",
+    "lat": 37.9754036,
+    "lng": -100.8514338,
+    "result": "ok"
+  },
+  {
+    "id": "ae0cb55d-5bae-43ba-a252-254c53e7305a",
+    "name": "Arby's",
+    "city": "Hopkinsville",
+    "state": "KY",
+    "lat": 36.8367989,
+    "lng": -87.4780377,
+    "result": "ok"
+  },
+  {
+    "id": "f17ff99f-7f5e-4753-997b-035bb7f78842",
+    "name": "Arby's",
+    "city": "Monroe",
+    "state": "LA",
+    "lat": 32.5236708,
+    "lng": -92.0977984,
+    "result": "ok"
+  },
+  {
+    "id": "dca1b7a5-e3df-4c64-94d1-1ffeb65263e3",
+    "name": "Arby's",
+    "city": "Central",
+    "state": "LA",
+    "lat": 38.221062,
+    "lng": -122.125689,
+    "result": "ok"
+  },
+  {
+    "id": "37ca4c9d-4992-4812-aae3-e50c61ff6d5b",
+    "name": "Arby's",
+    "city": "Auburn",
+    "state": "ME",
+    "lat": 44.1253668,
+    "lng": -70.2252546,
+    "result": "ok"
+  },
+  {
+    "id": "ba37a960-35ed-4a87-a8c0-4bd8c3749ce7",
+    "name": "Arby's",
+    "city": "Midland",
+    "state": "MI",
+    "lat": 43.6618197,
+    "lng": -84.247696,
+    "result": "ok"
+  },
+  {
+    "id": "6c8a3e4c-a9cf-45f5-95bf-8da7fadb469a",
+    "name": "Arby's",
+    "city": "Roseville",
+    "state": "MI",
+    "lat": 42.5305041,
+    "lng": -82.914255,
+    "result": "ok"
+  },
+  {
+    "id": "e957d7e6-6ce5-4979-b647-355cac333ce2",
+    "name": "Arby's",
+    "city": "Clinton Township",
+    "state": "MI",
+    "lat": 42.5527421,
+    "lng": -82.9647302,
+    "result": "ok"
+  },
+  {
+    "id": "9023d979-61c8-48c1-8f80-a756e08b3829",
+    "name": "Arby's",
+    "city": "Florissant",
+    "state": "MO",
+    "lat": 38.7768925,
+    "lng": -90.3356405,
+    "result": "ok"
+  },
+  {
+    "id": "25e90193-0e1a-4b0a-8d47-bc3be3aa66dc",
+    "name": "Arby's",
+    "city": "Ballwin",
+    "state": "MO",
+    "result": "no_result"
+  },
+  {
+    "id": "9ac9cac9-e4d5-44f1-a9ea-2b65b1d128cc",
+    "name": "Arby's",
+    "city": "Kirkwood",
+    "state": "MO",
+    "lat": 38.5640744,
+    "lng": -90.4072752,
+    "result": "ok"
+  },
+  {
+    "id": "8e6c36b6-9d5a-48fb-be31-61984bc4d6d7",
+    "name": "Arby's",
+    "city": "Butte",
+    "state": "MT",
+    "lat": 45.9791056,
+    "lng": -112.5085357,
+    "result": "ok"
+  },
+  {
+    "id": "c18110f0-3f16-40a8-9a35-a50857bad9ea",
+    "name": "Arby's",
+    "city": "Fremont",
+    "state": "NE",
+    "lat": 41.4490709,
+    "lng": -96.4831442,
+    "result": "ok"
+  },
+  {
+    "id": "1e796b55-d0a5-4fb9-b025-f3a2a1f487cb",
+    "name": "Arby's",
+    "city": "Enterprise",
+    "state": "NV",
+    "lat": 36.0600773,
+    "lng": -115.1721998,
+    "result": "ok"
+  },
+  {
+    "id": "78ea4d58-af62-4c52-bd41-4b17c69f52e0",
+    "name": "Arby's",
+    "city": "Clifton",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "d49c9c39-08eb-406c-8158-b16affe0d850",
+    "name": "Arby's",
+    "city": "Union City",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "fc668ad1-d2c9-40f4-8d64-1028f3a49cf8",
+    "name": "Arby's",
+    "city": "Vineland",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "22190531-3202-4323-8633-0361d7c7d761",
+    "name": "Arby's",
+    "city": "Brick",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "4244c523-d706-412d-81f4-98f9436042f0",
+    "name": "Arby's",
+    "city": "Farmington",
+    "state": "NM",
+    "result": "no_result"
+  },
+  {
+    "id": "3a1bec19-bb6a-4c43-b072-d04935e44a2e",
+    "name": "Arby's",
+    "city": "Hobbs",
+    "state": "NM",
+    "lat": 32.7209134,
+    "lng": -103.1432769,
+    "result": "ok"
+  },
+  {
+    "id": "de0820f1-5eaa-4009-8e1a-f1c45df955b9",
+    "name": "Arby's",
+    "city": "Hempstead",
+    "state": "NY",
+    "lat": 40.6693448,
+    "lng": -73.5230142,
+    "result": "ok"
+  },
+  {
+    "id": "9bfad483-3703-47f0-89e4-a946593be579",
+    "name": "Arby's",
+    "city": "Babylon",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "2650b561-99b3-424e-8c88-338c6fdebd76",
+    "name": "Arby's",
+    "city": "Troy",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "c6551d7a-0efc-4c72-aa30-161ca0a6a18e",
+    "name": "Arby's",
+    "city": "Niagara Falls",
+    "state": "NY",
+    "lat": 43.0913951,
+    "lng": -78.9657327,
+    "result": "ok"
+  },
+  {
+    "id": "8fbec34c-95f2-4976-9a8a-f3272c78a6ab",
+    "name": "Arby's",
+    "city": "Westerville",
+    "state": "OH",
+    "lat": 40.0852792,
+    "lng": -82.8960387,
+    "result": "ok"
+  },
+  {
+    "id": "02a3bcc3-4593-486d-9e90-16b4cb64c25b",
+    "name": "Arby's",
+    "city": "Owasso",
+    "state": "OK",
+    "lat": 36.2791563,
+    "lng": -95.8440806,
+    "result": "ok"
+  },
+  {
+    "id": "9ff5210a-d906-4611-abba-66f6d44bc9cd",
+    "name": "Arby's",
+    "city": "Ponca City",
+    "state": "OK",
+    "lat": 36.7328896,
+    "lng": -97.0677844,
+    "result": "ok"
+  },
+  {
+    "id": "7c94d3a8-6ad5-4e83-a229-632a02db74a3",
+    "name": "Arby's",
+    "city": "Lake Oswego",
+    "state": "OR",
+    "result": "no_result"
+  },
+  {
+    "id": "750d6daf-2cab-4911-a0dd-7352a8179d31",
+    "name": "Arby's",
+    "city": "Redmond",
+    "state": "OR",
+    "lat": 44.2567998,
+    "lng": -121.1805111,
+    "result": "ok"
+  },
+  {
+    "id": "3f8b2a7a-f849-4359-b5ec-30063a35f24c",
+    "name": "Arby's",
+    "city": "North Providence",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "f02abe67-d75b-42e9-b010-4e2219650218",
+    "name": "Arby's",
+    "city": "Coventry",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "e6d2943d-4001-4245-855b-776aaf2bf953",
+    "name": "Arby's",
+    "city": "Anderson",
+    "state": "SC",
+    "lat": 34.7787049,
+    "lng": -82.4678004,
+    "result": "ok"
+  },
+  {
+    "id": "1fb121dc-ae62-483b-9309-7278a3a92b28",
+    "name": "Arby's",
+    "city": "Goose Creek",
+    "state": "SC",
+    "lat": 33.0361637,
+    "lng": -80.0641508,
+    "result": "ok"
+  },
+  {
+    "id": "32a29552-e543-4268-a607-534f7a7f03d6",
+    "name": "Arby's",
+    "city": "Watertown",
+    "state": "SD",
+    "lat": 44.889678,
+    "lng": -97.0963837,
+    "result": "ok"
+  },
+  {
+    "id": "53799841-1f5f-4d4c-b438-c0ace200f623",
+    "name": "Arby's",
+    "city": "Hendersonville",
+    "state": "TN",
+    "result": "no_result"
+  },
+  {
+    "id": "f4cf1b27-cebf-4df8-a049-e248533b51d4",
+    "name": "Arby's",
+    "city": "Brentwood",
+    "state": "TN",
+    "lat": 35.0883785,
+    "lng": -85.187541,
+    "result": "ok"
+  },
+  {
+    "id": "8e01c8d5-25fc-4b29-b2e6-03e4712d66ee",
+    "name": "Arby's",
+    "city": "Longview",
+    "state": "TX",
+    "lat": 32.5077263,
+    "lng": -94.7487717,
+    "result": "ok"
+  },
+  {
+    "id": "44151e98-86ce-4fb3-8280-ac39e93083a9",
+    "name": "Arby's",
+    "city": "New Braunfels",
+    "state": "TX",
+    "lat": 29.6845616,
+    "lng": -98.1295689,
+    "result": "ok"
+  },
+  {
+    "id": "50bfb41a-1778-48f9-8e5c-6f9778e9b968",
+    "name": "Arby's",
+    "city": "Rowlett",
+    "state": "TX",
+    "lat": 32.9081187,
+    "lng": -96.5745246,
+    "result": "ok"
+  },
+  {
+    "id": "e0b94aff-623f-4dd2-9abe-97301eb46a67",
+    "name": "Arby's",
+    "city": "Georgetown",
+    "state": "TX",
+    "lat": 30.6456824,
+    "lng": -97.6857106,
+    "result": "ok"
+  },
+  {
+    "id": "4192e1eb-1796-4077-9931-6eb98bb4db72",
+    "name": "Arby's",
+    "city": "Conroe",
+    "state": "TX",
+    "lat": 30.3349794,
+    "lng": -95.4706972,
+    "result": "ok"
+  },
+  {
+    "id": "c62eac59-fea9-4e1d-aa2a-a600c3d2c931",
+    "name": "Arby's",
+    "city": "Lehi",
+    "state": "UT",
+    "result": "no_result"
+  },
+  {
+    "id": "ac6cec75-e5d9-49a8-a5ee-b6bd80694ce7",
+    "name": "Arby's",
+    "city": "Draper",
+    "state": "UT",
+    "lat": 40.5287704,
+    "lng": -111.8555372,
+    "result": "ok"
+  },
+  {
+    "id": "8c624516-eae6-49c8-98f7-d2f3d4a8a283",
+    "name": "Arby's",
+    "city": "American Fork",
+    "state": "UT",
+    "lat": 40.3738255,
+    "lng": -111.7869767,
+    "result": "ok"
+  },
+  {
+    "id": "3b66a6d5-487f-4f2d-b297-9eaf71a3c874",
+    "name": "Arby's",
+    "city": "Shoreline",
+    "state": "WA",
+    "lat": 47.7780524,
+    "lng": -122.3471716,
+    "result": "ok"
+  },
+  {
+    "id": "417dffc0-7169-430a-9d1f-50933310a60f",
+    "name": "Arby's",
+    "city": "New Berlin",
+    "state": "WI",
+    "lat": 42.9555804,
+    "lng": -88.110362,
+    "result": "ok"
+  },
+  {
+    "id": "92b45f93-d90e-44cf-a5c6-528a27d81712",
+    "name": "Arby's",
+    "city": "Menomonee Falls",
+    "state": "WI",
+    "lat": 43.1928984,
+    "lng": -88.1289808,
+    "result": "ok"
+  },
+  {
+    "id": "99c5791a-2f87-4048-b6fc-f1e8a1615158",
+    "name": "Arby's",
+    "city": "Oak Creek",
+    "state": "WI",
+    "lat": 42.8731736,
+    "lng": -87.9418218,
+    "result": "ok"
+  },
+  {
+    "id": "4cb548a3-f2b4-40b7-9c3d-a7879a07535e",
+    "name": "Arby's",
+    "city": "Manitowoc",
+    "state": "WI",
+    "lat": 44.0754586,
+    "lng": -87.7016512,
+    "result": "ok"
+  },
+  {
+    "id": "cc80beac-ef84-4077-a200-40fdd5da2380",
+    "name": "Arby's",
+    "city": "Lakewood",
+    "state": "CO",
+    "lat": 39.6826028,
+    "lng": -105.0826645,
+    "result": "ok"
+  },
+  {
+    "id": "6a63bbd2-8d0b-41bb-bce9-85f94a0e3c02",
+    "name": "Arby's",
+    "city": "Green River",
+    "state": "WY",
+    "result": "no_result"
+  },
+  {
+    "id": "6e3109c4-e66c-41be-8581-b92927ec96fa",
+    "name": "Arby's",
+    "city": "Riverton",
+    "state": "WY",
+    "lat": 43.0249455,
+    "lng": -108.407901,
+    "result": "ok"
+  },
+  {
+    "id": "c8adbde4-e707-43b3-9947-11087ce77b9f",
+    "name": "Arby's",
+    "city": "Joliet",
+    "state": "IL",
+    "lat": 41.5599647,
+    "lng": -88.2008117,
+    "result": "ok"
+  },
+  {
+    "id": "caed3292-fd2e-4638-9fc3-28f30eedf827",
+    "name": "Arby's",
+    "city": "Thornton",
+    "state": "CO",
+    "lat": 39.9143434,
+    "lng": -104.9412718,
+    "result": "ok"
+  },
+  {
+    "id": "95ad768c-3b95-4ea3-8c37-fab8f4c403cb",
+    "name": "Arby's",
+    "city": "Fort Collins",
+    "state": "CO",
+    "lat": 40.5398215,
+    "lng": -105.0765681,
+    "result": "ok"
+  },
+  {
+    "id": "b81b2ae0-9819-46b9-8653-b276dfd32f35",
+    "name": "Arby's",
+    "city": "Lakewood",
+    "state": "WA",
+    "lat": 47.1674398,
+    "lng": -122.5209701,
+    "result": "ok"
+  },
+  {
+    "id": "31644e7d-060f-450b-adde-63a8e5c6e368",
+    "name": "Arby's",
+    "city": "Cedar City",
+    "state": "UT",
+    "lat": 37.6805128,
+    "lng": -113.075404,
+    "result": "ok"
+  },
+  {
+    "id": "e5addf55-85dd-4002-93d4-6923e4ec1939",
+    "name": "Arby's",
+    "city": "Olympia",
+    "state": "WA",
+    "lat": 47.0464405,
+    "lng": -122.93319,
+    "result": "ok"
+  },
+  {
+    "id": "46969809-1586-43eb-ba13-76f7f841086b",
+    "name": "Arby's",
+    "city": "Pine Bluff",
+    "state": "AR",
+    "lat": 34.1741267,
+    "lng": -92.0058252,
+    "result": "ok"
+  },
+  {
+    "id": "a7d17f8b-fe12-4657-81de-c87cbcd8ddf9",
+    "name": "Arby's",
+    "city": "Hot Springs",
+    "state": "AR",
+    "lat": 34.479895,
+    "lng": -93.0603236,
+    "result": "ok"
+  },
+  {
+    "id": "98f47eae-afc1-4383-a635-f0863a5156b2",
+    "name": "Arby's",
+    "city": "Texarkana",
+    "state": "AR",
+    "result": "no_result"
+  },
+  {
+    "id": "9a8db5b1-210d-4525-90ed-4b33d4d4046b",
+    "name": "Arby's",
+    "city": "Murrieta",
+    "state": "CA",
+    "lat": 33.5538023,
+    "lng": -117.1970898,
+    "result": "ok"
+  },
+  {
+    "id": "2e5b7891-19bb-4920-b532-9db8417ae518",
+    "name": "Arby's",
+    "city": "Hemet",
+    "state": "CA",
+    "lat": 33.7469357,
+    "lng": -117.0026551,
+    "result": "ok"
+  },
+  {
+    "id": "2fcc28fc-7436-4628-8e10-a654164d2d22",
+    "name": "Arby's",
+    "city": "Perris",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "5b7422cd-ce69-4af2-8c1b-953cbe08e7c5",
+    "name": "Arby's",
+    "city": "Lake Elsinore",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "3fd554df-eeb2-4d1f-8b94-d1c8b83a2071",
+    "name": "Arby's",
+    "city": "San Marcos",
+    "state": "CA",
+    "lat": 33.1326482,
+    "lng": -117.197403,
+    "result": "ok"
+  },
+  {
+    "id": "53b40e7b-92a1-4f55-9360-34f211d1304e",
+    "name": "Arby's",
+    "city": "Norwalk",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "d2943306-d9fd-4c37-9043-6452c8bee7de",
+    "name": "Arby's",
+    "city": "Inglewood",
+    "state": "CA",
+    "lat": 33.9612136,
+    "lng": -118.3722106,
+    "result": "ok"
+  },
+  {
+    "id": "0e2fc3a2-85e3-4694-8268-44cd4862c439",
+    "name": "Arby's",
+    "city": "El Monte",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "dc77b125-317a-42e4-a05b-a15996eaca9a",
+    "name": "Arby's",
+    "city": "Clovis",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "798aa2bc-31d3-4efd-8cdd-231d13391b51",
+    "name": "Arby's",
+    "city": "Turlock",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "c8f5a40f-8360-416c-ba1b-3df0a1cfdeeb",
+    "name": "Arby's",
+    "city": "Manteca",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "e8fbf73a-e278-4d44-a444-c367dc2394b3",
+    "name": "Arby's",
+    "city": "Birmingham",
+    "state": "AL",
+    "lat": 33.43036,
+    "lng": -86.7093885,
+    "result": "ok"
+  },
+  {
+    "id": "0c7a6a5a-9232-4de5-a432-bab66d028c7f",
+    "name": "Arby's",
+    "city": "Arvada",
+    "state": "CO",
+    "lat": 39.8413434,
+    "lng": -105.0812223,
+    "result": "ok"
+  },
+  {
+    "id": "d5b34c0f-ca08-458d-a2dc-c7dfaf5e33f8",
+    "name": "Arby's",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "lat": 34.9177155,
+    "lng": -120.4356548,
+    "result": "ok"
+  },
+  {
+    "id": "aacd1580-5b1d-49f4-9737-099ca7257e4b",
+    "name": "Arby's",
+    "city": "Rogers",
+    "state": "AR",
+    "lat": 36.3294807,
+    "lng": -94.1253421,
+    "result": "ok"
+  },
+  {
+    "id": "ffbec2f6-95b8-4e98-8db8-16dbad019f57",
+    "name": "Arby's",
+    "city": "Camarillo",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "69300e0e-cfbb-4d34-8970-8e3732d63b24",
+    "name": "Arby's",
+    "city": "Westminster",
+    "state": "CO",
+    "lat": 39.8632396,
+    "lng": -105.0518972,
+    "result": "ok"
+  },
+  {
+    "id": "3c2962ad-5f3f-4f2e-ac29-4afad7633336",
+    "name": "Arby's",
+    "city": "Upland",
+    "state": "CA",
+    "lat": 34.1076929,
+    "lng": -117.6339033,
+    "result": "ok"
+  },
+  {
+    "id": "c437e65c-fb21-4af8-8ce7-07a0e8c61959",
+    "name": "Arby's",
+    "city": "Mission Viejo",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "e72e55bf-da47-432c-8238-ae16a0755ba1",
+    "name": "Arby's",
+    "city": "Lake Forest",
+    "state": "CA",
+    "lat": 33.6793066,
+    "lng": -117.6631188,
+    "result": "ok"
+  },
+  {
+    "id": "feec407c-0655-44c2-a826-4a9bf5b14d14",
+    "name": "Arby's",
+    "city": "Pueblo",
+    "state": "CO",
+    "lat": 38.3083682,
+    "lng": -104.6178646,
+    "result": "ok"
+  },
+  {
+    "id": "ebd57250-9d56-41c2-a60e-614cd846eab3",
+    "name": "Arby's",
+    "city": "Santa Monica",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "c7e9d160-f3f2-4ca4-b114-872ba6a94016",
+    "name": "Arby's",
+    "city": "Danbury",
+    "state": "CT",
+    "lat": 41.4266871,
+    "lng": -73.4193992,
+    "result": "ok"
+  },
+  {
+    "id": "429ae871-5c0c-42d2-acec-303ab5c33a12",
+    "name": "Arby's",
+    "city": "Norwalk",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "f81b929d-0da1-4646-a9ed-b0b01187f851",
+    "name": "Arby's",
+    "city": "New Britain",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "e7a298c6-05a2-4198-9cb2-79c8d41dd0a4",
+    "name": "Arby's",
+    "city": "Bristol",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "b6cf11bb-8cc1-448a-a806-da2a8302dece",
+    "name": "Arby's",
+    "city": "Middletown",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "094de1a3-021f-4555-8367-aa5806c11ac3",
+    "name": "Arby's",
+    "city": "Southington",
+    "state": "CT",
+    "lat": 41.5632025,
+    "lng": -72.8734064,
+    "result": "ok"
+  },
+  {
+    "id": "902af5df-4dc4-44b9-b4af-400219c50c60",
+    "name": "Arby's",
+    "city": "Brandon",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "93a1631e-1a94-4610-b781-9798a4f2f26d",
+    "name": "Arby's",
+    "city": "Beavercreek",
+    "state": "OH",
+    "result": "no_result"
+  },
+  {
+    "id": "77986365-aea3-4caf-9427-3cc801b68b56",
+    "name": "Arby's",
+    "city": "Doral",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "1c882cd3-7657-46ea-88f5-b14671bc8a4a",
+    "name": "Arby's",
+    "city": "Lehigh Acres",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "15f60ad0-a26c-4bc1-a5b6-d6fc8fe0b030",
+    "name": "Arby's",
+    "city": "Sunrise",
+    "state": "FL",
+    "lat": 26.1461773,
+    "lng": -80.3260133,
+    "result": "ok"
+  },
+  {
+    "id": "634421b5-5c05-4d68-952a-227bc66fbb77",
+    "name": "Arby's",
+    "city": "Plantation",
+    "state": "FL",
+    "lat": 26.1496181,
+    "lng": -80.257652,
+    "result": "ok"
+  },
+  {
+    "id": "2fa8d5c1-7dd7-43af-9c0b-f5b5b2358655",
+    "name": "Arby's",
+    "city": "Sarasota",
+    "state": "FL",
+    "lat": 27.1035051,
+    "lng": -82.3836759,
+    "result": "ok"
+  },
+  {
+    "id": "c69fd84a-59af-4e9a-9ec1-6d00c490b9d4",
+    "name": "Arby's",
+    "city": "Port Charlotte",
+    "state": "FL",
+    "lat": 27.0122094,
+    "lng": -82.143445,
+    "result": "ok"
+  },
+  {
+    "id": "2cc8f520-21ae-4c0b-be40-472cbbeb8217",
+    "name": "Arby's",
+    "city": "Augusta-Richmond",
+    "state": "GA",
+    "lat": 33.4494365,
+    "lng": -82.0321795,
+    "result": "ok"
+  },
+  {
+    "id": "ac49d825-9be2-403c-84c4-b0f1b50465ba",
+    "name": "Arby's",
+    "city": "Peachtree City",
+    "state": "GA",
+    "lat": 33.3956588,
+    "lng": -84.5894769,
+    "result": "ok"
+  },
+  {
+    "id": "8a80534e-8b7e-478a-9563-88f2230e666a",
+    "name": "Arby's",
+    "city": "Mishawaka",
+    "state": "IN",
+    "lat": 41.7116726,
+    "lng": -86.1786676,
+    "result": "ok"
+  },
+  {
+    "id": "962dc296-77d8-4999-81c9-03dd2ed0efe4",
+    "name": "Arby's",
+    "city": "Lawrence",
+    "state": "IN",
+    "lat": 38.8462484,
+    "lng": -86.5147976,
+    "result": "ok"
+  },
+  {
+    "id": "2e5246b1-60a2-4774-9588-32d41e004283",
+    "name": "Arby's",
+    "city": "Nicholasville",
+    "state": "KY",
+    "lat": 37.8675021,
+    "lng": -84.5775355,
+    "result": "ok"
+  },
+  {
+    "id": "fd6ced0e-c18c-420f-b53b-03d0a3a49490",
+    "name": "Arby's",
+    "city": "Alexandria",
+    "state": "LA",
+    "result": "no_result"
+  },
+  {
+    "id": "11cb1c8f-53ea-4afb-9d70-fc9a94a24022",
+    "name": "Arby's",
+    "city": "Silver Spring",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "7c2451b8-94de-4b10-b4d7-862caadf06b6",
+    "name": "Arby's",
+    "city": "Waldorf",
+    "state": "MD",
+    "lat": 38.6116351,
+    "lng": -76.9268368,
+    "result": "ok"
+  },
+  {
+    "id": "b53d62b7-ab59-4e5c-be9b-f4d690cedc0d",
+    "name": "Arby's",
+    "city": "Towson",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "5005bc6b-69ce-435e-8ab7-c578f5709a52",
+    "name": "Arby's",
+    "city": "Bethesda",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "9c5d93c3-64ad-4f74-8942-a3f804813ecf",
+    "name": "Arby's",
+    "city": "Fall River",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "a25fc3bc-bd7d-457a-ab85-23747e3d3e17",
+    "name": "Arby's",
+    "city": "Taunton",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "348f8083-278d-4024-845d-0a1a2b75575a",
+    "name": "Arby's",
+    "city": "Malden",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "72972625-a09e-4b94-a477-dab6c8538bb5",
+    "name": "Arby's",
+    "city": "Medford",
+    "state": "MA",
+    "lat": 42.3132462,
+    "lng": -122.8602172,
+    "result": "ok"
+  },
+  {
+    "id": "e87e29a0-2bcc-40a1-91fe-ae27e20bc79a",
+    "name": "Arby's",
+    "city": "Lynn",
+    "state": "MA",
+    "lat": 39.5102109,
+    "lng": -84.7513055,
+    "result": "ok"
+  },
+  {
+    "id": "fa50f7f5-ba12-4616-b151-2c7f1062568d",
+    "name": "Arby's",
+    "city": "Newton",
+    "state": "MA",
+    "lat": 38.0214125,
+    "lng": -97.3374106,
+    "result": "ok"
+  },
+  {
+    "id": "95afb9a7-a720-491d-839d-bfcbc056f455",
+    "name": "Arby's",
+    "city": "Weymouth",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "88d32adb-7307-4877-90fc-f8204bdc7e3c",
+    "name": "Arby's",
+    "city": "Attleboro",
+    "state": "MA",
+    "result": "no_result"
+  },
+  {
+    "id": "bb6c12e5-fa23-4752-ad3e-9fc8f33c9810",
+    "name": "Arby's",
+    "city": "Saginaw",
+    "state": "MI",
+    "lat": 43.4786671,
+    "lng": -83.9761989,
+    "result": "ok"
+  },
+  {
+    "id": "244423a5-5f67-432c-a5e1-11156c2b5bd4",
+    "name": "Arby's",
+    "city": "Muskegon",
+    "state": "MI",
+    "lat": 43.1504812,
+    "lng": -86.2052269,
+    "result": "ok"
+  },
+  {
+    "id": "1947d6da-7f95-4e47-9d05-508f8050c52c",
+    "name": "Arby's",
+    "city": "Canton",
+    "state": "MI",
+    "lat": 42.3227886,
+    "lng": -83.4752062,
+    "result": "ok"
+  },
+  {
+    "id": "fc0cfb24-60d1-40ed-a310-9fd89eb14a78",
+    "name": "Arby's",
+    "city": "Shelby Charter Township",
+    "state": "MI",
+    "result": "no_result"
+  },
+  {
+    "id": "ab773e7b-4a3a-443e-83e8-faddb854b340",
+    "name": "Arby's",
+    "city": "Coon Rapids",
+    "state": "MN",
+    "lat": 45.1707801,
+    "lng": -93.3390977,
+    "result": "ok"
+  },
+  {
+    "id": "5ef9e3e7-4f0e-4f5c-b2ab-43bc39fba169",
+    "name": "Arby's",
+    "city": "Eagan",
+    "state": "MN",
+    "lat": 44.832755,
+    "lng": -93.1607827,
+    "result": "ok"
+  },
+  {
+    "id": "53aa359c-8fb8-4f79-8de8-1d076cdad10a",
+    "name": "Arby's",
+    "city": "Shakopee",
+    "state": "MN",
+    "lat": 44.7800264,
+    "lng": -93.5047222,
+    "result": "ok"
+  },
+  {
+    "id": "ad41f93b-96e4-4728-9390-7abc3de754d7",
+    "name": "Arby's",
+    "city": "Maplewood",
+    "state": "MN",
+    "lat": 45.0353676,
+    "lng": -93.0181624,
+    "result": "ok"
+  },
+  {
+    "id": "cf3c98fa-b80e-4216-ad99-ec000510f879",
+    "name": "Arby's",
+    "city": "Inver Grove Heights",
+    "state": "MN",
+    "result": "no_result"
+  },
+  {
+    "id": "5a691153-2b50-4aa5-a86f-754d3fe33f3e",
+    "name": "Arby's",
+    "city": "Richfield",
+    "state": "MN",
+    "result": "no_result"
+  },
+  {
+    "id": "dd31bec1-2f75-41eb-b8ed-a353b60f33a7",
+    "name": "Arby's",
+    "city": "Pascagoula",
+    "state": "MS",
+    "result": "no_result"
+  },
+  {
+    "id": "ccb0db2f-f0f7-4dcb-82a6-589209d6bb9a",
+    "name": "Arby's",
+    "city": "Clinton",
+    "state": "MS",
+    "result": "no_result"
+  },
+  {
+    "id": "b4e1ab74-2798-4a83-9889-52d367da848a",
+    "name": "Arby's",
+    "city": "Brandon",
+    "state": "MS",
+    "result": "no_result"
+  },
+  {
+    "id": "75ded169-f593-4724-9f0a-399b2fa8bb1c",
+    "name": "Arby's",
+    "city": "Spring Valley",
+    "state": "NV",
+    "result": "no_result"
+  },
+  {
+    "id": "72c46792-d7d4-4d0b-8352-74c42ccf7ca7",
+    "name": "Arby's",
+    "city": "Fernley",
+    "state": "NV",
+    "lat": 39.6177987,
+    "lng": -119.2665216,
+    "result": "ok"
+  },
+  {
+    "id": "3d438401-42cf-4f83-96ef-5e9e22b2d829",
+    "name": "Arby's",
+    "city": "Mesquite",
+    "state": "NV",
+    "result": "no_result"
+  },
+  {
+    "id": "1d98d59d-7486-4df8-9a3c-f31f2acac148",
+    "name": "Arby's",
+    "city": "Rochester",
+    "state": "NH",
+    "result": "no_result"
+  },
+  {
+    "id": "0910853f-d2cf-4e90-9bac-5c222ac249bd",
+    "name": "Arby's",
+    "city": "Keene",
+    "state": "NH",
+    "result": "no_result"
+  },
+  {
+    "id": "e91f673f-5497-4785-8066-4212e19ad76e",
+    "name": "Arby's",
+    "city": "Starkville",
+    "state": "MS",
+    "result": "no_result"
+  },
+  {
+    "id": "22c28f18-14aa-4a05-938b-bc3df8df9713",
+    "name": "Arby's",
+    "city": "Elmira",
+    "state": "NY",
+    "lat": 42.1499605,
+    "lng": -76.8341425,
+    "result": "ok"
+  },
+  {
+    "id": "a0d5b8ec-2410-479e-b9d4-0fdf0ff5a23f",
+    "name": "Arby's",
+    "city": "Jacksonville",
+    "state": "NC",
+    "lat": 34.7869165,
+    "lng": -77.4028367,
+    "result": "ok"
+  },
+  {
+    "id": "3c4a2f4a-7b87-4292-b46f-f842b4c2a3cf",
+    "name": "Arby's",
+    "city": "Kannapolis",
+    "state": "NC",
+    "lat": 35.4759784,
+    "lng": -80.6108392,
+    "result": "ok"
+  },
+  {
+    "id": "53490345-4b07-475e-b956-84c7858d8e3d",
+    "name": "Arby's",
+    "city": "Orem",
+    "state": "UT",
+    "lat": 40.2762187,
+    "lng": -111.68658,
+    "result": "ok"
+  },
+  {
+    "id": "a762cfc4-7223-4f13-a4d6-e622e5e17bdf",
+    "name": "Arby's",
+    "city": "Wilson",
+    "state": "NC",
+    "lat": 35.733311,
+    "lng": -77.9515507,
+    "result": "ok"
+  },
+  {
+    "id": "d562bd28-6b49-4e50-8bcf-7063a60d3730",
+    "name": "Arby's",
+    "city": "Monroe",
+    "state": "NC",
+    "result": "no_result"
+  },
+  {
+    "id": "c1390751-7934-4fcc-be77-2e5d2e53acb5",
+    "name": "Arby's",
+    "city": "Hickory",
+    "state": "NC",
+    "lat": 35.7533114,
+    "lng": -81.3712526,
+    "result": "ok"
+  },
+  {
+    "id": "ecc3cb78-458f-49bd-8929-f355f540d971",
+    "name": "Arby's",
+    "city": "Boulder",
+    "state": "CO",
+    "lat": 40.1979454,
+    "lng": -105.1019781,
+    "result": "ok"
+  },
+  {
+    "id": "753eeeb4-a845-42d9-a3b9-6349b4dacd5a",
+    "name": "Arby's",
+    "city": "Grants Pass",
+    "state": "OR",
+    "lat": 42.4351627,
+    "lng": -123.3033842,
+    "result": "ok"
+  },
+  {
+    "id": "e610364a-b9fb-4827-8f09-757245aeb39f",
+    "name": "Arby's",
+    "city": "Klamath Falls",
+    "state": "OR",
+    "lat": 42.2108194,
+    "lng": -121.755069,
+    "result": "ok"
+  },
+  {
+    "id": "528d84eb-c010-402c-8d8b-c65ae93a93aa",
+    "name": "Arby's",
+    "city": "Ashland",
+    "state": "OR",
+    "result": "no_result"
+  },
+  {
+    "id": "9b0d5694-3412-49e1-a0f3-f42123a382ae",
+    "name": "Arby's",
+    "city": "Bridgeport",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "506e2b31-7398-4be6-8c33-6b6acff307f2",
+    "name": "Arby's",
+    "city": "State College",
+    "state": "PA",
+    "result": "no_result"
+  },
+  {
+    "id": "5fcbafe5-614d-4f5f-b6cb-5e3f65988d58",
+    "name": "Arby's",
+    "city": "Norristown",
+    "state": "PA",
+    "lat": 40.1403337,
+    "lng": -75.3114952,
+    "result": "ok"
+  },
+  {
+    "id": "7644435f-1aa1-4c58-b808-40f2da8e1522",
+    "name": "Arby's",
+    "city": "New Haven",
+    "state": "CT",
+    "lat": 41.4019625,
+    "lng": -72.8497659,
+    "result": "ok"
+  },
+  {
+    "id": "f98bf6ad-e1bc-4728-ba2f-98b0d3ce6470",
+    "name": "Arby's",
+    "city": "Hazleton",
+    "state": "PA",
+    "lat": 40.9716536,
+    "lng": -76.0108556,
+    "result": "ok"
+  },
+  {
+    "id": "836014cd-772b-4335-9fdc-a3de183a774e",
+    "name": "Arby's",
+    "city": "New Castle",
+    "state": "PA",
+    "lat": 41.011619,
+    "lng": -80.3950573,
+    "result": "ok"
+  },
+  {
+    "id": "b459b21a-7674-48bd-83fd-38ea6a11627b",
+    "name": "Arby's",
+    "city": "Lebanon",
+    "state": "PA",
+    "lat": 40.3205528,
+    "lng": -76.5628472,
+    "result": "ok"
+  },
+  {
+    "id": "82a25f51-b2f4-4b41-bd63-5438c06d24df",
+    "name": "Arby's",
+    "city": "Pottsville",
+    "state": "PA",
+    "result": "no_result"
+  },
+  {
+    "id": "e161e9c5-20a6-49bb-81c7-6e8c79e20c20",
+    "name": "Arby's",
+    "city": "Apex",
+    "state": "NC",
+    "lat": 35.7108739,
+    "lng": -78.8391055,
+    "result": "ok"
+  },
+  {
+    "id": "6009ba3e-e480-4edf-b30a-da65d9c05397",
+    "name": "Arby's",
+    "city": "Collierville",
+    "state": "TN",
+    "lat": 35.0456977,
+    "lng": -89.6941203,
+    "result": "ok"
+  },
+  {
+    "id": "b7837b1d-e327-47e1-a378-a702bb05bf14",
+    "name": "Arby's",
+    "city": "Murray",
+    "state": "UT",
+    "lat": 40.644001,
+    "lng": -111.8895959,
+    "result": "ok"
+  },
+  {
+    "id": "75ba7fc2-3330-4b89-94a1-5549550e0154",
+    "name": "Arby's",
+    "city": "Auburn",
+    "state": "WA",
+    "lat": 47.3204798,
+    "lng": -122.2276072,
+    "result": "ok"
+  },
+  {
+    "id": "e89e1a27-e39a-40bb-b685-21d4a3d146c0",
+    "name": "Arby's",
+    "city": "Yakima",
+    "state": "WA",
+    "lat": 46.5996606,
+    "lng": -120.5622069,
+    "result": "ok"
+  },
+  {
+    "id": "cca441f9-6f73-443a-afb1-503b052f6977",
+    "name": "Arby's",
+    "city": "Sammamish",
+    "state": "WA",
+    "result": "no_result"
+  },
+  {
+    "id": "44440865-8794-46d3-b638-d0421a66e3f0",
+    "name": "Arby's",
+    "city": "Des Moines",
+    "state": "WA",
+    "lat": 41.5902184,
+    "lng": -93.5951233,
+    "result": "ok"
+  },
+  {
+    "id": "11c37ff1-27cb-4afa-8bfd-da8e68e1b83f",
+    "name": "Arby's",
+    "city": "Kenmore",
+    "state": "WA",
+    "result": "no_result"
+  },
+  {
+    "id": "d6115444-5198-4f05-aca1-36fbaaf48399",
+    "name": "Arby's",
+    "city": "Wheeling",
+    "state": "WV",
+    "lat": 40.0485911,
+    "lng": -80.6641685,
+    "result": "ok"
+  },
+  {
+    "id": "a6cbeea7-2ea2-4ed8-9a77-02186a11ebdc",
+    "name": "Arby's",
+    "city": "Beckley",
+    "state": "WV",
+    "lat": 37.7972994,
+    "lng": -81.1838144,
+    "result": "ok"
+  },
+  {
+    "id": "3c1d7f67-2709-42e6-be2b-feac5994aba9",
+    "name": "Arby's",
+    "city": "Wauwatosa",
+    "state": "WI",
+    "result": "no_result"
+  },
+  {
+    "id": "1de1c845-6a21-4402-9313-420fa29660b2",
+    "name": "Arby's",
+    "city": "Sheboygan",
+    "state": "WI",
+    "lat": 43.716803,
+    "lng": -87.7641867,
+    "result": "ok"
+  },
+  {
+    "id": "16732818-b978-440f-9532-c46833664cfb",
+    "name": "Arby's",
+    "city": "Fond du Lac",
+    "state": "WI",
+    "lat": 43.7838848,
+    "lng": -88.4882328,
+    "result": "ok"
+  },
+  {
+    "id": "e4583fef-f983-4877-8f3d-2eeae0e7ada1",
+    "name": "Arby's",
+    "city": "Gilbert",
+    "state": "AZ",
+    "lat": 33.3768192,
+    "lng": -111.6884129,
+    "result": "ok"
+  },
+  {
+    "id": "1b30118e-0211-46a2-98d0-d22fb457b8e9",
+    "name": "Arby's",
+    "city": "Peoria",
+    "state": "AZ",
+    "lat": 33.6538165,
+    "lng": -112.2370452,
+    "result": "ok"
+  },
+  {
+    "id": "7612ba07-c964-4620-ad9a-52ec02ae2f25",
+    "name": "Arby's",
+    "city": "Surprise",
+    "state": "AZ",
+    "lat": 33.6081993,
+    "lng": -112.4133209,
+    "result": "ok"
+  },
+  {
+    "id": "ead376b6-bd34-45bb-9ca2-0fe02f201370",
+    "name": "Arby's",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.2526195,
+    "lng": -121.8312283,
+    "result": "ok"
+  },
+  {
+    "id": "d2d150fc-5d4b-48bc-b098-f5f4af1116ee",
+    "name": "Arby's",
+    "city": "San Francisco",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "c8923bd1-6708-4845-9742-8543694584be",
+    "name": "Arby's",
+    "city": "Bakersfield",
+    "state": "CA",
+    "lat": 35.383747,
+    "lng": -119.0428654,
+    "result": "ok"
+  },
+  {
+    "id": "723dc913-fff5-45de-a720-3a39b5b224e2",
+    "name": "Arby's",
+    "city": "Anaheim",
+    "state": "CA",
+    "lat": 33.8029073,
+    "lng": -117.9390198,
+    "result": "ok"
+  },
+  {
+    "id": "eac932be-5f02-4965-bc3c-3d94781ae7c1",
+    "name": "Arby's",
+    "city": "Irvine",
+    "state": "CA",
+    "lat": 33.6925973,
+    "lng": -117.826204,
+    "result": "ok"
+  },
+  {
+    "id": "be1a7022-4839-41a1-a8fc-d30a78334765",
+    "name": "Arby's",
+    "city": "Chula Vista",
+    "state": "CA",
+    "lat": 32.646863,
+    "lng": -116.9675451,
+    "result": "ok"
+  },
+  {
+    "id": "a2aba705-0dbf-4997-8260-eb80b108ca42",
+    "name": "Arby's",
+    "city": "San Bernardino",
+    "state": "CA",
+    "lat": 34.0891384,
+    "lng": -117.2944619,
+    "result": "ok"
+  },
+  {
+    "id": "a655bfc4-c1eb-4ea6-8b47-35de0fb5a1f8",
+    "name": "Arby's",
+    "city": "Lafayette",
+    "state": "LA",
+    "lat": 30.1798853,
+    "lng": -92.0743851,
+    "result": "ok"
+  },
+  {
+    "id": "cda4c340-ab15-41ed-8c6a-415a6dc1d8e7",
+    "name": "Arby's",
+    "city": "Glendale",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "e5bc34de-eaf4-4265-9af3-95d23cb68ee0",
+    "name": "Arby's",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "fdfbd3a6-7d67-4828-bc21-61c9609e5dfe",
+    "name": "Arby's",
+    "city": "Garden Grove",
+    "state": "CA",
+    "lat": 33.7875632,
+    "lng": -118.0107781,
+    "result": "ok"
+  },
+  {
+    "id": "ca29c677-f93d-4927-9f87-e611a7d68049",
+    "name": "Arby's",
+    "city": "Oxnard",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "0ff285c2-5672-476f-97f5-faea978e13a9",
+    "name": "Arby's",
+    "city": "Corona",
+    "state": "CA",
+    "lat": 33.8778829,
+    "lng": -117.5923198,
+    "result": "ok"
+  },
+  {
+    "id": "1bda21f7-a281-417a-8c4d-75a0ef8d2e87",
+    "name": "Arby's",
+    "city": "Elk Grove",
+    "state": "CA",
+    "lat": 38.40963,
+    "lng": -121.3875704,
+    "result": "ok"
+  },
+  {
+    "id": "b3823a17-d40b-4732-a936-04e0664f4b2e",
+    "name": "Arby's",
+    "city": "Pasadena",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "ea81429c-c01f-469d-9d7d-38a753e1115b",
+    "name": "Arby's",
+    "city": "Fullerton",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "9ea1dbed-9133-44c2-9d59-5e5fa7d77581",
+    "name": "Arby's",
+    "city": "Huntersville",
+    "state": "NC",
+    "result": "no_result"
+  },
+  {
+    "id": "3a82ade1-dbae-4b12-b6c3-0a85252d2957",
+    "name": "Arby's",
+    "city": "Waterloo",
+    "state": "IA",
+    "lat": 42.459699,
+    "lng": -92.3561678,
+    "result": "ok"
+  },
+  {
+    "id": "b179bdfa-b004-4d49-93d1-f31a4a4ba459",
+    "name": "Arby's",
+    "city": "Juneau",
+    "state": "AK",
+    "result": "no_result"
+  },
+  {
+    "id": "98738330-1f48-4251-8990-5d005d1e9d5b",
+    "name": "Arby's",
+    "city": "Auburn",
+    "state": "AL",
+    "lat": 32.5718218,
+    "lng": -85.4992118,
+    "result": "ok"
+  },
+  {
+    "id": "1e688e09-7289-42e1-a4f3-85a208245c8e",
+    "name": "Arby's",
+    "city": "Salinas",
+    "state": "CA",
+    "lat": 36.659348,
+    "lng": -121.6185451,
+    "result": "ok"
+  },
+  {
+    "id": "586aedf0-8691-483f-b17b-91a43490463a",
+    "name": "Arby's",
+    "city": "Palmdale",
+    "state": "CA",
+    "lat": 34.6047321,
+    "lng": -118.1484368,
+    "result": "ok"
+  },
+  {
+    "id": "d8be7954-4fcc-4740-9f5e-a73cec4ea180",
+    "name": "Arby's",
+    "city": "Chico",
+    "state": "CA",
+    "lat": 39.715286,
+    "lng": -121.7932416,
+    "result": "ok"
+  },
+  {
+    "id": "80bc2b6d-f0d6-4d5a-8c4f-d83a903f98d1",
+    "name": "Arby's",
+    "city": "Vallejo",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "357d8e3f-e666-4e0d-a8c9-c8f67dac24fa",
+    "name": "Arby's",
+    "city": "Hartford",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "a2207874-0b03-4a52-97b6-c1801a82d027",
+    "name": "Arby's",
+    "city": "Stamford",
+    "state": "CT",
+    "result": "no_result"
+  },
+  {
+    "id": "35f1de74-a787-4378-9dbc-e8b47bdbce1f",
+    "name": "Arby's",
+    "city": "Wilmington",
+    "state": "DE",
+    "lat": 39.8080155,
+    "lng": -75.5494313,
+    "result": "ok"
+  },
+  {
+    "id": "f428ed1c-b66b-43ff-be90-6dfbe8fe9a99",
+    "name": "Arby's",
+    "city": "Dover",
+    "state": "DE",
+    "lat": 39.1583758,
+    "lng": -75.5502752,
+    "result": "ok"
+  },
+  {
+    "id": "75232793-7c58-4ab2-8cb8-6b7a8fd85582",
+    "name": "Arby's",
+    "city": "Tampa",
+    "state": "FL",
+    "lat": 27.9967366,
+    "lng": -82.3900522,
+    "result": "ok"
+  },
+  {
+    "id": "e63369be-a448-458d-b74f-489b15e75c4c",
+    "name": "Arby's",
+    "city": "Orlando",
+    "state": "FL",
+    "lat": 28.5538123,
+    "lng": -81.334479,
+    "result": "ok"
+  },
+  {
+    "id": "8e601e0e-a81b-4105-a346-784569da3c67",
+    "name": "Arby's",
+    "city": "Hialeah",
+    "state": "FL",
+    "lat": 25.8523658,
+    "lng": -80.3194246,
+    "result": "ok"
+  },
+  {
+    "id": "89c584f2-62ee-4054-a1f7-e5b962958054",
+    "name": "Arby's",
+    "city": "Tallahassee",
+    "state": "FL",
+    "lat": 30.4701831,
+    "lng": -84.2895336,
+    "result": "ok"
+  },
+  {
+    "id": "ec420c87-7eb2-4b14-8db1-e8e176a99cf0",
+    "name": "Arby's",
+    "city": "Hollywood",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "a3f853b0-1501-4840-8c35-97044ed3caf4",
+    "name": "Arby's",
+    "city": "Dothan",
+    "state": "AL",
+    "lat": 31.2686607,
+    "lng": -85.4449624,
+    "result": "ok"
+  },
+  {
+    "id": "97e71358-123d-4bb7-a542-8b31a10b6adb",
+    "name": "Arby's",
+    "city": "Miramar",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "00900861-836d-4d6e-9ffa-7d570bc49a23",
+    "name": "Arby's",
+    "city": "Florence",
+    "state": "AL",
+    "lat": 34.8218026,
+    "lng": -87.6506867,
+    "result": "ok"
+  },
+  {
+    "id": "954ac305-13d1-465a-8d73-02d866fdefc6",
+    "name": "Arby's",
+    "city": "Palm Bay",
+    "state": "FL",
+    "lat": 28.0347011,
+    "lng": -80.6503806,
+    "result": "ok"
+  },
+  {
+    "id": "e45df6a8-447a-4995-ab61-64d5d0a976ff",
+    "name": "Arby's",
+    "city": "Decatur",
+    "state": "AL",
+    "lat": 34.5707882,
+    "lng": -86.9727522,
+    "result": "ok"
+  },
+  {
+    "id": "2690f78c-9ae0-477d-af2a-c14f534e26b7",
+    "name": "Arby's",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "lat": 26.7073245,
+    "lng": -80.10747,
+    "result": "ok"
+  },
+  {
+    "id": "70a5b6d7-82e8-4b3e-9946-80e5abff7dd0",
+    "name": "Arby's",
+    "city": "Pompano Beach",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "f61dad80-ea90-4c67-a6b5-54f020302cd3",
+    "name": "Arby's",
+    "city": "Phenix City",
+    "state": "AL",
+    "lat": 32.4687987,
+    "lng": -85.029508,
+    "result": "ok"
+  },
+  {
+    "id": "f679263f-5cf7-4966-951d-1236d4425c43",
+    "name": "Arby's",
+    "city": "Madison",
+    "state": "AL",
+    "lat": 34.6625904,
+    "lng": -86.4842774,
+    "result": "ok"
+  },
+  {
+    "id": "3d3d4724-23e0-4e8b-b09a-cfe2b4d3819b",
+    "name": "Arby's",
+    "city": "Hoover",
+    "state": "AL",
+    "lat": 33.3797843,
+    "lng": -86.7986458,
+    "result": "ok"
+  },
+  {
+    "id": "cbee862e-6898-4d4b-9b56-75f8e06a28c9",
+    "name": "Arby's",
+    "city": "Savannah",
+    "state": "GA",
+    "lat": 32.0031255,
+    "lng": -81.1130814,
+    "result": "ok"
+  },
+  {
+    "id": "ee34c74b-3a23-4ff1-a838-52669a1ca6ab",
+    "name": "Arby's",
+    "city": "Roswell",
+    "state": "GA",
+    "lat": 34.0395843,
+    "lng": -84.3421575,
+    "result": "ok"
+  },
+  {
+    "id": "e70b1d33-3542-467b-94fb-6f81358b7982",
+    "name": "Arby's",
+    "city": "Johns Creek",
+    "state": "GA",
+    "lat": 34.0163765,
+    "lng": -84.1868028,
+    "result": "ok"
+  },
+  {
+    "id": "a72af7dd-5c01-488a-a8b6-4acdad42b2a1",
+    "name": "Arby's",
+    "city": "Warner Robins",
+    "state": "GA",
+    "lat": 32.6179585,
+    "lng": -83.6526427,
+    "result": "ok"
+  },
+  {
+    "id": "4e5cb188-027f-4c6d-abc1-6c8f22f6d0e6",
+    "name": "Arby's",
+    "city": "Alpharetta",
+    "state": "GA",
+    "lat": 34.0939547,
+    "lng": -84.2769442,
+    "result": "ok"
+  },
+  {
+    "id": "f2239e72-b1ae-43fb-a14a-ee87431914b1",
+    "name": "Arby's",
+    "city": "Meridian",
+    "state": "ID",
+    "lat": 43.6164771,
+    "lng": -116.3538977,
+    "result": "ok"
+  },
+  {
+    "id": "87fd8b3a-025b-4eba-a73e-837df0f8f4e8",
+    "name": "Arby's",
+    "city": "Harlingen",
+    "state": "TX",
+    "lat": 26.1715716,
+    "lng": -97.6750826,
+    "result": "ok"
+  },
+  {
+    "id": "00eecb13-48ca-441f-9c50-6f30a895df6e",
+    "name": "Arby's",
+    "city": "Pocatello",
+    "state": "ID",
+    "lat": 42.8893685,
+    "lng": -112.4518395,
+    "result": "ok"
+  },
+  {
+    "id": "07863cdb-3ca9-4a1a-853b-245f052c4586",
+    "name": "Arby's",
+    "city": "Chicago",
+    "state": "IL",
+    "lat": 41.8823166,
+    "lng": -87.6336705,
+    "result": "ok"
+  },
+  {
+    "id": "f5d34249-e8db-435f-a7da-6173f7209821",
+    "name": "Arby's",
+    "city": "Prattville",
+    "state": "AL",
+    "lat": 32.4601404,
+    "lng": -86.4252033,
+    "result": "ok"
+  },
+  {
+    "id": "45541363-2167-4d7f-b402-8bc2210f8a35",
+    "name": "Arby's",
+    "city": "Rockford",
+    "state": "IL",
+    "lat": 42.2239735,
+    "lng": -89.0731132,
+    "result": "ok"
+  },
+  {
+    "id": "c026a37b-8059-4531-a659-bfc2c56980b4",
+    "name": "Arby's",
+    "city": "Elgin",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "19e0b886-4107-4b7c-9a19-5ef719f7b349",
+    "name": "Arby's",
+    "city": "Peoria",
+    "state": "IL",
+    "lat": 40.7696215,
+    "lng": -89.6529125,
+    "result": "ok"
+  },
+  {
+    "id": "5d3e2936-1386-48db-b220-bb52c75bce55",
+    "name": "Arby's",
+    "city": "Bloomington",
+    "state": "IL",
+    "lat": 40.4834099,
+    "lng": -89.0213419,
+    "result": "ok"
+  },
+  {
+    "id": "4d101c86-71d3-4627-a0a0-7793a1b69790",
+    "name": "Arby's",
+    "city": "Indianapolis",
+    "state": "IN",
+    "lat": 39.82551,
+    "lng": -86.2371483,
+    "result": "ok"
+  },
+  {
+    "id": "202d77c8-a1a4-430b-8ae8-f6480c01518b",
+    "name": "Arby's",
+    "city": "Evansville",
+    "state": "IN",
+    "lat": 37.9887025,
+    "lng": -87.4931863,
+    "result": "ok"
+  },
+  {
+    "id": "40566207-0e6a-4bd5-9edc-bccedc764058",
+    "name": "Arby's",
+    "city": "South Bend",
+    "state": "IN",
+    "lat": 41.6931061,
+    "lng": -86.2980818,
+    "result": "ok"
+  },
+  {
+    "id": "2b05e16c-265a-4b5a-b7c1-eed0b403c944",
+    "name": "Arby's",
+    "city": "Bloomington",
+    "state": "IN",
+    "lat": 39.1645937,
+    "lng": -86.4968427,
+    "result": "ok"
+  },
+  {
+    "id": "39ffc3ab-745b-4411-b49b-72c4946ec310",
+    "name": "Arby's",
+    "city": "Hammond",
+    "state": "IN",
+    "result": "no_result"
+  },
+  {
+    "id": "44ee7af5-937f-40e7-ba72-691cc74d284d",
+    "name": "Arby's",
+    "city": "Lafayette",
+    "state": "IN",
+    "lat": 40.3948616,
+    "lng": -86.8550258,
+    "result": "ok"
+  },
+  {
+    "id": "9f1600d6-ac78-42b6-b144-ba25a797f8d3",
+    "name": "Arby's",
+    "city": "Des Moines",
+    "state": "IA",
+    "lat": 41.5902184,
+    "lng": -93.5951233,
+    "result": "ok"
+  },
+  {
+    "id": "e3ae2a0a-c15e-48ea-b77f-02f88fa44ad1",
+    "name": "Arby's",
+    "city": "Bryan",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "8c5a800d-abce-4363-bbe0-21d67137d830",
+    "name": "Arby's",
+    "city": "Vestavia Hills",
+    "state": "AL",
+    "lat": 33.4156434,
+    "lng": -86.8044903,
+    "result": "ok"
+  },
+  {
+    "id": "9b11b7c1-99bd-4879-bb56-cbda0ef02142",
+    "name": "Arby's",
+    "city": "Kansas City",
+    "state": "KS",
+    "lat": 39.1169274,
+    "lng": -94.7522528,
+    "result": "ok"
+  },
+  {
+    "id": "8c8b70e5-0853-43b6-b67b-7371b44abd0e",
+    "name": "Arby's",
+    "city": "College Station",
+    "state": "TX",
+    "lat": 30.6064695,
+    "lng": -96.309358,
+    "result": "ok"
+  },
+  {
+    "id": "eb56fc42-444c-4085-945b-34b15264e3ef",
+    "name": "Arby's",
+    "city": "Pearland",
+    "state": "TX",
+    "lat": 29.5801959,
+    "lng": -95.3938622,
+    "result": "ok"
+  },
+  {
+    "id": "f89ffceb-bfb3-49ca-bc8b-157c8ecaf9c3",
+    "name": "Arby's",
+    "city": "Sugar Land",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "5417d587-9f4b-4041-9502-239a9f9d03f3",
+    "name": "Arby's",
+    "city": "Lexington",
+    "state": "KY",
+    "lat": 38.0101293,
+    "lng": -84.4538079,
+    "result": "ok"
+  },
+  {
+    "id": "e9b4f6b1-4fdc-429a-85f3-9cfd5172aa3b",
+    "name": "Arby's",
+    "city": "Bowling Green",
+    "state": "KY",
+    "lat": 36.9811144,
+    "lng": -86.4660723,
+    "result": "ok"
+  },
+  {
+    "id": "132a9f7a-d7ad-4372-b24c-4d4543003704",
+    "name": "Arby's",
+    "city": "Tyler",
+    "state": "TX",
+    "lat": 32.3069284,
+    "lng": -95.300191,
+    "result": "ok"
+  },
+  {
+    "id": "07594fe8-77dd-4508-b5f1-94421ce7f038",
+    "name": "Arby's",
+    "city": "Allen",
+    "state": "TX",
+    "lat": 33.1047232,
+    "lng": -96.6778059,
+    "result": "ok"
+  },
+  {
+    "id": "99b7f5f2-44e0-480f-b4a5-3c279fbc139b",
+    "name": "Arby's",
+    "city": "Richardson",
+    "state": "TX",
+    "lat": 32.973513,
+    "lng": -96.699228,
+    "result": "ok"
+  },
+  {
+    "id": "94e7c4d7-bd0f-4f31-8ac9-85d3ba64ed88",
+    "name": "Arby's",
+    "city": "League City",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "69c627a4-64e0-40a4-b41d-1ee7d0e54793",
+    "name": "Arby's",
+    "city": "Rosenberg",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "d32f93f4-1259-4925-9b91-576a40c74715",
+    "name": "Arby's",
+    "city": "Gadsden",
+    "state": "AL",
+    "lat": 34.0105613,
+    "lng": -85.9884757,
+    "result": "ok"
+  },
+  {
+    "id": "70db7bef-f456-416c-8d40-dc6aa5e672cf",
+    "name": "Arby's",
+    "city": "Mission",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "7ff6dab5-c52e-48c6-8a3f-9c93b2213963",
+    "name": "Arby's",
+    "city": "Edinburg",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "9b5fbba7-d005-4ead-8317-3ef0fb7b33a8",
+    "name": "Arby's",
+    "city": "Woodbury",
+    "state": "MN",
+    "lat": 44.9450949,
+    "lng": -92.9056872,
+    "result": "ok"
+  },
+  {
+    "id": "b775ab74-7102-4e1d-af4d-088bc02a4044",
+    "name": "Arby's",
+    "city": "Baltimore",
+    "state": "MD",
+    "lat": 39.1795659,
+    "lng": -76.6712263,
+    "result": "ok"
+  },
+  {
+    "id": "065e45f6-44fa-4170-a1ba-5b3c73c313fb",
+    "name": "Arby's",
+    "city": "Rockville",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "d4be470c-3fe8-438f-8fb2-393342e67f00",
+    "name": "Arby's",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "519fc28d-bd7a-4428-a59b-64b0565f85ba",
+    "name": "Arby's",
+    "city": "Annapolis",
+    "state": "MD",
+    "result": "no_result"
+  },
+  {
+    "id": "c0e5e473-e3ac-47ce-86bb-56cb414a5db3",
+    "name": "Arby's",
+    "city": "Boston",
+    "state": "MA",
+    "lat": 38.7542449,
+    "lng": -82.9227976,
+    "result": "ok"
+  },
+  {
+    "id": "6e26fdbd-5fbc-45c4-a4b8-0f542a750d6e",
+    "name": "Arby's",
+    "city": "Springfield",
+    "state": "MA",
+    "lat": 39.834412,
+    "lng": -89.6039992,
+    "result": "ok"
+  },
+  {
+    "id": "b36432fc-c1ad-4ffe-8899-b1bf19d7cc79",
+    "name": "Arby's",
+    "city": "Lowell",
+    "state": "MA",
+    "lat": 42.9314689,
+    "lng": -85.3629948,
+    "result": "ok"
+  },
+  {
+    "id": "bbd6a0da-cee9-4245-9021-a646e9706c7d",
+    "name": "Arby's",
+    "city": "Quincy",
+    "state": "MA",
+    "lat": 41.0176473,
+    "lng": -92.4378752,
+    "result": "ok"
+  },
+  {
+    "id": "1a2192c8-8a07-4713-a7b8-9f97d04e0d1e",
+    "name": "Arby's",
+    "city": "Detroit",
+    "state": "MI",
+    "lat": 42.108214,
+    "lng": -83.2865136,
+    "result": "ok"
+  },
+  {
+    "id": "cd0c371d-aeed-406f-9ce3-3cd1c50b5bec",
+    "name": "Arby's",
+    "city": "Warren",
+    "state": "MI",
+    "lat": 42.4953781,
+    "lng": -83.0272386,
+    "result": "ok"
+  },
+  {
+    "id": "c7c198b4-dc50-4a72-9619-f1fdddecbd41",
+    "name": "Arby's",
+    "city": "Sterling Heights",
+    "state": "MI",
+    "lat": 42.6167004,
+    "lng": -82.9933964,
+    "result": "ok"
+  },
+  {
+    "id": "9d30ef02-4a2c-4211-89cf-7df70caf19c2",
+    "name": "Arby's",
+    "city": "Flint",
+    "state": "MI",
+    "lat": 42.991566,
+    "lng": -83.7355824,
+    "result": "ok"
+  },
+  {
+    "id": "263a2acf-e4f7-4376-a8e8-b30e3b7e66e1",
+    "name": "Arby's",
+    "city": "Dearborn",
+    "state": "MI",
+    "lat": 42.2943846,
+    "lng": -83.270698,
+    "result": "ok"
+  },
+  {
+    "id": "eab7f793-6fbe-4869-8272-0f2241505382",
+    "name": "Arby's",
+    "city": "Westland",
+    "state": "MI",
+    "lat": 42.3464336,
+    "lng": -83.3848905,
+    "result": "ok"
+  },
+  {
+    "id": "1e15bb33-7738-43a6-aea4-eaf7e02013ff",
+    "name": "Arby's",
+    "city": "Waco",
+    "state": "TX",
+    "lat": 31.5298248,
+    "lng": -97.1774917,
+    "result": "ok"
+  },
+  {
+    "id": "05a3ab5e-02c9-4d2f-9ab7-6eb25ee070d3",
+    "name": "Arby's",
+    "city": "Saint Paul",
+    "state": "MN",
+    "lat": 44.9554022,
+    "lng": -93.176774,
+    "result": "ok"
+  },
+  {
+    "id": "5c8a0a45-45b7-41ce-bf9c-ce9799302b7d",
+    "name": "Arby's",
+    "city": "Rochester",
+    "state": "MN",
+    "lat": 44.0065484,
+    "lng": -92.4750589,
+    "result": "ok"
+  },
+  {
+    "id": "2044d0e1-74ca-462a-8a5d-c557dca367e0",
+    "name": "Arby's",
+    "city": "Bloomington",
+    "state": "MN",
+    "result": "no_result"
+  },
+  {
+    "id": "dec9d7a2-6f50-431a-ba00-18f87b5af7ca",
+    "name": "Arby's",
+    "city": "Brooklyn Park",
+    "state": "MN",
+    "result": "no_result"
+  },
+  {
+    "id": "fbba518b-b8f1-4ec6-9d7e-908ed28382f9",
+    "name": "Arby's",
+    "city": "St. Cloud",
+    "state": "MN",
+    "lat": 45.5633525,
+    "lng": -94.1422347,
+    "result": "ok"
+  },
+  {
+    "id": "c75d8927-4130-434a-9ecf-d4b102ea9451",
+    "name": "Arby's",
+    "city": "Jackson",
+    "state": "MS",
+    "lat": 32.303651,
+    "lng": -90.1702848,
+    "result": "ok"
+  },
+  {
+    "id": "c1f84917-3214-461e-bdc3-ed57b9f8a3d2",
+    "name": "Arby's",
+    "city": "Southaven",
+    "state": "MS",
+    "lat": 34.9632712,
+    "lng": -90.0035238,
+    "result": "ok"
+  },
+  {
+    "id": "89a65005-dc7a-4492-bc75-b94b59e8853f",
+    "name": "Arby's",
+    "city": "Odessa",
+    "state": "TX",
+    "lat": 31.8806429,
+    "lng": -102.3847242,
+    "result": "ok"
+  },
+  {
+    "id": "421e67f7-8adf-4ebb-8762-0378dde190ec",
+    "name": "Arby's",
+    "city": "Kansas City",
+    "state": "MO",
+    "lat": 39.2432406,
+    "lng": -94.4657919,
+    "result": "ok"
+  },
+  {
+    "id": "9b7c37d6-8dce-47af-a9e5-03c49be32bcd",
+    "name": "Arby's",
+    "city": "St. Louis",
+    "state": "MO",
+    "lat": 38.5900523,
+    "lng": -90.3063722,
+    "result": "ok"
+  },
+  {
+    "id": "ccfeaf7b-c471-4949-af1b-afcc9615d250",
+    "name": "Arby's",
+    "city": "Columbia",
+    "state": "MO",
+    "lat": 38.953811,
+    "lng": -92.3852432,
+    "result": "ok"
+  },
+  {
+    "id": "386daa2b-ed2a-4102-94ae-4f63c762f2b4",
+    "name": "Arby's",
+    "city": "Independence",
+    "state": "MO",
+    "lat": 39.0737725,
+    "lng": -94.3783522,
+    "result": "ok"
+  },
+  {
+    "id": "1cf8d50e-0fe7-4f9d-b6c3-2a22e07e205a",
+    "name": "Arby's",
+    "city": "St. Joseph",
+    "state": "MO",
+    "lat": 39.7817418,
+    "lng": -94.8035907,
+    "result": "ok"
+  },
+  {
+    "id": "835f3cc9-53f3-4a8f-a46f-06067c6e8de8",
+    "name": "Arby's",
+    "city": "St. Charles",
+    "state": "MO",
+    "lat": 38.8013666,
+    "lng": -90.7007311,
+    "result": "ok"
+  },
+  {
+    "id": "d2b323bb-fe2d-4904-b8ca-f71b2ebf51cc",
+    "name": "Arby's",
+    "city": "Billings",
+    "state": "MT",
+    "lat": 45.7546753,
+    "lng": -108.5847955,
+    "result": "ok"
+  },
+  {
+    "id": "071e62f0-afd6-4545-88f1-ee4a41f8c86a",
+    "name": "Arby's",
+    "city": "Missoula",
+    "state": "MT",
+    "lat": 46.8441172,
+    "lng": -114.0243487,
+    "result": "ok"
+  },
+  {
+    "id": "ea899d93-7a36-40d3-abf5-2843c4664b0c",
+    "name": "Arby's",
+    "city": "Grand Island",
+    "state": "NE",
+    "lat": 40.9443974,
+    "lng": -98.3783035,
+    "result": "ok"
+  },
+  {
+    "id": "1c3b2f6c-0290-4cde-8341-bc92076e864c",
+    "name": "Arby's",
+    "city": "Las Vegas",
+    "state": "NV",
+    "lat": 36.2414751,
+    "lng": -115.2351307,
+    "result": "ok"
+  },
+  {
+    "id": "9a74033c-fd44-42c7-9bbf-eeb2097ccb73",
+    "name": "Arby's",
+    "city": "Reno",
+    "state": "NV",
+    "lat": 39.5558022,
+    "lng": -119.7841482,
+    "result": "ok"
+  },
+  {
+    "id": "5dd62afc-3243-43e2-8725-5b0d9d2f6626",
+    "name": "Arby's",
+    "city": "Mentor",
+    "state": "OH",
+    "lat": 41.6609339,
+    "lng": -81.3772709,
+    "result": "ok"
+  },
+  {
+    "id": "863e1856-2c46-42f2-bf83-f134658fe6f4",
+    "name": "Arby's",
+    "city": "Carson City",
+    "state": "NV",
+    "lat": 39.1567566,
+    "lng": -119.7673685,
+    "result": "ok"
+  },
+  {
+    "id": "2a273ca3-9eb9-4cc7-9f98-094b09c3b643",
+    "name": "Arby's",
+    "city": "Manchester",
+    "state": "NH",
+    "lat": 42.9569474,
+    "lng": -71.4318594,
+    "result": "ok"
+  },
+  {
+    "id": "86463838-5b15-45a4-90e7-dafb7c8e21c8",
+    "name": "Arby's",
+    "city": "Concord",
+    "state": "NH",
+    "result": "no_result"
+  },
+  {
+    "id": "84004c3e-6808-490a-ad5e-70788e36bbbd",
+    "name": "Arby's",
+    "city": "Newark",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "63af9b12-6d98-433b-9e87-07db9399a392",
+    "name": "Arby's",
+    "city": "Edison",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "8009ebca-0d1a-4dfa-9c3b-6f877aa912c2",
+    "name": "Arby's",
+    "city": "Woodbridge",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "7ef31de5-ebc4-4c37-828b-57185e9afe63",
+    "name": "Arby's",
+    "city": "Toms River",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "38c7d26b-6fee-45b6-833b-740f6bd69dd6",
+    "name": "Arby's",
+    "city": "Hamilton",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "c2d71017-f62a-424b-9e4a-f37ab87df546",
+    "name": "Arby's",
+    "city": "Las Cruces",
+    "state": "NM",
+    "lat": 32.2973676,
+    "lng": -106.7702564,
+    "result": "ok"
+  },
+  {
+    "id": "7990f8e0-90cd-43fd-8fef-9dc7773db361",
+    "name": "Arby's",
+    "city": "Rio Rancho",
+    "state": "NM",
+    "lat": 35.2419997,
+    "lng": -106.6691121,
+    "result": "ok"
+  },
+  {
+    "id": "56f372ed-7674-44fb-823a-2678b0cd42c3",
+    "name": "Arby's",
+    "city": "Buffalo",
+    "state": "NY",
+    "lat": 43.0347522,
+    "lng": -78.822113,
+    "result": "ok"
+  },
+  {
+    "id": "a6302224-6ee4-40d6-aa2b-a1018ba1137c",
+    "name": "Arby's",
+    "city": "Rochester",
+    "state": "NY",
+    "lat": 43.1485802,
+    "lng": -77.5975396,
+    "result": "ok"
+  },
+  {
+    "id": "5c93da34-fcb1-4e79-8fd4-c4191d5422ea",
+    "name": "Arby's",
+    "city": "Mount Vernon",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "c3d5a0c8-5020-468d-b08f-eca8fe6cd785",
+    "name": "Arby's",
+    "city": "Schenectady",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "b56a9eea-f0d1-447e-9dbd-f9719ef25509",
+    "name": "Arby's",
+    "city": "Charlotte",
+    "state": "NC",
+    "lat": 35.3061424,
+    "lng": -80.7228045,
+    "result": "ok"
+  },
+  {
+    "id": "2bc3cc4c-fb02-448c-b51e-b00b963ebc64",
+    "name": "Arby's",
+    "city": "Lawton",
+    "state": "OK",
+    "lat": 34.6092027,
+    "lng": -98.4218416,
+    "result": "ok"
+  },
+  {
+    "id": "cd6c6bbd-6043-4f03-a3d9-765ce83a70ef",
+    "name": "Arby's",
+    "city": "Midwest City",
+    "state": "OK",
+    "lat": 35.4485307,
+    "lng": -97.4056408,
+    "result": "ok"
+  },
+  {
+    "id": "c843a67e-d6b0-4034-8d32-28ab56845a7b",
+    "name": "Arby's",
+    "city": "Portland",
+    "state": "OR",
+    "lat": 45.5187435,
+    "lng": -122.5594225,
+    "result": "ok"
+  },
+  {
+    "id": "0c1db2ad-3141-4dc5-8f65-ec878def3989",
+    "name": "Arby's",
+    "city": "Eugene",
+    "state": "OR",
+    "lat": 44.0961337,
+    "lng": -123.1287935,
+    "result": "ok"
+  },
+  {
+    "id": "9301f742-77c5-4053-a78c-de13b8bda949",
+    "name": "Arby's",
+    "city": "Gresham",
+    "state": "OR",
+    "lat": 45.5072015,
+    "lng": -122.4254488,
+    "result": "ok"
+  },
+  {
+    "id": "8650d425-795e-490e-9eca-ba99f1216c32",
+    "name": "Arby's",
+    "city": "Medford",
+    "state": "OR",
+    "lat": 42.3132462,
+    "lng": -122.8602172,
+    "result": "ok"
+  },
+  {
+    "id": "73e22f46-b6ee-464a-b104-0062769c437c",
+    "name": "Arby's",
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 40.0898708,
+    "lng": -74.9641842,
+    "result": "ok"
+  },
+  {
+    "id": "88d7c3f9-bb5f-496f-897d-2958e9c322d1",
+    "name": "Arby's",
+    "city": "Allentown",
+    "state": "PA",
+    "lat": 40.6305403,
+    "lng": -75.4410737,
+    "result": "ok"
+  },
+  {
+    "id": "7c0c7857-ac02-401f-ac90-947a3edd1606",
+    "name": "Arby's",
+    "city": "Erie",
+    "state": "PA",
+    "lat": 42.0920595,
+    "lng": -80.084118,
+    "result": "ok"
+  },
+  {
+    "id": "d6a04b59-6181-4ecc-90f3-8b3c9f89f858",
+    "name": "Arby's",
+    "city": "Bethlehem",
+    "state": "PA",
+    "lat": 40.6502931,
+    "lng": -75.3373656,
+    "result": "ok"
+  },
+  {
+    "id": "a731659b-af08-487d-b227-ab00160b9bed",
+    "name": "Arby's",
+    "city": "Lancaster",
+    "state": "PA",
+    "lat": 40.0268134,
+    "lng": -76.2207845,
+    "result": "ok"
+  },
+  {
+    "id": "6f212c48-7039-40d3-9d1b-84ddf306f77f",
+    "name": "Arby's",
+    "city": "Altoona",
+    "state": "PA",
+    "lat": 40.4722882,
+    "lng": -78.4067026,
+    "result": "ok"
+  },
+  {
+    "id": "704763cd-47c0-4669-8e06-259d9f734dde",
+    "name": "Arby's",
+    "city": "Providence",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "cfadd653-9b0a-42be-9a12-69e02458f833",
+    "name": "Arby's",
+    "city": "Greenville",
+    "state": "SC",
+    "lat": 34.8203063,
+    "lng": -82.3391321,
+    "result": "ok"
+  },
+  {
+    "id": "ac3a43a7-13a4-43be-8cd9-5d16a8885baf",
+    "name": "Arby's",
+    "city": "Summerville",
+    "state": "SC",
+    "result": "no_result"
+  },
+  {
+    "id": "96ab409f-e4b0-4185-8948-75f707626df8",
+    "name": "Arby's",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "lat": 43.6026851,
+    "lng": -96.7106211,
+    "result": "ok"
+  },
+  {
+    "id": "f5611b04-aaff-454d-9f4b-d550db57d3f1",
+    "name": "Arby's",
+    "city": "Rapid City",
+    "state": "SD",
+    "lat": 44.0621672,
+    "lng": -103.2317609,
+    "result": "ok"
+  },
+  {
+    "id": "bcf3ec73-3e78-4e5b-a100-4eb77e00f146",
+    "name": "Arby's",
+    "city": "Chattanooga",
+    "state": "TN",
+    "lat": 35.0883785,
+    "lng": -85.187541,
+    "result": "ok"
+  },
+  {
+    "id": "ccf3c91e-83fc-46e9-aa80-eee753d77e46",
+    "name": "Arby's",
+    "city": "Clarksville",
+    "state": "TN",
+    "lat": 36.5943546,
+    "lng": -87.2874277,
+    "result": "ok"
+  },
+  {
+    "id": "d0adeaa4-ee26-4632-9c64-18e9cc1a206e",
+    "name": "Arby's",
+    "city": "Franklin",
+    "state": "TN",
+    "lat": 35.9154352,
+    "lng": -86.8340069,
+    "result": "ok"
+  },
+  {
+    "id": "8751b9dc-ba62-4f2f-b258-bc909967fed0",
+    "name": "Arby's",
+    "city": "Jackson",
+    "state": "TN",
+    "lat": 35.6816593,
+    "lng": -88.8568461,
+    "result": "ok"
+  },
+  {
+    "id": "f7b17d09-8bf2-40d3-a8ec-5cc468e4ee5f",
+    "name": "Arby's",
+    "city": "Raleigh",
+    "state": "NC",
+    "lat": 35.8716142,
+    "lng": -78.5791405,
+    "result": "ok"
+  },
+  {
+    "id": "8eb0e460-a524-4ae6-926e-ad1e9934a1d0",
+    "name": "Arby's",
+    "city": "Ocala",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "fd5d8a7c-d12d-4728-a7c0-a6c691c6a0fa",
+    "name": "Arby's",
+    "city": "Euclid",
+    "state": "OH",
+    "lat": 41.5879167,
+    "lng": -81.5011253,
+    "result": "ok"
+  },
+  {
+    "id": "cc15d2ba-9d9f-4123-b79c-100e2be9e3bf",
+    "name": "Arby's",
+    "city": "Kettering",
+    "state": "OH",
+    "lat": 39.7143811,
+    "lng": -84.1432165,
+    "result": "ok"
+  },
+  {
+    "id": "01540283-655c-45db-a5af-f9c08547461d",
+    "name": "Arby's",
+    "city": "Fort Worth",
+    "state": "TX",
+    "lat": 32.7533627,
+    "lng": -97.1715849,
+    "result": "ok"
+  },
+  {
+    "id": "5320a717-1eea-4a1a-af5e-13b52f29300a",
+    "name": "Arby's",
+    "city": "El Paso",
+    "state": "TX",
+    "lat": 31.8849857,
+    "lng": -106.4186042,
+    "result": "ok"
+  },
+  {
+    "id": "da77c98d-d16e-42fe-b572-b08fde67c7eb",
+    "name": "Arby's",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "b295f772-dbeb-4284-8d15-19847721a6e1",
+    "name": "Arby's",
+    "city": "Plano",
+    "state": "TX",
+    "lat": 33.0189872,
+    "lng": -96.7326962,
+    "result": "ok"
+  },
+  {
+    "id": "510919b9-31bc-4d1c-a5a3-bdbdfa214b53",
+    "name": "Arby's",
+    "city": "Amarillo",
+    "state": "TX",
+    "lat": 35.1906935,
+    "lng": -101.8174024,
+    "result": "ok"
+  },
+  {
+    "id": "02750028-1ba2-4ef5-84f6-98590c49c63c",
+    "name": "Arby's",
+    "city": "Grand Prairie",
+    "state": "TX",
+    "lat": 32.673417,
+    "lng": -97.0448167,
+    "result": "ok"
+  },
+  {
+    "id": "d988964c-60df-40e6-b076-04c71db03f71",
+    "name": "Arby's",
+    "city": "Pasadena",
+    "state": "TX",
+    "lat": 29.6503063,
+    "lng": -95.1589114,
+    "result": "ok"
+  },
+  {
+    "id": "2ee2a360-6f59-4d4e-a0d5-53ffd8ab97a4",
+    "name": "Arby's",
+    "city": "Williston",
+    "state": "ND",
+    "lat": 48.1545333,
+    "lng": -103.6264315,
+    "result": "ok"
+  },
+  {
+    "id": "62fc0c56-ec04-42fb-a226-418839366112",
+    "name": "Arby's",
+    "city": "Frisco",
+    "state": "TX",
+    "lat": 33.1222577,
+    "lng": -96.80493,
+    "result": "ok"
+  },
+  {
+    "id": "ffaf1869-4aab-4621-86d1-874794cfef51",
+    "name": "Arby's",
+    "city": "Mesquite",
+    "state": "TX",
+    "lat": 32.7885791,
+    "lng": -96.5966125,
+    "result": "ok"
+  },
+  {
+    "id": "12c55aad-0c84-4b1e-b403-34da2da04454",
+    "name": "Arby's",
+    "city": "Carrollton",
+    "state": "TX",
+    "lat": 32.9868529,
+    "lng": -96.8415962,
+    "result": "ok"
+  },
+  {
+    "id": "0890b330-8e04-4eb1-b4ae-b40891b053b2",
+    "name": "Arby's",
+    "city": "Denton",
+    "state": "TX",
+    "lat": 33.189981,
+    "lng": -97.1039661,
+    "result": "ok"
+  },
+  {
+    "id": "dc6447f4-bf14-4c12-ace9-eb058b264c12",
+    "name": "Arby's",
+    "city": "Round Rock",
+    "state": "TX",
+    "lat": 30.4926312,
+    "lng": -97.6549594,
+    "result": "ok"
+  },
+  {
+    "id": "451c4dea-b809-46c9-ae60-30219dd570fc",
+    "name": "Arby's",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "lat": 40.7335965,
+    "lng": -111.9383322,
+    "result": "ok"
+  },
+  {
+    "id": "3fc7c889-1a60-481b-a755-67b9e5e4a635",
+    "name": "Arby's",
+    "city": "Provo",
+    "state": "UT",
+    "lat": 40.2140518,
+    "lng": -111.6583366,
+    "result": "ok"
+  },
+  {
+    "id": "6a1f6b6c-f139-44a0-93b6-22c2a3523bd1",
+    "name": "Arby's",
+    "city": "West Jordan",
+    "state": "UT",
+    "lat": 40.6092101,
+    "lng": -111.9599552,
+    "result": "ok"
+  },
+  {
+    "id": "8f68af5e-f1a5-47c6-b3a7-47a81e4c7706",
+    "name": "Arby's",
+    "city": "St. George",
+    "state": "UT",
+    "lat": 37.0960841,
+    "lng": -113.5864748,
+    "result": "ok"
+  },
+  {
+    "id": "2d1a5907-0086-40e7-9f83-b71ad4b33eed",
+    "name": "Arby's",
+    "city": "Layton",
+    "state": "UT",
+    "lat": 41.0741869,
+    "lng": -111.9505938,
+    "result": "ok"
+  },
+  {
+    "id": "7d99a398-5b6b-47b1-8f86-d0b0b640e8c9",
+    "name": "Arby's",
+    "city": "Burlington",
+    "state": "VT",
+    "result": "no_result"
+  },
+  {
+    "id": "c680fe85-07db-432b-9153-e9e4947d0614",
+    "name": "Arby's",
+    "city": "South Burlington",
+    "state": "VT",
+    "result": "no_result"
+  },
+  {
+    "id": "fbbe2350-0529-43c9-8d86-a1620f0f0a5b",
+    "name": "Arby's",
+    "city": "Alexandria",
+    "state": "VA",
+    "lat": 38.8189953,
+    "lng": -77.1427213,
+    "result": "ok"
+  },
+  {
+    "id": "cddced5c-60ff-4aac-be25-71316769755a",
+    "name": "Arby's",
+    "city": "Daytona Beach",
+    "state": "FL",
+    "lat": 29.1781636,
+    "lng": -81.0059185,
+    "result": "ok"
+  },
+  {
+    "id": "c89b8ff7-a5ff-4f74-8da5-14aa200fd820",
+    "name": "Arby's",
+    "city": "Roanoke",
+    "state": "VA",
+    "lat": 37.2718259,
+    "lng": -79.9199415,
+    "result": "ok"
+  },
+  {
+    "id": "5246d635-c272-4df4-8bf3-c10ba4eca45c",
+    "name": "Arby's",
+    "city": "West Fargo",
+    "state": "ND",
+    "lat": 46.8592401,
+    "lng": -96.8515827,
+    "result": "ok"
+  },
+  {
+    "id": "40e96344-0695-4763-bd10-d210a186d49e",
+    "name": "Arby's",
+    "city": "Seattle",
+    "state": "WA",
+    "result": "no_result"
+  },
+  {
+    "id": "571829b8-a098-4d94-9972-8f274f745a27",
+    "name": "Arby's",
+    "city": "Spokane",
+    "state": "WA",
+    "lat": 47.7884667,
+    "lng": -117.3519711,
+    "result": "ok"
+  },
+  {
+    "id": "c555af6e-16c9-4cae-b133-a7443aa539e9",
+    "name": "Arby's",
+    "city": "Vancouver",
+    "state": "WA",
+    "lat": 45.6446486,
+    "lng": -122.5996959,
+    "result": "ok"
+  },
+  {
+    "id": "f039da11-ca7b-4946-af46-dfdcebed03cf",
+    "name": "Arby's",
+    "city": "Bellevue",
+    "state": "WA",
+    "result": "no_result"
+  },
+  {
+    "id": "b5e48c59-7ac9-463d-aa7d-20bcc733e13d",
+    "name": "Arby's",
+    "city": "Spokane Valley",
+    "state": "WA",
+    "lat": 47.6717737,
+    "lng": -117.1988306,
+    "result": "ok"
+  },
+  {
+    "id": "1aefc470-f67a-46e5-a8c1-4d2d500a5c8d",
+    "name": "Arby's",
+    "city": "Federal Way",
+    "state": "WA",
+    "lat": 47.2932694,
+    "lng": -122.3128648,
+    "result": "ok"
+  },
+  {
+    "id": "f74eab76-014e-42ab-ba68-19cae257fcbe",
+    "name": "Arby's",
+    "city": "Bellingham",
+    "state": "WA",
+    "lat": 48.8000971,
+    "lng": -122.4853943,
+    "result": "ok"
+  },
+  {
+    "id": "8630cd47-83a0-4b3f-94ca-e557a56ec382",
+    "name": "Arby's",
+    "city": "Charleston",
+    "state": "WV",
+    "lat": 38.313027,
+    "lng": -81.566141,
+    "result": "ok"
+  },
+  {
+    "id": "33928e40-b18c-4910-8b7c-83ee20210da7",
+    "name": "Arby's",
+    "city": "Parkersburg",
+    "state": "WV",
+    "lat": 39.2173859,
+    "lng": -81.5449643,
+    "result": "ok"
+  },
+  {
+    "id": "1c257fc5-d409-430c-b5bd-d33167b95f10",
+    "name": "Arby's",
+    "city": "Milwaukee",
+    "state": "WI",
+    "lat": 42.9936971,
+    "lng": -88.0461327,
+    "result": "ok"
+  },
+  {
+    "id": "cef7c051-6974-4fcf-b9d1-9713c4a35c1f",
+    "name": "Arby's",
+    "city": "Green Bay",
+    "state": "WI",
+    "lat": 44.5237582,
+    "lng": -88.0652288,
+    "result": "ok"
+  },
+  {
+    "id": "cb6a5eb4-c20e-4070-9e50-604416667bcf",
+    "name": "Arby's",
+    "city": "Kenosha",
+    "state": "WI",
+    "lat": 42.5670835,
+    "lng": -87.877539,
+    "result": "ok"
+  },
+  {
+    "id": "25d12b8e-3702-4d7a-a56a-8110e3a9e02b",
+    "name": "Arby's",
+    "city": "Janesville",
+    "state": "WI",
+    "lat": 42.7230549,
+    "lng": -88.9955372,
+    "result": "ok"
+  },
+  {
+    "id": "974d317c-8667-420c-9396-1946d7931e01",
+    "name": "Arby's",
+    "city": "Riverton",
+    "state": "UT",
+    "lat": 40.5073586,
+    "lng": -111.9778898,
+    "result": "ok"
+  },
+  {
+    "id": "fd76d268-9e78-47b5-9d8e-e725844a7a4a",
+    "name": "Arby's",
+    "city": "Casper",
+    "state": "WY",
+    "lat": 42.8511885,
+    "lng": -106.2714985,
+    "result": "ok"
+  },
+  {
+    "id": "c0147ed7-849e-4696-8183-212a2aeb1d6e",
+    "name": "Arby's",
+    "city": "Bountiful",
+    "state": "UT",
+    "lat": 40.8626288,
+    "lng": -111.8950261,
+    "result": "ok"
+  },
+  {
+    "id": "288b02d5-7589-48de-a533-acecbadc294a",
+    "name": "Arby's",
+    "city": "Greensboro",
+    "state": "NC",
+    "lat": 36.0504521,
+    "lng": -79.9022299,
+    "result": "ok"
+  },
+  {
+    "id": "60c54a4e-b7ee-4268-85fb-063e78ab719c",
+    "name": "Arby's",
+    "city": "Delray Beach",
+    "state": "FL",
+    "lat": 26.4392525,
+    "lng": -80.0755992,
+    "result": "ok"
+  },
+  {
+    "id": "b4cab75d-ef24-417e-988c-f7786731ad4c",
+    "name": "Arby's",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "lat": 36.1863587,
+    "lng": -80.2751454,
+    "result": "ok"
+  },
+  {
+    "id": "bfed9f16-6664-4fc1-89a0-bfbefc51600b",
+    "name": "Arby's",
+    "city": "Fayetteville",
+    "state": "NC",
+    "lat": 35.0715438,
+    "lng": -78.9659284,
+    "result": "ok"
+  },
+  {
+    "id": "437551de-f20d-4170-a851-e637bd1b0037",
+    "name": "Arby's",
+    "city": "Concord",
+    "state": "NC",
+    "lat": 35.3971206,
+    "lng": -80.6106482,
+    "result": "ok"
+  },
+  {
+    "id": "dde08163-adf1-4dca-9972-187e4b309a6e",
+    "name": "Arby's",
+    "city": "Fargo",
+    "state": "ND",
+    "lat": 46.8336792,
+    "lng": -96.8204567,
+    "result": "ok"
+  },
+  {
+    "id": "8e9daf26-d4b7-440c-9888-221839f994c1",
+    "name": "Arby's",
+    "city": "Grand Forks",
+    "state": "ND",
+    "lat": 47.8887476,
+    "lng": -97.083361,
+    "result": "ok"
+  },
+  {
+    "id": "51e06a68-aea6-4464-9644-e0317b0eace7",
+    "name": "Arby's",
+    "city": "Minot",
+    "state": "ND",
+    "result": "no_result"
+  },
+  {
+    "id": "25b588f1-8dcc-4799-a82c-3e74662fd801",
+    "name": "Arby's",
+    "city": "Cincinnati",
+    "state": "OH",
+    "lat": 39.1458487,
+    "lng": -84.6256285,
+    "result": "ok"
+  },
+  {
+    "id": "f5a572a8-53e8-45b5-a201-30a3439e44eb",
+    "name": "Arby's",
+    "city": "Toledo",
+    "state": "OH",
+    "lat": 41.7210901,
+    "lng": -83.5708787,
+    "result": "ok"
+  },
+  {
+    "id": "ebe2ee7f-82e4-449b-b430-e19bd5c843d0",
+    "name": "Arby's",
+    "city": "Dayton",
+    "state": "OH",
+    "lat": 39.7576265,
+    "lng": -84.1870017,
+    "result": "ok"
+  },
+  {
+    "id": "046324ee-79e2-407c-a791-5ba536e167fb",
+    "name": "Arby's",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "483ea291-b59e-47ff-9c56-44417b2baa3d",
+    "name": "Arby's",
+    "city": "Norman",
+    "state": "OK",
+    "lat": 35.2178445,
+    "lng": -97.4793082,
+    "result": "ok"
+  },
+  {
+    "id": "00947561-a7c7-4c90-9206-618de10677c2",
+    "name": "Arby's",
+    "city": "Montpelier",
+    "state": "VT",
+    "result": "no_result"
+  },
+  {
+    "id": "f8eb286e-1f76-4150-a76a-d9ad856d769b",
+    "name": "Arby's",
+    "city": "Sitka",
+    "state": "AK",
+    "result": "no_result"
+  },
+  {
+    "id": "89878093-8809-4f7c-b784-925b41d79056",
+    "name": "Arby's",
+    "city": "Wasilla",
+    "state": "AK",
+    "lat": 61.5759986,
+    "lng": -149.4081676,
+    "result": "ok"
+  },
+  {
+    "id": "0eebd028-9841-4bed-8b7c-782df9f52f4e",
+    "name": "Arby's",
+    "city": "Goodyear",
+    "state": "AZ",
+    "lat": 33.4522821,
+    "lng": -112.3587428,
+    "result": "ok"
+  },
+  {
+    "id": "120979e6-6a2e-4524-9f5a-ef77365afd2f",
+    "name": "Arby's",
+    "city": "Largo",
+    "state": "FL",
+    "lat": 27.8842912,
+    "lng": -82.7877096,
+    "result": "ok"
+  },
+  {
+    "id": "a8704213-9875-475d-bdda-73c3b2ee5cbd",
+    "name": "Arby's",
+    "city": "Yuma",
+    "state": "AZ",
+    "lat": 32.6911479,
+    "lng": -114.5826591,
+    "result": "ok"
+  },
+  {
+    "id": "6c3cc314-9ffd-477d-81a8-05086f505e02",
+    "name": "Arby's",
+    "city": "Casa Grande",
+    "state": "AZ",
+    "lat": 32.8799981,
+    "lng": -111.7340348,
+    "result": "ok"
+  },
+  {
+    "id": "5409bf17-9ee4-431c-88a1-58ec683b1fcf",
+    "name": "Arby's",
+    "city": "Pensacola",
+    "state": "FL",
+    "lat": 30.5096218,
+    "lng": -87.2205017,
+    "result": "ok"
+  },
+  {
+    "id": "b12c0780-bdf9-4526-a525-36aa6d902df4",
+    "name": "Arby's",
+    "city": "Fort Myers",
+    "state": "FL",
+    "lat": 26.659751,
+    "lng": -81.8829789,
+    "result": "ok"
+  },
+  {
+    "id": "c688f343-6a80-4bf7-92b1-f392c679e275",
+    "name": "Arby's",
+    "city": "Prescott",
+    "state": "AZ",
+    "lat": 34.5621618,
+    "lng": -112.4875575,
+    "result": "ok"
+  },
+  {
+    "id": "9d012597-097a-4c33-a244-f438050e68e7",
+    "name": "Arby's",
+    "city": "Jonesboro",
+    "state": "AR",
+    "lat": 35.8617472,
+    "lng": -90.6487114,
+    "result": "ok"
+  },
+  {
+    "id": "a41d2550-b36d-4cb0-a11b-f13700d8c1b2",
+    "name": "Arby's",
+    "city": "Melbourne",
+    "state": "FL",
+    "lat": 28.0792791,
+    "lng": -80.6596933,
+    "result": "ok"
+  },
+  {
+    "id": "c4825ec0-2cda-46fb-a3a2-d6313d42b15f",
+    "name": "Arby's",
+    "city": "Naples",
+    "state": "FL",
+    "lat": 26.210402,
+    "lng": -81.7688467,
+    "result": "ok"
+  },
+  {
+    "id": "4b048ffb-a16d-4730-aa5d-b45405aa4903",
+    "name": "Arby's",
+    "city": "Sanford",
+    "state": "FL",
+    "lat": 28.760012,
+    "lng": -81.2850111,
+    "result": "ok"
+  },
+  {
+    "id": "755852d6-6083-43da-891f-5e77278468f8",
+    "name": "Arby's",
+    "city": "Kissimmee",
+    "state": "FL",
+    "lat": 28.3049173,
+    "lng": -81.4066895,
+    "result": "ok"
+  },
+  {
+    "id": "5e15c886-c082-40d7-9db1-e64ed30dd918",
+    "name": "Arby's",
+    "city": "Santa Fe",
+    "state": "NM",
+    "lat": 35.6510343,
+    "lng": -105.9997701,
+    "result": "ok"
+  },
+  {
+    "id": "4b86612b-e98d-400d-87dd-256b96f972bb",
+    "name": "Arby's",
+    "city": "Hamilton",
+    "state": "OH",
+    "lat": 39.1458487,
+    "lng": -84.6256285,
+    "result": "ok"
+  },
+  {
+    "id": "39d9993f-1785-4d7f-8c70-f7b00f67a9a0",
+    "name": "Arby's",
+    "city": "Fairfield",
+    "state": "OH",
+    "lat": 39.7312925,
+    "lng": -82.6134936,
+    "result": "ok"
+  },
+  {
+    "id": "0408943b-82b8-47b0-85ed-cd66983e9902",
+    "name": "Arby's",
+    "city": "Dickinson",
+    "state": "ND",
+    "lat": 46.8974725,
+    "lng": -102.788208,
+    "result": "ok"
+  },
+  {
+    "id": "61148a46-ab7e-437e-8ccb-2c2fd65a7f12",
+    "name": "Arby's",
+    "city": "Newark",
+    "state": "OH",
+    "lat": 40.0803754,
+    "lng": -82.4285662,
+    "result": "ok"
+  },
+  {
+    "id": "082d0efe-748b-46d3-a3e0-78504bc6ab7a",
+    "name": "Arby's",
+    "city": "St. Cloud",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "96a40429-eb91-42a9-bc4b-ea3b556fd079",
+    "name": "Arby's",
+    "city": "Huber Heights",
+    "state": "OH",
+    "lat": 39.8675735,
+    "lng": -84.1372436,
+    "result": "ok"
+  },
+  {
+    "id": "f288e35f-797d-4d36-8e43-cd79f4ae1260",
+    "name": "Arby's",
+    "city": "Springfield",
+    "state": "OH",
+    "lat": 39.8937068,
+    "lng": -83.810997,
+    "result": "ok"
+  },
+  {
+    "id": "b19799bf-89ab-427b-9412-e48f925acd6b",
+    "name": "Arby's",
+    "city": "Rutland",
+    "state": "VT",
+    "result": "no_result"
+  },
+  {
+    "id": "ab3aed8f-9e3d-4697-9e1a-4f68ba778801",
+    "name": "Arby's",
+    "city": "Dublin",
+    "state": "OH",
+    "lat": 40.0862449,
+    "lng": -83.0912483,
+    "result": "ok"
+  },
+  {
+    "id": "10226277-2ddc-490b-ab28-fd4a45a7aa3e",
+    "name": "Arby's",
+    "city": "Strongsville",
+    "state": "OH",
+    "lat": 41.3425819,
+    "lng": -81.8263979,
+    "result": "ok"
+  },
+  {
+    "id": "5459ee72-9341-4389-a9b0-024b77dcdf65",
+    "name": "Arby's",
+    "city": "Mansfield",
+    "state": "OH",
+    "lat": 40.6946429,
+    "lng": -82.5136551,
+    "result": "ok"
+  },
+  {
+    "id": "be9d7ec2-2ff7-4404-a3f2-d21d58118df7",
+    "name": "Arby's",
+    "city": "Mason",
+    "state": "OH",
+    "lat": 39.3573698,
+    "lng": -84.2684057,
+    "result": "ok"
+  },
+  {
+    "id": "19c0f3b8-a670-4624-8878-e83ca5412dfd",
+    "name": "Arby's",
+    "city": "Castle Rock",
+    "state": "CO",
+    "lat": 39.4099225,
+    "lng": -104.8703985,
+    "result": "ok"
+  },
+  {
+    "id": "be3ac997-db65-46db-8487-531034bc32a0",
+    "name": "Arby's",
+    "city": "Parker",
+    "state": "CO",
+    "lat": 39.5388347,
+    "lng": -104.7696157,
+    "result": "ok"
+  },
+  {
+    "id": "6f007449-6fbf-4b63-9e5c-402064123710",
+    "name": "Arby's",
+    "city": "Highlands Ranch",
+    "state": "CO",
+    "result": "no_result"
+  },
+  {
+    "id": "b44aedf6-902d-45db-bbfe-49e9d29eea90",
+    "name": "Arby's",
+    "city": "Roswell",
+    "state": "NM",
+    "lat": 33.4043277,
+    "lng": -104.5223981,
+    "result": "ok"
+  },
+  {
+    "id": "fb8850a4-f06a-4b6e-a6ec-73bc6190b733",
+    "name": "Arby's",
+    "city": "Lynchburg",
+    "state": "VA",
+    "lat": 37.3706013,
+    "lng": -79.1826552,
+    "result": "ok"
+  },
+  {
+    "id": "4210c4d0-312f-46b7-b71f-496a48b588d3",
+    "name": "Arby's",
+    "city": "Grand Junction",
+    "state": "CO",
+    "lat": 39.0858903,
+    "lng": -108.5946442,
+    "result": "ok"
+  },
+  {
+    "id": "295c8ca3-99a8-4bd0-9d8c-1150ba78125a",
+    "name": "Arby's",
+    "city": "Centreville",
+    "state": "VA",
+    "result": "no_result"
+  },
+  {
+    "id": "c9241373-e636-4fee-8979-08d4409d468a",
+    "name": "Arby's",
+    "city": "Fredericksburg",
+    "state": "VA",
+    "lat": 38.332889,
+    "lng": -77.478531,
+    "result": "ok"
+  },
+  {
+    "id": "7685ad61-25e2-4788-b9da-c673503289a4",
+    "name": "Arby's",
+    "city": "Charlottesville",
+    "state": "VA",
+    "lat": 38.053353,
+    "lng": -78.4981923,
+    "result": "ok"
+  },
+  {
+    "id": "0611583c-016b-4dc8-81bb-75713a3338ef",
+    "name": "Arby's",
+    "city": "Manassas",
+    "state": "VA",
+    "lat": 38.7414423,
+    "lng": -77.4516538,
+    "result": "ok"
+  },
+  {
+    "id": "a6d47c8e-c133-4dbb-8a2e-14866d1ccc56",
+    "name": "Arby's",
+    "city": "Blacksburg",
+    "state": "VA",
+    "result": "no_result"
+  },
+  {
+    "id": "996946e1-a60d-4d32-a19e-26603ef8e0da",
+    "name": "Arby's",
+    "city": "Jupiter",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "16fc915a-277c-4708-a664-572bfa4854f1",
+    "name": "Arby's",
+    "city": "Danville",
+    "state": "VA",
+    "lat": 36.5825781,
+    "lng": -79.3542306,
+    "result": "ok"
+  },
+  {
+    "id": "61081a0a-7b9c-4532-a7c0-d71855d0cecf",
+    "name": "Arby's",
+    "city": "Harrisonburg",
+    "state": "VA",
+    "lat": 38.4329441,
+    "lng": -78.9018208,
+    "result": "ok"
+  },
+  {
+    "id": "ea883708-d72a-4d61-9710-aaa88b830f82",
+    "name": "Arby's",
+    "city": "Winchester",
+    "state": "VA",
+    "lat": 39.1859057,
+    "lng": -78.1430991,
+    "result": "ok"
+  },
+  {
+    "id": "74988cdb-67ee-4f8d-a902-1ae4bc953cb6",
+    "name": "Arby's",
+    "city": "McLean",
+    "state": "VA",
+    "result": "no_result"
+  },
+  {
+    "id": "c14e92db-200d-42e2-9cc7-329c686a7906",
+    "name": "Arby's",
+    "city": "Tidewater",
+    "state": "VA",
+    "result": "no_result"
+  },
+  {
+    "id": "33c569f6-0a67-4dee-9ced-e9c0b4165832",
+    "name": "Arby's",
+    "city": "Dale City",
+    "state": "VA",
+    "lat": 38.6545697,
+    "lng": -77.3084286,
+    "result": "ok"
+  },
+  {
+    "id": "f1322178-3642-46a2-b1ea-61609e75d246",
+    "name": "Arby's",
+    "city": "Woodbridge",
+    "state": "VA",
+    "lat": 38.6545697,
+    "lng": -77.3084286,
+    "result": "ok"
+  },
+  {
+    "id": "b1f56671-5949-41ee-9dd7-98d7f765a740",
+    "name": "Arby's",
+    "city": "Douglasville",
+    "state": "GA",
+    "lat": 33.7311536,
+    "lng": -84.7378337,
+    "result": "ok"
+  },
+  {
+    "id": "90c5d887-3550-4d2f-aa3c-eebb6a450751",
+    "name": "Arby's",
+    "city": "Marysville",
+    "state": "WA",
+    "lat": 48.0995851,
+    "lng": -122.180404,
+    "result": "ok"
+  },
+  {
+    "id": "ff4fae0a-73bb-4c10-b7b1-ccfea72ede75",
+    "name": "Arby's",
+    "city": "Lawrenceville",
+    "state": "GA",
+    "lat": 33.9495065,
+    "lng": -83.9871415,
+    "result": "ok"
+  },
+  {
+    "id": "d946d14c-fbed-48e5-a583-18ef3c07f2eb",
+    "name": "Arby's",
+    "city": "Newnan",
+    "state": "GA",
+    "lat": 33.3838959,
+    "lng": -84.7839819,
+    "result": "ok"
+  },
+  {
+    "id": "131699d5-5111-4ff6-85f2-5eb38cf29a8a",
+    "name": "Arby's",
+    "city": "Kaneohe",
+    "state": "HI",
+    "result": "no_result"
+  },
+  {
+    "id": "53153b3a-dc94-4b45-83f0-77d7c981a276",
+    "name": "Arby's",
+    "city": "Mililani",
+    "state": "HI",
+    "result": "no_result"
+  },
+  {
+    "id": "d2594b97-d135-44c1-b557-c8faa78dabe2",
+    "name": "Arby's",
+    "city": "Kapolei",
+    "state": "HI",
+    "result": "no_result"
+  },
+  {
+    "id": "d6481dc7-1123-47b1-843e-391a220f6ecc",
+    "name": "Arby's",
+    "city": "Twin Falls",
+    "state": "ID",
+    "lat": 42.5688799,
+    "lng": -114.4598639,
+    "result": "ok"
+  },
+  {
+    "id": "d94c85e2-62e6-4070-9713-a3f341929b3b",
+    "name": "Arby's",
+    "city": "Post Falls",
+    "state": "ID",
+    "result": "no_result"
+  },
+  {
+    "id": "4d11cba7-2264-4229-9f59-8de971d80ae6",
+    "name": "Arby's",
+    "city": "Decatur",
+    "state": "IL",
+    "lat": 39.9017462,
+    "lng": -88.9545841,
+    "result": "ok"
+  },
+  {
+    "id": "f8f794f1-2602-443b-a61f-c7a908930552",
+    "name": "Arby's",
+    "city": "Schaumburg",
+    "state": "IL",
+    "lat": 42.0492577,
+    "lng": -88.0935866,
+    "result": "ok"
+  },
+  {
+    "id": "c89b5771-2e7f-4513-93cf-3cdf3d85e5ce",
+    "name": "Arby's",
+    "city": "Bolingbrook",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "ce4b6e46-4672-4b94-b05d-854cc76e1b9f",
+    "name": "Arby's",
+    "city": "Tinley Park",
+    "state": "IL",
+    "lat": 41.5456492,
+    "lng": -87.793309,
+    "result": "ok"
+  },
+  {
+    "id": "bb6d2690-2120-4c48-a424-97b5b89c78ff",
+    "name": "Arby's",
+    "city": "Des Plaines",
+    "state": "IL",
+    "lat": 42.0273816,
+    "lng": -87.8937473,
+    "result": "ok"
+  },
+  {
+    "id": "4fdf4d59-eb17-49ff-a540-6c424f8c2238",
+    "name": "Arby's",
+    "city": "Oak Lawn",
+    "state": "IL",
+    "lat": 41.69195,
+    "lng": -87.7394043,
+    "result": "ok"
+  },
+  {
+    "id": "aa620822-8225-4ec5-81cc-3b45fc6be336",
+    "name": "Arby's",
+    "city": "Berwyn",
+    "state": "IL",
+    "result": "no_result"
+  },
+  {
+    "id": "51a99067-4dd9-4bbd-8a54-50c309665cee",
+    "name": "Arby's",
+    "city": "Kokomo",
+    "state": "IN",
+    "lat": 40.4665316,
+    "lng": -86.1645058,
+    "result": "ok"
+  },
+  {
+    "id": "3d749ba2-e164-49e1-b42e-a208d0817293",
+    "name": "Arby's",
+    "city": "Carbondale",
+    "state": "IL",
+    "lat": 37.7351373,
+    "lng": -89.18766,
+    "result": "ok"
+  },
+  {
+    "id": "c1140432-0951-4796-beed-04c0cbbbf2ff",
+    "name": "Arby's",
+    "city": "Muncie",
+    "state": "IN",
+    "lat": 40.1742737,
+    "lng": -85.3812811,
+    "result": "ok"
+  },
+  {
+    "id": "40a80294-cd91-4aab-8f01-500a4dbd3d4d",
+    "name": "Arby's",
+    "city": "Terre Haute",
+    "state": "IN",
+    "lat": 39.4222711,
+    "lng": -87.4154995,
+    "result": "ok"
+  },
+  {
+    "id": "2b0bd4ea-6cfe-4dd5-b197-0ea50bbdc482",
+    "name": "Arby's",
+    "city": "Columbus",
+    "state": "IN",
+    "lat": 39.2227541,
+    "lng": -85.9026673,
+    "result": "ok"
+  },
+  {
+    "id": "2a7546f1-4c2a-4af9-adcd-e9d3c7a9a21d",
+    "name": "Arby's",
+    "city": "Richmond",
+    "state": "IN",
+    "lat": 39.8269081,
+    "lng": -84.9046186,
+    "result": "ok"
+  },
+  {
+    "id": "7680970f-f0c2-4341-9fda-f5a7afcadb63",
+    "name": "Arby's",
+    "city": "Portage",
+    "state": "IN",
+    "result": "no_result"
+  },
+  {
+    "id": "29011603-4a06-492a-8216-3965705f4e7a",
+    "name": "Arby's",
+    "city": "Valparaiso",
+    "state": "IN",
+    "lat": 41.4873231,
+    "lng": -87.0501744,
+    "result": "ok"
+  },
+  {
+    "id": "7c65c4db-31bf-44bb-9dec-263655790c10",
+    "name": "Arby's",
+    "city": "Ankeny",
+    "state": "IA",
+    "lat": 41.7315235,
+    "lng": -93.5821358,
+    "result": "ok"
+  },
+  {
+    "id": "7d2555be-0d83-40b3-8441-35f944ff824f",
+    "name": "Arby's",
+    "city": "Dubuque",
+    "state": "IA",
+    "lat": 42.4921424,
+    "lng": -90.6619333,
+    "result": "ok"
+  },
+  {
+    "id": "e94a2ed5-8ca4-4039-bd01-9a96761e330c",
+    "name": "Arby's",
+    "city": "Cedar Falls",
+    "state": "IA",
+    "lat": 42.5135791,
+    "lng": -92.4304797,
+    "result": "ok"
+  },
+  {
+    "id": "bea5dec7-ffc9-4dde-9368-5ff1c1026178",
+    "name": "Arby's",
+    "city": "Bettendorf",
+    "state": "IA",
+    "lat": 41.5517143,
+    "lng": -90.4820138,
+    "result": "ok"
+  },
+  {
+    "id": "4596706e-2717-4386-9f61-0125a9a720f6",
+    "name": "Arby's",
+    "city": "Manhattan",
+    "state": "KS",
+    "lat": 39.1741818,
+    "lng": -96.6057714,
+    "result": "ok"
+  },
+  {
+    "id": "afa17e7b-e7b0-4d8e-8722-010f2f80b766",
+    "name": "Arby's",
+    "city": "Lenexa",
+    "state": "KS",
+    "result": "no_result"
+  },
+  {
+    "id": "6b8247ad-9e84-4804-8a99-b3a706c5afe8",
+    "name": "Arby's",
+    "city": "Hutchinson",
+    "state": "KS",
+    "lat": 38.0645005,
+    "lng": -97.8996786,
+    "result": "ok"
+  },
+  {
+    "id": "a3e405bc-e41a-4b6d-9de8-66f45f2832f2",
+    "name": "Arby's",
+    "city": "Leawood",
+    "state": "KS",
+    "result": "no_result"
+  },
+  {
+    "id": "45e8906c-2860-4239-a6ce-ec89b1b75bd4",
+    "name": "Arby's",
+    "city": "Georgetown",
+    "state": "KY",
+    "lat": 38.2131731,
+    "lng": -84.5439091,
+    "result": "ok"
+  },
+  {
+    "id": "3ae61a45-e47b-4ed1-941a-c6dfd51ff066",
+    "name": "Arby's",
+    "city": "Henderson",
+    "state": "KY",
+    "lat": 37.8665905,
+    "lng": -87.5731811,
+    "result": "ok"
+  },
+  {
+    "id": "6b1f40c9-6d6e-4341-bde6-7570d0d23716",
+    "name": "Arby's",
+    "city": "Richmond",
+    "state": "KY",
+    "lat": 37.7757815,
+    "lng": -84.3199251,
+    "result": "ok"
+  },
+  {
+    "id": "315076af-5efa-474f-8869-ab7a16c51094",
+    "name": "Arby's",
+    "city": "Frankfort",
+    "state": "KY",
+    "lat": 38.1807328,
+    "lng": -84.892582,
+    "result": "ok"
+  },
+  {
+    "id": "a1ae4295-a5af-48ff-88f2-4543d9d3830a",
+    "name": "Arby's",
+    "city": "Marrero",
+    "state": "LA",
+    "result": "no_result"
+  },
+  {
+    "id": "48c3615a-7d34-4c2f-809b-cc0f133b5644",
+    "name": "Arby's",
+    "city": "Hammond",
+    "state": "LA",
+    "result": "no_result"
+  },
+  {
+    "id": "c8e2884e-9a7a-4e49-914c-80e325c91804",
+    "name": "Arby's",
+    "city": "Prairieville",
+    "state": "LA",
+    "result": "no_result"
+  },
+  {
+    "id": "66c9d604-5194-4bb0-84de-72c674245481",
+    "name": "Arby's",
+    "city": "Sulphur",
+    "state": "LA",
+    "result": "no_result"
+  },
+  {
+    "id": "87ffb790-8214-4050-af25-30847f1f430c",
+    "name": "Arby's",
+    "city": "Augusta",
+    "state": "ME",
+    "lat": 44.3145427,
+    "lng": -69.8001102,
+    "result": "ok"
+  },
+  {
+    "id": "b7dd8588-e17f-4ddb-8d0d-02fc6a6247b5",
+    "name": "Arby's",
+    "city": "Columbia",
+    "state": "MD",
+    "lat": 39.1686998,
+    "lng": -76.7873169,
+    "result": "ok"
+  },
+  {
+    "id": "c867b867-f0f6-482f-8ea3-860935b43623",
+    "name": "Arby's",
+    "city": "Portage",
+    "state": "MI",
+    "lat": 42.1941003,
+    "lng": -85.5977872,
+    "result": "ok"
+  },
+  {
+    "id": "14a0a09e-14ca-4e7c-aecc-807ff3870c3a",
+    "name": "Arby's",
+    "city": "Kentwood",
+    "state": "MI",
+    "lat": 42.884604,
+    "lng": -85.5648768,
+    "result": "ok"
+  },
+  {
+    "id": "507ca54c-6d88-4ab6-bfb7-93a78f7e74d6",
+    "name": "Arby's",
+    "city": "Southfield",
+    "state": "MI",
+    "lat": 42.5062872,
+    "lng": -83.2234617,
+    "result": "ok"
+  },
+  {
+    "id": "d1b9b3f6-ada6-4faf-9a43-47f3daddb6f9",
+    "name": "Arby's",
+    "city": "Royal Oak",
+    "state": "MI",
+    "lat": 42.5131663,
+    "lng": -83.1822949,
+    "result": "ok"
+  },
+  {
+    "id": "1c339b2a-85db-40fa-afbf-ac8cc3a88cd7",
+    "name": "Arby's",
+    "city": "Macomb",
+    "state": "MI",
+    "lat": 42.4953781,
+    "lng": -83.0272386,
+    "result": "ok"
+  },
+  {
+    "id": "3a740ff5-0f64-4b32-af46-f39449a89e84",
+    "name": "Arby's",
+    "city": "Columbus",
+    "state": "MS",
+    "lat": 33.5186195,
+    "lng": -88.4355029,
+    "result": "ok"
+  },
+  {
+    "id": "19c71970-f541-41dc-a443-b7222d2cd0aa",
+    "name": "Arby's",
+    "city": "Cuyahoga Falls",
+    "state": "OH",
+    "lat": 41.1181143,
+    "lng": -81.4843171,
+    "result": "ok"
+  },
+  {
+    "id": "a93fba40-4b51-4b6a-b551-8abe92502f15",
+    "name": "Arby's",
+    "city": "Lakewood",
+    "state": "OH",
+    "lat": 41.4828855,
+    "lng": -81.7683939,
+    "result": "ok"
+  },
+  {
+    "id": "9f02cb99-bd35-44cd-9ad3-adf5d9a932f6",
+    "name": "Arby's",
+    "city": "Cape Girardeau",
+    "state": "MO",
+    "lat": 37.3071197,
+    "lng": -89.5507423,
+    "result": "ok"
+  },
+  {
+    "id": "a1a68c37-838f-4623-a305-dea3a3990d61",
+    "name": "Arby's",
+    "city": "Jefferson City",
+    "state": "MO",
+    "lat": 38.581045,
+    "lng": -92.2244334,
+    "result": "ok"
+  },
+  {
+    "id": "19fc22d3-c2b8-4ef3-9861-aa1a2594dc41",
+    "name": "Arby's",
+    "city": "Helena",
+    "state": "MT",
+    "lat": 46.6126178,
+    "lng": -112.0202673,
+    "result": "ok"
+  },
+  {
+    "id": "b35e4aa0-ff33-41a7-b774-40dea92f06a7",
+    "name": "Arby's",
+    "city": "Kalispell",
+    "state": "MT",
+    "lat": 48.1996042,
+    "lng": -114.3336715,
+    "result": "ok"
+  },
+  {
+    "id": "d9a75efe-9236-4109-85db-0a3639c2a951",
+    "name": "Arby's",
+    "city": "Havre",
+    "state": "MT",
+    "result": "no_result"
+  },
+  {
+    "id": "a76afe32-8982-4126-a944-8be9bb6d622b",
+    "name": "Arby's",
+    "city": "Kearney",
+    "state": "NE",
+    "lat": 40.7278331,
+    "lng": -99.0820796,
+    "result": "ok"
+  },
+  {
+    "id": "52a54a7a-ddc9-461c-b3c1-fdd324862822",
+    "name": "Arby's",
+    "city": "North Platte",
+    "state": "NE",
+    "result": "no_result"
+  },
+  {
+    "id": "d16f7f80-e002-42c8-a35c-c591bf9bde74",
+    "name": "Arby's",
+    "city": "Sunrise Manor",
+    "state": "NV",
+    "result": "no_result"
+  },
+  {
+    "id": "3f484ff7-b317-4fad-b55a-9817a83f57dd",
+    "name": "Arby's",
+    "city": "Derry",
+    "state": "NH",
+    "result": "no_result"
+  },
+  {
+    "id": "205bd9f8-54f7-4ef7-9973-3f2bfcde3160",
+    "name": "Arby's",
+    "city": "Hampton",
+    "state": "NH",
+    "result": "no_result"
+  },
+  {
+    "id": "23df3aa5-908a-4c84-a283-13ce8f083f26",
+    "name": "Arby's",
+    "city": "Passaic",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "900cbb9b-fa05-4085-9c95-a11bb18274ea",
+    "name": "Arby's",
+    "city": "Middletown",
+    "state": "OH",
+    "lat": 39.4999968,
+    "lng": -84.3506438,
+    "result": "ok"
+  },
+  {
+    "id": "f8fd1820-28af-460a-9301-387df3f5d8e6",
+    "name": "Arby's",
+    "city": "Bayonne",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "d278b088-b0f1-4f3a-ac01-4210e68778d0",
+    "name": "Arby's",
+    "city": "East Orange",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "82f1ef5d-7f4e-4506-bdfc-2f6894ebc2b8",
+    "name": "Arby's",
+    "city": "Hoboken",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "85fe4e18-ce93-48c0-bd6e-b71fc6bdd7c9",
+    "name": "Arby's",
+    "city": "West New York",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "48ac720d-6a7b-4952-9a0a-86635f9e9d30",
+    "name": "Arby's",
+    "city": "Cherry Hill",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "32d2ad79-cd23-4993-9e51-3ffdd7b1706b",
+    "name": "Arby's",
+    "city": "Parsippany",
+    "state": "NJ",
+    "result": "no_result"
+  },
+  {
+    "id": "95c25f75-99dc-47f4-868a-ffe86badd2c4",
+    "name": "Arby's",
+    "city": "Bay City",
+    "state": "MI",
+    "lat": 43.6120965,
+    "lng": -83.9151965,
+    "result": "ok"
+  },
+  {
+    "id": "8e092885-19aa-41d4-aabe-74de3e6479a1",
+    "name": "Arby's",
+    "city": "Elyria",
+    "state": "OH",
+    "result": "no_result"
+  },
+  {
+    "id": "5de77638-2ab7-4282-aae6-3787e47cb8b1",
+    "name": "Arby's",
+    "city": "Saco",
+    "state": "ME",
+    "result": "no_result"
+  },
+  {
+    "id": "de589588-6a01-4d1c-84c3-42c50adc32d6",
+    "name": "Arby's",
+    "city": "Carlsbad",
+    "state": "NM",
+    "lat": 32.4354115,
+    "lng": -104.2441178,
+    "result": "ok"
+  },
+  {
+    "id": "c06acb6f-0d8e-4eab-ab30-5fa55a1ad7ee",
+    "name": "Arby's",
+    "city": "Oyster Bay",
+    "state": "NY",
+    "lat": 40.7804844,
+    "lng": -73.5319437,
+    "result": "ok"
+  },
+  {
+    "id": "50e992b3-06d3-42a4-bb8b-93cb45bef5c7",
+    "name": "Arby's",
+    "city": "Ramapo",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "bdfae9d6-7d95-4356-a6d3-1b72f0ab410a",
+    "name": "Arby's",
+    "city": "Smithtown",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "c9924d70-f17d-4e90-98af-378dd78bab5f",
+    "name": "Arby's",
+    "city": "North Hempstead",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "10b5f668-7f6f-4dcd-8a2d-f5d3e8a58297",
+    "name": "Arby's",
+    "city": "Binghamton",
+    "state": "NY",
+    "lat": 42.1613531,
+    "lng": -75.8943923,
+    "result": "ok"
+  },
+  {
+    "id": "1d58fa6b-d535-4fe9-b44c-8e41adac521f",
+    "name": "Arby's",
+    "city": "Rome",
+    "state": "NY",
+    "lat": 43.5566752,
+    "lng": -76.1170605,
+    "result": "ok"
+  },
+  {
+    "id": "8ab5cf65-1c6a-43c1-a635-e70a2d815ae9",
+    "name": "Arby's",
+    "city": "Poughkeepsie",
+    "state": "NY",
+    "result": "no_result"
+  },
+  {
+    "id": "caaaef62-11bb-4421-ba36-225579a96b46",
+    "name": "Arby's",
+    "city": "Grove City",
+    "state": "OH",
+    "lat": 39.8806042,
+    "lng": -83.0682883,
+    "result": "ok"
+  },
+  {
+    "id": "9f787894-8b5a-4543-b712-f4b5d579e8f7",
+    "name": "Arby's",
+    "city": "Aberdeen",
+    "state": "SD",
+    "lat": 45.4596,
+    "lng": -98.4698061,
+    "result": "ok"
+  },
+  {
+    "id": "13fd4ff8-08a4-4949-a4c9-dbe30701534d",
+    "name": "Arby's",
+    "city": "Shawnee",
+    "state": "OK",
+    "result": "no_result"
+  },
+  {
+    "id": "d4fbeee8-f618-4781-81c1-0375651952bc",
+    "name": "Arby's",
+    "city": "Yukon",
+    "state": "OK",
+    "lat": 35.4785221,
+    "lng": -97.7509376,
+    "result": "ok"
+  },
+  {
+    "id": "8ae66c42-c293-4bc5-ad24-9ae5fa1daadc",
+    "name": "Arby's",
+    "city": "Ardmore",
+    "state": "OK",
+    "lat": 34.1868841,
+    "lng": -97.1628133,
+    "result": "ok"
+  },
+  {
+    "id": "3b526595-1f07-461e-878e-58604a0d697d",
+    "name": "Arby's",
+    "city": "Springfield",
+    "state": "OR",
+    "lat": 44.0461844,
+    "lng": -122.962166,
+    "result": "ok"
+  },
+  {
+    "id": "c52a2218-8150-4981-9619-99e28fa44ff9",
+    "name": "Arby's",
+    "city": "Albany",
+    "state": "OR",
+    "lat": 44.6330102,
+    "lng": -123.0839437,
+    "result": "ok"
+  },
+  {
+    "id": "db42e15e-49dc-4c8f-ad96-0fcf2b6e0db4",
+    "name": "Arby's",
+    "city": "Tigard",
+    "state": "OR",
+    "result": "no_result"
+  },
+  {
+    "id": "89893345-0cd9-445c-bf5e-d6aafb807876",
+    "name": "Arby's",
+    "city": "Aloha",
+    "state": "OR",
+    "result": "no_result"
+  },
+  {
+    "id": "48c0222e-d310-42eb-926f-4533ab76b4f1",
+    "name": "Arby's",
+    "city": "Whittier",
+    "state": "CA",
+    "result": "no_result"
+  },
+  {
+    "id": "0b5e7728-6945-4377-b874-9dc9b7bb1234",
+    "name": "Arby's",
+    "city": "Woonsocket",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "4192afec-3adc-46c4-9362-b12d8453dad7",
+    "name": "Arby's",
+    "city": "Cumberland",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "b075bffe-4dc4-4866-9ec2-7223f186cb30",
+    "name": "Arby's",
+    "city": "Lincoln",
+    "state": "RI",
+    "result": "no_result"
+  },
+  {
+    "id": "5553a190-8a48-441e-b6e3-1cff3e0882ef",
+    "name": "Arby's",
+    "city": "Florence",
+    "state": "SC",
+    "lat": 34.1665227,
+    "lng": -79.763912,
+    "result": "ok"
+  },
+  {
+    "id": "f46fdffd-a76e-4113-a407-56973ff395dc",
+    "name": "Arby's",
+    "city": "Hilton Head Island",
+    "state": "SC",
+    "result": "no_result"
+  },
+  {
+    "id": "56141b70-0c29-4cb7-9d37-6880677a7408",
+    "name": "Arby's",
+    "city": "Aiken",
+    "state": "SC",
+    "lat": 33.5195591,
+    "lng": -81.7180108,
+    "result": "ok"
+  },
+  {
+    "id": "2cef4382-70bc-47e2-a6c7-a1e52b744fdb",
+    "name": "Arby's",
+    "city": "Conway",
+    "state": "SC",
+    "lat": 33.846922,
+    "lng": -79.0644883,
+    "result": "ok"
+  },
+  {
+    "id": "e98a9b74-08ae-4767-8615-65e68f16e922",
+    "name": "Arby's",
+    "city": "Nashville",
+    "state": "TN",
+    "lat": 36.2949837,
+    "lng": -86.7016857,
+    "result": "ok"
+  },
+  {
+    "id": "5f196d6d-55b9-4af3-aa92-88553ade9f2c",
+    "name": "Arby's",
+    "city": "Brookings",
+    "state": "SD",
+    "lat": 44.3110593,
+    "lng": -96.7741373,
+    "result": "ok"
+  },
+  {
+    "id": "62e86273-cc5d-405f-9ccf-79048236474a",
+    "name": "Arby's",
+    "city": "Mitchell",
+    "state": "SD",
+    "lat": 43.696023,
+    "lng": -98.0145695,
+    "result": "ok"
+  },
+  {
+    "id": "bbaaac4b-2745-418f-91ae-3f317f8e5b38",
+    "name": "Arby's",
+    "city": "Huron",
+    "state": "SD",
+    "result": "no_result"
+  },
+  {
+    "id": "a45a1d4d-11c0-43b9-9c82-2eae2cc3e84a",
+    "name": "Arby's",
+    "city": "Smyrna",
+    "state": "TN",
+    "lat": 35.9732257,
+    "lng": -86.4946231,
+    "result": "ok"
+  },
+  {
+    "id": "91b159f8-f579-430e-914d-8f71a5f73791",
+    "name": "Arby's",
+    "city": "Spring Hill",
+    "state": "TN",
+    "lat": 35.7448788,
+    "lng": -86.9369484,
+    "result": "ok"
+  },
+  {
+    "id": "54bc3341-8110-497c-ba2e-6d6578018b35",
+    "name": "Arby's",
+    "city": "Germantown",
+    "state": "TN",
+    "lat": 35.0939905,
+    "lng": -89.8077459,
+    "result": "ok"
+  },
+  {
+    "id": "cdbf5d8c-8b78-439a-8522-afcf3df1aad6",
+    "name": "Arby's",
+    "city": "San Angelo",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "84c8dd41-8ab8-4dab-a386-25a34359c15f",
+    "name": "Arby's",
+    "city": "Flower Mound",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "4dbc9a17-b362-4d33-8f32-c083a414c5ee",
+    "name": "Arby's",
+    "city": "Mansfield",
+    "state": "TX",
+    "lat": 32.6123389,
+    "lng": -97.1183091,
+    "result": "ok"
+  },
+  {
+    "id": "d08a0bbb-adc1-4d2e-b8f0-d2096dfbc2d9",
+    "name": "Arby's",
+    "city": "Cedar Hill",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "9ef2b2e2-672d-487c-a104-f33c9b891da9",
+    "name": "Arby's",
+    "city": "DeSoto",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "57d931e1-b392-4976-a657-c65e0d82e27d",
+    "name": "Arby's",
+    "city": "Pflugerville",
+    "state": "TX",
+    "lat": 30.4486709,
+    "lng": -97.6055974,
+    "result": "ok"
+  },
+  {
+    "id": "da511cca-272b-49d9-84cc-92af82838756",
+    "name": "Arby's",
+    "city": "Cedar Park",
+    "state": "TX",
+    "result": "no_result"
+  },
+  {
+    "id": "6d564155-983a-437d-87a0-b9cb386a1a2a",
+    "name": "Bojangles",
+    "city": "Montgomery",
+    "state": "AL",
+    "result": "no_result"
+  },
+  {
+    "id": "e44d38fd-9400-4d05-b8e4-fbf8f1b74b78",
+    "name": "Bojangles",
+    "city": "Birmingham",
+    "state": "AL",
+    "result": "no_result"
+  },
+  {
+    "id": "d9dabbd5-69ff-412d-aa4f-0dd2f54f1245",
+    "name": "Bojangles",
+    "city": "Huntsville",
+    "state": "AL",
+    "lat": 34.7535313,
+    "lng": -86.7107826,
+    "result": "ok"
+  },
+  {
+    "id": "059ddf60-6b79-40e4-b326-e548619f29d1",
+    "name": "Bojangles",
+    "city": "Largo",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "aaa72559-ee00-4769-897c-956178bd4a76",
+    "name": "Bojangles",
+    "city": "Clinton",
+    "state": "MS",
+    "result": "no_result"
+  },
+  {
+    "id": "6d547b5c-ffe3-4a13-8c03-7444a4cacf30",
+    "name": "Bojangles",
+    "city": "Mobile",
+    "state": "AL",
+    "lat": 30.6884013,
+    "lng": -88.1215572,
+    "result": "ok"
+  },
+  {
+    "id": "4192e8aa-95f1-4153-9ca6-b8b5ffc98117",
+    "name": "Bojangles",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "lat": 33.1966993,
+    "lng": -87.4791065,
+    "result": "ok"
+  },
+  {
+    "id": "22362e22-f22e-4e2f-9a47-90d7c0b9a960",
+    "name": "Bojangles",
+    "city": "Jacksonville",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "1679b43c-f38b-4b98-ad18-8d57ae884053",
+    "name": "Bojangles",
+    "city": "Miami",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "722fa118-c7de-4776-978a-25589ccf9b5e",
+    "name": "Bojangles",
+    "city": "Tampa",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "afa0da20-3c52-423c-a311-6f7018dd5178",
+    "name": "Bojangles",
+    "city": "Orlando",
+    "state": "FL",
+    "result": "no_result"
+  },
+  {
+    "id": "bb0a6474-19e6-4725-8a27-fe33b8c03d03",
+    "name": "Bojangles",
+    "city": "St. Petersburg",
+    "state": "FL",
+    "result": "no_result"
+  }
+]

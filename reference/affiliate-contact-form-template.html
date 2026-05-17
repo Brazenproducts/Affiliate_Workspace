@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index,follow">
+<title>Contact Us — {{SITE_NAME}}</title>
+<meta name="description" content="Get in touch with the {{SITE_NAME}} team. We respond to all legitimate inquiries within 48 business hours.">
+<link rel="canonical" href="https://{{SITE_DOMAIN}}/contact.html">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0e0e10;color:#e8e8ea;line-height:1.55;padding:32px 20px}
+.wrap{max-width:640px;margin:0 auto}
+h1{font-size:1.9rem;margin-bottom:8px}
+.sub{color:#9a9aa2;margin-bottom:28px;font-size:.95rem}
+form{background:#17171a;border:1px solid #2a2a30;border-radius:10px;padding:22px}
+label{display:block;font-size:.85rem;color:#c8c8d0;margin:14px 0 6px;font-weight:600}
+input,textarea,select{width:100%;padding:10px 12px;background:#0e0e10;border:1px solid #2a2a30;border-radius:6px;color:#e8e8ea;font-family:inherit;font-size:.95rem}
+input:focus,textarea:focus,select:focus{outline:none;border-color:#f4a300}
+textarea{min-height:130px;resize:vertical}
+button{margin-top:20px;width:100%;padding:12px;background:#f4a300;color:#111;border:0;border-radius:6px;font-weight:700;font-size:1rem;cursor:pointer}
+button:hover{background:#ffb82b}
+.hp{position:absolute;left:-9999px;top:-9999px}
+.note{font-size:.8rem;color:#7e7e88;margin-top:14px}
+.nav{margin-bottom:24px;font-size:.9rem}
+.nav a{color:#f4a300;text-decoration:none;margin-right:16px}
+.nav a:hover{text-decoration:underline}
+.ok,.err{display:none;padding:12px;border-radius:6px;margin-top:14px;font-size:.9rem}
+.ok{background:#1b3a1b;color:#a3e0a3;border:1px solid #2e6b2e}
+.err{background:#3a1b1b;color:#e0a3a3;border:1px solid #6b2e2e}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="nav"><a href="index.html">← Home</a><a href="about.html">About</a></div>
+<h1>Contact Us</h1>
+<p class="sub">We read every legitimate inquiry. We do not accept unsolicited guest posts, link-swap requests, or SEO services pitches — those go straight to trash.</p>
+
+<form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+  <!-- Access key will be populated per-site via the builder script -->
+  <input type="hidden" name="access_key" value="{{WEB3FORMS_KEY}}">
+  <input type="hidden" name="subject" value="[{{SITE_DOMAIN}}] New contact form submission">
+  <input type="hidden" name="from_name" value="{{SITE_NAME}} Contact Form">
+  <input type="hidden" name="redirect" value="https://{{SITE_DOMAIN}}/contact.html?sent=1">
+  <!-- Honeypot -->
+  <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+  <!-- Context -->
+  <input type="hidden" name="source_site" value="{{SITE_DOMAIN}}">
+
+  <label for="name">Your name</label>
+  <input id="name" name="name" type="text" required maxlength="100">
+
+  <label for="email">Your email</label>
+  <input id="email" name="email" type="email" required maxlength="150">
+
+  <label for="topic">Topic</label>
+  <select id="topic" name="topic" required>
+    <option value="">— Select —</option>
+    <option value="product-question">Product question</option>
+    <option value="correction">Correction / factual error</option>
+    <option value="partnership">Brand / partnership inquiry</option>
+    <option value="press">Press / media</option>
+    <option value="other">Other</option>
+  </select>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" required minlength="20" maxlength="4000" placeholder="Please be specific — vague messages may not get a reply."></textarea>
+
+  <button type="submit">Send message</button>
+
+  <div id="ok" class="ok">Message sent. We respond within 48 business hours to legitimate inquiries.</div>
+  <div id="err" class="err">Something went wrong. Try again in a minute or refresh the page.</div>
+  <p class="note">We will not sell or share your email. Automated outreach / spam is filtered and will not receive a reply.</p>
+</form>
+</div>
+<script>
+(function(){
+  var q = new URLSearchParams(location.search);
+  if (q.get('sent') === '1') {
+    document.getElementById('ok').style.display = 'block';
+    document.getElementById('contactForm').reset();
+  }
+  document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    var f = e.target;
+    var data = new FormData(f);
+    fetch(f.action, { method:'POST', body:data, headers:{ 'Accept':'application/json' }})
+      .then(r => r.ok ? r.json() : Promise.reject(r))
+      .then(() => { location.href = 'contact.html?sent=1'; })
+      .catch(() => { document.getElementById('err').style.display = 'block'; });
+  });
+})();
+</script>
+</body>
+</html>

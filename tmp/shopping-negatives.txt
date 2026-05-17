@@ -1,0 +1,70 @@
+Bartact Shopping - All Products: Negative Keyword Recommendations
+Generated: 2026-04-25
+Period: Last 30 days
+Total recommended: 25 terms
+NOTE: Do NOT add these automatically. Mitch must approve first.
+Already excluded (not listed): toiletry bag, toiletry bags, bull strap, bullstrap
+
+Estimated wasted spend on these terms: $186.68
+
+========================================================================================================================
+HIGH-SPEND ZERO-CONVERSION TERMS ($10+ spend)
+========================================================================================================================
+  jeep accessories                                   $   28.14  48 clicks  $28.14 spent, 48 clicks, 0 conversions
+  bronco accessories                                 $   23.43  35 clicks  $23.43 spent, 35 clicks, 0 conversions
+  dog                                                $   19.81  31 clicks  Pet-related, not automotive
+  jeep wrangler accessories                          $   19.15  34 clicks  $19.15 spent, 34 clicks, 0 conversions
+  zipper pulls                                       $   15.62  24 clicks  $15.62 spent, 24 clicks, 0 conversions
+  ford bronco accessories                            $   15.53  23 clicks  $15.53 spent, 23 clicks, 0 conversions
+  molle attachments                                  $   12.65  22 clicks  $12.65 spent, 22 clicks, 0 conversions
+  molle panel                                        $   11.13  18 clicks  $11.13 spent, 18 clicks, 0 conversions
+
+========================================================================================================================
+IRRELEVANT TERMS (clearly not Bartact products)
+========================================================================================================================
+  molle attachments for backpack                     $    4.19  6 clicks  Backpack accessory, not vehicle
+  elastic band                                       $    3.51  5 clicks  Too generic / not a Bartact product
+  dogs                                               $    2.83  5 clicks  Pet-related, not automotive
+  coyote vest for dogs                               $    2.77  4 clicks  Pet-related, not automotive
+  straps                                             $    2.54  4 clicks  Too generic / not a Bartact product
+  dopp kit                                           $    2.33  4 clicks  Toiletry/cosmetic bag, not automotive
+  ladder rack straps                                 $    2.22  3 clicks  Generic straps, not Bartact products
+  ratchet straps                                     $    2.22  3 clicks  Generic straps, not Bartact products
+  velcro straps                                      $    2.17  3 clicks  Generic straps, not Bartact products
+  tie down straps                                    $    2.16  3 clicks  Generic straps, not Bartact products
+  harley davidson tie down straps                    $    2.07  3 clicks  Motorcycle brand, not Bartact market
+  mens toiletry travel bag                           $    2.07  3 clicks  Toiletry/cosmetic bag, not automotive
+  mens toiletry bag                                  $    2.06  3 clicks  Toiletry/cosmetic bag, not automotive
+  best toiletry bag for men                          $    2.03  3 clicks  Toiletry/cosmetic bag, not automotive
+  molle accessories for backpack                     $    2.03  3 clicks  Backpack accessory, not vehicle
+  best hanging toiletry bag for men                  $    2.01  3 clicks  Toiletry/cosmetic bag, not automotive
+  strap                                              $    2.01  3 clicks  Too generic / not a Bartact product
+
+
+Full negative keyword list (one per line, for easy import):
+------------------------------------------------------------
+jeep accessories
+bronco accessories
+dog
+jeep wrangler accessories
+zipper pulls
+ford bronco accessories
+molle attachments
+molle panel
+molle attachments for backpack
+elastic band
+dogs
+coyote vest for dogs
+straps
+dopp kit
+ladder rack straps
+ratchet straps
+velcro straps
+tie down straps
+harley davidson tie down straps
+mens toiletry travel bag
+mens toiletry bag
+best toiletry bag for men
+molle accessories for backpack
+best hanging toiletry bag for men
+strap

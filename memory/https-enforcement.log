@@ -1,0 +1,26 @@
+02:00 whatarebest.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 limitstraps.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 bestseatcover.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 bestbroncoaccessories.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 besttruckaccessories.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 besttonneaucovers.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 bestcordlesstools.com: HTTPS enforced ✅
+02:00 bestfirestick.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 jeepseatcover.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 petwearhouse.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 bestinstantpot.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 bestsmokergrill.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 bestmeshwifi.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+02:00 bestgarageorganizer.com: cert not ready yet | http=404 status=404 cname=null https_enforced=null html_url=null message=The certificate does not exist yet
+08:00 bestseatcover.com: HTTPS enforced ✅
+08:00 bestbroncoaccessories.com: HTTPS enforced ✅
+08:00 besttruckaccessories.com: HTTPS enforced ✅
+08:00 besttonneaucovers.com: HTTPS enforced ✅
+08:00 bestcordlesstools.com: HTTPS enforced ✅
+08:00 bestfirestick.com: HTTPS enforced ✅
+08:00 jeepseatcover.com: HTTPS enforced ✅
+08:00 bestinstantpot.com: HTTPS enforced ✅
+08:00 bestsmokergrill.com: HTTPS enforced ✅
+08:00 bestmeshwifi.com: HTTPS enforced ✅
+08:00 bestgarageorganizer.com: HTTPS enforced ✅
+All sites have HTTPS enforced! Removing cron job.
