@@ -1,0 +1,2482 @@
+{
+  "results": {
+    "Bartact": {
+      "matchedUrl": "https://www.bartact.com/",
+      "top20": [
+        {
+          "query": "bartac",
+          "clicks": 8,
+          "impressions": 62,
+          "ctr": "12.9",
+          "position": "2.1",
+          "priorClicks": 6,
+          "priorImpressions": 68,
+          "priorPosition": "1.4",
+          "positionChange": "0.7"
+        },
+        {
+          "query": "jeep gladiator seat covers",
+          "clicks": 8,
+          "impressions": 183,
+          "ctr": "4.4",
+          "position": "3.3",
+          "priorClicks": 6,
+          "priorImpressions": 201,
+          "priorPosition": "3.2",
+          "positionChange": "0.0"
+        },
+        {
+          "query": "jeep wrangler seat covers",
+          "clicks": 8,
+          "impressions": 447,
+          "ctr": "1.8",
+          "position": "11.2",
+          "priorClicks": 11,
+          "priorImpressions": 598,
+          "priorPosition": "8.2",
+          "positionChange": "3.0",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 8,
+              "impressions": 285,
+              "position": "9.0"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+              "clicks": 0,
+              "impressions": 142,
+              "position": "15.9"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/waterproof",
+              "clicks": 0,
+              "impressions": 2,
+              "position": "10.5"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2013-18-bartact-pair-w-molle-non-srs-air-bag-compliant?variant=3942393989&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "1.0"
+            },
+            {
+              "url": "https://www.bartact.com/products/tactical-seat-covers-for-jeep-wrangler-jlu-2018-4-dr-only-not-for-mojave-or-392-edition-front-pair-bartact",
+              "clicks": 0,
+              "impressions": 45,
+              "position": "17.7"
+            }
+          ]
+        },
+        {
+          "query": "jeep seat covers",
+          "clicks": 7,
+          "impressions": 715,
+          "ctr": "1.0",
+          "position": "7.2",
+          "priorClicks": 12,
+          "priorImpressions": 830,
+          "priorPosition": "6.1",
+          "positionChange": "1.1",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+              "clicks": 5,
+              "impressions": 665,
+              "position": "5.3"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 2,
+              "impressions": 56,
+              "position": "30.4"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2007-10-bartact-pair-w-molle-non-srs-air-bag-compliant",
+              "clicks": 0,
+              "impressions": 35,
+              "position": "34.2"
+            },
+            {
+              "url": "https://www.bartact.com/products/tactical-seat-covers-for-jeep-wrangler-jlu-2018-4-dr-only-not-for-mojave-or-392-edition-front-pair-bartact",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "4.0"
+            }
+          ]
+        },
+        {
+          "query": "best seat covers for jeep gladiator",
+          "clicks": 6,
+          "impressions": 21,
+          "ctr": "28.6",
+          "position": "1.2",
+          "priorClicks": 3,
+          "priorImpressions": 23,
+          "priorPosition": "1.7",
+          "positionChange": "-0.5"
+        },
+        {
+          "query": "jeep tj seat covers",
+          "clicks": 5,
+          "impressions": 124,
+          "ctr": "4.0",
+          "position": "6.9",
+          "priorClicks": 2,
+          "priorImpressions": 138,
+          "priorPosition": "6.1",
+          "positionChange": "0.8"
+        },
+        {
+          "query": "jeep wrangler seat covers waterproof",
+          "clicks": 4,
+          "impressions": 129,
+          "ctr": "3.1",
+          "position": "2.1",
+          "priorClicks": 3,
+          "priorImpressions": 106,
+          "priorPosition": "2.8",
+          "positionChange": "-0.7"
+        },
+        {
+          "query": "molle attachments",
+          "clicks": 4,
+          "impressions": 355,
+          "ctr": "1.1",
+          "position": "13.4",
+          "priorClicks": 6,
+          "priorImpressions": 326,
+          "priorPosition": "13.9",
+          "positionChange": "-0.5"
+        },
+        {
+          "query": "tacoma seat covers",
+          "clicks": 4,
+          "impressions": 412,
+          "ctr": "1.0",
+          "position": "9.3",
+          "priorClicks": 5,
+          "priorImpressions": 439,
+          "priorPosition": "8.8",
+          "positionChange": "0.6"
+        },
+        {
+          "query": "2026 jeep wrangler grab handle",
+          "clicks": 3,
+          "impressions": 8,
+          "ctr": "37.5",
+          "position": "2.8",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "2026 tacoma seat covers",
+          "clicks": 3,
+          "impressions": 101,
+          "ctr": "3.0",
+          "position": "8.4",
+          "priorClicks": 1,
+          "priorImpressions": 69,
+          "priorPosition": "8.8",
+          "positionChange": "-0.4"
+        },
+        {
+          "query": "best seat covers for jeep wrangler",
+          "clicks": 3,
+          "impressions": 45,
+          "ctr": "6.7",
+          "position": "5.0",
+          "priorClicks": 3,
+          "priorImpressions": 52,
+          "priorPosition": "2.2",
+          "positionChange": "2.8",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 2,
+              "impressions": 25,
+              "position": "5.6"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/waterproof",
+              "clicks": 1,
+              "impressions": 20,
+              "position": "4.2"
+            }
+          ]
+        },
+        {
+          "query": "best waterproof seat covers jeep wrangler",
+          "clicks": 3,
+          "impressions": 31,
+          "ctr": "9.7",
+          "position": "2.1",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "winch cover",
+          "clicks": 3,
+          "impressions": 308,
+          "ctr": "1.0",
+          "position": "6.1",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "2016 toyota tacoma seat covers",
+          "clicks": 2,
+          "impressions": 17,
+          "ctr": "11.8",
+          "position": "7.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "aftermarket seat heaters",
+          "clicks": 2,
+          "impressions": 8,
+          "ctr": "25.0",
+          "position": "4.4",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "bartac seat covers",
+          "clicks": 2,
+          "impressions": 5,
+          "ctr": "40.0",
+          "position": "1.0",
+          "priorClicks": 1,
+          "priorImpressions": 3,
+          "priorPosition": "1.0",
+          "positionChange": "0.0"
+        },
+        {
+          "query": "best jeep jk seat covers",
+          "clicks": 2,
+          "impressions": 10,
+          "ctr": "20.0",
+          "position": "6.5",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "bronco grab handles",
+          "clicks": 2,
+          "impressions": 53,
+          "ctr": "3.8",
+          "position": "8.5",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "gladiator seat covers",
+          "clicks": 2,
+          "impressions": 27,
+          "ctr": "7.4",
+          "position": "4.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        }
+      ],
+      "dropped": [
+        {
+          "query": "jeep wrangler seat covers",
+          "clicks": 8,
+          "impressions": 447,
+          "ctr": "1.8",
+          "position": "11.2",
+          "priorClicks": 11,
+          "priorImpressions": 598,
+          "priorPosition": "8.2",
+          "positionChange": "3.0",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 8,
+              "impressions": 285,
+              "position": "9.0"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+              "clicks": 0,
+              "impressions": 142,
+              "position": "15.9"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/waterproof",
+              "clicks": 0,
+              "impressions": 2,
+              "position": "10.5"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2013-18-bartact-pair-w-molle-non-srs-air-bag-compliant?variant=3942393989&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "1.0"
+            },
+            {
+              "url": "https://www.bartact.com/products/tactical-seat-covers-for-jeep-wrangler-jlu-2018-4-dr-only-not-for-mojave-or-392-edition-front-pair-bartact",
+              "clicks": 0,
+              "impressions": 45,
+              "position": "17.7"
+            }
+          ]
+        },
+        {
+          "query": "jeep seat covers",
+          "clicks": 7,
+          "impressions": 715,
+          "ctr": "1.0",
+          "position": "7.2",
+          "priorClicks": 12,
+          "priorImpressions": 830,
+          "priorPosition": "6.1",
+          "positionChange": "1.1",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+              "clicks": 5,
+              "impressions": 665,
+              "position": "5.3"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 2,
+              "impressions": 56,
+              "position": "30.4"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2007-10-bartact-pair-w-molle-non-srs-air-bag-compliant",
+              "clicks": 0,
+              "impressions": 35,
+              "position": "34.2"
+            },
+            {
+              "url": "https://www.bartact.com/products/tactical-seat-covers-for-jeep-wrangler-jlu-2018-4-dr-only-not-for-mojave-or-392-edition-front-pair-bartact",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "4.0"
+            }
+          ]
+        },
+        {
+          "query": "best seat covers for jeep wrangler",
+          "clicks": 3,
+          "impressions": 45,
+          "ctr": "6.7",
+          "position": "5.0",
+          "priorClicks": 3,
+          "priorImpressions": 52,
+          "priorPosition": "2.2",
+          "positionChange": "2.8",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 2,
+              "impressions": 25,
+              "position": "5.6"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/waterproof",
+              "clicks": 1,
+              "impressions": 20,
+              "position": "4.2"
+            }
+          ]
+        }
+      ],
+      "cannibalization": [
+        {
+          "query": "jeep seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+              "clicks": 5,
+              "position": "5.3"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 2,
+              "position": "30.4"
+            }
+          ]
+        },
+        {
+          "query": "best seat covers for jeep gladiator",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-gladiator-seat-covers-1",
+              "clicks": 4,
+              "position": "2.7"
+            },
+            {
+              "url": "https://www.bartact.com/blogs/news/best-jeep-gladiator-seat-covers-2026-full-buying-guide",
+              "clicks": 2,
+              "position": "1.1"
+            }
+          ]
+        },
+        {
+          "query": "2016 toyota tacoma seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/toyota-tacoma-seat-covers",
+              "clicks": 2,
+              "position": "7.0"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-toyota-tacoma-2016-19-all-models-trd-non-trd-bartact-pair-w-molle",
+              "clicks": 0,
+              "position": "22.5"
+            },
+            {
+              "url": "https://www.bartact.com/products/rear-bench-tactical-seat-covers-for-toyota-tacoma-2016-24-all-double-cab-versions-bartact-w-molle",
+              "clicks": 0,
+              "position": "25.5"
+            }
+          ]
+        },
+        {
+          "query": "best seat covers for jeep wrangler",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 2,
+              "position": "5.6"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/waterproof",
+              "clicks": 1,
+              "position": "4.2"
+            }
+          ]
+        },
+        {
+          "query": "jeep gladiator seat covers leather",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-gladiator-seat-covers-1",
+              "clicks": 2,
+              "position": "3.5"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 1,
+              "position": "3.0"
+            }
+          ]
+        },
+        {
+          "query": "jeep tj seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/tj",
+              "clicks": 2,
+              "position": "5.4"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/yj",
+              "clicks": 2,
+              "position": "6.0"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-seat-covers-for-jeep-wrangler-tj-and-lj-2003-06-bartact-base-line-performance-pair?variant=12741125701655&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 1,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "1997 jeep tj seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/tj",
+              "clicks": 1,
+              "position": "5.7"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-seat-covers-for-jeep-wrangler-tj-1997-02-pair-bartact-base-line-performance",
+              "clicks": 0,
+              "position": "9.8"
+            }
+          ]
+        },
+        {
+          "query": "2003 jeep wrangler accessories",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-tj-lj-2003-06-accessories",
+              "clicks": 1,
+              "position": "3.5"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-tj-lj-2003-06-bartact-pair-w-molle-bartact",
+              "clicks": 0,
+              "position": "13.3"
+            }
+          ]
+        },
+        {
+          "query": "2003 jeep wrangler tj seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 1,
+              "position": "4.0"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/2003-06-wrangler-tj",
+              "clicks": 0,
+              "position": "8.0"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-seat-covers-for-jeep-wrangler-tj-and-lj-2003-06-bartact-base-line-performance-pair",
+              "clicks": 0,
+              "position": "9.0"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-tj-lj-2003-06-bartact-pair-w-molle-bartact",
+              "clicks": 0,
+              "position": "9.0"
+            }
+          ]
+        },
+        {
+          "query": "2010 jeep wrangler seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 1,
+              "position": "14.0"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+              "clicks": 0,
+              "position": "7.9"
+            },
+            {
+              "url": "https://www.bartact.com/pages/jeep-wrangler-seat-covers",
+              "clicks": 0,
+              "position": "63.0"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2007-10-bartact-pair-w-molle-non-srs-air-bag-compliant",
+              "clicks": 0,
+              "position": "8.5"
+            },
+            {
+              "url": "https://www.bartact.com/products/rear-bench-tactical-seat-covers-for-jeep-wrangler-jku-2008-10-4-door-w-molle-bartact",
+              "clicks": 0,
+              "position": "16.7"
+            }
+          ]
+        },
+        {
+          "query": "2013 jeep wrangler seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+              "clicks": 1,
+              "position": "7.2"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 0,
+              "position": "42.0"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2013-18-bartact-pair-w-molle-non-srs-air-bag-compliant",
+              "clicks": 0,
+              "position": "10.5"
+            }
+          ]
+        },
+        {
+          "query": "2019 tacoma seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/toyota-tacoma-seat-covers",
+              "clicks": 1,
+              "position": "7.3"
+            },
+            {
+              "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-toyota-tacoma-2016-19-all-models-trd-non-trd-bartact-pair-w-molle",
+              "clicks": 0,
+              "position": "30.5"
+            }
+          ]
+        },
+        {
+          "query": "bartac seat covers",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/",
+              "clicks": 1,
+              "position": "1.0"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 1,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "bronco grab handles",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/grab-handles-for-jeep-wrangler-gladiator-ford-bronco-utvs-buggies-rails",
+              "clicks": 1,
+              "position": "6.7"
+            },
+            {
+              "url": "https://www.bartact.com/products/bronco-paracord-grab-handles-custom-for-ford-bronco-full-size-2021-2022-2023-2024-2025-2026-pair-of-2-bartact",
+              "clicks": 1,
+              "position": "16.6"
+            }
+          ]
+        },
+        {
+          "query": "seat covers for jeep wrangler",
+          "pages": [
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+              "clicks": 1,
+              "position": "5.2"
+            },
+            {
+              "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+              "clicks": 1,
+              "position": "6.5"
+            }
+          ]
+        }
+      ],
+      "top5Pages": [
+        {
+          "url": "https://www.bartact.com/",
+          "clicks": 129,
+          "impressions": 1109,
+          "position": "3.6"
+        },
+        {
+          "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+          "clicks": 117,
+          "impressions": 4531,
+          "position": "7.4"
+        },
+        {
+          "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+          "clicks": 46,
+          "impressions": 3730,
+          "position": "7.1"
+        },
+        {
+          "url": "https://www.bartact.com/collections/jeep-gladiator-seat-covers-1",
+          "clicks": 40,
+          "impressions": 1403,
+          "position": "4.6"
+        },
+        {
+          "url": "https://www.bartact.com/collections/seat-covers",
+          "clicks": 23,
+          "impressions": 1344,
+          "position": "6.9"
+        }
+      ],
+      "totalNonBrandQueries": 86
+    },
+    "Bull Strap": {
+      "matchedUrl": "https://bullstrap.com/",
+      "top20": [
+        {
+          "query": "brake hose kit",
+          "clicks": 1,
+          "impressions": 2,
+          "ctr": "50.0",
+          "position": "105.5",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "front end lowering strap",
+          "clicks": 1,
+          "impressions": 1,
+          "ctr": "100.0",
+          "position": "12.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "pals accessories",
+          "clicks": 1,
+          "impressions": 1,
+          "ctr": "100.0",
+          "position": "10.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "rsx type s rotors",
+          "clicks": 1,
+          "impressions": 1,
+          "ctr": "100.0",
+          "position": "8.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "*",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "1.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "03 cobra intake manifold",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "13.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "03 jeep liberty lift kit",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "55.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "05 f250 steering stabilizer",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "53.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "1 p clamp",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": "0.0",
+          "position": "66.4",
+          "priorClicks": 0,
+          "priorImpressions": 7,
+          "priorPosition": "61.3",
+          "positionChange": "5.1",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/vibrant-stainless-steel-cushion-p-clamp-for-1-125in-od-hose-10-pack",
+              "clicks": 0,
+              "impressions": 5,
+              "position": "66.4"
+            }
+          ]
+        },
+        {
+          "query": "1/2 p clamp",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": "0.0",
+          "position": "45.5",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "40.0",
+          "positionChange": "5.5",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/vibrant-stainless-steel-cushion-p-clamp-for-1-125in-od-hose-10-pack",
+              "clicks": 0,
+              "impressions": 4,
+              "position": "45.5"
+            }
+          ]
+        },
+        {
+          "query": "10 nylon braided rubber hose black",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "14.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "102mm fast throttle body",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "49.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "102mm ls throttle body",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "61.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "53.0",
+          "positionChange": "8.0",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/fast-throttle-body-ls-102mm",
+              "clicks": 0,
+              "impressions": 2,
+              "position": "61.0"
+            }
+          ]
+        },
+        {
+          "query": "102mm throttle body 5.3",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "74.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "10mm cp3 6.7 cummins",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "59.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "12 nylon braided rubber hose black",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "9.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "12 volt battery accessories",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "51.0",
+          "priorClicks": 0,
+          "priorImpressions": 2,
+          "priorPosition": "53.0",
+          "positionChange": "-2.0"
+        },
+        {
+          "query": "12v battery yuasa",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "48.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "12v horn kit",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "4.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "12v yuasa battery",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "49.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        }
+      ],
+      "dropped": [
+        {
+          "query": "1 p clamp",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": "0.0",
+          "position": "66.4",
+          "priorClicks": 0,
+          "priorImpressions": 7,
+          "priorPosition": "61.3",
+          "positionChange": "5.1",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/vibrant-stainless-steel-cushion-p-clamp-for-1-125in-od-hose-10-pack",
+              "clicks": 0,
+              "impressions": 5,
+              "position": "66.4"
+            }
+          ]
+        },
+        {
+          "query": "1/2 p clamp",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": "0.0",
+          "position": "45.5",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "40.0",
+          "positionChange": "5.5",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/vibrant-stainless-steel-cushion-p-clamp-for-1-125in-od-hose-10-pack",
+              "clicks": 0,
+              "impressions": 4,
+              "position": "45.5"
+            }
+          ]
+        },
+        {
+          "query": "102mm ls throttle body",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "61.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "53.0",
+          "positionChange": "8.0",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/fast-throttle-body-ls-102mm",
+              "clicks": 0,
+              "impressions": 2,
+              "position": "61.0"
+            }
+          ]
+        }
+      ],
+      "cannibalization": [
+        {
+          "query": "*",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/fragola-6an-race-rite-reusable-ptfe-hose-end-straight?variant=53381813141777&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/maxxis-carnivore-tire-30x10r14-8pr?variant=52458481549585&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "2024 mustang dark horse supercharger",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/ford-racing-2024-mustang-gt-dark-horse-5-0l-supercharger-kit?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Ford%20Racing%202024%2B%20Mustang%20GT%2FDark%20Horse%205.0L%20Supercharger%20Kit",
+              "clicks": 0,
+              "position": "13.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/ford-racing-2024-mustang-gt-dark-horse-5-0l-supercharger-kit?variant=51540023705873&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "11.0"
+            }
+          ]
+        },
+        {
+          "query": "35 atturo mt tires",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-35x12-50r17lt-121q?variant=51536080437521&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "6.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-35x12-50r20lt-121q?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Atturo%20Trail%20Blade%20M%2FT%20Tire%20-%2035x12.50R20LT%20121Q",
+              "clicks": 0,
+              "position": "7.0"
+            }
+          ]
+        },
+        {
+          "query": "8 hose teflon conductive ss braid",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/vibrant-ss-braided-flex-hose-with-ptfe-liner-8-an-0-42in-id-20-foot-roll",
+              "clicks": 0,
+              "position": "29.1"
+            },
+            {
+              "url": "https://bullstrap.com/products/vibrant-ss-braided-flex-hose-with-ptfe-liner-8-an-5-foot-roll",
+              "clicks": 0,
+              "position": "22.0"
+            }
+          ]
+        },
+        {
+          "query": "8 nylon braided rubber hose black",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/vibrant-8-an-black-nylon-braided-flex-hose-2-foot-roll",
+              "clicks": 0,
+              "position": "35.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/vibrant-8-an-black-nylon-braided-flex-hose-20-foot-roll",
+              "clicks": 0,
+              "position": "10.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/vibrant-8-an-black-nylon-braided-flex-hose-44in-id-50-foot-roll",
+              "clicks": 0,
+              "position": "9.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/vibrant-8-an-black-nylon-braided-flex-hose-5-foot-roll",
+              "clicks": 0,
+              "position": "8.0"
+            }
+          ]
+        },
+        {
+          "query": "aeromotive 18197 gen ii fuel tank with stealth 200 pump for 64-68 ford mustang",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/aeromotive-64-68-ford-mustang-200-stealth-gen-2-fuel-tank?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Aeromotive%2064-68%20Ford%20Mustang%20200%20Stealth%20Gen%202%20Fuel%20Tank",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/aeromotive-64-68-ford-mustang-200-stealth-gen-2-fuel-tank?variant=51768411619601&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "aeromotive stealth fuel pump and hanger",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/aeromotive-88-99-chevrolet-c-k-1500-2500-truck-340-stealth-gen-2-fuel-tank?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Aeromotive%2088-99%20Chevrolet%20C%2FK%201500%2F2500%20Truck%20340%20Stealth%20Gen%202%20Fuel%20Tank",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/aeromotive-88-99-chevrolet-c-k-1500-2500-truck-340-stealth-gen-2-fuel-tank?variant=51535455846673&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "alta convertible cold air intake",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/alta-02-06-mini-cooper-s-jcw-02-08-s-jcw-convertible-r53-6spd-only-cold-air-intake-black?variant=52720134226193&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/alta-02-06-mini-cooper-s-jcw-02-08-s-jcw-convertible-r53-auto-only-cold-air-intake-black?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=ALTA%2002-06%20Mini%20Cooper%20S%2FJCW%20%26%2002-08%20S%2FJCW%20Convertible%20R53%20(Auto%20ONLY)%20Cold%20Air%20Intake%20-%20Black",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/alta-02-06-mini-cooper-s-jcw-02-08-s-jcw-convertible-r53-auto-only-cold-air-intake-red?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=ALTA%2002-06%20Mini%20Cooper%20S%2FJCW%20%26%2002-08%20S%2FJCW%20Convertible%20R53%20(Auto%20ONLY)%20Cold%20Air%20Intake%20-%20Red",
+              "clicks": 0,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "answer ar1 helmet",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-matte-black-xs?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20Matte%20Black%20-%20XS",
+              "clicks": 0,
+              "position": "6.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-matte-black-youth-medium?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20Matte%20Black%20Youth%20-%20Medium",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-matte-black-youth-small?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20Matte%20Black%20Youth%20-%20Small",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-white-youth-medium?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20White%20Youth%20-%20Medium",
+              "clicks": 0,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "answer ar1 solid helmet",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-matte-black-xs?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20Matte%20Black%20-%20XS",
+              "clicks": 0,
+              "position": "2.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-matte-black-youth-large?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20Matte%20Black%20Youth%20-%20Large",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-matte-black-youth-medium?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20Matte%20Black%20Youth%20-%20Medium",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-matte-black-youth-small?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20Matte%20Black%20Youth%20-%20Small",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-solid-helmet-white-youth-medium?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Solid%20Helmet%20White%20Youth%20-%20Medium",
+              "clicks": 0,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "answer ar1 sweep helmet",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-sweep-helmet-black-astana-hyper-orange-large?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Sweep%20Helmet%20Black%2FAstana%2FHyper%20Orange%20-%20Large",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-sweep-helmet-black-astana-hyper-orange-xl?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Sweep%20Helmet%20Black%2FAstana%2FHyper%20Orange%20-%20XL",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-sweep-helmet-black-astana-hyper-orange-youth-medium?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Sweep%20Helmet%20Black%2FAstana%2FHyper%20Orange%20Youth%20-%20Medium",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/answer-ar1-sweep-helmet-black-red-medium?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Answer%20AR1%20Sweep%20Helmet%20Black%2FRed%20-%20Medium",
+              "clicks": 0,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "antigravity batteries lithium battery",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/antigravity-xps-v-12-lithium-battery-right-side-negative-terminal?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Antigravity%20XPS%20V-12%20Lithium%20Battery%20-%20Right%20Side%20Negative%20Terminal",
+              "clicks": 0,
+              "position": "1.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/antigravity-xps-v-12-lithium-battery-right-side-negative-terminal?variant=51793265688849&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "1.0"
+            }
+          ]
+        },
+        {
+          "query": "atturo mt",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-33x12-50r20lt-114q?variant=52254577525009&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "8.0"
+            },
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-35x12-50r17lt-121q?variant=51536080437521&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "8.1"
+            },
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-35x12-50r20lt-121q?utm_source=google&utm_medium=organic&utm_campaign=Multifeeds&utm_content=Atturo%20Trail%20Blade%20M%2FT%20Tire%20-%2035x12.50R20LT%20121Q",
+              "clicks": 0,
+              "position": "10.0"
+            }
+          ]
+        },
+        {
+          "query": "atturo mt tires",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-33x12-50r20lt-114q?variant=52254577525009&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "8.2"
+            },
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-35x12-50r17lt-121q?variant=51536080437521&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "6.0"
+            }
+          ]
+        },
+        {
+          "query": "atturo trail blade m/t",
+          "pages": [
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-33x12-50r20lt-114q?variant=52254577525009&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "6.3"
+            },
+            {
+              "url": "https://bullstrap.com/products/atturo-trail-blade-m-t-tire-35x12-50r17lt-121q?variant=51536080437521&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+              "clicks": 0,
+              "position": "8.4"
+            }
+          ]
+        }
+      ],
+      "top5Pages": [
+        {
+          "url": "https://bullstrap.com/products/limit-straps-bullstrap",
+          "clicks": 6,
+          "impressions": 27,
+          "position": "31.6"
+        },
+        {
+          "url": "https://bullstrap.com/pages/military-first-responder-and-medical-discounts",
+          "clicks": 4,
+          "impressions": 41,
+          "position": "9.4"
+        },
+        {
+          "url": "https://bullstrap.com/",
+          "clicks": 2,
+          "impressions": 2218,
+          "position": "7.7"
+        },
+        {
+          "url": "https://bullstrap.com/collections/brake-line-kits",
+          "clicks": 1,
+          "impressions": 85,
+          "position": "63.3"
+        },
+        {
+          "url": "https://bullstrap.com/collections/bull-strap",
+          "clicks": 1,
+          "impressions": 9,
+          "position": "5.6"
+        }
+      ],
+      "totalNonBrandQueries": 100
+    },
+    "BowTie Filters": {
+      "matchedUrl": "https://bowtiefilters.com/",
+      "top20": [
+        {
+          "query": "bow-tie filter",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": "0.0",
+          "position": "3.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "1.0",
+          "positionChange": "2.0",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/",
+              "clicks": 0,
+              "impressions": 4,
+              "position": "3.5"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filter",
+              "clicks": 0,
+              "impressions": 2,
+              "position": "1.5"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filters-w-front-baffle",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "2.0"
+            }
+          ]
+        },
+        {
+          "query": "bt2025v",
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": "0.0",
+          "position": "7.5",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "6.0",
+          "positionChange": "1.5",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filter",
+              "clicks": 0,
+              "impressions": 8,
+              "position": "7.5"
+            }
+          ]
+        },
+        {
+          "query": "dry filter spray booth",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": "0.0",
+          "position": "8.3",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "filters for spray paint booths",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "27.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "28.0",
+          "positionChange": "-1.0"
+        },
+        {
+          "query": "grid gard",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": "0.0",
+          "position": "8.3",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "9.0",
+          "positionChange": "-0.7"
+        },
+        {
+          "query": "grid gaurd",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "9.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "grid guard",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "8.0",
+          "priorClicks": 0,
+          "priorImpressions": 6,
+          "priorPosition": "15.8",
+          "positionChange": "-7.8"
+        },
+        {
+          "query": "grid guards",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": "0.0",
+          "position": "2.0",
+          "priorClicks": 0,
+          "priorImpressions": 3,
+          "priorPosition": "2.0",
+          "positionChange": "0.0"
+        },
+        {
+          "query": "gridguard",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "35.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "32.0",
+          "positionChange": "3.0",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/collections/grid-guards%C2%AE",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "35.0"
+            }
+          ]
+        },
+        {
+          "query": "gridguards",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "7.0",
+          "priorClicks": 0,
+          "priorImpressions": 2,
+          "priorPosition": "6.5",
+          "positionChange": "0.5"
+        },
+        {
+          "query": "how often to change the filter of a paint booth",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "11.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "how to properly filter a paint booth",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "96.5",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "paint booth filter grid",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "25.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "18.0",
+          "positionChange": "7.0",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/collections/grid-guards%C2%AE",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "25.0"
+            }
+          ]
+        },
+        {
+          "query": "paint booth filter market",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": "0.0",
+          "position": "30.0",
+          "priorClicks": 0,
+          "priorImpressions": 8,
+          "priorPosition": "28.6",
+          "positionChange": "1.4",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/collections/filters",
+              "clicks": 0,
+              "impressions": 5,
+              "position": "30.0"
+            }
+          ]
+        },
+        {
+          "query": "paint booth filters",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": "0.0",
+          "position": "9.3",
+          "priorClicks": 0,
+          "priorImpressions": 4,
+          "priorPosition": "11.5",
+          "positionChange": "-2.2"
+        },
+        {
+          "query": "paint booth filters 20x20",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "37.5",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "12.0",
+          "positionChange": "25.5",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filter",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "41.0"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filters-w-front-baffle",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "34.0"
+            }
+          ]
+        },
+        {
+          "query": "paint booth filters 24x24",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "20.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "spray booth filter",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "61.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "walk in spray booth",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "60.5",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "what is paint booth filter",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": "0.0",
+          "position": "36.6",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        }
+      ],
+      "dropped": [
+        {
+          "query": "bow-tie filter",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": "0.0",
+          "position": "3.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "1.0",
+          "positionChange": "2.0",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/",
+              "clicks": 0,
+              "impressions": 4,
+              "position": "3.5"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filter",
+              "clicks": 0,
+              "impressions": 2,
+              "position": "1.5"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filters-w-front-baffle",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "2.0"
+            }
+          ]
+        },
+        {
+          "query": "bt2025v",
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": "0.0",
+          "position": "7.5",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "6.0",
+          "positionChange": "1.5",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filter",
+              "clicks": 0,
+              "impressions": 8,
+              "position": "7.5"
+            }
+          ]
+        },
+        {
+          "query": "gridguard",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "35.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "32.0",
+          "positionChange": "3.0",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/collections/grid-guards%C2%AE",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "35.0"
+            }
+          ]
+        },
+        {
+          "query": "paint booth filter grid",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "25.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "18.0",
+          "positionChange": "7.0",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/collections/grid-guards%C2%AE",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "25.0"
+            }
+          ]
+        },
+        {
+          "query": "paint booth filter market",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": "0.0",
+          "position": "30.0",
+          "priorClicks": 0,
+          "priorImpressions": 8,
+          "priorPosition": "28.6",
+          "positionChange": "1.4",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/collections/filters",
+              "clicks": 0,
+              "impressions": 5,
+              "position": "30.0"
+            }
+          ]
+        },
+        {
+          "query": "paint booth filters 20x20",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "37.5",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "12.0",
+          "positionChange": "25.5",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filter",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "41.0"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filters-w-front-baffle",
+              "clicks": 0,
+              "impressions": 1,
+              "position": "34.0"
+            }
+          ]
+        }
+      ],
+      "cannibalization": [
+        {
+          "query": "bow-tie filter",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/",
+              "clicks": 0,
+              "position": "3.5"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filter",
+              "clicks": 0,
+              "position": "1.5"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filters-w-front-baffle",
+              "clicks": 0,
+              "position": "2.0"
+            }
+          ]
+        },
+        {
+          "query": "paint booth filters 20x20",
+          "pages": [
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filter",
+              "clicks": 0,
+              "position": "41.0"
+            },
+            {
+              "url": "https://bowtiefilters.com/products/bowtie-filters-w-front-baffle",
+              "clicks": 0,
+              "position": "34.0"
+            }
+          ]
+        }
+      ],
+      "top5Pages": [
+        {
+          "url": "https://bowtiefilters.com/",
+          "clicks": 5,
+          "impressions": 107,
+          "position": "5.2"
+        },
+        {
+          "url": "https://bowtiefilters.com/products/bowtie-filter",
+          "clicks": 1,
+          "impressions": 39,
+          "position": "4.5"
+        },
+        {
+          "url": "https://bowtiefilters.com/products/bowtie-filters-w-front-baffle",
+          "clicks": 1,
+          "impressions": 19,
+          "position": "6.7"
+        },
+        {
+          "url": "https://bowtiefilters.com/account",
+          "clicks": 0,
+          "impressions": 2,
+          "position": "2.5"
+        },
+        {
+          "url": "https://bowtiefilters.com/blogs/news/paint-booth-filter-maintenance-how-often-should-you-change-your-filters",
+          "clicks": 0,
+          "impressions": 5,
+          "position": "7.8"
+        }
+      ],
+      "totalNonBrandQueries": 20
+    },
+    "Walk Industrial": {
+      "matchedUrl": "https://walkindustrial.com/",
+      "top20": [],
+      "dropped": [],
+      "cannibalization": [],
+      "top5Pages": [],
+      "totalNonBrandQueries": 0
+    },
+    "Blox Filters": {
+      "matchedUrl": "https://bloxfilters.com/",
+      "top20": [],
+      "dropped": [],
+      "cannibalization": [],
+      "top5Pages": [],
+      "totalNonBrandQueries": 0
+    },
+    "GridGuards USA": {
+      "error": "User does not have sufficient permission for site 'https://gridguardsusa.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+      "matchedUrl": "https://gridguardsusa.com/"
+    },
+    "Best Seat Cover": {
+      "matchedUrl": "sc-domain:bestseatcover.com",
+      "top20": [
+        {
+          "query": "best aftermarket seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "57.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "best car seat covers",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "67.5",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "68.0",
+          "positionChange": "-0.5"
+        },
+        {
+          "query": "best car seats covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "64.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "best custom seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "60.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "best fitting seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "58.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "best quality seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "62.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "best quality seat covers for cars",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "71.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "best seat covers",
+          "clicks": 0,
+          "impressions": 10,
+          "ctr": "0.0",
+          "position": "63.0",
+          "priorClicks": 0,
+          "priorImpressions": 1,
+          "priorPosition": "64.0",
+          "positionChange": "-1.0"
+        },
+        {
+          "query": "good quality seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "61.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "quality seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "67.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "seat cover reviews",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "57.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "seat covers brands",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "71.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "seat covers review",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "55.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "seat covers reviews",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "57.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "the best seat covers for cars",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "79.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "top rated seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "61.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "what are the best seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "75.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "what is the best seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "76.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "who makes the best seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "80.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        }
+      ],
+      "dropped": [],
+      "cannibalization": [],
+      "top5Pages": [
+        {
+          "url": "https://bestseatcover.com/",
+          "clicks": 0,
+          "impressions": 33,
+          "position": "59.2"
+        },
+        {
+          "url": "https://bestseatcover.com/best-seat-covers-2026.html",
+          "clicks": 0,
+          "impressions": 3,
+          "position": "2.0"
+        }
+      ],
+      "totalNonBrandQueries": 19
+    },
+    "Jeep Seat Cover": {
+      "matchedUrl": "sc-domain:jeepseatcover.com",
+      "top20": [
+        {
+          "query": "best jeep seat covers",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": "0.0",
+          "position": "34.1",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "jeep seat cover",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": "0.0",
+          "position": "41.3",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "jeep seat covers",
+          "clicks": 0,
+          "impressions": 35,
+          "ctr": "0.0",
+          "position": "44.6",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "seat covers for jeep",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "57.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        }
+      ],
+      "dropped": [],
+      "cannibalization": [],
+      "top5Pages": [
+        {
+          "url": "http://jeepseatcover.com/",
+          "clicks": 0,
+          "impressions": 4,
+          "position": "7.3"
+        },
+        {
+          "url": "https://jeepseatcover.com/",
+          "clicks": 0,
+          "impressions": 51,
+          "position": "39.4"
+        },
+        {
+          "url": "https://jeepseatcover.com/wrangler-jlu.html",
+          "clicks": 0,
+          "impressions": 1,
+          "position": "2.0"
+        }
+      ],
+      "totalNonBrandQueries": 4
+    },
+    "Wrangler Seat Cover": {
+      "matchedUrl": "sc-domain:wranglerseatcover.com",
+      "top20": [
+        {
+          "query": "best jeep wrangler seat covers",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": "0.0",
+          "position": "88.5",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "best wrangler seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "45.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "jeep wrangler seat covers",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": "0.0",
+          "position": "33.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "wrangler seat cover",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": "0.0",
+          "position": "26.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "wrangler seat covers",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "65.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        }
+      ],
+      "dropped": [],
+      "cannibalization": [],
+      "top5Pages": [
+        {
+          "url": "http://wranglerseatcover.com/",
+          "clicks": 0,
+          "impressions": 3,
+          "position": "74.0"
+        },
+        {
+          "url": "https://wranglerseatcover.com/",
+          "clicks": 0,
+          "impressions": 9,
+          "position": "32.7"
+        }
+      ],
+      "totalNonBrandQueries": 5
+    },
+    "Tactical Seats": {
+      "matchedUrl": "sc-domain:tacticalseats.com",
+      "top20": [
+        {
+          "query": "bartact seat covers",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": "0.0",
+          "position": "17.7",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "tactical seat cover",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": "0.0",
+          "position": "49.0",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        },
+        {
+          "query": "tactical seat covers",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": "0.0",
+          "position": "38.5",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        }
+      ],
+      "dropped": [],
+      "cannibalization": [
+        {
+          "query": "tactical seat covers",
+          "pages": [
+            {
+              "url": "http://tacticalseats.com/",
+              "clicks": 0,
+              "position": "38.7"
+            },
+            {
+              "url": "https://tacticalseats.com/",
+              "clicks": 0,
+              "position": "38.3"
+            }
+          ]
+        }
+      ],
+      "top5Pages": [
+        {
+          "url": "http://tacticalseats.com/",
+          "clicks": 0,
+          "impressions": 23,
+          "position": "11.0"
+        },
+        {
+          "url": "https://tacticalseats.com/",
+          "clicks": 0,
+          "impressions": 8,
+          "position": "28.8"
+        }
+      ],
+      "totalNonBrandQueries": 3
+    },
+    "Best Bronco Accessories": {
+      "matchedUrl": "sc-domain:bestbroncoaccessories.com",
+      "top20": [
+        {
+          "query": "best bronco accessories",
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": "0.0",
+          "position": "60.9",
+          "priorClicks": 0,
+          "priorImpressions": 2,
+          "priorPosition": "54.5",
+          "positionChange": "6.4",
+          "pages": [
+            {
+              "url": "https://bestbroncoaccessories.com/",
+              "clicks": 0,
+              "impressions": 8,
+              "position": "60.9"
+            }
+          ]
+        },
+        {
+          "query": "best ford bronco accessories",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": "0.0",
+          "position": "49.8",
+          "priorClicks": null,
+          "priorImpressions": null,
+          "priorPosition": null,
+          "positionChange": null
+        }
+      ],
+      "dropped": [
+        {
+          "query": "best bronco accessories",
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": "0.0",
+          "position": "60.9",
+          "priorClicks": 0,
+          "priorImpressions": 2,
+          "priorPosition": "54.5",
+          "positionChange": "6.4",
+          "pages": [
+            {
+              "url": "https://bestbroncoaccessories.com/",
+              "clicks": 0,
+              "impressions": 8,
+              "position": "60.9"
+            }
+          ]
+        }
+      ],
+      "cannibalization": [],
+      "top5Pages": [
+        {
+          "url": "https://bestbroncoaccessories.com/",
+          "clicks": 0,
+          "impressions": 13,
+          "position": "52.8"
+        }
+      ],
+      "totalNonBrandQueries": 2
+    }
+  },
+  "criticalDrops": [
+    {
+      "site": "Bartact",
+      "query": "jeep wrangler seat covers",
+      "clicks": 8,
+      "impressions": 447,
+      "ctr": "1.8",
+      "position": "11.2",
+      "priorClicks": 11,
+      "priorImpressions": 598,
+      "priorPosition": "8.2",
+      "positionChange": "3.0",
+      "pages": [
+        {
+          "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers",
+          "clicks": 8,
+          "impressions": 285,
+          "position": "9.0"
+        },
+        {
+          "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers-accessories",
+          "clicks": 0,
+          "impressions": 142,
+          "position": "15.9"
+        },
+        {
+          "url": "https://www.bartact.com/collections/jeep-wrangler-seat-covers/waterproof",
+          "clicks": 0,
+          "impressions": 2,
+          "position": "10.5"
+        },
+        {
+          "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2013-18-bartact-pair-w-molle-non-srs-air-bag-compliant?variant=3942393989&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+          "clicks": 0,
+          "impressions": 1,
+          "position": "1.0"
+        },
+        {
+          "url": "https://www.bartact.com/products/tactical-seat-covers-for-jeep-wrangler-jlu-2018-4-dr-only-not-for-mojave-or-392-edition-front-pair-bartact",
+          "clicks": 0,
+          "impressions": 45,
+          "position": "17.7"
+        }
+      ]
+    },
+    {
+      "site": "Bartact",
+      "query": "molle clips",
+      "clicks": 0,
+      "position": "GONE",
+      "priorClicks": 7,
+      "priorPosition": "4.6",
+      "positionChange": "DISAPPEARED"
+    },
+    {
+      "site": "Bartact",
+      "query": "bartech seat covers",
+      "clicks": 0,
+      "position": "GONE",
+      "priorClicks": 5,
+      "priorPosition": "1.0",
+      "positionChange": "DISAPPEARED"
+    },
+    {
+      "site": "Bartact",
+      "query": "molle accessories",
+      "clicks": 0,
+      "position": "GONE",
+      "priorClicks": 5,
+      "priorPosition": "7.8",
+      "positionChange": "DISAPPEARED"
+    },
+    {
+      "site": "Bartact",
+      "query": "jeep jk seat covers",
+      "clicks": 0,
+      "position": "GONE",
+      "priorClicks": 4,
+      "priorPosition": "5.8",
+      "positionChange": "DISAPPEARED"
+    },
+    {
+      "site": "Bartact",
+      "query": "best jeep gladiator seat covers",
+      "clicks": 0,
+      "position": "GONE",
+      "priorClicks": 3,
+      "priorPosition": "3.3",
+      "positionChange": "DISAPPEARED"
+    },
+    {
+      "site": "Bartact",
+      "query": "best jeep wrangler seat covers",
+      "clicks": 0,
+      "position": "GONE",
+      "priorClicks": 3,
+      "priorPosition": "2.5",
+      "positionChange": "DISAPPEARED"
+    },
+    {
+      "site": "Bartact",
+      "query": "headrest molle panel",
+      "clicks": 0,
+      "position": "GONE",
+      "priorClicks": 3,
+      "priorPosition": "4.5",
+      "positionChange": "DISAPPEARED"
+    },
+    {
+      "site": "Bartact",
+      "query": "wrangler seat covers",
+      "clicks": 0,
+      "position": "GONE",
+      "priorClicks": 3,
+      "priorPosition": "5.3",
+      "positionChange": "DISAPPEARED"
+    }
+  ],
+  "timestamp": "2026-04-27T17:00:00.000Z"
+}

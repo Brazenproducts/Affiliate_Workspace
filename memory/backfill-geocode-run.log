@@ -1,0 +1,1012 @@
+🍔 SkipATip Restaurant Backfill
+   Mode: LIVE WRITE
+   Batch limit: 9999
+
+Found 1000 restaurants to geocode
+
+[1/1000] Arby's — Rock Hill, SC ... ✓ 34.9653, -80.9993 — 2209 North Cherry Road
+[2/1000] Arby's — Kyle, TX ... ✓ 30.0139, -97.8589 — 20417 South Interstate 35
+[3/1000] Arby's — Concord, CA ... ❌ no result
+[4/1000] Arby's — Mount Pleasant, SC ... ✓ 32.8133, -79.8568 — 1190 Johnnie Dodds Boulevard
+[5/1000] Arby's — Charleston, IL ... ✓ 39.4841, -88.1780 — 310 Lincoln Avenue
+[6/1000] Arby's — Buda, TX ... ✓ 30.0847, -97.8262 — 270 Old San Antonio Road
+[7/1000] Arby's — Apple Valley, MN ... ✓ 44.7286, -93.2185 — 7525 153rd Street West
+[8/1000] Arby's — Santa Clarita, CA ... ✓ 34.4159, -118.4558 — 27590 Sierra Highway
+[9/1000] Arby's — Bangor, ME ... ❌ no result
+[10/1000] Arby's — North Charleston, SC ... ✓ 32.9762, -80.0639 — 8980 University Boulevard
+[11/1000] Arby's — Tulsa, OK ... ✓ 36.0178, -95.7968 — 3325 South Elm Place
+[12/1000] Arby's — Mattoon, IL ... ✓ 39.4812, -88.3636 — 815 Charleston Avenue
+[13/1000] Arby's — Bartlesville, OK ... ✓ 36.7501, -95.9458 — 2935 Southeast Frank Phillips Boulevard
+[14/1000] Arby's — Aurora, CO ... ✓ 39.6376, -104.7910 — 4350 South Buckley Road
+[15/1000] Arby's — Spring Hill, FL ... ✓ 28.4490, -82.6333 — 1335 Commercial Way
+[16/1000] Arby's — Moorhead, MN ... ✓ 46.8773, -96.7294 — 3108 32nd Street North
+[17/1000] Arby's — La Vergne, TN ... ❌ no result
+[18/1000] Arby's — Sunnyvale, CA ... ✓ 37.3734, -122.0569 — 601 South Bernardo Avenue
+[19/1000] Arby's — Nampa, ID ... ✓ 43.6022, -116.5976 — 1360 Caldwell Boulevard
+[20/1000] Arby's — Lewiston, ME ... ❌ no result
+[21/1000] Arby's — Bellevue, NE ... ✓ 41.1579, -95.9335 — 1303 Cornhusker Road
+[22/1000] Arby's — Charleston, SC ... ✓ 32.8058, -80.0116 — 1646 Sam Rittenberg Boulevard
+[23/1000] Arby's — Newport News, VA ... ✓ 37.1123, -76.4695 — 100 Arthur Way
+[24/1000] Arby's — Oklahoma City, OK ... ✓ 35.5662, -97.6583 — 8104 Northwest Expressway
+[25/1000] Arby's — Broomfield, CO ... ✓ 39.9080, -105.0972 — 8950 Metro Airport Avenue
+[26/1000] Arby's — Moline, IL ... ✓ 41.4904, -90.4683 — 2210 48th Street
+[27/1000] Arby's — Wildwood, MO ... ❌ no result
+[28/1000] Arby's — Muskogee, OK ... ✓ 35.7682, -95.3588 — 1901 North Main Street
+[29/1000] Arby's — Herriman, UT ... ❌ no result
+[30/1000] Arby's — South Jordan, UT ... ✓ 40.5381, -112.0198 — 5414 Daybreak Parkway
+[31/1000] Arby's — Rocklin, CA ... ✓ 38.7881, -121.2259 — 4400 Rocklin Road
+[32/1000] Arby's — Milford, DE ... ✓ 39.1913, -84.2548 — 906 Business 28
+[33/1000] Arby's — Germantown, MD ... ❌ no result
+[34/1000] Arby's — Minnetonka, MN ... ✓ 44.9118, -93.5039 — 5100 County Road 101
+[35/1000] Arby's — Chapel Hill, NC ... ❌ no result
+[36/1000] Arby's — Lebanon, TN ... ✓ 36.2177, -86.3332 — 1457 West Main Street
+[37/1000] Arby's — Springdale, AR ... ✓ 36.1760, -94.1395 — 908 South Thompson Street
+[38/1000] Arby's — Victorville, CA ... ✓ 34.4710, -117.3340 — 15122 Bear Valley Road
+[39/1000] Arby's — Pembroke Pines, FL ... ✓ 26.0083, -80.3049 — 11755 Pines Boulevard
+[40/1000] Arby's — Boise, ID ... ✓ 43.5703, -116.1878 — 3500 South Findley Avenue
+[41/1000] Arby's — Wichita, KS ... ✓ 37.7505, -97.4621 — 3730 North Maize Road
+[42/1000] Arby's — Portland, ME ... ❌ no result
+[43/1000] Arby's — Minneapolis, MN ... ❌ no result
+[44/1000] Arby's — Lincoln, NE ... ✓ 40.7702, -96.6824 — 4300 South 27th Street
+[45/1000] Arby's — New Rochelle, NY ... ❌ no result
+[46/1000] Arby's — Columbia, SC ... ✓ 33.9630, -80.9425 — 7521 Garners Ferry Road
+[47/1000] Arby's — Irving, TX ... ✓ 32.9191, -96.9700 — 1730 Market Place Boulevard
+[48/1000] Arby's — Richmond, VA ... ✓ 37.5061, -77.5984 — 900 Southlake Boulevard
+[49/1000] Arby's — Eau Claire, WI ... ✓ 44.8067, -91.4705 — 1019 South Hastings Way
+[50/1000] Arby's — Lorain, OH ... ✓ 41.4179, -82.2005 — 1951 Cooper Foster Park Road
+[51/1000] Arby's — Santa Rosa, CA ... ❌ no result
+[52/1000] Arby's — Brighton, CO ... ✓ 39.9558, -104.7773 — 2133 Prairie Center Parkway
+[53/1000] Arby's — Statesboro, GA ... ✓ 32.4304, -81.7785 — 622 Fair Road
+[54/1000] Arby's — Galesburg, IL ... ✓ 40.9680, -90.3827 — 1824 North Henderson Street
+[55/1000] Arby's — Florence, KY ... ✓ 38.9827, -84.6438 — 8061 Holiday Place
+[56/1000] Arby's — Chesterfield, MO ... ❌ no result
+[57/1000] Arby's — Perth Amboy, NJ ... ❌ no result
+[58/1000] Arby's — Stillwater, OK ... ✓ 36.1325, -97.0616 — 1016 North Boomer Road
+[59/1000] Arby's — Sumter, SC ... ✓ 33.9563, -80.3882 — 1280 Broad Street
+[60/1000] Arby's — Galveston, TX ... ❌ no result
+[61/1000] Arby's — Rock Springs, WY ... ✓ 41.5750, -109.2505 — 1899 Dewar Drive
+[62/1000] Arby's — Millcreek, UT ... ✓ 40.6685, -111.8647 — 4673 900 East
+[63/1000] Arby's — Redding, CA ... ❌ no result
+[64/1000] Arby's — Citrus Heights, CA ... ❌ no result
+[65/1000] Arby's — Hawthorne, CA ... ❌ no result
+[66/1000] Arby's — Smyrna, DE ... ✓ 33.8293, -84.4931 — 4950 South Cobb Drive
+[67/1000] Arby's — Marietta, GA ... ✓ 33.9687, -84.4901 — 2161 Roswell Road
+[68/1000] Arby's — Ellicott City, MD ... ✓ 39.2791, -76.8609 — 3290 Centennial Lane
+[69/1000] Arby's — Peabody, MA ... ❌ no result
+[70/1000] Arby's — Lakeville, MN ... ❌ no result
+[71/1000] Arby's — Boulder City, NV ... ❌ no result
+[72/1000] Arby's — Rocky Mount, NC ... ✓ 35.9688, -77.8162 — 778 Word Plaza
+[73/1000] Arby's — Wilkes-Barre, PA ... ❌ no result
+[74/1000] Arby's — Bristol, TN ... ✓ 36.5619, -82.2086 — 1315 Volunteer Parkway
+[75/1000] Arby's — Martinsburg, WV ... ✓ 39.4449, -77.9865 — 1010 Foxcroft Avenue
+[76/1000] Arby's — Fayetteville, AR ... ✓ 36.0563, -94.1786 — 1263 West Martin Luther King Junior Boulevard
+[77/1000] Arby's — Moreno Valley, CA ... ❌ no result
+[78/1000] Arby's — Visalia, CA ... ✓ 36.3267, -119.3383 — West Noble Avenue
+[79/1000] Arby's — Colorado Springs, CO ... ✓ 38.9701, -104.7423 — 9657 Prominent Point
+[80/1000] Arby's — Cape Coral, FL ... ✓ 26.6507, -81.9756 — 47 Hancock Bridge Parkway
+[81/1000] Arby's — Augusta, GA ... ✓ 33.4494, -82.0322 — 1813 Gordon Highway
+[82/1000] Arby's — Hilo, HI ... ❌ no result
+[83/1000] Arby's — Cicero, IL ... ✓ 41.6919, -87.7394 — 11017 South Cicero Avenue
+[84/1000] Arby's — Iowa City, IA ... ✓ 41.6463, -91.5407 — 3 Highway 1 West
+[85/1000] Arby's — New Orleans, LA ... ❌ no result
+[86/1000] Arby's — Bossier City, LA ... ✓ 32.5299, -93.7041 — 2015 Airline Drive
+[87/1000] Arby's — Brockton, MA ... ❌ no result
+[88/1000] Arby's — Kalamazoo, MI ... ✓ 42.2706, -85.6455 — 4510 Stadium Drive
+[89/1000] Arby's — Meridian, MS ... ✓ 32.3574, -88.6860 — 1400 North Frontage Road
+[90/1000] Arby's — Omaha, NE ... ✓ 41.2338, -96.0450 — 8429 West Center Road
+[91/1000] Arby's — Elizabeth, NJ ... ❌ no result
+[92/1000] Arby's — Albany, NY ... ✓ 42.7185, -73.8059 — 133 Wolf Road
+[93/1000] Arby's — Bend, OR ... ✓ 44.0444, -121.3030 — 535 Southeast 3rd Street
+[94/1000] Arby's — Pawtucket, RI ... ❌ no result
+[95/1000] Arby's — Houston, TX ... ✓ 29.5738, -95.1092 — 2415 Bay Area Boulevard
+[96/1000] Arby's — Garland, TX ... ✓ 32.9601, -96.6481 — 4950 North Garland Avenue
+[97/1000] Arby's — Beaumont, TX ... ✓ 29.9893, -94.2116 — 7495 Smith Road
+[98/1000] Arby's — Chesapeake, VA ... ✓ 36.6563, -76.2331 — 225 Hillcrest Parkway
+[99/1000] Arby's — Renton, WA ... ❌ no result
+[100/1000] Arby's — Oshkosh, WI ... ✓ 43.9953, -88.5785 — 2040 South Koeller Street
+[101/1000] Arby's — High Point, NC ... ✓ 36.0334, -79.9663 — 4053 Eastchester Drive
+[102/1000] Arby's — Youngstown, OH ... ✓ 41.0470, -80.6162 — 5166 Youngstown Poland Road
+[103/1000] Arby's — Lake Havasu City, AZ ... ✓ 34.4680, -114.3403 — 240 Swanson Avenue
+[104/1000] Arby's — Oceanside, CA ... ❌ no result
+[105/1000] Arby's — Downey, CA ... ❌ no result
+[106/1000] Arby's — Greeley, CO ... ✓ 40.3955, -104.7505 — 4413 Centerplace Drive
+[107/1000] Arby's — Homestead, FL ... ❌ no result
+[108/1000] Arby's — Rome, GA ... ✓ 34.3055, -85.1748 — 2885 Martha Berry Highway
+[109/1000] Arby's — Caldwell, ID ... ✓ 43.6022, -116.5976 — 1360 Caldwell Boulevard
+[110/1000] Arby's — Normal, IL ... ✓ 40.5325, -88.9970 — Sugar Creek Boulevard
+[111/1000] Arby's — West Des Moines, IA ... ✓ 41.5896, -93.8069 — 7241 Vista Drive
+[112/1000] Arby's — Elizabethtown, KY ... ✓ 37.7131, -85.8318 — 1050 North Mulberry Street
+[113/1000] Arby's — South Portland, ME ... ❌ no result
+[114/1000] Arby's — Raytown, MO ... ❌ no result
+[115/1000] Arby's — Columbus, NE ... ✓ 41.4384, -97.3587 — 23rd Street
+[116/1000] Arby's — Plainfield, NJ ... ❌ no result
+[117/1000] Arby's — Islip, NY ... ❌ no result
+[118/1000] Arby's — Enid, OK ... ✓ 36.3912, -97.9256 — 3836 West Owen K. Garriott Road
+[119/1000] Arby's — York, PA ... ✓ 39.9097, -76.7024 — 2600 Keyway Drive
+[120/1000] Arby's — Bluffton, SC ... ❌ no result
+[121/1000] Arby's — Lewisville, TX ... ✓ 33.0029, -96.9885 — 220 East Round Grove Road
+[122/1000] Arby's — Missouri City, TX ... ❌ no result
+[123/1000] Arby's — Beloit, WI ... ✓ 42.5233, -89.0343 — 1817 South Riverside Drive
+[124/1000] Arby's — Sun Prairie, WI ... ✓ 43.1672, -89.2663 — 829 Bunny Trail
+[125/1000] Arby's — Appleton, WI ... ✓ 44.2428, -88.4139 — 473 West Calumet Street
+[126/1000] Arby's — Cottonwood Heights, UT ... ❌ no result
+[127/1000] Arby's — Temecula, CA ... ✓ 33.5145, -117.1587 — 27702 Jefferson Avenue
+[128/1000] Arby's — Hesperia, CA ... ✓ 34.4271, -117.3766 — 13140 Main Street
+[129/1000] Arby's — Compton, CA ... ❌ no result
+[130/1000] Arby's — Folsom, CA ... ❌ no result
+[131/1000] Arby's — Rialto, CA ... ✓ 34.1064, -117.3949 — 1225 West Foothill Boulevard
+[132/1000] Arby's — Westminster, CA ... ❌ no result
+[133/1000] Arby's — Meriden, CT ... ✓ 41.5632, -72.8734 — 869 Meriden-Waterbury Turnpike
+[134/1000] Arby's — Middletown, DE ... ✓ 39.5000, -84.3506 — 1315 Elliott Drive
+[135/1000] Arby's — Palm Beach Gardens, FL ... ❌ no result
+[136/1000] Arby's — Palm Coast, FL ... ❌ no result
+[137/1000] Arby's — Jeffersontown, KY ... ✓ 38.2281, -85.5767 — 1203 South Hurstbourne Parkway
+[138/1000] Arby's — Dundalk, MD ... ✓ 39.2949, -76.5105 — 7905 Eastern Avenue
+[139/1000] Arby's — Haverhill, MA ... ❌ no result
+[140/1000] Arby's — Chicopee, MA ... ✓ 42.1799, -72.5785 — 1483 Granby Road
+[141/1000] Arby's — Battle Creek, MI ... ✓ 42.2969, -85.2363 — 2195 West Columbia Avenue
+[142/1000] Arby's — Blaine, MN ... ✓ 45.1578, -93.2342 — 10320 Baltimore Street Northeast
+[143/1000] Arby's — Vicksburg, MS ... ❌ no result
+[144/1000] Arby's — Whitney, NV ... ✓ 36.0610, -115.0458 — 590 North Stephanie Street
+[145/1000] Arby's — Alamogordo, NM ... ✓ 32.8863, -105.9598 — South White Sands Boulevard
+[146/1000] Arby's — Greenville, NC ... ✓ 35.6049, -77.3701 — 500 East 10th Street
+[147/1000] Arby's — Mandan, ND ... ✓ 46.8487, -100.9096 — 2640 Overlook Lane Northwest
+[148/1000] Arby's — Chester, PA ... ✓ 39.8431, -75.7295 — 743 West Cypress Street
+[149/1000] Arby's — Chambersburg, PA ... ✓ 39.9244, -77.6103 — 1659 Lincoln Way East
+[150/1000] Arby's — Kingsport, TN ... ✓ 36.5482, -82.5183 — 1652 East Stone Drive
+[151/1000] Arby's — Kennewick, WA ... ✓ 46.2252, -119.2231 — 1310 Columbia Center Boulevard
+[152/1000] Arby's — Weirton, WV ... ✓ 40.4016, -80.5502 — 222 Three Springs Drive
+[153/1000] Arby's — La Crosse, WI ... ✓ 43.8777, -91.1777 — 3210 North Kinney Coulee Road
+[154/1000] Arby's — Fort Smith, AR ... ✓ 35.3566, -94.3586 — 6611 Rogers Avenue
+[155/1000] Arby's — Stockton, CA ... ❌ no result
+[156/1000] Arby's — Fontana, CA ... ❌ no result
+[157/1000] Arby's — Ontario, CA ... ✓ 34.0296, -117.5937 — 2410 South Archibald Avenue
+[158/1000] Arby's — Roseville, CA ... ❌ no result
+[159/1000] Arby's — Hayward, CA ... ❌ no result
+[160/1000] Arby's — Denver, CO ... ✓ 39.7816, -104.7728 — 18408 East 47th Avenue
+[161/1000] Arby's — Miami, FL ... ✓ 25.7627, -80.3052 — 6760 Southwest 8th Street
+[162/1000] Arby's — Port St. Lucie, FL ... ✓ 27.3136, -80.3978 — 1621 Northwest Saint Lucie West Boulevard
+[163/1000] Arby's — Clearwater, FL ... ✓ 27.9608, -82.7577 — 1920 Gulf to Bay Boulevard
+[164/1000] Arby's — Columbus, GA ... ✓ 32.5419, -84.9499 — 5401 Whittlesey Boulevard
+[165/1000] Arby's — Sandy Springs, GA ... ✓ 33.9957, -84.3505 — 8753 Roswell Road
+[166/1000] Arby's — Pearl City, HI ... ❌ no result
+[167/1000] Arby's — Naperville, IL ... ✓ 41.7673, -88.2052 — 296 Illinois Route 59
+[168/1000] Arby's — Waukegan, IL ... ❌ no result
+[169/1000] Arby's — Fishers, IN ... ✓ 39.9572, -86.0367 — 7454 Fishers Station Drive
+[170/1000] Arby's — Davenport, IA ... ✓ 41.5544, -90.5696 — 3410 Brady Street
+[171/1000] Arby's — Olathe, KS ... ✓ 38.9133, -94.7949 — 18060 West 119th Street
+[172/1000] Arby's — Covington, KY ... ❌ no result
+[173/1000] Arby's — Metairie, LA ... ✓ 30.0049, -90.1710 — 3847 Veterans Memorial Boulevard
+[174/1000] Arby's — Kenner, LA ... ✓ 30.0213, -90.2541 — 1000 West Esplanade Avenue
+[175/1000] Arby's — Hagerstown, MD ... ✓ 39.6552, -77.7508 — 17794 Garland Groh Boulevard
+[176/1000] Arby's — New Bedford, MA ... ❌ no result
+[177/1000] Arby's — Lansing, MI ... ✓ 42.6989, -84.5668 — 3229 South Martin Luther King Jr Boulevard
+[178/1000] Arby's — Farmington Hills, MI ... ✓ 42.5002, -83.3578 — 27900 Orchard Lake Road
+[179/1000] Arby's — Maple Grove, MN ... ✓ 45.0977, -93.4477 — 7885 Wedgewood Lane North
+[180/1000] Arby's — Biloxi, MS ... ✓ 30.4062, -88.9099 — 506 Larcher Boulevard
+[181/1000] Arby's — O'Fallon, MO ... ✓ 38.8014, -90.7007 — 705 MO K
+[182/1000] Arby's — Bozeman, MT ... ✓ 45.6693, -111.0812 — 3240 Technology Boulevard West
+[183/1000] Arby's — Sparks, NV ... ❌ no result
+[184/1000] Arby's — Paterson, NJ ... ❌ no result
+[185/1000] Arby's — Albuquerque, NM ... ✓ 35.1009, -106.5159 — 1751 Juan Tabo Boulevard Northeast
+[186/1000] Arby's — Syracuse, NY ... ✓ 43.0479, -76.1702 — 787 Erie Boulevard West
+[187/1000] Arby's — Moore, OK ... ✓ 35.3224, -97.4949 — 1813 South Telephone Road
+[188/1000] Arby's — Beaverton, OR ... ✓ 45.4996, -122.8066 — 2820 Southwest Cedar Hills Boulevard
+[189/1000] Arby's — Scranton, PA ... ✓ 41.4141, -75.6702 — North 7th Avenue
+[190/1000] Arby's — Warwick, RI ... ❌ no result
+[191/1000] Arby's — Knoxville, TN ... ✓ 35.9330, -84.0202 — 6909 Kingston Pike
+[192/1000] Arby's — Bartlett, TN ... ✓ 35.2052, -89.7955 — 8018 Stage Road
+[193/1000] Arby's — Austin, TX ... ✓ 30.3634, -97.7181 — 8648 Research Boulevard
+[194/1000] Arby's — Lubbock, TX ... ✓ 33.5438, -101.9403 — 5052 Frankford Avenue
+[195/1000] Arby's — McKinney, TX ... ✓ 33.2170, -96.6325 — 1706 West University Drive
+[196/1000] Arby's — Abilene, TX ... ✓ 32.4052, -99.7650 — 3824 South Clack Street
+[197/1000] Arby's — Ogden, UT ... ✓ 41.2440, -111.9731 — 275 12th Street
+[198/1000] Arby's — Norfolk, VA ... ✓ 36.8481, -76.2095 — 460 North Military Highway
+[199/1000] Arby's — Suffolk, VA ... ✓ 36.8772, -76.4283 — 6468 Hampton Roads Parkway
+[200/1000] Arby's — Everett, WA ... ✓ 47.9113, -122.2188 — 1007 Southeast Everett Mall Way
+[201/1000] Arby's — Morgantown, WV ... ✓ 39.6193, -79.9233 — 1900 Earl L Core Road
+[202/1000] Arby's — Waukesha, WI ... ✓ 42.9556, -88.1104 — 15705 West Beloit Road
+[203/1000] Arby's — Gillette, WY ... ✓ 44.2695, -105.4946 — 2720 South Douglas Highway
+[204/1000] Arby's — Wilmington, NC ... ✓ 34.2436, -77.8825 — 5020 Market Street
+[205/1000] Arby's — Cleveland, OH ... ✓ 41.5040, -81.6748 — 2203 Chester Avenue
+[206/1000] Arby's — Canton, OH ... ✓ 40.8536, -81.4380 — 4850 Everhard Road Northwest
+[207/1000] Arby's — Avondale, AZ ... ✓ 33.4632, -112.2905 — 1440 North 107th Avenue
+[208/1000] Arby's — Buckeye, AZ ... ❌ no result
+[209/1000] Arby's — Escondido, CA ... ✓ 33.1291, -117.0906 — 320 West Mission Avenue
+[210/1000] Arby's — El Cajon, CA ... ✓ 32.7981, -116.9352 — 325 North 2nd Street
+[211/1000] Arby's — Fairfield, CA ... ✓ 38.2211, -122.1257 — 4445 Central Place
+[212/1000] Arby's — South Gate, CA ... ❌ no result
+[213/1000] Arby's — Carson, CA ... ✓ 33.8158, -118.3047 — 1525 West Sepulveda Boulevard
+[214/1000] Arby's — Longmont, CO ... ✓ 40.1979, -105.1020 — 2150 Main Street
+[215/1000] Arby's — Northglenn, CO ... ✓ 39.8847, -104.9977 — 850 West 104th Avenue
+[216/1000] Arby's — Margate, FL ... ❌ no result
+[217/1000] Arby's — Gainesville, GA ... ✓ 34.2892, -83.8426 — 634 Shallowford Road Northwest
+[218/1000] Arby's — Carrollton, GA ... ✓ 33.5538, -85.0726 — 1322 South Park Street
+[219/1000] Arby's — Kailua, HI ... ❌ no result
+[220/1000] Arby's — Lewiston, ID ... ✓ 46.3836, -116.9814 — 248 Thain Road
+[221/1000] Arby's — Palatine, IL ... ❌ no result
+[222/1000] Arby's — Wheaton, IL ... ❌ no result
+[223/1000] Arby's — Greenwood, IN ... ✓ 39.6147, -86.0844 — 954 East Main Street
+[224/1000] Arby's — Ames, IA ... ✓ 42.0186, -93.6109 — 409 South Duff Avenue
+[225/1000] Arby's — Shawnee, KS ... ✓ 39.0441, -95.7603 — 5930 Southwest Huntoon Street
+[226/1000] Arby's — Dodge City, KS ... ❌ no result
+[227/1000] Arby's — Slidell, LA ... ✓ 30.2852, -89.7529 — Gause Boulevard
+[228/1000] Arby's — Biddeford, ME ... ❌ no result
+[229/1000] Arby's — Wyoming, MI ... ✓ 42.8846, -85.6836 — 765 44th Street Southwest
+[230/1000] Arby's — Joplin, MO ... ✓ 37.0630, -94.4787 — East 24th Street
+[231/1000] Arby's — Maryland Heights, MO ... ❌ no result
+[232/1000] Arby's — Norfolk, NE ... ✓ 42.0185, -97.4244 — 1204 West Omaha Avenue
+[233/1000] Arby's — Camden, NJ ... ✓ 39.8921, -75.0899 — 100 Black Horse Pike
+[234/1000] Arby's — New Brunswick, NJ ... ❌ no result
+[235/1000] Arby's — Clovis, NM ... ❌ no result
+[236/1000] Arby's — Brookhaven, NY ... ❌ no result
+[237/1000] Arby's — White Plains, NY ... ❌ no result
+[238/1000] Arby's — Hilliard, OH ... ✓ 39.9828, -83.1500 — 1540 Hilliard-Rome Road
+[239/1000] Arby's — Corvallis, OR ... ✓ 44.5929, -123.2520 — 2503 Northwest 9th Street
+[240/1000] Arby's — Tualatin, OR ... ❌ no result
+[241/1000] Arby's — Myrtle Beach, SC ... ✓ 33.7040, -78.8695 — 2302 North Kings Highway
+[242/1000] Arby's — Lexington, SC ... ✓ 34.0887, -81.1777 — 1076 Lake Murray Boulevard
+[243/1000] Arby's — Columbia, TN ... ✓ 35.6047, -87.0658 — 1625 Hatcher Lane
+[244/1000] Arby's — Wichita Falls, TX ... ✓ 33.9097, -98.5029 — 501 Holliday Street
+[245/1000] Arby's — Wylie, TX ... ✓ 33.0081, -96.5563 — 1706 FM 544
+[246/1000] Arby's — Baytown, TX ... ❌ no result
+[247/1000] Arby's — Logan, UT ... ✓ 41.7556, -111.8338 — 1230 Main Street
+[248/1000] Arby's — Richland, WA ... ✓ 46.2819, -119.2744 — 1051 George Washington Way
+[249/1000] Arby's — Greenfield, WI ... ✓ 42.9564, -87.9495 — 4841 South 27th Street
+[250/1000] Arby's — Wausau, WI ... ✓ 44.9952, -89.6612 — 2601 North 20th Avenue
+[251/1000] Arby's — Sheridan, WY ... ✓ 44.7789, -106.9420 — 1777 Coffeen Avenue
+[252/1000] Arby's — Sioux City, IA ... ✓ 42.4752, -96.3338 — 5800 East Gordon Drive
+[253/1000] Arby's — Redmond, WA ... ✓ 47.6313, -122.1390 — 15115 Northeast 24th Street
+[254/1000] Arby's — Burien, WA ... ✓ 47.4613, -122.3335 — 15822 1st Avenue South
+[255/1000] Arby's — Bentonville, AR ... ✓ 36.3569, -94.1805 — 2807 Southeast 14th Street
+[256/1000] Arby's — Russellville, AR ... ✓ 35.3031, -93.1381 — 2321 North Arkansas Avenue
+[257/1000] Arby's — Menifee, CA ... ❌ no result
+[258/1000] Arby's — Indio, CA ... ✓ 33.7425, -116.2325 — 82111 Avenue 42
+[259/1000] Arby's — Burbank, CA ... ❌ no result
+[260/1000] Arby's — Pomona, CA ... ❌ no result
+[261/1000] Arby's — Merced, CA ... ❌ no result
+[262/1000] Arby's — Tracy, CA ... ✓ 37.7617, -121.4363 — 745 West Clover Road
+[263/1000] Arby's — Ventura, CA ... ✓ 34.2713, -118.7718 — 1408 East Los Angeles Avenue
+[264/1000] Arby's — Redlands, CA ... ✓ 34.0626, -117.2017 — 1245 West Colton Avenue
+[265/1000] Arby's — Apple Valley, CA ... ✓ 34.4718, -117.1933 — 21550 Bear Valley Road
+[266/1000] Arby's — Tustin, CA ... ✓ 33.8061, -117.8352 — 1107 North Tustin Street
+[267/1000] Arby's — Littleton, CO ... ✓ 39.5738, -104.9907 — 161 West Mineral Avenue
+[268/1000] Arby's — West Hartford, CT ... ❌ no result
+[269/1000] Arby's — Milford, CT ... ❌ no result
+[270/1000] Arby's — Newark, DE ... ✓ 39.6948, -75.7178 — 13 Capitol Trail
+[271/1000] Arby's — Davie, FL ... ❌ no result
+[272/1000] Arby's — Deltona, FL ... ❌ no result
+[273/1000] Arby's — Boca Raton, FL ... ❌ no result
+[274/1000] Arby's — Deerfield Beach, FL ... ❌ no result
+[275/1000] Arby's — Michigan City, IN ... ✓ 41.7244, -86.2500 — 52920 Indiana 933
+[276/1000] Arby's — Paducah, KY ... ✓ 37.0492, -88.6528 — 1916 Lone Oak Road
+[277/1000] Arby's — Houma, LA ... ✓ 29.6146, -90.7572 — 1769 Martin Luther King Boulevard
+[278/1000] Arby's — Glen Burnie, MD ... ✓ 39.1513, -76.6327 — 1250 Crain Highway South
+[279/1000] Arby's — Wheaton, MD ... ❌ no result
+[280/1000] Arby's — Somerville, MA ... ✓ 40.5288, -111.8555 — 1257 Draper Parkway
+[281/1000] Arby's — Waltham, MA ... ❌ no result
+[282/1000] Arby's — Framingham, MA ... ❌ no result
+[283/1000] Arby's — Pontiac, MI ... ✓ 42.6778, -83.2520 — 1350 East Walton Boulevard
+[284/1000] Arby's — Holland, MI ... ✓ 42.7555, -86.1158 — 1195 Washington Avenue
+[285/1000] Arby's — Burnsville, MN ... ✓ 44.7461, -93.2798 — 1422 Grand Avenue
+[286/1000] Arby's — Eden Prairie, MN ... ✓ 44.8515, -93.4283 — 560 Prairie Center Drive
+[287/1000] Arby's — Cottage Grove, MN ... ✓ 44.8309, -92.9607 — 7185 East Point Douglas Road South
+[288/1000] Arby's — Tupelo, MS ... ✓ 34.3010, -88.7067 — Mel Drive
+[289/1000] Arby's — Horn Lake, MS ... ✓ 34.9633, -90.0035 — 712 Desoto Cove
+[290/1000] Arby's — Paradise, NV ... ✓ 36.1004, -115.1149 — East Tropicana Avenue
+[291/1000] Arby's — Dover, NH ... ❌ no result
+[292/1000] Arby's — Portsmouth, NH ... ❌ no result
+[293/1000] Arby's — Gastonia, NC ... ✓ 35.2530, -81.1770 — 345 East Garrison Boulevard
+[294/1000] Arby's — Burlington, NC ... ✓ 36.0707, -79.4949 — 781 Huffman Mill Road
+[295/1000] Arby's — Mooresville, NC ... ✓ 35.5573, -80.8611 — 116 Alcove Road
+[296/1000] Arby's — Asheville, NC ... ✓ 35.5638, -82.5419 — 180 Hendersonville Road
+[297/1000] Arby's — Roseburg, OR ... ✓ 43.1505, -123.3680 — 280 Grant Smith Road
+[298/1000] Arby's — Levittown, PA ... ✓ 40.1386, -74.8220 — 177 Levittown Parkway
+[299/1000] Arby's — Easton, PA ... ✓ 40.7158, -75.2845 — 3710 Nazareth Road
+[300/1000] Arby's — Monroeville, PA ... ✓ 40.4380, -79.7729 — 3974 William Penn Highway
+[301/1000] Arby's — Johnstown, PA ... ✓ 40.2769, -78.8603 — 1243 Scalp Avenue
+[302/1000] Arby's — Cookeville, TN ... ✓ 36.1491, -85.5012 — 595 South Jefferson Avenue
+[303/1000] Arby's — Springville, UT ... ✓ 40.1596, -111.6446 — 1881 West 500 South
+[304/1000] Arby's — Pasco, WA ... ✓ 46.2738, -119.1844 — 5115 Road 68
+[305/1000] Arby's — Lake Stevens, WA ... ❌ no result
+[306/1000] Arby's — Lacey, WA ... ✓ 47.0436, -122.8334 — 532 Sleater Kinney Road Southeast
+[307/1000] Arby's — Clarksburg, WV ... ✓ 39.2653, -80.2877 — 525 Emily Drive
+[308/1000] Arby's — West Allis, WI ... ✓ 42.9937, -88.0461 — 10743 West National Avenue
+[309/1000] Arby's — Tempe, AZ ... ✓ 33.3923, -111.9778 — 2755 West Southern Avenue
+[310/1000] Arby's — Little Rock, AR ... ✓ 34.7610, -92.3810 — 9624 North Rodney Parham Road
+[311/1000] Arby's — Oakland, CA ... ❌ no result
+[312/1000] Arby's — Riverside, CA ... ✓ 33.9142, -117.4596 — 10160 Hole Avenue
+[313/1000] Arby's — Fremont, CA ... ❌ no result
+[314/1000] Arby's — Modesto, CA ... ✓ 37.6894, -121.0334 — 2100 Standiford Avenue
+[315/1000] Arby's — Santa Ana, CA ... ❌ no result
+[316/1000] Arby's — Rancho Cucamonga, CA ... ❌ no result
+[317/1000] Arby's — Torrance, CA ... ✓ 33.8158, -118.3047 — 1525 West Sepulveda Boulevard
+[318/1000] Arby's — Orange, CA ... ✓ 33.6926, -117.8262 — 76 Corporate Park
+[319/1000] Arby's — Thousand Oaks, CA ... ✓ 34.1785, -118.8588 — East Thousand Oaks Boulevard
+[320/1000] Arby's — Simi Valley, CA ... ✓ 34.2713, -118.7718 — 1408 East Los Angeles Avenue
+[321/1000] Arby's — Lancaster, CA ... ❌ no result
+[322/1000] Arby's — Antioch, CA ... ❌ no result
+[323/1000] Arby's — Waterbury, CT ... ✓ 41.5632, -72.8734 — 869 Meriden-Waterbury Turnpike
+[324/1000] Arby's — Jacksonville, FL ... ✓ 30.4783, -81.6359 — 626 Airport Center Drive
+[325/1000] Arby's — St. Petersburg, FL ... ✓ 27.8591, -82.6382 — 9597 4th Street North
+[326/1000] Arby's — Fort Lauderdale, FL ... ✓ 26.1371, -80.1251 — 1720 Sunrise Boulevard
+[327/1000] Arby's — Gainesville, FL ... ✓ 29.6600, -82.4146 — 6760 West Newberry Road
+[328/1000] Arby's — Coral Springs, FL ... ✓ 26.2879, -80.2027 — North State Road 7
+[329/1000] Arby's — Lakeland, FL ... ✓ 27.9949, -81.9575 — South Loop Drive
+[330/1000] Arby's — Atlanta, GA ... ✓ 33.8017, -84.4149 — 1751 Howell Mill Road Northwest
+[331/1000] Arby's — Macon, GA ... ✓ 32.8705, -83.7028 — 4500 Forsyth Road
+[332/1000] Arby's — Athens, GA ... ✓ 33.9231, -83.3412 — 2010 Barnett Shoals Road
+[333/1000] Arby's — Albany, GA ... ✓ 31.5921, -84.1765 — 1105 North Slappey Boulevard
+[334/1000] Arby's — Honolulu, HI ... ✓ 21.3848, -158.0024 — 94-866 Moloalo Street
+[335/1000] Arby's — Idaho Falls, ID ... ✓ 43.4963, -112.0606 — 1547 West Broadway Street
+[336/1000] Arby's — Aurora, IL ... ✓ 41.7805, -88.3724 — 2330 West Indian Trail
+[337/1000] Arby's — Springfield, IL ... ✓ 39.8344, -89.6040 — 3201 Northfield Drive
+[338/1000] Arby's — Champaign, IL ... ✓ 40.1124, -88.2795 — 1913 West Springfield Avenue
+[339/1000] Arby's — Fort Wayne, IN ... ✓ 41.1331, -85.1369 — 333 East Washington Center Road
+[340/1000] Arby's — Carmel, IN ... ✓ 40.0085, -86.1266 — 15135 North Meridian Street
+[341/1000] Arby's — Gary, IN ... ❌ no result
+[342/1000] Arby's — Cedar Rapids, IA ... ✓ 41.9873, -91.6529 — 1417 1st Avenue East
+[343/1000] Arby's — Overland Park, KS ... ✓ 38.8560, -94.6672 — 15021 Metcalf Avenue
+[344/1000] Arby's — Topeka, KS ... ✓ 39.0441, -95.7603 — 5930 Southwest Huntoon Street
+[345/1000] Arby's — Louisville, KY ... ✓ 38.2191, -85.6300 — 2956 Breckenridge Lane
+[346/1000] Arby's — Owensboro, KY ... ✓ 37.7253, -87.1240 — 4614 Frederica Street
+[347/1000] Arby's — Baton Rouge, LA ... ✓ 30.4242, -91.0520 — 3120 South Sherwood Forest Boulevard
+[348/1000] Arby's — Shreveport, LA ... ✓ 32.4026, -93.8056 — 2902 West Bert Kouns Industrial Loop
+[349/1000] Arby's — Pharr, TX ... ❌ no result
+[350/1000] Arby's — Lake Charles, LA ... ✓ 30.1987, -93.2500 — L'Auberge Boulevard
+[351/1000] Arby's — Frederick, MD ... ✓ 39.4190, -77.4517 — 1203 West Patrick Street
+[352/1000] Arby's — Bowie, MD ... ❌ no result
+[353/1000] Arby's — Worcester, MA ... ✓ 42.2028, -71.8385 — 406 Southbridge Street
+[354/1000] Arby's — Cambridge, MA ... ✓ 38.5550, -76.0539 — 2731 Ocean Gateway
+[355/1000] Arby's — Grand Rapids, MI ... ✓ 43.0265, -85.6330 — 3463 Plainfield Avenue Northeast
+[356/1000] Arby's — Ann Arbor, MI ... ✓ 42.2894, -83.8414 — 5660 Jackson Road
+[357/1000] Arby's — Livonia, MI ... ✓ 42.4399, -83.3800 — 33751 West 8 Mile Road
+[358/1000] Arby's — Troy, MI ... ✓ 42.5935, -83.0916 — 2925 East Long Lake Road
+[359/1000] Arby's — Duluth, MN ... ✓ 46.7487, -92.1560 — 4315 Grand Avenue
+[360/1000] Arby's — Plymouth, MN ... ✓ 45.0118, -93.4629 — 14420 28th Place North
+[361/1000] Arby's — Gulfport, MS ... ✓ 30.4219, -89.0918 — 9326 Turkey Creek Drive
+[362/1000] Arby's — Hattiesburg, MS ... ✓ 31.3199, -89.3888 — 6178 US 98
+[363/1000] Arby's — Springfield, MO ... ✓ 37.2405, -93.3086 — 1416 West Kearney Street
+[364/1000] Arby's — Lee's Summit, MO ... ✓ 38.8532, -94.3799 — 200 Summitcrest Drive
+[365/1000] Arby's — Blue Springs, MO ... ✓ 39.0264, -94.2459 — 1225 Northeast Coronado Drive
+[366/1000] Arby's — Great Falls, MT ... ✓ 47.5186, -111.3112 — 1300 3rd Street Northwest
+[367/1000] Arby's — Henderson, NV ... ✓ 36.0362, -114.9772 — 310 South Boulder Highway
+[368/1000] Arby's — North Las Vegas, NV ... ✓ 36.2874, -115.1783 — 6979 Aliante Parkway
+[369/1000] Arby's — Nashua, NH ... ✓ 42.8026, -71.5395 — 621 Amherst Street
+[370/1000] Arby's — Jersey City, NJ ... ❌ no result
+[371/1000] Arby's — Lakewood, NJ ... ❌ no result
+[372/1000] Arby's — Trenton, NJ ... ❌ no result
+[373/1000] Arby's — New York City, NY ... ✓ 40.7385, -73.7936 — 175-14 Horace Harding Expressway
+[374/1000] Arby's — Yonkers, NY ... ❌ no result
+[375/1000] Arby's — Utica, NY ... ✓ 43.0874, -75.2586 — 1801 Genesee Street
+[376/1000] Arby's — Edmond, OK ... ✓ 35.6515, -97.4813 — 326 South Broadway
+[377/1000] Arby's — Salem, OR ... ✓ 44.9430, -122.9830 — 940 Lancaster Drive Northeast
+[378/1000] Arby's — Hillsboro, OR ... ✓ 45.5371, -122.9020 — 7370 Northeast Butler Street
+[379/1000] Arby's — Pittsburgh, PA ... ✓ 40.4560, -79.9424 — 5189 Baum Boulevard
+[380/1000] Arby's — Reading, PA ... ✓ 40.3839, -75.9281 — 3210 North 5th Street Highway
+[381/1000] Arby's — Harrisburg, PA ... ✓ 40.2796, -76.8127 — 4310 Union Deposit Road
+[382/1000] Arby's — Cranston, RI ... ❌ no result
+[383/1000] Arby's — Spartanburg, SC ... ✓ 34.9507, -81.9183 — 159;161 South Pine Street
+[384/1000] Arby's — Memphis, TN ... ✓ 35.1759, -89.7924 — North Germantown Parkway
+[385/1000] Arby's — Murfreesboro, TN ... ✓ 35.8460, -86.4306 — 121 Chaffin Place
+[386/1000] Arby's — Johnson City, TN ... ✓ 36.3550, -82.3830 — 2707 North Roan Street
+[387/1000] Arby's — San Antonio, TX ... ✓ 29.6365, -98.4535 — 2223 East Evans Road
+[388/1000] Arby's — Dallas, TX ... ✓ 32.8138, -96.8389 — 5350 Harry Hines Boulevard
+[389/1000] Arby's — Arlington, TX ... ✓ 32.6762, -97.1985 — 4406 Little Road
+[390/1000] Arby's — Laredo, TX ... ✓ 27.6137, -99.4642 — 2606 Bob Bullock Loop
+[391/1000] Arby's — Brownsville, TX ... ❌ no result
+[392/1000] Arby's — Killeen, TX ... ✓ 31.1290, -97.7363 — West Rancier Avenue
+[393/1000] Arby's — McAllen, TX ... ✓ 26.1914, -98.2059 — 900 South Jackson Road
+[394/1000] Arby's — Midland, TX ... ❌ no result
+[395/1000] Arby's — West Valley City, UT ... ✓ 40.6963, -111.9680 — 3215 3500 South
+[396/1000] Arby's — Sandy, UT ... ✓ 40.5651, -111.8526 — 10273 1300 East
+[397/1000] Arby's — Taylorsville, UT ... ✓ 40.6535, -111.9422 — 1870 5400 South
+[398/1000] Arby's — Virginia Beach, VA ... ✓ 36.7984, -76.1756 — 5316 Indian River Road
+[399/1000] Arby's — Hampton, VA ... ✓ 37.0332, -76.4178 — 3200 West Mercury Boulevard
+[400/1000] Arby's — Portsmouth, VA ... ✓ 36.7966, -76.3271 — 4900 George Washington Highway
+[401/1000] Arby's — Tacoma, WA ... ✓ 47.2222, -122.4723 — 2612 South 38th Street
+[402/1000] Arby's — Kent, WA ... ✓ 47.4129, -122.2521 — 101 South 211th Street
+[403/1000] Arby's — Kirkland, WA ... ❌ no result
+[404/1000] Arby's — Huntington, WV ... ✓ 38.3964, -82.4128 — 3086 Troy Brown Way
+[405/1000] Arby's — Madison, WI ... ✓ 43.0472, -89.3056 — 4 Collins Court
+[406/1000] Arby's — Racine, WI ... ✓ 42.7569, -87.8004 — 3048 Douglas Avenue
+[407/1000] Arby's — Cheyenne, WY ... ✓ 41.1345, -104.8116 — 310 East Lincolnway
+[408/1000] Arby's — Laramie, WY ... ✓ 41.1345, -104.8116 — 310 East Lincolnway
+[409/1000] Arby's — Durham, NC ... ✓ 35.9025, -78.8936 — NC 54
+[410/1000] Arby's — Cary, NC ... ❌ no result
+[411/1000] Arby's — Bismarck, ND ... ✓ 46.7948, -100.7471 — East Bismarck Expressway
+[412/1000] Arby's — Columbus, OH ... ✓ 39.9206, -83.1243 — 1516 Georgesville Road
+[413/1000] Arby's — Akron, OH ... ✓ 41.1086, -81.5680 — 1636 West Market Street
+[414/1000] Arby's — Parma, OH ... ✓ 41.4050, -81.6898 — 1441 Snow Road
+[415/1000] Arby's — Broken Arrow, OK ... ✓ 36.0178, -95.7968 — 3325 South Elm Place
+[416/1000] Arby's — Kenai, AK ... ✓ 60.5570, -151.2418 — Bridge Access Road
+[417/1000] Arby's — Flagstaff, AZ ... ✓ 35.1825, -111.6608 — 1800 South Milton Road
+[418/1000] Arby's — Maricopa, AZ ... ✓ 33.6842, -112.1073 — 2220 West Deer Valley Road
+[419/1000] Arby's — Sierra Vista, AZ ... ✓ 31.5551, -110.2780 — 1999 East Fry Boulevard
+[420/1000] Arby's — Conway, AR ... ✓ 35.0895, -92.4121 — 810 Elsinger Boulevard
+[421/1000] Arby's — Vista, CA ... ✓ 32.6469, -116.9675 — 2244 Otay Lakes Road
+[422/1000] Arby's — Carlsbad, CA ... ❌ no result
+[423/1000] Arby's — Barre, VT ... ❌ no result
+[424/1000] Arby's — Vacaville, CA ... ❌ no result
+[425/1000] Arby's — Richmond, CA ... ❌ no result
+[426/1000] Arby's — Daly City, CA ... ❌ no result
+[427/1000] Arby's — West Covina, CA ... ❌ no result
+[428/1000] Arby's — Lakewood, CA ... ✓ 33.8581, -118.1163 — South Street
+[429/1000] Arby's — Commerce City, CO ... ❌ no result
+[430/1000] Arby's — Centennial, CO ... ✓ 39.5957, -104.8207 — 14475 East Arapahoe Road
+[431/1000] Arby's — Leesburg, VA ... ✓ 39.0991, -77.5278 — 605 Potomac Station Drive Northeast
+[432/1000] Arby's — Loveland, CO ... ✓ 40.4079, -105.0528 — 1617 East Eisenhower Boulevard
+[433/1000] Arby's — Erie, CO ... ✓ 42.1227, -80.0827 — 101 West 12th Street
+[434/1000] Arby's — Englewood, CO ... ✓ 30.2932, -81.6055 — 5660 Beach Boulevard
+[435/1000] Arby's — Bradenton, FL ... ✓ 27.4683, -82.5633 — 3608 1st Street
+[436/1000] Arby's — Smyrna, GA ... ✓ 33.8293, -84.4931 — 4950 South Cobb Drive
+[437/1000] Arby's — Valdosta, GA ... ✓ 30.8719, -83.2901 — North Ashley Street
+[438/1000] Arby's — Reston, VA ... ❌ no result
+[439/1000] Arby's — Kennesaw, GA ... ✓ 34.0553, -84.5558 — 4288 Bells Ferry Road Northwest
+[440/1000] Arby's — Hinesville, GA ... ✓ 31.8430, -81.6006 — 209 West General Screven Way
+[441/1000] Arby's — Ewa Beach, HI ... ❌ no result
+[442/1000] Arby's — Coeur d'Alene, ID ... ✓ 47.7005, -116.7952 — 604 West Appleway Avenue
+[443/1000] Arby's — Evanston, IL ... ❌ no result
+[444/1000] Arby's — Arlington Heights, IL ... ❌ no result
+[445/1000] Arby's — Orland Park, IL ... ✓ 41.6047, -87.7936 — 15765 Harlem Avenue
+[446/1000] Arby's — Mount Prospect, IL ... ❌ no result
+[447/1000] Arby's — Anderson, IN ... ✓ 40.0615, -85.6521 — East 53rd Street
+[448/1000] Arby's — Noblesville, IN ... ✓ 40.0434, -85.9959 — 200 Noble Creek Drive
+[449/1000] Arby's — New Albany, IN ... ✓ 38.3035, -85.8390 — 2119 State Street
+[450/1000] Arby's — Council Bluffs, IA ... ✓ 41.2616, -95.8979 — 3313 West Broadway
+[451/1000] Arby's — Marion, IA ... ✓ 42.0329, -91.5805 — 2931 7th Avenue
+[452/1000] Arby's — Lawrence, KS ... ✓ 38.9710, -95.3026 — 4671 West 6th Street
+[453/1000] Arby's — Salina, KS ... ✓ 38.8321, -97.6256 — Armory Road
+[454/1000] Arby's — Garden City, KS ... ✓ 37.9754, -100.8514 — 1719 East Kansas Plaza
+[455/1000] Arby's — Hopkinsville, KY ... ✓ 36.8368, -87.4780 — 2927 Fort Campbell Boulevard
+[456/1000] Arby's — Monroe, LA ... ✓ 32.5237, -92.0978 — 2407 Louisville Avenue
+[457/1000] Arby's — Central, LA ... ✓ 38.2211, -122.1257 — 4445 Central Place
+[458/1000] Arby's — Auburn, ME ... ✓ 44.1254, -70.2253 — 670 Center Street
+[459/1000] Arby's — Midland, MI ... ✓ 43.6618, -84.2477 — 7019 Eastman Avenue
+[460/1000] Arby's — Roseville, MI ... ✓ 42.5305, -82.9143 — 31800 Gratiot Avenue
+[461/1000] Arby's — Clinton Township, MI ... ✓ 42.5527, -82.9647 — 15620 15 Mile Road
+[462/1000] Arby's — Florissant, MO ... ✓ 38.7769, -90.3356 — 1275 Graham Road
+[463/1000] Arby's — Ballwin, MO ... ❌ no result
+[464/1000] Arby's — Kirkwood, MO ... ✓ 38.5641, -90.4073 — 1147 South Kirkwood Road
+[465/1000] Arby's — Butte, MT ... ✓ 45.9791, -112.5085 — 3121 Harrison Avenue
+[466/1000] Arby's — Fremont, NE ... ✓ 41.4491, -96.4831 — 2040 North Bell Street
+[467/1000] Arby's — Enterprise, NV ... ✓ 36.0601, -115.1722 — South Las Vegas Boulevard
+[468/1000] Arby's — Clifton, NJ ... ❌ no result
+[469/1000] Arby's — Union City, NJ ... ❌ no result
+[470/1000] Arby's — Vineland, NJ ... ❌ no result
+[471/1000] Arby's — Brick, NJ ... ❌ no result
+[472/1000] Arby's — Farmington, NM ... ❌ no result
+[473/1000] Arby's — Hobbs, NM ... ✓ 32.7209, -103.1433 — North Turner Street
+[474/1000] Arby's — Hempstead, NY ... ✓ 40.6693, -73.5230 — 409 Sunrise Highway
+[475/1000] Arby's — Babylon, NY ... ❌ no result
+[476/1000] Arby's — Troy, NY ... ❌ no result
+[477/1000] Arby's — Niagara Falls, NY ... ✓ 43.0914, -78.9657 — 8562 Niagara Falls Boulevard
+[478/1000] Arby's — Westerville, OH ... ✓ 40.0853, -82.8960 — 6063 Sunbury Road
+[479/1000] Arby's — Owasso, OK ... ✓ 36.2792, -95.8441 — 11653 East 86th Street North
+[480/1000] Arby's — Ponca City, OK ... ✓ 36.7329, -97.0678 — 2408 North 14th Street
+[481/1000] Arby's — Lake Oswego, OR ... ❌ no result
+[482/1000] Arby's — Redmond, OR ... ✓ 44.2568, -121.1805 — 2076 The Dalles-California Highway
+[483/1000] Arby's — North Providence, RI ... ❌ no result
+[484/1000] Arby's — Coventry, RI ... ❌ no result
+[485/1000] Arby's — Anderson, SC ... ✓ 34.7787, -82.4678 — 3028 McNeely Road
+[486/1000] Arby's — Goose Creek, SC ... ✓ 33.0362, -80.0642 — 611 Saint James Avenue
+[487/1000] Arby's — Watertown, SD ... ✓ 44.8897, -97.0964 — 1220 9th Avenue Southeast
+[488/1000] Arby's — Hendersonville, TN ... ❌ no result
+[489/1000] Arby's — Brentwood, TN ... ✓ 35.0884, -85.1875 — 4766 Highway 58
+[490/1000] Arby's — Longview, TX ... ✓ 32.5077, -94.7488 — 1025 McCann Road
+[491/1000] Arby's — New Braunfels, TX ... ✓ 29.6846, -98.1296 — 1395 Interstate 35 South
+[492/1000] Arby's — Rowlett, TX ... ✓ 32.9081, -96.5745 — 2625 Lakeview Parkway
+[493/1000] Arby's — Georgetown, TX ... ✓ 30.6457, -97.6857 — 1108 Rivery Boulevard
+[494/1000] Arby's — Conroe, TX ... ✓ 30.3350, -95.4707 — 1025 North Loop 336 West
+[495/1000] Arby's — Lehi, UT ... ❌ no result
+[496/1000] Arby's — Draper, UT ... ✓ 40.5288, -111.8555 — 1257 Draper Parkway
+[497/1000] Arby's — American Fork, UT ... ✓ 40.3738, -111.7870 — 450 State Street
+[498/1000] Arby's — Shoreline, WA ... ✓ 47.7781, -122.3472 — 8425 North 205th Street
+[499/1000] Arby's — New Berlin, WI ... ✓ 42.9556, -88.1104 — 15705 West Beloit Road
+[500/1000] Arby's — Menomonee Falls, WI ... ✓ 43.1929, -88.1290 — N96w17650 County Line Road
+[501/1000] Arby's — Oak Creek, WI ... ✓ 42.8732, -87.9418 — 1920 West Ryan Road
+[502/1000] Arby's — Manitowoc, WI ... ✓ 44.0755, -87.7017 — 4201 Harbor Town Lane
+[503/1000] Arby's — Lakewood, CO ... ✓ 39.6826, -105.0827 — 7637 West Jewell Avenue
+[504/1000] Arby's — Green River, WY ... ❌ no result
+[505/1000] Arby's — Riverton, WY ... ✓ 43.0249, -108.4079 — 1140 West Main Street
+[506/1000] Arby's — Joliet, IL ... ✓ 41.5600, -88.2008 — 2101 IL 59
+[507/1000] Arby's — Thornton, CO ... ✓ 39.9143, -104.9413 — 3903 East 120th Avenue
+[508/1000] Arby's — Fort Collins, CO ... ✓ 40.5398, -105.0766 — 3460 South College Avenue
+[509/1000] Arby's — Lakewood, WA ... ✓ 47.1674, -122.5210 — 9824 Gravelly Lake Drive Southwest
+[510/1000] Arby's — Cedar City, UT ... ✓ 37.6805, -113.0754 — 927 W 200 North
+[511/1000] Arby's — Olympia, WA ... ✓ 47.0464, -122.9332 — 2528 Harrison Avenue Northwest
+[512/1000] Arby's — Pine Bluff, AR ... ✓ 34.1741, -92.0058 — 5507 South Olive Street
+[513/1000] Arby's — Hot Springs, AR ... ✓ 34.4799, -93.0603 — 3200 Central Avenue
+[514/1000] Arby's — Texarkana, AR ... ❌ no result
+[515/1000] Arby's — Murrieta, CA ... ✓ 33.5538, -117.1971 — 25251 Madison Avenue
+[516/1000] Arby's — Hemet, CA ... ✓ 33.7469, -117.0027 — 2915 West Florida Avenue
+[517/1000] Arby's — Perris, CA ... ❌ no result
+[518/1000] Arby's — Lake Elsinore, CA ... ❌ no result
+[519/1000] Arby's — San Marcos, CA ... ✓ 33.1326, -117.1974 — 1280 West San Marcos Boulevard
+[520/1000] Arby's — Norwalk, CA ... ❌ no result
+[521/1000] Arby's — Inglewood, CA ... ✓ 33.9612, -118.3722 — 913 West Manchester Boulevard
+[522/1000] Arby's — El Monte, CA ... ❌ no result
+[523/1000] Arby's — Clovis, CA ... ❌ no result
+[524/1000] Arby's — Turlock, CA ... ❌ no result
+[525/1000] Arby's — Manteca, CA ... ❌ no result
+[526/1000] Arby's — Birmingham, AL ... ✓ 33.4304, -86.7094 — 4615 US 280
+[527/1000] Arby's — Arvada, CO ... ✓ 39.8413, -105.0812 — 7990 Wadsworth Boulevard
+[528/1000] Arby's — Santa Barbara, CA ... ✓ 34.9177, -120.4357 — South Broadway
+[529/1000] Arby's — Rogers, AR ... ✓ 36.3295, -94.1253 — 501 South 8th Street
+[530/1000] Arby's — Camarillo, CA ... ❌ no result
+[531/1000] Arby's — Westminster, CO ... ✓ 39.8632, -105.0519 — 5130 West 92nd Avenue
+[532/1000] Arby's — Upland, CA ... ✓ 34.1077, -117.6339 — 1299 East Foothill Boulevard
+[533/1000] Arby's — Mission Viejo, CA ... ❌ no result
+[534/1000] Arby's — Lake Forest, CA ... ✓ 33.6793, -117.6631 — 26801 Portola Parkway
+[535/1000] Arby's — Pueblo, CO ... ✓ 38.3084, -104.6179 — 719 US 50
+[536/1000] Arby's — Santa Monica, CA ... ❌ no result
+[537/1000] Arby's — Danbury, CT ... ✓ 41.4267, -73.4194 — 118 Federal Road
+[538/1000] Arby's — Norwalk, CT ... ❌ no result
+[539/1000] Arby's — New Britain, CT ... ❌ no result
+[540/1000] Arby's — Bristol, CT ... ❌ no result
+[541/1000] Arby's — Middletown, CT ... ❌ no result
+[542/1000] Arby's — Southington, CT ... ✓ 41.5632, -72.8734 — 869 Meriden-Waterbury Turnpike
+[543/1000] Arby's — Brandon, FL ... ❌ no result
+[544/1000] Arby's — Beavercreek, OH ... ❌ no result
+[545/1000] Arby's — Doral, FL ... ❌ no result
+[546/1000] Arby's — Lehigh Acres, FL ... ❌ no result
+[547/1000] Arby's — Sunrise, FL ... ✓ 26.1462, -80.3260 — 12901 West Sunrise Boulevard
+[548/1000] Arby's — Plantation, FL ... ✓ 26.1496, -80.2577 — 1851 North University Drive
+[549/1000] Arby's — Sarasota, FL ... ✓ 27.1035, -82.3837 — 19411 Times Circle
+[550/1000] Arby's — Port Charlotte, FL ... ✓ 27.0122, -82.1434 — 1380 Tamiami Trail
+[551/1000] Arby's — Augusta-Richmond, GA ... ✓ 33.4494, -82.0322 — 1813 Gordon Highway
+[552/1000] Arby's — Peachtree City, GA ... ✓ 33.3957, -84.5895 — 133 Joel Cowan Parkway
+[553/1000] Arby's — Mishawaka, IN ... ✓ 41.7117, -86.1787 — 5610 North Main Street
+[554/1000] Arby's — Lawrence, IN ... ✓ 38.8462, -86.5148 — 3216 29th Street
+[555/1000] Arby's — Nicholasville, KY ... ✓ 37.8675, -84.5775 — 902 South Main Street
+[556/1000] Arby's — Alexandria, LA ... ❌ no result
+[557/1000] Arby's — Silver Spring, MD ... ❌ no result
+[558/1000] Arby's — Waldorf, MD ... ✓ 38.6116, -76.9268 — 1130 Smallwood Drive
+[559/1000] Arby's — Towson, MD ... ❌ no result
+[560/1000] Arby's — Bethesda, MD ... ❌ no result
+[561/1000] Arby's — Fall River, MA ... ❌ no result
+[562/1000] Arby's — Taunton, MA ... ❌ no result
+[563/1000] Arby's — Malden, MA ... ❌ no result
+[564/1000] Arby's — Medford, MA ... ✓ 42.3132, -122.8602 — 41 East Stewart Avenue
+[565/1000] Arby's — Lynn, MA ... ✓ 39.5102, -84.7513 — 2 Lynn Avenue
+[566/1000] Arby's — Newton, MA ... ✓ 38.0214, -97.3374 — 421 Windward Drive
+[567/1000] Arby's — Weymouth, MA ... ❌ no result
+[568/1000] Arby's — Attleboro, MA ... ❌ no result
+[569/1000] Arby's — Saginaw, MI ... ✓ 43.4787, -83.9762 — 4905 Bay Road
+[570/1000] Arby's — Muskegon, MI ... ✓ 43.1505, -86.2052 — 5560 South Harvey Street
+[571/1000] Arby's — Canton, MI ... ✓ 42.3228, -83.4752 — 44040 Ford Road
+[572/1000] Arby's — Shelby Charter Township, MI ... ❌ no result
+[573/1000] Arby's — Coon Rapids, MN ... ✓ 45.1708, -93.3391 — 2820 Coon Rapids Boulevard Northwest
+[574/1000] Arby's — Eagan, MN ... ✓ 44.8328, -93.1608 — 1279 Town Centre Drive
+[575/1000] Arby's — Shakopee, MN ... ✓ 44.7800, -93.5047 — 1546 Marschall Road
+[576/1000] Arby's — Maplewood, MN ... ✓ 45.0354, -93.0182 — 3109 White Bear Avenue
+[577/1000] Arby's — Inver Grove Heights, MN ... ❌ no result
+[578/1000] Arby's — Richfield, MN ... ❌ no result
+[579/1000] Arby's — Pascagoula, MS ... ❌ no result
+[580/1000] Arby's — Clinton, MS ... ❌ no result
+[581/1000] Arby's — Brandon, MS ... ❌ no result
+[582/1000] Arby's — Spring Valley, NV ... ❌ no result
+[583/1000] Arby's — Fernley, NV ... ✓ 39.6178, -119.2665 — Commerce Center Drive
+[584/1000] Arby's — Mesquite, NV ... ❌ no result
+[585/1000] Arby's — Rochester, NH ... ❌ no result
+[586/1000] Arby's — Keene, NH ... ❌ no result
+[587/1000] Arby's — Starkville, MS ... ❌ no result
+[588/1000] Arby's — Elmira, NY ... ✓ 42.1500, -76.8341 — 2487 Corning Road
+[589/1000] Arby's — Jacksonville, NC ... ✓ 34.7869, -77.4028 — 1365 Western Boulevard
+[590/1000] Arby's — Kannapolis, NC ... ✓ 35.4760, -80.6108 — 1315 South Cannon Boulevard
+[591/1000] Arby's — Orem, UT ... ✓ 40.2762, -111.6866 — 1150 State Street
+[592/1000] Arby's — Wilson, NC ... ✓ 35.7333, -77.9516 — Forest Hills Drive West
+[593/1000] Arby's — Monroe, NC ... ❌ no result
+[594/1000] Arby's — Hickory, NC ... ✓ 35.7533, -81.3713 — 1470 15th Avenue Northwest
+[595/1000] Arby's — Boulder, CO ... ✓ 40.1979, -105.1020 — 2150 Main Street
+[596/1000] Arby's — Grants Pass, OR ... ✓ 42.4352, -123.3034 — 140 Northeast Terry Lane
+[597/1000] Arby's — Klamath Falls, OR ... ✓ 42.2108, -121.7551 — 2759 South 6th Street
+[598/1000] Arby's — Ashland, OR ... ❌ no result
+[599/1000] Arby's — Bridgeport, CT ... ❌ no result
+[600/1000] Arby's — State College, PA ... ❌ no result
+[601/1000] Arby's — Norristown, PA ... ✓ 40.1403, -75.3115 — 16 East Germantown Pike
+[602/1000] Arby's — New Haven, CT ... ✓ 41.4020, -72.8498 — 267 Washington Avenue
+[603/1000] Arby's — Hazleton, PA ... ✓ 40.9717, -76.0109 — 400 Susquehanna Boulevard
+[604/1000] Arby's — New Castle, PA ... ✓ 41.0116, -80.3951 — 2539 West State Street
+[605/1000] Arby's — Lebanon, PA ... ✓ 40.3206, -76.5628 — 91 North Londonderry Square
+[606/1000] Arby's — Pottsville, PA ... ❌ no result
+[607/1000] Arby's — Apex, NC ... ✓ 35.7109, -78.8391 — 1500 East Williams Street
+[608/1000] Arby's — Collierville, TN ... ✓ 35.0457, -89.6941 — 967 West Poplar Avenue
+[609/1000] Arby's — Murray, UT ... ✓ 40.6440, -111.8896 — 5830 State Street
+[610/1000] Arby's — Auburn, WA ... ✓ 47.3205, -122.2276 — 140 15th Street Northeast
+[611/1000] Arby's — Yakima, WA ... ✓ 46.5997, -120.5622 — 4002 Summitview Avenue
+[612/1000] Arby's — Sammamish, WA ... ❌ no result
+[613/1000] Arby's — Des Moines, WA ... ✓ 41.5902, -93.5951 — 208 Johnson Court
+[614/1000] Arby's — Kenmore, WA ... ❌ no result
+[615/1000] Arby's — Wheeling, WV ... ✓ 40.0486, -80.6642 — 2058 National Road
+[616/1000] Arby's — Beckley, WV ... ✓ 37.7973, -81.1838 — 3692 Robert C. Byrd Drive
+[617/1000] Arby's — Wauwatosa, WI ... ❌ no result
+[618/1000] Arby's — Sheboygan, WI ... ✓ 43.7168, -87.7642 — 4003 State Highway 28
+[619/1000] Arby's — Fond du Lac, WI ... ✓ 43.7839, -88.4882 — 6606 West Johnson Street
+[620/1000] Arby's — Gilbert, AZ ... ✓ 33.3768, -111.6884 — 2130 South Power Road
+[621/1000] Arby's — Peoria, AZ ... ✓ 33.6538, -112.2370 — 18735 North 83rd Avenue
+[622/1000] Arby's — Surprise, AZ ... ✓ 33.6082, -112.4133 — 13641 North Prasada Parkway
+[623/1000] Arby's — San Jose, CA ... ✓ 37.2526, -121.8312 — 5519 Snell Avenue
+[624/1000] Arby's — San Francisco, CA ... ❌ no result
+[625/1000] Arby's — Bakersfield, CA ... ✓ 35.3837, -119.0429 — 2610 Buck Owens Boulevard
+[626/1000] Arby's — Anaheim, CA ... ✓ 33.8029, -117.9390 — West Katella Avenue
+[627/1000] Arby's — Irvine, CA ... ✓ 33.6926, -117.8262 — 76 Corporate Park
+[628/1000] Arby's — Chula Vista, CA ... ✓ 32.6469, -116.9675 — 2244 Otay Lakes Road
+[629/1000] Arby's — San Bernardino, CA ... ✓ 34.0891, -117.2945 — South E Street
+[630/1000] Arby's — Lafayette, LA ... ✓ 30.1799, -92.0744 — 3333 Ambassador Caffery Parkway
+[631/1000] Arby's — Glendale, CA ... ❌ no result
+[632/1000] Arby's — Huntington Beach, CA ... ❌ no result
+[633/1000] Arby's — Garden Grove, CA ... ✓ 33.7876, -118.0108 — Knott Street
+[634/1000] Arby's — Oxnard, CA ... ❌ no result
+[635/1000] Arby's — Corona, CA ... ✓ 33.8779, -117.5923 — 1406 West 6th Street
+[636/1000] Arby's — Elk Grove, CA ... ✓ 38.4096, -121.3876 — 8511 Elk Grove Boulevard
+[637/1000] Arby's — Pasadena, CA ... ❌ no result
+[638/1000] Arby's — Fullerton, CA ... ❌ no result
+[639/1000] Arby's — Huntersville, NC ... ❌ no result
+[640/1000] Arby's — Waterloo, IA ... ✓ 42.4597, -92.3562 — 3657 Kimball Avenue
+[641/1000] Arby's — Juneau, AK ... ❌ no result
+[642/1000] Arby's — Auburn, AL ... ✓ 32.5718, -85.4992 — 1711 South College Street
+[643/1000] Arby's — Salinas, CA ... ✓ 36.6593, -121.6185 — 1264 Roy Diaz Street
+[644/1000] Arby's — Palmdale, CA ... ✓ 34.6047, -118.1484 — 1037 Mall Ring Road
+[645/1000] Arby's — Chico, CA ... ✓ 39.7153, -121.7932 — 2485 Notre Dame Boulevard
+[646/1000] Arby's — Vallejo, CA ... ❌ no result
+[647/1000] Arby's — Hartford, CT ... ❌ no result
+[648/1000] Arby's — Stamford, CT ... ❌ no result
+[649/1000] Arby's — Wilmington, DE ... ✓ 39.8080, -75.5494 — 4000 Concord Pike
+[650/1000] Arby's — Dover, DE ... ✓ 39.1584, -75.5503 — 1200 Forrest Avenue
+[651/1000] Arby's — Tampa, FL ... ✓ 27.9967, -82.3901 — 5818 East Hillsborough Avenue
+[652/1000] Arby's — Orlando, FL ... ✓ 28.5538, -81.3345 — 4025 East Colonial Drive
+[653/1000] Arby's — Hialeah, FL ... ✓ 25.8524, -80.3194 — West 18th Avenue
+[654/1000] Arby's — Tallahassee, FL ... ✓ 30.4702, -84.2895 — 2258 North Monroe Street
+[655/1000] Arby's — Hollywood, FL ... ❌ no result
+[656/1000] Arby's — Dothan, AL ... ✓ 31.2687, -85.4450 — 124 Hospitality Lane
+[657/1000] Arby's — Miramar, FL ... ❌ no result
+[658/1000] Arby's — Florence, AL ... ✓ 34.8218, -87.6507 — 1610 Florence Boulevard
+[659/1000] Arby's — Palm Bay, FL ... ✓ 28.0347, -80.6504 — 748 Palm Bay Road Northeast
+[660/1000] Arby's — Decatur, AL ... ✓ 34.5708, -86.9728 — 2120 6th Avenue Southeast
+[661/1000] Arby's — West Palm Beach, FL ... ✓ 26.7073, -80.1075 — 4275 Okeechobee Boulevard
+[662/1000] Arby's — Pompano Beach, FL ... ❌ no result
+[663/1000] Arby's — Phenix City, AL ... ✓ 32.4688, -85.0295 — 1133 14th
+[664/1000] Arby's — Madison, AL ... ✓ 34.6626, -86.4843 — 6545 US 431
+[665/1000] Arby's — Hoover, AL ... ✓ 33.3798, -86.7986 — 3775 Lorna Road
+[666/1000] Arby's — Savannah, GA ... ✓ 32.0031, -81.1131 — 307 Mall Boulevard
+[667/1000] Arby's — Roswell, GA ... ✓ 34.0396, -84.3422 — 10601 Alpharetta Highway
+[668/1000] Arby's — Johns Creek, GA ... ✓ 34.0164, -84.1868 — State Bridge Road Trail
+[669/1000] Arby's — Warner Robins, GA ... ✓ 32.6180, -83.6526 — 2061 Watson Boulevard
+[670/1000] Arby's — Alpharetta, GA ... ✓ 34.0940, -84.2769 — 5160 Windward Parkway
+[671/1000] Arby's — Meridian, ID ... ✓ 43.6165, -116.3539 — 1270 North Eagle Road
+[672/1000] Arby's — Harlingen, TX ... ✓ 26.1716, -97.6751 — 1325 South Ed Carey Drive
+[673/1000] Arby's — Pocatello, ID ... ✓ 42.8894, -112.4518 — 791 Yellowstone Avenue
+[674/1000] Arby's — Chicago, IL ... ✓ 41.8823, -87.6337 — 5 North Wells Street
+[675/1000] Arby's — Prattville, AL ... ✓ 32.4601, -86.4252 — 1700 East Main Street
+[676/1000] Arby's — Rockford, IL ... ✓ 42.2240, -89.0731 — 1510 Sandy Hollow Road
+[677/1000] Arby's — Elgin, IL ... ❌ no result
+[678/1000] Arby's — Peoria, IL ... ✓ 40.7696, -89.6529 — 3818 West War Memorial Drive
+[679/1000] Arby's — Bloomington, IL ... ✓ 40.4834, -89.0213 — 1808 West Market Street
+[680/1000] Arby's — Indianapolis, IN ... ✓ 39.8255, -86.2371 — 3846 Lafayette Road
+[681/1000] Arby's — Evansville, IN ... ✓ 37.9887, -87.4932 — 1340 North Green River Road
+[682/1000] Arby's — South Bend, IN ... ✓ 41.6931, -86.2981 — 3425 Lincolnway West
+[683/1000] Arby's — Bloomington, IN ... ✓ 39.1646, -86.4968 — 2713 East 3rd Street
+[684/1000] Arby's — Hammond, IN ... ❌ no result
+[685/1000] Arby's — Lafayette, IN ... ✓ 40.3949, -86.8550 — 2219 Sagamore Parkway South
+[686/1000] Arby's — Des Moines, IA ... ✓ 41.5902, -93.5951 — 208 Johnson Court
+[687/1000] Arby's — Bryan, TX ... ❌ no result
+[688/1000] Arby's — Vestavia Hills, AL ... ✓ 33.4156, -86.8045 — 1482 Montgomery Highway
+[689/1000] Arby's — Kansas City, KS ... ✓ 39.1169, -94.7523 — 7500 State Avenue
+[690/1000] Arby's — College Station, TX ... ✓ 30.6065, -96.3094 — 1800 Southwest Parkway
+[691/1000] Arby's — Pearland, TX ... ✓ 29.5802, -95.3939 — 11233 Shadow Creek Parkway
+[692/1000] Arby's — Sugar Land, TX ... ❌ no result
+[693/1000] Arby's — Lexington, KY ... ✓ 38.0101, -84.4538 — 2649 Richmond Road
+[694/1000] Arby's — Bowling Green, KY ... ✓ 36.9811, -86.4661 — 1818 Russellville Road
+[695/1000] Arby's — Tyler, TX ... ✓ 32.3069, -95.3002 — 4006 South Broadway Avenue
+[696/1000] Arby's — Allen, TX ... ✓ 33.1047, -96.6778 — 201 Central Expressway North
+[697/1000] Arby's — Richardson, TX ... ✓ 32.9735, -96.6992 — 1820 North Plano Road
+[698/1000] Arby's — League City, TX ... ❌ no result
+[699/1000] Arby's — Rosenberg, TX ... ❌ no result
+[700/1000] Arby's — Gadsden, AL ... ✓ 34.0106, -85.9885 — 198 East Meighan Boulevard
+[701/1000] Arby's — Mission, TX ... ❌ no result
+[702/1000] Arby's — Edinburg, TX ... ❌ no result
+[703/1000] Arby's — Woodbury, MN ... ✓ 44.9451, -92.9057 — 9975 Hudson Road
+[704/1000] Arby's — Baltimore, MD ... ✓ 39.1796, -76.6712 — 7050 Arrival Roadway (Authorized Vehicles)
+[705/1000] Arby's — Rockville, MD ... ❌ no result
+[706/1000] Arby's — Gaithersburg, MD ... ❌ no result
+[707/1000] Arby's — Annapolis, MD ... ❌ no result
+[708/1000] Arby's — Boston, MA ... ✓ 38.7542, -82.9228 — 4508 Gallia Street
+[709/1000] Arby's — Springfield, MA ... ✓ 39.8344, -89.6040 — 3201 Northfield Drive
+[710/1000] Arby's — Lowell, MA ... ✓ 42.9315, -85.3630 — 2143 West Main Street
+[711/1000] Arby's — Quincy, MA ... ✓ 41.0176, -92.4379 — 1130 North Quincy Avenue
+[712/1000] Arby's — Detroit, MI ... ✓ 42.1082, -83.2865 — 27074 Telegraph Road
+[713/1000] Arby's — Warren, MI ... ✓ 42.4954, -83.0272 — 27400 Van Dyke Avenue
+[714/1000] Arby's — Sterling Heights, MI ... ✓ 42.6167, -82.9934 — 43761 Schoenherr Road
+[715/1000] Arby's — Flint, MI ... ✓ 42.9916, -83.7356 — 3080 Miller Road
+[716/1000] Arby's — Dearborn, MI ... ✓ 42.2944, -83.2707 — 2431 South Telegraph Road
+[717/1000] Arby's — Westland, MI ... ✓ 42.3464, -83.3849 — 8068 North Wayne Road
+[718/1000] Arby's — Waco, TX ... ✓ 31.5298, -97.1775 — 723 North Valley Mills Drive
+[719/1000] Arby's — Saint Paul, MN ... ✓ 44.9554, -93.1768 — 1810 University Avenue
+[720/1000] Arby's — Rochester, MN ... ✓ 44.0065, -92.4751 — 1218 Apache Drive Southwest
+[721/1000] Arby's — Bloomington, MN ... ❌ no result
+[722/1000] Arby's — Brooklyn Park, MN ... ❌ no result
+[723/1000] Arby's — St. Cloud, MN ... ✓ 45.5634, -94.1422 — 348 Lincoln Avenue Southeast
+[724/1000] Arby's — Jackson, MS ... ✓ 32.3037, -90.1703 — 1260 High Street
+[725/1000] Arby's — Southaven, MS ... ✓ 34.9633, -90.0035 — 712 Desoto Cove
+[726/1000] Arby's — Odessa, TX ... ✓ 31.8806, -102.3847 — 3805 Andrews Highway
+[727/1000] Arby's — Kansas City, MO ... ✓ 39.2432, -94.4658 — 8261 North Oxford Avenue
+[728/1000] Arby's — St. Louis, MO ... ✓ 38.5901, -90.3064 — 6666 Chippewa Street
+[729/1000] Arby's — Columbia, MO ... ✓ 38.9538, -92.3852 — 3200 Broadway Business Park Court
+[730/1000] Arby's — Independence, MO ... ✓ 39.0738, -94.3784 — 2531 MO 291
+[731/1000] Arby's — St. Joseph, MO ... ✓ 39.7817, -94.8036 — 1604 North Belt Highway
+[732/1000] Arby's — St. Charles, MO ... ✓ 38.8014, -90.7007 — 705 MO K
+[733/1000] Arby's — Billings, MT ... ✓ 45.7547, -108.5848 — 2834 King Avenue West
+[734/1000] Arby's — Missoula, MT ... ✓ 46.8441, -114.0243 — 2900 Brooks Street
+[735/1000] Arby's — Grand Island, NE ... ✓ 40.9444, -98.3783 — 2333 North Webb Road
+[736/1000] Arby's — Las Vegas, NV ... ✓ 36.2415, -115.2351 — 4521 North Rancho Drive
+[737/1000] Arby's — Reno, NV ... ✓ 39.5558, -119.7841 — 2899 Northtowne Lane
+[738/1000] Arby's — Mentor, OH ... ✓ 41.6609, -81.3773 — 7715 Reynolds Road
+[739/1000] Arby's — Carson City, NV ... ✓ 39.1568, -119.7674 — South Carson Street
+[740/1000] Arby's — Manchester, NH ... ✓ 42.9569, -71.4319 — 1500 South Willow Street
+[741/1000] Arby's — Concord, NH ... ❌ no result
+[742/1000] Arby's — Newark, NJ ... ❌ no result
+[743/1000] Arby's — Edison, NJ ... ❌ no result
+[744/1000] Arby's — Woodbridge, NJ ... ❌ no result
+[745/1000] Arby's — Toms River, NJ ... ❌ no result
+[746/1000] Arby's — Hamilton, NJ ... ❌ no result
+[747/1000] Arby's — Las Cruces, NM ... ✓ 32.2974, -106.7703 — 510 East Idaho Avenue
+[748/1000] Arby's — Rio Rancho, NM ... ✓ 35.2420, -106.6691 — Southern Boulevard Southeast
+[749/1000] Arby's — Buffalo, NY ... ✓ 43.0348, -78.8221 — 2945 Niagara Falls Boulevard
+[750/1000] Arby's — Rochester, NY ... ✓ 43.1486, -77.5975 — Monroe Avenue
+[751/1000] Arby's — Mount Vernon, NY ... ❌ no result
+[752/1000] Arby's — Schenectady, NY ... ❌ no result
+[753/1000] Arby's — Charlotte, NC ... ✓ 35.3061, -80.7228 — 9518 University City Boulevard
+[754/1000] Arby's — Lawton, OK ... ✓ 34.6092, -98.4218 — 1 Northwest Sheridan Road
+[755/1000] Arby's — Midwest City, OK ... ✓ 35.4485, -97.4056 — 700 South Air Depot Boulevard
+[756/1000] Arby's — Portland, OR ... ✓ 45.5187, -122.5594 — 10071 Southeast Washington Street
+[757/1000] Arby's — Eugene, OR ... ✓ 44.0961, -123.1288 — 35 Silver Lane
+[758/1000] Arby's — Gresham, OR ... ✓ 45.5072, -122.4254 — 520 Northeast Burnside Road
+[759/1000] Arby's — Medford, OR ... ✓ 42.3132, -122.8602 — 41 East Stewart Avenue
+[760/1000] Arby's — Philadelphia, PA ... ✓ 40.0899, -74.9642 — 577 Franklin Mills Boulevard
+[761/1000] Arby's — Allentown, PA ... ✓ 40.6305, -75.4411 — 1305 Airport Road
+[762/1000] Arby's — Erie, PA ... ✓ 42.0921, -80.0841 — 4105 Peach Street
+[763/1000] Arby's — Bethlehem, PA ... ✓ 40.6503, -75.3374 — 3020 Easton Avenue
+[764/1000] Arby's — Lancaster, PA ... ✓ 40.0268, -76.2208 — 2230 Lincoln Highway East
+[765/1000] Arby's — Altoona, PA ... ✓ 40.4723, -78.4067 — 524 West Plank Road
+[766/1000] Arby's — Providence, RI ... ❌ no result
+[767/1000] Arby's — Greenville, SC ... ✓ 34.8203, -82.3391 — 11 Verdae Boulevard
+[768/1000] Arby's — Summerville, SC ... ❌ no result
+[769/1000] Arby's — Sioux Falls, SD ... ✓ 43.6027, -96.7106 — 5050 North Cliff Avenue
+[770/1000] Arby's — Rapid City, SD ... ✓ 44.0622, -103.2318 — 2400 Mount Rushmore Road
+[771/1000] Arby's — Chattanooga, TN ... ✓ 35.0884, -85.1875 — 4766 Highway 58
+[772/1000] Arby's — Clarksville, TN ... ✓ 36.5944, -87.2874 — 3067 Wilma Rudolph Boulevard
+[773/1000] Arby's — Franklin, TN ... ✓ 35.9154, -86.8340 — 1130 Murfreesboro Road
+[774/1000] Arby's — Jackson, TN ... ✓ 35.6817, -88.8568 — 208 Stonebrook Place
+[775/1000] Arby's — Raleigh, NC ... ✓ 35.8716, -78.5791 — 6308 Capital Boulevard
+[776/1000] Arby's — Ocala, FL ... ❌ no result
+[777/1000] Arby's — Euclid, OH ... ✓ 41.5879, -81.5011 — 26000 Euclid Avenue
+[778/1000] Arby's — Kettering, OH ... ✓ 39.7144, -84.1432 — South Smithville Road
+[779/1000] Arby's — Fort Worth, TX ... ✓ 32.7534, -97.1716 — Eastchase Parkway
+[780/1000] Arby's — El Paso, TX ... ✓ 31.8850, -106.4186 — 9575 Dyer Street
+[781/1000] Arby's — Corpus Christi, TX ... ❌ no result
+[782/1000] Arby's — Plano, TX ... ✓ 33.0190, -96.7327 — 2012 West 15th Street
+[783/1000] Arby's — Amarillo, TX ... ✓ 35.1907, -101.8174 — 2020 Ross Osage Drive
+[784/1000] Arby's — Grand Prairie, TX ... ✓ 32.6734, -97.0448 — 4030 South Great Southwest Parkway
+[785/1000] Arby's — Pasadena, TX ... ✓ 29.6503, -95.1589 — 5471 Fairmont Parkway
+[786/1000] Arby's — Williston, ND ... ✓ 48.1545, -103.6264 — 1107 11th Street West
+[787/1000] Arby's — Frisco, TX ... ✓ 33.1223, -96.8049 — 5244 Preston Road
+[788/1000] Arby's — Mesquite, TX ... ✓ 32.7886, -96.5966 — 1821 Range Drive
+[789/1000] Arby's — Carrollton, TX ... ✓ 32.9869, -96.8416 — 2670 Midway Road
+[790/1000] Arby's — Denton, TX ... ✓ 33.1900, -97.1040 — 2313 Colorado Boulevard
+[791/1000] Arby's — Round Rock, TX ... ✓ 30.4926, -97.6550 — 1951 South A W Grimes Boulevard
+[792/1000] Arby's — Salt Lake City, UT ... ✓ 40.7336, -111.9383 — 1685 Redwood Road
+[793/1000] Arby's — Provo, UT ... ✓ 40.2141, -111.6583 — 1474 East Bay Boulevard
+[794/1000] Arby's — West Jordan, UT ... ✓ 40.6092, -111.9600 — 2819 7800 South
+[795/1000] Arby's — St. George, UT ... ✓ 37.0961, -113.5865 — 717 Bluff Street
+[796/1000] Arby's — Layton, UT ... ✓ 41.0742, -111.9506 — 987 Gordon Avenue
+[797/1000] Arby's — Burlington, VT ... ❌ no result
+[798/1000] Arby's — South Burlington, VT ... ❌ no result
+[799/1000] Arby's — Alexandria, VA ... ✓ 38.8190, -77.1427 — 4817 Beauregard Street
+[800/1000] Arby's — Daytona Beach, FL ... ✓ 29.1782, -81.0059 — 1800 Ridgewood Avenue
+[801/1000] Arby's — Roanoke, VA ... ✓ 37.2718, -79.9199 — 1401 Jamison Avenue Southeast
+[802/1000] Arby's — West Fargo, ND ... ✓ 46.8592, -96.8516 — 1415 42nd Street
+[803/1000] Arby's — Seattle, WA ... ❌ no result
+[804/1000] Arby's — Spokane, WA ... ✓ 47.7885, -117.3520 — 14414 North Newport Highway
+[805/1000] Arby's — Vancouver, WA ... ✓ 45.6446, -122.5997 — 7117 Northeast Fourth Plain Boulevard
+[806/1000] Arby's — Bellevue, WA ... ❌ no result
+[807/1000] Arby's — Spokane Valley, WA ... ✓ 47.6718, -117.1988 — 15327 East Indiana Avenue
+[808/1000] Arby's — Federal Way, WA ... ✓ 47.2933, -122.3129 — 34404 16th Avenue South
+[809/1000] Arby's — Bellingham, WA ... ✓ 48.8001, -122.4854 — 4390 Meridian Street
+[810/1000] Arby's — Charleston, WV ... ✓ 38.3130, -81.5661 — 5740 MacCorkle Avenue Southeast
+[811/1000] Arby's — Parkersburg, WV ... ✓ 39.2174, -81.5450 — 2899 Pike Street
+[812/1000] Arby's — Milwaukee, WI ... ✓ 42.9937, -88.0461 — 10743 West National Avenue
+[813/1000] Arby's — Green Bay, WI ... ✓ 44.5238, -88.0652 — 1630 West Mason Street
+[814/1000] Arby's — Kenosha, WI ... ✓ 42.5671, -87.8775 — 5800 State Highway 50
+[815/1000] Arby's — Janesville, WI ... ✓ 42.7231, -88.9955 — 2101 Morse Street
+[816/1000] Arby's — Riverton, UT ... ✓ 40.5074, -111.9779 — 3643 13400 South
+[817/1000] Arby's — Casper, WY ... ✓ 42.8512, -106.2715 — 80 Southeast Wyoming Boulevard
+[818/1000] Arby's — Bountiful, UT ... ✓ 40.8626, -111.8950 — 2489 Main Street
+[819/1000] Arby's — Greensboro, NC ... ✓ 36.0505, -79.9022 — 1319 Bridford Parkway
+[820/1000] Arby's — Delray Beach, FL ... ✓ 26.4393, -80.0756 — 280 Linton Boulevard
+[821/1000] Arby's — Winston-Salem, NC ... ✓ 36.1864, -80.2751 — University Parkway
+[822/1000] Arby's — Fayetteville, NC ... ✓ 35.0715, -78.9659 — 1898 Morganton Road
+[823/1000] Arby's — Concord, NC ... ✓ 35.3971, -80.6106 — 274 Concord Parkway South
+[824/1000] Arby's — Fargo, ND ... ✓ 46.8337, -96.8205 — 3185 25th Street South
+[825/1000] Arby's — Grand Forks, ND ... ✓ 47.8887, -97.0834 — 3851 32nd Avenue South
+[826/1000] Arby's — Minot, ND ... ❌ no result
+[827/1000] Arby's — Cincinnati, OH ... ✓ 39.1458, -84.6256 — 6271 Glenway Avenue
+[828/1000] Arby's — Toledo, OH ... ✓ 41.7211, -83.5709 — 1205 West Alexis Road
+[829/1000] Arby's — Dayton, OH ... ✓ 39.7576, -84.1870 — 160 South Patterson Boulevard
+[830/1000] Arby's — Boynton Beach, FL ... ❌ no result
+[831/1000] Arby's — Norman, OK ... ✓ 35.2178, -97.4793 — 2490 West Main Street
+[832/1000] Arby's — Montpelier, VT ... ❌ no result
+[833/1000] Arby's — Sitka, AK ... ❌ no result
+[834/1000] Arby's — Wasilla, AK ... ✓ 61.5760, -149.4082 — Financial Drive
+[835/1000] Arby's — Goodyear, AZ ... ✓ 33.4523, -112.3587 — 442 North Litchfield Road
+[836/1000] Arby's — Largo, FL ... ✓ 27.8843, -82.7877 — 12260 Seminole Boulevard
+[837/1000] Arby's — Yuma, AZ ... ✓ 32.6911, -114.5827 — 2000 South Avenue 3 East
+[838/1000] Arby's — Casa Grande, AZ ... ✓ 32.8800, -111.7340 — 1220 East Florence Boulevard
+[839/1000] Arby's — Pensacola, FL ... ✓ 30.5096, -87.2205 — 8096 North Davis Highway
+[840/1000] Arby's — Fort Myers, FL ... ✓ 26.6598, -81.8830 — 13050 North Cleveland Avenue
+[841/1000] Arby's — Prescott, AZ ... ✓ 34.5622, -112.4876 — 1265 Iron Springs Road
+[842/1000] Arby's — Jonesboro, AR ... ✓ 35.8617, -90.6487 — 4112 East Johnson Avenue
+[843/1000] Arby's — Melbourne, FL ... ✓ 28.0793, -80.6597 — 2300 New Haven Avenue
+[844/1000] Arby's — Naples, FL ... ✓ 26.2104, -81.7688 — 2436 Pine Ridge Road
+[845/1000] Arby's — Sanford, FL ... ✓ 28.7600, -81.2850 — 3725 US 17;US 92
+[846/1000] Arby's — Kissimmee, FL ... ✓ 28.3049, -81.4067 — 219 West Vine Street
+[847/1000] Arby's — Santa Fe, NM ... ✓ 35.6510, -105.9998 — 3267 Cerrillos Road
+[848/1000] Arby's — Hamilton, OH ... ✓ 39.1458, -84.6256 — 6271 Glenway Avenue
+[849/1000] Arby's — Fairfield, OH ... ✓ 39.7313, -82.6135 — 1580 South Pershing Drive
+[850/1000] Arby's — Dickinson, ND ... ✓ 46.8975, -102.7882 — 251 14th Street West
+[851/1000] Arby's — Newark, OH ... ✓ 40.0804, -82.4286 — 1175 North 21st Street
+[852/1000] Arby's — St. Cloud, FL ... ❌ no result
+[853/1000] Arby's — Huber Heights, OH ... ✓ 39.8676, -84.1372 — 5561 Merily Way
+[854/1000] Arby's — Springfield, OH ... ✓ 39.8937, -83.8110 — 203 South Limestone Street
+[855/1000] Arby's — Rutland, VT ... ❌ no result
+[856/1000] Arby's — Dublin, OH ... ✓ 40.0862, -83.0912 — 5864 Sawmill Road
+[857/1000] Arby's — Strongsville, OH ... ✓ 41.3426, -81.8264 — 9175 Pearl Road
+[858/1000] Arby's — Mansfield, OH ... ✓ 40.6946, -82.5137 — 2325 Interstate Circle
+[859/1000] Arby's — Mason, OH ... ✓ 39.3574, -84.2684 — 5561 Kings Mills Road
+[860/1000] Arby's — Castle Rock, CO ... ✓ 39.4099, -104.8704 — 742 Genoa Way
+[861/1000] Arby's — Parker, CO ... ✓ 39.5388, -104.7696 — 9831 South Parker Road
+[862/1000] Arby's — Highlands Ranch, CO ... ❌ no result
+[863/1000] Arby's — Roswell, NM ... ✓ 33.4043, -104.5224 — East 11th Street
+[864/1000] Arby's — Lynchburg, VA ... ✓ 37.3706, -79.1827 — 2806 Candlers Mountain Road
+[865/1000] Arby's — Grand Junction, CO ... ✓ 39.0859, -108.5946 — 2468 Dinosaur Diamond Prehistoric Highway
+[866/1000] Arby's — Centreville, VA ... ❌ no result
+[867/1000] Arby's — Fredericksburg, VA ... ✓ 38.3329, -77.4785 — 164 Warrenton Road
+[868/1000] Arby's — Charlottesville, VA ... ✓ 38.0534, -78.4982 — 1230 Emmet Street North
+[869/1000] Arby's — Manassas, VA ... ✓ 38.7414, -77.4517 — 9874 Liberia Avenue
+[870/1000] Arby's — Blacksburg, VA ... ❌ no result
+[871/1000] Arby's — Jupiter, FL ... ❌ no result
+[872/1000] Arby's — Danville, VA ... ✓ 36.5826, -79.3542 — 110 Riverpoint Drive
+[873/1000] Arby's — Harrisonburg, VA ... ✓ 38.4329, -78.9018 — 1781 South High Street
+[874/1000] Arby's — Winchester, VA ... ✓ 39.1859, -78.1431 — 1010 Berryville Avenue
+[875/1000] Arby's — McLean, VA ... ❌ no result
+[876/1000] Arby's — Tidewater, VA ... ❌ no result
+[877/1000] Arby's — Dale City, VA ... ✓ 38.6546, -77.3084 — 13515 Minnieville Road
+[878/1000] Arby's — Woodbridge, VA ... ✓ 38.6546, -77.3084 — 13515 Minnieville Road
+[879/1000] Arby's — Douglasville, GA ... ✓ 33.7312, -84.7378 — 2755 Chapel Hill Road
+[880/1000] Arby's — Marysville, WA ... ✓ 48.0996, -122.1804 — 3760 116th Street Northeast
+[881/1000] Arby's — Lawrenceville, GA ... ✓ 33.9495, -83.9871 — 126 South Clayton Street
+[882/1000] Arby's — Newnan, GA ... ✓ 33.3839, -84.7840 — 65 Bullsboro Drive
+[883/1000] Arby's — Kaneohe, HI ... ❌ no result
+[884/1000] Arby's — Mililani, HI ... ❌ no result
+[885/1000] Arby's — Kapolei, HI ... ❌ no result
+[886/1000] Arby's — Twin Falls, ID ... ✓ 42.5689, -114.4599 — 424 Blue Lakes Boulevard North
+[887/1000] Arby's — Post Falls, ID ... ❌ no result
+[888/1000] Arby's — Decatur, IL ... ✓ 39.9017, -88.9546 — 4303 US 51 Business
+[889/1000] Arby's — Schaumburg, IL ... ✓ 42.0493, -88.0936 — 522 West Golf Road
+[890/1000] Arby's — Bolingbrook, IL ... ❌ no result
+[891/1000] Arby's — Tinley Park, IL ... ✓ 41.5456, -87.7933 — 7220 Harlem Avenue
+[892/1000] Arby's — Des Plaines, IL ... ✓ 42.0274, -87.8937 — 1401 Lee Street
+[893/1000] Arby's — Oak Lawn, IL ... ✓ 41.6919, -87.7394 — 11017 South Cicero Avenue
+[894/1000] Arby's — Berwyn, IL ... ❌ no result
+[895/1000] Arby's — Kokomo, IN ... ✓ 40.4665, -86.1645 — 1536 South Dixon Road
+[896/1000] Arby's — Carbondale, IL ... ✓ 37.7351, -89.1877 — 1384 East Main Street
+[897/1000] Arby's — Muncie, IN ... ✓ 40.1743, -85.3813 — 2304 South Madison Street
+[898/1000] Arby's — Terre Haute, IN ... ✓ 39.4223, -87.4155 — 3670 South 3rd Street
+[899/1000] Arby's — Columbus, IN ... ✓ 39.2228, -85.9027 — 2005 25th Street
+[900/1000] Arby's — Richmond, IN ... ✓ 39.8269, -84.9046 — 215 National Road West
+[901/1000] Arby's — Portage, IN ... ❌ no result
+[902/1000] Arby's — Valparaiso, IN ... ✓ 41.4873, -87.0502 — 2101 Calumet Avenue
+[903/1000] Arby's — Ankeny, IA ... ✓ 41.7315, -93.5821 — 1017 East 1st Street
+[904/1000] Arby's — Dubuque, IA ... ✓ 42.4921, -90.6619 — 10 Main Street
+[905/1000] Arby's — Cedar Falls, IA ... ✓ 42.5136, -92.4305 — 6018 University Avenue
+[906/1000] Arby's — Bettendorf, IA ... ✓ 41.5517, -90.4820 — 3525 Middle Road
+[907/1000] Arby's — Manhattan, KS ... ✓ 39.1742, -96.6058 — 326 Southwind Place
+[908/1000] Arby's — Lenexa, KS ... ❌ no result
+[909/1000] Arby's — Hutchinson, KS ... ✓ 38.0645, -97.8997 — 1423 Katie Street
+[910/1000] Arby's — Leawood, KS ... ❌ no result
+[911/1000] Arby's — Georgetown, KY ... ✓ 38.2132, -84.5439 — 1237 Paris Pike
+[912/1000] Arby's — Henderson, KY ... ✓ 37.8666, -87.5732 — 2067 US Highway 41
+[913/1000] Arby's — Richmond, KY ... ✓ 37.7758, -84.3199 — South Keeneland Drive
+[914/1000] Arby's — Frankfort, KY ... ✓ 38.1807, -84.8926 — 8 Hudson Hollow Road
+[915/1000] Arby's — Marrero, LA ... ❌ no result
+[916/1000] Arby's — Hammond, LA ... ❌ no result
+[917/1000] Arby's — Prairieville, LA ... ❌ no result
+[918/1000] Arby's — Sulphur, LA ... ❌ no result
+[919/1000] Arby's — Augusta, ME ... ✓ 44.3145, -69.8001 — 219 Western Avenue
+[920/1000] Arby's — Columbia, MD ... ✓ 39.1687, -76.7873 — 7410 Assateague Drive
+[921/1000] Arby's — Portage, MI ... ✓ 42.1941, -85.5978 — 8508 Shaver Road
+[922/1000] Arby's — Kentwood, MI ... ✓ 42.8846, -85.5649 — 4340 Broadmoor Avenue Southeast
+[923/1000] Arby's — Southfield, MI ... ✓ 42.5063, -83.2235 — 29515 Southfield Road
+[924/1000] Arby's — Royal Oak, MI ... ✓ 42.5132, -83.1823 — 30403 Woodward Avenue
+[925/1000] Arby's — Macomb, MI ... ✓ 42.4954, -83.0272 — 27400 Van Dyke Avenue
+[926/1000] Arby's — Columbus, MS ... ✓ 33.5186, -88.4355 — 1911 Highway 45 North
+[927/1000] Arby's — Cuyahoga Falls, OH ... ✓ 41.1181, -81.4843 — 1145 Main Street
+[928/1000] Arby's — Lakewood, OH ... ✓ 41.4829, -81.7684 — 1421 West 117th Street
+[929/1000] Arby's — Cape Girardeau, MO ... ✓ 37.3071, -89.5507 — 2134 Independence Street
+[930/1000] Arby's — Jefferson City, MO ... ✓ 38.5810, -92.2244 — 2815 South Ten Mile Drive
+[931/1000] Arby's — Helena, MT ... ✓ 46.6126, -112.0203 — 2801 Maple Avenue
+[932/1000] Arby's — Kalispell, MT ... ✓ 48.1996, -114.3337 — 1210 West Idaho Street
+[933/1000] Arby's — Havre, MT ... ❌ no result
+[934/1000] Arby's — Kearney, NE ... ✓ 40.7278, -99.0821 — 100 West 56th Street
+[935/1000] Arby's — North Platte, NE ... ❌ no result
+[936/1000] Arby's — Sunrise Manor, NV ... ❌ no result
+[937/1000] Arby's — Derry, NH ... ❌ no result
+[938/1000] Arby's — Hampton, NH ... ❌ no result
+[939/1000] Arby's — Passaic, NJ ... ❌ no result
+[940/1000] Arby's — Middletown, OH ... ✓ 39.5000, -84.3506 — 1315 Elliott Drive
+[941/1000] Arby's — Bayonne, NJ ... ❌ no result
+[942/1000] Arby's — East Orange, NJ ... ❌ no result
+[943/1000] Arby's — Hoboken, NJ ... ❌ no result
+[944/1000] Arby's — West New York, NJ ... ❌ no result
+[945/1000] Arby's — Cherry Hill, NJ ... ❌ no result
+[946/1000] Arby's — Parsippany, NJ ... ❌ no result
+[947/1000] Arby's — Bay City, MI ... ✓ 43.6121, -83.9152 — 905 North Euclid Avenue
+[948/1000] Arby's — Elyria, OH ... ❌ no result
+[949/1000] Arby's — Saco, ME ... ❌ no result
+[950/1000] Arby's — Carlsbad, NM ... ✓ 32.4354, -104.2441 — West Pierce Street
+[951/1000] Arby's — Oyster Bay, NY ... ✓ 40.7805, -73.5319 — 334 North Broadway
+[952/1000] Arby's — Ramapo, NY ... ❌ no result
+[953/1000] Arby's — Smithtown, NY ... ❌ no result
+[954/1000] Arby's — North Hempstead, NY ... ❌ no result
+[955/1000] Arby's — Binghamton, NY ... ✓ 42.1614, -75.8944 — 1329 Upper Front Street
+[956/1000] Arby's — Rome, NY ... ✓ 43.5567, -76.1171 — 3799 Rome Road
+[957/1000] Arby's — Poughkeepsie, NY ... ❌ no result
+[958/1000] Arby's — Grove City, OH ... ✓ 39.8806, -83.0683 — 2453 Stringtown Road
+[959/1000] Arby's — Aberdeen, SD ... ✓ 45.4596, -98.4698 — 1205 6th Avenue Southeast
+[960/1000] Arby's — Shawnee, OK ... ❌ no result
+[961/1000] Arby's — Yukon, OK ... ✓ 35.4785, -97.7509 — Northwest 10th Street
+[962/1000] Arby's — Ardmore, OK ... ✓ 34.1869, -97.1628 — 2700 12th Avenue Northwest
+[963/1000] Arby's — Springfield, OR ... ✓ 44.0462, -122.9622 — 4252 Main Street
+[964/1000] Arby's — Albany, OR ... ✓ 44.6330, -123.0839 — 910 Geary Street Southeast
+[965/1000] Arby's — Tigard, OR ... ❌ no result
+[966/1000] Arby's — Aloha, OR ... ❌ no result
+[967/1000] Arby's — Whittier, CA ... ❌ no result
+[968/1000] Arby's — Woonsocket, RI ... ❌ no result
+[969/1000] Arby's — Cumberland, RI ... ❌ no result
+[970/1000] Arby's — Lincoln, RI ... ❌ no result
+[971/1000] Arby's — Florence, SC ... ✓ 34.1665, -79.7639 — Pamplico Highway
+[972/1000] Arby's — Hilton Head Island, SC ... ❌ no result
+[973/1000] Arby's — Aiken, SC ... ✓ 33.5196, -81.7180 — 2001 Whiskey Road
+[974/1000] Arby's — Conway, SC ... ✓ 33.8469, -79.0645 — 1616 Church Street
+[975/1000] Arby's — Nashville, TN ... ✓ 36.2950, -86.7017 — Gallatin Pike North
+[976/1000] Arby's — Brookings, SD ... ✓ 44.3111, -96.7741 — 1818 6th Street
+[977/1000] Arby's — Mitchell, SD ... ✓ 43.6960, -98.0146 — 1500 South Burr Street
+[978/1000] Arby's — Huron, SD ... ❌ no result
+[979/1000] Arby's — Smyrna, TN ... ✓ 35.9732, -86.4946 — 582 Enon Springs Road East
+[980/1000] Arby's — Spring Hill, TN ... ✓ 35.7449, -86.9369 — 1070 Main Street
+[981/1000] Arby's — Germantown, TN ... ✓ 35.0940, -89.8077 — 2016 South Germantown Road
+[982/1000] Arby's — San Angelo, TX ... ❌ no result
+[983/1000] Arby's — Flower Mound, TX ... ❌ no result
+[984/1000] Arby's — Mansfield, TX ... ✓ 32.6123, -97.1183 — Matlock Road
+[985/1000] Arby's — Cedar Hill, TX ... ❌ no result
+[986/1000] Arby's — DeSoto, TX ... ❌ no result
+[987/1000] Arby's — Pflugerville, TX ... ✓ 30.4487, -97.6056 — 1313 Farm-to-market Road 685
+[988/1000] Arby's — Cedar Park, TX ... ❌ no result
+[989/1000] Bojangles — Montgomery, AL ... ❌ no result
+[990/1000] Bojangles — Birmingham, AL ... ❌ no result
+[991/1000] Bojangles — Huntsville, AL ... ✓ 34.7535, -86.7108 — 7049 University Drive Northwest
+[992/1000] Bojangles — Largo, FL ... ❌ no result
+[993/1000] Bojangles — Clinton, MS ... ❌ no result
+[994/1000] Bojangles — Mobile, AL ... ✓ 30.6884, -88.1216 — Midtown Park West
+[995/1000] Bojangles — Tuscaloosa, AL ... ✓ 33.1967, -87.4791 — University Boulevard East
+[996/1000] Bojangles — Jacksonville, FL ... ❌ no result
+[997/1000] Bojangles — Miami, FL ... ❌ no result
+[998/1000] Bojangles — Tampa, FL ... ❌ no result
+[999/1000] Bojangles — Orlando, FL ... ❌ no result
+[1000/1000] Bojangles — St. Petersburg, FL ... ❌ no result
+
+──────────────────────────────────────────────────
+✅ Updated: 712
+❌ Failed:  288
+⏭  Skipped: 0
+📄 Log: /home/ubuntu/.openclaw/workspace/memory/backfill-geocode.log

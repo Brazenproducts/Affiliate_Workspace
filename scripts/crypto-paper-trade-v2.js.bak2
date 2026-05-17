@@ -1,0 +1,397 @@
+const https = require('https');
+const fs = require('fs');
+
+const PAPER_FILE = '/home/ubuntu/.openclaw/workspace/memory/paper-trading-v2.json';
+const WATCHLIST_FILE = '/home/ubuntu/.openclaw/workspace/memory/momentum-watchlist.json';
+
+// --- TUNING CONSTANTS ---
+const MAX_POSITIONS_PER_TIER = 5;       // Reduced from 6
+const REENTRY_COOLDOWN_MS = 4 * 3600000; // 4h cooldown (was 2h)
+const MIN_SCORE_T1 = 50;                 // Raised from 45
+const MIN_SCORE_T2 = 55;                 // Raised from 45 — much stricter for DEX moonshots
+const MIN_LIQ_T2 = 75000;               // Raised from 25K — need real liquidity to exit
+const DEAD_POSITION_PCT = -85;           // Bail earlier (was -90)
+const MAX_POSITION_SIZE_T1 = 150;        // Cap single position at $150 (T1)
+const MAX_POSITION_SIZE_T2 = 100;        // Cap single position at $100 (T2) — smaller moonshot bets
+const MIN_CASH_RESERVE_T1 = 100;         // Always keep $100 cash reserve
+const MIN_CASH_RESERVE_T2 = 40;
+
+function httpGet(url) {
+  return new Promise((resolve, reject) => {
+    const u = new URL(url);
+    https.get({ hostname: u.hostname, path: u.pathname + u.search, headers: { 'User-Agent': 'Mozilla/5.0' }, timeout: 10000 }, res => {
+      let d = ''; res.on('data', c => d += c);
+      res.on('end', () => { try { resolve(JSON.parse(d)); } catch(e) { resolve(null); } });
+    }).on('error', () => resolve(null)).on('timeout', () => resolve(null));
+  });
+}
+function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function load() {
+  try { return JSON.parse(fs.readFileSync(PAPER_FILE, 'utf8')); }
+  catch(e) { return null; }
+}
+function save(p) { fs.writeFileSync(PAPER_FILE, JSON.stringify(p, null, 2)); }
+
+function createPortfolio() {
+  return {
+    created: new Date().toISOString(),
+    portfolios: {
+      T1: { name: 'Tier 1 Momentum', startingCash: 1000, cash: 1000, holdings: {} },
+      T2: { name: 'Tier 2 Moonshots', startingCash: 1000, cash: 1000, holdings: {} }
+    },
+    exitRules: {
+      trailingStopPct: 15,
+      takeProfitTiers: [
+        { pct: 50, sellPct: 25 },
+        { pct: 100, sellPct: 25 },
+        { pct: 200, sellPct: 25 }
+      ],
+      maxHoldHours: 72,
+      volumeDecayPct: 60
+    },
+    trades: [],
+    snapshots: [],
+    lastUpdated: new Date().toISOString()
+  };
+}
+
+function logTrade(p, trade) {
+  trade.time = new Date().toISOString();
+  p.trades.push(trade);
+  console.log(`  [${trade.tier}] ${trade.type} ${trade.symbol}: $${trade.amountUSD.toFixed(2)} @ $${trade.price} — ${trade.reason}`);
+}
+
+function buy(p, tier, symbol, amountUSD, price, meta) {
+  const port = p.portfolios[tier];
+  if (!port || port.cash < amountUSD) return false;
+  const fee = amountUSD * 0.004; // 0.4% taker
+  const net = amountUSD - fee;
+  const qty = net / price;
+  port.cash -= amountUSD;
+  if (!port.holdings[symbol]) {
+    // Tighter initial stop for tokens already up >200% in 24h
+    const entry24hGain = meta?.change24h || 0;
+    const initialStop = entry24hGain > 200 ? 8 : null; // 8% stop for parabolic entries, null = use default
+    port.holdings[symbol] = {
+      qty: 0, avgCost: price, totalInvested: 0,
+      peakPrice: price, enteredAt: new Date().toISOString(),
+      entryVolume: meta?.volume || 0, source: meta?.source || 'unknown',
+      cgId: meta?.id, address: meta?.address, chain: meta?.chain,
+      dex: meta?.dex, pairAddress: meta?.pairAddress,
+      trailingStopPct: initialStop
+    };
+  }
+  const h = port.holdings[symbol];
+  const oldVal = h.qty * h.avgCost;
+  h.qty += qty;
+  h.avgCost = (oldVal + net) / h.qty;
+  h.totalInvested += amountUSD;
+  logTrade(p, { tier, type: 'BUY', symbol, qty, price, amountUSD, fee, reason: meta?.reason || 'momentum entry' });
+  return true;
+}
+
+function sell(p, tier, symbol, pctToSell, price, reason) {
+  const port = p.portfolios[tier];
+  const h = port?.holdings?.[symbol];
+  if (!h || h.qty <= 0) return false;
+  const qtyToSell = h.qty * (pctToSell / 100);
+  const gross = qtyToSell * price;
+  const fee = gross * 0.004;
+  const net = gross - fee;
+  const costBasis = qtyToSell * h.avgCost;
+  const pnl = net - costBasis;
+  port.cash += net;
+  h.qty -= qtyToSell;
+  if (h.qty < 0.000001) { delete port.holdings[symbol]; }
+  logTrade(p, { tier, type: 'SELL', symbol, qty: qtyToSell, price, amountUSD: net, fee, pnl, reason });
+  return true;
+}
+
+// Batch fetch CoinGecko prices (one call for all IDs)
+async function batchCGPrices(cgIds) {
+  if (!cgIds.length) return {};
+  const ids = cgIds.join(',');
+  const d = await httpGet('https://api.coingecko.com/api/v3/simple/price?ids=' + ids + '&vs_currencies=usd');
+  const out = {};
+  if (d) { for (const [id, v] of Object.entries(d)) { if (v?.usd) out[id] = v.usd; } }
+  return out;
+}
+
+async function getPrice(holding, cgPriceCache) {
+  if (holding.source === 'dexscreener' && holding.pairAddress) {
+    const d = await httpGet('https://api.dexscreener.com/latest/dex/pairs/' + (holding.chain || 'solana') + '/' + holding.pairAddress);
+    return d?.pair?.priceUsd ? parseFloat(d.pair.priceUsd) : null;
+  }
+  if (holding.cgId) {
+    // Use cache if available
+    if (cgPriceCache && cgPriceCache[holding.cgId]) return cgPriceCache[holding.cgId];
+    const d = await httpGet('https://api.coingecko.com/api/v3/simple/price?ids=' + holding.cgId + '&vs_currencies=usd');
+    const k = Object.keys(d || {})[0];
+    return d?.[k]?.usd || null;
+  }
+  return null;
+}
+
+// Get recently sold symbols with cooldown
+function getRecentSells(p, cooldownMs) {
+  const cutoff = Date.now() - cooldownMs;
+  const recent = new Set();
+  for (let i = p.trades.length - 1; i >= 0; i--) {
+    const t = p.trades[i];
+    if (new Date(t.time).getTime() < cutoff) break;
+    if (t.type === 'SELL') recent.add(t.symbol);
+  }
+  return recent;
+}
+
+async function checkExits(p) {
+  console.log('\n=== EXIT CHECK ===');
+  let exitCount = 0;
+
+  // Batch-fetch all CoinGecko prices in one call
+  const allCgIds = [];
+  for (const tier of ['T1', 'T2']) {
+    for (const h of Object.values(p.portfolios[tier].holdings)) {
+      if (h.source === 'coingecko' && h.cgId) allCgIds.push(h.cgId);
+    }
+  }
+  const cgCache = await batchCGPrices(allCgIds);
+
+  for (const tier of ['T1', 'T2']) {
+    const port = p.portfolios[tier];
+    for (const [sym, h] of Object.entries(port.holdings)) {
+      const price = await getPrice(h, cgCache);
+      if (!price) { console.log(`  ${sym}: price unavailable, skipping`); continue; }
+      await delay(300);
+
+      // Update peak
+      if (price > (h.peakPrice || 0)) h.peakPrice = price;
+
+      const pnlPct = ((price / h.avgCost) - 1) * 100;
+      const dropFromPeak = h.peakPrice > 0 ? ((h.peakPrice - price) / h.peakPrice) * 100 : 0;
+      const holdHours = (Date.now() - new Date(h.enteredAt).getTime()) / 3600000;
+
+      // HOT WATCH: If price surge > 30% in 30 mins, ratchet stop up (tighten)
+      const surgeDetected = h.lastCheckPrice && (price / h.lastCheckPrice - 1) * 100 > 15;
+      if (surgeDetected) {
+        const currentStop = h.trailingStopPct || p.exitRules.trailingStopPct;
+        h.trailingStopPct = Math.max(5, currentStop * 0.8); // Ratchet stop tighter
+        console.log(`  🔥 SURGE DETECTED on ${sym}: tightening trailing stop to ${h.trailingStopPct.toFixed(1)}%`);
+      }
+      h.lastCheckPrice = price;
+
+      // Trailing stop (use dynamic pct if available)
+      const stopPct = h.trailingStopPct || p.exitRules.trailingStopPct;
+      // Force-exit dead positions
+      if (pnlPct <= DEAD_POSITION_PCT) {
+        sell(p, tier, sym, 100, price, `DEAD POSITION: ${pnlPct.toFixed(1)}% — force exit`);
+        exitCount++; continue;
+      }
+      if (dropFromPeak >= stopPct) {
+        sell(p, tier, sym, 100, price, `TRAILING STOP: -${dropFromPeak.toFixed(1)}% from peak $${h.peakPrice.toFixed(6)} (stop: ${stopPct.toFixed(1)}%)`);
+        exitCount++; continue;
+      }
+
+      // Take profit tiers
+      for (const tp of p.exitRules.takeProfitTiers) {
+        const key = 'tp_' + tp.pct;
+        if (pnlPct >= tp.pct && !h[key]) {
+          h[key] = true;
+          sell(p, tier, sym, tp.sellPct, price, `TAKE PROFIT: +${pnlPct.toFixed(1)}% (tier ${tp.pct}%)`);
+          exitCount++;
+        }
+      }
+
+      // Max hold
+      if (holdHours > p.exitRules.maxHoldHours && pnlPct < 5) {
+        sell(p, tier, sym, 100, price, `MAX HOLD: ${holdHours.toFixed(0)}h, only +${pnlPct.toFixed(1)}%`);
+        exitCount++; continue;
+      }
+
+      console.log(`  ${tier} ${sym}: $${price} | P&L: ${pnlPct >= 0 ? '+' : ''}${pnlPct.toFixed(1)}% | Peak drop: -${dropFromPeak.toFixed(1)}% | Hold: ${holdHours.toFixed(1)}h`);
+    }
+  }
+  if (exitCount === 0) console.log('  No exits triggered.');
+  return exitCount;
+}
+
+async function scanAndTrade(p) {
+  let wl;
+  try { wl = JSON.parse(fs.readFileSync(WATCHLIST_FILE, 'utf8')); }
+  catch(e) { console.log('No watchlist found. Run scanner first.'); return; }
+
+  console.log('\n=== AUTO-TRADE ===');
+
+  // === MARKET TREND CHECK — park in stablecoins if bear ===
+  const trend = wl.marketTrend?.trend || 'neutral';
+  console.log('Market trend: ' + trend + (wl.marketTrend?.reason ? ' — ' + wl.marketTrend.reason : ''));
+
+  if (trend === 'bear') {
+    console.log('\n🟥 BEAR MARKET — Selling all positions, parking in stablecoins (cash)');
+    // Batch-fetch prices and sell everything
+    const allCgIds = [];
+    for (const tier of ['T1', 'T2']) {
+      for (const h of Object.values(p.portfolios[tier].holdings)) {
+        if (h.source === 'coingecko' && h.cgId) allCgIds.push(h.cgId);
+      }
+    }
+    const cgCache = await batchCGPrices(allCgIds);
+
+    for (const tier of ['T1', 'T2']) {
+      for (const [sym, h] of Object.entries(p.portfolios[tier].holdings)) {
+        const price = await getPrice(h, cgCache);
+        if (price) {
+          sell(p, tier, sym, 100, price, 'BEAR MARKET EXIT — parking in stablecoins');
+        }
+        await delay(300);
+      }
+    }
+    console.log('All positions liquidated. Cash parked. Will re-enter when market turns.');
+    return;
+  }
+
+  // === NEUTRAL/BULL: proceed with entries ===
+  const recentSells = getRecentSells(p, REENTRY_COOLDOWN_MS);
+
+  // In neutral market, deploy slower (smaller positions)
+  const sizeMultiplier = trend === 'bull' ? 1.0 : 0.7;
+
+  // Score-based sizing: higher score = bigger slice (capped by max position size)
+  function scoreAlloc(score, baseCash, numBuys, maxSize) {
+    const weight = Math.min(2, 0.5 + score / 90);
+    return Math.min(maxSize, Math.max(30, baseCash / numBuys * weight * sizeMultiplier));
+  }
+
+  // Tier 1: buy top scored tokens not already held, respect max positions
+  const t1Held = Object.keys(p.portfolios.T1.holdings);
+  const t1Slots = Math.max(0, MAX_POSITIONS_PER_TIER - t1Held.length);
+  const t1Buys = (wl.tier1 || [])
+    .filter(t => t.score >= MIN_SCORE_T1 && !t1Held.includes(t.symbol) && !recentSells.has(t.symbol))
+    .filter(t => (t.volume || 0) >= 1000000) // Hard min $1M volume for T1
+    .slice(0, t1Slots);
+
+  for (const t of t1Buys) {
+    if (p.portfolios.T1.cash < MIN_CASH_RESERVE_T1 + 50) break;
+    const amt = Math.min(scoreAlloc(t.score, p.portfolios.T1.cash - MIN_CASH_RESERVE_T1, t1Buys.length, MAX_POSITION_SIZE_T1), p.portfolios.T1.cash - MIN_CASH_RESERVE_T1);
+    if (amt < 30) break;
+    buy(p, 'T1', t.symbol, amt, t.price, {
+      source: 'coingecko', id: t.id, volume: t.volume,
+      change24h: t.change24h || 0,
+      reason: `Score ${t.score}: ${t.reasons.join(', ')}`
+    });
+  }
+
+  // Tier 2: much stricter now — higher score + liquidity requirements
+  const t2Held = Object.keys(p.portfolios.T2.holdings);
+  const t2Slots = Math.max(0, MAX_POSITIONS_PER_TIER - t2Held.length);
+  const t2Buys = (wl.tier2 || [])
+    .filter(t => t.score >= MIN_SCORE_T2 && !t2Held.includes(t.symbol) && !recentSells.has(t.symbol))
+    .filter(t => (t.liquidity || 0) >= MIN_LIQ_T2)
+    .filter(t => (t.change24h || 0) <= 300) // HARD REJECT: don't buy anything up >300% in 24h
+    .filter(t => (t.volume || 0) >= 100000)  // At least $100K volume
+    .slice(0, t2Slots);
+
+  for (const t of t2Buys) {
+    if (p.portfolios.T2.cash < MIN_CASH_RESERVE_T2 + 50) break;
+    const amt = Math.min(scoreAlloc(t.score, p.portfolios.T2.cash - MIN_CASH_RESERVE_T2, t2Buys.length, MAX_POSITION_SIZE_T2), p.portfolios.T2.cash - MIN_CASH_RESERVE_T2);
+    if (amt < 30) break;
+    buy(p, 'T2', t.symbol, amt, t.price, {
+      source: 'dexscreener', address: t.address, chain: t.chain,
+      dex: t.dex, pairAddress: t.pairAddress, volume: t.volume,
+      change24h: t.change24h || 0,
+      reason: `Score ${t.score}: ${t.reasons.join(', ')}`
+    });
+  }
+}
+
+async function snapshot(p) {
+  // Batch-fetch CoinGecko prices
+  const allCgIds = [];
+  for (const tier of ['T1', 'T2']) {
+    for (const h of Object.values(p.portfolios[tier].holdings)) {
+      if (h.source === 'coingecko' && h.cgId) allCgIds.push(h.cgId);
+    }
+  }
+  const cgCache = await batchCGPrices(allCgIds);
+
+  let t1Val = p.portfolios.T1.cash, t2Val = p.portfolios.T2.cash;
+  for (const [sym, h] of Object.entries(p.portfolios.T1.holdings)) {
+    const pr = await getPrice(h, cgCache); if (pr) t1Val += h.qty * pr; else t1Val += h.qty * h.avgCost;
+  }
+  for (const [sym, h] of Object.entries(p.portfolios.T2.holdings)) {
+    const pr = await getPrice(h, cgCache); if (pr) t2Val += h.qty * pr; else t2Val += h.qty * h.avgCost;
+    await delay(300);
+  }
+  const snap = { time: new Date().toISOString(), T1: { total: t1Val, cash: p.portfolios.T1.cash }, T2: { total: t2Val, cash: p.portfolios.T2.cash }, grand: t1Val + t2Val };
+  p.snapshots.push(snap);
+  // Keep last 200 snapshots
+  if (p.snapshots.length > 200) p.snapshots = p.snapshots.slice(-200);
+  console.log(`\n=== PORTFOLIO SNAPSHOT ===`);
+  console.log(`Tier 1: $${t1Val.toFixed(2)} (cash: $${p.portfolios.T1.cash.toFixed(2)})`);
+  console.log(`Tier 2: $${t2Val.toFixed(2)} (cash: $${p.portfolios.T2.cash.toFixed(2)})`);
+  console.log(`TOTAL: $${(t1Val + t2Val).toFixed(2)} (started: $2,000)`);
+  console.log(`P&L: $${(t1Val + t2Val - 2000).toFixed(2)} (${((t1Val + t2Val - 2000) / 2000 * 100).toFixed(2)}%)`);
+}
+
+async function status(p) {
+  // Batch-fetch CoinGecko prices
+  const allCgIds = [];
+  for (const tier of ['T1', 'T2']) {
+    for (const h of Object.values(p.portfolios[tier].holdings)) {
+      if (h.source === 'coingecko' && h.cgId) allCgIds.push(h.cgId);
+    }
+  }
+  const cgCache = await batchCGPrices(allCgIds);
+
+  console.log('=== PAPER TRADING v2 — STATUS ===');
+  console.log('Created: ' + p.created);
+  console.log('Trades: ' + p.trades.length);
+  console.log('Max positions/tier: ' + MAX_POSITIONS_PER_TIER);
+  for (const tier of ['T1', 'T2']) {
+    const port = p.portfolios[tier];
+    console.log(`\n--- ${port.name} (${Object.keys(port.holdings).length}/${MAX_POSITIONS_PER_TIER} slots) ---`);
+    console.log(`Cash: $${port.cash.toFixed(2)}`);
+    const holdings = Object.entries(port.holdings);
+    if (holdings.length === 0) { console.log('No holdings.'); continue; }
+    for (const [sym, h] of holdings) {
+      const pr = await getPrice(h, cgCache);
+      const pnl = pr ? ((pr / h.avgCost - 1) * 100).toFixed(1) : '?';
+      const stop = h.trailingStopPct || p.exitRules.trailingStopPct;
+      console.log(`  ${sym}: $${(h.totalInvested||0).toFixed(0)} in | Now: $${pr || '?'} | P&L: ${pnl}% | Stop: ${stop}% | Held: ${((Date.now() - new Date(h.enteredAt).getTime()) / 3600000).toFixed(1)}h`);
+      await delay(200);
+    }
+  }
+  await snapshot(p);
+}
+
+// === MAIN ===
+(async () => {
+  const cmd = process.argv[2] || 'cycle';
+  let p = load() || createPortfolio();
+
+  switch (cmd) {
+    case 'init':
+      p = createPortfolio();
+      console.log('Fresh portfolio created.');
+      break;
+    case 'status':
+      await status(p);
+      break;
+    case 'cycle':
+      // Full cycle: check exits → scan & trade → snapshot
+      await checkExits(p);
+      await scanAndTrade(p);
+      await snapshot(p);
+      break;
+    case 'exits':
+      await checkExits(p);
+      break;
+    default:
+      console.log('Usage: node crypto-paper-trade-v2.js [init|status|cycle|exits]');
+  }
+
+  p.lastUpdated = new Date().toISOString();
+  save(p);
+  console.log('\nState saved.');
+})().catch(e => console.error('FATAL:', e.message));

@@ -1,0 +1,212 @@
+[
+  {
+    "query": "best luxury perfume",
+    "top5": ["instyle.com", "reddit.com", "harpersbazaar.com", "lindsaysilberman.com", "labelleperfumes.com"],
+    "amazonRank": null,
+    "notes": "High competition from fashion magazines and personal blogs"
+  },
+  {
+    "query": "best niche perfume",
+    "top5": ["reddit.com", "thefashionfold.com", "vogue.com", "youtube.com", "scentsplit.com"],
+    "amazonRank": null,
+    "notes": "Mix of forums, blogs, and niche retailers; moderate competition"
+  },
+  {
+    "query": "best luxury skincare",
+    "top5": ["instyle.com", "reddit.com", "saksfifthavenue.com", "whowhatwear.com", "platinumdelux.com"],
+    "amazonRank": null,
+    "notes": "Dominated by review sites and luxury retailers; high competition"
+  },
+  {
+    "query": "best designer fragrance",
+    "top5": ["reddit.com", "youtube.com", "fragrantica.com", "decantx.com", "youtube.com"],
+    "amazonRank": null,
+    "notes": "Forums and video content lead; niche fragrance sites compete"
+  },
+  {
+    "query": "best luxury cologne",
+    "top5": ["neimanmarcus.com", "instyle.com", "reddit.com", "irfe.com", "saksfifthavenue.com"],
+    "amazonRank": null,
+    "notes": "Luxury retailers and reviews; strong brand competition"
+  },
+  {
+    "query": "best luxury eye cream",
+    "top5": ["allure.com", "reddit.com", "bergdorfgoodman.com", "neimanmarcus.com", "youtube.com"],
+    "amazonRank": null,
+    "notes": "Beauty magazines and high-end stores; premium focus"
+  },
+  {
+    "query": "best luxury face cream",
+    "top5": ["bluemercury.com", "reddit.com", "aglamlifestyle.com", "dermapproved.com", "whowhatwear.com"],
+    "amazonRank": null,
+    "notes": "Skincare sites and forums; luxury brand emphasis"
+  },
+  {
+    "query": "best mens luxury cologne",
+    "top5": ["neimanmarcus.com", "decantx.com", "reddit.com", "youtube.com", "perfumania.com"],
+    "amazonRank": null,
+    "notes": "Designer fragrance sellers and communities; targeted competition"
+  },
+  {
+    "query": "best luxury lipstick",
+    "top5": ["reddit.com", "thebeautylookbook.com", "graziamagazine.com", "youtube.com", "thecut.com"],
+    "amazonRank": null,
+    "notes": "Makeup forums and reviews; high-end beauty focus"
+  },
+  {
+    "query": "best luxury foundation",
+    "top5": ["reddit.com", "whowhatwear.com", "allure.com", "youtube.com", "youtube.com"],
+    "amazonRank": null,
+    "notes": "Beauty editors and videos; competitive luxury makeup space"
+  },
+  {
+    "query": "best luxury mascara",
+    "top5": ["allure.com", "reddit.com", "kathleenjenningsbeauty.com", "youtube.com", "reddit.com"],
+    "amazonRank": null,
+    "notes": "Allure leads with forums; mascara-specific competition"
+  },
+  {
+    "query": "best luxury hair care",
+    "top5": ["bluemercury.com", "skinelite.com", "kerastase-usa.com", "reddit.com", "dermstore.com"],
+    "amazonRank": null,
+    "notes": "Luxury hair brands and retailers; professional focus"
+  },
+  {
+    "query": "best luxury serum",
+    "top5": ["dermapproved.com", "allure.com", "neimanmarcus.com", "glamourandgains.com", "reddit.com"],
+    "amazonRank": null,
+    "notes": "Skincare reviews and luxury shops; anti-aging emphasis"
+  },
+  {
+    "query": "best sous vide",
+    "top5": ["seriouseats.com", "reddit.com", "bonappetit.com", "nytimes.com", "amazon.com"],
+    "amazonRank": 5,
+    "notes": "Cooking sites dominate; Amazon in top 5"
+  },
+  {
+    "query": "best pasta maker",
+    "top5": ["seriouseats.com", "reddit.com", "thespruceeats.com", "youtube.com", "amazon.com"],
+    "amazonRank": 5,
+    "notes": "Kitchen review sites; e-commerce presence"
+  },
+  {
+    "query": "best dutch oven",
+    "top5": ["seriouseats.com", "everythingkitchens.com", "reddit.com", "youtube.com", "amazon.com"],
+    "amazonRank": 5,
+    "notes": "Cookware experts lead; high brand variety"
+  },
+  {
+    "query": "best cast iron skillet",
+    "top5": ["bonappetit.com", "seriouseats.com", "reddit.com", "booniehicks.com", "youtube.com"],
+    "amazonRank": null,
+    "notes": "Food media and forums; durable goods competition"
+  },
+  {
+    "query": "best car wash kit",
+    "top5": ["caranddriver.com", "reddit.com", "chemicalguys.com", "youtube.com", "cnn.com"],
+    "amazonRank": null,
+    "notes": "Auto sites and detailers; kit-focused"
+  },
+  {
+    "query": "best car polisher",
+    "top5": ["themikephillipsforum.com", "roadandtrack.com", "caranddriver.com", "reddit.com", "detailing.com"],
+    "amazonRank": null,
+    "notes": "Detailing forums and tests; tool-specific"
+  },
+  {
+    "query": "best tire inflator",
+    "top5": ["caranddriver.com", "reddit.com", "motortrend.com", "youtube.com", "amazon.com"],
+    "amazonRank": 5,
+    "notes": "Auto reviews; portable tool competition"
+  },
+  {
+    "query": "best rooftop cargo",
+    "top5": ["caranddriver.com", "reddit.com", "automoblog.com", "outdoorgearlab.com", "roadandtrack.com"],
+    "amazonRank": null,
+    "notes": "Travel gear tests; carrier brands compete"
+  },
+  {
+    "query": "best towing strap",
+    "top5": ["amazon.com", "reddit.com", "rhinousainc.com", "realtruck.com", "wreckersupplyusa.com"],
+    "amazonRank": 1,
+    "notes": "Recovery gear sellers; heavy-duty focus"
+  },
+  {
+    "query": "best bike rack suv",
+    "top5": ["caranddriver.com", "outdoorgearlab.com", "saris.com", "reddit.com", "consumerreports.org"],
+    "amazonRank": null,
+    "notes": "Bike accessory reviews; SUV compatibility"
+  },
+  {
+    "query": "best tire patch",
+    "top5": ["amazon.com", "outdoorlife.com", "reddit.com", "youtube.com", "alltiresupply.com"],
+    "amazonRank": 1,
+    "notes": "Repair kits and forums; emergency tools"
+  },
+  {
+    "query": "best headlight restoration",
+    "top5": ["caranddriver.com", "autoguide.com", "reddit.com", "amazon.com", "cartalk.com"],
+    "amazonRank": 4,
+    "notes": "Auto maintenance sites; kit comparisons"
+  },
+  {
+    "query": "best dining table",
+    "top5": ["nytimes.com", "reddit.com", "colorandchic.com", "ethanallen.com", "westelm.com"],
+    "amazonRank": null,
+    "notes": "Furniture reviews and retailers; style variety"
+  },
+  {
+    "query": "best king mattress",
+    "top5": ["naplab.com", "mattressclarity.com", "reddit.com", "mattressnerd.com", "mattressfirm.com"],
+    "amazonRank": null,
+    "notes": "Mattress experts; size-specific competition"
+  },
+  {
+    "query": "best murphy bed",
+    "top5": ["forbes.com", "reddit.com", "murphybeds.com", "wallbedsbywilding.com", "youtube.com"],
+    "amazonRank": null,
+    "notes": "Space-saving furniture; brand specialists"
+  },
+  {
+    "query": "best platform bed",
+    "top5": ["mattressclarity.com", "reddit.com", "nytimes.com", "sleepopolis.com", "thefutonshop.com"],
+    "amazonRank": null,
+    "notes": "Bed frame reviews; modern designs"
+  },
+  {
+    "query": "best tool chest",
+    "top5": ["caranddriver.com", "protoolreviews.com", "reddit.com", "garagejournal.com", "homedepot.com"],
+    "amazonRank": null,
+    "notes": "Tool storage tests; garage organization"
+  },
+  {
+    "query": "best bench grinder",
+    "top5": ["woodmagazine.com", "bobvila.com", "reddit.com", "facebook.com", "youtube.com"],
+    "amazonRank": null,
+    "notes": "Woodworking tools; grinder comparisons"
+  },
+  {
+    "query": "best nail gun",
+    "top5": ["reddit.com", "protoolreviews.com", "bradthepainter.com", "homedepot.com", "thespruce.com"],
+    "amazonRank": null,
+    "notes": "DIY and pro tools; gauge variety"
+  },
+  {
+    "query": "best reciprocating saw",
+    "top5": ["protoolreviews.com", "reddit.com", "youtube.com", "amazon.com", "homedepot.com"],
+    "amazonRank": 4,
+    "notes": "Power tool reviews; cordless focus"
+  },
+  {
+    "query": "best band saw",
+    "top5": ["woodandshop.com", "popularwoodworking.com", "woodmagazine.com", "reddit.com", "woodworkersjournal.com"],
+    "amazonRank": null,
+    "notes": "Woodworking specialists; saw types"
+  },
+  {
+    "query": "best laser measure",
+    "top5": ["outdoorlife.com", "protoolreviews.com", "reddit.com", "youtube.com", "homedepot.com"],
+    "amazonRank": null,
+    "notes": "Measuring tools; accuracy emphasis"
+  }
+]
