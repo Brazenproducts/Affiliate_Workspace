@@ -212,12 +212,41 @@ function extractProducts(siteDir) {
   if (!fs.existsSync(idx)) return [];
   const html = fs.readFileSync(idx, 'utf8');
   const out = [];
+  const seen = new Set();
   const re = /href="(https?:\/\/(?:www\.)?amazon\.com[^"]*tag=[^"]*)"[^>]*>([^<]+)/gi;
   let m;
   while ((m = re.exec(html)) && out.length < 6) {
-    const name = m[2].trim().substring(0,80);
-    if (name.length > 5 && !/^(click|buy|shop|view|see|check)/i.test(name))
+    let name = m[2].trim().substring(0,80);
+    // If link text is a generic CTA, try multiple fallbacks for the product name
+    if (/^(click|buy|shop|view|see|check|browse)/i.test(name) || name.length <= 5) {
+      name = '';
+      // Fallback 1: extract from Amazon search query parameter
+      const kMatch = m[1].match(/[?&]k=([^&]+)/);
+      if (kMatch) {
+        name = decodeURIComponent(kMatch[1].replace(/\+/g, ' ')).substring(0, 80);
+      }
+      // Fallback 2: find nearest <h3> before this link (within 500 chars)
+      if (!name) {
+        const before = html.substring(Math.max(0, m.index - 500), m.index);
+        const h3Match = before.match(/<h3[^>]*>([^<]+)<\/h3>/gi);
+        if (h3Match) {
+          const last = h3Match[h3Match.length - 1];
+          const inner = last.replace(/<[^>]+>/g, '').trim();
+          if (inner.length > 5) name = inner.substring(0, 80);
+        }
+      }
+      // Fallback 3: check JSON-LD for product name matching this URL
+      if (!name) {
+        const urlEsc = m[1].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const ldMatch = html.match(new RegExp('"name"\\s*:\\s*"([^"]+)"[^}]*"url"\\s*:\\s*"' + urlEsc.substring(0,60)));
+        if (ldMatch) name = ldMatch[1].substring(0, 80);
+      }
+      if (!name) continue;
+    }
+    if (name.length > 5 && !seen.has(name.toLowerCase())) {
+      seen.add(name.toLowerCase());
       out.push({ url: m[1], name, desc: pick(['Top rated','Highly reviewed','Best seller','Editor\'s pick','Great value','Fan favorite','Consistently rated'], seededRandom(name)) });
+    }
   }
   return out;
 }
