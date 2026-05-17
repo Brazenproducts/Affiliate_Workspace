@@ -1,0 +1,89 @@
+Affiliate Site Status Check — 2026-05-05 17:41 UTC
+===================================================
+
+SUMMARY: 44 of 46 sites live (200 over HTTPS), 2 sites have SSL certificate issues.
+
+═══════════════════════════════════════════════════
+LIVE (200 over HTTPS) — 44 sites
+═══════════════════════════════════════════════════
+https://hvachomefilters.com
+https://besthomefilter.com
+https://besthvacfilter.com
+https://subscriptionfilter.com
+https://autoshipfilter.com
+https://bestofficefilter.com
+https://furnaceprefilter.com
+https://homehvacfilters.com
+https://cybertruckgen1.com
+https://cybertruckstorage.com
+https://cybertrucktires.com
+https://cybertruckshell.com
+https://r1sparts.com
+https://r1sstorage.com
+https://r1tstorage.com
+https://rivianaftermarket.com
+https://broncocargo.com
+https://broncointerior.com
+https://broncoexterior.com
+https://broncomolle.com
+https://scoutruvparts.com
+https://scoutterraparts.com
+https://gladiatorseatcover.com
+https://limitstraps.com
+https://bestseatcover.com
+https://bestbroncoaccessories.com
+https://besttruckaccessories.com
+https://besttonneaucovers.com
+https://bestcordlesstools.com
+https://bestfirestick.com
+https://jeepseatcover.com
+https://petwearhouse.com
+https://whatarebest.com
+https://bestinstantpot.com
+https://bestsmokergrill.com
+https://bestmeshwifi.com
+https://bestgarageorganizer.com
+https://autopartsreviewed.com
+https://topoffroadstores.com
+https://bestoffroadbrands.com
+https://tacticalseats.com
+https://bestwindshieldwiper.com
+https://tacticalseatcovers.com
+https://tacomaseats.com
+
+═══════════════════════════════════════════════════
+SSL CERTIFICATE ERRORS (HTTP works, HTTPS broken) — 2 sites
+═══════════════════════════════════════════════════
+https://flatlinefilter.com — SSL cert doesn't match hostname (responds 200 on HTTP)
+https://bowtiefilters.com  — SSL cert doesn't match hostname (responds 200 on HTTP)
+
+═══════════════════════════════════════════════════
+REDIRECTS — 0 sites
+═══════════════════════════════════════════════════
+(none)
+
+═══════════════════════════════════════════════════
+DOWN / UNREACHABLE — 0 sites
+═══════════════════════════════════════════════════
+(none)
+
+═══════════════════════════════════════════════════
+"HTTP ONLY" SITES — HTTPS STATUS CHECK
+═══════════════════════════════════════════════════
+All 5 previously HTTP-only sites NOW have working HTTPS:
+  ✅ whatarebest.com        — HTTPS 200
+  ✅ bestinstantpot.com     — HTTPS 200
+  ✅ bestsmokergrill.com    — HTTPS 200
+  ✅ bestmeshwifi.com       — HTTPS 200
+  ✅ bestgarageorganizer.com — HTTPS 200
+
+═══════════════════════════════════════════════════
+NOTES
+═══════════════════════════════════════════════════
+- flatlinefilter.com and bowtiefilters.com both resolve and serve content over
+  plain HTTP, but their SSL certificates don't include the correct hostname.
+  This means browsers will show a security warning on HTTPS. The fix is to
+  update/reissue the SSL cert to include these domain names (likely a DNS or
+  Shopify domain configuration issue).
+- No sites returned redirect chains or non-200 codes.
+- All checks performed with curl, 10s connect timeout, 15s max time, following redirects.

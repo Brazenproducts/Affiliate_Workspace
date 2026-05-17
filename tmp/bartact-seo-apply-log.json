@@ -1,0 +1,82 @@
+{
+  "collections": [
+    {
+      "id": 275720732715,
+      "type": "custom_collections",
+      "status": 200,
+      "title": "Jeep Wrangler Seat Covers | Bartact",
+      "desc": "Custom-fit Jeep Wrangler seat covers with MOLLE options, durable materials, and Made in the USA construction for serious trail and daily use."
+    },
+    {
+      "id": 73831749,
+      "type": "custom_collections",
+      "status": 200,
+      "title": "Jeep Wrangler Accessories | Bartact",
+      "desc": "Shop Jeep Wrangler accessories, MOLLE gear, grab handles, storage bags, and trail-ready interior upgrades made in the USA by Bartact."
+    },
+    {
+      "id": 137429778455,
+      "type": "smart_collections",
+      "status": 200,
+      "title": "MOLLE Accessories & Pouches | Bartact",
+      "desc": "Shop Bartact MOLLE accessories, pouches, attachments, and tactical storage gear made in the USA for Jeep, Bronco, Tacoma, and more."
+    },
+    {
+      "id": 265140207659,
+      "type": "smart_collections",
+      "status": 200,
+      "title": "Ford Bronco Seat Covers | Bartact",
+      "desc": "Custom-fit Ford Bronco seat covers with airbag-compatible seams, tactical storage, and Made in the USA durability for 2021+ models."
+    },
+    {
+      "id": 261741838379,
+      "type": "smart_collections",
+      "status": 200,
+      "title": "Jeep Gladiator Seat Covers | Bartact",
+      "desc": "Custom-fit Jeep Gladiator seat covers with MOLLE storage, airbag-compatible design, and Made in the USA construction for JT trucks."
+    },
+    {
+      "id": 275721355307,
+      "type": "custom_collections",
+      "status": 200,
+      "title": "Toyota Tacoma Seat Covers | Bartact",
+      "desc": "Custom-fit Toyota Tacoma seat covers made in the USA in Southern California with durable materials, MOLLE storage, and serious daily-use protection."
+    },
+    {
+      "id": 174233190443,
+      "type": "smart_collections",
+      "status": 200,
+      "title": "Toyota 4Runner Seat Covers | Bartact",
+      "desc": "Shop Bartact Toyota 4Runner seat covers with custom fit, tactical durability, and Made in the USA construction for 5th Gen models."
+    },
+    {
+      "id": 265141485611,
+      "type": "smart_collections",
+      "status": 200,
+      "title": "Paracord Grab Handles | Bartact",
+      "desc": "Shop Bartact paracord grab handles for Jeep, Gladiator, Bronco, UTVs, and more. Hand-woven in the USA for trail-ready grip and style."
+    },
+    {
+      "id": 73832005,
+      "type": "custom_collections",
+      "status": 200,
+      "title": "Paracord Grab Handles for Jeep & Bronco",
+      "desc": "Hand-woven paracord grab handles for Jeep Wrangler, Gladiator, Ford Bronco, and UTV applications. Made in the USA by Bartact."
+    },
+    {
+      "id": 73832453,
+      "type": "custom_collections",
+      "status": 200,
+      "title": "MOLLE Gear Bags & Pouches | Bartact",
+      "desc": "Browse Bartact MOLLE gear bags, pouches, and tactical organizers made in the USA for Jeep, Bronco, and overland vehicle storage."
+    }
+  ],
+  "pages": [
+    {
+      "action": "updated",
+      "id": 698217070635,
+      "status": 200
+    }
+  ],
+  "rewrites": []
+}
