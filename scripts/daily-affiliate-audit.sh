@@ -184,7 +184,7 @@ echo "── Blog Post Freshness Check ──" >> "$REPORT"
 BLOG_FRESH=0
 BLOG_STALE=0
 BLOG_STALE_LIST=""
-ROTATION_FILE="$ROOT/memory/blog-rotation-batch.json"
+ROTATION_FILE="/home/ubuntu/.openclaw/workspace/memory/blog-rotation-batch.json"
 if [ -f "$ROTATION_FILE" ]; then
   YESTERDAY=$(date -u -d "yesterday" "+%Y-%m-%d")
   STALE_SITES=$(python3 -c "
