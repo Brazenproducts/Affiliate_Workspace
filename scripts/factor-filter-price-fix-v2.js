@@ -1,7 +1,7 @@
 const https = require('https');
 
 const STORE = 'factorfilters.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_TOKEN';
+const TOKEN = 'process.env.SHOPIFY_TOKEN';
 const DISCOUNT = 0.04; // 4% under FilterBuy
 
 function httpReq(opts, body) {
