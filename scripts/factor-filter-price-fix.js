@@ -1,7 +1,7 @@
 const https = require('https');
 
 const STORE = 'factorfilters.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const TOKEN = 'process.env.SHOPIFY_TOKEN';
 
 function httpReq(opts, body) {
   return new Promise((resolve, reject) => {

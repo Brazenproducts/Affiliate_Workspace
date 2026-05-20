@@ -1,7 +1,7 @@
 const https = require('https');
 
 const STORE = 'factorfilters.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const TOKEN = 'process.env.SHOPIFY_TOKEN';
 const MIN_MARGIN = 0.15; // 15% floor
 
 function httpReq(opts, body) {

@@ -1,6 +1,6 @@
 const https = require('https');
 const SHOP = 'bb1awe-vp.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const TOKEN = 'process.env.SHOPIFY_TOKEN';
 
 function api(method, path, body) {
   return new Promise((resolve, reject) => {
