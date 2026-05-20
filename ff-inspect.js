@@ -1,7 +1,7 @@
 const https = require('https');
 
 const STORE = 'bb1awe-vp.myshopify.com';
-const TOKEN = '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';
+const TOKEN = 'process.env.SHOPIFY_TOKEN';
 const API_VERSION = '2024-01';
 
 function request(method, path) {

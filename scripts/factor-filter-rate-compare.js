@@ -1,7 +1,7 @@
 const https = require('https');
 
-const SS_KEY = '338f293665d846778416b722efcb75a4';
-const SS_SECRET = 'fed134d52a514c79be26be6c718aff99';
+const SS_KEY = 'process.env.SS_KEY';
+const SS_SECRET = 'process.env.SS_SECRET';
 const ssAuth = Buffer.from(SS_KEY + ':' + SS_SECRET).toString('base64');
 
 function httpReq(opts, body) {

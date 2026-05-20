@@ -1,6 +1,6 @@
 const https = require('https');
 const SHOP = 'bb1awe-vp.myshopify.com';
-const TOKEN = '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';
+const TOKEN = 'process.env.SHOPIFY_TOKEN';
 
 function api(method, path, body) {
   return new Promise((resolve, reject) => {

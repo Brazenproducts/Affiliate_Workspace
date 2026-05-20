@@ -2,9 +2,9 @@ const https = require('https');
 const fs = require('fs');
 
 const STORE = 'factorfilters.myshopify.com';
-const TOKEN = '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';
-const SS_KEY = '338f293665d846778416b722efcb75a4';
-const SS_SECRET = 'fed134d52a514c79be26be6c718aff99';
+const TOKEN = 'process.env.SHOPIFY_TOKEN';
+const SS_KEY = 'process.env.SS_KEY';
+const SS_SECRET = 'process.env.SS_SECRET';
 const ssAuth = Buffer.from(SS_KEY + ':' + SS_SECRET).toString('base64');
 
 function httpReq(opts, body) {
