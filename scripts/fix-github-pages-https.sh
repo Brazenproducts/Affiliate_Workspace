@@ -15,8 +15,15 @@
 ###############################################################################
 set -uo pipefail
 
+# Load GitHub token from secrets file if not already in environment
+SECRETS_FILE="/home/ubuntu/.openclaw/secrets/github.env"
+if [ -f "$SECRETS_FILE" ] && [ -z "${GITHUB_TOKEN:-}" ]; then
+  # shellcheck source=/dev/null
+  source "$SECRETS_FILE"
+fi
+
 SITES_DIR="/home/ubuntu/.openclaw/workspace/sites"
-TOKEN="REDACTED_GH_TOKEN"
+TOKEN="${GITHUB_TOKEN:-}"
 ORG="Brazenproducts"
 PHASE="${1:-both}"
 LOG="/tmp/https-fix-$(date -u +%Y%m%d-%H%M).log"
