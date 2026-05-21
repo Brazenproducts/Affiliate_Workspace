@@ -19,7 +19,9 @@ TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
 
 # Valid Amazon Associates tracking IDs
 VALID_TAGS=(
+  # Base tag
   "brazenprodu01-20"
+  # Product-specific tags (older assignments)
   "brazenprodu01-20-recipsaw-20"
   "brazenprodu01-20-pastamaker-20"
   "brazenprodu01-20-dutchoven-20"
@@ -43,6 +45,22 @@ VALID_TAGS=(
   "brazenprodu01-20-charger-20"
   "brazenprodu01-20-necklift-20"
   "brazenprodu01-20-magnesium-20"
+  # Category-group tags (assigned 2026-05-21, commit 09ed652)
+  "brazenprodu01-20-jeep-20"
+  "brazenprodu01-20-bronco-20"
+  "brazenprodu01-20-tacoma-20"
+  "brazenprodu01-20-gladiator-20"
+  "brazenprodu01-20-offroad-20"
+  "brazenprodu01-20-truck-20"
+  "brazenprodu01-20-ev-20"
+  "brazenprodu01-20-autoparts-20"
+  "brazenprodu01-20-hvac-20"
+  "brazenprodu01-20-kitchen-20"
+  "brazenprodu01-20-health-20"
+  "brazenprodu01-20-tools-20"
+  "brazenprodu01-20-firewood-20"
+  "brazenprodu01-20-golf-20"
+  "brazenprodu01-20-books-20"
 )
 
 is_valid_tag() {
