@@ -287,6 +287,13 @@ else
   echo "🚨 CRITICAL ISSUES — affiliate revenue may be lost" >> "$REPORT"
 fi
 
+# ── ASIN Validation + Auto-Fix ──────────────────────────────────────────────
+echo "" >> "$REPORT"
+echo "## ASIN Validation" >> "$REPORT"
+echo "Running ASIN validation across all sites..." >> "$REPORT"
+node "$(dirname "$0")/validate-and-fix-asins.js" 2>&1 | tee -a "$REPORT"
+echo "" >> "$REPORT"
+
 echo "" >> "$REPORT"
 echo "Full report: $REPORT" >> "$REPORT"
 

@@ -1,8 +1,9 @@
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 const fs = require('fs');
 
 const SHOP = 'bull-strap-78.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const TOKEN = process.env.SHOPIFY_TOKEN_BULLSTRAP;
 const API_VER = '2024-01';
 const LOG_FILE = '/home/ubuntu/.openclaw/workspace/tmp/bullstrap-seo-log.json';
 const BATCH_SIZE = 250;

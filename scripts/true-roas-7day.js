@@ -6,6 +6,7 @@
  * Google Ads spend pulled separately if credentials available.
  */
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 const fs = require('fs');
 
@@ -16,7 +17,7 @@ try {
   console.log('⚠️  Google Ads credentials not found — will report Shopify gclid data only');
 }
 const SHOPIFY_STORE = 'bartact.myshopify.com';
-const SHOPIFY_TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const SHOPIFY_TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 
 function httpRequest(hostname, path, method, headers, body) {
   return new Promise((resolve, reject) => {

@@ -1,6 +1,7 @@
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const fetch = (...args) => import('node-fetch').then(({default: f}) => f(...args));
 const SHOP = 'bartact.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const headers = { 'X-Shopify-Access-Token': TOKEN, 'Content-Type': 'application/json' };
 
 const skyTopBox = `<div style="background:#1a1a1a;border-left:4px solid #b8001f;padding:12px 16px;margin-bottom:20px;">

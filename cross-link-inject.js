@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 // Cross-link injection - builds ALL buttons for each product first, then writes once per product
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../.env') });
 const fetch = (...args) => import('node-fetch').then(({default: f}) => f(...args));
 const fs = require('fs');
 
 const SHOP = 'bartact.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const BASE = `https://${SHOP}/admin/api/2024-01`;
 const DELAY = 600;
 const STORE_BASE = 'https://bartactseats.com/products';
