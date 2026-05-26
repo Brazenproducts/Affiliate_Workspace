@@ -15,7 +15,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 const SITES_DIR = '/home/ubuntu/.openclaw/workspace/sites';
-const TOKEN = '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';
+const TOKEN = process.env.GH_TOKEN;
 const ORG = 'Brazenproducts';
 const BATCH_SIZE = parseInt(process.argv.find((a, i) => process.argv[i-1] === '--batch-size') || '125');
 const DRY_RUN = process.argv.includes('--dry-run');
