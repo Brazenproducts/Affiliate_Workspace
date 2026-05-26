@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../.env') });
 const fetch = (...args) => import('node-fetch').then(({default: f}) => f(...args));
 
 const SHOP = 'bartact.myshopify.com';
-const TOKEN = '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';
+const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const BASE = `https://${SHOP}/admin/api/2024-01`;
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));

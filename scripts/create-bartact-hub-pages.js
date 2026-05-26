@@ -1,8 +1,9 @@
 #!/usr/bin/env node
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 
 const SHOP = 'bartact.myshopify.com';
-const TOKEN = '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';
+const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const API = '2024-01';
 const INDEXNOW_KEY = 'b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5';
 

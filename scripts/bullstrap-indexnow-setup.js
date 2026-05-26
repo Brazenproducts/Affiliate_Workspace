@@ -3,10 +3,11 @@
 // Key file must be accessible at: https://www.bullstrap.com/b4f7e2a1c3d5f6789012345678a4b5c6.txt
 // Content of key file must be: b4f7e2a1c3d5f6789012345678a4b5c6
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 
 const STORE = 'bull-strap-78.myshopify.com';
-const TOKEN = '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';
+const TOKEN = process.env.SHOPIFY_TOKEN_BULLSTRAP;
 const KEY = 'b4f7e2a1c3d5f6789012345678a4b5c6';
 const API = '2024-10';
 

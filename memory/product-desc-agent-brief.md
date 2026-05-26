@@ -2,7 +2,7 @@
 
 ## Shopify Access
 - Store: bartact.myshopify.com
-- Token: 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
+- Token: shpat_[REDACTED-SEE-.ENV]
 - API: https://bartact.myshopify.com/admin/api/2023-10/products/{id}.json
 
 ## What You're Doing
@@ -21,11 +21,11 @@ ONLY `body_html` gets updated.
 ```js
 // GET existing HTML first
 GET https://bartact.myshopify.com/admin/api/2023-10/products/{ID}.json?fields=id,title,body_html
-Headers: X-Shopify-Access-Token: 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
+Headers: X-Shopify-Access-Token: shpat_[REDACTED-SEE-.ENV]
 
 // PUT updated HTML
 PUT https://bartact.myshopify.com/admin/api/2023-10/products/{ID}.json
-Headers: X-Shopify-Access-Token: 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
+Headers: X-Shopify-Access-Token: shpat_[REDACTED-SEE-.ENV]
 Body: { "product": { "id": ID, "body_html": "NEW HTML" } }
 ```
 

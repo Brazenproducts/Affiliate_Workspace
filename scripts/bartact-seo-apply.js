@@ -1,9 +1,10 @@
 #!/usr/bin/env node
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 const fs = require('fs');
 
 const SHOP = 'bartact.myshopify.com';
-const TOKEN = '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';
+const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const API = '2024-01';
 const STATE = '/home/ubuntu/.openclaw/workspace/tmp/bartact-seo-state.json';
 const LOG = '/home/ubuntu/.openclaw/workspace/tmp/bartact-seo-apply-log.json';

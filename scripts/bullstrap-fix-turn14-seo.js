@@ -4,11 +4,12 @@
 // Saves progress to state file for resume across runs
 // Uses GraphQL for bulk reads (1 call per 50 products vs 3 calls per product)
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const TOKEN = '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';
+const TOKEN = process.env.SHOPIFY_TOKEN_BULLSTRAP;
 const SHOP = 'bull-strap-78.myshopify.com';
 const STATE_FILE = path.join(__dirname, '..', 'memory', 'bullstrap-seo-fix-state.json');
 const MAX_PER_RUN = 5000;

@@ -2,10 +2,11 @@
 // Looks for orders with source_name=3890849 (Shop app) tagged "Shop Cash offers acquired"
 // Week: May 9-15, 2026 (PST ≈ May 9 07:00 UTC to May 16 07:00 UTC)
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 
 const SHOP = 'bartact.myshopify.com';
-const TOKEN = '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';
+const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 
 function shopifyGet(path) {
   return new Promise((resolve, reject) => {

@@ -15,7 +15,17 @@ const path = require('path');
 const crypto = require('crypto');
 
 const SITES_DIR = '/home/ubuntu/.openclaw/workspace/sites';
-const TOKEN = process.env.GH_TOKEN;
+// Load GH_TOKEN from .env if not already in environment
+let TOKEN = process.env.GH_TOKEN;
+if (!TOKEN) {
+  const envFile = '/home/ubuntu/.openclaw/workspace/.env';
+  try {
+    const envContent = require('fs').readFileSync(envFile, 'utf8');
+    const match = envContent.match(/^GH_TOKEN=(.+)$/m);
+    if (match) TOKEN = match[1].trim();
+  } catch(e) {}
+}
+if (!TOKEN) { console.error('ERROR: GH_TOKEN not set and not found in .env — aborting to prevent corrupting git remotes.'); process.exit(1); }
 const ORG = 'Brazenproducts';
 const BATCH_SIZE = parseInt(process.argv.find((a, i) => process.argv[i-1] === '--batch-size') || '125');
 const DRY_RUN = process.argv.includes('--dry-run');

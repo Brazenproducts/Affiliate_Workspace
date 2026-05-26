@@ -3,16 +3,18 @@
  * Google Ads Daily Audit — Bartact
  * Runs at 9 AM PST daily via cron
  * Goal: maintain 3.0-3.5x TRUE SALES ROAS minimum, 4x+ target
- * True Sales ROAS = Shopify revenue / Google Ads spend (cross-checked)
+ * ROAS = Google-attributed conversion value / Google Ads spend (honest number)
+ * Shopify revenue shown as context only — never divide total Shopify rev by Google spend
  * NEVER suggests pausing campaigns — only budget adjustments
  */
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../.env') });
 const https = require('https');
 const fs = require('fs');
 
 const CREDS = JSON.parse(fs.readFileSync('/home/ubuntu/.openclaw/workspace/.google-ads-credentials.json', 'utf8'));
 const SHOPIFY_STORE = 'bartact.myshopify.com';
-const SHOPIFY_TOKEN = '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';
+const SHOPIFY_TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 
 const TARGET_ROAS_MIN = 3.0;
 const TARGET_ROAS_GOAL = 4.0;
@@ -158,10 +160,12 @@ async function run() {
   const totalRevTW = Object.values(tw).reduce((s, c) => s + c.rev, 0);
   const totalSpendLW = Object.values(lw).reduce((s, c) => s + c.spend, 0);
 
-  // TRUE SALES ROAS = Shopify revenue / Google spend
-  const trueRoasTW = totalSpendTW > 0 ? shopifyRevTW / totalSpendTW : 0;
-  const trueRoasLW = totalSpendLW > 0 ? shopifyRevLW / totalSpendLW : 0;
+  // Google-attributed ROAS (the only honest number — don't attribute all Shopify revenue to Google)
   const googleRoasTW = totalSpendTW > 0 ? totalRevTW / totalSpendTW : 0;
+  const googleRoasLW = totalSpendLW > 0 ? Object.values(lw).reduce((s,c)=>s+c.rev,0) / totalSpendLW : 0;
+  // Shopify total shown separately as context only — NOT divided by Google spend
+  const trueRoasTW = googleRoasTW; // alias for flag logic below
+  const trueRoasLW = googleRoasLW;
 
   // ── 4. Daily trend (last 3 days) ──
   const byDay = {};
@@ -243,9 +247,10 @@ async function run() {
   lines.push('');
 
   // True ROAS summary
-  lines.push('━━━ TRUE SALES ROAS (Shopify Revenue ÷ Google Spend) ━━━');
-  lines.push(`This week: $${totalSpendTW.toFixed(0)} spend → $${shopifyRevTW.toFixed(0)} Shopify rev = **${trueRoasTW.toFixed(2)}x** true ROAS (${shopifyOrdersTW} orders)`);
-  lines.push(`Last week: $${totalSpendLW.toFixed(0)} spend → $${shopifyRevLW.toFixed(0)} Shopify rev = **${trueRoasLW.toFixed(2)}x** true ROAS (${shopifyOrdersLW} orders)`);
+  lines.push('━━━ GOOGLE-ATTRIBUTED ROAS ━━━');
+  lines.push(`This week: $${totalSpendTW.toFixed(0)} spend → **${googleRoasTW.toFixed(2)}x ROAS** (Google-attributed conversions only)`);
+  lines.push(`Last week: $${totalSpendLW.toFixed(0)} spend → **${googleRoasLW.toFixed(2)}x ROAS**`);
+  lines.push(`Shopify total this week: $${shopifyRevTW.toFixed(0)} revenue, ${shopifyOrdersTW} orders (includes ALL channels — do NOT divide by Google spend)`);
   lines.push(`Google-reported ROAS this week: ${googleRoasTW.toFixed(2)}x`);
   lines.push(`Target: ${TARGET_ROAS_MIN}x min / ${TARGET_ROAS_GOAL}x goal`);
   lines.push('');

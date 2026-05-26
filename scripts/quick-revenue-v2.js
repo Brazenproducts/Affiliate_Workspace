@@ -1,10 +1,11 @@
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 
 const stores = [
-  { name: 'Bartact', domain: 'bartact.myshopify.com', token: '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' },
-  { name: 'Bull Strap', domain: 'bull-strap-78.myshopify.com', token: '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' },
-  { name: 'HSP Off Road', domain: 'hsp-off-road.myshopify.com', token: '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' },
-  { name: 'Brazen Auto', domain: 'brazen-auto.myshopify.com', token: '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' },
+  { name: 'Bartact', domain: 'bartact.myshopify.com', token: process.env.SHOPIFY_TOKEN_BARTACT },
+  { name: 'Bull Strap', domain: 'bull-strap-78.myshopify.com', token: process.env.SHOPIFY_TOKEN_BULLSTRAP },
+  { name: 'HSP Off Road', domain: 'hsp-off-road.myshopify.com', token: process.env.SHOPIFY_TOKEN_HSP },
+  { name: 'Brazen Auto', domain: 'brazen-auto.myshopify.com', token: process.env.SHOPIFY_TOKEN_BRAZEN },
 ];
 
 function shopifyGet(domain, token, path) {
