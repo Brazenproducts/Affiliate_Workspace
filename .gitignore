@@ -1,4 +1,8 @@
 .elevenlabs-key
 .brazenauto-smtp.json
+.bullstrap-indexing-credentials.json
+.google-ads-credentials.json
+*.credentials.json
+*.secret.json
 memory/.dreams/
 node_modules/
