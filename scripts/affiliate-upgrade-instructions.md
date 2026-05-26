@@ -9,7 +9,7 @@ For Amazon products, use `https://m.media-amazon.com/images/I/{ASIN-IMAGE-ID}._A
 To find real product images:
 1. Search Amazon for the product (e.g., "Bartact Jeep JL seat covers")
 2. Use common known ASINs/image IDs
-3. For Bartact products, use Shopify CDN: query `https://bartact.myshopify.com/admin/api/2024-01/products.json` with token `REDACTED_SHOPIFY_TOKEN`
+3. For Bartact products, use Shopify CDN: query `https://bartact.myshopify.com/admin/api/2024-01/products.json` with token `shpat_[REDACTED-SEE-.ENV]`
 
 ## Image Placement Rules
 - **Homepage brand cards:** Add `<img src="URL" alt="Product Name" style="width:100%;border-radius:8px;margin-bottom:8px">` inside each card div, right after the opening card div

@@ -9,10 +9,11 @@
  * closing line "You can find cheaper. You won't find better."
  */
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 const fs = require('fs');
 const STORE = 'bartact.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_TOKEN';
+const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const STATE_FILE = '/tmp/bartact-desc-upgrade-state.json';
 
 function req(opts, body) {

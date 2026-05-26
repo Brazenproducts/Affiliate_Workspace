@@ -1,7 +1,8 @@
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 
 const DOMAIN = 'bull-strap-78.myshopify.com';
-const TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const TOKEN = process.env.SHOPIFY_TOKEN_BULLSTRAP;
 const PRODUCT_ID = 8259763372305;
 
 function shopifyReq(method, path, body) {

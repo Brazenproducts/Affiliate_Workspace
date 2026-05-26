@@ -1,6 +1,7 @@
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
 const SHOPIFY_STORE = 'bartact.myshopify.com';
-const SHOPIFY_TOKEN = 'REDACTED_SHOPIFY_TOKEN';
+const SHOPIFY_TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 
 function req(method, path, body) {
   return new Promise((resolve, reject) => {

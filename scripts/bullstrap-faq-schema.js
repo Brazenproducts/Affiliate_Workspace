@@ -2,8 +2,9 @@
 // Add FAQ structured data (JSON-LD) to Bull Strap blog posts
 // Targets high-impression articles to win featured snippets
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../../../.env') });
 const https = require('https');
-const TOKEN = 'REDACTED_SHOPIFY_ACCESS_TOKEN';
+const TOKEN = process.env.SHOPIFY_TOKEN_BULLSTRAP;
 const SHOP = 'bull-strap-78.myshopify.com';
 const BLOG_ID = 96543015185;
 

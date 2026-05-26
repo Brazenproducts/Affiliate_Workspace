@@ -105,26 +105,33 @@ async function main() {
   const token = await getToken(rawCreds);
   log('Access token obtained');
 
-  // Push URLs
-  const batch = toPush.slice(0, Math.min(remaining, BATCH_SIZE));
+  // Push URLs in multiple batches up to the daily remaining limit
+  const urlsToProcess = toPush.slice(0, remaining);
   let ok = 0, errors = 0, quotaHit = false;
 
-  for (const url of batch) {
-    const status = await pushUrl(token, url);
-    if (status === 200 || status === 202) {
-      ok++;
-      state.pushed.push(url);
-      state.totalPushed++;
-      state.dailyCount++;
-    } else if (status === 429) {
-      log(`QUOTA HIT after ${ok} pushes`);
-      quotaHit = true;
-      break;
-    } else {
-      errors++;
-      log(`Error ${status} on ${url}`);
+  for (let batchStart = 0; batchStart < urlsToProcess.length; batchStart += BATCH_SIZE) {
+    const batch = urlsToProcess.slice(batchStart, batchStart + BATCH_SIZE);
+    log(`Pushing batch ${Math.floor(batchStart/BATCH_SIZE)+1} (${batch.length} URLs)...`);
+    for (const url of batch) {
+      const status = await pushUrl(token, url);
+      if (status === 200 || status === 202) {
+        ok++;
+        state.pushed.push(url);
+        state.totalPushed++;
+        state.dailyCount++;
+      } else if (status === 429) {
+        log(`QUOTA HIT after ${ok} pushes`);
+        quotaHit = true;
+        break;
+      } else {
+        errors++;
+        log(`Error ${status} on ${url}`);
+      }
+      await sleep(200); // Small delay between requests
     }
-    await sleep(200); // Small delay between requests
+    if (quotaHit) break;
+    // Brief pause between batches
+    if (batchStart + BATCH_SIZE < urlsToProcess.length) await sleep(1000);
   }
 
   state.lastRun = new Date().toISOString();
