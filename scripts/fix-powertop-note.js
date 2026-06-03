@@ -4,6 +4,12 @@ const SHOP = 'bartact.myshopify.com';
 const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const headers = { 'X-Shopify-Access-Token': TOKEN, 'Content-Type': 'application/json' };
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 const newPowerTopBlock = `<div style="background:#1a1a1a;border-left:4px solid #b8001f;padding:12px 16px;margin-bottom:20px;">
   <p style="margin:0 0 6px 0;color:#ffffff;font-size:1em;font-weight:700;">⚠️ JL, JLU &amp; Gladiator Owners with Sky One-Touch Top or Automatic Power Top Roof:</p>
   <p style="margin:0 0 6px 0;font-size:0.95em;color:#ffffff;">Because of the way the Sky One-Touch / power top roof connects to the roll bar, these universal grab handles are <strong>NOT compatible</strong> on those versions.</p>

@@ -124,11 +124,11 @@ async function main() {
         quotaHit = true;
         break;
       } else if (status === 403 || status === 404) {
-        // Ghost URL — product no longer exists, mark as pushed so we skip it forever
-        errors++;
+        // Ghost URL — product no longer exists, mark as done but DO NOT count against daily quota
         log(`Ghost URL (${status}) — skipping permanently: ${url}`);
         state.pushed.push(url); // mark as done so it never retries
         state.ghostCount = (state.ghostCount || 0) + 1;
+        continue; // no sleep, no quota decrement — just move on
       } else {
         errors++;
         log(`Error ${status} on ${url}`);

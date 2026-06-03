@@ -3,6 +3,12 @@ const https = require('https');
 const SHOPIFY_STORE = 'bartact.myshopify.com';
 const SHOPIFY_TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 function req(method, path, body) {
   return new Promise((resolve, reject) => {
     const payload = body ? JSON.stringify(body) : null;

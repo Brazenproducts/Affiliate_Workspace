@@ -16,6 +16,12 @@ const STORE = 'bartact.myshopify.com';
 const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const STATE_FILE = '/tmp/bartact-desc-upgrade-state.json';
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 function req(opts, body) {
   return new Promise((res, rej) => {
     const r = https.request(opts, resp => { let d=''; resp.on('data',c=>d+=c); resp.on('end',()=>{ try{res({status:resp.statusCode,body:JSON.parse(d)})}catch{res({status:resp.statusCode,body:d})} }); });

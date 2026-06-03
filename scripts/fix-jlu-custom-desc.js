@@ -13,6 +13,12 @@ function req(method, path, body) {
   });
 }
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 const newDesc = `<div data-crosslink-v1="6948931108907">
 <div style="background:#1a1a1a;border-left:4px solid #b8001f;padding:12px 16px;margin-bottom:10px;">
 <p style="margin:0 0 10px 0;color:#ffffff;font-size:1.1em;font-weight:700;">⚠️ Wrong fit? Make sure you have the right door count!</p>

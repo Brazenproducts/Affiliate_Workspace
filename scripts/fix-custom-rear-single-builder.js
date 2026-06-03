@@ -13,6 +13,12 @@ function req(method, path, body) {
   });
 }
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 const newCustomFrontBlock = '<div style="background:#2a1a00;border:2px solid #e0a800;padding:16px;margin:20px 0;border-radius:6px;">' +
   '<p style="color:#e0a800;font-weight:bold;font-size:1.05em;margin:0 0 8px;">🏁 Complete your interior — matching front covers</p>' +
   '<p style="margin:0 0 12px;line-height:1.6;">These rear bench covers fit all JLU editions including Mojave and 392 — only the fronts are different. The builder covers all editions and model years — just select your trim version and seat adjusters during configuration:</p>' +

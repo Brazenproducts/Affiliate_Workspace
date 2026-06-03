@@ -3,7 +3,7 @@
 // Uses OAuth creds (not service account) which have owner access
 
 const https = require('https');
-const creds = require('/home/ubuntu/.openclaw/workspace/.bullstrap-indexing-credentials.json');
+const creds = require('/home/ubuntu/.openclaw/workspace/sites/besttirepatch.com/.bartactinc-indexing-credentials.json');
 
 function httpReq(o, d) {
   return new Promise((res, rej) => {

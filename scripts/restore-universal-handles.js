@@ -4,6 +4,12 @@ const SHOP = 'bartact.myshopify.com';
 const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const headers = { 'X-Shopify-Access-Token': TOKEN, 'Content-Type': 'application/json' };
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 const airbagBox = `<div style="background:#1a1a1a;border-left:4px solid #b8001f;padding:12px 16px;margin-bottom:10px;">
   <p style="margin:0 0 10px 0;color:#ffffff;font-size:1.1em;font-weight:700;">⚠️ 2024+ Wrangler, Gladiator, or Ford Bronco owners — these will NOT work for you:</p>
   <p style="margin:0 0 10px 0;font-size:0.95em;color:#ffffff;">These are universal wrap-around handles. The 2024+ Wrangler, Gladiator, and Ford Bronco have airbags in the roll bars — wrapping anything around them is unsafe. You need our bolt-on versions which use existing hardware holes and are airbag-safe.</p>
