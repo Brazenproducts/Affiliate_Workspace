@@ -4,6 +4,12 @@ const SHOP = 'bartact.myshopify.com';
 const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const headers = { 'X-Shopify-Access-Token': TOKEN, 'Content-Type': 'application/json' };
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 async function getCollection(handle, type) {
   const endpoint = type === 'smart' ? 'smart_collections' : 'custom_collections';
   const r = await fetch('https://' + SHOP + '/admin/api/2024-01/' + endpoint + '.json?handle=' + handle + '&fields=id,handle,title', { headers });

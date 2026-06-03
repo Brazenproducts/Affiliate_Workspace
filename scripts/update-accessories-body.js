@@ -4,6 +4,12 @@ const SHOP = 'bartact.myshopify.com';
 const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT;
 const headers = { 'X-Shopify-Access-Token': TOKEN, 'Content-Type': 'application/json' };
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 const newBody = `<h1>Jeep&reg; Wrangler Accessories by Bartact</h1>
 <p>Bartact&reg; Jeep&reg; Wrangler accessories are built for owners who demand more from their interior. Every piece is designed for real trail use and daily driving &mdash; no cheap plastics, no shortcuts. All made in the USA in Southern California.</p>
 

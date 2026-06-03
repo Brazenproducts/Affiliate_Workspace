@@ -13,6 +13,12 @@ function req(method, path, body) {
   });
 }
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 async function setMetafield(productId, key, value) {
   const existing = await req('GET', `/admin/api/2024-01/products/${productId}/metafields.json?namespace=global&key=${key}`);
   if (existing.metafields && existing.metafields.length > 0) {

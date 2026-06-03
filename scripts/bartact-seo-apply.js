@@ -9,6 +9,12 @@ const API = '2024-01';
 const STATE = '/home/ubuntu/.openclaw/workspace/tmp/bartact-seo-state.json';
 const LOG = '/home/ubuntu/.openclaw/workspace/tmp/bartact-seo-apply-log.json';
 
+if (!process.env.BARTACT_CONFIRMED) {
+  console.error('ERROR: Set BARTACT_CONFIRMED=1 to run this script against Bartact Shopify.');
+  console.error('Example: BARTACT_CONFIRMED=1 node ' + require('path').basename(__filename));
+  process.exit(1);
+}
+
 function request(method, path, body) {
   return new Promise((resolve, reject) => {
     const payload = body ? JSON.stringify(body) : null;
