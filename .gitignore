@@ -6,3 +6,10 @@
 *.secret.json
 memory/.dreams/
 node_modules/
+.env
+.env.*
+*.env
+.meta-ads-credentials.json
+.gcp-service-account.json
+*-credentials.json
+*-service-account.json
