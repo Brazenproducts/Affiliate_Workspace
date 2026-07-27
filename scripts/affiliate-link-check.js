@@ -3,7 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 const SITES_DIR = '/home/ubuntu/.openclaw/workspace/sites';
-const AFFILIATE_TAG = 'tag=brazenprodu01-20';
+// Valid tags: brazenprodu01-20 through brazenprodu25-20 (all stores)
+const AFFILIATE_TAG_RE = /tag=brazenprodu\d{2}-20/;
 const DEAD_DOMAIN = 'bartactseats.com';
 
 function getAllHtmlFiles(dir) {
@@ -77,7 +78,7 @@ for (const site of top10) {
 
     const amazonLinks = extractAmazonLinks(html);
     for (const alink of amazonLinks) {
-      if (!alink.includes(AFFILIATE_TAG)) {
+      if (!AFFILIATE_TAG_RE.test(alink)) {
         siteIssues.issues.push({ type: 'missing_affiliate_tag', file: rel, link: alink });
       }
     }

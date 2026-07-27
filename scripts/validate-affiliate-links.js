@@ -24,16 +24,8 @@ const REPORT_DIR = '/home/ubuntu/.openclaw/workspace/memory';
 const SAMPLE_SIZE = parseInt(process.argv.find((a, i) => process.argv[i-1] === '--sample') || '100');
 const FIX_MODE = process.argv.includes('--fix');
 
-const VALID_TAGS = [
-  'brazenprodu01-20','brazenprodu01-20-recipsaw-20','brazenprodu01-20-pastamaker-20',
-  'brazenprodu01-20-dutchoven-20','brazenprodu01-20-sousvide-20','brazenprodu01-20-tireinflator-20',
-  'brazenprodu01-20-headlight-20','brazenprodu01-20-tirepatch-20','brazenprodu01-20-towingstrap-20',
-  'brazenprodu01-20-showerhead-20','brazenprodu01-20-labelmaker-20','brazenprodu01-20-powerbank-20',
-  'brazenprodu01-20-portableac-20','brazenprodu01-20-icemaker-20','brazenprodu01-20-gamingchair-20',
-  'brazenprodu01-20-massagegun-20','brazenprodu01-20-minifridge-20','brazenprodu01-20-protein-20',
-  'brazenprodu01-20-resistance-20','brazenprodu01-20-vibration-20','brazenprodu01-20-heatingpad-20',
-  'brazenprodu01-20-charger-20','brazenprodu01-20-necklift-20','brazenprodu01-20-magnesium-20'
-];
+// All valid tags: brazenprodu01-20 through brazenprodu25-20 (both stores, all tracking IDs)
+const VALID_TAG_RE = /^brazenprodu\d{2}-20$/;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -108,7 +100,7 @@ async function main() {
         const tagMatch = href.match(/tag=([a-zA-Z0-9_-]+)/);
         if (!tagMatch) {
           missingTags.push({ site, file: f, url: href.substring(0, 100) });
-        } else if (!VALID_TAGS.includes(tagMatch[1])) {
+        } else if (!VALID_TAG_RE.test(tagMatch[1])) {
           invalidTags.push({ site, file: f, tag: tagMatch[1] });
         }
         

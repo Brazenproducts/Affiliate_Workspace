@@ -28,7 +28,8 @@ SITES_DIR = WORKSPACE / 'sites'
 REPORT_PATH = WORKSPACE / 'memory' / 'affiliate-audit-latest.json'
 LOG_PATH = WORKSPACE / 'memory' / 'affiliate-audit-fix-log.json'
 DASHBOARD_URL = 'https://brazenproducts.github.io/axl-dashboard/'
-AFFILIATE_TAG_RE = re.compile(r'brazenprodu01-20-[a-z0-9-]+-20')
+# Valid tags: brazenprodu01-20 through brazenprodu25-20 (Store 01 and Store 02)
+AFFILIATE_TAG_RE = re.compile(r'brazenprodu\d{2}-20')
 AMAZON_DISCLOSURE_PATTERNS = [
     'amazon affiliate',
     'amazon associate',
@@ -68,7 +69,7 @@ class Auditor:
 
     def add_amazon_disclaimer_if_missing(self, html: str):
         low = html.lower()
-        if 'brazenprodu01-20' in html and not any(p in low for p in AMAZON_DISCLOSURE_PATTERNS):
+        if AFFILIATE_TAG_RE.search(html) and not any(p in low for p in AMAZON_DISCLOSURE_PATTERNS):
             disclaimer = '<p class="amazon-disclaimer" style="margin-top:12px;color:#888;font-size:.85em;">As an Amazon Associate, we may earn from qualifying purchases.</p>'
             if '</footer>' in html:
                 return html.replace('</footer>', disclaimer + '</footer>', 1), True

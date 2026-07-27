@@ -9,13 +9,15 @@ Scan all affiliate sites for common issues:
 Usage: python3 scan-affiliate-issues.py
 """
 
+import os
 import requests
 import json
 import re
 from collections import defaultdict
 
-GITHUB_TOKEN = "REDACTED_GH_TOKEN"
-CORRECT_TAG = "brazenprodu01-20"
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
+# Valid tags: brazenprodu01-20 through brazenprodu25-20 (both stores)
+VALID_TAG_RE = re.compile(r'brazenprodu\d{2}-20')
 
 issues = defaultdict(list)
 
@@ -61,8 +63,8 @@ for repo_name in repos[:50]:  # Sample first 50
             issues[domain].append(f"✅ {len(asin_links)} direct ASIN links (good!)")
         
         # Check affiliate tag
-        if CORRECT_TAG not in html:
-            issues[domain].append("⚠️  Missing affiliate tag brazenprodu01-20")
+        if not VALID_TAG_RE.search(html):
+            issues[domain].append("⚠️  Missing affiliate tag (no brazenprodu##-20 tag found)")
         
         # Check for Bartact CDN images (informational only)
         bartact_imgs = re.findall(r'src="https://bartact\.com/cdn/[^"]+', html)
