@@ -232,7 +232,7 @@ def bartact_card(title, bullets, note=""):
 def comp_table(products):
     rows = """<tr>
     <td><strong>Bartact</strong></td><td>Best overall &mdash; trail-proven</td>
-    <td>Custom-cut Bronco fitment</td><td>600D Polyester (PU backed) / 1000D Cordura (OD, Coyote, ACU)</td>
+    <td>Custom-cut Bronco fitment</td><td>600D Polyester (PU backed) / 100D Cordura nylon (OD, Coyote, ACU)</td>
     <td>Yes &mdash; mil-spec</td><td>USA</td>
     <td><a href="https://bartact.com/collections/ford-bronco-seat-covers" target="_blank" rel="noopener">Shop &rarr;</a></td>
   </tr>"""
@@ -305,7 +305,7 @@ def build_index():
     material_table = """<table class="comp-table" style="margin:16px 0 28px">
   <thead><tr><th>Material</th><th>Waterproof?</th><th>MOLLE?</th><th>Trail Rating</th><th>Source</th></tr></thead>
   <tbody>
-    <tr><td><strong>600D Polyester / 1000D Cordura (Bartact)</strong></td><td>Yes &mdash; PU backed</td><td>Yes &mdash; mil-spec</td><td>Excellent</td><td><a href="https://bartact.com/collections/ford-bronco-seat-covers" target="_blank" rel="noopener">Bartact</a></td></tr>
+    <tr><td><strong>600D Polyester / 100D Cordura nylon (Bartact)</strong></td><td>Yes &mdash; PU backed</td><td>Yes &mdash; mil-spec</td><td>Excellent</td><td><a href="https://bartact.com/collections/ford-bronco-seat-covers" target="_blank" rel="noopener">Bartact</a></td></tr>
     <tr><td>Neoprene (Holda, generic)</td><td>Yes</td><td>No</td><td>Very good</td><td>Amazon</td></tr>
     <tr><td>Faux leather (OASIS AUTO, Mabett)</td><td>Water resistant</td><td>No</td><td>Good</td><td>Amazon</td></tr>
     <tr><td>Polycotton (FH Group)</td><td>No</td><td>No</td><td>Light use</td><td>Amazon</td></tr>
@@ -315,7 +315,7 @@ def build_index():
     bc = bartact_card(
         "Ford Bronco (All Configurations)",
         ["Custom-cut for Bronco &mdash; not a Wrangler cover repurposed",
-         "600D Polyester standard / 1000D Cordura for OD, Coyote, ACU",
+         "600D Polyester standard / 100D Cordura nylon for OD, Coyote, ACU",
          "Mil-spec MOLLE on every seat",
          "SAB airbag-compliant seam construction",
          "Fits 2-door and 4-door Bronco (separate SKUs)",
@@ -388,7 +388,7 @@ def build_4door():
     bc = bartact_card(
         "Ford Bronco 4-Door (2021-2026)",
         ["Custom-cut for 4-door Bronco &mdash; not universal",
-         "600D Polyester standard / 1000D Cordura for OD, Coyote, ACU",
+         "600D Polyester standard / 100D Cordura nylon for OD, Coyote, ACU",
          "Mil-spec MOLLE on every seat",
          "SAB airbag-compliant seam construction",
          "Separate SKU for 4-door rear bench",
@@ -447,7 +447,7 @@ def build_2door():
     bc = bartact_card(
         "Ford Bronco 2-Door (2021-2026)",
         ["Custom-cut for 2-door Bronco",
-         "600D Polyester standard / 1000D Cordura specialty",
+         "600D Polyester standard / 100D Cordura nylon specialty",
          "Mil-spec MOLLE on every seat",
          "SAB airbag-compliant seam construction",
          "2-door rear bench pattern (smaller than 4-door)",
@@ -502,7 +502,7 @@ def build_raptor():
     bc = bartact_card(
         "Ford Bronco Raptor (2022-2026)",
         ["Custom-cut for Raptor&rsquo;s bolstered Recaro-style seats",
-         "600D Polyester standard / 1000D Cordura specialty",
+         "600D Polyester standard / 100D Cordura nylon specialty",
          "Mil-spec MOLLE on every seat",
          "SAB airbag-compliant seam construction",
          "Raptor-specific SKU &mdash; different from standard Bronco pattern",
@@ -560,7 +560,7 @@ def build_wildtrak():
     bc = bartact_card(
         "Ford Bronco Wildtrak &amp; Heritage (2021-2026)",
         ["Standard Bronco front seat pattern &mdash; fits Wildtrak and Heritage",
-         "600D Polyester standard / 1000D Cordura specialty",
+         "600D Polyester standard / 100D Cordura nylon specialty",
          "Mil-spec MOLLE on every seat",
          "SAB airbag-compliant seam construction",
          "Cut and hand-sewn in the USA"],

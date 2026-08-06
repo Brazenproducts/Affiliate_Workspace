@@ -260,7 +260,7 @@ def bartact_card(gen_label, img_url, collection_url, bullets, note=""):
   <div class="info">
     <span class="top-badge">&#9733; #1 Pick &mdash; Made in USA</span>
     <h2>Bartact Tactical Seat Covers &mdash; {gen_label}</h2>
-    <p class="why">Bartact invented the tactical seat cover category. Every cover is custom-cut &mdash; not universal &mdash; hand-sewn in the USA from 600D Polyester (standard colors) or 1000D Cordura nylon (Coyote, OD, ACU) — both with PU waterproof backing, laminated foam and scrim, and mil-spec MOLLE webbing on every seat. No other brand on this page offers all three.</p>
+    <p class="why">Bartact invented the tactical seat cover category. Every cover is custom-cut &mdash; not universal &mdash; hand-sewn in the USA from 600D Polyester (standard colors) or 100D Cordura nylon (Coyote, OD, ACU) — both with PU waterproof backing, laminated foam and scrim, and mil-spec MOLLE webbing on every seat. No other brand on this page offers all three.</p>
     <ul>{bullet_li}</ul>
     {note_html}
         <div class="bartact-colors">
@@ -367,7 +367,7 @@ def build_jk_hub():
         "JK/JKU (2007-2018)",
         BARTACT_IMGS["jk"],
         "https://bartact.com/collections/jeep-wrangler-jk-seat-covers",
-        ["Custom-cut, not universal fit","600D Polyester (or 1000D Cordura for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction","Cut and hand-sewn in the USA","Fits all JK years: 2007-2018"]
+        ["Custom-cut, not universal fit","600D Polyester (or 100D Cordura nylon for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction","Cut and hand-sewn in the USA","Fits all JK years: 2007-2018"]
     )
     cards = "".join(product_card(p) for p in JK_PRODUCTS)
     ct = comp_table("https://bartact.com/collections/jeep-wrangler-jk-seat-covers","JK/JKU", JK_PRODUCTS[:4])
@@ -430,7 +430,7 @@ def build_jk_year(year_key, year_range, airbag_note, prev_url, next_url):
         f"JK/JKU {year_range}",
         img,
         collection,
-        ["Custom-cut, not universal","600D Polyester (or 1000D Cordura for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction",f"Confirmed fit: {year_range} JK 2-door and JKU 4-door","Cut and hand-sewn in the USA"]
+        ["Custom-cut, not universal","600D Polyester (or 100D Cordura nylon for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction",f"Confirmed fit: {year_range} JK 2-door and JKU 4-door","Cut and hand-sewn in the USA"]
     )
     cards = "".join(product_card(p) for p in JK_PRODUCTS)
     ct = comp_table(collection, f"JK {year_range}", JK_PRODUCTS[:4])
@@ -454,7 +454,7 @@ def build_jk_year(year_key, year_range, airbag_note, prev_url, next_url):
   {BARTACT_BLOG}
   <h2 class="section">Frequently Asked Questions</h2>
   <div class="faq-item"><h3>Do {year_range} JK and JKU use the same seat covers?</h3><p>Front covers are identical &mdash; same seat frame across 2-door JK and 4-door JKU. Rear covers differ by door count. Specify 2-door or 4-door when ordering rear seats.</p></div>
-  <div class="faq-item"><h3>Is Bartact worth the price over Amazon options?</h3><p>Bartact uses 600D Polyester (or 1000D Cordura for Coyote/OD/ACU) with PU waterproof backing, laminated foam and scrim, UV protection in the fabric milling, and mil-spec MOLLE &mdash; all sewn in the USA. Amazon alternatives use lighter materials without MOLLE. If MOLLE and USA-made matter to you, Bartact is worth it. If you just need basic seat protection, the Amazon picks are solid.</p></div>
+  <div class="faq-item"><h3>Is Bartact worth the price over Amazon options?</h3><p>Bartact uses 600D Polyester (or 100D Cordura nylon for Coyote/OD/ACU) with PU waterproof backing, laminated foam and scrim, UV protection in the fabric milling, and mil-spec MOLLE &mdash; all sewn in the USA. Amazon alternatives use lighter materials without MOLLE. If MOLLE and USA-made matter to you, Bartact is worth it. If you just need basic seat protection, the Amazon picks are solid.</p></div>
   <div class="faq-item"><h3>What does SAB airbag compliant mean?</h3><p>SAB stands for Side Airbag. Wrangler JKs have side-curtain airbags that deploy through the seat seam. SAB-compliant covers have a split seam that allows the airbag to deploy without obstruction. Never use a non-SAB cover on a JK with side airbags &mdash; it can prevent the airbag from deploying correctly in a crash.</p></div>
 </div>"""
 
@@ -474,7 +474,7 @@ def build_jl_hub():
         "JL/JLU (2018+)",
         BARTACT_IMGS["jl"],
         collection,
-        ["Custom-cut, not universal","600D Polyester (or 1000D Cordura for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction","Fits 2018-2024 JL 2-door and JLU 4-door","Cut and hand-sewn in the USA"],
+        ["Custom-cut, not universal","600D Polyester (or 100D Cordura nylon for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction","Fits 2018-2024 JL 2-door and JLU 4-door","Cut and hand-sewn in the USA"],
         note="Not compatible with Mojave Edition or 392 Edition &mdash; those require special HVAC seat cover cutouts. Check Bartact&rsquo;s site for edition-specific fitment."
     )
     cards = "".join(product_card(p) for p in JL_PRODUCTS)
@@ -508,7 +508,7 @@ def build_jl_hub():
   <div class="faq-item"><h3>Do JL and JLU use the same seat covers?</h3><p>Front covers are identical. The JL 2-door rear bench is smaller than the JLU 4-door. Always specify door count when ordering rear covers. Most brands list JL and JLU separately in their fitment tables.</p></div>
   <div class="faq-item"><h3>Why won&rsquo;t Bartact fit the Mojave or 392 Edition?</h3><p>The Mojave Edition has desert-rated HVAC vents in the front seats, and the 392 Edition has performance-tuned heated/ventilated seats. Both require custom cutouts in the seat cover that standard JL covers don&rsquo;t have. Bartact makes edition-specific covers &mdash; check their site for Mojave and 392 fitment options.</p></div>
   <div class="faq-item"><h3>Do 2021+ JL seat covers differ from 2018-2020?</h3><p>The seat frame is the same across all JL years. Some minor trim differences exist in the 2021+ interior, but they don&rsquo;t affect seat cover fitment. All covers listed here fit the full 2018-2024+ JL/JLU range.</p></div>
-  <div class="faq-item"><h3>What&rsquo;s different about Bartact vs Amazon for the JL?</h3><p>Bartact uses 600D Polyester (or 1000D Cordura for Coyote/OD/ACU) with PU waterproof backing, laminated foam and scrim, UV protection in the fabric milling, and mil-spec MOLLE webbing &mdash; sewn in the USA. Amazon alternatives (Smittybilt, Aierxuan, GIANT PANDA, FH Group) use lighter neoprene or faux leather without MOLLE. Both protect your seats; Bartact adds MOLLE functionality and USA-made quality.</p></div>
+  <div class="faq-item"><h3>What&rsquo;s different about Bartact vs Amazon for the JL?</h3><p>Bartact uses 600D Polyester (or 100D Cordura nylon for Coyote/OD/ACU) with PU waterproof backing, laminated foam and scrim, UV protection in the fabric milling, and mil-spec MOLLE webbing &mdash; sewn in the USA. Amazon alternatives (Smittybilt, Aierxuan, GIANT PANDA, FH Group) use lighter neoprene or faux leather without MOLLE. Both protect your seats; Bartact adds MOLLE functionality and USA-made quality.</p></div>
   <div class="faq-item"><h3>Can I put seat covers on a JL with heated seats?</h3><p>Yes &mdash; all covers listed here are compatible with heated seats. Thin covers like faux leather and neoprene transmit heat effectively. Thicker covers may reduce heat transfer slightly but won&rsquo;t damage the heating element. Avoid covers with thick foam padding if heated seats are a priority.</p></div>
 </div>"""
 
@@ -528,7 +528,7 @@ def build_tj_hub():
         "TJ/LJ (1997-2006)",
         BARTACT_IMGS["tj"],
         collection,
-        ["Custom-cut for TJ and LJ (Unlimited)","600D Polyester (or 1000D Cordura for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction","Fits all TJ/LJ years: 1997-2006","Cut and hand-sewn in the USA"]
+        ["Custom-cut for TJ and LJ (Unlimited)","600D Polyester (or 100D Cordura nylon for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction","Fits all TJ/LJ years: 1997-2006","Cut and hand-sewn in the USA"]
     )
     cards = "".join(product_card(p) for p in TJ_PRODUCTS)
     ct = comp_table(collection, "TJ/LJ", TJ_PRODUCTS[:3])
@@ -595,7 +595,7 @@ def build_index():
         "Jeep Wrangler (All Gens)",
         BARTACT_IMGS["jk"],
         "https://bartact.com/collections/jeep-wrangler-jk-seat-covers",
-        ["Custom-cut, not universal fit","600D Polyester (or 1000D Cordura for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction","Made in the USA","Fits JK, JKU, JL, JLU, TJ, and LJ"]
+        ["Custom-cut, not universal fit","600D Polyester (or 100D Cordura nylon for Coyote/OD/ACU) with PU waterproof backing","Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction","Made in the USA","Fits JK, JKU, JL, JLU, TJ, and LJ"]
     )
 
     material_table = """<table class="comp-table" style="margin:16px 0 28px">

@@ -307,7 +307,7 @@ BRAND_COMPARISON = """
     <tbody>
       <tr style="background:#fff8f7">
         <td><strong style="color:#c0392b">Bartact</strong> &#9733; #1</td>
-        <td>600D Polyester (PU backing + foam/scrim) or 1000D Cordura</td>
+        <td>600D Polyester (PU backing + foam/scrim) or 100D Cordura nylon</td>
         <td><strong style="color:#27ae60">✓ Yes</strong></td>
         <td><strong style="color:#27ae60">✓ Yes</strong></td>
         <td><strong style="color:#27ae60">USA &#127482;&#127480;</strong></td>

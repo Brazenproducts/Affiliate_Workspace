@@ -170,7 +170,7 @@ def prod_card(p):
 
 def bartact_section(year_note=""):
     bullets = ["Custom-cut for Jeep Gladiator JT &mdash; not a Wrangler cover",
-               "600D Polyester standard / 1000D Cordura for OD, Coyote, ACU",
+               "600D Polyester standard / 100D Cordura nylon for OD, Coyote, ACU",
                "Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction",
                "Fits 2019-2025 Jeep Gladiator JT","Cut and hand-sewn in the USA"]
     bullet_li = "".join(f"<li>&#10003; {b}</li>" for b in bullets)
@@ -180,7 +180,7 @@ def bartact_section(year_note=""):
   <div class="info">
     <span class="top-badge">&#9733; #1 Pick &mdash; Made in USA</span>
     <h2>Bartact Tactical Seat Covers &mdash; Jeep Gladiator JT</h2>
-    <p class="why">Bartact makes a Gladiator-specific seat cover that&rsquo;s not just a repurposed Wrangler pattern. The Gladiator JT has longer front seat rails and a different rear configuration than the JL &mdash; Bartact accounts for this. The result is a custom-cut, MOLLE-equipped cover sewn in the USA from 600D Polyester (or 1000D Cordura in specialty colors) that fits the JT correctly and holds up to trail use.</p>
+    <p class="why">Bartact makes a Gladiator-specific seat cover that&rsquo;s not just a repurposed Wrangler pattern. The Gladiator JT has longer front seat rails and a different rear configuration than the JL &mdash; Bartact accounts for this. The result is a custom-cut, MOLLE-equipped cover sewn in the USA from 600D Polyester (or 100D Cordura nylon in specialty colors) that fits the JT correctly and holds up to trail use.</p>
     <ul>{bullet_li}</ul>
     {note}
         <div class="bartact-colors">
@@ -201,7 +201,7 @@ def bartact_section(year_note=""):
 
 def comp_table_html(products):
     rows = f"""<tr><td><strong>Bartact</strong></td><td>Best overall</td><td>Custom JT cut</td>
-    <td>600D Polyester / 1000D Cordura</td><td>Yes</td><td>USA</td>
+    <td>600D Polyester / 100D Cordura nylon</td><td>Yes</td><td>USA</td>
     <td><a href="{BARTACT_COLLECTION}" target="_blank" rel="noopener">Shop &rarr;</a></td></tr>"""
     for p in products:
         rows += f"""<tr><td>{p['brand']}</td><td>Mid-range</td><td>Custom JT</td>

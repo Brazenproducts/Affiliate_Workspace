@@ -1,70 +1,83 @@
-# Affiliate Health Check - 2026-08-05
+# Affiliate Daily Health Check — 2026-08-06 (Thursday, 15:00 UTC)
 
 ## Summary
-- **Total Sites:** 735
-- **✅ OK:** 143 (19.5%)
-- **⚠️ Warning:** 553 (75.2%)
-- **🔴 Critical:** 39 (5.3%)
 
-## Critical Issues (39 sites)
-39 sites require immediate attention with one or more of these issues:
-- Missing affiliate tags on links
-- No Amazon links/monetization
-- Missing robots.txt
-- Missing privacy.html
-- Missing sitemap.xml
-- Broken internal links
+**Total Sites:** 735
+- ✅ **OK:** 143 (19.5%)
+- ⚠️ **Warning:** 553 (75.2%)
+- 🔴 **Critical:** 39 (5.3%)
 
-### Complete Critical List:
-1. bestprotein-powder.com - robots.txt missing, no Amazon links, privacy.html missing, sitemap.xml missing
-2. boxomasks.com - missing affiliate tags (5 links), privacy.html missing, 2 broken links
-3. brazenathletes.com - missing affiliate tags (5 links), privacy.html missing, 2 broken links
-4. commandersfootballsite.com - missing affiliate tags (5 links), privacy.html missing
-5. customlabelproducts.com - missing affiliate tags (5 links), privacy.html missing
-6. custompatchmaker.com - missing affiliate tags (5 links), privacy.html missing
-7. desertcommander.com - missing affiliate tags (5 links), privacy.html missing
-8. disastermodularhousing.com - missing affiliate tags (5 links), privacy.html missing
-9. factorfilters.com - robots.txt missing, missing affiliate tags (80 links), privacy.html missing, sitemap.xml missing
-10. faithfulpassages.com - no Amazon links (no monetization)
-11. governmentemergencyhousing.com - missing affiliate tags (5 links), privacy.html missing
-12. hspseats.com - missing affiliate tags (20 links), privacy.html missing, 1 broken link
-13. indexing-credentials - robots.txt missing, no Amazon links, privacy.html missing, sitemap.xml missing
-14. janitol.com - missing affiliate tags (5 links), privacy.html missing
-15. limitstraps.com - no Amazon links, privacy.html missing, 1 broken link
-16. manufactureraftermarket.com - missing affiliate tags (5 links), privacy.html missing
-17. meatskins.com - missing affiliate tags (5 links), privacy.html missing
-18. murrietasports.com - missing affiliate tags (5 links), privacy.html missing
-19. ovex.life - missing affiliate tags (5 links), privacy.html missing
-20. polyesterbattinsulation.com - missing affiliate tags (5 links), privacy.html missing
-21. qualityoutdoorcushion.com - missing affiliate tags (5 links), privacy.html missing, 1 broken link
-22. rangewolf-com - robots.txt missing, no Amazon links, privacy.html missing, sitemap.xml missing
-23. recentratings.com - missing affiliate tags (33 links), privacy.html missing
-24. redeyemasks.com - missing affiliate tags (5 links), privacy.html missing
-25. rollbarwrap.com - missing affiliate tags (5 links), privacy.html missing
-26. saltonpeppers.com - missing affiliate tags (5 links), privacy.html missing
-27. saltonseasalt.com - missing affiliate tags (5 links), privacy.html missing
-28. shadeliners.com - missing affiliate tags (5 links), privacy.html missing
-29. socalbeverages.com - missing affiliate tags (5 links), privacy.html missing
-30. stratratchets.com - robots.txt missing, no Amazon links, privacy.html missing, sitemap.xml missing
-31. tabsmaster.com - missing affiliate tags (5 links), privacy.html missing
-32. tbarbags.com - missing affiliate tags (5 links), privacy.html missing
-33. thedailycheer.com - robots.txt missing, missing affiliate tags (85 links), privacy.html missing, sitemap.xml missing
-34. truckdubai.com - no Amazon links (no monetization)
-35. truckuae.com - no Amazon links (no monetization)
-36. whatsizehvacfilter.com - no Amazon links (no monetization)
-37. wholehouseairfilter.com - no Amazon links (no monetization)
-38. wranglerseat.com - robots.txt missing, no Amazon links, sitemap.xml missing
-39. wranglerseatcover.com - missing affiliate tags (3 links), 2 broken links
+---
 
-## Top Issues by Frequency
-- **Missing privacy.html:** 553+ sites
-- **Missing robots.txt:** 100+ sites
-- **Missing sitemap.xml:** 100+ sites
-- **Missing affiliate tags:** 39 sites (critical)
-- **No Amazon links:** 9 sites (critical)
-- **Broken internal links:** 80+ sites
+## Status: CRITICAL ALERT 🚨
+
+**39 sites are in critical condition** and need immediate action:
+
+### Missing Affiliate Tags (highest impact)
+- **boxomasks.com** — 5 missing tags
+- **brazenathletes.com** — 5 missing tags
+- **commandersfootballsite.com** — 5 missing tags
+- **customlabelproducts.com** — 5 missing tags
+- **custompatchmaker.com** — 5 missing tags
+- **desertcommander.com** — 5 missing tags
+- **disastermodularhousing.com** — 5 missing tags
+- **governmentemergencyhousing.com** — 5 missing tags
+- **hspseats.com** — 20 missing tags (HIGH PRIORITY)
+- **janitol.com** — 5 missing tags
+- **manufactureraftermarket.com** — 5 missing tags
+- **meatskins.com** — 5 missing tags
+- **murrietasports.com** — 5 missing tags
+- **ovex.life** — 5 missing tags
+- **polyesterbattinsulation.com** — 5 missing tags
+- **qualityoutdoorcushion.com** — 5 missing tags
+- **recentratings.com** — 33 missing tags (CRITICAL)
+- **redeyemasks.com** — 5 missing tags
+- **rollbarwrap.com** — 5 missing tags
+- **saltonpeppers.com** — 5 missing tags
+- **saltonseasalt.com** — 5 missing tags
+- **shadeliners.com** — 5 missing tags
+- **socalbeverages.com** — 5 missing tags
+- **tabsmaster.com** — 5 missing tags
+- **tbarbags.com** — 5 missing tags
+- **wranglerseatcover.com** — 3 missing tags
+
+### Zero Amazon Links (no monetization)
+- **bestprotein-powder.com**
+- **factorfilters.com**
+- **faithfulpassages.com**
+- **limitstraps.com**
+- **rangewolf-com**
+- **stratratchets.com**
+- **thedailycheer.com**
+- **truckdubai.com**
+- **truckuae.com**
+- **whatsizehvacfilter.com**
+- **wholehouseairfilter.com**
+- **wranglerseat.com**
+
+### Missing Critical Files (robots.txt, privacy.html, sitemap.xml)
+Multiple sites missing complete SEO infrastructure:
+- **bestprotein-powder.com** — robots.txt, privacy.html, sitemap.xml
+- **factorfilters.com** — robots.txt, privacy.html, sitemap.xml
+- **indexing-credentials** — robots.txt, privacy.html, sitemap.xml
+- **rangewolf-com** — robots.txt, privacy.html, sitemap.xml
+- **stratratchets.com** — robots.txt, privacy.html, sitemap.xml
+- **thedailycheer.com** — robots.txt, privacy.html, sitemap.xml
+- **wranglerseat.com** — robots.txt, privacy.html, sitemap.xml
+
+---
+
+## Next Steps
+
+1. **Immediate**: Fix high-impact sites (recentratings.com, hspseats.com)
+2. **Batch process**: Add affiliate tags to all 26 affected sites
+3. **Add monetization**: Add Amazon links to 12 non-monetized sites
+4. **Complete infrastructure**: Add missing robots.txt/privacy.html/sitemap.xml files
+
+---
 
 ## Notes
-- Amazon account OTP verification required for live API checks
-- Local-only mode used (HTTPS checks skipped)
-- 553 warning-level sites need compliance updates
+
+- Local-only mode: live HTTPS checks skipped
+- Amazon Associates account cookie(s) found but OTP required for live verification
+- 553 warning-level sites (mostly missing privacy.html, broken internal links, missing robots.txt)

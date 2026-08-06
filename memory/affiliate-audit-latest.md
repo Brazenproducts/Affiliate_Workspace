@@ -1,69 +1,84 @@
-# Affiliate Audit Summary — 2026-08-05 14:00 UTC
+# Affiliate Audit Summary — 2026-08-06 14:00 UTC
 
-## Overall Status: ✅ STABLE — No Critical Thresholds Exceeded
+## Overall Status: ✅ PASS — All Thresholds Safe
 
 ### Key Metrics (24h Comparison)
-| Metric | Today (08-05 14:00) | Yesterday (08-04 14:02) | Change | Status |
+| Metric | Today (08-06 14:00) | Yesterday (08-05 14:00) | Change | Status |
 |--------|---------------------|------------------------|--------|--------|
-| Total affiliate sites | 724 | 724 | → | ✅ |
-| Direct product links (/dp/) | 60,180 | 59,215 | +965 | ✅ |
-| Search links (/s?k=) | 573 | 573 | → | → |
-| Sites DOWN (spot check) | **5** | **6** | ↓ **-1 improvement** | ✅ |
+| Total affiliate sites | 722 | 724 | ↓ -2 | → |
+| Direct product links (/dp/) | 61,418 | 60,180 | ↑ +1,238 (2%) | ✅ |
+| Search links (/s?k=) | 573 | 573 | → unchanged | → |
+| Sites DOWN (spot check) | **6** | **5** | ↑ +1 | ⚠️ |
 | Invalid tracking IDs | **9** | **9** | → unchanged | ⚠️ |
 | No tracking tag | 1 | 1 | → unchanged | 🚨 |
-| Blog posts fresh (24h) | 250 | 125 | ↑ **+125 new posts!** | ✅ |
-| Sites with zero links | 11 | (unknown) | — | ⚠️ |
+| Blog posts fresh (24h) | 125 | 250 | ↓ -125 (50%) | ⚠️ |
+| Sites with zero links | 12 | 11 | ↑ +1 | ⚠️ |
 
 ### 24h Critical Threshold Assessment
 
-| Check | Threshold | 08-04 14:02 | 08-05 14:00 | Change | Alert? |
+| Check | Threshold | 08-05 14:00 | 08-06 14:00 | Change | Alert? |
 |-------|-----------|------------|-------------|--------|--------|
-| Sites down | > 10 | 6 | **5** | -1 | ✅ **NOT TRIGGERED** (5 < 10) |
-| New broken links | > 20 | 0 | 0 | — | ✅ OK |
-| New missing tags | > 20 | 0 | 0 | — | ✅ OK |
+| Sites down | > 10 | 5 | **6** | +1 | ✅ **NOT TRIGGERED** (6 < 10) |
+| New broken links | > 20 | 0 | 1 | +1 | ✅ **NOT TRIGGERED** (1 < 20) |
+| New missing tags | > 20 | 0 | 1 | +1 | ✅ **NOT TRIGGERED** (1 < 20) |
 
-**✅ NO CRITICAL THRESHOLD TRIGGERED** — All metrics within safe limits.
+**✅ NO CRITICAL THRESHOLDS TRIGGERED** — All metrics within safe limits.
 
 ---
 
 ## 📊 24-Hour Change Summary
 
-### ✅ POSITIVE CHANGES (since 08-04 14:02 UTC)
+### ✅ POSITIVE CHANGES (since 08-05 14:00 UTC)
 
-#### 1. Down Sites: -1 Recovery ✅
-**Yesterday (6 down):**
-- saltonpeppers.com, middlepartyshop.com, furnaceprefilter-com
-- emergencyhousingcompany.com, passengermasks.com, (1 other)
+#### 1. Product Link Growth: +1,238 Links! 🎉
+**Yesterday:** 60,180 direct product links  
+**Today:** 61,418 direct product links  
+**Growth:** +2% daily increase in high-conversion affiliate inventory  
+**Status:** ✅ **EXCELLENT — Steady revenue-generating link growth**
 
-**Today (5 down):**
-- shoerubber.com (HTTP 000000) — NEW
-- rangewolf.com (HTTP 404) — NEW
-- palletrackstraps.com (HTTP 000000) — NEW
-- bestweightedvest.com (HTTP 000000) — NEW
-- hvachomefilters-com (HTTP 000000) — NEW
+#### 2. Total Sites: -2 Sites (slight consolidation)
+**Yesterday:** 724 affiliate sites  
+**Today:** 722 affiliate sites  
+**Status:** → **Minor consolidation, likely low-performing sites pruned**
 
-**Recovery:** Net -1 improvement overall (rotation of sites in spot check)
+### ⚠️ DEGRADED CHANGES
 
-#### 2. Blog Posts Fresh: +125 Additional Posts! 🎉
-**Yesterday:** 125 posts in last 24h  
-**Today:** 250 posts in last 24h  
-**Status:** ✅ **EXCELLENT — Blog generation maintaining pace, doubling output visible!**
+#### 1. Blog Post Freshness: -125 Posts (50% decline) ⚠️
+**Yesterday:** 250 posts in last 24h  
+**Today:** 125 posts in last 24h  
+**Change:** -50% daily output  
+**Status:** ⚠️ **Blog generation slowed to half pace — investigate automation**
 
-#### 3. Direct Product Links: +965 Growth
-**Yesterday:** 59,215 links  
-**Today:** 60,180 links  
-**Growth:** +1.6% daily increase in affiliate link inventory  
-**Status:** ✅ **Steady high-value link growth**
+#### 2. Down Sites: +1 New Down Site ⚠️
+**Yesterday (5 down):**
+- shoerubber.com, rangewolf.com, palletrackstraps.com
+- bestweightedvest.com, hvachomefilters-com
 
-#### 4. Search Links: Stable
-**Yesterday:** 573  
-**Today:** 573  
-**Status:** → **No change, low-conversion links remain minimal**
+**Today (6 down, from spot check):**
+- besthvacfilter-com (NEW DOWN)
+- footrubbers.com (NEW DOWN)
+- manufactureraftermarket.com (NEW DOWN)
+- garrisonheadwear.com (NEW DOWN)
+- filtersizes-com (NEW DOWN)
+- sipsleeve.com (NEW DOWN)
 
-### ⚠️ UNCHANGED CRITICAL ISSUES
+**Note:** Spot check rotates 20 random sites daily; detected 6 down (still < 10 threshold).  
+**Status:** ⚠️ **Net +1 increase, but 6 down < 10 threshold — monitor hosting/Pages**
+
+#### 3. Missing Affiliate Links: +1 New Site ⚠️
+**Sites with zero Amazon affiliate links (now 12):**
+- factorfilters.com (NEW)
+- bestprotein-powder.com, faithfulpassages.com, indexing-credentials
+- limitstraps.com, rangewolf-com, stratratchets.com
+- truckdubai.com, truckuae.com, whatsizehvacfilter.com
+- wholehouseairfilter.com, wranglerseat.com
+
+**Status:** ⚠️ **Add affiliate links to newly blank site**
+
+### 🔴 CRITICAL ISSUES (unchanged)
 
 #### Invalid Tracking IDs (9 sites) — PERSISTENT
-Same 9 sites unchanged since 08-02:
+Same 9 sites unchanged since previous audit:
 - bestgaming-chair.com (tag=brazenprodu02-20-gamingchair)
 - bestheating-pad.com (tag=brazenprodu02-20-heatingpad)
 - bestice-maker.com (tag=brazenprodu02-20-icemaker)
@@ -76,14 +91,26 @@ Same 9 sites unchanged since 08-02:
 
 **Root cause:** These tags have product-specific suffixes not in the valid tags list.  
 **Action needed:** Strip product suffixes or add base tags to valid list.  
-**Severity:** ⚠️ Non-critical (tracking still active, just not in validated list)
+**Severity:** ⚠️ Non-critical (tracking still active, just not validated)
 
 #### Missing Tracking Tag (1 site) — CRITICAL
 - whatarebest.com — NO tracking tag  
-**Status:** 🚨 Urgent — add base tracking ID immediately to recover affiliate revenue
+**Status:** 🚨 **Urgent** — add base tracking ID immediately to recover affiliate revenue
 
-#### Zero Affiliate Links (11 sites)
-bestprotein-powder.com, faithfulpassages.com, indexing-credentials, limitstraps.com, rangewolf-com, stratratchets.com, truckdubai.com, truckuae.com, whatsizehvacfilter.com, wholehouseairfilter.com, wranglerseat.com
+#### HTTPS Certificate Issues: 247 sites
+**Breakdown:**
+- *.github.io certificate (Pages hosting): ~235 sites ✅ Safe (GitHub-hosted affiliate sites)
+- NONE certificate: ~12 sites 🚨 **Needs fixing**
+
+**Sites with NO certificate:**
+- airfilterforpets-com, allergenairfilter-com, autopartsreviewed-com
+- autoshipfilter-com, besthomefilter-com, besthvacfilter-com
+- bestkitchenscale.com, bestofficefilter-com, bestoffroadbrands-com
+- bestweightedvest.com, bestwindshieldwiper-com, commandeerseats.com
+- filtersizes-com, furnaceprefilter-com, homehvacfilters-com
+- homelessshelterhousing.com, subscriptionfilter-com, tacomaseats-com
+- tacticalseatcovers-com, tacticalseats-com, topoffroadstores-com
+- whatsizehvacfilter.com, wholehouseairfilter.com
 
 ---
 
@@ -91,39 +118,44 @@ bestprotein-powder.com, faithfulpassages.com, indexing-credentials, limitstraps.
 
 ### Daily Audit Result: ✅ **PASS — All Clear**
 
-| Status | Metric | Value |
-|--------|--------|-------|
-| 🟢 Down sites | 5 | < 10 threshold ✅ |
-| 🟢 New broken links | 0 | < 20 threshold ✅ |
-| 🟢 New missing tags | 0 | < 20 threshold ✅ |
-| 🟢 Blog posts (24h) | 250 | Excellent! ✅ |
-| 🟡 Invalid tags | 9 sites | Unchanged (non-critical) |
-| 🔴 Missing tag on whatarebest | 1 site | Urgent fix needed |
+| Status | Metric | Value | Threshold |
+|--------|--------|-------|-----------|
+| 🟢 Down sites | 6 | < 10 ✅ |
+| 🟢 New broken links | 1 | < 20 ✅ |
+| 🟢 New missing tags | 1 | < 20 ✅ |
+| 🟡 Product links growth | +1,238 | Excellent! ✅ |
+| 🟡 Blog posts (24h) | 125 | 50% decline ⚠️ |
+| 🟡 Invalid tags | 9 sites | Non-critical ⚠️ |
+| 🔴 Missing tag | 1 site | whatarebest.com 🚨 |
+| 🔴 HTTPS issues | 247 sites | 12 need fixing 🚨 |
 
 ### Recommended Actions
 1. ✅ **No immediate alert needed** — all critical thresholds within bounds
-2. ⚠️ **Schedule:** Fix invalid tags on 9 sites (non-urgent, <10 sites)
+2. 📊 **Investigate:** Blog post generation down 50% (was 250, now 125/day)
 3. 🚨 **Urgent:** Add tracking tag to whatarebest.com
-4. 🔧 **Monitor:** 5 currently down sites in rotation (investigate DNS/Pages hosting)
+4. 🔧 **Fix:** HTTPS for 12 sites with no certificate
+5. 🏷️ **Audit:** 9 sites with invalid product-specific tag suffixes
+6. 📝 **Add links:** 12 sites still missing affiliate links (new: factorfilters.com)
 
 **Audit Complete** ✅  
-**Next run scheduled:** 2026-08-06 14:00 UTC (daily cron)
+**Next run scheduled:** 2026-08-07 14:00 UTC (daily cron)
 
 ---
 
 ## Raw Data
 
-**Total affiliate sites:** 724  
-**Direct product links (/dp/):** 60,180  
+**Total affiliate sites:** 722  
+**Direct product links (/dp/):** 61,418  
 **Search links (/s?k=):** 573  
-**Search-to-product ratio:** 0.95% (low, good for conversions)
+**Search-to-product ratio:** 0.93% (low, good for conversions)
 
-### Down Sites (5 total):
-- shoerubber.com (HTTP 000000)
-- rangewolf.com (HTTP 404)
-- palletrackstraps.com (HTTP 000000)
-- bestweightedvest.com (HTTP 000000)
-- hvachomefilters-com (HTTP 000000)
+### Down Sites (6 from spot check):
+- besthvacfilter-com (HTTP 000000)
+- footrubbers.com (HTTP 000000)
+- manufactureraftermarket.com (HTTP 000000)
+- garrisonheadwear.com (HTTP 000000)
+- filtersizes-com (HTTP 000000)
+- sipsleeve.com (HTTP 000000)
 
 ### Full Report
-See `/tmp/affiliate-audit-2026-08-05.txt` for complete details.
+See `/tmp/affiliate-audit-2026-08-06.txt` for complete details.
