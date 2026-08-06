@@ -142,10 +142,12 @@ async function run() {
     gaQuery(token, `SELECT campaign.name, campaign.status, campaign_budget.resource_name, campaign_budget.amount_micros FROM campaign WHERE campaign.status = 'ENABLED' ORDER BY campaign_budget.amount_micros DESC`),
   ]);
 
-  // ── 2. Fetch Shopify orders for true revenue ──
+  // ── 2. Fetch Shopify orders for true revenue + gclid cross-check ──
+  // Fetch with note_attributes to capture gclid (captures ~36-41% of Google orders)
+  // note_attributes is the only reliable gclid source; landing_site only captures ~10%
   const [shopifyTW, shopifyLW] = await Promise.all([
-    shopifyGet(`/admin/api/2024-01/orders.json?status=any&created_at_min=${fmtDateISO(thisMonday)}T00:00:00-07:00&created_at_max=${fmtDateISO(today)}T23:59:59-07:00&limit=250&fields=id,total_price,financial_status,created_at`),
-    shopifyGet(`/admin/api/2024-01/orders.json?status=any&created_at_min=${fmtDateISO(lastMonday)}T00:00:00-07:00&created_at_max=${fmtDateISO(lastSunday)}T23:59:59-07:00&limit=250&fields=id,total_price,financial_status,created_at`),
+    shopifyGet(`/admin/api/2024-01/orders.json?status=any&created_at_min=${fmtDateISO(thisMonday)}T00:00:00-07:00&created_at_max=${fmtDateISO(today)}T23:59:59-07:00&limit=250&fields=id,total_price,financial_status,created_at,note_attributes`),
+    shopifyGet(`/admin/api/2024-01/orders.json?status=any&created_at_min=${fmtDateISO(lastMonday)}T00:00:00-07:00&created_at_max=${fmtDateISO(lastSunday)}T23:59:59-07:00&limit=250&fields=id,total_price,financial_status,created_at,note_attributes`),
   ]);
 
   function shopifyRevenue(orders) {
@@ -154,10 +156,30 @@ async function run() {
       .reduce((s, o) => s + parseFloat(o.total_price), 0);
   }
 
+  function hasGclid(order) {
+    // Check note_attributes for gclid — NOT landing_site
+    if (!order.note_attributes) return false;
+    return order.note_attributes.some(a => a.name === 'gclid' && a.value && a.value.trim() !== '');
+  }
+
+  function gclidRevenue(orders) {
+    return (orders || [])
+      .filter(o => o.financial_status !== 'voided' && o.financial_status !== 'refunded' && hasGclid(o))
+      .reduce((s, o) => s + parseFloat(o.total_price), 0);
+  }
+
   const shopifyRevTW = shopifyRevenue(shopifyTW.orders);
   const shopifyRevLW = shopifyRevenue(shopifyLW.orders);
   const shopifyOrdersTW = (shopifyTW.orders || []).filter(o => o.financial_status !== 'voided').length;
   const shopifyOrdersLW = (shopifyLW.orders || []).filter(o => o.financial_status !== 'voided').length;
+
+  // gclid cross-check: orders that came through Google Ads (note_attributes gclid)
+  const gclidOrdersTW = (shopifyTW.orders || []).filter(o => o.financial_status !== 'voided' && hasGclid(o));
+  const gclidRevTW = gclidRevenue(shopifyTW.orders);
+  const gclidCountTW = gclidOrdersTW.length;
+  const gclidOrdersLW = (shopifyLW.orders || []).filter(o => o.financial_status !== 'voided' && hasGclid(o));
+  const gclidRevLW = gclidRevenue(shopifyLW.orders);
+  const gclidCountLW = gclidOrdersLW.length;
 
   // ── 3. Roll up campaign data ──
   function rollup(rows) {
@@ -186,6 +208,13 @@ async function run() {
   // Shopify total shown separately as context only — NOT divided by Google spend
   const trueRoasTW = googleRoasTW; // alias for flag logic below
   const trueRoasLW = googleRoasLW;
+
+  // gclid cross-check calculations (needs totalRevTW + totalSpendTW from rollup above)
+  const gclidCaptureRateTW = shopifyOrdersTW > 0 ? (gclidCountTW / shopifyOrdersTW * 100) : 0;
+  const GCLID_CAPTURE_RATE_EXPECTED = 0.385; // midpoint of 36-41%
+  const gclidRevAdjustedTW = gclidCaptureRateTW > 5 ? gclidRevTW / (gclidCaptureRateTW / 100) : gclidRevTW / GCLID_CAPTURE_RATE_EXPECTED;
+  const overReportingPct = gclidRevAdjustedTW > 0 ? ((totalRevTW - gclidRevAdjustedTW) / gclidRevAdjustedTW * 100) : 0;
+  const gclidRoasTW = totalSpendTW > 0 && gclidRevAdjustedTW > 0 ? gclidRevAdjustedTW / totalSpendTW : 0;
 
   // ── 4. Daily trend (last 3 days) ──
   const byDay = {};
@@ -289,6 +318,17 @@ async function run() {
   lines.push(`Target: ${TARGET_ROAS_MIN}x min / ${TARGET_ROAS_GOAL}x goal`);
   lines.push('');
 
+  // Shopify gclid cross-check section
+  lines.push('━━━ SHOPIFY GCLID CROSS-CHECK ━━━');
+  lines.push(`Gclid orders this week: ${gclidCountTW} orders → $${gclidRevTW.toFixed(0)} raw revenue`);
+  lines.push(`Gclid capture rate: ${gclidCaptureRateTW.toFixed(1)}% of all Shopify orders had gclid (expected: 36-41%)`);
+  lines.push(`Adjusted Google-attributed Shopify revenue (÷ capture rate): $${gclidRevAdjustedTW.toFixed(0)}`);
+  lines.push(`Google-claimed revenue: $${totalRevTW.toFixed(0)} | Shopify gclid-adjusted: $${gclidRevAdjustedTW.toFixed(0)}`);
+  const overReportingLabel = overReportingPct > 0 ? `over-reporting by ${overReportingPct.toFixed(0)}%` : `under-reporting by ${Math.abs(overReportingPct).toFixed(0)}%`;
+  lines.push(`Over-reporting: Google is ${overReportingLabel} vs Shopify gclid-adjusted`);
+  lines.push(`Gclid-adjusted ROAS: ${gclidRoasTW.toFixed(2)}x (vs Google-claimed ${googleRoasTW.toFixed(2)}x)`);
+  lines.push('');
+
   // Daily trend
   lines.push('━━━ DAILY TREND (last 3 days) ━━━');
   for (const [day, d] of Object.entries(byDay).sort()) {
@@ -335,12 +375,17 @@ async function run() {
   fs.writeFileSync(outPath, `# Google Ads Audit ${fmtDateISO(today)}\n\n\`\`\`\n${report}\n\`\`\`\n`);
   console.log(`\nSaved to ${outPath}`);
 
+  // ── Determine whether to alert ──
+  const anyZeroConvHighSpend = Object.entries(tw).some(([, m]) => m.spend >= 50 && m.convs === 0);
+  const shouldAlert = googleRoasTW < 3.0 || anyZeroConvHighSpend || overReportingPct > 50;
+
   // Build Telegram summary
   const roasEmoji = googleRoasTW >= TARGET_ROAS_GOAL ? '✅' : googleRoasTW >= TARGET_ROAS_MIN ? '⚠️' : '🔴';
   const tgLines = [
     `${roasEmoji} *Bartact Ads — ${fmtDateISO(today)}*`,
     `Spend: $${totalSpendTW.toFixed(0)} | ROAS: ${googleRoasTW.toFixed(2)}x (target: ${TARGET_ROAS_MIN}x+)`,
     `Shopify revenue: $${shopifyRevTW.toFixed(0)} (${shopifyOrdersTW} orders, all channels)`,
+    `Gclid orders: ${gclidCountTW} | Gclid-adjusted ROAS: ${gclidRoasTW.toFixed(2)}x | Over-reporting: ${overReportingPct.toFixed(0)}%`,
     '',
   ];
 
@@ -401,8 +446,13 @@ async function run() {
     tgLines.push('Everything looks clean today. No action needed from you.');
   }
 
-  await sendTelegram(tgLines.join('\n'));
-  console.log('Telegram report sent.');
+  if (shouldAlert) {
+    await sendTelegram(tgLines.join('\n'));
+    console.log('Telegram alert sent (threshold triggered).');
+  } else {
+    console.log('No alert sent — all metrics within acceptable range.');
+    console.log(`  ROAS: ${googleRoasTW.toFixed(2)}x (≥3.0x ✓) | Zero-conv high-spend: ${anyZeroConvHighSpend} | Over-reporting: ${overReportingPct.toFixed(0)}% (≤50% ✓)`);
+  }
 }
 
 run().catch(async e => {

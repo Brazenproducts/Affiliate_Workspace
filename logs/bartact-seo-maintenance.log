@@ -1,0 +1,70 @@
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/scripts/bartact-seo-maintenance.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+◇ injected env (0) from ../.env // tip: ⌘ override existing { override: true }
+=== Bartact SEO Weekly Maintenance ===
+Run time: 2026-08-02T06:00:01.474Z
+
+Fetching all active products via GraphQL...
+Total active products scanned: 311
+
+Products missing SEO (title and/or description): 5
+  Products needing fixes:
+  - [cpb-order-c2dc4a67-3b52-4312-96b1-83bb25d609c6] "Fully Customized Front Tactical Seat Covers for Jeep® Wrangler JLU 2018+ 4-Door | All Editions incl. Mojave & 392 | Bartact - Customer's Product with price 1089.98 ID oXeoJGADVIN095lU7YjC2QAx" → missing title, missing description
+  - [cpb-order-d3a0df22-9133-46f8-952f-426ba3c3c9f1] "Fully Customized Front Tactical Seat Covers for Jeep® Wrangler JLU 2018+ 4-Door | All Editions incl. Mojave & 392 | Bartact - Customer's Product with price 1069.98 ID 733wCHxJQMZmKwNA9NFhizeX" → missing title, missing description
+  - [cpb-order-0393da6d-07a6-4d25-83db-22d93f602d61] "Fully Customized Rear Bench Tactical Seat Covers for Jeep Wrangler JLU 2018+ 4 Door - BARTACT - WITH Fold Down Armrest ONLY! (NOT for 4XE Edition) w/ MOLLE - Customer's Product with price 1139.97 ID eh48U3Lq82inLaPG10SEWBrL" → missing title, missing description
+  - [cpb-order-7c66dd95-0253-4542-bb5b-2d6ac0a3e6cd] "Fully Customized Front Tactical Seat Covers for Jeep® Wrangler JLU 2018+ 4-Door | All Editions incl. Mojave & 392 | Bartact - Customer's Product with price 1089.98 ID uNmCM6CtvS3_k8eRTWebkN6N" → missing title, missing description
+  - [cpb-order-0ff3d493-561e-4544-b2ce-ac236385a3df] "Fully Customized Front Tactical Seat Covers for Jeep® Wrangler JK & JKU 2007-10 BARTACT (PAIR) w/ MOLLE - Non SRS Air Bag Compliant - Customer's Product with price 529.98 ID 3dH6Eu5jFoYmTVZY9EvRFUf-" → missing title, missing description
+
+Fixing missing SEO fields...
+  ✅ Fixed [cpb-order-c2dc4a67-3b52-4312-96b1-83bb25d609c6] → title="Fully Customized Front Tactical Seat Covers for Je..." desc="Shop Fully Customized Front Tactical Seat Covers for Jeep® W..."
+  ✅ Fixed [cpb-order-d3a0df22-9133-46f8-952f-426ba3c3c9f1] → title="Fully Customized Front Tactical Seat Covers for Je..." desc="Shop Fully Customized Front Tactical Seat Covers for Jeep® W..."
+  ✅ Fixed [cpb-order-0393da6d-07a6-4d25-83db-22d93f602d61] → title="Fully Customized Rear Bench Tactical Seat Covers f..." desc="Shop Fully Customized Rear Bench Tactical Seat Covers for Je..."
+  ✅ Fixed [cpb-order-7c66dd95-0253-4542-bb5b-2d6ac0a3e6cd] → title="Fully Customized Front Tactical Seat Covers for Je..." desc="Shop Fully Customized Front Tactical Seat Covers for Jeep® W..."
+  ✅ Fixed [cpb-order-0ff3d493-561e-4544-b2ce-ac236385a3df] → title="Fully Customized Front Tactical Seat Covers for Je..." desc="Shop Fully Customized Front Tactical Seat Covers for Jeep® W..."
+
+Fixed: 5 | Errors: 0
+
+Checking key collection titles for tampering...
+  ⚠️  Collection not found: "jeep-seat-covers"
+  🚨 TAMPER FLAG: "jeep-wrangler-seat-covers"
+     Expected: "Jeep Wrangler Seat Covers | Bartact"
+     Actual:   "Jeep® Wrangler Seat Covers"
+  🚨 TAMPER FLAG: "jeep-gladiator-seat-covers-1"
+     Expected: "Jeep Gladiator Seat Covers | Bartact"
+     Actual:   "Jeep Gladiator Seat Covers"
+  🚨 TAMPER FLAG: "ford-bronco-seat-covers"
+     Expected: "Ford Bronco Seat Covers | Bartact"
+     Actual:   "Ford Bronco Seat Covers"
+  🚨 TAMPER FLAG: "toyota-tacoma-seat-covers"
+     Expected: "Toyota Tacoma Seat Covers | Bartact"
+     Actual:   "Toyota Tacoma Seat Covers"
+  🚨 TAMPER FLAG: "paracord-grab-handles"
+     Expected: "Paracord Grab Handles | Bartact"
+     Actual:   "Paracord Grab Handles"
+  ⚠️  Collection not found: "molle-gear-bags-pouches"
+
+=== SUMMARY ===
+Total active products scanned: 311
+Products missing SEO:          5
+Products fixed:                5
+Fix errors:                    0
+Collection tamper flags:       7
+Collections verified clean:    0
+
+⚠️  ACTION REQUIRED: Collection title tampering detected — review above flags.

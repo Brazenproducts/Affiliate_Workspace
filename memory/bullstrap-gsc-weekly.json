@@ -270,5 +270,413 @@
         "pos": "12.0"
       }
     ]
+  },
+  {
+    "date": "2026-07-30",
+    "week": {
+      "clicks": 31,
+      "impressions": 7673,
+      "avgPosition": "27.3"
+    },
+    "month": {
+      "clicks": 206,
+      "impressions": 28644
+    },
+    "topQueries": [
+      {
+        "q": "bullstrap",
+        "clicks": 2,
+        "impr": 848,
+        "pos": "3.7"
+      },
+      {
+        "q": "bullstrap returns",
+        "clicks": 2,
+        "impr": 7,
+        "pos": "4.1"
+      },
+      {
+        "q": "best leather case for iphone 17 pro max",
+        "clicks": 1,
+        "impr": 2,
+        "pos": "1.0"
+      },
+      {
+        "q": "best leather iphone 17 pro max case",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "1.0"
+      },
+      {
+        "q": "bullstrap customer service",
+        "clicks": 1,
+        "impr": 7,
+        "pos": "3.1"
+      },
+      {
+        "q": "leather phone case with lanyard",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "8.0"
+      },
+      {
+        "q": "*",
+        "clicks": 0,
+        "impr": 3,
+        "pos": "1.0"
+      },
+      {
+        "q": "1 4 drive t handle",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "30.0"
+      },
+      {
+        "q": "10 nylon braided rubber hose black",
+        "clicks": 0,
+        "impr": 3,
+        "pos": "16.0"
+      },
+      {
+        "q": "100 dollar phone case",
+        "clicks": 0,
+        "impr": 2,
+        "pos": "3.5"
+      }
+    ],
+    "topPages": [
+      {
+        "url": "/",
+        "clicks": 6,
+        "impr": 1253,
+        "pos": "4.6"
+      },
+      {
+        "url": "/pages/contact",
+        "clicks": 3,
+        "impr": 83,
+        "pos": "12.2"
+      },
+      {
+        "url": "/pages/return-policy",
+        "clicks": 3,
+        "impr": 250,
+        "pos": "6.7"
+      },
+      {
+        "url": "/pages/military-first-responder-and-medical-discounts",
+        "clicks": 2,
+        "impr": 42,
+        "pos": "10.7"
+      },
+      {
+        "url": "/blogs/news/limit-strap-installation-101-protect-your-suspension",
+        "clicks": 1,
+        "impr": 2,
+        "pos": "12.0"
+      },
+      {
+        "url": "/blogs/news/transfer-case-explained-2wd-4wd-and-awd-whats-actually-happening-under-your-truck",
+        "clicks": 1,
+        "impr": 21,
+        "pos": "8.7"
+      },
+      {
+        "url": "/collections/hardware-singles/products/s-s-cycle-09-25-harley-davidson-big-twins-compensator-bolt",
+        "clicks": 1,
+        "impr": 17,
+        "pos": "8.0"
+      },
+      {
+        "url": "/collections/shift-knobs/products/cobb-04-23-volkswagen-golf-gti-14-24-volkswagen-golf-r-tall-weighted-shift-knob-white",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "23.0"
+      },
+      {
+        "url": "/products/dainese-nexus-2-lady-boots-black-size-40",
+        "clicks": 1,
+        "impr": 6,
+        "pos": "9.3"
+      },
+      {
+        "url": "/products/fuelab-515-efi-adjustable-fpr-25-90-psi-2-6an-in-1-6an-return-purple",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "1.0"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "week": {
+      "clicks": 31,
+      "impressions": 7673,
+      "avgPosition": "27.3"
+    },
+    "month": {
+      "clicks": 206,
+      "impressions": 28644
+    },
+    "topQueries": [
+      {
+        "q": "bullstrap",
+        "clicks": 2,
+        "impr": 848,
+        "pos": "3.7"
+      },
+      {
+        "q": "bullstrap returns",
+        "clicks": 2,
+        "impr": 7,
+        "pos": "4.1"
+      },
+      {
+        "q": "best leather case for iphone 17 pro max",
+        "clicks": 1,
+        "impr": 2,
+        "pos": "1.0"
+      },
+      {
+        "q": "best leather iphone 17 pro max case",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "1.0"
+      },
+      {
+        "q": "bullstrap customer service",
+        "clicks": 1,
+        "impr": 7,
+        "pos": "3.1"
+      },
+      {
+        "q": "leather phone case with lanyard",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "8.0"
+      },
+      {
+        "q": "*",
+        "clicks": 0,
+        "impr": 3,
+        "pos": "1.0"
+      },
+      {
+        "q": "1 4 drive t handle",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "30.0"
+      },
+      {
+        "q": "10 nylon braided rubber hose black",
+        "clicks": 0,
+        "impr": 3,
+        "pos": "16.0"
+      },
+      {
+        "q": "100 dollar phone case",
+        "clicks": 0,
+        "impr": 2,
+        "pos": "3.5"
+      }
+    ],
+    "topPages": [
+      {
+        "url": "/",
+        "clicks": 6,
+        "impr": 1253,
+        "pos": "4.6"
+      },
+      {
+        "url": "/pages/contact",
+        "clicks": 3,
+        "impr": 83,
+        "pos": "12.2"
+      },
+      {
+        "url": "/pages/return-policy",
+        "clicks": 3,
+        "impr": 250,
+        "pos": "6.7"
+      },
+      {
+        "url": "/pages/military-first-responder-and-medical-discounts",
+        "clicks": 2,
+        "impr": 42,
+        "pos": "10.7"
+      },
+      {
+        "url": "/blogs/news/limit-strap-installation-101-protect-your-suspension",
+        "clicks": 1,
+        "impr": 2,
+        "pos": "12.0"
+      },
+      {
+        "url": "/blogs/news/transfer-case-explained-2wd-4wd-and-awd-whats-actually-happening-under-your-truck",
+        "clicks": 1,
+        "impr": 21,
+        "pos": "8.7"
+      },
+      {
+        "url": "/collections/hardware-singles/products/s-s-cycle-09-25-harley-davidson-big-twins-compensator-bolt",
+        "clicks": 1,
+        "impr": 17,
+        "pos": "8.0"
+      },
+      {
+        "url": "/collections/shift-knobs/products/cobb-04-23-volkswagen-golf-gti-14-24-volkswagen-golf-r-tall-weighted-shift-knob-white",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "23.0"
+      },
+      {
+        "url": "/products/dainese-nexus-2-lady-boots-black-size-40",
+        "clicks": 1,
+        "impr": 6,
+        "pos": "9.3"
+      },
+      {
+        "url": "/products/fuelab-515-efi-adjustable-fpr-25-90-psi-2-6an-in-1-6an-return-purple",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "1.0"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "week": {
+      "clicks": 39,
+      "impressions": 7482,
+      "avgPosition": "28.1"
+    },
+    "month": {
+      "clicks": 189,
+      "impressions": 29505
+    },
+    "topQueries": [
+      {
+        "q": "brake hose",
+        "clicks": 2,
+        "impr": 9,
+        "pos": "50.9"
+      },
+      {
+        "q": "brake hose kit",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "76.0"
+      },
+      {
+        "q": "bullstrap",
+        "clicks": 1,
+        "impr": 903,
+        "pos": "3.6"
+      },
+      {
+        "q": "bullstrap returns",
+        "clicks": 1,
+        "impr": 3,
+        "pos": "4.0"
+      },
+      {
+        "q": "bullstrap.com",
+        "clicks": 1,
+        "impr": 3,
+        "pos": "1.0"
+      },
+      {
+        "q": "coilovers",
+        "clicks": 1,
+        "impr": 24,
+        "pos": "59.7"
+      },
+      {
+        "q": "where can i purchase",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "4.0"
+      },
+      {
+        "q": "\"tempest 2 d-dry long thermal wmn\" \"hard knuckle\"",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "9.0"
+      },
+      {
+        "q": "\"tempest 2 d-dry long thermal wmn\" hard knuckle",
+        "clicks": 0,
+        "impr": 2,
+        "pos": "9.0"
+      },
+      {
+        "q": "08 wrx coilovers",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "36.0"
+      }
+    ],
+    "topPages": [
+      {
+        "url": "/pages/contact",
+        "clicks": 4,
+        "impr": 88,
+        "pos": "13.0"
+      },
+      {
+        "url": "/",
+        "clicks": 3,
+        "impr": 1204,
+        "pos": "5.1"
+      },
+      {
+        "url": "/collections/brake-line-kits",
+        "clicks": 3,
+        "impr": 353,
+        "pos": "52.8"
+      },
+      {
+        "url": "/pages/military-first-responder-and-medical-discounts",
+        "clicks": 2,
+        "impr": 49,
+        "pos": "12.1"
+      },
+      {
+        "url": "/pages/return-policy",
+        "clicks": 2,
+        "impr": 228,
+        "pos": "6.5"
+      },
+      {
+        "url": "/products/itp-terra-cross-r-t-tire-205-75r14-6pr",
+        "clicks": 2,
+        "impr": 3,
+        "pos": "9.3"
+      },
+      {
+        "url": "/blogs/news/transfer-case-explained-2wd-4wd-and-awd-whats-actually-happening-under-your-truck",
+        "clicks": 1,
+        "impr": 24,
+        "pos": "15.5"
+      },
+      {
+        "url": "/blogs/news/truck-bed-tent-vs-rooftop-tent-vs-ground-tent-which-camping-setup-is-best",
+        "clicks": 1,
+        "impr": 42,
+        "pos": "9.9"
+      },
+      {
+        "url": "/collections/batteries",
+        "clicks": 1,
+        "impr": 2,
+        "pos": "32.5"
+      },
+      {
+        "url": "/collections/coilovers",
+        "clicks": 1,
+        "impr": 102,
+        "pos": "61.1"
+      }
+    ]
   }
 ]

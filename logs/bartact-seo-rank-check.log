@@ -1,0 +1,496 @@
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/scripts/bartact-seo-rank-check.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-07-25 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 0 / 18 keywords
+  Not ranked (top 20): jeep wrangler seat covers, jeep wrangler jl seat covers, jeep gladiator seat covers, jeep wrangler grab handles, jeep wrangler jl grab handles, paracord grab handles jeep, ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 640ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 0/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-07-25.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-07-26 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 4 / 18 keywords
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep gladiator seat covers
+  #3 — jeep wrangler jl grab handles
+  Not ranked (top 20): jeep wrangler grab handles, paracord grab handles jeep, ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 455ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 4/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-07-26.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-07-27 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 15 / 18 keywords
+  #3 — paracord grab handles jeep
+  #5 — ford bronco grab handles
+  #6 — molle seat covers jeep
+  #7 — jeep wrangler grab handles
+  #7 — jeep wrangler jl grab handles
+  #8 — jeep wrangler jl seat covers
+  #8 — jeep wrangler fire extinguisher holder
+  #10 — roll bar fire extinguisher holder
+  #12 — jeep wrangler tj seat covers
+  #14 — jeep gladiator seat covers
+  #14 — ford bronco seat covers
+  #14 — jeep wrangler jk seat covers
+  #14 — limit straps off road
+  #16 — suspension limit straps
+  #19 — molle attachments
+  Not ranked (top 20): jeep wrangler seat covers, toyota tacoma seat covers, suspension limit straps utv
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Homepage OK — 207ms | Title: true | H1: false | Canonical: true | Schema: true
+Sitemap OK — URLs: 0, Sitemaps: 5
+
+--- Summary ---
+⚠️  4 issue(s) found:
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-07-27.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-07-28 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 6 / 18 keywords
+  #2 — jeep wrangler seat covers
+  #2 — jeep gladiator seat covers
+  #2 — jeep wrangler grab handles
+  #2 — jeep wrangler jl grab handles
+  #2 — paracord grab handles jeep
+  #3 — jeep wrangler jl seat covers
+  Not ranked (top 20): ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 339ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 6/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-07-28.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-07-29 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 18 / 18 keywords
+  #1 — suspension limit straps utv
+  #1 — suspension limit straps
+  #2 — molle seat covers jeep
+  #2 — molle attachments
+  #2 — jeep wrangler fire extinguisher holder
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep gladiator seat covers
+  #3 — jeep wrangler grab handles
+  #3 — jeep wrangler jl grab handles
+  #3 — paracord grab handles jeep
+  #3 — ford bronco grab handles
+  #3 — ford bronco seat covers
+  #3 — toyota tacoma seat covers
+  #3 — jeep wrangler jk seat covers
+  #3 — limit straps off road
+  #3 — roll bar fire extinguisher holder
+  #4 — jeep wrangler tj seat covers
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+  • Homepage HTTP 429
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-07-29.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-07-30 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 9 / 18 keywords
+  #2 — ford bronco grab handles
+  #2 — ford bronco seat covers
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep gladiator seat covers
+  #3 — jeep wrangler jl grab handles
+  #3 — paracord grab handles jeep
+  #3 — toyota tacoma seat covers
+  #4 — jeep wrangler grab handles
+  Not ranked (top 20): jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 510ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 9/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-07-30.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-07-31 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 18 / 18 keywords
+  #1 — jeep wrangler jl seat covers
+  #1 — molle attachments
+  #2 — suspension limit straps utv
+  #2 — suspension limit straps
+  #3 — jeep wrangler seat covers
+  #3 — jeep gladiator seat covers
+  #3 — jeep wrangler grab handles
+  #3 — jeep wrangler jl grab handles
+  #3 — paracord grab handles jeep
+  #3 — ford bronco grab handles
+  #3 — ford bronco seat covers
+  #3 — toyota tacoma seat covers
+  #3 — jeep wrangler tj seat covers
+  #3 — jeep wrangler jk seat covers
+  #3 — molle seat covers jeep
+  #3 — roll bar fire extinguisher holder
+  #3 — jeep wrangler fire extinguisher holder
+  #4 — limit straps off road
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Homepage OK — 366ms | Title: true | H1: false | Canonical: true | Schema: true
+Sitemap OK — URLs: 0, Sitemaps: 5
+
+--- Summary ---
+⚠️  4 issue(s) found:
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-07-31.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-01 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 10 / 18 keywords
+  #1 — paracord grab handles jeep
+  #2 — jeep wrangler jl seat covers
+  #2 — jeep gladiator seat covers
+  #2 — jeep wrangler jl grab handles
+  #2 — ford bronco grab handles
+  #2 — jeep wrangler jk seat covers
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler grab handles
+  #3 — ford bronco seat covers
+  #3 — toyota tacoma seat covers
+  Not ranked (top 20): jeep wrangler tj seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 440ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  4 issue(s) found:
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-01.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-02 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 3 / 18 keywords
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep wrangler grab handles
+  Not ranked (top 20): jeep gladiator seat covers, jeep wrangler jl grab handles, paracord grab handles jeep, ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 555ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 3/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-02.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-03 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 3 / 18 keywords
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep wrangler grab handles
+  Not ranked (top 20): jeep gladiator seat covers, jeep wrangler jl grab handles, paracord grab handles jeep, ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 427ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 3/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-03.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-04 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 4 / 18 keywords
+  #2 — jeep wrangler jl grab handles
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep wrangler grab handles
+  Not ranked (top 20): jeep gladiator seat covers, paracord grab handles jeep, ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 492ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 4/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-04.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-05 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 16 / 18 keywords
+  #2 — paracord grab handles jeep
+  #2 — jeep wrangler jk seat covers
+  #2 — jeep wrangler fire extinguisher holder
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep gladiator seat covers
+  #3 — roll bar fire extinguisher holder
+  #4 — suspension limit straps utv
+  #4 — molle seat covers jeep
+  #5 — jeep wrangler jl grab handles
+  #5 — jeep wrangler tj seat covers
+  #5 — suspension limit straps
+  #5 — limit straps off road
+  #6 — toyota tacoma seat covers
+  #7 — jeep wrangler grab handles
+  #8 — ford bronco seat covers
+  Not ranked (top 20): ford bronco grab handles, molle attachments
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 489ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  4 issue(s) found:
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-05.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-06 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 16 / 18 keywords
+  #2 — paracord grab handles jeep
+  #2 — jeep wrangler jk seat covers
+  #2 — jeep wrangler fire extinguisher holder
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep gladiator seat covers
+  #3 — roll bar fire extinguisher holder
+  #4 — suspension limit straps utv
+  #4 — molle seat covers jeep
+  #5 — jeep wrangler jl grab handles
+  #5 — jeep wrangler tj seat covers
+  #5 — suspension limit straps
+  #5 — limit straps off road
+  #6 — toyota tacoma seat covers
+  #7 — jeep wrangler grab handles
+  #8 — ford bronco seat covers
+  Not ranked (top 20): ford bronco grab handles, molle attachments
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 590ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  4 issue(s) found:
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-06.md
+
+=== DONE ===

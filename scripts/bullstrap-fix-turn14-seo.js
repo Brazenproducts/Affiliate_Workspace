@@ -12,8 +12,8 @@ const path = require('path');
 const TOKEN = process.env.SHOPIFY_TOKEN_BULLSTRAP;
 const SHOP = 'bull-strap-78.myshopify.com';
 const STATE_FILE = path.join(__dirname, '..', 'memory', 'bullstrap-seo-fix-state.json');
-const MAX_PER_RUN = 5000;
-const DELAY_MS = 550; // Stay under 2 calls/sec
+const MAX_PER_RUN = 999999; // Run until complete or rate limited
+const DELAY_MS = 250; // Stay under 2 calls/sec
 
 function restReq(method, p, body) {
   return new Promise((resolve, reject) => {
@@ -60,8 +60,54 @@ const TEMPLATE_PHRASES = [
   'direct fit replacement', 'perfect fit for your vehicle',
 ];
 
-// Bad prefixes on titles
-const BAD_PREFIXES = ['Direct Fit ', 'Heavy Duty ', 'Performance ', 'Replacement ', 'Aftermarket ', 'OEM '];
+// Category keywords for buyer-intent title suffixes
+function getCategoryAction(title) {
+  const tl = title.toLowerCase();
+  if (tl.includes('exhaust') || tl.includes('muffler') || tl.includes('catback') || tl.includes('axle-back')) return 'Exhaust';
+  if (tl.includes('coilover')) return 'Coilovers';
+  if (tl.includes('lift kit') || tl.includes('leveling kit')) return 'Lift Kit';
+  if (tl.includes('cold air intake') || tl.includes('air intake') || tl.includes('intake kit')) return 'Air Intake';
+  if (tl.includes('air filter') || tl.includes('replacement filter')) return 'Air Filter';
+  if (tl.includes('brake pad') || tl.includes('brake pads')) return 'Brake Pads';
+  if (tl.includes('rotor') || tl.includes('brake rotor')) return 'Rotors';
+  if (tl.includes('brake line') || tl.includes('brake hose')) return 'Brake Lines';
+  if (tl.includes('shock') || tl.includes('strut')) return 'Shocks';
+  if (tl.includes('suspension')) return 'Suspension';
+  if (tl.includes('intercooler')) return 'Intercooler';
+  if (tl.includes('downpipe') || tl.includes('down pipe')) return 'Downpipe';
+  if (tl.includes('turbo')) return 'Turbo';
+  if (tl.includes('supercharger')) return 'Supercharger';
+  if (tl.includes('header') || tl.includes('manifold')) return 'Headers';
+  if (tl.includes('fuel injector')) return 'Fuel Injectors';
+  if (tl.includes('fuel pump')) return 'Fuel Pump';
+  if (tl.includes('radiator')) return 'Radiator';
+  if (tl.includes('oil cooler')) return 'Oil Cooler';
+  if (tl.includes('differential') || tl.includes('diff cover')) return 'Differential';
+  if (tl.includes('axle')) return 'Axle';
+  if (tl.includes('driveshaft')) return 'Driveshaft';
+  if (tl.includes('control arm')) return 'Control Arms';
+  if (tl.includes('sway bar') || tl.includes('anti-roll')) return 'Sway Bar';
+  if (tl.includes('wheel spacer')) return 'Wheel Spacers';
+  if (tl.includes('skid plate') || tl.includes('armor')) return 'Skid Plate';
+  if (tl.includes('bumper')) return 'Bumper';
+  if (tl.includes('winch')) return 'Winch';
+  if (tl.includes('light bar') || tl.includes('led bar')) return 'Light Bar';
+  if (tl.includes('led') || tl.includes('light kit')) return 'Lights';
+  if (tl.includes('seat cover')) return 'Seat Covers';
+  if (tl.includes('floor mat') || tl.includes('floor liner')) return 'Floor Mats';
+  if (tl.includes('tonneau') || tl.includes('bed cover')) return 'Tonneau Cover';
+  if (tl.includes('roof rack') || tl.includes('cargo rack')) return 'Roof Rack';
+  if (tl.includes('tow hitch') || tl.includes('trailer hitch')) return 'Tow Hitch';
+  if (tl.includes('spark plug')) return 'Spark Plugs';
+  if (tl.includes('ignition coil')) return 'Ignition Coils';
+  if (tl.includes('battery')) return 'Battery';
+  if (tl.includes('alternator')) return 'Alternator';
+  if (tl.includes('gauge') || tl.includes('meter')) return 'Gauges';
+  if (tl.includes('catch can') || tl.includes('oil separator')) return 'Catch Can';
+  if (tl.includes('blow off') || tl.includes('bypass valve') || tl.includes('bov')) return 'BOV';
+  if (tl.includes('tune') || tl.includes('ecu') || tl.includes('tuner')) return 'Tune';
+  return null;
+}
 
 // Bad image alt suffixes from SEO app
 const BAD_ALT_SUFFIXES = [
@@ -114,6 +160,56 @@ function getCategorySuffix(title) {
   return 'Free shipping on orders over $99. Top brands and fast delivery.';
 }
 
+function buildFitmentDescription(productTitle, vendor, tags) {
+  // Parse fitment from DH2T tags: fits_YEAR`Make`Model`Trim~...
+  // REST API returns tags as comma-separated string; GraphQL returns array
+  const tagArray = Array.isArray(tags) ? tags : (tags || '').split(',').map(t => t.trim());
+  const fitTags = tagArray.filter(t => t.startsWith('fits_'));
+
+  // Build make/model => {years, trims} map
+  const vehicleMap = {};
+  for (const tag of fitTags) {
+    for (const entry of tag.replace('fits_', '').split('~')) {
+      const parts = entry.split('`');
+      if (parts.length >= 3) {
+        const key = `${parts[1]} ${parts[2]}`;
+        if (!vehicleMap[key]) vehicleMap[key] = { years: new Set(), trims: new Set() };
+        vehicleMap[key].years.add(parts[0]);
+        if (parts[3]) vehicleMap[key].trims.add(parts[3]);
+      }
+    }
+  }
+
+  const vehicleEntries = Object.entries(vehicleMap).slice(0, 3);
+
+  // Year range per vehicle
+  const fitmentStr = vehicleEntries.map(([makeModel, data]) => {
+    const yrs = Array.from(data.years).sort();
+    const yearRange = yrs[0] + (yrs.length > 1 ? '-' + yrs[yrs.length - 1].slice(-2) : '');
+    return `${yearRange} ${makeModel}`;
+  }).join(', ');
+
+  // Trim levels from first vehicle
+  let trimStr = '';
+  if (vehicleEntries.length > 0) {
+    const trims = Array.from(vehicleEntries[0][1].trims).slice(0, 12);
+    if (trims.length > 0) trimStr = trims.join(', ');
+  }
+
+  // Avoid vendor doubling
+  const vRe = vendor ? new RegExp('^' + vendor.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*', 'i') : null;
+  const cleanTitle = vRe ? productTitle.replace(vRe, '').trim() : productTitle;
+  const bp = vendor && vendor !== 'Bull Strap' ? vendor + ' ' : '';
+
+  let desc = `${bp}${cleanTitle}`;
+  if (fitmentStr) desc += ` — fits ${fitmentStr}`;
+  if (trimStr) desc += `. Fits: ${trimStr}.`;
+
+  // 255 chars — maximize keyword surface, no filler
+  if (desc.length > 255) desc = desc.substring(0, 252).replace(/\s+\S*$/, '') + '.';
+  return desc;
+}
+
 function fixDescription(currentDesc, title) {
   if (!currentDesc) return null;
   const hasTemplate = TEMPLATE_PHRASES.some(p => currentDesc.toLowerCase().includes(p));
@@ -127,24 +223,60 @@ function fixDescription(currentDesc, title) {
   if (newDesc.length < 80) {
     newDesc = newDesc + (newDesc.endsWith('.') ? ' ' : '. ') + getCategorySuffix(title);
   }
-  if (newDesc.length > 155) newDesc = newDesc.substring(0, 152) + '...';
+  if (newDesc.length > 155) newDesc = newDesc.substring(0, 152) + '.';
   return newDesc;
 }
 
-function fixTitle(currentTitle, vendor) {
-  if (!currentTitle) return null;
-  let newTitle = currentTitle;
-  let changed = false;
-  for (const prefix of BAD_PREFIXES) {
-    if (newTitle.startsWith(prefix)) { newTitle = newTitle.substring(prefix.length); changed = true; break; }
+// Build a buyer-intent title: "[Brand] [Category] [YearFitment] | BullStrap"
+function buildBuyerIntentTitle(productTitle, vendor) {
+  if (!productTitle) return null;
+
+  // Extract year range if present (e.g. "16-20", "2019-2022", "2018+")
+  const yearMatch = productTitle.match(/(\d{2,4}[-–]\d{2,4}|\d{4}\+|\d{4}-present)/i);
+  const yearStr = yearMatch ? yearMatch[0] : null;
+
+  // Get category keyword
+  const category = getCategoryAction(productTitle);
+
+  // Clean up the base title: strip year ranges, noise, AND leading vendor name to avoid doubling
+  const vendorPrefix = vendor ? vendor.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') : null;
+  let base = productTitle
+    .replace(/(\d{2,4}[-–]\d{2,4}|\d{4}\+|\d{4}-present)/gi, '')
+    .replace(vendorPrefix ? new RegExp('^' + vendorPrefix + '\\s*', 'i') : /^$/, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+
+  // Brand prefix — only add if base doesn't already start with vendor name
+  const bp = (vendor && vendor !== 'Bull Strap' && !base.toLowerCase().startsWith(vendor.toLowerCase()))
+    ? vendor + ' ' : '';
+
+  // Build the title
+  let title;
+  if (category && yearStr) {
+    title = `${bp}${category} ${yearStr} | BullStrap`;
+  } else if (category) {
+    title = `${bp}${category} | BullStrap`;
+  } else {
+    // Fallback: vendor + trimmed base, never cut mid-word
+    let trimmedBase = `${bp}${base}`;
+    if (trimmedBase.length > 52) trimmedBase = trimmedBase.substring(0, 52).replace(/\s+\S*$/, '');
+    title = `${trimmedBase} | BullStrap`;
   }
-  // Add vendor/brand name if not already present and fits (NOT "Bull Strap" — that's the store, not the brand)
-  if (vendor && !newTitle.includes(vendor) && newTitle.length + vendor.length + 3 < 60) {
-    newTitle += ' | ' + vendor;
-    changed = true;
-  }
-  if (newTitle.length > 60) newTitle = newTitle.substring(0, 57) + '...';
-  return changed ? newTitle : null;
+
+  // Cap at 65 chars — hard cut, no ellipsis (never save truncation artifacts)
+  if (title.length > 65) title = title.substring(0, 65).replace(/\s+\S*$/, '') + ' | BullStrap';
+
+  // Only write if different from current (avoid unnecessary API calls)
+  return title;
+}
+
+function fixTitle(currentTitle, vendor, productTitle) {
+  if (!productTitle) return null;
+  const newTitle = buildBuyerIntentTitle(productTitle, vendor);
+  if (!newTitle) return null;
+  // Always rewrite — Sidekick's titles are just the product title repeated, not buyer-intent
+  if (newTitle === currentTitle) return null;
+  return newTitle;
 }
 
 function fixImageAlt(alt, title, index) {
@@ -158,6 +290,59 @@ function fixImageAlt(alt, title, index) {
   let newAlt = cleanName + ' - ' + label;
   if (newAlt.length > 125) newAlt = cleanName.substring(0, 110) + ' - ' + label;
   return newAlt;
+}
+
+function buildUniqueBodyHtml(productTitle, vendor, tags, existingBody) {
+  // Parse full fitment from tags
+  const tagArray = Array.isArray(tags) ? tags : (tags || '').split(',').map(t => t.trim());
+  const fitTags = tagArray.filter(t => t.startsWith('fits_'));
+  const vehicleMap = {};
+  for (const tag of fitTags) {
+    for (const entry of tag.replace('fits_', '').split('~')) {
+      const parts = entry.split('`');
+      if (parts.length >= 3) {
+        const key = `${parts[1]}|${parts[2]}`;
+        if (!vehicleMap[key]) vehicleMap[key] = { make: parts[1], model: parts[2], years: new Set(), trims: new Set() };
+        vehicleMap[key].years.add(parts[0]);
+        if (parts[3]) vehicleMap[key].trims.add(parts[3]);
+      }
+    }
+  }
+
+  // Strip any existing fitment table and our marker from body
+  let baseBody = (existingBody || '').replace(/<p[^>]*>\s*<strong>Compatible Vehicles[^<]*<\/strong>[\s\S]*$/i, '').trim();
+  // Also strip old fitment tables
+  baseBody = baseBody.replace(/<p[^>]*>This Part Fits:[^<]*<\/p>[\s\S]*/i, '').trim();
+
+  if (Object.keys(vehicleMap).length === 0) return null; // no fitment data, don't touch
+
+  // Build fitment table rows
+  let rows = '';
+  for (const v of Object.values(vehicleMap)) {
+    const yrs = Array.from(v.years).sort();
+    // yrs may already be ranges like '2014-2023' — extract start/end years
+    const allNums = yrs.flatMap(y => y.split('-').map(n => n.trim())).filter(n => /^\d{4}$/.test(n)).map(Number);
+    const minY = allNums.length ? Math.min(...allNums) : yrs[0];
+    const maxY = allNums.length ? Math.max(...allNums) : yrs[yrs.length-1];
+    const yearStr = minY === maxY ? String(minY) : `${minY}–${maxY}`;
+    const trimsArr = Array.from(v.trims).sort();
+    if (trimsArr.length > 0) {
+      for (const trim of trimsArr) {
+        rows += `<tr><td>${yearStr}</td><td>${v.make}</td><td>${v.model}</td><td>${trim}</td></tr>\n`;
+      }
+    } else {
+      rows += `<tr><td>${yearStr}</td><td>${v.make}</td><td>${v.model}</td><td>All Trims</td></tr>\n`;
+    }
+  }
+
+  const fitmentTable = `<p><strong>Compatible Vehicles — ${productTitle}</strong></p>
+<table>
+<thead><tr><th>Year</th><th>Make</th><th>Model</th><th>Trim</th></tr></thead>
+<tbody>
+${rows}</tbody>
+</table>`;
+
+  return baseBody + '\n' + fitmentTable;
 }
 
 function loadState() {
@@ -199,7 +384,7 @@ async function main() {
 
   while (runProcessed < MAX_PER_RUN) {
     const resp = await retryOnRateLimit(() =>
-      restReq('GET', 'products.json?limit=250&since_id=' + sinceId + '&fields=id,title,handle,vendor,product_type,images'));
+      restReq('GET', 'products.json?limit=250&since_id=' + sinceId + '&fields=id,title,handle,vendor,product_type,images,tags,body_html'));
     if (!resp || resp.status === 429) { console.log('Persistent rate limit, saving and exiting'); break; }
     const data = JSON.parse(resp.body);
     if (!data.products || data.products.length === 0) {
@@ -223,8 +408,8 @@ async function main() {
       const descMf = allMf.find(m => m.key === 'description_tag');
       const titleMf = allMf.find(m => m.key === 'title_tag');
 
-      const newDesc = fixDescription(descMf?.value, product.title);
-      const newTitle = fixTitle(titleMf?.value, product.vendor);
+      const newDesc = buildFitmentDescription(product.title, product.vendor, product.tags);
+      const newTitle = fixTitle(titleMf?.value, product.vendor, product.title);
 
       if (newDesc) {
         await sleep(DELAY_MS);
@@ -238,10 +423,27 @@ async function main() {
         didFix = true;
       }
 
-      if (newTitle && titleMf) {
+      if (newTitle) {
         await sleep(DELAY_MS);
-        await retryOnRateLimit(() => restReq('PUT', 'products/' + product.id + '/metafields/' + titleMf.id + '.json',
-          { metafield: { id: titleMf.id, value: newTitle, type: 'single_line_text_field' } }));
+        if (titleMf) {
+          if (titleMf.value !== newTitle) {
+            await retryOnRateLimit(() => restReq('PUT', 'products/' + product.id + '/metafields/' + titleMf.id + '.json',
+              { metafield: { id: titleMf.id, value: newTitle, type: 'single_line_text_field' } }));
+            didFix = true;
+          }
+        } else {
+          await retryOnRateLimit(() => restReq('POST', 'products/' + product.id + '/metafields.json',
+            { metafield: { namespace: 'global', key: 'title_tag', value: newTitle, type: 'single_line_text_field' } }));
+          didFix = true;
+        }
+      }
+
+      // --- Fix body HTML — append unique fitment table DH2T doesn't provide ---
+      const newBody = buildUniqueBodyHtml(product.title, product.vendor, product.tags, product.body_html);
+      if (newBody && newBody !== product.body_html) {
+        await sleep(DELAY_MS);
+        await retryOnRateLimit(() => restReq('PUT', 'products/' + product.id + '.json',
+          { product: { id: product.id, body_html: newBody } }));
         didFix = true;
       }
 

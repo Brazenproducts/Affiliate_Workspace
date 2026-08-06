@@ -111,6 +111,7 @@ async function main() {
     FROM campaign
     WHERE
       campaign.advertising_channel_type = 'SHOPPING'
+      AND campaign.status = 'ENABLED'
       AND segments.date = '${dateStr}'
     ORDER BY metrics.cost_micros DESC
   `;

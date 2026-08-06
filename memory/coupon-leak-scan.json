@@ -1,5 +1,6 @@
 {
-  "date": "2026-05-18T22:00:00Z",
+  "date": "2026-08-03T22:00:00Z",
+  "timestamp": "Monday, August 3rd, 2026 - 10:00 PM (UTC)",
   "sites_checked": [
     "retailmenot.com",
     "wethrift.com",
@@ -7,45 +8,40 @@
     "knoji.com",
     "couponfollow.com",
     "hotdeals.com",
-    "dealspotr.com",
-    "startupworld.com",
-    "joincheckmate.com",
     "strimoo.com",
+    "simplycodes.com",
+    "joincheckmate.com",
+    "savespire.com",
+    "price.com",
     "wadav.com",
     "clothingric.com",
-    "greenpromocode.com"
+    "brieflycodes.com"
   ],
   "codes_found": [
-    {
-      "code": "LAURIE",
-      "source": "hotdeals.com",
-      "claimed_discount": "up to 50% OFF",
-      "notes": "Listed as verified discount code for Vehicle Seat Covers, Grab Handles, etc."
-    },
-    {
-      "code": "BF200",
-      "source": "wadav.com",
-      "claimed_discount": "up to 20% off",
-      "notes": "Listed among most redeemed promo codes"
-    },
-    {
-      "code": "FREESHIP2",
-      "source": "wadav.com",
-      "claimed_discount": "free shipping",
-      "notes": "Listed among most redeemed promo codes"
-    },
-    {
-      "code": "MOM15",
-      "source": "wadav.com",
-      "claimed_discount": "up to 20% off",
-      "notes": "Listed among most redeemed promo codes"
-    }
+    "BF200",
+    "FREESHIP2",
+    "MOM15"
   ],
-  "watched_codes_status": {
-    "SAVE5": "not found in any search results",
-    "WELCOME5": "not found in any search results"
+  "known_codes_status": {
+    "SAVE5": "Not found in current scan",
+    "WELCOME5": "Not found in current scan"
   },
-  "notes": "Multiple coupon aggregator sites list Bartact codes. The codes LAURIE, BF200, FREESHIP2, and MOM15 were explicitly named in search snippets. Many sites claim high numbers of codes (13-25) but don't reveal them in snippets — actual code lists require visiting the pages. Knoji has a dedicated Bartact page with 4 active codes. Watched codes SAVE5 and WELCOME5 were NOT found exposed. No Bartact-specific pages found on retailmenot.com, wethrift.com, honey.com, or couponfollow.com.",
-  "alert_required": true,
-  "alert_reason": "4 codes found publicly listed on coupon sites"
+  "scan_summary": {
+    "total_coupon_sites_detected": 14,
+    "active_codes_referenced": 3,
+    "discount_ranges": "15% to 60% off mentioned across sites",
+    "average_savings": "$7.88 (per Knoji data)"
+  },
+  "notes": [
+    "Multiple coupon aggregator sites show Bartact has active discount codes",
+    "HotDeals reports 17 verified Bartact codes with up to 30% off",
+    "Strimoo shows 16 verified codes ranging 15-60% off",
+    "Knoji lists 14 verified coupon codes",
+    "Found 3 specific codes: BF200 (mentioned for up to 20% off), FREESHIP2, MOM15",
+    "Known watch codes SAVE5 and WELCOME5 not appearing in current aggregator results",
+    "Search results indicate these are legitimate aggregator sites (no malware/phishing detected)",
+    "Codes appear to be rotating/seasonal - March codes differ from July/August codes"
+  ],
+  "alert_required": false,
+  "reason": "No SAVE5 or WELCOME5 found. The codes detected (BF200, FREESHIP2, MOM15) appear to be legitimate promotional codes listed on major aggregators, not leaked/unauthorized codes."
 }

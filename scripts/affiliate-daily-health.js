@@ -17,7 +17,8 @@ const http  = require('http');
 // ── CONFIG ──────────────────────────────────────────────────────────────────
 const SITES_DIR   = path.resolve(__dirname, '../sites');
 const MEMORY_DIR  = path.resolve(__dirname, '../memory');
-const AFFILIATE_TAG = 'tag=brazenprodu01-20';
+// Only confirmed valid Amazon Associates tracking IDs
+const VALID_AFFILIATE_TAGS = /tag=brazenprodu0[12]-20/;
 const LIVE_TIMEOUT_MS = 10_000;
 const LOCAL_ONLY  = process.argv.includes('--local-only');
 
@@ -143,7 +144,7 @@ async function checkSite(domain) {
     const amazonLinks = extractAmazonLinks(content);
     totalAmazonLinks += amazonLinks.length;
     for (const link of amazonLinks) {
-      if (!link.includes(AFFILIATE_TAG)) missingTagLinks++;
+      if (!VALID_AFFILIATE_TAGS.test(link)) missingTagLinks++;
     }
 
     // ── 7. INTERNAL LINK CHECKER ─────────────────────────────────────────

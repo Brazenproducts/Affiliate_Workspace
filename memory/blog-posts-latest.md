@@ -1,21 +1,35 @@
-# Blog Posts — Latest Run
+# 📊 Blog Posts — Last 24 Hours
 
-**Date:** 2026-05-18 21:00 UTC (Monday)
-**Cron:** affiliate-blog-posts (run 3 of 3 daily)
+**Run Date:** Thursday, August 6th, 2026 - 5:00 AM UTC
 
 ## Results
 
-| Metric | Count |
-|--------|-------|
-| Created | 39 |
-| Pushed | 39 |
-| Errors | 0 |
-| Batch target | 125 |
-| Remaining (not yet posted today) | 245 |
+Posts created this run: **70** (incomplete batch of 125)
+Posts successfully pushed: **67**
+Errors: **3**
+Sites blocked (DO_NOT_BUILD): **5**
+Sites processed: **70/125** (interrupted)
+Total runs today: **1/3**
+
+## Error Details
+
+**Push Failures (missing git remote):**
+- `furnaceprefilter-com` — No 'origin' remote
+- `homehvacfilters-com` — No 'origin' remote
+- `hvachomefilters-com` — No 'origin' remote
+
+**Status:** ⚠️ Needs investigation
+- 3 sites missing git remote configuration
+- Process was terminated before batch completion
 
 ## Notes
 
-- Only 39 sites processed out of 125 batch target — likely the remaining eligible sites for today's window were limited (earlier runs may have covered most).
-- **However, 245 remaining is high.** With 3 runs/day at batch-size 125, all ~370 sites should be covered. If this is run 3, we'd expect remaining ≈ 0, not 245. This suggests earlier runs today may have been smaller or skipped.
-- Zero errors — all 39 posts created and pushed successfully.
-- Exit code 0.
+- Template-based generation (0 AI cost)
+- The batch job hit SIGTERM at 70/125 — needs to restart or resume
+- All push failures relate to missing git remote setup in those site directories
+
+## Next Steps
+
+1. Verify git remote configuration for affected sites
+2. Complete remaining ~55 sites from batch
+3. Re-run failed sites after remote setup

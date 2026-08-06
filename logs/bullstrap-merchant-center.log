@@ -1,0 +1,535 @@
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/scripts/bullstrap-merchant-center-daily.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+
+[2026-07-24 08:30:00 UTC] CRON RUN FAILED
+Script file does not exist: /home/ubuntu/.openclaw/workspace/scripts/bullstrap-merchant-center-daily.js
+This is a CRITICAL ERROR requiring script restoration or creation.
+Status: BLOCKING - requires immediate action
+Alert: Unable to contact Mitch via Telegram (recipient resolution failed)
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-07-25T08:00:02.160Z
+**Period:** 2026-07-24
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-07-26T08:00:01.564Z
+**Period:** 2026-07-25
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-07-27T08:00:01.667Z
+**Period:** 2026-07-26
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-07-28T08:00:02.013Z
+**Period:** 2026-07-27
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-07-29T08:00:01.496Z
+**Period:** 2026-07-28
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-07-30T08:00:01.538Z
+**Period:** 2026-07-29
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-07-31T08:00:01.527Z
+**Period:** 2026-07-30
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+WARNING: merchant_id not configured in credentials. Skipping Merchant Center check.
+Fix: Add real Bull Strap Merchant Center ID to /home/ubuntu/.openclaw/workspace/sites/indexing-credentials/.bullstrap-merchant-center-credentials.json
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+WARNING: merchant_id not configured in credentials. Skipping Merchant Center check.
+Fix: Add real Bull Strap Merchant Center ID to /home/ubuntu/.openclaw/workspace/sites/indexing-credentials/.bullstrap-merchant-center-credentials.json
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-08-03T08:00:01.377Z
+**Period:** 2026-08-02
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-08-04T08:00:01.569Z
+**Period:** 2026-08-03
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-08-05T08:00:01.808Z
+**Period:** 2026-08-04
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO
+Bull Strap Merchant Center Daily Check
+=======================================
+
+✓ Credentials loaded
+✓ OAuth access token obtained
+Fetching Merchant Center performance data...
+Merchant Center API returned 404
+Fetching Google Search Console 404 errors...
+
+✓ Report saved to /home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md
+
+# Bull Strap Merchant Center Daily Report
+
+**Generated:** 2026-08-06T08:00:02.191Z
+**Period:** 2026-08-05
+
+## Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| ROAS | 0.00x ⚠️ ALERT |
+| Revenue | $0.00 |
+| Spend | $0.00 |
+| Clicks | 0 |
+| Impressions | 0 |
+
+## Error Tracking
+
+| Type | Count |
+|------|-------|
+| 404 Errors | 0 ✓ |
+
+## Thresholds
+
+- ROAS Alert Threshold: 2x (Current: 0.00x)
+- 404 Error Alert Threshold: 5000 (Current: 0)
+
+## Alerts
+
+⚠️ **LOW ROAS ALERT**: ROAS is 0.00x (below 2x threshold)
+
+
+⚠️  ALERT CONDITIONS DETECTED
+   ROAS Alert: YES
+   Error Alert: NO

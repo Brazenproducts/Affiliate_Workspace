@@ -1,0 +1,292 @@
+#!/usr/bin/env node
+/**
+ * Faithful Passages — Daily Content Publisher
+ *
+ * Reads a JSON content file (prayer/song/scripture),
+ * generates TTS audio via gTTS (EN + ES),
+ * builds the HTML page,
+ * updates the sitemap,
+ * and commits + pushes to GitHub Pages.
+ *
+ * Usage: node faithfulpassages-publish.js --file /tmp/fp-content-today.json
+ */
+
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+
+// ── Config ────────────────────────────────────────────────────────────────────
+const SITE_DIR = path.join(__dirname, '../sites/faithfulpassages.com');
+const AUDIO_DIR = path.join(SITE_DIR, 'audio');
+const SITE_URL = 'https://faithfulpassages.com';
+
+// Parse args
+const args = process.argv.slice(2);
+let contentFile = null;
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '--file' && args[i + 1]) {
+    contentFile = args[i + 1];
+  }
+}
+
+if (!contentFile) {
+  console.error('ERROR: --file <path> required');
+  process.exit(1);
+}
+
+if (!fs.existsSync(contentFile)) {
+  console.error('ERROR: File not found:', contentFile);
+  process.exit(1);
+}
+
+const content = JSON.parse(fs.readFileSync(contentFile, 'utf8'));
+const { type, slug, date } = content;
+
+console.log(`Publishing ${type}: ${content.title} (${slug})`);
+
+// ── TTS via gTTS ─────────────────────────────────────────────────────────────
+function generateAudio(text, lang, outPath) {
+  // Clean text for TTS
+  const clean = text
+    .replace(/\n+/g, ' ')
+    .replace(/\*\*/g, '')
+    .replace(/\*/g, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  const pyScript = `/tmp/fp-tts-${lang}.py`;
+  const escaped = clean.replace(/\\/g, '\\\\').replace(/"""/g, '\\"\\"\\"');
+
+  fs.writeFileSync(pyScript, `
+from gtts import gTTS
+import sys
+
+text = """${escaped}"""
+lang = "${lang}"
+out_path = "${outPath}"
+
+try:
+    tts = gTTS(text=text, lang=lang, slow=False)
+    tts.save(out_path)
+    import os
+    print(f"Generated {lang} audio: {out_path} ({os.path.getsize(out_path)} bytes)")
+except Exception as e:
+    print(f"ERROR: {e}", file=sys.stderr)
+    sys.exit(1)
+`);
+
+  try {
+    execSync(`python3 ${pyScript}`, { stdio: 'inherit' });
+    return true;
+  } catch (e) {
+    console.error(`Audio generation failed for ${lang}:`, e.message);
+    return false;
+  }
+}
+
+// ── HTML Builder ──────────────────────────────────────────────────────────────
+const nav = `<nav><a class="nav-brand" href="/">Faithful <span>Passages</span></a><ul class="nav-links"><li><a href="/prayers.html">Prayers</a></li><li><a href="/songs.html">Songs</a></li><li><a href="/scripture.html">Scripture</a></li><li><a href="/about.html">About</a></li></ul></nav>`;
+const footer = `<div class="email-section"><h2>Get Daily Prayers Delivered Free</h2><p>A new prayer every morning. Real words for real life.</p><form class="email-form" onsubmit="handleSignup(event)"><input type="email" placeholder="Your email address" required><button type="submit">Subscribe Free</button></form></div>
+<footer><div class="footer-links"><a href="/prayers.html">Prayers</a><a href="/songs.html">Songs</a><a href="/scripture.html">Scripture</a><a href="/about.html">About</a><a href="/privacy.html">Privacy</a></div><p>© 2026 Faithful Passages</p></footer>
+<script src="/app.js"></script>`;
+
+const ldJson = (c) => JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": c.title,
+  "datePublished": c.date,
+  "publisher": { "@type": "Organization", "name": "Faithful Passages", "url": SITE_URL }
+});
+
+function buildPrayerHtml(c) {
+  const prayerEn = c.prayer_en.replace(/\n/g, '<br>\n');
+  const prayerEs = c.prayer_es.replace(/\n/g, '<br>\n');
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${c.title} — Faithful Passages</title>
+<meta name="description" content="${c.theme}">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">${ldJson(c)}</script>
+</head>
+<body>
+${nav}
+<div class="hero" style="padding:56px 24px 48px;"><p class="hero-eyebrow">Prayer · ${c.date}</p><h1>${c.title}</h1><p>${c.theme}</p></div>
+<section>
+<div class="prayer-card">
+<span class="prayer-tag">${c.tag}</span>
+<p style="font-size:0.85rem;color:#888;margin-bottom:8px;">▶ Listen in English</p><audio controls preload="none" style="width:100%;border-radius:8px;margin-bottom:20px;"><source src="/audio/${c.slug}-en.mp3" type="audio/mpeg"></audio>
+<p>${prayerEn}</p>
+</div>
+<div class="prayer-card" style="background:#f9f7f4;"><h3 style="font-size:1rem;color:#7A9E7E;">Reflection</h3><p style="font-style:italic;">${c.reflection}</p></div>
+<hr class="divider">
+<div class="prayer-card">
+<p class="section-label">En Español</p>
+<h2 style="font-size:1.3rem;margin-bottom:16px;">${c.title}</h2>
+<p style="font-size:0.85rem;color:#888;margin-bottom:8px;">▶ Escuchar en Español</p><audio controls preload="none" style="width:100%;border-radius:8px;margin-bottom:20px;"><source src="/audio/${c.slug}-es.mp3" type="audio/mpeg"></audio>
+<p>${prayerEs}</p>
+</div>
+</section>
+${footer}
+</body></html>`;
+}
+
+function buildSongHtml(c) {
+  const fmtLyrics = (txt) => txt.split('\n').map(l => l.trim() ? `<p>${l}</p>` : '<br>').join('\n');
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${c.title} — Faithful Passages</title>
+<meta name="description" content="${c.theme}">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">${ldJson(c)}</script>
+</head>
+<body>
+${nav}
+<div class="hero" style="padding:56px 24px 48px;"><p class="hero-eyebrow">Song · ${c.date}</p><h1>${c.title}</h1><p>${c.theme}</p><p style="font-size:0.9rem;color:#888;margin-top:8px;">Based on ${c.scripture} · ${c.style}</p></div>
+<section>
+<div class="prayer-card">
+<p style="font-size:0.85rem;color:#888;margin-bottom:8px;">▶ Listen in English</p>
+<audio controls preload="none" style="width:100%;border-radius:8px;margin-bottom:20px;"><source src="/audio/${c.slug}-en.mp3" type="audio/mpeg"></audio>
+<div class="lyrics">
+${fmtLyrics(c.lyrics_en)}
+</div>
+</div>
+<hr class="divider">
+<div class="prayer-card">
+<p class="section-label">En Español</p>
+<h2 style="font-size:1.3rem;margin-bottom:16px;">${c.title}</h2>
+<p style="font-size:0.85rem;color:#888;margin-bottom:8px;">▶ Escuchar en Español</p>
+<audio controls preload="none" style="width:100%;border-radius:8px;margin-bottom:20px;"><source src="/audio/${c.slug}-es.mp3" type="audio/mpeg"></audio>
+<div class="lyrics">
+${fmtLyrics(c.lyrics_es)}
+</div>
+</div>
+</section>
+${footer}
+</body></html>`;
+}
+
+function buildScriptureHtml(c) {
+  const readingEn = c.reading_en.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>\n');
+  const readingEs = c.reading_es.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>\n');
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${c.title} — Faithful Passages</title>
+<meta name="description" content="${c.theme}">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">${ldJson(c)}</script>
+</head>
+<body>
+${nav}
+<div class="hero" style="padding:56px 24px 48px;"><p class="hero-eyebrow">Scripture · ${c.date}</p><h1>${c.title}</h1><p>${c.theme}</p></div>
+<section>
+<div class="prayer-card" style="background:#f0ebe3;border-left:4px solid #7A9E7E;padding:24px 28px;">
+<p style="font-size:1.15rem;font-style:italic;line-height:1.8;">"${c.verse}"</p>
+<p style="font-size:0.85rem;color:#888;margin-top:8px;">— ${c.ref}</p>
+</div>
+<div class="prayer-card">
+<p style="font-size:0.85rem;color:#888;margin-bottom:8px;">▶ Listen in English</p>
+<audio controls preload="none" style="width:100%;border-radius:8px;margin-bottom:20px;"><source src="/audio/${c.slug}-en.mp3" type="audio/mpeg"></audio>
+<p>${readingEn}</p>
+</div>
+<div class="prayer-card" style="background:#f9f7f4;">
+<h3 style="font-size:1rem;color:#7A9E7E;">What People Often Think</h3>
+<p>${c.misconception}</p>
+<h3 style="font-size:1rem;color:#7A9E7E;margin-top:16px;">What It Actually Means</h3>
+<p>${c.real_meaning}</p>
+<h3 style="font-size:1rem;color:#7A9E7E;margin-top:16px;">How to Apply It</h3>
+<p>${c.application}</p>
+</div>
+<hr class="divider">
+<div class="prayer-card">
+<p class="section-label">En Español</p>
+<h2 style="font-size:1.3rem;margin-bottom:16px;">${c.title}</h2>
+<p style="font-size:0.85rem;color:#888;margin-bottom:8px;">▶ Escuchar en Español</p>
+<audio controls preload="none" style="width:100%;border-radius:8px;margin-bottom:20px;"><source src="/audio/${c.slug}-es.mp3" type="audio/mpeg"></audio>
+<p>${readingEs}</p>
+</div>
+</section>
+${footer}
+</body></html>`;
+}
+
+// ── Sitemap updater ───────────────────────────────────────────────────────────
+function updateSitemap(slug) {
+  const sitemapPath = path.join(SITE_DIR, 'sitemap.xml');
+  let sitemap = fs.readFileSync(sitemapPath, 'utf8');
+  const entry = `  <url><loc>${SITE_URL}/${slug}.html</loc><lastmod>${date}</lastmod></url>`;
+  if (!sitemap.includes(`${slug}.html`)) {
+    sitemap = sitemap.replace('</urlset>', `${entry}\n</urlset>`);
+    fs.writeFileSync(sitemapPath, sitemap);
+    console.log('✓ Sitemap updated');
+  } else {
+    console.log('  Sitemap entry already exists');
+  }
+}
+
+// ── Main ──────────────────────────────────────────────────────────────────────
+async function main() {
+  // 1. Generate audio
+  console.log('\n── Generating audio ──');
+  const audioText = content.prayer_en || content.lyrics_en || content.reading_en || content.text_en;
+  const audioTextEs = content.prayer_es || content.lyrics_es || content.reading_es || content.text_es;
+
+  const enPath = path.join(AUDIO_DIR, `${slug}-en.mp3`);
+  const esPath = path.join(AUDIO_DIR, `${slug}-es.mp3`);
+
+  const enOk = generateAudio(audioText, 'en', enPath);
+  const esOk = generateAudio(audioTextEs, 'es', esPath);
+
+  // 2. Build HTML
+  console.log('\n── Building HTML ──');
+  let html;
+  if (type === 'prayer') html = buildPrayerHtml(content);
+  else if (type === 'song') html = buildSongHtml(content);
+  else if (type === 'scripture') html = buildScriptureHtml(content);
+  else { console.error('Unknown type:', type); process.exit(1); }
+
+  const htmlPath = path.join(SITE_DIR, `${slug}.html`);
+  fs.writeFileSync(htmlPath, html);
+  console.log(`✓ HTML written: ${slug}.html`);
+
+  // 3. Update sitemap
+  updateSitemap(slug);
+
+  // 4. Git commit and push
+  console.log('\n── Git commit + push ──');
+  const gitDir = SITE_DIR;
+
+  try {
+    execSync(`git -C "${gitDir}" config user.email "axl@openclaw.ai"`, { stdio: 'inherit' });
+    execSync(`git -C "${gitDir}" config user.name "Axl"`, { stdio: 'inherit' });
+    execSync(`git -C "${gitDir}" add "${htmlPath}" "${path.join(SITE_DIR, 'sitemap.xml')}"`, { stdio: 'inherit' });
+    if (enOk) execSync(`git -C "${gitDir}" add "${enPath}"`, { stdio: 'inherit' });
+    if (esOk) execSync(`git -C "${gitDir}" add "${esPath}"`, { stdio: 'inherit' });
+
+    const msg = `Daily content: ${content.title} (${date})`;
+    execSync(`git -C "${gitDir}" commit -m "${msg}"`, { stdio: 'inherit' });
+    execSync(`git -C "${gitDir}" push origin main`, { stdio: 'inherit' });
+    console.log('✓ Pushed to GitHub Pages');
+  } catch (e) {
+    console.error('Git error:', e.message);
+    process.exit(1);
+  }
+
+  const url = `${SITE_URL}/${slug}.html`;
+  const audioStatus = (enOk && esOk) ? 'Audio EN+ES generated' : (enOk ? 'Audio EN only' : 'Audio skipped');
+  console.log(`\n✅ Published ${type}: ${content.title} — ${url} — ${audioStatus}`);
+  process.stdout.write(`RESULT:${JSON.stringify({ url, type, title: content.title, slug, audioStatus })}\n`);
+}
+
+main().catch(e => { console.error('Fatal:', e); process.exit(1); });

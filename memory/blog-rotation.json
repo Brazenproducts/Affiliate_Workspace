@@ -2,6 +2,7 @@
   "stores": ["bartact", "bullstrap"],
   "lastPublished": "bartact",
   "nextStore": "bullstrap",
+  "status": "SUCCESS",
   "history": [
     {
       "store": "bartact",
@@ -9,6 +10,54 @@
       "articleId": 566883844139,
       "title": "Cordura vs Neoprene Seat Covers: Which Material Lasts Longer Off-Road?",
       "handle": "cordura-vs-neoprene-seat-covers-which-material-lasts-longer-off-road"
+    },
+    {
+      "store": "bullstrap",
+      "date": "2026-07-31",
+      "articleId": 683539530001,
+      "title": "Best Limit Straps for Truck Suspension: A Complete Buyer's Guide",
+      "handle": "limit-straps-buyers-guide-2026-07-31",
+      "status": "SUCCESS"
+    },
+    {
+      "store": "bartact",
+      "date": "2026-08-02",
+      "articleId": 568360337451,
+      "title": "UV-Protective Gear for Outdoor Work: Why Material Matters",
+      "handle": "uv-protective-gear-for-outdoor-work-why-material-matters",
+      "status": "SUCCESS"
+    },
+    {
+      "store": "bullstrap",
+      "date": "2026-08-03",
+      "articleId": 683835457809,
+      "title": "Limit Straps for Lifted Trucks: Installation & Benefits",
+      "handle": "limit-straps-for-lifted-trucks-installation-benefits",
+      "status": "SUCCESS"
+    },
+    {
+      "store": "bartact",
+      "date": "2026-08-04",
+      "articleId": 568425381931,
+      "title": "Cordura UV Protection: Why Outdoor Work Gear Needs Durable Fabric",
+      "handle": "cordura-uv-protection-why-outdoor-work-gear-needs-durable-fabric",
+      "status": "SUCCESS"
+    },
+    {
+      "store": "bullstrap",
+      "date": "2026-08-05",
+      "articleId": 684141609233,
+      "title": "What Is a Limit Strap? Suspension Protection for Off-Road Trucks",
+      "handle": "what-is-a-limit-strap-suspension-protection-for-off-road-trucks",
+      "status": "SUCCESS"
+    },
+    {
+      "store": "bartact",
+      "date": "2026-08-06",
+      "articleId": 568477548587,
+      "title": "High-Visibility Gear for Outdoor Work: Cordura & UV Protection",
+      "handle": "cordura-uv-outdoor-work-gear-1786021224969",
+      "status": "SUCCESS"
     }
   ]
 }

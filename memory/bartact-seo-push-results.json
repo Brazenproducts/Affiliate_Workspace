@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-03T16:35:01.984Z",
+  "collections_updated": [
+    {
+      "handle": "jeep-wrangler-jl-seat-covers",
+      "id": 688526164011,
+      "status": 200
+    },
+    {
+      "handle": "toyota-tacoma-seat-covers",
+      "id": 275721355307,
+      "status": 200
+    },
+    {
+      "handle": "jeep-wrangler-grab-handles",
+      "id": 688348856363,
+      "status": 200
+    },
+    {
+      "handle": "fire-extinguisher-holders",
+      "id": 688907485227,
+      "status": 200
+    },
+    {
+      "handle": "roll-bar-fire-extinguisher-holder",
+      "id": 688526360619,
+      "status": 200
+    },
+    {
+      "handle": "jeep-wrangler-storage-bags-organizers",
+      "id": 684493013035,
+      "status": 200
+    },
+    {
+      "handle": "ford-bronco-storage-bags",
+      "id": 688526786603,
+      "status": 200
+    },
+    {
+      "handle": "winch-covers",
+      "id": 137430564887,
+      "status": 200
+    }
+  ],
+  "collections_failed": [],
+  "blog_articles_published": [],
+  "indexnow_submitted": [
+    "https://bartact.com/collections/jeep-wrangler-jl-seat-covers",
+    "https://bartact.com/collections/toyota-tacoma-seat-covers",
+    "https://bartact.com/collections/jeep-wrangler-grab-handles",
+    "https://bartact.com/collections/fire-extinguisher-holders",
+    "https://bartact.com/collections/roll-bar-fire-extinguisher-holder",
+    "https://bartact.com/collections/jeep-wrangler-storage-bags-organizers",
+    "https://bartact.com/collections/ford-bronco-storage-bags",
+    "https://bartact.com/collections/winch-covers"
+  ],
+  "telegram_sent": false,
+  "indexnow_status": 200,
+  "telegram_error": "TELEGRAM_TOKEN not found"
+}

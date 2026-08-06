@@ -11,6 +11,7 @@ const WORKSPACE = path.join(__dirname, '..');
 const CREDS_FILE = path.join(WORKSPACE, '.bullstrap-indexing-credentials.json');
 const URLS_FILE = path.join(WORKSPACE, 'memory/bullstrap-all-urls-for-indexing.json');
 const STATE_FILE = path.join(WORKSPACE, 'memory/bullstrap-full-indexing-state.json');
+const LOG_FILE = path.join(WORKSPACE, 'memory/bullstrap-indexing-daily-log.md');
 const LOG_PREFIX = '[FULL-INDEX]';
 const DAILY_LIMIT = 199;
 const BATCH_SIZE = 50; // Push in batches of 50 with small delays
@@ -142,6 +143,9 @@ async function main() {
 
   state.lastRun = new Date().toISOString();
   fs.writeFileSync(STATE_FILE, JSON.stringify(state));
+  // Keep daily log in sync so briefing scripts don't show stale data
+  const logLine = `- ${today}: totalPushed=${state.totalPushed}, dailyCount=${state.dailyCount}, lastRun=${state.lastRun}\n`;
+  fs.appendFileSync(LOG_FILE, logLine);
 
   log(`Done: ${ok} pushed, ${errors} errors${quotaHit ? ', QUOTA HIT' : ''}`);
   log(`Progress: ${state.totalPushed}/${allUrls.length} (${(state.totalPushed/allUrls.length*100).toFixed(1)}%)`);

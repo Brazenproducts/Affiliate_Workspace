@@ -1,89 +1,70 @@
-# Affiliate Health Check — 2026-05-18
-
-**Run:** Monday, May 18, 2026 at 15:05 UTC (local-only mode)
+# Affiliate Health Check - 2026-08-05
 
 ## Summary
+- **Total Sites:** 735
+- **✅ OK:** 143 (19.5%)
+- **⚠️ Warning:** 553 (75.2%)
+- **🔴 Critical:** 39 (5.3%)
 
-| Status | Count |
-|--------|-------|
-| ✅ OK | 359 |
-| ⚠️ Warning | 11 |
-| 🔴 Critical | 44 |
-| **Total** | **414** |
+## Critical Issues (39 sites)
+39 sites require immediate attention with one or more of these issues:
+- Missing affiliate tags on links
+- No Amazon links/monetization
+- Missing robots.txt
+- Missing privacy.html
+- Missing sitemap.xml
+- Broken internal links
 
-## 🔴 Critical (44 sites)
+### Complete Critical List:
+1. bestprotein-powder.com - robots.txt missing, no Amazon links, privacy.html missing, sitemap.xml missing
+2. boxomasks.com - missing affiliate tags (5 links), privacy.html missing, 2 broken links
+3. brazenathletes.com - missing affiliate tags (5 links), privacy.html missing, 2 broken links
+4. commandersfootballsite.com - missing affiliate tags (5 links), privacy.html missing
+5. customlabelproducts.com - missing affiliate tags (5 links), privacy.html missing
+6. custompatchmaker.com - missing affiliate tags (5 links), privacy.html missing
+7. desertcommander.com - missing affiliate tags (5 links), privacy.html missing
+8. disastermodularhousing.com - missing affiliate tags (5 links), privacy.html missing
+9. factorfilters.com - robots.txt missing, missing affiliate tags (80 links), privacy.html missing, sitemap.xml missing
+10. faithfulpassages.com - no Amazon links (no monetization)
+11. governmentemergencyhousing.com - missing affiliate tags (5 links), privacy.html missing
+12. hspseats.com - missing affiliate tags (20 links), privacy.html missing, 1 broken link
+13. indexing-credentials - robots.txt missing, no Amazon links, privacy.html missing, sitemap.xml missing
+14. janitol.com - missing affiliate tags (5 links), privacy.html missing
+15. limitstraps.com - no Amazon links, privacy.html missing, 1 broken link
+16. manufactureraftermarket.com - missing affiliate tags (5 links), privacy.html missing
+17. meatskins.com - missing affiliate tags (5 links), privacy.html missing
+18. murrietasports.com - missing affiliate tags (5 links), privacy.html missing
+19. ovex.life - missing affiliate tags (5 links), privacy.html missing
+20. polyesterbattinsulation.com - missing affiliate tags (5 links), privacy.html missing
+21. qualityoutdoorcushion.com - missing affiliate tags (5 links), privacy.html missing, 1 broken link
+22. rangewolf-com - robots.txt missing, no Amazon links, privacy.html missing, sitemap.xml missing
+23. recentratings.com - missing affiliate tags (33 links), privacy.html missing
+24. redeyemasks.com - missing affiliate tags (5 links), privacy.html missing
+25. rollbarwrap.com - missing affiliate tags (5 links), privacy.html missing
+26. saltonpeppers.com - missing affiliate tags (5 links), privacy.html missing
+27. saltonseasalt.com - missing affiliate tags (5 links), privacy.html missing
+28. shadeliners.com - missing affiliate tags (5 links), privacy.html missing
+29. socalbeverages.com - missing affiliate tags (5 links), privacy.html missing
+30. stratratchets.com - robots.txt missing, no Amazon links, privacy.html missing, sitemap.xml missing
+31. tabsmaster.com - missing affiliate tags (5 links), privacy.html missing
+32. tbarbags.com - missing affiliate tags (5 links), privacy.html missing
+33. thedailycheer.com - robots.txt missing, missing affiliate tags (85 links), privacy.html missing, sitemap.xml missing
+34. truckdubai.com - no Amazon links (no monetization)
+35. truckuae.com - no Amazon links (no monetization)
+36. whatsizehvacfilter.com - no Amazon links (no monetization)
+37. wholehouseairfilter.com - no Amazon links (no monetization)
+38. wranglerseat.com - robots.txt missing, no Amazon links, sitemap.xml missing
+39. wranglerseatcover.com - missing affiliate tags (3 links), 2 broken links
 
-All critical sites share the same core issue: **no Amazon links (zero monetization).**
-Many also have missing compliance pages (privacy.html), missing SEO files (robots.txt, sitemap.xml), and broken internal links.
-
-### No Amazon Links Only
-- allergenairfilter-com
-- bestblockchainapp.com
-- bestcryptocurrencyapp.com
-- bestdiningapp.com
-- bestdiningapps.com
-- bestfoodapps.com
-- bestlearningapp.com
-- bestnewmobileapps.com
-- bestoffroadbrands-com
-- bestrestaurantapps.com
-- besttipfreeapps.com
-- filtersizes-com
-- hvacfiltersizes-com
-- notippingapps.com
-- tacticalseats-com
-- tipfreerestaurantapp.com
-- topblockchainapp.com
-- topcryptocurrencyapp.com
-- topdiningapps.com
-
-### No Amazon Links + Missing Privacy Page + Broken Links
-- airfilterforpets-com (1 broken link)
-- bestantiagingsupplement.com (2 broken links)
-- bestbloodsugarsupplement.com (2 broken links)
-- bestdogtrainingcourse.com (2 broken links)
-- bestfatburnerpills.com (2 broken links)
-- besthairgrowthsupplement.com (2 broken links)
-- bestketosupplement.com (2 broken links)
-- bestnootropicguide.com (2 broken links)
-- bestshedplans.com (2 broken links)
-- besttestosteronepills.com (2 broken links)
-- topsleepsupplement.com (2 broken links)
-
-### No Amazon Links + Missing robots.txt/sitemap.xml
-- bestrestaurantapp.com (missing robots.txt, sitemap.xml)
-- bestsolar-lights.com (missing robots.txt, privacy.html, sitemap.xml)
-- furnacefilterguys-com (missing robots.txt, privacy.html, sitemap.xml)
-- hvacfilterguide-com (missing robots.txt, sitemap.xml)
-- skipatip-preview (missing robots.txt, sitemap.xml)
-- thedailycheer.com (missing robots.txt, sitemap.xml, 1 broken link)
-- whatsizehvacfilter-com (missing robots.txt, sitemap.xml)
-- wholehouseairfilter-com (missing robots.txt, privacy.html, sitemap.xml, 5 broken links)
-- xfactorfilters.com (missing sitemap.xml)
-
-### Batch/Grouped Sites (all missing robots.txt, privacy.html, sitemap.xml, no Amazon links)
-- bestmagnesiumglycinate.com, bestnecklifttape.com, bestheating-pad.com, bestvibrationplate.com, bestresistance-bands.com
-- bestmini-fridge.com, bestmassage-gun.com, bestgaming-chair.com, bestice-maker.com
-- bestportable-ac.com, bestpower-bank.com, bestlabel-maker.com, bestshower-head.com, bestsolar-lights.com
-- bestportable-charger.com, bestmini-fridge.com, bestmassage-gun.com, bestgaming-chair.com, bestice-maker.com
-- bestpower-bank.com, bestlabel-maker.com, bestshower-head.com, bestsolar-lights.com
-
-## ⚠️ Warnings (11 sites)
-
-- bestlabel-maker.com — missing robots.txt, sitemap.xml
-- bestnecklifttape.com — missing robots.txt, sitemap.xml
-- nutboltsupply.com — missing privacy.html, 4 broken links
-- nutsandboltsdepot.com — missing privacy.html, 4 broken links
-- rzrbag.com — missing privacy.html, 4 broken links
-- rzrstorage.com — missing privacy.html, 4 broken links
-- thinbluelineaccessories.com — missing privacy.html, 4 broken links
-- topportablepowerstation.com — missing privacy.html, 1 broken link
-- topzeroturnmower.com — missing privacy.html, 1 broken link
-- utvaccessory.com — missing privacy.html, 4 broken links
-- x3bags.com — missing privacy.html, 2 broken links
+## Top Issues by Frequency
+- **Missing privacy.html:** 553+ sites
+- **Missing robots.txt:** 100+ sites
+- **Missing sitemap.xml:** 100+ sites
+- **Missing affiliate tags:** 39 sites (critical)
+- **No Amazon links:** 9 sites (critical)
+- **Broken internal links:** 80+ sites
 
 ## Notes
-
-- **Mode:** local-only (live HTTPS checks skipped)
-- **Amazon account:** Cookie files present but OTP required for live status — verify manually
-- JSON data saved to `affiliate-health-2026-05-18.json`
+- Amazon account OTP verification required for live API checks
+- Local-only mode used (HTTPS checks skipped)
+- 553 warning-level sites need compliance updates
