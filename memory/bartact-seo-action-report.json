@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-05T16:03:03.014Z",
+  "date": "2026-08-06T16:02:32.792Z",
   "actions": [
     {
       "kw": "jeep wrangler jl seat covers",
@@ -22,10 +22,8 @@
     {
       "kw": "paracord grab handles",
       "handle": "paracord-grab-handles",
-      "id": 73832005,
-      "type": "custom",
-      "action": "THIN_CONTENT",
-      "words": 191
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 677
     },
     {
       "kw": "ford bronco grab handles",

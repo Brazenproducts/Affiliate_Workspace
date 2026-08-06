@@ -1,15 +1,15 @@
 {
-  "lastRun": "2026-08-05T16:02:54.198Z",
+  "lastRun": "2026-08-06T16:02:23.617Z",
   "thisWeek": {
-    "start": "2026-07-27",
-    "end": "2026-08-02"
+    "start": "2026-07-28",
+    "end": "2026-08-03"
   },
   "lastWeek": {
-    "start": "2026-07-20",
-    "end": "2026-07-26"
+    "start": "2026-07-21",
+    "end": "2026-07-27"
   },
-  "page1Count": 130,
-  "top3Count": 34,
-  "totalClicks": 446,
-  "totalImpr": 4800
+  "page1Count": 134,
+  "top3Count": 39,
+  "totalClicks": 426,
+  "totalImpr": 4942
 }
