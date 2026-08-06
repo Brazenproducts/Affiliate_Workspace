@@ -164,7 +164,7 @@ def prod_card(p):
 
 def bartact_block(note=""):
     bullets = ["Custom-cut for TJ/LJ &mdash; not a JK or JL cover",
-               "600D Polyester standard / 100D Cordura nylon for OD, Coyote, ACU",
+               "600D Polyester standard / 1000D Cordura nylon for OD, Coyote, ACU",
                "Mil-spec MOLLE on every seat","SAB airbag-compliant seam construction",
                "Fits 1997-2006 TJ and LJ Unlimited","Cut and hand-sewn in the USA"]
     bl = "".join(f"<li>&#10003; {b}</li>" for b in bullets)
@@ -195,7 +195,7 @@ def bartact_block(note=""):
 
 def comp_html(products):
     rows = f"""<tr><td><strong>Bartact</strong></td><td>Best overall</td><td>Custom TJ/LJ cut</td>
-    <td>600D Polyester / 100D Cordura nylon</td><td>Yes</td><td>USA</td>
+    <td>600D Polyester / 1000D Cordura nylon</td><td>Yes</td><td>USA</td>
     <td><a href="{BARTACT_COLLECTION}" target="_blank" rel="noopener">Shop &rarr;</a></td></tr>"""
     for p in products:
         rows += f"""<tr><td>{p['brand']}</td><td>Mid-range</td><td>Custom TJ</td>
