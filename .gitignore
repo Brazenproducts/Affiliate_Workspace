@@ -13,3 +13,7 @@ node_modules/
 .gcp-service-account.json
 *-credentials.json
 *-service-account.json
+MASTER_CREDENTIALS.md
+memory/api-credentials.md
+memory/credentials.md
+.gmail-brazenauto-credentials.json
