@@ -1,5 +1,5 @@
 # SEO_PLAYBOOK.md — Master SEO Guide for All Bots
-**Last updated:** 2026-08-07
+**Last updated:** 2026-08-08
 **Maintained by:** Slashdaddy (main session)
 **All bots must read this file before doing any SEO work.**
 
@@ -74,6 +74,8 @@ await fetch('https://api.indexnow.org/indexnow', {
 - Must exist at `https://yourdomain.com/{key}.txt` (plain text file containing just the key)
 - Without this file, IndexNow submissions will fail silently
 - Key file content: just the key string, nothing else
+- **⚠️ Shopify stores:** The key file CANNOT be uploaded via Shopify Files — that gives a CDN URL (`cdn.shopify.com/...`), not the required root URL. Must be uploaded as a **theme asset** so it's served at `https://yourdomain.com/{key}.txt`
+- **Verify with:** `curl https://yourdomain.com/b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5.txt` — should return just the key string. IndexNow returns HTTP 202 even when the key file is wrong — submissions are silently discarded.
 
 ---
 
@@ -141,6 +143,23 @@ H2: Materials Guide / How to Choose
 H2: FAQ (with FAQPage schema)
 H2: Internal links to related pages
 ```
+
+### Content Position Matters
+- **Keyword and primary value prop must be in the first 100 words** — Google weights content order heavily
+- Never append depth content to the bottom of a page — it buries keyword signal
+- **Correct structure:** intro (keyword in first sentence) → content expansion → FAQ section
+- Inserting a "boost block" after the FAQ section = wasted words
+
+### CTR Is a Separate Problem From Ranking
+- High rank + terrible CTR = wasted position — you're invisible even when you're visible
+- **Any keyword at positions 1–10 with CTR under 1% requires immediate title tag + meta description rewrite**
+- CTR benchmarks by position:
+  - Position 1: expect 25–35%
+  - Position 3: expect 10–15%
+  - Position 5: expect 5–8%
+  - Position 10: expect 2–3%
+  - **Under 1% at any top-10 position = rewrite the snippet immediately**
+- Current Bartact CTR emergencies: "winch cover" #6.9 / 0.16% CTR 🚨 | "jeep grab handles" #5.5 / 0.14% CTR 🚨
 
 ### What HURTS Rankings
 - **Thin content** — under 400 words, Google ignores it
@@ -280,12 +299,72 @@ These are the positions we are actively chasing. Every bot reports against these
 
 ---
 
-## 8. BARTACT-SPECIFIC SEO RULES (NON-NEGOTIABLE)
+## 8. SHOPIFY-SPECIFIC TECHNICAL RULES
+
+### Shopify body_html Sanitizer — CRITICAL
+Shopify's sanitizer strips content on every PUT. This is not optional behavior — it always runs.
+
+**Stripped tags/attributes:**
+- `<div>` — stripped entirely
+- `<img>` — stripped entirely
+- All `style=` inline attributes — stripped from every tag
+- Tables lose all formatting but survive structurally
+
+**Allowed tags:** `<p>`, `<h2>`–`<h6>`, `<ul>`, `<ol>`, `<li>`, `<strong>`, `<em>`, `<a>`, `<br>`, `<table>`, `<tr>`, `<td>`, `<th>` — NO inline styles on any of them
+
+**Word count buffer rules (required):**
+- Write **1,200–1,400w raw** to reliably land at 1,000w+ post-sanitizer
+- Write **1,800w+ raw** to reliably land at 1,500w+ post-sanitizer
+- **Never trust pre-sanitizer word counts** — a page that looks 1,500w in your script can come back 900w after Shopify processes it
+- **Always verify word count from the API response**, not the input
+
+### BOOST Append Regression Risk
+When you PUT updated body_html to Shopify, the sanitizer re-processes the EXISTING content too — this can REDUCE word count below what was there before the update.
+
+**Rule:** Always fetch current body_html first → count words from API response → then expand → push → verify word count from the response body. Never assume the existing word count is stable after a PUT.
+
+### Smart Collection Rule Logic — OR vs AND
+Broad OR-logic smart collection rules (e.g., `tag contains "jeep"`) pull in the entire catalog and can cause cross-contamination.
+
+**Correct pattern:**
+- `disjunctive: false` with a single unique tag per collection when narrow filtering is needed
+- For broad collections, use `disjunctive: true` ONLY with tags specific enough not to cross-contaminate
+- Always preview the collection product count before publishing — unexpected large counts = wrong rule logic
+
+### FAQ Schema on Shopify Collections
+FAQPage JSON-LD **cannot** be placed in `body_html` — it gets stripped by the sanitizer.
+
+**Working pattern:** Store FAQ schema in a metafield, render it in the collection Liquid template:
+```liquid
+<!-- In collection.liquid -->
+{% if collection.metafields.custom.faq_schema != blank %}
+  <script type="application/ld+json">
+    {{ collection.metafields.custom.faq_schema }}
+  </script>
+{% endif %}
+```
+Metafield: `custom.faq_schema`, type `multi_line_text_field`. Push via Admin API metafields endpoint, not body_html.
+
+⚠️ **VERIFY RENDERING — metafield existing ≠ schema rendering.** After patching the theme, confirm with:
+```
+curl -s https://yourdomain.com/collections/your-handle | grep -c "application/ld+json"
+```
+Must return 1 or more. If it returns 0, the theme patch failed — check that the Liquid snippet is in the correct template file and the theme was published after the edit.
+
+---
+
+## 9. BARTACT-SPECIFIC SEO RULES (NON-NEGOTIABLE)
 
 ### Material Specs — EXACT CORRECT SPEC
 - **Standard colors:** 600D polyester (PU waterproof backing, laminated foam, UV protection)
 - **Specialty colors (Coyote Tan, Olive Drab, ACU):** 1000D Cordura nylon
-- **NEVER say:** "mil-spec" in content (Mitch's rule — do not add this)
+- **"mil-spec" rule:** Only use "mil-spec" when the thing you are describing IS actually mil-spec. If you wouldn't be able to cite the actual MIL spec number for it, don't call it mil-spec.
+  - ✅ "Mil-spec 1000D Cordura nylon" — genuinely meets military specification (MIL-C-43734)
+  - ✅ "Mil-spec MOLLE/PALS webbing" — accurate, keep it
+  - ✅ Cordura nylon broadly — mil-spec is an accurate descriptor, keep it
+  - ❌ "Mil-spec stitching" or "mil-spec construction" applied broadly to seat covers — false claim, remove
+  - ❌ "Mil-spec" applied to paracord grab handles — grab handles are NOT mil-spec rated, remove
+  - ❌ Generic "mil-spec quality" as a marketing descriptor — banned everywhere
 - Material guide heading: "600D Polyester vs 1000D Cordura vs Neoprene vs Faux Leather" — 600D leads because it's the PRIMARY material for most seat covers
 - **600D polyester is the MAIN material** — most Bartact seat covers are 600D; never bury it or treat it as secondary
 
@@ -351,7 +430,7 @@ These are the positions we are actively chasing. Every bot reports against these
 
 ---
 
-## 9. AFFILIATE SITE SEO RULES
+## 10. AFFILIATE SITE SEO RULES
 
 ### Amazon Tracking Tags
 - **Only valid tags:** `brazenprodu01-20` and `brazenprodu02-20`
@@ -375,7 +454,7 @@ These are the positions we are actively chasing. Every bot reports against these
 
 ---
 
-## 10. BULL STRAP SEO RULES
+## 11. BULL STRAP SEO RULES
 
 ### Core Strategy
 - Google needs to see bullstrap.com as a suspension authority before trusting it for other categories
@@ -408,7 +487,7 @@ These are the positions we are actively chasing. Every bot reports against these
 
 ---
 
-## 11. ELIPACKO SEO RULES
+## 12. ELIPACKO SEO RULES
 
 ### Photo Policy
 - **NEVER remove existing photos** — new photos are ADDITIONS only
@@ -430,7 +509,7 @@ These are the positions we are actively chasing. Every bot reports against these
 
 ---
 
-## 12. TOOLS & SCRIPTS REFERENCE
+## 13. TOOLS & SCRIPTS REFERENCE
 
 | Tool | Location | Purpose |
 |---|---|---|
@@ -448,7 +527,7 @@ These are the positions we are actively chasing. Every bot reports against these
 
 ---
 
-## 13. WHAT HAS ACTUALLY MOVED RANKINGS
+## 14. WHAT HAS ACTUALLY MOVED RANKINGS
 
 ### Confirmed Wins
 - **Adding FAQPage schema** → featured snippet appearances increased
@@ -470,7 +549,7 @@ These are the positions we are actively chasing. Every bot reports against these
 
 ---
 
-## 14. GOOGLE ADS — ROAS TRACKING
+## 15. GOOGLE ADS — ROAS TRACKING
 
 ### The Under-Reporting Problem
 - Google Ads conversion tracking captures only ~14-36% of actual conversions
@@ -490,7 +569,7 @@ These are the positions we are actively chasing. Every bot reports against these
 
 ---
 
-## 15. MEMORY & CONTINUITY
+## 16. MEMORY & CONTINUITY
 
 ### Where to Log SEO Work
 - Daily session notes: `memory/YYYY-MM-DD.md`

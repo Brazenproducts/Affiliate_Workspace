@@ -3,7 +3,7 @@
 Build bestbroncoaccessories.com — full super site
 Modeled on wranglerjeepaccessories.com structure
 - 2-door vs 4-door targeting
-- Year-specific pages (2021-2025)
+- Year-specific pages (2021-2026)
 - Deep category pages with real Amazon products
 - brazenprodu01-20 tag throughout
 """
@@ -11,7 +11,7 @@ import os, json, re
 from pathlib import Path
 from datetime import date
 
-SITE_DIR = Path('/home/ubuntu/.openclaw/workspace/projects/bestbroncoaccessories-site')
+SITE_DIR = Path('/home/ubuntu/.openclaw/workspace/sites/bestbroncoaccessories.com')
 TAG = 'brazenprodu01-20'
 DOMAIN = 'bestbroncoaccessories.com'
 TODAY = date.today().isoformat()
@@ -26,7 +26,8 @@ YEAR = '2026'
 #   4. NO WRANGLER/JEEP CONTENT on Bronco site
 #   5. Bartact products link to bartact.com, NOT Amazon
 # ============================================================
-BARTACT_GRAB_IMG = "https://www.bartact.com/cdn/shop/products/bartact-grab-handles-bartact-paracord-grab-handles-compatible-with-ford-bronco-2021-2022-roll-bar-front-or-rear-pair-of-2-made-in-usa-29035990482987_600x.jpg?v=1759252773"
+BARTACT_GRAB_IMG = "https://cdn.shopify.com/s/files/1/0936/7476/products/bartact-grab-handles-bartact-paracord-grab-handles-compatible-with-ford-bronco-2021-2022-roll-bar-front-or-rear-pair-of-2-made-in-usa-29035990482987.jpg?v=1759252773"
+BARTACT_MOLLE_IMG = "https://cdn.shopify.com/s/files/1/0936/7476/files/bartact-bags-and-pouches-bronco-accessories-door-bags-for-ford-bronco-2021-2022-2023-2024-full-size-front-door-interior-storage-bartact-pat-pending-33112388894763.jpg?v=1762460054"
 BARTACT_SEAT_IMG = "https://www.bartact.com/cdn/shop/products/bartact-jeep-wrangler-seat-covers-black-red-same-as-insert-color-front-tactical-seat-covers-for-jeep-wrangler-jlu-2018-22-4-door-only-not-for-mojave-or-392-edition-bartact-w-molle-290.jpg?v=1762457338"
 
 PRODUCTS = {
@@ -34,105 +35,105 @@ PRODUCTS = {
     # SEAT COVERS — Bartact #1 (Shopify CDN, no Amazon). All hashes CDN-verified.
     # ----------------------------------------------------------------
     'seat-covers': [
-        {'asin':None,'img':BARTACT_SEAT_IMG,'brand':'Bartact','title':'Bartact MOLLE Tactical Seat Covers — Ford Bronco 2021-2025','desc':'The only custom-cut, MOLLE tactical seat cover made specifically for the Ford Bronco. 600D Polyester with PU waterproof backing, laminated foam/scrim, UV protection, mil-spec MOLLE panels, airbag-safe seams. Made in the USA. Direct from Bartact.','usa':True,'url':'https://bartact.com/collections/ford-bronco-seat-covers'},
-        {'asin':'B095734G56','hash':'716Bpe1YUSL','brand':'Smittybilt','title':'Smittybilt Gen2 Neoprene Seat Cover Set — Ford Bronco 2021-2025','desc':'Waterproof neoprene, custom fit for Bronco, double-stitched seams, full front and rear set. Gen2 neoprene is thicker than the original with better UV resistance.','usa':False},
-        {'asin':'B0D3F1ZKZ2','hash':'71TBS6KMmiL','brand':'Aierxuan','title':'Aierxuan Custom Seat Covers — Ford Bronco 2021-2025','desc':'Custom-fit leatherette with diamond stitching, airbag-compatible side seams, multiple color options. Good everyday option for daily drivers.','usa':False},
-        {'asin':'B00TO3Q7Y2','hash':'513RdBY6VwL','brand':'FH Group','title':'FH Group Neoprene Seat Cover Set — Ford Bronco 2021-2025','desc':'Entry-level neoprene option. Decent water resistance for light trail use, easy install, full set included.','usa':False},
+        {'asin':None,'img':BARTACT_SEAT_IMG,'brand':'Bartact','title':'Bartact MOLLE Tactical Seat Covers — Ford Bronco 2021-2026','desc':'The only custom-cut, MOLLE tactical seat cover made specifically for the Ford Bronco. 600D Polyester with PU waterproof backing, laminated foam/scrim, UV protection, mil-spec MOLLE panels, airbag-safe seams. Made in the USA. Direct from Bartact.','usa':True,'url':'https://bartact.com/collections/ford-bronco-seat-covers'},
+        {'asin':'B095734G56','hash':'716Bpe1YUSL','brand':'Smittybilt','title':'Smittybilt Gen2 Neoprene Seat Cover Set — Ford Bronco 2021-2026','desc':'Waterproof neoprene, custom fit for Bronco, double-stitched seams, full front and rear set. Gen2 neoprene is thicker than the original with better UV resistance.','usa':False},
+        {'asin':'B0D3F1ZKZ2','hash':'71TBS6KMmiL','brand':'Aierxuan','title':'Aierxuan Custom Seat Covers — Ford Bronco 2021-2026','desc':'Custom-fit leatherette with diamond stitching, airbag-compatible side seams, multiple color options. Good everyday option for daily drivers.','usa':False},
+        {'asin':'B00TO3Q7Y2','hash':'513RdBY6VwL','brand':'FH Group','title':'FH Group Neoprene Seat Cover Set — Ford Bronco 2021-2026','desc':'Entry-level neoprene option. Decent water resistance for light trail use, easy install, full set included.','usa':False},
     ],
     # ----------------------------------------------------------------
     # GRAB HANDLES — Bartact #1 (invented the paracord grab handle).
     # All hashes CDN-verified.
     # ----------------------------------------------------------------
     'grab-handles': [
-        {'asin':None,'img':BARTACT_GRAB_IMG,'brand':'Bartact','title':'Bartact Paracord Grab Handles — Ford Bronco 2021-2025 (Made in USA)','desc':'Bartact invented the paracord grab handle. Every knockoff on Amazon copies this design. Custom-fit for Bronco roll bar, mil-spec 550 paracord, made in the USA. Front and rear pairs available.','usa':True,'url':'https://bartact.com/collections/grab-handles-for-jeep-wrangler-gladiator-ford-bronco-utvs-buggies-rails'},
-        {'asin':'B09ZTWW893','hash':'81su2gN84NL','brand':'SEVEN SPARTA','title':'SEVEN SPARTA Paracord Grab Handles — Ford Bronco 2021-2025','desc':'550 paracord, roll bar mount. Bartact knockoff at a lower price point. Solid budget option if Bartact is out of stock.','usa':False},
-        {'asin':'B0BHZR5XGB','hash':'81NoqE8Jq4L','brand':'E-cowlboy','title':'E-cowlboy Paracord Grab Handles — Ford Bronco 2021-2025','desc':'Military-spec 550 paracord, compatible with 2021-2025 Bronco roll bar. Front or rear mounting.','usa':False},
-        {'asin':'B0BTDDSPG8','hash':'712YdLKKp5L','brand':'Boom Racing','title':'Boom Racing CNC Aluminum Grab Handles — Ford Bronco 2021-2025','desc':'CNC-machined aluminum, anodized finish, bolt-on roll bar installation. Good option if you prefer metal over paracord.','usa':False},
-        {'asin':'B0CRY23BP8','hash':'71uabXYacXL','brand':'LFPartS','title':'LFPartS Roll Bar Grab Handles — Ford Bronco 2021-2025','desc':'Textured rubber grip, pairs of 2, fits front or rear roll bar positions on the Bronco.','usa':False},
+        {'asin':None,'img':BARTACT_GRAB_IMG,'brand':'Bartact','title':'Bartact Paracord Grab Handles — Ford Bronco 2021-2026 (Made in USA)','desc':'Bartact invented the paracord grab handle. Every knockoff on Amazon copies this design. Custom-fit for Bronco roll bar, mil-spec 550 paracord, made in the USA. Front and rear pairs available.','usa':True,'url':'https://bartact.com/collections/grab-handles-for-jeep-wrangler-gladiator-ford-bronco-utvs-buggies-rails'},
+        {'asin':'B09ZTWW893','hash':'81su2gN84NL','brand':'SEVEN SPARTA','title':'SEVEN SPARTA Paracord Grab Handles — Ford Bronco 2021-2026','desc':'550 paracord, roll bar mount. Bartact knockoff at a lower price point. Solid budget option if Bartact is out of stock.','usa':False},
+        {'asin':'B0BHZR5XGB','hash':'81NoqE8Jq4L','brand':'E-cowlboy','title':'E-cowlboy Paracord Grab Handles — Ford Bronco 2021-2026','desc':'Military-spec 550 paracord, compatible with 2021-2026 Bronco roll bar. Front or rear mounting.','usa':False},
+        {'asin':'B0BTDDSPG8','hash':'712YdLKKp5L','brand':'Boom Racing','title':'Boom Racing CNC Aluminum Grab Handles — Ford Bronco 2021-2026','desc':'CNC-machined aluminum, anodized finish, bolt-on roll bar installation. Good option if you prefer metal over paracord.','usa':False},
+        {'asin':'B0CRY23BP8','hash':'71uabXYacXL','brand':'LFPartS','title':'LFPartS Roll Bar Grab Handles — Ford Bronco 2021-2026','desc':'Textured rubber grip, pairs of 2, fits front or rear roll bar positions on the Bronco.','usa':False},
     ],
     # ----------------------------------------------------------------
     # FLOOR MATS — All hashes CDN-verified.
     # ----------------------------------------------------------------
     'floor-mats': [
-        {'asin':'B0C817Y5T9','hash':'61rDS+wcxHL','brand':'LASFIT','title':'LASFIT All-Weather Floor Mats — Ford Bronco 2021-2025','desc':'Laser-measured custom fit, raised lip edges, 100% waterproof, easy hose-clean. Top-selling Bronco floor mat on Amazon.','usa':False},
-        {'asin':'B0F6RPXNMP','hash':'71TUg7O4TyL','brand':'Custom Fit','title':'Custom Fit All-Weather Floor Mats — Ford Bronco 2021-2025','desc':'TPE material, odorless, full front and rear set, custom fit to Bronco floor contours.','usa':False},
-        {'asin':'B0H7Q3D6P7','hash':'81uliCD5bEL','brand':'KARPAL','title':'KARPAL Floor Mats & Cargo Liner Set — Ford Bronco 2021-2025','desc':'Full set including cargo liner, custom fit, waterproof TPE. Good value for front+rear+cargo in one kit.','usa':False},
+        {'asin':'B0C817Y5T9','hash':'61rDS+wcxHL','brand':'LASFIT','title':'LASFIT All-Weather Floor Mats — Ford Bronco 2021-2026','desc':'Laser-measured custom fit, raised lip edges, 100% waterproof, easy hose-clean. Top-selling Bronco floor mat on Amazon.','usa':False},
+        {'asin':'B0F6RPXNMP','hash':'71TUg7O4TyL','brand':'Custom Fit','title':'Custom Fit All-Weather Floor Mats — Ford Bronco 2021-2026','desc':'TPE material, odorless, full front and rear set, custom fit to Bronco floor contours.','usa':False},
+        {'asin':'B0H7Q3D6P7','hash':'81uliCD5bEL','brand':'KARPAL','title':'KARPAL Floor Mats & Cargo Liner Set — Ford Bronco 2021-2026','desc':'Full set including cargo liner, custom fit, waterproof TPE. Good value for front+rear+cargo in one kit.','usa':False},
     ],
     # ----------------------------------------------------------------
     # BUMPERS — No Rough Country. All hashes CDN-verified.
     # ----------------------------------------------------------------
     'bumpers': [
-        {'asin':'B0F2MC2PHT','hash':'71FmIJnU6cL','brand':'Fab Fours','title':'Fab Fours Aluminum Front Bumper — Ford Bronco 2021-2025','desc':'Heavy-duty aluminum construction, winch-ready cutout, D-ring tabs, bolt-on install. Lighter than steel, maintains decent ground clearance.','usa':False},
-        {'asin':'B07GZRT1ZH','hash':'81Df+fuuDfL','brand':'ECOTRIC','title':'ECOTRIC Stubby Steel Front Bumper — Ford Bronco 2021-2025','desc':'Heavy-duty steel, integrated D-ring mounts, skid plate included, pre-drilled light tabs. Full bumper replacement, bolt-on.','usa':False},
-        {'asin':'B0C36VSCT3','hash':'71p52bmsOqL','brand':'KUAFU','title':'KUAFU Front Bumper Skid Plate — Ford Bronco 2021-2025','desc':'Steel skid plate that bolts to the factory front bumper — adds underbody protection without full bumper replacement.','usa':False},
+        {'asin':'B0F2MC2PHT','hash':'71FmIJnU6cL','brand':'Fab Fours','title':'Fab Fours Aluminum Front Bumper — Ford Bronco 2021-2026','desc':'Heavy-duty aluminum construction, winch-ready cutout, D-ring tabs, bolt-on install. Lighter than steel, maintains decent ground clearance.','usa':False},
+        {'asin':'B07GZRT1ZH','hash':'81Df+fuuDfL','brand':'ECOTRIC','title':'ECOTRIC Stubby Steel Front Bumper — Ford Bronco 2021-2026','desc':'Heavy-duty steel, integrated D-ring mounts, skid plate included, pre-drilled light tabs. Full bumper replacement, bolt-on.','usa':False},
+        {'asin':'B0C36VSCT3','hash':'71p52bmsOqL','brand':'KUAFU','title':'KUAFU Front Bumper Skid Plate — Ford Bronco 2021-2026','desc':'Steel skid plate that bolts to the factory front bumper — adds underbody protection without full bumper replacement.','usa':False},
     ],
     # ----------------------------------------------------------------
     # LIFT KITS — No Rough Country. All hashes CDN-verified.
     # ----------------------------------------------------------------
     'lift-kits': [
-        {'asin':'B0D1WT32FZ','hash':'61K58tFuFuL','brand':'Supreme Suspensions','title':'Supreme Suspensions 2-Inch Leveling Kit — Ford Bronco 2021-2025','desc':'Billet aluminum coil spring spacers, raises front 2 inches, maintains factory ride quality. Simple bolt-on with no cutting. Most popular Bronco leveling kit.','usa':False},
-        {'asin':'B0GHYRBYDN','hash':'71U8IRbQuoL','brand':'MotoFab','title':'MotoFab 2-Inch Front Coil Spring Spacer — Ford Bronco 2021-2025','desc':'High-strength steel spacers, raises front 2 inches to level the stance and clear 33-35 inch tires. No cutting required.','usa':False},
+        {'asin':'B0D1WT32FZ','hash':'61K58tFuFuL','brand':'Supreme Suspensions','title':'Supreme Suspensions 2-Inch Leveling Kit — Ford Bronco 2021-2026','desc':'Billet aluminum coil spring spacers, raises front 2 inches, maintains factory ride quality. Simple bolt-on with no cutting. Most popular Bronco leveling kit.','usa':False},
+        {'asin':'B0GHYRBYDN','hash':'71U8IRbQuoL','brand':'MotoFab','title':'MotoFab 2-Inch Front Coil Spring Spacer — Ford Bronco 2021-2026','desc':'High-strength steel spacers, raises front 2 inches to level the stance and clear 33-35 inch tires. No cutting required.','usa':False},
     ],
     # ----------------------------------------------------------------
     # ROOF & TOPS — All hashes CDN-verified.
     # ----------------------------------------------------------------
     'roof-accessories': [
-        {'asin':'B07JMX7ZQ2','hash':'615KH9GaMvL','brand':'Bestop','title':'Bestop Trektop NX Soft Top — Ford Bronco 4-Door 2021-2025','desc':'Premium Twill fabric, best-in-class sealing, integrated front header, quick-release rear side windows. The gold standard for Bronco soft tops.','usa':False},
-        {'asin':'B0BPJSQ8FP','hash':'71bEPvik2eL','brand':'Bestop','title':'Bestop Supertop Black Diamond — Ford Bronco 2-Door 2021-2025','desc':'Heavy-duty vinyl, tinted rear windows, all hardware included. Made in USA by Bestop. Built for 2-door Bronco.','usa':False},
-        {'asin':'B0G3GPL64B','hash':'71Iy-f4MhBL','brand':'EcoNour','title':'EcoNour Windshield Sunshade — Ford Bronco 2021-2025','desc':'Custom-fit front windshield sun shade, reflective exterior, foldable storage, 2-door and 4-door fitment. Keeps interior temperature down significantly.','usa':False},
-        {'asin':'B09V2HBLSZ','hash':'8132Tx25jKL','brand':'Mabett','title':'Mabett Windshield Sun Shade — Ford Bronco 2021-2025 (2/4-Door)','desc':'Multi-layer reflective material, custom-fit for Bronco windshield, includes visor strip. Works for both 2-door and 4-door configurations.','usa':False},
+        {'asin':'B07JMX7ZQ2','hash':'615KH9GaMvL','brand':'Bestop','title':'Bestop Trektop NX Soft Top — Ford Bronco 4-Door 2021-2026','desc':'Premium Twill fabric, best-in-class sealing, integrated front header, quick-release rear side windows. The gold standard for Bronco soft tops.','usa':False},
+        {'asin':'B0BPJSQ8FP','hash':'71bEPvik2eL','brand':'Bestop','title':'Bestop Supertop Black Diamond — Ford Bronco 2-Door 2021-2026','desc':'Heavy-duty vinyl, tinted rear windows, all hardware included. Made in USA by Bestop. Built for 2-door Bronco.','usa':False},
+        {'asin':'B0G3GPL64B','hash':'71Iy-f4MhBL','brand':'EcoNour','title':'EcoNour Windshield Sunshade — Ford Bronco 2021-2026','desc':'Custom-fit front windshield sun shade, reflective exterior, foldable storage, 2-door and 4-door fitment. Keeps interior temperature down significantly.','usa':False},
+        {'asin':'B09V2HBLSZ','hash':'8132Tx25jKL','brand':'Mabett','title':'Mabett Windshield Sun Shade — Ford Bronco 2021-2026 (2/4-Door)','desc':'Multi-layer reflective material, custom-fit for Bronco windshield, includes visor strip. Works for both 2-door and 4-door configurations.','usa':False},
     ],
     # ----------------------------------------------------------------
     # LIGHTING — All hashes CDN-verified.
     # ----------------------------------------------------------------
     'lighting': [
         {'asin':'B09P3W6BB1','hash':'71XbEMvjSZL','brand':'Nilight','title':'Nilight 52-Inch LED Light Bar — Ford Bronco Roof Mount','desc':'Spot flood combo, 400W equivalent output, IP67 waterproof, wiring harness included. Fits most Bronco roof mount brackets.','usa':False},
-        {'asin':'B01LXD9RWN','hash':'71W6Xc2k0HL','brand':'Auxbeam','title':'Auxbeam 50-Inch 288W LED Light Bar — Ford Bronco 2021-2025','desc':'5D reflector lens, spot flood combo, IP67 rated, fits most Bronco roof and bumper mounts.','usa':False},
+        {'asin':'B01LXD9RWN','hash':'71W6Xc2k0HL','brand':'Auxbeam','title':'Auxbeam 50-Inch 288W LED Light Bar — Ford Bronco 2021-2026','desc':'5D reflector lens, spot flood combo, IP67 rated, fits most Bronco roof and bumper mounts.','usa':False},
         {'asin':'B077Q6LRZ4','hash':'71yWMfZFu1L','brand':'Nilight','title':'Nilight 50-Inch Curved LED Light Bar — Ford Bronco Hood/Windshield Mount','desc':'Curved profile follows Bronco hood contour, wiring harness included, 288W equivalent, IP67.','usa':False},
     ],
     # ----------------------------------------------------------------
     # STORAGE — Full range: center console + rear cargo. All hashes CDN-verified.
     # ----------------------------------------------------------------
     'storage': [
-        {'asin':None,'img':BARTACT_GRAB_IMG,'brand':'Bartact','title':'Bartact MOLLE Accessories — Ford Bronco Storage & Organization','desc':'Bartact makes MOLLE pouches, bags, and storage panels for the Ford Bronco. Attach directly to the MOLLE seat back panels or roll bar. Made in the USA.','usa':True,'url':'https://bartact.com/collections/ford-bronco-accessories-2021-2022-2023'},
-        {'asin':'B0GXVL1Q8C','hash':'71bfJDa-G0L','brand':'GXVL','title':'Trunk Hidden Storage Box — Ford Bronco 4-Door 2021-2025','desc':'Mounts under the cargo floor for hidden storage. Fits behind the rear seats in the 4-door Bronco. Great for valuables and gear you want out of sight.','usa':False},
-        {'asin':'B0C9GP7T5K','hash':'71ms1G1GHuL','brand':'Offroader','title':'Roll Bar Cargo Storage Bag — Ford Bronco 2021-2025','desc':'Attaches to the Bronco roll bar, keeps gear accessible without taking up seat or floor space. Fits both 2-door and 4-door.','usa':False},
-        {'asin':'B07VG6YKGM','hash':'81Fu0O2oaQL','brand':'NOCO','title':'Center Console Organizer Tray — Ford Bronco 2021-2025','desc':'Drop-in tray for the Bronco center console, keeps phone, keys, and gear from sliding around. No-drill install.','usa':False},
-        {'asin':'B0CWL41JXP','hash':'715LGjOn9xL','brand':'Tuff Support','title':'Center Console Organizer — Ford Bronco 2021-2025','desc':'Multiple compartments, custom-fit for Bronco center console, easy install.','usa':False},
+        {'asin':None,'img':BARTACT_MOLLE_IMG,'brand':'Bartact','title':'Bartact Front Door Storage Bags — Ford Bronco 2021-2026 (Made in USA)','desc':'Bartact makes vehicle-specific door bags, center console storage, MOLLE panels, and visor storage for the Ford Bronco. Custom-fit, patent pending designs. Made in the USA.','usa':True,'url':'https://bartact.com/collections/ford-bronco-accessories-2021-2022-2023'},
+        {'asin':'B0GXVL1Q8C','hash':'71bfJDa-G0L','brand':'GXVL','title':'Trunk Hidden Storage Box — Ford Bronco 4-Door 2021-2026','desc':'Mounts under the cargo floor for hidden storage. Fits behind the rear seats in the 4-door Bronco. Great for valuables and gear you want out of sight.','usa':False},
+        {'asin':'B0C9GP7T5K','hash':'71ms1G1GHuL','brand':'Offroader','title':'Roll Bar Cargo Storage Bag — Ford Bronco 2021-2026','desc':'Attaches to the Bronco roll bar, keeps gear accessible without taking up seat or floor space. Fits both 2-door and 4-door.','usa':False},
+        {'asin':'B07VG6YKGM','hash':'81Fu0O2oaQL','brand':'NOCO','title':'Center Console Organizer Tray — Ford Bronco 2021-2026','desc':'Drop-in tray for the Bronco center console, keeps phone, keys, and gear from sliding around. No-drill install.','usa':False},
+        {'asin':'B0CWL41JXP','hash':'715LGjOn9xL','brand':'Tuff Support','title':'Center Console Organizer — Ford Bronco 2021-2026','desc':'Multiple compartments, custom-fit for Bronco center console, easy install.','usa':False},
     ],
     # ----------------------------------------------------------------
     # WINCHES — Real winches. All hashes CDN-verified.
     # ----------------------------------------------------------------
     'winches': [
-        {'asin':'B0DJSC72DQ','hash':'812VaMHAxnL','brand':'OPENROAD','title':'OPENROAD 9,500 lb Electric Winch — Ford Bronco 2021-2025','desc':'9,500 lb rated, synthetic rope, waterproof IP67, wireless remote + wired control. Fits Bronco front bumper winch plate.','usa':False},
+        {'asin':'B0DJSC72DQ','hash':'812VaMHAxnL','brand':'OPENROAD','title':'OPENROAD 9,500 lb Electric Winch — Ford Bronco 2021-2026','desc':'9,500 lb rated, synthetic rope, waterproof IP67, wireless remote + wired control. Fits Bronco front bumper winch plate.','usa':False},
         {'asin':'B0BDQCHRQH','hash':'71XqE5mmgbL','brand':'RUGCEL','title':'RUGCEL 13,500 lb Winch with Synthetic Rope — Ford Bronco','desc':'13,500 lb pulling capacity, synthetic rope, IP67, wireless and wired remote. Handles serious recovery situations.','usa':False},
-        {'asin':'B0CZNCC9L2','hash':'71xYs-MwM6L','brand':'RUGCEL','title':'RUGCEL 12,000 lb Steel Cable Winch — Ford Bronco 2021-2025','desc':'12,000 lb capacity, steel cable, IP67 waterproof, 12V electric. Fits Bronco aftermarket and factory winch-ready bumpers.','usa':False},
+        {'asin':'B0CZNCC9L2','hash':'71xYs-MwM6L','brand':'RUGCEL','title':'RUGCEL 12,000 lb Steel Cable Winch — Ford Bronco 2021-2026','desc':'12,000 lb capacity, steel cable, IP67 waterproof, 12V electric. Fits Bronco aftermarket and factory winch-ready bumpers.','usa':False},
         {'asin':'B0DDGSRPK8','hash':'81axjOks2fL','brand':'Nilight','title':'Complete Winch Rigging Kit — D-Shackles, Snatch Block, Tow Strap','desc':'Everything you need to rig a winch recovery: kinetic strap, D-ring shackles, snatch block, tree saver, gloves.','usa':False},
     ],
     # ----------------------------------------------------------------
     # SKID PLATES — All hashes CDN-verified.
     # ----------------------------------------------------------------
     'skid-plates': [
-        {'asin':'B09WTD4Y1H','hash':'51ThP7Rk3WL','brand':'DV8 Offroad','title':'DV8 Steel Front Skid Plate — Ford Bronco 2021-2025','desc':'3/16-inch steel, bolt-on install, protects steering rack and front differential. DV8 is a top-tier Bronco accessory brand.','usa':False},
-        {'asin':'B0BCXCJKSJ','hash':'41hertaew+L','brand':'DV8 Offroad','title':'DV8 Rear Differential Skid Plate — Ford Bronco 2021-2025','desc':'Protects the rear diff on trail drops and rocks. 3/16 steel, black finish, bolt-on install.','usa':False},
+        {'asin':'B09WTD4Y1H','hash':'51ThP7Rk3WL','brand':'DV8 Offroad','title':'DV8 Steel Front Skid Plate — Ford Bronco 2021-2026','desc':'3/16-inch steel, bolt-on install, protects steering rack and front differential. DV8 is a top-tier Bronco accessory brand.','usa':False},
+        {'asin':'B0BCXCJKSJ','hash':'41hertaew+L','brand':'DV8 Offroad','title':'DV8 Rear Differential Skid Plate — Ford Bronco 2021-2026','desc':'Protects the rear diff on trail drops and rocks. 3/16 steel, black finish, bolt-on install.','usa':False},
         {'asin':'B0DRCRFWV4','hash':'61xpIwTEyaL','brand':'Chassis Armor','title':'Engine Skid Plate — Ford Bronco 2021-2023','desc':'Underbody skid plate covering the engine/transmission area. Steel construction, bolt-on with included hardware.','usa':False},
-        {'asin':'B0C36VSCT3','hash':'71p52bmsOqL','brand':'KUAFU','title':'KUAFU Front Bumper Skid Plate — Ford Bronco 2021-2025','desc':'Mounts to the factory front bumper, adds steel protection without full bumper replacement. Affordable first step for trail protection.','usa':False},
+        {'asin':'B0C36VSCT3','hash':'71p52bmsOqL','brand':'KUAFU','title':'KUAFU Front Bumper Skid Plate — Ford Bronco 2021-2026','desc':'Mounts to the factory front bumper, adds steel protection without full bumper replacement. Affordable first step for trail protection.','usa':False},
     ],
     # ----------------------------------------------------------------
     # STEPS / RUNNING BOARDS — All hashes CDN-verified.
     # ----------------------------------------------------------------
     'steps': [
-        {'asin':'B09KH53PKK','hash':'71U50jh8RzL','brand':'Iron Cross','title':'Running Boards — Ford Bronco 4-Door 2021-2025','desc':'Amazon Choice pick for Bronco running boards. Textured steel step surface, bolt-on install, fits 4-door Bronco.','usa':False},
-        {'asin':'B0GK18LTQM','hash':'71EWQJN8hCL','brand':'Tyger Auto','title':'6-Inch Running Boards — Ford Bronco 4-Door 2021-2025','desc':'6-inch wide step, textured non-slip surface, bolt-on no-drill install for 4-door Bronco.','usa':False},
+        {'asin':'B09KH53PKK','hash':'71U50jh8RzL','brand':'Iron Cross','title':'Running Boards — Ford Bronco 4-Door 2021-2026','desc':'Amazon Choice pick for Bronco running boards. Textured steel step surface, bolt-on install, fits 4-door Bronco.','usa':False},
+        {'asin':'B0GK18LTQM','hash':'71EWQJN8hCL','brand':'Tyger Auto','title':'6-Inch Running Boards — Ford Bronco 4-Door 2021-2026','desc':'6-inch wide step, textured non-slip surface, bolt-on no-drill install for 4-door Bronco.','usa':False},
         {'asin':'B0GVM78XVW','hash':'81hjiALmIgL','brand':'Romik','title':'Running Boards — Ford Bronco 4-Door 2021-2026','desc':'Custom-fit for Bronco 4-door (non-Sport), heavy-duty steel, powder-coated black finish.','usa':False},
     ],
     # ----------------------------------------------------------------
     # MOLLE GEAR — Bartact #1 (direct). All hashes CDN-verified.
     # ----------------------------------------------------------------
     'molle-gear': [
-        {'asin':None,'img':BARTACT_SEAT_IMG,'brand':'Bartact','title':'Bartact MOLLE Seat Covers & Gear — Ford Bronco 2021-2025','desc':'Bartact builds MOLLE seat covers with built-in mil-spec PALS webbing for the Bronco. Attach pouches, holsters, and organizers directly to the seat back. Made in the USA.','usa':True,'url':'https://bartact.com/collections/ford-bronco-accessories-2021-2022-2023'},
-        {'asin':'B0BXS7YTKH','hash':'81CH0dsWMCL','brand':'MAIKER','title':'MAIKER Tactical MOLLE Seat Back Panel — Ford Bronco 2021-2025','desc':'2-piece set, attaches to front headrest posts, full MOLLE/PALS webbing. Custom-fit for Bronco. Expands storage without modifying seat covers.','usa':False},
-        {'asin':'B0DF3KVFW2','hash':'81Q0YSqBzPL','brand':'DV8 Offroad','title':'DV8 MOLLE Seat Back Pockets — Ford Bronco 2021-2025','desc':'DV8 brand MOLLE panels replace factory seat back trim. Rigidly mounted, full PALS grid, fits all Bronco seat back positions.','usa':False},
+        {'asin':None,'img':BARTACT_SEAT_IMG,'brand':'Bartact','title':'Bartact MOLLE Seat Covers & Gear — Ford Bronco 2021-2026','desc':'Bartact builds MOLLE seat covers with built-in mil-spec PALS webbing for the Bronco. Attach pouches, holsters, and organizers directly to the seat back. Made in the USA.','usa':True,'url':'https://bartact.com/collections/ford-bronco-accessories-2021-2022-2023'},
+        {'asin':'B0BXS7YTKH','hash':'81CH0dsWMCL','brand':'MAIKER','title':'MAIKER Tactical MOLLE Seat Back Panel — Ford Bronco 2021-2026','desc':'2-piece set, attaches to front headrest posts, full MOLLE/PALS webbing. Custom-fit for Bronco. Expands storage without modifying seat covers.','usa':False},
+        {'asin':'B0DF3KVFW2','hash':'81Q0YSqBzPL','brand':'DV8 Offroad','title':'DV8 MOLLE Seat Back Pockets — Ford Bronco 2021-2026','desc':'DV8 brand MOLLE panels replace factory seat back trim. Rigidly mounted, full PALS grid, fits all Bronco seat back positions.','usa':False},
     ],
     # ----------------------------------------------------------------
     # RECOVERY GEAR — Real recovery equipment. All hashes CDN-verified.
@@ -148,12 +149,12 @@ PRODUCTS = {
     # CARGO LINERS — No WeatherTech/Husky. All hashes CDN-verified.
     # ----------------------------------------------------------------
     'cargo-liners': [
-        {'asin':'B0H7Q3D6P7','hash':'81uliCD5bEL','brand':'KARPAL','title':'KARPAL Cargo Liner & Floor Mat Set — Ford Bronco 2021-2025','desc':'Custom-fit cargo liner plus full floor mat set, waterproof TPE material. Good value full-coverage kit.','usa':False},
-        {'asin':'B0C817Y5T9','hash':'61rDS+wcxHL','brand':'LASFIT','title':'LASFIT All-Weather Floor & Cargo Mats — Ford Bronco 2021-2025','desc':'Laser-measured custom fit, raised edges, easy-clean waterproof surface. Includes cargo area liner.','usa':False},
+        {'asin':'B0H7Q3D6P7','hash':'81uliCD5bEL','brand':'KARPAL','title':'KARPAL Cargo Liner & Floor Mat Set — Ford Bronco 2021-2026','desc':'Custom-fit cargo liner plus full floor mat set, waterproof TPE material. Good value full-coverage kit.','usa':False},
+        {'asin':'B0C817Y5T9','hash':'61rDS+wcxHL','brand':'LASFIT','title':'LASFIT All-Weather Floor & Cargo Mats — Ford Bronco 2021-2026','desc':'Laser-measured custom fit, raised edges, easy-clean waterproof surface. Includes cargo area liner.','usa':False},
     ],
 }
 
-YEARS = ['2021','2022','2023','2024','2025']
+YEARS = ['2021','2022','2023','2024','2025','2026']
 CONFIGS = ['2-door','4-door']
 
 # VALIDATION: Check that critical rules are enforced
@@ -193,11 +194,11 @@ def validate_products():
     print('✓ PRODUCTS validation passed')
 
 CATEGORIES = [
-    ('seat-covers',     'Seat Covers',        'best-bronco-seat-covers',     'Custom-fit tactical and neoprene seat covers for Ford Bronco 2021-2025.'),
+    ('seat-covers',     'Seat Covers',        'best-bronco-seat-covers',     'Custom-fit tactical and neoprene seat covers for Ford Bronco 2021-2026.'),
     ('grab-handles',    'Grab Handles',        'best-bronco-grab-handles',    'Paracord and aluminum grab handles for Bronco roll bar — invented by Bartact.'),
-    ('floor-mats',      'Floor Mats',          'best-bronco-floor-mats',      'Custom-fit all-weather floor mats for Ford Bronco 2021-2025.'),
+    ('floor-mats',      'Floor Mats',          'best-bronco-floor-mats',      'Custom-fit all-weather floor mats for Ford Bronco 2021-2026.'),
     ('bumpers',         'Bumpers',             'best-bronco-bumpers',         'Steel and aluminum front bumpers with winch mounts and D-ring tabs.'),
-    ('lift-kits',       'Lift Kits',           'best-bronco-lift-kits',       'Leveling kits and lift kits for Ford Bronco 2021-2025.'),
+    ('lift-kits',       'Lift Kits',           'best-bronco-lift-kits',       'Leveling kits and lift kits for Ford Bronco 2021-2026.'),
     ('skid-plates',     'Skid Plates',         'best-bronco-skid-plates',     'Steel underbody skid plates protecting engine, diff, and transfer case.'),
     ('steps',           'Steps & Running Boards','best-bronco-steps',         'Running boards and rock sliders for 2-door and 4-door Ford Bronco.'),
     ('roof-accessories','Roof & Tops',         'best-bronco-roof-accessories','Soft tops, sunshades, and roof accessories for Ford Bronco.'),
@@ -377,7 +378,7 @@ def build_index():
             {"@type":"Question","name":"What tire size fits a stock Ford Bronco?",
              "acceptedAnswer":{"@type":"Answer","text":"The Bronco Badlands and Wildtrak come stock with 33-inch tires. Most owners upgrade to 35-inch tires with a 2-inch lift kit. 37-inch tires require a 4-inch lift and possible fender trimming."}},
             {"@type":"Question","name":"Are Bartact seat covers compatible with the Ford Bronco?",
-             "acceptedAnswer":{"@type":"Answer","text":"Yes. Bartact makes custom-cut MOLLE tactical seat covers specifically for the Ford Bronco 2021-2025, available for both 2-door and 4-door configurations. They are airbag-compatible and made in the USA."}},
+             "acceptedAnswer":{"@type":"Answer","text":"Yes. Bartact makes custom-cut MOLLE tactical seat covers specifically for the Ford Bronco 2021-2026, available for both 2-door and 4-door configurations. They are airbag-compatible and made in the USA."}},
         ]
     })
 
@@ -385,7 +386,7 @@ def build_index():
 <script type="application/ld+json">{schema}</script>
 <div class="hero">
 <h1>Best Ford Bronco Accessories <span>{YEAR}</span></h1>
-<p>The definitive buyer's guide for Ford Bronco 2021-2025. Every category covered — seat covers, grab handles, bumpers, lift kits, lighting, tires, and more. 2-door and 4-door specific picks.</p>
+<p>The definitive buyer's guide for Ford Bronco 2021-2026. Every category covered — seat covers, grab handles, bumpers, lift kits, lighting, tires, and more. 2-door and 4-door specific picks.</p>
 </div>
 <div class="container">
 
@@ -400,7 +401,7 @@ def build_index():
 
 <h2>About This Site</h2>
 <div class="section-intro">
-<p>BestBroncoAccessories.com covers every Ford Bronco accessory category with real product picks, honest editorial, and vehicle-specific guidance. We separate 2-door and 4-door fitment where it matters, break down year-specific differences (2021 vs 2022-2024 vs 2025), and only recommend products we'd actually buy.</p>
+<p>BestBroncoAccessories.com covers every Ford Bronco accessory category with real product picks, honest editorial, and vehicle-specific guidance. We separate 2-door and 4-door fitment where it matters, break down year-specific differences (2021 vs 2022-2024 vs 2025-2026), and only recommend products we'd actually buy.</p>
 <p>Bartact makes our top pick for seat covers — custom-cut for the Bronco platform, airbag-safe, Made in USA. For everything else, we rank by real-world value and fitment accuracy, not by margin.</p>
 </div>
 
@@ -408,7 +409,7 @@ def build_index():
 
     return page_shell(
         f'Best Ford Bronco Accessories {YEAR} — Buyer\'s Guide by Category',
-        f'Shop the best Ford Bronco accessories for 2021-2025. Seat covers, grab handles, bumpers, lift kits, tires, lighting — 2-door and 4-door specific picks.',
+        f'Shop the best Ford Bronco accessories for 2021-2026. Seat covers, grab handles, bumpers, lift kits, tires, lighting — 2-door and 4-door specific picks.',
         '', body
     )
 
@@ -438,7 +439,7 @@ def build_category(key, name, slug, desc):
 <div class="breadcrumb"><a href="/">Home</a> &rsaquo; {name}</div>
 
 <div class="section-intro">
-<p><strong>Finding the right {name.lower()} for your Ford Bronco</strong> means knowing your year and configuration first. The 2021 Bronco has minor differences from 2022-2024 (revised trim levels, some electrical updates), and 2025 brought further changes. 2-door vs 4-door matters for seat covers, soft tops, and some storage products — but not for bumpers, winches, grab handles, or lighting.</p>
+<p><strong>Finding the right {name.lower()} for your Ford Bronco</strong> means knowing your year and configuration first. The 2021 Bronco has minor differences from 2022-2024 (revised trim levels, some electrical updates), and 2025-2026 brought further trim refinements — but fitment for seat covers, grab handles, and most accessories remains the same across 2021-2026. 2-door vs 4-door matters for seat covers, soft tops, and some storage products — but not for bumpers, winches, grab handles, or lighting.</p>
 <p>All picks below are verified Amazon listings with confirmed availability. Bartact is our top pick where applicable — they make the only custom-cut, MOLLE tactical covers built specifically for the Bronco platform in the USA.</p>
 </div>
 
@@ -455,7 +456,7 @@ def build_category(key, name, slug, desc):
 
     return page_shell(
         f'Best Ford Bronco {name} {YEAR} — Buyer\'s Guide',
-        f'Best Ford Bronco {name.lower()} for 2021-2025. {desc} 2-door and 4-door picks included.',
+        f'Best Ford Bronco {name.lower()} for 2021-2026. {desc} 2-door and 4-door picks included.',
         f'{slug}.html', body, active=slug
     )
 
@@ -478,7 +479,7 @@ def build_year_page(year):
 <div class="breadcrumb"><a href="/">Home</a> &rsaquo; {year} Bronco</div>
 
 <div class="section-intro">
-<p>The <strong>{year} Ford Bronco</strong> uses the same Gen 1 platform as 2021-2025. Most accessories are cross-compatible across years, but always verify fitment for seat covers (which are cut to specific seat profiles) and soft tops (which vary by trim level). Grab handles, bumpers, winches, and lighting fit all years.</p>
+<p>The <strong>{year} Ford Bronco</strong> uses the same Gen 1 platform as 2021-2026. Most accessories are cross-compatible across years, but always verify fitment for seat covers (which are cut to specific seat profiles) and soft tops (which vary by trim level). Grab handles, bumpers, winches, and lighting fit all years.</p>
 </div>
 
 <h2>Top Picks for {year} Ford Bronco</h2>

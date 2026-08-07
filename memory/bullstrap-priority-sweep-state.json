@@ -1,11 +1,11 @@
 {
   "phase": 0,
   "brandIndex": 6,
-  "sinceId": 10500907532561,
-  "totalFixed": 5073,
-  "totalIndexed": 217,
-  "dailyCount": 0,
+  "sinceId": 11081738813713,
+  "totalFixed": 5589,
+  "totalIndexed": 251,
+  "dailyCount": 1,
   "dailyDate": "2026-08-07",
-  "lastRun": "2026-08-07T18:10:34.542Z",
-  "completedPhases": []
+  "completedPhases": [],
+  "lastRun": "2026-08-07T20:52:44.930Z"
 }
