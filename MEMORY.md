@@ -227,3 +227,22 @@ The priority sweep script enforces this order automatically.
 
 **State:** `memory/bullstrap-collection-seo-state.json`
 **IndexNow key:** `b4f7e2a1c3d5f6789012345678a4b5c6`
+
+## ⛔ PROTECTED / DO-NOT-TOUCH SITES — HARD RULE
+These are real brand or protected sites. No bot touches them. No Amazon links expected. Never audit for affiliate tags. Never run scripts on them.
+
+- **factorfilters.com** — Mitch's HVAC filter brand (Shopify). No Amazon links. Do not touch ever.
+- **limitstraps.com** — Bull Strap brand domain. No Amazon links. Do not touch.
+- **fernallern.com** — protected. Do not touch.
+- **thornwoodaccord.com** — protected. Do not touch.
+- **thedailycheer.com** — protected. Do not touch.
+- **stratratchets.com** — brand site. No Amazon links expected.
+- **hspseats.com** — protected without Mitch direct confirmation.
+- **brazenauto.com** — Brazen Auto brand. Not an affiliate site.
+- **bartact.com** — Bartact brand (Shopify). Not an affiliate site.
+- **bullstrap.com** — Bull Strap brand (Shopify). Not an affiliate site.
+- **skipatip.com** — SkipaTip app. Not an affiliate site.
+- **recentratings.com** — RecentRatings app. Not an affiliate site.
+- **truckdubai.com / truckuae.com** — international sites, no Amazon affiliate program.
+
+Affiliate health check script exempts all of the above automatically as of 2026-08-07.

@@ -1,89 +1,34 @@
-# Affiliate Health Check — 2026-05-18
+# Affiliate Health Check - August 7, 2026
 
-**Run:** Monday, May 18, 2026 at 15:05 UTC (local-only mode)
+**Run Date:** Friday, August 7th, 2026 - 3:02 PM UTC
 
 ## Summary
+- **Total Sites:** 736
+- **✅ OK:** 138
+- **⚠️ Warning:** 437
+- **🔴 Critical:** 161
 
-| Status | Count |
-|--------|-------|
-| ✅ OK | 359 |
-| ⚠️ Warning | 11 |
-| 🔴 Critical | 44 |
-| **Total** | **414** |
+## Critical Status
+**161 sites require immediate attention** — missing affiliate tags, missing privacy pages, missing robots.txt/sitemap, or zero Amazon links (no monetization).
 
-## 🔴 Critical (44 sites)
+## Key Issues
+- **Missing affiliate tags:** Affects majority of critical sites (60+ sites with 70-120+ untagged links)
+- **Missing privacy.html:** Nearly all critical sites lack required privacy policy
+- **Missing robots.txt/sitemap:** 50+ sites missing SEO essentials
+- **No Amazon links:** 9 sites have zero monetization (factorfilters.com, faithfulpassages.com, limitstraps.com, rangewolf-com, stratratchets.com, thedailycheer.com, truckdubai.com, truckuae.com, whatsizehvacfilter.com, wholehouseairfilter.com, wranglerseat.com)
+- **Broken internal links:** Multiple sites with 1-15 broken links
 
-All critical sites share the same core issue: **no Amazon links (zero monetization).**
-Many also have missing compliance pages (privacy.html), missing SEO files (robots.txt, sitemap.xml), and broken internal links.
+## Top Critical Sites by Issue Count
+1. **whatarebest.com** — 1833 missing affiliate tags (massive monetization gap)
+2. **besttirepatch.com** — 112 missing tags + 15 broken links
+3. **cagewraps.com**, **cushions4u.com**, **custompatchesembroidered.com**, **fabricoutletusa.com**, **lasermats.com** — 127-145 missing tags each
 
-### No Amazon Links Only
-- allergenairfilter-com
-- bestblockchainapp.com
-- bestcryptocurrencyapp.com
-- bestdiningapp.com
-- bestdiningapps.com
-- bestfoodapps.com
-- bestlearningapp.com
-- bestnewmobileapps.com
-- bestoffroadbrands-com
-- bestrestaurantapps.com
-- besttipfreeapps.com
-- filtersizes-com
-- hvacfiltersizes-com
-- notippingapps.com
-- tacticalseats-com
-- tipfreerestaurantapp.com
-- topblockchainapp.com
-- topcryptocurrencyapp.com
-- topdiningapps.com
+## Next Steps
+1. Add affiliate tags to 50+ critical sites immediately
+2. Create privacy.html for all 160+ sites
+3. Generate robots.txt and sitemap.xml for 50+ sites
+4. Fix broken internal links (especially besttirepatch.com's 15 broken links)
+5. Decide on fate of 9 sites with zero Amazon links (affiliate vs. remove)
 
-### No Amazon Links + Missing Privacy Page + Broken Links
-- airfilterforpets-com (1 broken link)
-- bestantiagingsupplement.com (2 broken links)
-- bestbloodsugarsupplement.com (2 broken links)
-- bestdogtrainingcourse.com (2 broken links)
-- bestfatburnerpills.com (2 broken links)
-- besthairgrowthsupplement.com (2 broken links)
-- bestketosupplement.com (2 broken links)
-- bestnootropicguide.com (2 broken links)
-- bestshedplans.com (2 broken links)
-- besttestosteronepills.com (2 broken links)
-- topsleepsupplement.com (2 broken links)
-
-### No Amazon Links + Missing robots.txt/sitemap.xml
-- bestrestaurantapp.com (missing robots.txt, sitemap.xml)
-- bestsolar-lights.com (missing robots.txt, privacy.html, sitemap.xml)
-- furnacefilterguys-com (missing robots.txt, privacy.html, sitemap.xml)
-- hvacfilterguide-com (missing robots.txt, sitemap.xml)
-- skipatip-preview (missing robots.txt, sitemap.xml)
-- thedailycheer.com (missing robots.txt, sitemap.xml, 1 broken link)
-- whatsizehvacfilter-com (missing robots.txt, sitemap.xml)
-- wholehouseairfilter-com (missing robots.txt, privacy.html, sitemap.xml, 5 broken links)
-- xfactorfilters.com (missing sitemap.xml)
-
-### Batch/Grouped Sites (all missing robots.txt, privacy.html, sitemap.xml, no Amazon links)
-- bestmagnesiumglycinate.com, bestnecklifttape.com, bestheating-pad.com, bestvibrationplate.com, bestresistance-bands.com
-- bestmini-fridge.com, bestmassage-gun.com, bestgaming-chair.com, bestice-maker.com
-- bestportable-ac.com, bestpower-bank.com, bestlabel-maker.com, bestshower-head.com, bestsolar-lights.com
-- bestportable-charger.com, bestmini-fridge.com, bestmassage-gun.com, bestgaming-chair.com, bestice-maker.com
-- bestpower-bank.com, bestlabel-maker.com, bestshower-head.com, bestsolar-lights.com
-
-## ⚠️ Warnings (11 sites)
-
-- bestlabel-maker.com — missing robots.txt, sitemap.xml
-- bestnecklifttape.com — missing robots.txt, sitemap.xml
-- nutboltsupply.com — missing privacy.html, 4 broken links
-- nutsandboltsdepot.com — missing privacy.html, 4 broken links
-- rzrbag.com — missing privacy.html, 4 broken links
-- rzrstorage.com — missing privacy.html, 4 broken links
-- thinbluelineaccessories.com — missing privacy.html, 4 broken links
-- topportablepowerstation.com — missing privacy.html, 1 broken link
-- topzeroturnmower.com — missing privacy.html, 1 broken link
-- utvaccessory.com — missing privacy.html, 4 broken links
-- x3bags.com — missing privacy.html, 2 broken links
-
-## Notes
-
-- **Mode:** local-only (live HTTPS checks skipped)
-- **Amazon account:** Cookie files present but OTP required for live status — verify manually
-- JSON data saved to `affiliate-health-2026-05-18.json`
+---
+*Report generated by affiliate-daily-health.js*

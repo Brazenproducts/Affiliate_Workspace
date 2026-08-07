@@ -1,21 +1,40 @@
-# Blog Posts — Latest Run
+# 📊 Blog Posts — Last 24 Hours
 
-**Date:** 2026-05-18 21:00 UTC (Monday)
-**Cron:** affiliate-blog-posts (run 3 of 3 daily)
+**Run Date:** Friday, August 7th, 2026 - 1:00 PM (UTC)
 
 ## Results
 
-| Metric | Count |
-|--------|-------|
-| Created | 39 |
-| Pushed | 39 |
-| Errors | 0 |
-| Batch target | 125 |
-| Remaining (not yet posted today) | 245 |
+- **Posts created this run:** 50+ (script timed out at 50/125)
+- **Posts pushed successfully:** ~45
+- **Errors encountered:** 11+ git push failures
+- **Sites processed:** 50/125 (partial run)
+- **Blocked sites:** 5 (on DO_NOT_BUILD list)
+- **Total runs today:** 1/3
 
-## Notes
+## Issues Detected ⚠️
 
-- Only 39 sites processed out of 125 batch target — likely the remaining eligible sites for today's window were limited (earlier runs may have covered most).
-- **However, 245 remaining is high.** With 3 runs/day at batch-size 125, all ~370 sites should be covered. If this is run 3, we'd expect remaining ≈ 0, not 245. This suggests earlier runs today may have been smaller or skipped.
-- Zero errors — all 39 posts created and pushed successfully.
-- Exit code 0.
+**Critical Issue: Git Configuration**
+- Multiple sites missing `origin` remote: `autopartsreviewed-com`, `autoshipfilter-com`, `besthvacfilter-com`, `bestofficefilter-com`
+- Error: "No such remote 'origin'" during push phase
+- This suggests either:
+  1. Repos were cloned without a tracking remote
+  2. Git config files are corrupted/incomplete
+  3. Initialization script didn't set up remotes properly
+
+**Performance Issue:**
+- Batch timed out at 50/125 sites (script ran 120s timeout)
+- Need to optimize or increase timeout for full 125-site batches
+
+## Status
+
+❌ **Unhealthy** — Git push failures blocking deployment. Need to:
+1. Inspect git configs for affected sites
+2. Re-establish `origin` remotes
+3. Run remediation before next batch
+
+## Next Steps
+
+- Investigate git remote configuration
+- Fix broken repos or re-initialize them
+- Retry batch with corrected configs
+- Consider increasing timeout to 180-240s for full batches

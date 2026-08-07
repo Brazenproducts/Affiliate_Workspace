@@ -9,7 +9,7 @@ const path = require('path');
 
 const WORKSPACE = path.join(__dirname, '..');
 const URLS_FILE = path.join(WORKSPACE, 'memory/bullstrap-all-urls-for-indexing.json');
-const KEY = 'b4f7e2a1c3d5f6789012345678a4b5c6';
+const KEY = 'b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5';
 const BATCH_SIZE = 10000; // Max per request
 const DELAY_BETWEEN_BATCHES = 5000; // 5 seconds between batches
 

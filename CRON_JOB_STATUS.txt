@@ -1,0 +1,220 @@
+================================================================================
+                      CRON JOB CONFIGURATION STATUS
+================================================================================
+
+JOB ID:           e7dfeb15-d657-404d-a495-0c0cac906f1e
+JOB NAME:         Daily Affiliate Site Audit
+CREATED:          2026-08-07 14:00 UTC
+STATUS:           ✅ ACTIVE & OPERATIONAL
+
+================================================================================
+                             SCHEDULE
+================================================================================
+
+Frequency:        Daily
+Time:             08:00 UTC (8:00 AM)
+Timezone:         UTC
+Cron Expression:  0 8 * * *
+
+Next Run:         2026-08-08 08:00 UTC
+
+================================================================================
+                           WHAT IT DOES
+================================================================================
+
+Script:           bash /home/ubuntu/.openclaw/workspace/scripts/run-audit-with-alerts.sh
+
+Process:
+  1. Runs affiliate site audit (400+ sites)
+  2. Extracts metrics (down sites, missing tags, broken links)
+  3. Saves results to memory/affiliate-audit-latest.md
+  4. Checks critical thresholds
+  5. If critical: Creates alert file + messages Mitch on Telegram
+
+Duration:         ~2-5 minutes
+Timeout:          10 minutes (safe)
+
+================================================================================
+                        CRITICAL THRESHOLDS
+================================================================================
+
+THRESHOLD ALERT TRIGGERS
+─────────────────────────────────────────────────────────────────────────────
+
+Down Sites              > 10        → Alert Mitch
+Missing Affiliate Tags  > 20        → Alert Mitch
+Broken Links           > 20        → Alert Mitch
+
+ACTION WHEN TRIGGERED:
+  1. Create memory/affiliate-audit-CRITICAL.md with detailed breakdown
+  2. Return exit code 1 to cron job
+  3. Isolated agent detects exit code
+  4. Sends Telegram message to Mitch (@slashdaddy, ID: 7550065844)
+  5. Includes link to critical alert file
+
+================================================================================
+                          OUTPUT FILES
+================================================================================
+
+Results File (Updated Daily):
+  /home/ubuntu/.openclaw/workspace/memory/affiliate-audit-latest.md
+  - Timestamp
+  - Status (✅ PASS or 🚨 CRITICAL)
+  - Metrics summary
+  - Full audit report
+
+Critical Alert File (If Thresholds Exceeded):
+  /home/ubuntu/.openclaw/workspace/memory/affiliate-audit-CRITICAL.md
+  - Alert timestamp
+  - Which thresholds exceeded
+  - Detailed breakdown of affected sites
+  - Full audit output for investigation
+
+================================================================================
+                      TELEGRAM ALERT DETAILS
+================================================================================
+
+Recipient:        Mitch (@slashdaddy)
+Telegram ID:      7550065844
+Delivery Method:  Automatic (isolated agent)
+When Sent:        When critical thresholds exceeded
+Message Includes: Alert details + reference to critical file
+
+Alert Format:
+  🚨 CRITICAL ALERT — Affiliate Site Audit
+  Thresholds Exceeded:
+  🔴 Down sites: [count] (threshold: 10)
+  [additional thresholds if exceeded...]
+  
+  Down Sites:
+  [list with HTTP status codes]
+  
+  Missing Tags:
+  [list of affected sites]
+  
+  See memory/affiliate-audit-CRITICAL.md for full details
+
+================================================================================
+                        RECENT TEST RESULTS
+================================================================================
+
+Date:             2026-08-07 14:00 UTC
+Time Run:         14:01-14:03 UTC
+Duration:         ~2 minutes
+
+Metrics:
+  • Down sites: 8 (threshold: > 10) ✅ PASS
+  • Missing tags: 11 (threshold: > 20) ✅ PASS
+  • Broken links: 8 (threshold: > 20) ✅ PASS
+
+Status:           ✅ ALL CLEAR
+Alert Sent:       NO (correct — all thresholds OK)
+Exit Code:        0 (success)
+
+File Created:     ✅ memory/affiliate-audit-latest.md (13 KB)
+
+================================================================================
+                          JOB LIFECYCLE
+================================================================================
+
+CREATION:         2026-08-07 14:00 UTC (setup complete)
+FIRST TEST:       2026-08-07 14:01 UTC (manual trigger, PASSED)
+FIRST AUTO RUN:   2026-08-08 08:00 UTC (scheduled)
+
+STATUS HISTORY:
+  ✅ Created:      2026-08-07 14:00 UTC
+  ✅ Configured:   2026-08-07 14:00 UTC
+  ✅ Tested:       2026-08-07 14:01 UTC (PASSED)
+  ✅ Scheduled:    2026-08-07 14:00 UTC (Active)
+  ⏳ Running:      Daily @ 08:00 UTC (starting tomorrow)
+
+================================================================================
+                         MAINTENANCE
+================================================================================
+
+Manual Trigger (If Urgent):
+  openclaw cron run e7dfeb15-d657-404d-a495-0c0cac906f1e --runMode force
+
+View Job Details:
+  openclaw cron get e7dfeb15-d657-404d-a495-0c0cac906f1e
+
+View Run History:
+  openclaw cron runs e7dfeb15-d657-404d-a495-0c0cac906f1e
+
+Check Latest Results:
+  cat memory/affiliate-audit-latest.md
+
+Check if Critical Alert:
+  cat memory/affiliate-audit-CRITICAL.md
+
+Disable Job (if needed):
+  openclaw cron update e7dfeb15-d657-404d-a495-0c0cac906f1e \
+    --patch '{"enabled": false}'
+
+Update Schedule (e.g., 9 AM UTC):
+  openclaw cron update e7dfeb15-d657-404d-a495-0c0cac906f1e \
+    --patch '{"schedule": {"expr": "0 9 * * *"}}'
+
+================================================================================
+                       CONFIGURATION DETAILS
+================================================================================
+
+Payload Type:     agentTurn (isolated agent)
+Session Target:   isolated (clean context)
+Delivery Mode:    announce (to channel) + webhook (if critical)
+Context:          Isolated (no main session bleed)
+
+Environment:
+  • Working Directory: /home/ubuntu/.openclaw/workspace
+  • Scripts Path: scripts/
+  • Memory Path: memory/
+  • All paths: absolute for reliability
+
+Exit Codes:
+  0 = All metrics within normal ranges (PASS)
+  1 = One or more critical thresholds exceeded (CRITICAL)
+
+================================================================================
+                         ALERT RECIPIENTS
+================================================================================
+
+Primary:  Mitch (@slashdaddy)
+  Telegram ID: 7550065844
+  Delivery: Automatic Telegram message
+  Trigger: When critical thresholds exceeded
+
+Secondary: Logs & Files
+  Latest Results: memory/affiliate-audit-latest.md
+  Critical Details: memory/affiliate-audit-CRITICAL.md
+  Both timestamped for audit trail
+
+================================================================================
+                        NEXT STEPS
+================================================================================
+
+IMMEDIATE:
+  ✅ Cron job is active and scheduled
+  ✅ No action required
+  ✅ First automatic run: Tomorrow 2026-08-08 08:00 UTC
+
+OPTIONAL:
+  • Share MITCH_AUDIT_ALERTS.md with Mitch for reference
+  • Configure Telegram bot for alternative delivery (see SETUP_TELEGRAM_DELIVERY.sh)
+  • Adjust thresholds if desired (edit scripts/run-audit-with-alerts.sh)
+
+MONITORING:
+  • Check memory/affiliate-audit-latest.md each day
+  • Review Telegram alerts from Mitch when received
+  • Follow up on critical issues within 24 hours
+
+================================================================================
+
+Job Status:       ✅ ACTIVE
+Next Run:         2026-08-08 08:00 UTC
+Reliability:      HIGH (tested, documented, ready)
+
+Setup by:         Agent (OpenClaw)
+Date:             2026-08-07 14:00 UTC
+Reference:        CRON_JOB_STATUS.txt
+
+================================================================================

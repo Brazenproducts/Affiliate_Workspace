@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-06T16:02:32.792Z",
+  "date": "2026-08-07T16:03:25.948Z",
   "actions": [
     {
       "kw": "jeep wrangler jl seat covers",
       "handle": "jeep-wrangler-jl-seat-covers",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 801
+      "words": 746
     },
     {
       "kw": "toyota tacoma seat covers",
@@ -17,13 +17,7 @@
       "kw": "jeep grab handles",
       "handle": "jeep-grab-handles",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 700
-    },
-    {
-      "kw": "paracord grab handles",
-      "handle": "paracord-grab-handles",
-      "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 677
+      "words": 1058
     },
     {
       "kw": "ford bronco grab handles",
@@ -35,31 +29,31 @@
       "kw": "jeep wrangler grab handles",
       "handle": "jeep-wrangler-grab-handles",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 756
+      "words": 1058
     },
     {
       "kw": "molle seat covers",
       "handle": "molle-accessories",
-      "action": "COULD_BE_DEEPER",
-      "words": 402
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 605
     },
     {
       "kw": "jeep molle accessories",
       "handle": "molle-accessories",
-      "action": "COULD_BE_DEEPER",
-      "words": 402
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 605
     },
     {
       "kw": "jeep fire extinguisher mount",
       "handle": "fire-extinguisher-holders",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 743
+      "words": 797
     },
     {
       "kw": "roll bar fire extinguisher",
       "handle": "roll-bar-fire-extinguisher-holder",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 766
+      "words": 797
     },
     {
       "kw": "jeep storage bags",
@@ -82,8 +76,14 @@
     {
       "kw": "jeep limit straps",
       "handle": "jeep-wrangler-suspension-limit-straps",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 612
+    },
+    {
+      "kw": "best jeep gladiator seat covers",
+      "handle": "jeep-gladiator-seat-covers",
       "action": "COULD_BE_DEEPER",
-      "words": 408
+      "words": 406
     }
   ]
 }

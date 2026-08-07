@@ -101,6 +101,7 @@ async function main() {
       campaign.id,
       campaign.name,
       campaign.advertising_channel_type,
+      campaign.advertising_channel_sub_type,
       campaign.status,
       campaign.campaign_budget,
       metrics.cost_micros,
@@ -110,7 +111,7 @@ async function main() {
       metrics.impressions
     FROM campaign
     WHERE
-      campaign.advertising_channel_type = 'SHOPPING'
+      campaign.advertising_channel_type IN ('SHOPPING', 'PERFORMANCE_MAX')
       AND segments.date = '${dateStr}'
     ORDER BY metrics.cost_micros DESC
   `;
@@ -152,7 +153,7 @@ async function main() {
     const checkQuery = `
       SELECT campaign.name, campaign.status, campaign.advertising_channel_type
       FROM campaign
-      WHERE campaign.advertising_channel_type = 'SHOPPING'
+      WHERE campaign.advertising_channel_type IN ('SHOPPING', 'PERFORMANCE_MAX')
     `;
     try {
       const checkData = await queryGoogleAds(accessToken, checkQuery);
@@ -184,14 +185,14 @@ async function main() {
   rows.forEach(row => {
     const c = row.campaign;
     const m = row.metrics;
-    const cost = (m.costMicros || 0) / 1e6;
-    const value = m.conversionsValue || 0;
-    const convs = m.conversions || 0;
-    const clicks = m.clicks || 0;
-    const imps = m.impressions || 0;
+    const cost = parseInt(m.costMicros || m.cost_micros || 0, 10) / 1e6;
+    const value = parseFloat(m.conversionsValue || m.conversions_value || 0);
+    const convs = parseFloat(m.conversions || 0);
+    const clicks = parseInt(m.clicks || 0, 10);
+    const imps = parseInt(m.impressions || 0, 10);
     const roas = cost > 0 ? value / cost : 0;
 
-    totalCostMicros += (m.costMicros || 0);
+    totalCostMicros += parseInt(m.costMicros || m.cost_micros || 0, 10);
     totalConversionsValue += value;
     totalConversions += convs;
     totalClicks += clicks;

@@ -18,7 +18,7 @@ const STATE_FILE = path.join(WORKSPACE, 'memory', 'bullstrap-blog-state.json');
 const ENV_FILE = path.join(WORKSPACE, '.env');
 
 // Constants
-const SHOPIFY_SHOP = 'bullstrap.myshopify.com';
+const SHOPIFY_SHOP = 'bull-strap-78.myshopify.com';
 const BLOG_ID = 96543015185;
 const EXCLUDED_KEYWORDS = ['apparel', 'gear', 'clothing', 'fashion', 'hat', 'shirt', 'jacket'];
 

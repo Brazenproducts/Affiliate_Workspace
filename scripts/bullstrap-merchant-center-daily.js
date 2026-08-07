@@ -13,6 +13,7 @@ const CREDS_PATH = '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/
 const MEMORY_PATH = '/home/ubuntu/.openclaw/workspace/memory/bullstrap-merchant-center-latest.md';
 
 const ROAS_ALERT_THRESHOLD = 2.0;
+const SUPPRESS_ZERO_ROAS = true; // Suppress 0.00x alerts — Bull Strap has no Shopping sales yet; alert only when ROAS > 0 but below threshold
 const ERROR_404_ALERT_THRESHOLD = 5000;
 
 let credentials = null;
@@ -175,7 +176,7 @@ async function generateReport(mcData, gscErrors) {
   }
 
   const error404Count = gscErrors.length;
-  const alertRoas = roas < ROAS_ALERT_THRESHOLD;
+  const alertRoas = SUPPRESS_ZERO_ROAS ? (roas > 0 && roas < ROAS_ALERT_THRESHOLD) : (roas < ROAS_ALERT_THRESHOLD);
   const alertErrors = error404Count > ERROR_404_ALERT_THRESHOLD;
 
   report += `## Performance Metrics\n\n`;

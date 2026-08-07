@@ -1,5 +1,5 @@
 # SEO_PLAYBOOK.md — Master SEO Guide for All Bots
-**Last updated:** 2026-08-06
+**Last updated:** 2026-08-07
 **Maintained by:** Slashdaddy (main session)
 **All bots must read this file before doing any SEO work.**
 
@@ -10,10 +10,13 @@
 1. **Submit to ALL search engines every time** — Google Indexing API + IndexNow (Bing + Yandex + others in one call)
 2. **Title tag: keyword FIRST, brand LAST, max 65 chars**
 3. **Meta description: 80–160 chars, include fitment + material + "Made in USA"**
-4. **No thin content** — 700+ words minimum on any page you want to rank
+4. **No thin content** — 1,500w TARGET on every Bartact collection page (competitors are at 1,000–1,500w — to rank #1 we must beat them, not match them); 800w absolute floor everywhere else
 5. **Bartact is ALWAYS #1** on any page featuring their product categories
 6. **Never fabricate product specs, patent claims, or material details**
 7. **Blog posts = backlinks = authority** — every site needs a blog with internal links
+8. **A job is NOT done until 100% of pages meet the standard** — not the first batch, not "most" of them
+9. **Always audit scope BEFORE starting** — count total pages, report X/total so everyone knows the real picture
+10. **IndexNow is always available** — if Google Indexing API scope is missing, use IndexNow; never block progress on a credential issue
 
 ---
 
@@ -222,13 +225,82 @@ H2: Internal links to related pages
 
 ---
 
+## 7. KEYWORD RANKING TARGETS
+
+These are the positions we are actively chasing. Every bot reports against these weekly. Slashdaddy flags anything off-target.
+
+### BARTACT — Position Targets
+
+| Keyword | Current | Target | Priority |
+|---------|---------|--------|----------|
+| jeep seat covers | ~8 | Top 3 | 🔴 Critical |
+| jeep wrangler seat covers | ~8 | Top 3 | 🔴 Critical |
+| jeep wrangler jl seat covers | TBD | Top 3 | 🔴 Critical |
+| jeep wrangler jk seat covers | TBD | Top 5 | 🔴 High |
+| jeep wrangler tj seat covers | TBD | Top 5 | 🔴 High |
+| jeep gladiator seat covers | TBD | Top 3 | 🔴 High |
+| ford bronco seat covers | TBD | Top 5 | 🟡 Medium |
+| toyota tacoma seat covers | TBD | Top 10 | 🟡 Medium |
+| jeep grab handles | TBD | #1 | 🔴 Critical |
+| paracord grab handles | TBD | #1 | 🔴 Critical |
+| jeep wrangler grab handles | TBD | #1 | 🔴 Critical |
+| ford bronco grab handles | TBD | Top 3 | 🟡 Medium |
+| jeep molle seat back | TBD | Top 3 | 🟡 Medium |
+| ford bronco door storage | TBD | Top 3 | 🟡 Medium |
+| ford bronco console organizer | TBD | Top 3 | 🟡 Medium |
+| jeep fire extinguisher mount | TBD | Top 3 | 🟡 Medium |
+| roll bar fire extinguisher mount | TBD | Top 3 | 🟡 Medium |
+| jeep winch cover | TBD | Top 5 | 🟡 Medium |
+| jeep wrangler sun shade | TBD | Top 5 | 🟡 Medium |
+| bartact | TBD | #1 | 🔴 Brand |
+| bartact seat covers | TBD | #1 | 🔴 Brand |
+
+### BULL STRAP — Position Targets
+
+| Keyword | Current | Target | Priority |
+|---------|---------|--------|----------|
+| suspension limit straps | TBD | Top 5 | 🔴 Critical |
+| jeep limit straps | TBD | Top 5 | 🔴 Critical |
+| limit straps | TBD | Top 10 | 🔴 Critical |
+| how to measure for limit straps | ~7 | Top 3 | 🔴 Critical |
+| what are limit straps | TBD | Top 5 | 🔴 High |
+| limit straps vs bump stops | TBD | Top 5 | 🔴 High |
+| carli suspension ram 2500 | TBD | Top 10 | 🔴 High |
+| carli suspension dealers | TBD | Top 5 | 🔴 High |
+| carli suspension | TBD | Top 15 | 🟡 Medium |
+| bull strap | TBD | #1 | 🔴 Brand |
+| bull strap limit straps | TBD | #1 | 🔴 Brand |
+
+### REPORTING RULES
+- **Every Friday**: each bot pulls GSC data and reports current position for ALL target keywords above
+- **Alert immediately** when any keyword drops 3+ positions
+- **Alert immediately** when any keyword with 1,000+ impressions is stuck below position 20 (opportunity)
+- **Alert immediately** when a target is hit (win to replicate)
+- When a keyword is off-target: identify the page targeting it, word count, backlinks, and what competitor has the top spot
+
+---
+
 ## 8. BARTACT-SPECIFIC SEO RULES (NON-NEGOTIABLE)
 
 ### Material Specs — EXACT CORRECT SPEC
 - **Standard colors:** 600D polyester (PU waterproof backing, laminated foam, UV protection)
 - **Specialty colors (Coyote Tan, Olive Drab, ACU):** 1000D Cordura nylon
 - **NEVER say:** "mil-spec" in content (Mitch's rule — do not add this)
-- Material guide heading: "1000D Cordura vs Neoprene vs Faux Leather"
+- Material guide heading: "600D Polyester vs 1000D Cordura vs Neoprene vs Faux Leather" — 600D leads because it's the PRIMARY material for most seat covers
+- **600D polyester is the MAIN material** — most Bartact seat covers are 600D; never bury it or treat it as secondary
+
+### Fabric Comparison Chart — MANDATORY ON ALL SEAT COVER PAGES
+- **The canonical HTML chart is at:** `assets/bartact-fabric-comparison.html`
+- **The source XLSX is at:** `assets/bartact-fabric-comparison-chart.xlsx`
+- This chart MUST be embedded on every Bartact seat cover collection page and every affiliate seat cover page
+- Bartact scores A / 76-80 stars / 9/9 bonus on both materials — every competitor scores B or lower
+- Key talking points from the chart:
+  - Only Bartact has MOLLE storage, front zippered pocket, rear zippered pocket, and internal lumbar pocket
+  - Only Bartact is machine washable AND seat heater compatible AND waterproof
+  - 600D Patriot Polyester: 76/80 stars, grade A — beats neoprene (53/80), leatherette (55-58/80), poly cotton (57/80)
+  - Neoprene is NOT seat heater compatible — always call this out
+  - Fake neoprene ("Neoprene Look") scores 50/80 — dead last
+- Filli must embed this chart on ALL seat cover affiliate pages (bestseatcover.com, jeepseatcover.com, jlseats.com, gladiatorseatcover.com, wranglerseatcover.com, etc.)
 
 ### Patent Claims — CRITICAL
 **ONLY use "patent pending" or "patented" if the product description ALREADY says it.**
@@ -240,6 +312,32 @@ H2: Internal links to related pages
 - **Bartact must be #1 on EVERY page that features their product categories**
 - **Before any Filli/Fern Allen page goes live:** verify Bartact is #1, images show correct product
 - Filli must NOT pull random Bartact CDN images — verify filename matches the product
+
+### Bartact Collection Page Minimum Standard — NON-NEGOTIABLE
+**Every Bartact Shopify collection page must meet ALL of the following before the job is considered done:**
+
+1. **1,500w TARGET, 1,000w minimum** — competitors are at 1,000–1,500w. To rank #1 we must beat them. 800w will not win. Every page should aim for 1,500w with the goal of being the single most comprehensive page on that topic.
+2. **Fitment table** — vehicle years, trim levels, compatible SKUs listed explicitly
+3. **FAQ schema** — minimum 3 Q&As in `application/ld+json` FAQPage schema on every collection page
+4. **Keyword in H1, first 100 words, at least 2 subheadings, and meta title/description**
+5. **Internal links** — link to at least 2 related collection pages
+6. **IndexNow + Google Indexing API submitted** after every update
+
+**As of 2026-08-07: 112 of 118 published Bartact collections are under 800w. Only 6 meet the standard.**
+
+**Priority order for expansion (by GSC impressions — highest traffic first):**
+1. `jeep-wrangler-tj-seat-covers` — 395w, #7.9, 560 impr 🚨
+2. `jeep-wrangler-jk-seat-covers` — 497w, #7.0, 196 impr 🚨
+3. `winch-covers-patent-pending-by-bartact` — 193w, #6.9, 1,215 impr 🚨
+4. `jeep-wrangler-jl-molle-accessories` — 346w (high MOLLE traffic)
+5. `jeep-wrangler-jk-molle-accessories` — 202w
+6. `jeep-gladiator-molle-accessories` — 175w
+7. `jeep-gladiator-seat-covers-accessories-2019` — 226w
+8. `jeep-wrangler-jl-sun-shades` — 349w
+9. `jeep-wrangler-jl-seat-covers` — 746w (close — push over 800w)
+10. `ford-bronco-storage-bags` — 775w (close — push over 800w)
+
+**The job is NOT done until all 118 collections are at 800w+. Batch through systematically. Report progress as: X/118 complete.**
 
 ### Bartact Key Differentiators (use these)
 - "custom-cut not universal fit"

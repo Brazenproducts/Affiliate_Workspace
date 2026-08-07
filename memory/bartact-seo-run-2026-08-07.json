@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-07T16:05:00.000Z",
+  "step1_rankings": {
+    "clicks": 440,
+    "clicksWoW": -97,
+    "impressions": 5382,
+    "page1Keywords": 129,
+    "top3Keywords": 40,
+    "biggestGainer": "1997 jeep tj seat covers (+16.7 → #3.0)",
+    "biggestDrop": "best jeep wrangler seat covers (-3.3 → #9.0)",
+    "newKeywords": ["seat belt covers", "ford bronco accessories", "jeep tj seat covers", "best jeep seat covers", "2018 jeep wrangler accessories"]
+  },
+  "step2_analysis": {
+    "totalFailingKeywords": 16,
+    "thinContent": [],
+    "couldBeDeeper": ["jeep-gladiator-seat-covers (406w)"],
+    "contentOk": 13,
+    "unfetchable": ["ford-bronco-seat-covers"]
+  },
+  "step4_contentExpansion": {
+    "collection": "jeep-gladiator-seat-covers",
+    "collectionId": 688530751531,
+    "collectionType": "smart",
+    "wordsBefore": 406,
+    "wordsAfter": 756,
+    "changes": ["Added 600D vs neoprene vs faux leather material comparison", "Filled empty 'How Bartact Beats Other Brands' section", "Expanded FAQ from 3 to 5 questions", "5 internal collection links", "Made in USA angle throughout"],
+    "shopifyUpdatedAt": "2026-08-07T09:04:43-07:00"
+  },
+  "step5_blogArticle": {
+    "title": "Best Ford Bronco Seat Covers: What Actually Works for Open-Air Driving",
+    "articleId": 568502452267,
+    "blogId": 19510597,
+    "handle": "best-ford-bronco-seat-covers-what-actually-works-for-open-air-driving",
+    "wordCount": 774,
+    "targetKeywords": ["ford bronco seat covers", "best ford bronco seat covers"],
+    "publishedAt": "2026-08-07T09:05:27-07:00"
+  },
+  "step6_indexNow": {
+    "urlsSubmitted": [
+      "https://bartact.com/collections/jeep-gladiator-seat-covers",
+      "https://bartact.com/blogs/news/best-ford-bronco-seat-covers-what-actually-works-for-open-air-driving"
+    ],
+    "httpStatus": 200
+  },
+  "step7_telegram": {
+    "status": "FAILED",
+    "reason": "TELEGRAM_TOKEN not present in workspace/.env — monitor script sends silently fail"
+  },
+  "notes": "ford-bronco-seat-covers collection still unreachable via Shopify API — may be unpublished or deleted. Needs manual check."
+}

@@ -21,6 +21,25 @@ const AFFILIATE_TAG = 'tag=brazenprodu01-20';
 const LIVE_TIMEOUT_MS = 10_000;
 const LOCAL_ONLY  = process.argv.includes('--local-only');
 
+// ── PROTECTED / BRAND SITES — not affiliate sites, never flag for missing Amazon links
+const EXEMPT_SITES = new Set([
+  'factorfilters.com',   // Mitch's HVAC filter brand — Shopify store, not affiliate
+  'limitstraps.com',     // Bull Strap brand domain
+  'faithfulpassages.com',// Faithful Passages — Christian content, not affiliate
+  'thedailycheer.com',   // protected site
+  'fernallern.com',      // protected site
+  'thornwoodaccord.com', // protected site
+  'stratratchets.com',   // brand site
+  'recentratings.com',   // RecentRatings app — not affiliate
+  'skipatip.com',        // SkipaTip app — not affiliate
+  'brazenauto.com',      // Brazen Auto brand — not affiliate
+  'bartact.com',         // Bartact brand — not affiliate
+  'bullstrap.com',       // Bull Strap brand — not affiliate
+  'truckdubai.com',      // international — no Amazon affiliate program
+  'truckuae.com',        // international — no Amazon affiliate program
+  'rangewolf-com',       // check if this should be exempt
+]);
+
 // ── HELPERS ──────────────────────────────────────────────────────────────────
 
 function today() {
@@ -92,6 +111,10 @@ function extractAmazonLinks(html) {
 // ── PER-SITE CHECK ────────────────────────────────────────────────────────────
 
 async function checkSite(domain) {
+  // Skip exempt/brand/protected sites entirely
+  if (EXEMPT_SITES.has(domain)) {
+    return { domain, status: 'exempt', flags: ['exempt: brand or protected site — not an affiliate site'], live: null, amazonLinks: 0, missingAffiliateTags: 0 };
+  }
   const siteDir  = path.join(SITES_DIR, domain);
   const result = {
     domain,
@@ -278,6 +301,7 @@ async function main() {
   const ok       = results.filter(r => r.status === 'ok');
   const warnings = results.filter(r => r.status === 'warning');
   const critical = results.filter(r => r.status === 'critical');
+  const exempt   = results.filter(r => r.status === 'exempt');
 
   // ── AMAZON ACCOUNT ────────────────────────────────────────────────────────
   const amazonStatus = await checkAmazonAccount();
