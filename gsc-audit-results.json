@@ -1,0 +1,456 @@
+[
+  {
+    "site": "bestseatcover.com",
+    "findings": [
+      {
+        "query": "best 4wd seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 75,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best auto seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 66.5,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 2,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best car seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 67.1,
+        "priorPosition": 66.6,
+        "delta": 0.5,
+        "clicks": 0,
+        "impressions": 13,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best quality seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 18,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best quality seat covers for car",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 82,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best seat cover company",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 74,
+        "priorPosition": 76,
+        "delta": -2,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best seat cover for cars",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 84,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 70.3,
+        "priorPosition": 58.1,
+        "delta": 12.1,
+        "clicks": 0,
+        "impressions": 15,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      },
+      {
+        "query": "good car seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 76,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "most comfortable seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 63,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "most durable seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 82,
+        "priorPosition": 83,
+        "delta": -1,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "seat cover reviews",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 61,
+        "priorPosition": 58,
+        "delta": 3,
+        "clicks": 0,
+        "impressions": 2,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      }
+    ],
+    "dropped_page1": [],
+    "dropped_over1": [
+      {
+        "query": "best seat covers",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 70.3,
+        "priorPosition": 58.1,
+        "delta": 12.1,
+        "clicks": 0,
+        "impressions": 15,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      },
+      {
+        "query": "seat cover reviews",
+        "page": "https://bestseatcover.com/",
+        "currentPosition": 61,
+        "priorPosition": 58,
+        "delta": 3,
+        "clicks": 0,
+        "impressions": 2,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      }
+    ]
+  },
+  {
+    "site": "jeepseatcover.com",
+    "findings": [
+      {
+        "query": "best jeep seat covers",
+        "page": "https://jeepseatcover.com/",
+        "currentPosition": 76.3,
+        "priorPosition": 76.7,
+        "delta": -0.3,
+        "clicks": 0,
+        "impressions": 3,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best jeep wrangler seat covers",
+        "page": "https://jeepseatcover.com/",
+        "currentPosition": 99,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      }
+    ],
+    "dropped_page1": [],
+    "dropped_over1": []
+  },
+  {
+    "site": "wranglerseatcover.com",
+    "findings": [],
+    "dropped_page1": [],
+    "dropped_over1": []
+  },
+  {
+    "site": "tacticalseats.com",
+    "findings": [
+      {
+        "query": "a-tacs camo seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 67,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "a-tacs camo tactical seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 61,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 2,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "ballistic tactical seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 61,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "bartact",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 41,
+        "priorPosition": 39,
+        "delta": 2,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      },
+      {
+        "query": "bartact jeep seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 47,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "bartact seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 40.8,
+        "priorPosition": 39.5,
+        "delta": 1.3,
+        "clicks": 0,
+        "impressions": 4,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      },
+      {
+        "query": "best 4wd seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 76,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "military seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 78,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "tactical seat cover",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 69,
+        "priorPosition": 71,
+        "delta": -2,
+        "clicks": 0,
+        "impressions": 2,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "tactical seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 70,
+        "priorPosition": 55.4,
+        "delta": 14.6,
+        "clicks": 0,
+        "impressions": 7,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      },
+      {
+        "query": "tactical truck seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 76.5,
+        "priorPosition": 79,
+        "delta": -2.5,
+        "clicks": 0,
+        "impressions": 2,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      }
+    ],
+    "dropped_page1": [],
+    "dropped_over1": [
+      {
+        "query": "bartact",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 41,
+        "priorPosition": 39,
+        "delta": 2,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      },
+      {
+        "query": "bartact seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 40.8,
+        "priorPosition": 39.5,
+        "delta": 1.3,
+        "clicks": 0,
+        "impressions": 4,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      },
+      {
+        "query": "tactical seat covers",
+        "page": "https://tacticalseats.com/",
+        "currentPosition": 70,
+        "priorPosition": 55.4,
+        "delta": 14.6,
+        "clicks": 0,
+        "impressions": 7,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": true
+      }
+    ]
+  },
+  {
+    "site": "bestbroncoaccessories.com",
+    "findings": [
+      {
+        "query": "2022 bronco aftermarket accessories",
+        "page": "https://bestbroncoaccessories.com/",
+        "currentPosition": 54,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best bronco accessories",
+        "page": "https://bestbroncoaccessories.com/",
+        "currentPosition": 45.3,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 3,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best bronco accessories 2022",
+        "page": "https://bestbroncoaccessories.com/",
+        "currentPosition": 35,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best ford bronco accessories",
+        "page": "https://bestbroncoaccessories.com/",
+        "currentPosition": 43.5,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 2,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "best ford bronco track bar",
+        "page": "https://bestbroncoaccessories.com/",
+        "currentPosition": 96,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "bronco door storage bags",
+        "page": "https://bestbroncoaccessories.com/best-bronco-door-bags.html",
+        "currentPosition": 33,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "ford bronco accessories",
+        "page": "https://bestbroncoaccessories.com/",
+        "currentPosition": 79.5,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 2,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      },
+      {
+        "query": "top bronco accessories",
+        "page": "https://bestbroncoaccessories.com/",
+        "currentPosition": 73,
+        "priorPosition": null,
+        "delta": null,
+        "clicks": 0,
+        "impressions": 1,
+        "dropped_off_page1": false,
+        "dropped_gt1pos": false
+      }
+    ],
+    "dropped_page1": [],
+    "dropped_over1": []
+  }
+]

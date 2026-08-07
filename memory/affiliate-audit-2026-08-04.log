@@ -1,0 +1,51 @@
+# Daily Affiliate Audit — 2026-08-04 14:00 UTC
+
+## Execution Summary
+
+**Time:** 2026-08-04 14:00 UTC  
+**Script:** `/home/ubuntu/.openclaw/workspace/scripts/daily-affiliate-audit.sh`  
+**Status:** ✅ **COMPLETED**
+
+## Results
+
+### Comparison vs 2026-08-03 14:04 UTC
+
+**Sites Down:**
+- Yesterday: 8 sites
+- Today: 6 sites
+- **Change:** -2 improvement ✅
+
+**Blog Posts (24h):**
+- Yesterday: 0 posts (frozen)
+- Today: 125 posts
+- **Status:** ✅ Blog generator RECOVERED
+
+**Direct Product Links:**
+- Yesterday: 58,129
+- Today: 59,215
+- **Growth:** +1,086 links (+1.9%)
+
+**Invalid Tags:** 9 sites (unchanged)  
+**Missing Tags:** 1 site (unchanged)  
+**HTTPS Fixed:** 477 valid (↑ from 475)
+
+### Critical Thresholds
+- Down sites (6) < limit (10) ✅
+- New broken links (0) < limit (20) ✅
+- New missing tags (0) < limit (20) ✅
+
+**Result:** ✅ **NO CRITICAL ALERT NEEDED**
+
+## Recommended Follow-Up
+
+1. ✅ Blog generator is working again (125 posts published in 24h) — excellent!
+2. ⚠️ 9 sites still have invalid tracking tags (non-critical, <10 sites)
+3. 🚨 whatarebest.com needs affiliate tag added
+4. 🔧 5 sites persistent down for 24h+ (worth investigating)
+
+## Files Updated
+
+- ✅ `memory/affiliate-audit-latest.md` — Full 24h comparison
+- ✅ `/tmp/affiliate-audit-2026-08-04.txt` — Raw audit report
+
+**Next audit:** 2026-08-05 14:00 UTC (daily cron)

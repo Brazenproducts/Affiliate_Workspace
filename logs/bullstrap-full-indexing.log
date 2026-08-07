@@ -1,0 +1,609 @@
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/sites/indexing-credentials/scripts/bullstrap-full-indexing.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+[FULL-INDEX] 2026-07-29T21:00:01.540Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-29T21:00:01.542Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-07-29T21:00:01.542Z Progress: 4305/78820 total (5.5%)
+[FULL-INDEX] 2026-07-30T03:00:01.871Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-30T03:00:01.893Z Remaining to push: 73172 | Today's budget: 199
+[FULL-INDEX] 2026-07-30T03:00:01.995Z Access token obtained
+[FULL-INDEX] 2026-07-30T03:00:01.995Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-07-30T03:00:02.095Z QUOTA HIT after 0 pushes
+[FULL-INDEX] 2026-07-30T03:00:02.099Z Done: 0 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-07-30T03:00:02.099Z Progress: 4305/78820 (5.5%)
+[FULL-INDEX] 2026-07-30T03:00:02.100Z ETA at 199/day: ~375 days
+[FULL-INDEX] 2026-07-30T09:00:01.809Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-30T09:00:01.830Z Remaining to push: 73172 | Today's budget: 199
+[FULL-INDEX] 2026-07-30T09:00:01.946Z Access token obtained
+[FULL-INDEX] 2026-07-30T09:00:01.946Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-07-30T09:00:14.345Z Pushing batch 2 (50 URLs)...
+[FULL-INDEX] 2026-07-30T09:00:26.394Z Pushing batch 3 (50 URLs)...
+[FULL-INDEX] 2026-07-30T09:00:38.421Z Pushing batch 4 (49 URLs)...
+[FULL-INDEX] 2026-07-30T09:00:49.221Z Done: 199 pushed, 0 errors
+[FULL-INDEX] 2026-07-30T09:00:49.221Z Progress: 4504/78820 (5.7%)
+[FULL-INDEX] 2026-07-30T09:00:49.221Z ETA at 199/day: ~374 days
+[FULL-INDEX] 2026-07-30T15:00:01.758Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-30T15:00:01.761Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-07-30T15:00:01.761Z Progress: 4504/78820 total (5.7%)
+[FULL-INDEX] 2026-07-30T21:00:02.028Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-30T21:00:02.031Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-07-30T21:00:02.031Z Progress: 4504/78820 total (5.7%)
+[FULL-INDEX] 2026-07-31T03:00:01.335Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-31T03:00:01.356Z Remaining to push: 72973 | Today's budget: 199
+[FULL-INDEX] 2026-07-31T03:00:01.480Z Access token obtained
+[FULL-INDEX] 2026-07-31T03:00:01.480Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-07-31T03:00:01.618Z QUOTA HIT after 0 pushes
+[FULL-INDEX] 2026-07-31T03:00:01.622Z Done: 0 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-07-31T03:00:01.622Z Progress: 4504/78820 (5.7%)
+[FULL-INDEX] 2026-07-31T03:00:01.622Z ETA at 199/day: ~374 days
+[FULL-INDEX] 2026-07-31T09:00:01.305Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-31T09:00:01.328Z Remaining to push: 72973 | Today's budget: 199
+[FULL-INDEX] 2026-07-31T09:00:01.419Z Access token obtained
+[FULL-INDEX] 2026-07-31T09:00:01.419Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-07-31T09:00:13.824Z Pushing batch 2 (50 URLs)...
+[FULL-INDEX] 2026-07-31T09:00:25.890Z Pushing batch 3 (50 URLs)...
+[FULL-INDEX] 2026-07-31T09:00:37.926Z Pushing batch 4 (49 URLs)...
+[FULL-INDEX] 2026-07-31T09:00:48.708Z Done: 199 pushed, 0 errors
+[FULL-INDEX] 2026-07-31T09:00:48.709Z Progress: 4703/78820 (6.0%)
+[FULL-INDEX] 2026-07-31T09:00:48.709Z ETA at 199/day: ~373 days
+[FULL-INDEX] 2026-07-31T15:00:01.266Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-31T15:00:01.269Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-07-31T15:00:01.269Z Progress: 4703/78820 total (6.0%)
+[FULL-INDEX] 2026-07-31T21:00:01.591Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-07-31T21:00:01.594Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-07-31T21:00:01.594Z Progress: 4703/78820 total (6.0%)
+[FULL-INDEX] 2026-08-01T03:00:01.875Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-01T03:00:01.897Z Remaining to push: 72774 | Today's budget: 199
+[FULL-INDEX] 2026-08-01T03:00:01.994Z Access token obtained
+[FULL-INDEX] 2026-08-01T03:00:01.994Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-01T03:00:02.056Z QUOTA HIT after 0 pushes
+[FULL-INDEX] 2026-08-01T03:00:02.061Z Done: 0 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-08-01T03:00:02.061Z Progress: 4703/78820 (6.0%)
+[FULL-INDEX] 2026-08-01T03:00:02.061Z ETA at 199/day: ~373 days
+[FULL-INDEX] 2026-08-01T09:00:01.136Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-01T09:00:01.157Z Remaining to push: 72774 | Today's budget: 199
+[FULL-INDEX] 2026-08-01T09:00:01.257Z Access token obtained
+[FULL-INDEX] 2026-08-01T09:00:01.257Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-01T09:00:13.726Z Pushing batch 2 (50 URLs)...
+[FULL-INDEX] 2026-08-01T09:00:25.784Z Pushing batch 3 (50 URLs)...
+[FULL-INDEX] 2026-08-01T09:00:37.800Z Pushing batch 4 (49 URLs)...
+[FULL-INDEX] 2026-08-01T09:00:48.609Z Done: 199 pushed, 0 errors
+[FULL-INDEX] 2026-08-01T09:00:48.609Z Progress: 4902/78820 (6.2%)
+[FULL-INDEX] 2026-08-01T09:00:48.609Z ETA at 199/day: ~372 days
+[FULL-INDEX] 2026-08-01T15:00:01.928Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-01T15:00:01.930Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-01T15:00:01.930Z Progress: 4902/78820 total (6.2%)
+[FULL-INDEX] 2026-08-01T21:00:01.219Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-01T21:00:01.221Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-01T21:00:01.221Z Progress: 4902/78820 total (6.2%)
+[FULL-INDEX] 2026-08-02T03:00:01.532Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-02T03:00:01.554Z Remaining to push: 72575 | Today's budget: 199
+[FULL-INDEX] 2026-08-02T03:00:01.649Z Access token obtained
+[FULL-INDEX] 2026-08-02T03:00:01.649Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-02T03:00:01.812Z QUOTA HIT after 0 pushes
+[FULL-INDEX] 2026-08-02T03:00:01.816Z Done: 0 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-08-02T03:00:01.816Z Progress: 4902/78820 (6.2%)
+[FULL-INDEX] 2026-08-02T03:00:01.817Z ETA at 199/day: ~372 days
+[FULL-INDEX] 2026-08-02T09:00:01.791Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-02T09:00:01.812Z Remaining to push: 72575 | Today's budget: 199
+[FULL-INDEX] 2026-08-02T09:00:01.917Z Access token obtained
+[FULL-INDEX] 2026-08-02T09:00:01.917Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-02T09:00:14.268Z Pushing batch 2 (50 URLs)...
+[FULL-INDEX] 2026-08-02T09:00:26.337Z Pushing batch 3 (50 URLs)...
+[FULL-INDEX] 2026-08-02T09:00:38.325Z Pushing batch 4 (49 URLs)...
+[FULL-INDEX] 2026-08-02T09:00:49.122Z Done: 199 pushed, 0 errors
+[FULL-INDEX] 2026-08-02T09:00:49.122Z Progress: 5101/78820 (6.5%)
+[FULL-INDEX] 2026-08-02T09:00:49.123Z ETA at 199/day: ~371 days
+[FULL-INDEX] 2026-08-02T15:00:01.835Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-02T15:00:01.838Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-02T15:00:01.838Z Progress: 5101/78820 total (6.5%)
+[FULL-INDEX] 2026-08-02T21:00:01.123Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-02T21:00:01.126Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-02T21:00:01.126Z Progress: 5101/78820 total (6.5%)
+[FULL-INDEX] 2026-08-03T03:00:01.429Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-03T03:00:01.450Z Remaining to push: 72376 | Today's budget: 199
+[FULL-INDEX] 2026-08-03T03:00:01.558Z Access token obtained
+[FULL-INDEX] 2026-08-03T03:00:01.558Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-03T03:00:01.667Z QUOTA HIT after 0 pushes
+[FULL-INDEX] 2026-08-03T03:00:01.672Z Done: 0 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-08-03T03:00:01.672Z Progress: 5101/78820 (6.5%)
+[FULL-INDEX] 2026-08-03T03:00:01.672Z ETA at 199/day: ~371 days
+[FULL-INDEX] 2026-08-03T09:00:01.251Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-03T09:00:01.272Z Remaining to push: 72376 | Today's budget: 199
+[FULL-INDEX] 2026-08-03T09:00:01.416Z Access token obtained
+[FULL-INDEX] 2026-08-03T09:00:01.416Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-03T09:00:13.824Z Pushing batch 2 (50 URLs)...
+[FULL-INDEX] 2026-08-03T09:00:25.832Z Pushing batch 3 (50 URLs)...
+[FULL-INDEX] 2026-08-03T09:00:37.809Z Pushing batch 4 (49 URLs)...
+[FULL-INDEX] 2026-08-03T09:00:48.571Z Done: 199 pushed, 0 errors
+[FULL-INDEX] 2026-08-03T09:00:48.571Z Progress: 5300/78820 (6.7%)
+[FULL-INDEX] 2026-08-03T09:00:48.571Z ETA at 199/day: ~370 days
+[FULL-INDEX] 2026-08-03T15:00:01.859Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-03T15:00:01.861Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-03T15:00:01.862Z Progress: 5300/78820 total (6.7%)
+[FULL-INDEX] 2026-08-03T21:00:01.153Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-03T21:00:01.155Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-03T21:00:01.155Z Progress: 5300/78820 total (6.7%)
+[FULL-INDEX] 2026-08-04T03:00:01.478Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-04T03:00:01.499Z Remaining to push: 72177 | Today's budget: 199
+[FULL-INDEX] 2026-08-04T03:00:01.594Z Access token obtained
+[FULL-INDEX] 2026-08-04T03:00:01.594Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-04T03:00:01.734Z QUOTA HIT after 0 pushes
+[FULL-INDEX] 2026-08-04T03:00:01.739Z Done: 0 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-08-04T03:00:01.739Z Progress: 5300/78820 (6.7%)
+[FULL-INDEX] 2026-08-04T03:00:01.739Z ETA at 199/day: ~370 days
+[FULL-INDEX] 2026-08-04T09:00:01.814Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-04T09:00:01.837Z Remaining to push: 72177 | Today's budget: 199
+[FULL-INDEX] 2026-08-04T09:00:01.939Z Access token obtained
+[FULL-INDEX] 2026-08-04T09:00:01.939Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-04T09:00:14.423Z Pushing batch 2 (50 URLs)...
+[FULL-INDEX] 2026-08-04T09:00:26.412Z Pushing batch 3 (50 URLs)...
+[FULL-INDEX] 2026-08-04T09:00:38.385Z Pushing batch 4 (49 URLs)...
+[FULL-INDEX] 2026-08-04T09:00:49.139Z Done: 199 pushed, 0 errors
+[FULL-INDEX] 2026-08-04T09:00:49.139Z Progress: 5499/78820 (7.0%)
+[FULL-INDEX] 2026-08-04T09:00:49.139Z ETA at 199/day: ~369 days
+[FULL-INDEX] 2026-08-04T15:00:01.632Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-04T15:00:01.635Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-04T15:00:01.635Z Progress: 5499/78820 total (7.0%)
+[FULL-INDEX] 2026-08-04T21:00:01.952Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-04T21:00:01.955Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-04T21:00:01.955Z Progress: 5499/78820 total (7.0%)
+[FULL-INDEX] 2026-08-05T03:00:01.207Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-05T03:00:01.229Z Remaining to push: 71978 | Today's budget: 199
+[FULL-INDEX] 2026-08-05T03:00:01.326Z Access token obtained
+[FULL-INDEX] 2026-08-05T03:00:01.326Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-05T03:00:01.493Z QUOTA HIT after 0 pushes
+[FULL-INDEX] 2026-08-05T03:00:01.499Z Done: 0 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-08-05T03:00:01.499Z Progress: 5499/78820 (7.0%)
+[FULL-INDEX] 2026-08-05T03:00:01.499Z ETA at 199/day: ~369 days
+[FULL-INDEX] 2026-08-05T09:00:02.067Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-05T09:00:02.089Z Remaining to push: 71978 | Today's budget: 199
+[FULL-INDEX] 2026-08-05T09:00:02.191Z Access token obtained
+[FULL-INDEX] 2026-08-05T09:00:02.192Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-05T09:00:14.564Z Pushing batch 2 (50 URLs)...
+[FULL-INDEX] 2026-08-05T09:00:26.668Z Pushing batch 3 (50 URLs)...
+[FULL-INDEX] 2026-08-05T09:00:38.679Z Pushing batch 4 (49 URLs)...
+[FULL-INDEX] 2026-08-05T09:00:49.517Z Done: 199 pushed, 0 errors
+[FULL-INDEX] 2026-08-05T09:00:49.517Z Progress: 5698/78820 (7.2%)
+[FULL-INDEX] 2026-08-05T09:00:49.517Z ETA at 199/day: ~368 days
+[FULL-INDEX] 2026-08-05T15:00:01.968Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-05T15:00:01.971Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-05T15:00:01.971Z Progress: 5698/78820 total (7.2%)
+[FULL-INDEX] 2026-08-05T21:00:01.976Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-05T21:00:01.979Z Daily limit reached (199/199). Next reset tomorrow.
+[FULL-INDEX] 2026-08-05T21:00:01.979Z Progress: 5698/78820 total (7.2%)
+[FULL-INDEX] 2026-08-06T03:00:01.283Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-06T03:00:01.306Z Remaining to push: 71779 | Today's budget: 199
+[FULL-INDEX] 2026-08-06T03:00:01.385Z Access token obtained
+[FULL-INDEX] 2026-08-06T03:00:01.385Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-06T03:00:01.544Z QUOTA HIT after 0 pushes
+[FULL-INDEX] 2026-08-06T03:00:01.548Z Done: 0 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-08-06T03:00:01.548Z Progress: 5698/78820 (7.2%)
+[FULL-INDEX] 2026-08-06T03:00:01.548Z ETA at 199/day: ~368 days
+[FULL-INDEX] 2026-08-06T09:00:01.451Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-06T09:00:01.473Z Remaining to push: 71779 | Today's budget: 199
+[FULL-INDEX] 2026-08-06T09:00:01.555Z Access token obtained
+[FULL-INDEX] 2026-08-06T09:00:01.555Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-06T09:00:02.935Z QUOTA HIT after 5 pushes
+[FULL-INDEX] 2026-08-06T09:00:02.940Z Done: 5 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-08-06T09:00:02.940Z Progress: 5703/78820 (7.2%)
+[FULL-INDEX] 2026-08-06T09:00:02.940Z ETA at 199/day: ~368 days
+[FULL-INDEX] 2026-08-06T15:00:01.376Z Total URLs in catalog: 78820
+[FULL-INDEX] 2026-08-06T15:00:01.398Z Remaining to push: 71772 | Today's budget: 192
+[FULL-INDEX] 2026-08-06T15:00:01.500Z Access token obtained
+[FULL-INDEX] 2026-08-06T15:00:01.501Z Pushing batch 1 (50 URLs)...
+[FULL-INDEX] 2026-08-06T15:00:01.844Z QUOTA HIT after 1 pushes
+[FULL-INDEX] 2026-08-06T15:00:01.849Z Done: 1 pushed, 0 errors, QUOTA HIT
+[FULL-INDEX] 2026-08-06T15:00:01.849Z Progress: 5706/78820 (7.2%)
+[FULL-INDEX] 2026-08-06T15:00:01.849Z ETA at 199/day: ~368 days

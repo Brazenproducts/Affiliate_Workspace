@@ -1,0 +1,89 @@
+{
+  "date": "2026-08-06T16:02:32.792Z",
+  "actions": [
+    {
+      "kw": "jeep wrangler jl seat covers",
+      "handle": "jeep-wrangler-jl-seat-covers",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 801
+    },
+    {
+      "kw": "toyota tacoma seat covers",
+      "handle": "toyota-tacoma-seat-covers",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 784
+    },
+    {
+      "kw": "jeep grab handles",
+      "handle": "jeep-grab-handles",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 700
+    },
+    {
+      "kw": "paracord grab handles",
+      "handle": "paracord-grab-handles",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 677
+    },
+    {
+      "kw": "ford bronco grab handles",
+      "handle": "ford-bronco-grab-handles",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 771
+    },
+    {
+      "kw": "jeep wrangler grab handles",
+      "handle": "jeep-wrangler-grab-handles",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 756
+    },
+    {
+      "kw": "molle seat covers",
+      "handle": "molle-accessories",
+      "action": "COULD_BE_DEEPER",
+      "words": 402
+    },
+    {
+      "kw": "jeep molle accessories",
+      "handle": "molle-accessories",
+      "action": "COULD_BE_DEEPER",
+      "words": 402
+    },
+    {
+      "kw": "jeep fire extinguisher mount",
+      "handle": "fire-extinguisher-holders",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 743
+    },
+    {
+      "kw": "roll bar fire extinguisher",
+      "handle": "roll-bar-fire-extinguisher-holder",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 766
+    },
+    {
+      "kw": "jeep storage bags",
+      "handle": "jeep-wrangler-storage-bags-organizers",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 820
+    },
+    {
+      "kw": "ford bronco storage",
+      "handle": "ford-bronco-storage-bags",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 775
+    },
+    {
+      "kw": "winch cover",
+      "handle": "winch-covers",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 879
+    },
+    {
+      "kw": "jeep limit straps",
+      "handle": "jeep-wrangler-suspension-limit-straps",
+      "action": "COULD_BE_DEEPER",
+      "words": 408
+    }
+  ]
+}

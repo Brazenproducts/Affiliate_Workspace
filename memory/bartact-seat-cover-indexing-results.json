@@ -1,0 +1,728 @@
+{
+  "timestamp": "2026-08-06T00:15:47.706Z",
+  "total": 144,
+  "success": 0,
+  "failed": 144,
+  "results": [
+    {
+      "url": "https://www.bartact.com/products/bronco-seat-covers-front-tactical-seat-covers-for-ford-bronco-full-size-2021-2022-2023-2024-2025-for-2-door-or-4-door-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/full-custom-bronco-seat-covers-front-tactical-custom-seat-covers-for-ford-bronco-full-size-2021-current-4-door-only-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/full-custom-bronco-seat-covers-front-tactical-custom-seat-covers-for-ford-bronco-full-size-2021-current-4-door-only-bartact-customers-product-with-price-499-99-id-i0pxajvjjkf6ficl8uezv9dr",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/bartact-mil-spec-1987-95-jeep-wrangler-yj-front-seat-covers-pair",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/click-for-options-2018-jl-2-door-front-seat-cover-pair-overstock",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/click-for-options-2018-jlu-gladiator-front-seat-cover-pair-overstock",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-seat-covers-for-jeep-gladiator-2019-jt-base-line-performance-pair-not-for-mojave-or-392-edition-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-seat-covers-for-jeep-wrangler-jk-jku-2007-10-bartact-base-line-performance-front-seat-covers-pair",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-seat-covers-for-jeep-wrangler-jk-jku-2011-12-bartact-base-line-performance-front-seat-covers-pair",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-seat-covers-for-jeep-wrangler-jk-jku-2013-18-bartact-base-line-performance-front-seat-covers-pair",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-seat-covers-for-jeep-wrangler-tj-1997-02-pair-bartact-base-line-performance",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-gladiator-2019-jt-bartact-pair-w-molle-not-for-mojave-or-392-edition",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-gladiator-2021-jt-bartact-pair-for-mojave-edition-only",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-2007-10-jk-jku-bartact-pair-srs-air-bag-compliant",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2007-10-bartact-pair-w-molle-non-srs-air-bag-compliant",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2011-12-bartact-pair-w-molle-srs-air-bag-compliant",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2013-18-bartact-pair-w-molle-non-srs-air-bag-compliant",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2013-18-bartact-pair-w-molle-srs-air-bag-compliant",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-mojave-392-jlu-2021-bartact-pair-for-mojave-392-editions-only",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-mojave-392-jlu-2024-bartact-pair-for-mojave-392-editions-only",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-tj-lj-2003-06-bartact-pair-w-molle-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-jeep-wrangler-tj-1997-02-pair-w-molle-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-toyota-tacoma-2009-15-trd-bartact-pair-w-molle",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/front-tactical-seat-covers-for-toyota-tacoma-trd-2005-08-bartact-pair-w-molle",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/full-custom-tactical-front-toyota-4runner-seat-covers-5th-gen-2010-24-bartact-pair",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/full-custom-tactical-front-toyota-4runner-seat-covers-5th-gen-2010-24-bartact-pair-customers-product-with-price-569-99-id-2zo8gzko-iowq54egfug7bdc",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-8a05338c-bc12-4f53-afa8-ea8cd3941c5f",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-f5cd9edb-09e5-4ad2-aed3-805a4a48fb52",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-06fc8db3-3f83-467c-b45d-5b5504224848",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-fd0a5da2-26c7-4d4e-b13d-7844701d149d",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-3fe9426a-6741-420f-b775-7716dfffb61c",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-gladiator-2019-jt-bartact-pair-w-molle-not-for-mojave-or-392-edition-customers-product-with-price-569-99-id-vffs-btxhz83hmwej0uaqww6",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-gladiator-2019-jt-bartact-pair-w-molle-not-for-mojave-or-392-edition-customers-product-with-price-569-99-id-bgmuhv1jvsnzlgpkbgchboyx",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-d2436729-295c-4e4a-a612-3f209519595f",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-gladiator-2019-jt-bartact-pair-w-molle-not-for-mojave-or-392-edition-customers-product-with-price-626-97-id-lf9qktoefb8m3xex1t13cyp_",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-27db2092-391f-45bd-9681-d27a55f5dc45",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-a8acf417-87df-4e8c-8e04-cd7a665449c5",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-41cfb91b-83d9-4df4-bea8-7c12aeb7a177",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-920dc57e-30a0-41de-bf1b-6e8027981591",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-dfe35f42-1e99-4ee4-9f3b-95492dc44dd8",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-9e691bd2-7ae3-4d98-b41a-58f0be219ae2",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-d9b08ef5-4e50-48f7-8d95-952314cec24b",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-wrangler-jlu-2018-4-door-pair-w-molle-not-for-mojave-or-392-edition-bartact-customers-product-with-price-569-99-id-vwzbm4divvr_otp-fllhwkqx",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-wrangler-jlu-2018-4-door-pair-w-molle-not-for-mojave-or-392-edition-bartact-customers-product-with-price-569-99-id-xr6ttcijwcxqzbvcbdwypdez",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-wrangler-tj-lj-2003-06-pair-w-molle-bartact-customers-product-with-price-1192-92-id-zlpcqchb5zv2osy0u5v0blto",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-a7a4bf5f-6861-4bfe-8f04-7015fc4ed5a4",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-42e3a9a1-6fbf-4a4f-b144-904f0ba47dbb",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-wrangler-tj-lj-2003-06-pair-w-molle-bartact-customers-product-with-price-579-98-id-2om0oienso37ecgizd5fe7eh",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-df007bee-c8c8-4f52-a473-7b8431a67290",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-df6efbad-9c90-44f5-902f-3ad7be46b522",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-wrangler-tj-lj-2003-06-pair-w-molle-bartact-customers-product-with-price-899-98-id-ye-q-ma4q9ykkze7lvfszaej",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-d1107ce1-12cf-4b55-b5e9-c1a17ecf9c8e",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-0be8a1af-5ec0-4dd3-abf5-13f6b7add04f",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-426a1c9e-b871-4556-8d22-ce7b61e0ec7c",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-755fece4-c81d-42e8-b276-2d7228c9c23f",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-458730e2-3031-4eb1-886e-ccd67d781605",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-865f660c-6259-42f6-a9d8-5b166a177385",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-d372cff6-bc60-46e1-81ce-fa53b6822e46",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-e60d4bac-e85a-46cd-ba94-ba390cf677f5",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-d91522cb-8bc4-484d-95c0-1e3d6faecc70",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-7fe370a6-0b3b-4dfa-9bfb-5f05d540c975",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-a5447532-34c5-48b7-a364-547476da30a9",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-d0006eae-735d-4e85-a74a-f6a0b6544b09",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-14ef6d92-e4cd-42e5-b88f-8e0ef73cac05",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-seat-covers-for-jeep-gladiator-2021-jt-bartact-pair-for-mojave-edition-only-customers-product-with-price-569-99-id-q_3pahivtu9iz-lvxhy3bglc",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-87c6f51e-6d6f-4432-8b5a-11c8fca26a17",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-seat-covers-for-jeep-gladiator-2021-jt-bartact-pair-for-mojave-edition-only-customers-product-with-price-569-99-id-yudyxkhbh5xrcvxbabvloipt",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-d38a20e7-894d-4635-8f1f-3ba238d08d18",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-a29b8437-1064-484d-9ec3-1cefdfb8e15b",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-16ca0761-faa2-44ff-a117-bb346a190b8b",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-54200998-2960-45de-8eb4-6e698738222c",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-fa3cf7c2-b4b8-4301-877e-2064d65a47ef",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-seat-covers-for-jeep-gladiator-2021-jt-bartact-pair-for-mojave-edition-only-customers-product-with-price-619-98-id-dd_-vm39phpydqsaxalbfa7c",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-seat-covers-for-jeep-wrangler-2007-10-jk-jku-pair-srs-air-bag-compliant-bartact-customers-product-with-price-999-98-id-kj7fnjlw3_qadfijpicunuxu",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-seat-covers-for-jeep-wrangler-2007-10-jk-jku-pair-srs-air-bag-compliant-bartact-customers-product-with-price-999-98-id-sjz7sfbjypso8vwl390hgi8v",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-b7a1edaf-f476-449d-9a16-51b6c289ad7c",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-42fb5e0b-09bb-4f3c-967b-9e1476122040",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-seat-covers-for-jeep-wrangler-jk-jku-2013-18-bartact-pair-w-molle-non-srs-air-bag-compliant-customers-product-with-price-569-99-id-o2qh354hwsv8y7rzfv1qtps0",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/bronco-seat-covers-bench-tactical-for-ford-bronco-2021-2022-2023-2024-2025-full-size-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-bronco-bench-custom-seat-covers-tactical-for-ford-bronco-2021-2022-2023-2024-2025-full-size-4-door-rear-no-armrest-only-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/bartact-mil-spec-1987-95-jeep-wrangler-yj-rear-bench-seat-cover-new",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/bench-seat-cover-for-jeep-wrangler-tj-1997-02-baseline-performance-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/click-for-options-2018-jl-2-door-rear-bench-seat-covers-overstock",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/click-for-options-2018-jlu-4-door-rear-bench-no-armrest-seat-covers-overstock",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/click-for-options-2018-jlu-4-door-rear-bench-no-armrest-seat-covers-overstock-copy",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/full-custom-rear-bench-tactical-seat-covers-for-toyota-4runner-5th-gen-2010-24-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-ac3cfa41-e3ab-43d3-a75f-f6b9b5202671",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-0e182a0e-e92f-4390-a479-9d1c4bdb2e36",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-725e741d-8162-46c9-a0db-718a458fb474",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-09a8402e-5755-48e6-9041-c626d3383cbf",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-4e6b4045-1d6a-4d9d-a812-8d979c10ba86",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-79dbd378-4087-4d5e-97e4-3c5306369ff9",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-598d3b9c-0912-4fd6-af8c-de03fbc7214b",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-6fd95f99-eef6-4c61-881f-37a4cf8d1412",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-ba14504d-d940-4b56-987e-490faa20e468",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-8355ad1f-425f-4b91-bd01-d757a8e39fdc",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-wrangler-tj-lj-2003-06-pair-w-molle-bartact",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-9806aa6e-b729-421b-a131-ae79fb109fc0",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-123d5706-e65a-4011-881b-7a88d795ae72",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-a923b066-b3d1-4b24-8c15-e399d74c9e85",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-custom-seat-covers-for-jeep-gladiator-2019-jt-bartact-pair-w-molle-not-for-mojave-or-392-edition",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/fully-customized-front-tactical-seat-covers-for-jeep-gladiator-2021-jt-bartact-pair-for-mojave-edition-only",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-a74654e3-b7bf-48e0-9bb0-32314b589a97",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-263794de-5c88-4b81-94dd-9108de83f3ac",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-2b9181f4-1ad2-4439-95e2-de5fe4b76c43",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-e9bedb3c-10bf-4ac1-b28e-4eb258a525d7",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-4caa577a-11c3-4c2c-9285-aa2d50c87db9",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-0d60ed40-4d3a-4b68-8e7d-e003b824a7be",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-bd3faf87-6173-4039-b645-a08409164e14",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-8752ca88-b7ea-4937-8739-7a1d49e957b7",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-84206246-288d-4077-8ccc-872568472bdf",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-9ac02749-090d-4d58-bcaf-bc2940552f0a",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-f016c5d9-ad69-41e3-8587-cbc5b0096dd8",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-0e59df4c-9dfb-47ba-8c73-cab6a645b2d2",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-0deccc74-6ad9-4fba-a45d-961c8f1597e5",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-6c0773f9-1b6c-4d74-afc8-ed53ad7d499f",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-09a9979f-26db-41c1-94b6-0d4920652e5c",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-0f22baa3-59c6-4b19-81a4-85beaee03d10",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-6a7d1ead-2836-41dc-8a5d-c96888a33209",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-4fdca191-e20a-4842-b9e1-41386486968e",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-e079934c-bd74-4adc-8648-e34b4197f766",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-87f886e5-67ba-4d8e-ada2-0c90f5fc5b93",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-5a470470-6076-43cb-b3f6-2d31cf244ed4",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-b0db94f9-5325-4c65-a51b-399d573975ba",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/click-for-options-2018-jlu-4-door-rear-bench-with-armrest-seat-covers-overstock-copy",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/overstock-rear-bench-tactical-seat-covers-for-jeep-gladiator-2019-all-models-with-fold-down-armrest-only-click-for-more-options-copy",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-2f5ed054-a2c5-4619-a001-c07032c47175",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-0252119f-cb57-4245-b043-1da1ec68dfe9",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-3410e2ca-6e62-4345-bdee-59472f405cf6",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-bad44034-3abd-47d2-bd2d-aa54c50f8baf",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-a6e21ab4-d96e-4cf4-9e6f-a6ac99dd9601",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-836ade83-43b1-4d0c-bfd1-6a4fda8df92e",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-31e87de5-26dd-4103-b02a-9a4dace4648b",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-5cf14d36-fdc9-45d1-9310-c2ca840ecf78",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-bfcc0616-eb45-47fa-ae36-daa99302a118",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-3523adcf-37d7-48df-af0d-b81401020d34",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-6a2d72c9-aefa-4571-b478-9fc4cc57eb84",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-50b3426c-cd0e-45dd-a241-05c0e474a7e0",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-f187a429-5518-4a6e-8c80-d8bc1b49a373",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-e9cacce4-a11c-4b5d-a7ad-938a4d00ef43",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-3c57eaf9-98a8-4f54-b384-885cc814421f",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-daa531b5-40da-4ad5-88f8-3f293a738485",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-9d395aeb-9404-46b1-9580-c1df458f163e",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    },
+    {
+      "url": "https://www.bartact.com/products/cpb-order-f68e20ba-0fc4-4ece-9002-c52fa2f738ad",
+      "status": "failed",
+      "error": "Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:143039910284'."
+    }
+  ]
+}

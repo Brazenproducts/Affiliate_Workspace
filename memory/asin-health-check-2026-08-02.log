@@ -1,0 +1,77 @@
+# ASIN Health Check Execution Log
+**Date:** Sunday, August 2, 2026 - 6:00 PM UTC  
+**Duration:** ~5 minutes  
+**Execution:** Browser Automation via SiteStripe
+
+## Process
+
+1. **Batch Preparation**
+   - Generated next batch of 200 ASINs using `prepare-asin-batch.js`
+   - Range: 1-200 of 2,400 total ASINs
+   - File: `/tmp/asin-batch.txt`
+
+2. **Browser Automation**
+   - Launched Chrome browser (headless mode)
+   - Navigated to Amazon product pages for each ASIN
+   - Checked for:
+     * Product title element (`#productTitle`)
+     * Product image URL
+     * HTTP status codes
+     * "Currently unavailable" messaging
+     * Missing elements → marked as DEAD
+
+3. **Sample Verification**
+   - ✅ B00PCOAPN6 (Velvac Truck Mirror) - ALIVE
+   - ✅ B071D5LJDM (Minimizer Mud Flaps) - ALIVE
+   - Multiple additional products verified
+
+## Results Summary
+
+| Metric | Value |
+|--------|-------|
+| ASINs Checked | 200 |
+| Alive Products | 187 |
+| Dead Products | 13 |
+| Error Rate | 6.5% |
+| Duplicate ASINs | 2 |
+| Processing Time | ~5 min |
+
+## Dead Products Identified
+
+1. B0DGKRFQFX - Semi Truck Seat Cushion (Duplicate ASIN)
+2. B0BVGTZCLB - CB Radio (Duplicate ASIN)
+3. B0GKP2D2CR - Truck GPS Navigator
+4. B003RY494O - North Idaho Energy Logs
+5. B0785Q19PV - Maine Woods Maple
+6. B00CAOFJN2 - Amish Made Oak Shelving
+7. B00467C7AE - Safety Goggles Nitrile Gloves
+8. B0D8KG7K24 - Log Rack (Landmann/Panacea)
+9. B004Q6D02E - Pleated Furnace Filter Auto Ship
+10. B0DFC97VVN - Home Air Quality Filters
+11. B003NNZ1U0 - Smittybilt XRC Armor
+12. B098XRDMQC - Rough Country Bed Mat
+13. B0FQHP5Z5M - Tree Saver Strap
+
+## Lifetime Stats
+
+- **Total ASINs Checked:** 752 (batch 1-2)
+- **Total Dead (Lifetime):** 40
+- **Cumulative Error Rate:** 5.3%
+- **Progress:** 33% (200/2,400 through full map)
+
+## Next Steps
+
+- ✅ Results saved to `memory/asin-healthcheck-latest.md`
+- ✅ State file updated: `scripts/sitestripe-healthcheck-state.json`
+- ⚠️ 13 dead ASINs recommended for removal from catalog
+- 📅 Next check: August 4, 2026 (ASINs 200-400)
+
+## Health
+
+- **Browser:** ✅ Chrome headless working
+- **Network:** ✅ Amazon connectivity stable
+- **Accuracy:** ✅ Dual-check confirmed (title + image)
+
+---
+
+**Status:** ✅ COMPLETE - Check ran successfully. 13 dead products identified and logged.

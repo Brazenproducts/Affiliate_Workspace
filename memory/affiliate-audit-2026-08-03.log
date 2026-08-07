@@ -1,0 +1,42 @@
+# Daily Affiliate Audit Run Log — 2026-08-03
+
+**Execution Time:** 2026-08-03 14:04 UTC  
+**Script:** /home/ubuntu/.openclaw/workspace/scripts/daily-affiliate-audit.sh  
+**Exit Code:** 1 (CRITICAL flags found in audit, but thresholds NOT breached)
+
+## Results Summary
+
+### Critical Issues Found (But Below Threshold)
+- **Down Sites:** 8 (threshold: >10) → ✅ NO ALERT
+- **Invalid Tracking IDs:** 9 (threshold: >20) → ✅ NO ALERT  
+- **Missing Tags:** 1 (threshold: >20) → ✅ NO ALERT
+
+### Alert Decision
+🚨 **CRITICAL FLAGS EXIST** (9 invalid tags, 1 missing tag, 8 down sites)  
+✅ **BUT NO MESSAGE SENT** — None of the threshold alerts triggered:
+- Down sites: 8 < 10 threshold
+- New broken links: 0 (no new failures)
+- New missing tags: 0 (no new issues)
+
+### Comparison to Yesterday (08-03 06:00 UTC)
+- Down sites: 6 → 8 (+2 degradation) ⚠️
+- Invalid tags: 9 → 9 (unchanged)
+- Missing tags: 1 → 1 (unchanged)
+
+**Decision:** Monitor continues. Next alert only if any threshold crossed:
+- Sites down > 10
+- New broken links > 20
+- New missing tags > 20
+
+---
+
+## Maintenance Work Recommended
+
+1. **Fix whatarebest.com** — missing tracking tag entirely (revenue loss)
+2. **Fix 9 malformed tags** — bestgaming-chair, bestheating-pad, etc. need tag normalization
+3. **Investigate 8 down sites** — 2 new failures today (homelesshousingunits, shedwithoutpermit, etc.)
+4. **Blog generator** — Still frozen for 10+ days (0 posts in 24h)
+
+---
+
+**Next Audit:** 2026-08-04 14:04 UTC (24h from now)

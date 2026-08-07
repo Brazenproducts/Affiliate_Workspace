@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-03T16:21:01.693Z",
+  "results": [
+    {
+      "handle": "jeep-wrangler-jl-seat-covers",
+      "status": "error",
+      "code": 404
+    },
+    {
+      "handle": "toyota-tacoma-seat-covers",
+      "status": "error",
+      "code": 404
+    },
+    {
+      "handle": "jeep-wrangler-grab-handles",
+      "status": "error",
+      "code": 404
+    },
+    {
+      "handle": "molle-accessories",
+      "status": "error",
+      "code": 404
+    },
+    {
+      "handle": "fire-extinguisher-holders",
+      "status": "updated"
+    },
+    {
+      "handle": "roll-bar-fire-extinguisher-holder",
+      "status": "error",
+      "code": 404
+    },
+    {
+      "handle": "jeep-wrangler-storage-bags-organizers",
+      "status": "error",
+      "code": 404
+    },
+    {
+      "handle": "ford-bronco-storage-bags",
+      "status": "error",
+      "code": 404
+    },
+    {
+      "handle": "winch-covers",
+      "status": "error",
+      "code": 404
+    },
+    {
+      "handle": "jeep-wrangler-suspension-limit-straps",
+      "status": "updated"
+    },
+    {
+      "handle": "jeep-wrangler-jl-seat-covers",
+      "status": "updated"
+    },
+    {
+      "handle": "toyota-tacoma-seat-covers",
+      "status": "updated"
+    },
+    {
+      "handle": "jeep-wrangler-grab-handles",
+      "status": "updated"
+    },
+    {
+      "handle": "molle-accessories",
+      "status": "updated"
+    },
+    {
+      "handle": "roll-bar-fire-extinguisher-holder",
+      "status": "updated"
+    },
+    {
+      "handle": "jeep-wrangler-storage-bags-organizers",
+      "status": "updated"
+    },
+    {
+      "handle": "ford-bronco-storage-bags",
+      "status": "updated"
+    },
+    {
+      "handle": "winch-covers",
+      "status": "updated"
+    }
+  ]
+}

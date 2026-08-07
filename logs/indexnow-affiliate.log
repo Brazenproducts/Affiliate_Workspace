@@ -1,0 +1,2411 @@
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/scripts/indexnow-submit.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/scripts/indexnow-submit.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/scripts/indexnow-submit.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/.openclaw/workspace/scripts/indexnow-submit.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.22.1
+[IndexNow] 2026-07-28T10:00:01.840Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-07-28T10:00:01.849Z Discovered 103 affiliate URLs from 103 sites
+[IndexNow] 2026-07-28T10:00:01.850Z Submitting 103 URLs across 103 domains...
+[IndexNow] 2026-07-28T10:00:02.189Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:03.542Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:04.871Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:05.999Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:07.187Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:08.361Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:09.533Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:10.868Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:12.001Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:13.188Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:14.318Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:15.442Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:16.617Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:18.032Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:19.157Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:20.283Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:21.452Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:22.627Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:23.751Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:24.881Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:26.017Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:27.348Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:28.471Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:29.605Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:30.937Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:32.107Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:33.515Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:34.852Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:35.981Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:37.161Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:38.286Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:39.420Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:40.749Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:41.869Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:43.003Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:44.127Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:45.327Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:46.508Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:47.704Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:49.033Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:50.202Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:51.336Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:52.521Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:53.697Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:54.827Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:56.162Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:57.285Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:58.468Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:00:59.799Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:00.921Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:02.108Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:03.437Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:04.625Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:05.803Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:06.934Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:08.117Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:09.249Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:10.433Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:11.632Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:12.985Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:14.313Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:15.444Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:16.624Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:17.800Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:18.993Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:20.144Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:21.472Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:22.605Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:23.799Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:24.972Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:26.300Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:27.628Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:28.752Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:29.907Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:31.037Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:32.367Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:33.540Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:34.727Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:35.911Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:37.043Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:38.233Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:39.364Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:40.543Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:41.667Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:42.993Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:44.140Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:45.492Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:46.621Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:47.807Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:49.141Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:50.319Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:51.464Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:52.593Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:53.923Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:55.102Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:56.224Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:57.414Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:58.651Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:01:59.828Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:02:01.005Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:02:02.130Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:02:03.250Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:02:04.425Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-28T10:02:04.425Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-07-28T10:02:04.425Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-07-28T10:02:04.425Z ║ Sites Processed: 103                        ║
+[IndexNow] 2026-07-28T10:02:04.425Z ║ Total URLs: 103                             ║
+[IndexNow] 2026-07-28T10:02:04.425Z ║ Successfully Submitted: 103                ║
+[IndexNow] 2026-07-28T10:02:04.425Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-07-28T10:02:04.425Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-07-28T10:02:04.425Z ║ Duration: 123s                             ║
+[IndexNow] 2026-07-28T10:02:04.425Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-07-28T10:02:04.425Z",
+  "sitesProcessed": 103,
+  "totalUrls": 103,
+  "submittedCount": 103,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
+[IndexNow] 2026-07-29T10:00:01.313Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-07-29T10:00:01.321Z Discovered 103 affiliate URLs from 103 sites
+[IndexNow] 2026-07-29T10:00:01.322Z Submitting 103 URLs across 103 domains...
+[IndexNow] 2026-07-29T10:00:01.791Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:03.204Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:04.434Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:05.621Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:06.755Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:07.952Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:09.300Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:10.482Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:11.670Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:13.013Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:14.197Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:15.332Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:16.509Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:17.690Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:18.824Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:20.165Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:21.507Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:22.648Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:23.783Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:24.976Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:26.319Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:27.455Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:28.641Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:29.776Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:30.912Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:32.047Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:33.182Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:34.620Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:35.887Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:37.274Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:38.467Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:39.676Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:40.815Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:41.950Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:43.157Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:44.338Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:45.475Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:46.610Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:47.952Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:49.089Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:50.282Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:51.417Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:52.598Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:53.732Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:54.924Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:56.065Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:57.311Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:58.651Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:00:59.993Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:01.129Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:02.266Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:03.606Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:04.742Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:05.922Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:07.338Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:08.616Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:09.752Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:10.937Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:12.130Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:13.343Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:14.480Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:15.617Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:16.801Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:17.998Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:19.187Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:20.380Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:21.516Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:22.709Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:24.050Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:25.240Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:26.580Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:27.920Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:29.116Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:30.456Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:31.643Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:32.778Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:33.970Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:35.169Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:36.514Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:37.697Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:38.832Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:40.091Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:41.281Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:42.697Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:44.037Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:45.386Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:46.726Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:48.067Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:49.251Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:50.469Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:51.606Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:52.786Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:54.126Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:55.261Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:56.607Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:57.742Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:01:59.084Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:02:00.219Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:02:01.409Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:02:02.595Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:02:03.729Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:02:04.926Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:02:06.062Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-29T10:02:06.062Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-07-29T10:02:06.062Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-07-29T10:02:06.062Z ║ Sites Processed: 103                        ║
+[IndexNow] 2026-07-29T10:02:06.062Z ║ Total URLs: 103                             ║
+[IndexNow] 2026-07-29T10:02:06.062Z ║ Successfully Submitted: 103                ║
+[IndexNow] 2026-07-29T10:02:06.062Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-07-29T10:02:06.062Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-07-29T10:02:06.062Z ║ Duration: 125s                             ║
+[IndexNow] 2026-07-29T10:02:06.063Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-07-29T10:02:06.063Z",
+  "sitesProcessed": 103,
+  "totalUrls": 103,
+  "submittedCount": 103,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
+[IndexNow] 2026-07-30T10:00:01.440Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-07-30T10:00:01.448Z Discovered 104 affiliate URLs from 104 sites
+[IndexNow] 2026-07-30T10:00:01.449Z Submitting 104 URLs across 104 domains...
+[IndexNow] 2026-07-30T10:00:01.839Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:03.016Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:04.155Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:05.332Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:06.468Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:07.812Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:08.994Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:10.331Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:11.470Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:12.615Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:13.805Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:14.943Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:16.077Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:17.264Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:18.446Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:19.584Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:20.922Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:22.201Z ✓ bigrigseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:23.538Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:24.764Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:25.952Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:27.291Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:28.422Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:29.758Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:30.939Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:32.072Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:33.408Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:34.744Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:36.081Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:37.214Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:38.346Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:39.782Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:40.913Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:42.254Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:43.611Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:44.955Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:46.295Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:47.524Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:48.658Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:50.090Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:51.230Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:52.362Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:53.611Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:54.952Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:56.293Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:57.475Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:58.817Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:00:59.955Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:01.301Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:02.643Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:03.827Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:05.009Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:06.188Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:07.530Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:08.715Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:10.056Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:11.189Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:12.319Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:13.734Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:14.870Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:16.219Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:17.563Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:18.699Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:19.881Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:21.017Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:22.198Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:23.540Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:24.880Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:26.017Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:27.157Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:28.292Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:29.632Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:30.904Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:32.116Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:33.459Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:34.638Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:35.982Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:37.326Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:38.519Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:39.654Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:40.996Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:42.178Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:43.359Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:44.561Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:45.755Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:47.181Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:48.519Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:49.864Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:51.204Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:52.337Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:53.516Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:54.859Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:55.990Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:57.169Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:58.343Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:01:59.683Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:00.865Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:02.230Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:03.439Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:04.724Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:05.864Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:07.068Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:08.204Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:09.339Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-30T10:02:09.340Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-07-30T10:02:09.340Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-07-30T10:02:09.340Z ║ Sites Processed: 104                        ║
+[IndexNow] 2026-07-30T10:02:09.340Z ║ Total URLs: 104                             ║
+[IndexNow] 2026-07-30T10:02:09.340Z ║ Successfully Submitted: 104                ║
+[IndexNow] 2026-07-30T10:02:09.340Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-07-30T10:02:09.340Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-07-30T10:02:09.340Z ║ Duration: 128s                             ║
+[IndexNow] 2026-07-30T10:02:09.340Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-07-30T10:02:09.340Z",
+  "sitesProcessed": 104,
+  "totalUrls": 104,
+  "submittedCount": 104,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "bigrigseatcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
+[IndexNow] 2026-07-31T10:00:01.908Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-07-31T10:00:01.917Z Discovered 104 affiliate URLs from 104 sites
+[IndexNow] 2026-07-31T10:00:01.918Z Submitting 104 URLs across 104 domains...
+[IndexNow] 2026-07-31T10:00:02.209Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:35.001Z ✗ allautodirect.com: HTTP 503
+[IndexNow] 2026-07-31T10:00:36.333Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:37.661Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:38.990Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:40.119Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:41.329Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:42.499Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:43.700Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:45.030Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:46.200Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:47.392Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:48.719Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:49.848Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:51.026Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:52.199Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:53.385Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:54.558Z ✓ bigrigseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:55.734Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:56.861Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:57.988Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:00:59.121Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:00.248Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:01.576Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:02.752Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:04.080Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:05.208Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:06.338Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:07.667Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:08.847Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:10.174Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:11.304Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:12.432Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:13.762Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:14.934Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:16.260Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:17.589Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:18.916Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:20.244Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:21.426Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:22.752Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:23.880Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:25.056Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:26.229Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:27.357Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:28.685Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:29.817Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:30.989Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:32.316Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:33.644Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:34.971Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:36.116Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:37.285Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:38.465Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:39.820Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:40.953Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:42.279Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:43.608Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:44.777Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:46.106Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:47.442Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:48.614Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:49.743Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:51.070Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:52.398Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:53.726Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:55.052Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:56.379Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:57.708Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:58.835Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:01:59.964Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:01.093Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:02.222Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:03.548Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:04.718Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:05.894Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:07.066Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:08.398Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:09.549Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:10.696Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:12.078Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:13.206Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:14.346Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:15.672Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:17.001Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:18.332Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:19.459Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:20.634Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:21.762Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:22.891Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:24.065Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:25.245Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:26.667Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:28.014Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:29.344Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:30.533Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:31.664Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:32.795Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:33.924Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:35.251Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:36.422Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:37.551Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:38.737Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:39.868Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-07-31T10:02:39.868Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-07-31T10:02:39.868Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-07-31T10:02:39.868Z ║ Sites Processed: 104                        ║
+[IndexNow] 2026-07-31T10:02:39.868Z ║ Total URLs: 104                             ║
+[IndexNow] 2026-07-31T10:02:39.868Z ║ Successfully Submitted: 103                ║
+[IndexNow] 2026-07-31T10:02:39.868Z ║ Failed Domains: 1                           ║
+[IndexNow] 2026-07-31T10:02:39.868Z ║ Error Rate: 1%                              ║
+[IndexNow] 2026-07-31T10:02:39.868Z ║ Duration: 158s                             ║
+[IndexNow] 2026-07-31T10:02:39.868Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-07-31T10:02:39.868Z",
+  "sitesProcessed": 104,
+  "totalUrls": 104,
+  "submittedCount": 103,
+  "errorCount": 1,
+  "errorRate": 1,
+  "successDomains": [
+    "4x4stompers.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "bigrigseatcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [
+    "allautodirect.com"
+  ],
+  "errors": [
+    "allautodirect.com: HTTP 503"
+  ]
+}
+[IndexNow] 2026-08-01T10:00:01.824Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-08-01T10:00:01.832Z Discovered 104 affiliate URLs from 104 sites
+[IndexNow] 2026-08-01T10:00:01.833Z Submitting 104 URLs across 104 domains...
+[IndexNow] 2026-08-01T10:00:02.083Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:03.456Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:04.584Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:05.914Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:07.081Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:08.256Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:09.384Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:10.715Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:11.886Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:13.037Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:14.163Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:15.491Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:16.818Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:17.993Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:19.325Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:20.653Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:21.821Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:22.948Z ✓ bigrigseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:24.118Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:25.295Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:26.621Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:27.749Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:28.875Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:30.202Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:31.330Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:32.502Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:33.671Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:35.001Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:36.204Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:37.370Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:38.541Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:39.667Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:40.793Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:42.120Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:43.297Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:44.445Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:45.571Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:46.764Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:48.092Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:49.420Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:50.546Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:51.898Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:53.069Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:54.452Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:55.780Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:56.908Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:58.133Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:00:59.460Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:00.790Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:01.958Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:03.286Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:04.463Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:05.633Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:06.761Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:07.889Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:09.214Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:10.388Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:11.570Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:12.897Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:14.084Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:15.212Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:16.362Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:17.699Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:18.826Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:20.153Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:21.279Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:22.407Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:23.578Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:24.753Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:25.924Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:27.256Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:28.382Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:29.506Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:30.677Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:31.845Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:33.011Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:34.178Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:35.305Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:36.430Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:37.559Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:38.727Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:40.057Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:41.228Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:42.356Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:43.762Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:44.895Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:46.221Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:47.386Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:48.518Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:49.654Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:50.821Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:51.991Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:53.317Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:54.490Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:55.819Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:56.947Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:58.076Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:01:59.204Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:02:00.370Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:02:01.700Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:02:02.830Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:02:03.997Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:02:05.171Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:02:06.297Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-01T10:02:06.297Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-08-01T10:02:06.297Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-08-01T10:02:06.297Z ║ Sites Processed: 104                        ║
+[IndexNow] 2026-08-01T10:02:06.297Z ║ Total URLs: 104                             ║
+[IndexNow] 2026-08-01T10:02:06.297Z ║ Successfully Submitted: 104                ║
+[IndexNow] 2026-08-01T10:02:06.297Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-08-01T10:02:06.297Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-08-01T10:02:06.297Z ║ Duration: 124s                             ║
+[IndexNow] 2026-08-01T10:02:06.297Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-08-01T10:02:06.297Z",
+  "sitesProcessed": 104,
+  "totalUrls": 104,
+  "submittedCount": 104,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "bigrigseatcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
+[IndexNow] 2026-08-02T10:00:01.356Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-08-02T10:00:01.364Z Discovered 104 affiliate URLs from 104 sites
+[IndexNow] 2026-08-02T10:00:01.365Z Submitting 104 URLs across 104 domains...
+[IndexNow] 2026-08-02T10:00:01.806Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:02.977Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:04.149Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:05.486Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:06.606Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:07.728Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:09.056Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:10.385Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:11.713Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:12.907Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:14.029Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:15.378Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:16.836Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:18.006Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:19.175Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:20.300Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:21.483Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:22.811Z ✓ bigrigseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:23.937Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:25.058Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:26.179Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:27.301Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:28.629Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:29.956Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:31.129Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:32.456Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:33.716Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:34.842Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:36.016Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:37.139Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:38.261Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:39.384Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:40.718Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:42.051Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:43.386Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:44.590Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:45.762Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:46.933Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:48.062Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:49.187Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:50.313Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:51.490Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:52.818Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:53.941Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:55.277Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:56.468Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:57.797Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:00:58.964Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:00.294Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:01.625Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:02.831Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:03.999Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:05.330Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:06.503Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:07.835Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:09.164Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:10.315Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:11.647Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:12.817Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:13.987Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:15.160Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:16.281Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:17.406Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:18.531Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:19.864Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:20.989Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:22.180Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:23.506Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:24.834Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:25.955Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:27.281Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:28.407Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:29.584Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:30.705Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:31.877Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:33.053Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:34.224Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:35.373Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:36.703Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:37.827Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:38.951Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:40.176Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:41.301Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:42.431Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:43.557Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:44.683Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:45.806Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:47.133Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:48.303Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:49.629Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:50.988Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:52.321Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:53.506Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:54.679Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:55.804Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:56.930Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:58.263Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:01:59.430Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:02:00.599Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:02:01.789Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:02:02.962Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:02:04.185Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:02:05.363Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:02:06.540Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-02T10:02:06.540Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-08-02T10:02:06.540Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-08-02T10:02:06.540Z ║ Sites Processed: 104                        ║
+[IndexNow] 2026-08-02T10:02:06.540Z ║ Total URLs: 104                             ║
+[IndexNow] 2026-08-02T10:02:06.540Z ║ Successfully Submitted: 104                ║
+[IndexNow] 2026-08-02T10:02:06.540Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-08-02T10:02:06.540Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-08-02T10:02:06.540Z ║ Duration: 125s                             ║
+[IndexNow] 2026-08-02T10:02:06.540Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-08-02T10:02:06.540Z",
+  "sitesProcessed": 104,
+  "totalUrls": 104,
+  "submittedCount": 104,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "bigrigseatcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
+[IndexNow] 2026-08-03T10:00:01.780Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-08-03T10:00:01.789Z Discovered 104 affiliate URLs from 104 sites
+[IndexNow] 2026-08-03T10:00:01.790Z Submitting 104 URLs across 104 domains...
+[IndexNow] 2026-08-03T10:00:02.071Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:03.237Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:04.594Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:05.746Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:06.921Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:08.046Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:09.257Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:10.428Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:11.607Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:12.778Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:13.902Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:15.068Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:16.241Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:17.414Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:18.538Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:19.767Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:20.968Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:22.092Z ✓ bigrigseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:23.261Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:24.455Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:25.622Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:26.798Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:27.928Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:29.259Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:30.426Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:31.591Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:32.756Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:33.879Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:35.003Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:36.126Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:37.269Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:38.445Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:39.617Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:40.798Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:42.136Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:43.340Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:44.510Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:45.634Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:46.963Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:48.293Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:49.418Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:50.585Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:51.788Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:53.118Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:54.282Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:55.406Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:56.736Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:58.065Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:00:59.231Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:00.405Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:01.571Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:02.903Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:04.027Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:05.199Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:06.370Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:07.590Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:08.737Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:10.070Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:11.193Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:12.524Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:13.647Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:14.771Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:15.895Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:17.228Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:18.350Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:19.533Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:20.861Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:22.029Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:23.360Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:24.690Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:26.020Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:27.349Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:28.473Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:29.675Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:31.001Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:32.175Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:33.505Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:34.832Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:36.024Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:37.149Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:38.316Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:39.491Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:40.674Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:41.802Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:43.131Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:44.300Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:45.423Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:46.596Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:47.927Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:49.107Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:50.285Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:51.613Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:52.776Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:53.946Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:55.069Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:56.255Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:57.422Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:58.546Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:01:59.673Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:02:00.861Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:02:02.206Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:02:03.330Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:02:04.503Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:02:05.626Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-03T10:02:05.626Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-08-03T10:02:05.626Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-08-03T10:02:05.626Z ║ Sites Processed: 104                        ║
+[IndexNow] 2026-08-03T10:02:05.626Z ║ Total URLs: 104                             ║
+[IndexNow] 2026-08-03T10:02:05.626Z ║ Successfully Submitted: 104                ║
+[IndexNow] 2026-08-03T10:02:05.626Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-08-03T10:02:05.626Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-08-03T10:02:05.626Z ║ Duration: 124s                             ║
+[IndexNow] 2026-08-03T10:02:05.626Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-08-03T10:02:05.626Z",
+  "sitesProcessed": 104,
+  "totalUrls": 104,
+  "submittedCount": 104,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "bigrigseatcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
+[IndexNow] 2026-08-04T10:00:01.367Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-08-04T10:00:01.376Z Discovered 104 affiliate URLs from 104 sites
+[IndexNow] 2026-08-04T10:00:01.377Z Submitting 104 URLs across 104 domains...
+[IndexNow] 2026-08-04T10:00:01.887Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:21.981Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:23.341Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:24.674Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:25.797Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:26.971Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:28.097Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:29.220Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:30.399Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:31.522Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:32.644Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:33.766Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:35.094Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:36.215Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:37.336Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:38.514Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:39.697Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:40.820Z ✓ bigrigseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:41.941Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:43.065Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:44.188Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:45.359Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:46.530Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:47.887Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:49.215Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:50.344Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:51.673Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:53.048Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:54.378Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:55.567Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:56.752Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:57.934Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:00:59.264Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:00.443Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:01.612Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:02.765Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:03.895Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:05.067Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:06.256Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:07.585Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:08.765Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:09.952Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:11.290Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:12.478Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:13.662Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:14.784Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:15.906Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:17.236Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:18.466Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:19.642Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:20.977Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:22.107Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:23.235Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:24.573Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:25.754Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:26.882Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:28.055Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:29.183Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:30.511Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:31.841Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:33.020Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:34.159Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:35.499Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:36.836Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:38.006Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:39.133Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:40.314Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:41.647Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:42.774Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:43.901Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:45.031Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:46.361Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:47.560Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:48.736Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:50.063Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:51.414Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:52.748Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:53.877Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:55.204Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:56.330Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:57.520Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:01:58.852Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:00.184Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:01.313Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:02.641Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:03.969Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:05.152Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:06.481Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:07.878Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:09.055Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:10.214Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:11.544Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:12.718Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:13.893Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:15.225Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:16.552Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:17.882Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:19.211Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:20.541Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:21.663Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:22.785Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:24.146Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:25.326Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:26.498Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-04T10:02:26.499Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-08-04T10:02:26.499Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-08-04T10:02:26.499Z ║ Sites Processed: 104                        ║
+[IndexNow] 2026-08-04T10:02:26.499Z ║ Total URLs: 104                             ║
+[IndexNow] 2026-08-04T10:02:26.499Z ║ Successfully Submitted: 104                ║
+[IndexNow] 2026-08-04T10:02:26.499Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-08-04T10:02:26.499Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-08-04T10:02:26.499Z ║ Duration: 145s                             ║
+[IndexNow] 2026-08-04T10:02:26.499Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-08-04T10:02:26.499Z",
+  "sitesProcessed": 104,
+  "totalUrls": 104,
+  "submittedCount": 104,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "bigrigseatcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
+[IndexNow] 2026-08-05T10:00:01.731Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-08-05T10:00:01.743Z Discovered 104 affiliate URLs from 104 sites
+[IndexNow] 2026-08-05T10:00:01.744Z Submitting 104 URLs across 104 domains...
+[IndexNow] 2026-08-05T10:00:01.983Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:03.155Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:04.325Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:05.458Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:06.811Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:07.984Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:09.316Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:10.492Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:11.820Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:12.994Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:14.254Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:15.427Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:16.754Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:18.082Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:19.211Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:20.540Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:21.712Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:22.883Z ✓ bigrigseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:24.011Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:25.192Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:26.520Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:27.855Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:29.184Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:30.352Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:31.682Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:32.808Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:33.939Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:35.069Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:36.190Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:37.523Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:38.690Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:39.850Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:41.025Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:42.148Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:43.498Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:44.828Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:46.159Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:47.487Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:48.612Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:49.944Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:51.274Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:52.450Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:53.573Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:54.700Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:56.030Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:57.156Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:58.288Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:00:59.617Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:00.740Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:02.069Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:03.200Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:04.388Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:05.512Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:06.638Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:07.811Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:09.142Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:10.470Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:11.646Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:12.976Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:14.306Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:15.491Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:16.622Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:17.804Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:19.157Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:20.488Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:21.676Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:22.856Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:24.185Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:25.365Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:26.696Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:28.024Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:29.158Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:30.490Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:31.676Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:32.803Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:33.978Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:35.160Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:36.291Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:37.468Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:38.592Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:39.725Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:40.901Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:42.024Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:43.351Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:44.680Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:45.809Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:46.999Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:48.144Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:49.274Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:50.633Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:51.959Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:53.469Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:54.806Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:55.957Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:57.196Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:58.319Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:01:59.504Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:02:00.832Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:02:02.008Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:02:03.187Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:02:04.518Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:02:05.703Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:02:06.894Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:02:08.024Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-05T10:02:08.024Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-08-05T10:02:08.024Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-08-05T10:02:08.024Z ║ Sites Processed: 104                        ║
+[IndexNow] 2026-08-05T10:02:08.024Z ║ Total URLs: 104                             ║
+[IndexNow] 2026-08-05T10:02:08.024Z ║ Successfully Submitted: 104                ║
+[IndexNow] 2026-08-05T10:02:08.024Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-08-05T10:02:08.024Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-08-05T10:02:08.024Z ║ Duration: 126s                             ║
+[IndexNow] 2026-08-05T10:02:08.024Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-08-05T10:02:08.024Z",
+  "sitesProcessed": 104,
+  "totalUrls": 104,
+  "submittedCount": 104,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "bigrigseatcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
+[IndexNow] 2026-08-06T10:00:01.155Z Starting IndexNow submission for all affiliate sites...
+[IndexNow] 2026-08-06T10:00:01.163Z Discovered 104 affiliate URLs from 104 sites
+[IndexNow] 2026-08-06T10:00:01.164Z Submitting 104 URLs across 104 domains...
+[IndexNow] 2026-08-06T10:00:01.498Z ✓ 4x4stompers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:02.922Z ✓ allautodirect.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:04.271Z ✓ amlandgoods.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:05.624Z ✓ anzenhousing.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:06.974Z ✓ autopartsreviewed.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:08.191Z ✓ bestbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:09.324Z ✓ bestcordlesstools.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:10.457Z ✓ bestfirestick.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:11.589Z ✓ bestgarageorganizer.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:12.945Z ✓ besthomefilters.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:14.124Z ✓ bestinstantpot.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:15.320Z ✓ bestmeshwifi.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:16.492Z ✓ bestseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:17.622Z ✓ bestsmokergrill.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:18.752Z ✓ besttonneaucovers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:19.884Z ✓ besttruckaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:21.024Z ✓ bigrigcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:22.373Z ✓ bigrigseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:23.506Z ✓ broncobiminis.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:24.853Z ✓ broncobumper.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:25.984Z ✓ broncocargo.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:27.330Z ✓ broncoexterior.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:28.521Z ✓ broncofloormats.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:29.651Z ✓ broncoheadliner.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:30.832Z ✓ broncointerior.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:32.177Z ✓ broncolift.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:33.520Z ✓ broncomolle.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:34.720Z ✓ broncorollbar.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:35.858Z ✓ broncorollcage.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:37.287Z ✓ broncoshade.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:38.548Z ✓ broncotent.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:39.893Z ✓ broncotents.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:41.081Z ✓ broncotops.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:42.425Z ✓ broncoupgrade.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:43.767Z ✓ commandeerseats.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:45.112Z ✓ cybertruckbumper.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:46.243Z ✓ cybertruckbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:47.584Z ✓ cybertruckgen1.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:48.773Z ✓ cybertruckseat.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:49.961Z ✓ cybertruckseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:51.304Z ✓ cybertruckseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:52.510Z ✓ cybertruckseats.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:53.859Z ✓ cybertruckshell.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:55.206Z ✓ cybertruckstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:56.387Z ✓ cybertrucktires.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:57.525Z ✓ elipacko-usa.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:00:58.869Z ✓ fordbroncoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:00.050Z ✓ gladiatorseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:01.189Z ✓ industrialstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:02.380Z ✓ jeepbenchcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:03.510Z ✓ jeepseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:04.701Z ✓ jlcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:05.904Z ✓ jlscrambler.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:07.042Z ✓ jlseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:08.472Z ✓ jlseats.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:09.610Z ✓ jluseatcovers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:10.875Z ✓ jlutops.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:12.219Z ✓ jlutruck.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:13.358Z ✓ kawasakiridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:14.699Z ✓ kilndriedcookingwood.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:15.840Z ✓ magnetoaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:17.028Z ✓ molleattachments.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:18.165Z ✓ molletop.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:19.353Z ✓ outdoorseatingcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:20.546Z ✓ packagingstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:21.726Z ✓ packagingstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:23.081Z ✓ palletstrap.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:24.218Z ✓ palletstraps.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:25.402Z ✓ pincerusa.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:26.538Z ✓ qualityoutdoorcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:27.677Z ✓ r1sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:28.864Z ✓ r1sstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:30.201Z ✓ r1tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:31.338Z ✓ r1tstorage.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:32.480Z ✓ r2sparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:33.616Z ✓ r2tparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:34.969Z ✓ ramrevparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:36.107Z ✓ rangewolf.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:37.456Z ✓ ridgeupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:38.644Z ✓ ridgeutv.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:39.840Z ✓ rivianaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:41.252Z ✓ scoutaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:42.599Z ✓ scoutbumpers.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:43.807Z ✓ scoutruvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:45.067Z ✓ scoutsuspension.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:46.259Z ✓ scoutsuvparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:47.610Z ✓ scoutterraparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:48.800Z ✓ scoutupgrades.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:50.146Z ✓ semiseats.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:51.338Z ✓ slatetruckparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:52.477Z ✓ sportadventurevehicleparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:53.613Z ✓ strapratchets.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:54.806Z ✓ swalmy.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:55.946Z ✓ tacomaseats.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:57.084Z ✓ tacticaltailgate.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:58.222Z ✓ toyotarangga.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:01:59.362Z ✓ trektop.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:02:00.704Z ✓ usaseatcushion.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:02:02.046Z ✓ volconaccessories.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:02:03.386Z ✓ volconaftermarket.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:02:04.526Z ✓ volconparts.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:02:05.663Z ✓ volconseats.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:02:07.007Z ✓ whatarebest.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:02:08.138Z ✓ wranglerseatcover.com: 1 URLs submitted
+[IndexNow] 2026-08-06T10:02:08.138Z ╔════════════════════════════════════════════╗
+[IndexNow] 2026-08-06T10:02:08.138Z ║ INDEXNOW SUBMISSION REPORT                 ║
+[IndexNow] 2026-08-06T10:02:08.138Z ║ Sites Processed: 104                        ║
+[IndexNow] 2026-08-06T10:02:08.138Z ║ Total URLs: 104                             ║
+[IndexNow] 2026-08-06T10:02:08.138Z ║ Successfully Submitted: 104                ║
+[IndexNow] 2026-08-06T10:02:08.138Z ║ Failed Domains: 0                           ║
+[IndexNow] 2026-08-06T10:02:08.138Z ║ Error Rate: 0%                              ║
+[IndexNow] 2026-08-06T10:02:08.139Z ║ Duration: 127s                             ║
+[IndexNow] 2026-08-06T10:02:08.139Z ╚════════════════════════════════════════════╝
+
+__JSON_RESULTS__
+{
+  "date": "2026-08-06T10:02:08.139Z",
+  "sitesProcessed": 104,
+  "totalUrls": 104,
+  "submittedCount": 104,
+  "errorCount": 0,
+  "errorRate": 0,
+  "successDomains": [
+    "4x4stompers.com",
+    "allautodirect.com",
+    "amlandgoods.com",
+    "anzenhousing.com",
+    "autopartsreviewed.com",
+    "bestbroncoaccessories.com",
+    "bestcordlesstools.com",
+    "bestfirestick.com",
+    "bestgarageorganizer.com",
+    "besthomefilters.com",
+    "bestinstantpot.com",
+    "bestmeshwifi.com",
+    "bestseatcover.com",
+    "bestsmokergrill.com",
+    "besttonneaucovers.com",
+    "besttruckaccessories.com",
+    "bigrigcovers.com",
+    "bigrigseatcovers.com",
+    "broncobiminis.com",
+    "broncobumper.com",
+    "broncocargo.com",
+    "broncoexterior.com",
+    "broncofloormats.com",
+    "broncoheadliner.com",
+    "broncointerior.com",
+    "broncolift.com",
+    "broncomolle.com",
+    "broncorollbar.com",
+    "broncorollcage.com",
+    "broncoshade.com",
+    "broncotent.com",
+    "broncotents.com",
+    "broncotops.com",
+    "broncoupgrade.com",
+    "commandeerseats.com",
+    "cybertruckbumper.com",
+    "cybertruckbumpers.com",
+    "cybertruckgen1.com",
+    "cybertruckseat.com",
+    "cybertruckseatcover.com",
+    "cybertruckseatcovers.com",
+    "cybertruckseats.com",
+    "cybertruckshell.com",
+    "cybertruckstorage.com",
+    "cybertrucktires.com",
+    "elipacko-usa.com",
+    "fordbroncoaccessories.com",
+    "gladiatorseatcover.com",
+    "industrialstrap.com",
+    "jeepbenchcovers.com",
+    "jeepseatcover.com",
+    "jlcovers.com",
+    "jlscrambler.com",
+    "jlseatcover.com",
+    "jlseats.com",
+    "jluseatcovers.com",
+    "jlutops.com",
+    "jlutruck.com",
+    "kawasakiridgeutv.com",
+    "kilndriedcookingwood.com",
+    "magnetoaccessories.com",
+    "molleattachments.com",
+    "molletop.com",
+    "outdoorseatingcushion.com",
+    "packagingstrap.com",
+    "packagingstraps.com",
+    "palletstrap.com",
+    "palletstraps.com",
+    "pincerusa.com",
+    "qualityoutdoorcushion.com",
+    "r1sparts.com",
+    "r1sstorage.com",
+    "r1tparts.com",
+    "r1tstorage.com",
+    "r2sparts.com",
+    "r2tparts.com",
+    "ramrevparts.com",
+    "rangewolf.com",
+    "ridgeupgrades.com",
+    "ridgeutv.com",
+    "rivianaftermarket.com",
+    "scoutaccessories.com",
+    "scoutbumpers.com",
+    "scoutruvparts.com",
+    "scoutsuspension.com",
+    "scoutsuvparts.com",
+    "scoutterraparts.com",
+    "scoutupgrades.com",
+    "semiseats.com",
+    "slatetruckparts.com",
+    "sportadventurevehicleparts.com",
+    "strapratchets.com",
+    "swalmy.com",
+    "tacomaseats.com",
+    "tacticaltailgate.com",
+    "toyotarangga.com",
+    "trektop.com",
+    "usaseatcushion.com",
+    "volconaccessories.com",
+    "volconaftermarket.com",
+    "volconparts.com",
+    "volconseats.com",
+    "whatarebest.com",
+    "wranglerseatcover.com"
+  ],
+  "failedDomains": [],
+  "errors": []
+}
