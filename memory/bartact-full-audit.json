@@ -1,0 +1,820 @@
+{
+  "asOf": "2026-08-11T15:45:44.274Z",
+  "collections": {
+    "critical": [
+      {
+        "handle": "uncategorized",
+        "words": 0,
+        "id": "gid://shopify/Collection/281605373995"
+      },
+      {
+        "handle": "miscellaneous-1",
+        "words": 54,
+        "id": "gid://shopify/Collection/137430892567"
+      },
+      {
+        "handle": "new-products",
+        "words": 56,
+        "id": "gid://shopify/Collection/219013317"
+      },
+      {
+        "handle": "best-sellers",
+        "words": 62,
+        "id": "gid://shopify/Collection/69914821"
+      },
+      {
+        "handle": "hvac-filters",
+        "words": 62,
+        "id": "gid://shopify/Collection/281641910315"
+      },
+      {
+        "handle": "bull-strap-heavy-duty-2-ratchet-tie-downs-10-000-lb-w-w-o-axle-strap",
+        "words": 86,
+        "id": "gid://shopify/Collection/274220941355"
+      }
+    ],
+    "low": [
+      {
+        "handle": "overstock-clearance",
+        "words": 113,
+        "id": "gid://shopify/Collection/275290587179"
+      },
+      {
+        "handle": "bull-strap",
+        "words": 129,
+        "id": "gid://shopify/Collection/137272721431"
+      },
+      {
+        "handle": "all",
+        "words": 154,
+        "id": "gid://shopify/Collection/137272754199"
+      },
+      {
+        "handle": "bull-strap-tie-downs-and-recovery",
+        "words": 158,
+        "id": "gid://shopify/Collection/135839580183"
+      },
+      {
+        "handle": "accessories",
+        "words": 158,
+        "id": "gid://shopify/Collection/275720011819"
+      },
+      {
+        "handle": "barktact-dog-gear",
+        "words": 158,
+        "id": "gid://shopify/Collection/278083567659"
+      }
+    ],
+    "mid": [],
+    "close": []
+  },
+  "products": {
+    "empty": [
+      {
+        "handle": "medical-patch-emt-patch-pvc-rubber-1-5-x-1-5-velcro-hook-backing-1",
+        "words": 41,
+        "id": "gid://shopify/Product/4845596966955"
+      },
+      {
+        "handle": "thin-red-line-american-flag-patch-embroidered-2-x-3-patch-velcro-hook-backing",
+        "words": 41,
+        "id": "gid://shopify/Product/4864705691691"
+      },
+      {
+        "handle": "morale-patches-choose-style-embroidered-american-flag-patch-usa-thin-blue-line-thin-red-line-2-x-3-patch-w-velcro-hook-backing",
+        "words": 49,
+        "id": "gid://shopify/Product/5332216581"
+      },
+      {
+        "handle": "the-thin-red-line-american-flag-patch-pvc-rubber-2-x-3-velcro-hook-backing-choose-orientation-1",
+        "words": 49,
+        "id": "gid://shopify/Product/4864702808107"
+      }
+    ],
+    "thin": [
+      {
+        "handle": "the-thin-blue-line-flag-patch-pvc-rubber-w-velcro-hook-backing-thin-blue-line-american-flag-2-x-3-1",
+        "words": 50,
+        "id": "gid://shopify/Product/4864686981163"
+      },
+      {
+        "handle": "paracord-keychains",
+        "words": 50,
+        "id": "gid://shopify/Product/6596851990571"
+      },
+      {
+        "handle": "thin-blue-line-flag-patch-embroidered-2-x-3-morale-patch-w-velcro-hook-backing-choose-right-or-left",
+        "words": 51,
+        "id": "gid://shopify/Product/4864690061355"
+      },
+      {
+        "handle": "wrangler-rear-compartment-storage-tool-bag-for-jeep-wrangler-jlu-2018-23-bartact",
+        "words": 63,
+        "id": "gid://shopify/Product/1538297987095"
+      },
+      {
+        "handle": "headrest-grab-handles-for-vehicles-with-removable-head-rests-pair-of-2-plastic-grip-bartact",
+        "words": 71,
+        "id": "gid://shopify/Product/6634848387115"
+      },
+      {
+        "handle": "grab-handles-for-2007-2018-jeep-wrangler-jk-jku-rear-sound-bar-or-a-pillar-pair-of-2-bartact",
+        "words": 74,
+        "id": "gid://shopify/Product/6634806575147"
+      },
+      {
+        "handle": "storage-compartment-bag-for-jeep-wrangler-jku-2007-18-by-bartact",
+        "words": 75,
+        "id": "gid://shopify/Product/4828055273515"
+      },
+      {
+        "handle": "ifak-kit-pouch-molle-back-1000d-cordura-nylon-pals-compatible-choose-color",
+        "words": 80,
+        "id": "gid://shopify/Product/4879009087531"
+      },
+      {
+        "handle": "paracord-grab-handles-for-headrests-for-jeep-wrangler-jk-jku-jl-jlu-gladiator-toyota-tacoma-ford-bronco-and-other-vehicles-with-removable-head-rests-pair-of-2-bartact",
+        "words": 85,
+        "id": "gid://shopify/Product/1287792261"
+      },
+      {
+        "handle": "roll-bar-hooks-by-bartact-pair-of-2-for-jeep-wrangler-utv-rzr-x3-other-roll-cages-any-pals-molle-system",
+        "words": 94,
+        "id": "gid://shopify/Product/3422070149"
+      },
+      {
+        "handle": "dash-handle-storage-bag-for-jeep-wrangler-gladiator-utv-rzr-x3-passenger-grab-handle-by-bartact",
+        "words": 96,
+        "id": "gid://shopify/Product/6144431493"
+      },
+      {
+        "handle": "paracord-zipper-pulls-w-key-ring-qty-5-hand-woven-usa-550-paracord-bartact",
+        "words": 96,
+        "id": "gid://shopify/Product/6532287429"
+      },
+      {
+        "handle": "roll-bar-grab-handles-pair-by-bartact-rubber-grip-universal",
+        "words": 96,
+        "id": "gid://shopify/Product/7872634448"
+      },
+      {
+        "handle": "bronco-accessories-grab-handles-for-roll-bars-compatible-with-ford-bronco-2021-2022-2023-2024-2025-2026-full-size-plastic-grip-bartact",
+        "words": 96,
+        "id": "gid://shopify/Product/6640328474667"
+      },
+      {
+        "handle": "colored-grab-handles-custom-for-ford-bronco-full-size-2021-2022-2023-2024-2025-2026-pair-of-2-bartact-patent-pending",
+        "words": 96,
+        "id": "gid://shopify/Product/7105702723627"
+      },
+      {
+        "handle": "roll-bar-ifak-kit-pouch-molle-back-1000d-cordura-nylon-pals-compatible-choose-color-with-2-roll-bar-straps-1",
+        "words": 97,
+        "id": "gid://shopify/Product/4879062761515"
+      },
+      {
+        "handle": "usa-flag-embroidered-keychains",
+        "words": 98,
+        "id": "gid://shopify/Product/7021219971115"
+      },
+      {
+        "handle": "bartact-jeep-wrangler-storage-bag-36-with-dividers-xxbumpgeb",
+        "words": 100,
+        "id": "gid://shopify/Product/6174530821"
+      },
+      {
+        "handle": "automobile-seat-storage-bag-pet-barrier-organizer-for-vehicles-sun-shade-mesh-bartact-pat-pend",
+        "words": 100,
+        "id": "gid://shopify/Product/1566742282263"
+      },
+      {
+        "handle": "between-front-seat-storage-bag-backpack-seat-back-organizer-pet-barrier-fabric-by-bartact-universal-patent-pending",
+        "words": 100,
+        "id": "gid://shopify/Product/3243255562263"
+      },
+      {
+        "handle": "paracord-zipper-pulls-w-plastic-pull-qty-3-or-5-made-in-usa-550-paracord-1",
+        "words": 100,
+        "id": "gid://shopify/Product/4842050748459"
+      },
+      {
+        "handle": "canam-maverick-x3-fnr-storage-bag-for-front-middle-and-rear",
+        "words": 100,
+        "id": "gid://shopify/Product/6616570363947"
+      },
+      {
+        "handle": "bar-slaps-beer-soda-can-bottle-grips-bracelets-store-on-roll-bar-grab-handle-wrist-bartact",
+        "words": 100,
+        "id": "gid://shopify/Product/6938168524843"
+      },
+      {
+        "handle": "car-seat-lumbar-support-air-bladder-with-manual-pump-and-release-valve-bartact-seat-covers",
+        "words": 101,
+        "id": "gid://shopify/Product/5569621637"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-acetal-t-bar-w-d-rings-pair-of-2-1",
+        "words": 101,
+        "id": "gid://shopify/Product/3951687434263"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-acetal-t-bar-w-heavy-duty-d-rings-pair-of-2",
+        "words": 101,
+        "id": "gid://shopify/Product/4847337865259"
+      },
+      {
+        "handle": "bartact-gift-card",
+        "words": 102,
+        "id": "gid://shopify/Product/1409112069"
+      },
+      {
+        "handle": "bartact-snapback-trucker-cap-with-breathable-mesh",
+        "words": 102,
+        "id": "gid://shopify/Product/6534502789"
+      },
+      {
+        "handle": "bartact-beanie-cap",
+        "words": 102,
+        "id": "gid://shopify/Product/6534604805"
+      },
+      {
+        "handle": "bartact-keychain",
+        "words": 102,
+        "id": "gid://shopify/Product/7977970832"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-t-bar-swivel-hooks-pair-of-2-1",
+        "words": 102,
+        "id": "gid://shopify/Product/3951683371031"
+      },
+      {
+        "handle": "bartact-braided-elastic-1-4-black-1",
+        "words": 102,
+        "id": "gid://shopify/Product/4428704677931"
+      },
+      {
+        "handle": "tj-door-handles-paracord-jeep-grab-handles-for-jeep-wrangler-tj-lj-97-06-interior-door-pull-handles-550-paracord-grab-handles-w-grommets-pair-bartact",
+        "words": 102,
+        "id": "gid://shopify/Product/4826049740843"
+      },
+      {
+        "handle": "car-seat-heater-kit-universal-warmer-12v-hi-lo-off-toggle-switch",
+        "words": 102,
+        "id": "gid://shopify/Product/4867168895019"
+      },
+      {
+        "handle": "fire-aerosol-blaze-defense-bds40-fireade-mk20-finger-loop-1",
+        "words": 102,
+        "id": "gid://shopify/Product/6561616986155"
+      },
+      {
+        "handle": "fire-aerosol-blaze-defense-bds40-fireade-mk9-finger-loop",
+        "words": 102,
+        "id": "gid://shopify/Product/6561617215531"
+      },
+      {
+        "handle": "bronco-accessories-door-storage-pocket-bags-for-ford-bronco-2021-full-size-front-door-interior-storage-bartact-pat-pending",
+        "words": 102,
+        "id": "gid://shopify/Product/6797890093099"
+      },
+      {
+        "handle": "barktact-tactical-dog-vest-k9-harness-bartact",
+        "words": 102,
+        "id": "gid://shopify/Product/7122292342827"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-acetal-t-bar-w-powdercoated-steel-d-rings-pair-of-2",
+        "words": 103,
+        "id": "gid://shopify/Product/4847340945451"
+      },
+      {
+        "handle": "molle-attachments-bartact-pals-molle-t-bar-metal-swivel-hooks-pair-of-2-1",
+        "words": 104,
+        "id": "gid://shopify/Product/4847326756907"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-acetal-t-bar-w-powdercoated-steel-hk-hook-pair-of-2",
+        "words": 105,
+        "id": "gid://shopify/Product/4847368798251"
+      },
+      {
+        "handle": "bartact-cargo-pet-barrier-divider-shade-jeep-wrangler-jlu-rear-bench-upper-pat-pending",
+        "words": 106,
+        "id": "gid://shopify/Product/1594804043799"
+      },
+      {
+        "handle": "molle-attachments-bartact-pals-molle-t-bar-heavy-duty-acetal-swivel-hooks-pair-of-2-1",
+        "words": 106,
+        "id": "gid://shopify/Product/4847329673259"
+      },
+      {
+        "handle": "paracord-grab-handles-for-jeep-wrangler-2007-18-jk-jku-rear-sound-bar-or-front-a-pillar-pair-of-2-made-in-usa-550-paracord-bartact",
+        "words": 107,
+        "id": "gid://shopify/Product/1287496645"
+      },
+      {
+        "handle": "cordura-nylon-1000d-large-extreme-duffel-bag-28-x-14-x-14-5-bartact",
+        "words": 108,
+        "id": "gid://shopify/Product/1420793861"
+      },
+      {
+        "handle": "cordura-nylon-1000d-medium-extreme-duffel-bag-21-x-14-x-14-5-bartact",
+        "words": 108,
+        "id": "gid://shopify/Product/1420797509"
+      },
+      {
+        "handle": "american-flag-patch-pvc-rubber-w-color-options-usa-flag-patch-thin-blue-line-patch-thin-red-line-patch-2-x-3-w-velcro-hook-backing",
+        "words": 108,
+        "id": "gid://shopify/Product/9778352208"
+      },
+      {
+        "handle": "molle-attachments-bartact-pals-molle-siamese-slik-clip-field-repair-buckle-kit-1-10-pack",
+        "words": 108,
+        "id": "gid://shopify/Product/4836230266923"
+      },
+      {
+        "handle": "american-flag-patches-choose-style-pvc-rubber-2-x-3-w-velcro-hook-backing",
+        "words": 108,
+        "id": "gid://shopify/Product/4864702349355"
+      },
+      {
+        "handle": "american-flag-patch-subdued-grey-pvc-rubber-2-x-3-w-velcro-hook-backing",
+        "words": 108,
+        "id": "gid://shopify/Product/4864710574123"
+      },
+      {
+        "handle": "4runner-center-console-cover-for-toyota-4runner-2011-24-standard-trd-console-lid-padded-bartact",
+        "words": 109,
+        "id": "gid://shopify/Product/4800947257387"
+      },
+      {
+        "handle": "bartact-heavy-duty-bull-strap-ratchet-tie-downs-w-adj-axle-strap-2-inch-x-12-ft-qty-2",
+        "words": 110,
+        "id": "gid://shopify/Product/3879097040919"
+      },
+      {
+        "handle": "door-limiting-straps-adjustable-pair-of-2-for-jeep-wrangler-1976-06-cj-yj-tj-lj-bartact",
+        "words": 110,
+        "id": "gid://shopify/Product/6608309452843"
+      },
+      {
+        "handle": "adjustable-paracord-door-limiting-straps-pair-of-2-for-1976-06-jeep-wrangler-cj-yj-tj-jk-jku-jl-jlu-gladiator-bartact",
+        "words": 110,
+        "id": "gid://shopify/Product/6608310042667"
+      },
+      {
+        "handle": "bull-strap-3-4-heavy-duty-8t-d-ring-shackles-kit-w-isolators-washers-qty-2",
+        "words": 110,
+        "id": "gid://shopify/Product/6959479423019"
+      },
+      {
+        "handle": "bull-strap-3-4-5t-d-ring-shackle-kit-w-isolators-washers-qty-2",
+        "words": 110,
+        "id": "gid://shopify/Product/6959484862507"
+      },
+      {
+        "handle": "bull-strap-2-hitch-receiver-w-3-4-5t-d-ring-shackle-isolators-washers-pin",
+        "words": 110,
+        "id": "gid://shopify/Product/6959527886891"
+      },
+      {
+        "handle": "door-limiting-strap-stainless-steel-footman-loops-brackets-pair-of-2-compatible-with-jeep-wrangler-1976-06-cj-yj-tj-bartact",
+        "words": 110,
+        "id": "gid://shopify/Product/6962340266027"
+      },
+      {
+        "handle": "door-limiting-strap-stainless-steel-black-powdercoated-footman-loops-brackets-pair-of-2-compatible-with-jeep-wrangler-1976-06-cj-yj-tj-bartact",
+        "words": 110,
+        "id": "gid://shopify/Product/6988987924523"
+      },
+      {
+        "handle": "door-limiting-straps-black-footman-loops-adjustable-pair-of-2-for-jeep-wrangler-1976-06-cj-yj-tj-lj-bartact",
+        "words": 110,
+        "id": "gid://shopify/Product/7055415869483"
+      },
+      {
+        "handle": "door-limiting-straps-silver-footman-loops-adjustable-pair-of-2-for-jeep-wrangler-1976-06-cj-yj-tj-lj-bartact",
+        "words": 110,
+        "id": "gid://shopify/Product/7055416721451"
+      },
+      {
+        "handle": "console-cover-for-toyota-tacoma-2016-24-standard-and-trd-padded-by-bartact",
+        "words": 112,
+        "id": "gid://shopify/Product/1539768483863"
+      },
+      {
+        "handle": "center-console-cover-for-jeep-gladiator-2019-padded-bartact",
+        "words": 112,
+        "id": "gid://shopify/Product/3497904341015"
+      },
+      {
+        "handle": "bronco-accessories-console-cover-for-ford-bronco-2021-2022-2023-2024-2025-full-size-bartact",
+        "words": 112,
+        "id": "gid://shopify/Product/6755510222891"
+      },
+      {
+        "handle": "bronco-accessories-center-console-storage-bag-for-ford-bronco-2021-2022-2023-2024-2025-2026-passenger-side-lower-area-bartact-pat-pending",
+        "words": 112,
+        "id": "gid://shopify/Product/6984534982699"
+      },
+      {
+        "handle": "center-console-cover-for-jeep-wrangler-jk-jku-2007-10-2-taller-padded-foam-bartact",
+        "words": 113,
+        "id": "gid://shopify/Product/1314662661"
+      },
+      {
+        "handle": "center-console-cover-for-jeep-wrangler-jl-jlu-2018-padded-bartact",
+        "words": 113,
+        "id": "gid://shopify/Product/1502943182871"
+      },
+      {
+        "handle": "flashlight-holder-extreme-roll-bar-pals-molle-compatible-for-2-3-and-4-d-and-c-cell-lights-bartact",
+        "words": 114,
+        "id": "gid://shopify/Product/1314573573"
+      },
+      {
+        "handle": "bull-strap-1-adjustable-bull-wrap-heavy-duty-utility-cinch-strap-w-hook-loop-pals-molle-compatible-tie-pair-of-2-bull-strap-by-bartact",
+        "words": 114,
+        "id": "gid://shopify/Product/3878979993623"
+      },
+      {
+        "handle": "can-am-x3-door-bags-front-pair-driver-and-passenger-w-pals-molle-and-lockable-interior-pistol-pocket-bartact",
+        "words": 114,
+        "id": "gid://shopify/Product/4848866885675"
+      },
+      {
+        "handle": "can-am-x3-door-bags-rear-pair-driver-and-passenger-w-pals-molle-and-padded-interior-pocket",
+        "words": 114,
+        "id": "gid://shopify/Product/4848917446699"
+      },
+      {
+        "handle": "bartact-brand-new-item-backpack-tactical-pals-molle-berry-compliant-1",
+        "words": 114,
+        "id": "gid://shopify/Product/6595070656555"
+      },
+      {
+        "handle": "bartact-dual-magnet-kit-compatible-with-element-e50-e100-fire-extinguisher-a-b-c-k-50-100-second-mount-for-kitchen-or-shop-plastic-mount-extinguisher-not-included",
+        "words": 115,
+        "id": "gid://shopify/Product/6980913922091"
+      },
+      {
+        "handle": "console-organizer-door-pouch-for-jeep-wrangler-jl-jlu-and-gladiator-bartact-patent-pending",
+        "words": 117,
+        "id": "gid://shopify/Product/6596551114795"
+      },
+      {
+        "handle": "bronco-accessories-front-door-molle-storage-panel-for-ford-bronco-2021-bartact-pat-pending",
+        "words": 117,
+        "id": "gid://shopify/Product/6798455668779"
+      },
+      {
+        "handle": "bronco-accessories-console-organizer-shade-mesh-pouch-for-ford-bronco-2021-2022-2023-2024-2025-center-console-passenger-side-lower-area-bartact-pat-pending",
+        "words": 117,
+        "id": "gid://shopify/Product/6804465451051"
+      },
+      {
+        "handle": "bronco-accessories-console-lid-organizer-shade-mesh-pouch-for-ford-bronco-2021-2022-2023-2024-2025-center-console-driver-or-passenger-side-bartact-pat-pending",
+        "words": 117,
+        "id": "gid://shopify/Product/6804848574507"
+      },
+      {
+        "handle": "bronco-accessories-visor-covers-w-molle-for-ford-bronco-2021-2022-2023-2024-2025-full-size-sun-visor-panel-storage-bartact-pat-pending-front-pair",
+        "words": 117,
+        "id": "gid://shopify/Product/7063602331691"
+      },
+      {
+        "handle": "center-console-cover-for-jeep-wrangler-jk-jku-2011-18-padded-w-molle-bartact",
+        "words": 118,
+        "id": "gid://shopify/Product/1314651013"
+      },
+      {
+        "handle": "polaris-rzr-door-bags-molle-panel-front-pair-driver-and-passenger-w-pals-molle-panel-bartact-2",
+        "words": 118,
+        "id": "gid://shopify/Product/6616587010091"
+      },
+      {
+        "handle": "polaris-rzr-door-bags-molle-panel-rear-pair-driver-and-passenger-w-pals-molle-panel-bartact",
+        "words": 118,
+        "id": "gid://shopify/Product/6616604409899"
+      },
+      {
+        "handle": "molle-attachments-pals-molle-dual-snap-bar-fast-clips-field-repair-side-release-buckle-kit-1-male-female-bartact",
+        "words": 120,
+        "id": "gid://shopify/Product/4836225974315"
+      },
+      {
+        "handle": "full-custom-bronco-seat-covers-front-tactical-custom-seat-covers-for-ford-bronco-full-size-2021-current-4-door-only-bartact",
+        "words": 123,
+        "id": "gid://shopify/Product/6987233067051"
+      },
+      {
+        "handle": "fully-customized-bronco-bench-custom-seat-covers-tactical-for-ford-bronco-2021-2022-2023-2024-2025-full-size-4-door-rear-no-armrest-only-bartact",
+        "words": 124,
+        "id": "gid://shopify/Product/6987242274859"
+      },
+      {
+        "handle": "visor-organizer-panel-universal-w-pals-molle-zippered-pocket-for-mid-size-vehicle-visors-bartact",
+        "words": 133,
+        "id": "gid://shopify/Product/6605454475307"
+      },
+      {
+        "handle": "tactical-toiletry-bag",
+        "words": 134,
+        "id": "gid://shopify/Product/6609869701163"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-every-which-way-versa-buckle-snap-bar-field-repair-male-side-release-buckle-kit-1",
+        "words": 142,
+        "id": "gid://shopify/Product/4836228890667"
+      },
+      {
+        "handle": "knight-torch-m36zpb-high-output-zoomable-rechargeable-weatherproof-flashlight",
+        "words": 143,
+        "id": "gid://shopify/Product/7092778926123"
+      },
+      {
+        "handle": "off-road-jack-cover-compatible-with-hi-lift-w-pals-molle-storage-bartact-pat-pending",
+        "words": 146,
+        "id": "gid://shopify/Product/3490897920023"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-d-ring-acetal-every-which-way-quick-side-release-buckle-kit-pair-of-2-1",
+        "words": 146,
+        "id": "gid://shopify/Product/3951688777751"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-acetal-heavy-duty-d-ring-w-every-which-way-quick-side-release-buckle-kit-pair-of-2",
+        "words": 149,
+        "id": "gid://shopify/Product/4847350186027"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-powdercoated-steel-d-ring-w-every-which-way-quick-side-release-buckle-kit-pair-of-2",
+        "words": 149,
+        "id": "gid://shopify/Product/4847353167915"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-black-powdercoated-steel-hk-hook-w-every-which-way-quick-side-release-buckle-kit-pair-of-2",
+        "words": 150,
+        "id": "gid://shopify/Product/4847367651371"
+      },
+      {
+        "handle": "molle-pouch-7-x-7-x-2-5-lightweight-pals-molle-gear-compatible",
+        "words": 154,
+        "id": "gid://shopify/Product/1314728965"
+      },
+      {
+        "handle": "molle-sunglass-case-by-bartact-padded-molle-sunglasses-pouch",
+        "words": 155,
+        "id": "gid://shopify/Product/1420257349"
+      },
+      {
+        "handle": "knight-torch-m18cpb-high-output-rechargeable-weatherproof-flashlight-with-cob-light-and-red-safety-strobe",
+        "words": 156,
+        "id": "gid://shopify/Product/7092743503915"
+      },
+      {
+        "handle": "molle-attachment-accessories-by-bartact-pals-molle-t-bar-adjustable-elastic-storage-strap",
+        "words": 160,
+        "id": "gid://shopify/Product/3951692382231"
+      },
+      {
+        "handle": "molle-pouch-for-jeep-wrangler-jl-jlu-gladiator-rubicon-only-2018-23-back-seat-with-molle-14-x-5-5-x-2-5-bartact",
+        "words": 162,
+        "id": "gid://shopify/Product/592257679383"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-acetal-swivel-hook-every-which-way-quick-side-release-buckle-kit-pair-of-2",
+        "words": 163,
+        "id": "gid://shopify/Product/3951690907671"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-acetal-heavy-duty-swivel-hook-every-which-way-quick-side-release-buckle-kit-pair-of-2",
+        "words": 166,
+        "id": "gid://shopify/Product/4847332163627"
+      },
+      {
+        "handle": "molle-attachments-by-bartact-pals-molle-metal-heavy-duty-swivel-hook-every-which-way-quick-side-release-buckle-kit-pair-of-2-1",
+        "words": 167,
+        "id": "gid://shopify/Product/4847333638187"
+      },
+      {
+        "handle": "molle-pouch-pals-molle-gear-compatible-14-x-5-5-x-2-5-lightweight-600d-uv-protected-polyester",
+        "words": 169,
+        "id": "gid://shopify/Product/1314729989"
+      },
+      {
+        "handle": "winch-cover-for-warn-zeon-10-and-12-patent-pending-bartact",
+        "words": 179,
+        "id": "gid://shopify/Product/8633593168"
+      },
+      {
+        "handle": "hisun-strike-250-rear-net-tactical-molle-compatible-cargo-net-rear-window-for-stock-cage-pat-pending-by-bartact-1",
+        "words": 181,
+        "id": "gid://shopify/Product/4854111469611"
+      },
+      {
+        "handle": "ratchet-tie-down-strap-heavy-duty-w-twist-snap-hooks-bull-strap-2-x-12-10-000-lb",
+        "words": 184,
+        "id": "gid://shopify/Product/3879029702679"
+      },
+      {
+        "handle": "molle-toyota-tacoma-2016-23-visor-covers-dual-mirror-cut-outs-by-bartact-w-pals-molle-pair",
+        "words": 184,
+        "id": "gid://shopify/Product/4825154289707"
+      },
+      {
+        "handle": "roll-bar-bag-barrel-for-jeep-wrangler-gladiator-and-other-roll-bars-dash-handle-pals-molle-system-size-medium-bartact",
+        "words": 187,
+        "id": "gid://shopify/Product/1420574277"
+      },
+      {
+        "handle": "molle-visor-covers-for-jeep-gladiator-jt-2019-no-garage-door-opener-cut-out-w-pals-molle-pair-bartact",
+        "words": 189,
+        "id": "gid://shopify/Product/4819969900587"
+      },
+      {
+        "handle": "winch-cover-for-warn-vr-evo-new-gen-vr-10-and-12-patent-pendng-bartact",
+        "words": 189,
+        "id": "gid://shopify/Product/6592290619435"
+      },
+      {
+        "handle": "winch-cover-for-warn-xd9-m8-9-5xp-gen-i-vr-pat-pending-bartact",
+        "words": 190,
+        "id": "gid://shopify/Product/586691772439"
+      },
+      {
+        "handle": "fire-extinguisher-holder-mount-for-padded-roll-bars-holds-optional-2-5-5-lb-extinguisher-bartact",
+        "words": 191,
+        "id": "gid://shopify/Product/6225774853"
+      },
+      {
+        "handle": "ratchet-tie-down-straps-w-twist-snap-hooks-qty-4-w-4-free-bull-wraps-bull-strap-2-x-12-10-000-lb-heavy-duty",
+        "words": 191,
+        "id": "gid://shopify/Product/3879048282135"
+      },
+      {
+        "handle": "ratchet-tie-down-straps-heavy-duty-w-twist-snap-hooks-pair-of-2-w-2-free-bull-wraps-bull-strap-2-x-12-10-000-lb",
+        "words": 192,
+        "id": "gid://shopify/Product/3879047200791"
+      },
+      {
+        "handle": "ratchet-tie-down-strap-w-twist-snap-hooks-adj-axle-strap-combo-bull-strap-2-x-12-10-000-lb-heavy-duty",
+        "words": 195,
+        "id": "gid://shopify/Product/3879017021463"
+      },
+      {
+        "handle": "ratchet-tie-down-strap-w-s-hooks-bull-strap-1-x-12-medium-duty-2-500-lb-1",
+        "words": 196,
+        "id": "gid://shopify/Product/3878974324759"
+      },
+      {
+        "handle": "molle-visor-covers-for-jeep-wrangler-jl-jlu-2018-no-garage-door-opener-cut-out-w-pals-molle-pair-bartact",
+        "words": 196,
+        "id": "gid://shopify/Product/4819969015851"
+      },
+      {
+        "handle": "molle-velcro-panel-net-for-toyota-4runner-rear-bench-2nd-row-2010-21-pat-pending-bartact",
+        "words": 197,
+        "id": "gid://shopify/Product/4860343091243"
+      },
+      {
+        "handle": "molle-visor-covers-for-jeep-wrangler-jl-jlu-2018-w-garage-door-opener-cut-out-w-pals-molle-pair-bartact",
+        "words": 198,
+        "id": "gid://shopify/Product/3824764026903"
+      },
+      {
+        "handle": "head-rest-covers-pair-for-jeep-gladiator-2019-front-seats",
+        "words": 199,
+        "id": "gid://shopify/Product/3497903063063"
+      },
+      {
+        "handle": "ratchet-tie-down-straps-w-s-hooks-pair-of-2-bull-strap-1-x-12-medium-duty",
+        "words": 199,
+        "id": "gid://shopify/Product/3879107461143"
+      },
+      {
+        "handle": "molle-visor-covers-for-jeep-gladiator-2019-jt-truck-w-garage-door-opener-cut-out-w-pals-molle-pair-bartact",
+        "words": 200,
+        "id": "gid://shopify/Product/3824769859607"
+      },
+      {
+        "handle": "ratchet-tie-down-straps-w-twist-snap-hooks-adj-axle-strap-combo-heavy-duty-pair-of-4-w-4-free-bull-wraps-bull-strap-2-x-12-10-000-lb",
+        "words": 203,
+        "id": "gid://shopify/Product/3879098023959"
+      },
+      {
+        "handle": "roll-bar-bag-barrel-pals-molle-compatible-for-jeep-wrangler-gladiator-and-other-roll-bars-dash-handle-size-large-bartact",
+        "words": 207,
+        "id": "gid://shopify/Product/1420588549"
+      },
+      {
+        "handle": "molle-seat-back-panel-pouch-system-w-2-zippered-pockets-bartact-patent-pending",
+        "words": 216,
+        "id": "gid://shopify/Product/6605453623339"
+      },
+      {
+        "handle": "ratchet-tie-down-straps-w-s-hooks-qty-4-w-free-recovery-bag-bull-strap-1-x-12-medium-duty",
+        "words": 218,
+        "id": "gid://shopify/Product/3879107756055"
+      },
+      {
+        "handle": "molle-visor-covers-for-mirrored-visors-with-pals-molle-pair-for-2007-18-jeep-wrangler-jk-jku-by-bartact",
+        "words": 219,
+        "id": "gid://shopify/Product/395721834519"
+      },
+      {
+        "handle": "universal-seat-belt-covers-pair-12-inches-tall-bartact",
+        "words": 221,
+        "id": "gid://shopify/Product/6137573125"
+      },
+      {
+        "handle": "limit-strap-clevis-silver-bull-strap",
+        "words": 227,
+        "id": "gid://shopify/Product/4828050718763"
+      },
+      {
+        "handle": "jeep-grab-handles-for-roll-bar-pair-of-2-paracord-grab-handles-for-jeep-wrangler-gladiator-polaris-rzr-canam-maverick-x3",
+        "words": 228,
+        "id": "gid://shopify/Product/1287344773"
+      },
+      {
+        "handle": "bronco-paracord-grab-handles-custom-for-ford-bronco-full-size-2021-2022-2023-2024-2025-2026-pair-of-2-bartact",
+        "words": 231,
+        "id": "gid://shopify/Product/6634585882667"
+      },
+      {
+        "handle": "paracord-grab-handles-for-roll-bars-set-of-4-for-jeep-wrangler-jl-jlu-tj-yj-cj-gladiator-utv-rzr-x3-front-and-rear-bartact",
+        "words": 235,
+        "id": "gid://shopify/Product/3948249481239"
+      },
+      {
+        "handle": "spare-tire-trash-bag-pet-divider-pat-pend-for-jeep-wrangler-gladiator-ford-bronco-bartact",
+        "words": 239,
+        "id": "gid://shopify/Product/6614618603563"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-cover-for-jeep-wrangler-tj-1997-02-w-molle-bartact",
+        "words": 255,
+        "id": "gid://shopify/Product/6981965938731"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-cover-for-jeep-wrangler-tj-lj-2003-06-bartact-w-molle",
+        "words": 258,
+        "id": "gid://shopify/Product/6973417717803"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-covers-for-jeep-wrangler-4xe-jlu-2021-4-door-bartact-with-fold-down-armrest-only-4xe-edition-only-w-molle-3",
+        "words": 261,
+        "id": "gid://shopify/Product/6992429088811"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-cover-for-jeep-wrangler-jk-2013-18-2-door-bartact-w-molle",
+        "words": 264,
+        "id": "gid://shopify/Product/6954455859243"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-covers-for-jeep-wrangler-jku-2013-18-4-door-bartact-w-molle",
+        "words": 266,
+        "id": "gid://shopify/Product/6959597125675"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-covers-for-jeep-wrangler-jku-2011-12-4-door-bartact-w-molle",
+        "words": 266,
+        "id": "gid://shopify/Product/6959940665387"
+      },
+      {
+        "handle": "fire-extinguisher-holder-roll-bar-mount-for-optional-2-5-lb-fire-extinguisher-pals-molle-compatible-bartact-patent-pending",
+        "words": 272,
+        "id": "gid://shopify/Product/1314574277"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-covers-for-jeep-wrangler-jlu-2018-4-door-bartact-no-fold-down-armrest-only-not-for-4xe-edition-w-molle",
+        "words": 275,
+        "id": "gid://shopify/Product/6989961723947"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-covers-for-jeep-wrangler-jlu-2018-4-door-bartact-with-fold-down-armrest-only-not-for-4xe-edition-w-molle",
+        "words": 276,
+        "id": "gid://shopify/Product/6992450977835"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-covers-for-jeep-wrangler-jku-2008-10-4-door-bartact-w-molle",
+        "words": 298,
+        "id": "gid://shopify/Product/6959942271019"
+      },
+      {
+        "handle": "fully-customized-rear-bench-tactical-seat-covers-for-jeep-wrangler-jku-2007-4-door-bartact-w-molle",
+        "words": 299,
+        "id": "gid://shopify/Product/6959943876651"
+      }
+    ]
+  },
+  "summary": {
+    "totalCollections": 119,
+    "collectionsBelowFloor": 12,
+    "collectionsCompliant": 107,
+    "totalProductsAudited": 255,
+    "productsBelowMin": 147,
+    "productsOk": 108
+  }
+}

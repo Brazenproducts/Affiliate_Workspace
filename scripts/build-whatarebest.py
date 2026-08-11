@@ -2923,3 +2923,6 @@ if __name__ == "__main__":
         show_stats()
     else:
         build_all(only_cat=args.only)
+        # Post-build: submit to Google Indexing API + IndexNow
+        from build_utils import post_build_submit
+        post_build_submit('whatarebest.com')

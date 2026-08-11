@@ -367,3 +367,8 @@ build_kitchen_scale()
 build_resistance_bands()
 build_meat_thermometer()
 print("Done.")
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+for _d in ['bestkitchenscale.com', 'bestresistance-bands.com', 'bestmeatthermometer.com']:
+    post_build_submit(_d)

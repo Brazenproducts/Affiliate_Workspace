@@ -68,3 +68,9 @@ Collection tamper flags:       7
 Collections verified clean:    0
 
 ⚠️  ACTION REQUIRED: Collection title tampering detected — review above flags.
+◇ injected env (0) from ../.env // tip: ◈ secrets for agents [www.dotenvx.com]
+=== Bartact SEO Weekly Maintenance ===
+Run time: 2026-08-09T06:00:01.219Z
+
+Fetching all active products via GraphQL...
+FATAL: Failed to fetch products: GraphQL errors: "[API] Invalid API key or access token (unrecognized login or wrong password)"

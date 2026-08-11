@@ -13,3 +13,5 @@ node_modules/
 .gcp-service-account.json
 *-credentials.json
 *-service-account.json
+memory/*.md
+tmp/

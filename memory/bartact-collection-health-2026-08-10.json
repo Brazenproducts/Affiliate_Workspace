@@ -1,0 +1,245 @@
+{
+  "date": "2026-08-10",
+  "dryRun": true,
+  "summary": {
+    "total": 134,
+    "smart": 90,
+    "custom": 44,
+    "published": 119,
+    "unpublished": 15,
+    "autoFixed": 0
+  },
+  "priorityStatus": [
+    {
+      "handle": "jeep-wrangler-seat-covers",
+      "id": 275720732715,
+      "status": "OK"
+    },
+    {
+      "handle": "jeep-wrangler-jl-seat-covers",
+      "id": 688526164011,
+      "status": "OK"
+    },
+    {
+      "handle": "jeep-wrangler-jk-seat-covers",
+      "id": 687837380651,
+      "status": "OK"
+    },
+    {
+      "handle": "jeep-gladiator-seat-covers",
+      "id": 688530751531,
+      "status": "OK"
+    },
+    {
+      "handle": "ford-bronco-seat-covers",
+      "id": 265140207659,
+      "status": "OK"
+    },
+    {
+      "handle": "toyota-tacoma-seat-covers",
+      "id": 275721355307,
+      "status": "OK"
+    },
+    {
+      "handle": "jeep-wrangler-grab-handles",
+      "id": 688348856363,
+      "status": "OK"
+    },
+    {
+      "handle": "ford-bronco-grab-handles",
+      "id": 688348921899,
+      "status": "OK"
+    },
+    {
+      "handle": "jeep-gladiator-grab-handles",
+      "id": 688348889131,
+      "status": "OK"
+    },
+    {
+      "handle": "jeep-wrangler-jl-storage-bags",
+      "id": 688526622763,
+      "status": "OK"
+    },
+    {
+      "handle": "ford-bronco-storage-bags",
+      "id": 688526786603,
+      "status": "OK"
+    },
+    {
+      "handle": "jeep-wrangler-jl-molle-accessories",
+      "id": 688526196779,
+      "status": "OK"
+    }
+  ],
+  "autoFixed": [],
+  "intentionallyUnpublished": [
+    {
+      "handle": "face-masks",
+      "id": 158634836011,
+      "type": "smart"
+    },
+    {
+      "handle": "jeep-gladiator-seat-covers-1",
+      "id": 261741838379,
+      "type": "smart"
+    },
+    {
+      "handle": "jeep-wrangler-seat-covers-1",
+      "id": 261740920875,
+      "type": "smart"
+    },
+    {
+      "handle": "molle-storage-strips",
+      "id": 137405857815,
+      "type": "smart"
+    },
+    {
+      "handle": "toyota-tacoma-seat-covers-1",
+      "id": 261741871147,
+      "type": "smart"
+    },
+    {
+      "handle": "winch-covers",
+      "id": 137430564887,
+      "type": "smart"
+    },
+    {
+      "handle": "ebay-collection",
+      "id": 679584071723,
+      "type": "custom"
+    },
+    {
+      "handle": "flashlights",
+      "id": 281632178219,
+      "type": "custom"
+    },
+    {
+      "handle": "hitch-covers",
+      "id": 281627525163,
+      "type": "custom"
+    },
+    {
+      "handle": "hitch-receivers",
+      "id": 281613369387,
+      "type": "custom"
+    },
+    {
+      "handle": "motorcycle-gear",
+      "id": 415299216,
+      "type": "custom"
+    },
+    {
+      "handle": "roll-bar-covers",
+      "id": 238667333,
+      "type": "custom"
+    },
+    {
+      "handle": "seat-belt-safety-harnesses",
+      "id": 36935172119,
+      "type": "custom"
+    },
+    {
+      "handle": "seat-belts-harnesses",
+      "id": 281628999723,
+      "type": "custom"
+    },
+    {
+      "handle": "winch-shackle-1",
+      "id": 279903797291,
+      "type": "custom"
+    }
+  ],
+  "unknownUnpublished": [],
+  "allUnpublished": [
+    {
+      "handle": "face-masks",
+      "id": 158634836011,
+      "type": "smart",
+      "title": "Face Masks"
+    },
+    {
+      "handle": "jeep-gladiator-seat-covers-1",
+      "id": 261741838379,
+      "type": "smart",
+      "title": "Jeep Gladiator Seat Covers"
+    },
+    {
+      "handle": "jeep-wrangler-seat-covers-1",
+      "id": 261740920875,
+      "type": "smart",
+      "title": "Jeep Wrangler Seat Covers"
+    },
+    {
+      "handle": "molle-storage-strips",
+      "id": 137405857815,
+      "type": "smart",
+      "title": "MOLLE Storage Strips"
+    },
+    {
+      "handle": "toyota-tacoma-seat-covers-1",
+      "id": 261741871147,
+      "type": "smart",
+      "title": "Toyota Tacoma Seat Covers"
+    },
+    {
+      "handle": "winch-covers",
+      "id": 137430564887,
+      "type": "smart",
+      "title": "Winch Covers"
+    },
+    {
+      "handle": "ebay-collection",
+      "id": 679584071723,
+      "type": "custom",
+      "title": "Ebay Storage Collection"
+    },
+    {
+      "handle": "flashlights",
+      "id": 281632178219,
+      "type": "custom",
+      "title": "Flashlights"
+    },
+    {
+      "handle": "hitch-covers",
+      "id": 281627525163,
+      "type": "custom",
+      "title": "Hitch Covers"
+    },
+    {
+      "handle": "hitch-receivers",
+      "id": 281613369387,
+      "type": "custom",
+      "title": "Hitch Receivers"
+    },
+    {
+      "handle": "motorcycle-gear",
+      "id": 415299216,
+      "type": "custom",
+      "title": "Motorcycle Gear"
+    },
+    {
+      "handle": "roll-bar-covers",
+      "id": 238667333,
+      "type": "custom",
+      "title": "Roll Bar Covers"
+    },
+    {
+      "handle": "seat-belt-safety-harnesses",
+      "id": 36935172119,
+      "type": "custom",
+      "title": "Seat Belt Safety Harnesses"
+    },
+    {
+      "handle": "seat-belts-harnesses",
+      "id": 281628999723,
+      "type": "custom",
+      "title": "Seat Belts & Harnesses"
+    },
+    {
+      "handle": "winch-shackle-1",
+      "id": 279903797291,
+      "type": "custom",
+      "title": "Winch Shackle"
+    }
+  ]
+}

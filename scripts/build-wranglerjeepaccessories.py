@@ -1063,3 +1063,7 @@ def build():
 if __name__ == '__main__':
     total, written = build()
     print(f'Done. Total pages in builder: {total}')
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+post_build_submit('wranglerjeepaccessories.com')

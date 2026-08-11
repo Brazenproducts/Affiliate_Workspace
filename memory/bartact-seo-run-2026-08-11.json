@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-11T16:00:00.000Z",
+  "pipeline": "Bartact Daily SEO Rankings & Auto-Fix",
+  "rankings": {
+    "clicks": 437,
+    "clicks_wow_pct": -8,
+    "impressions": 5227,
+    "page1_keywords": 126,
+    "top3_keywords": 25,
+    "notable_drops": [
+      { "kw": "best jeep gladiator seat covers", "from": 6.4, "to": 31.0 },
+      { "kw": "best jeep tj seat covers", "from": 5.0, "to": 13.0 },
+      { "kw": "2021 ford bronco accessories", "from": 2.2, "to": 8.9 },
+      { "kw": "jeep tj seat covers", "from": 8.6, "to": 11.9 }
+    ],
+    "notable_gains": [
+      { "kw": "1990 jeep wrangler seat covers", "from": 60.5, "to": 36.0 },
+      { "kw": "1999 jeep tj seat covers", "from": 30.3, "to": 10.3 },
+      { "kw": "bronco accessories", "from": 13.6, "to": 7.4 }
+    ]
+  },
+  "thin_content_fixes": 0,
+  "blog_articles_published": [
+    {
+      "id": 568579325995,
+      "title": "The Best Ford Bronco Seat Covers: Protect Your Interior Without Sacrificing Style",
+      "handle": "the-best-ford-bronco-seat-covers-protect-your-interior-without-sacrificing-style",
+      "target_kw": "bronco seat covers",
+      "url": "https://bartact.com/blogs/news/the-best-ford-bronco-seat-covers-protect-your-interior-without-sacrificing-style"
+    },
+    {
+      "id": 568579358763,
+      "title": "Jeep TJ Seat Covers: Tough Protection for Your Wrangler's Interior",
+      "handle": "jeep-tj-seat-covers-tough-protection-for-your-wranglers-interior",
+      "target_kw": "jeep tj seat covers",
+      "url": "https://bartact.com/blogs/news/jeep-tj-seat-covers-tough-protection-for-your-wranglers-interior"
+    }
+  ],
+  "indexnow": {
+    "status": 200,
+    "urls_submitted": 12
+  },
+  "telegram_summary_sent": true
+}

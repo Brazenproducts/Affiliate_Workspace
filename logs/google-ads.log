@@ -624,3 +624,125 @@ Target: 4x min / 5x goal
 
 Saved to /home/ubuntu/.openclaw/workspace/memory/ads-audit-2026-08-07.md
 Telegram report sent.
+◇ injected env (3) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+📊 BARTACT GOOGLE ADS DAILY AUDIT — 2026-08-09
+
+━━━ GOOGLE-ATTRIBUTED ROAS ━━━
+This week: $2206 spend → **2.41x ROAS** (Google-attributed conversions only)
+Last week: $1931 spend → **5.55x ROAS**
+Shopify total this week: $14258 revenue, 111 orders (includes ALL channels — do NOT divide by Google spend)
+Google-reported ROAS this week: 2.41x
+Target: 4x min / 5x goal
+
+━━━ DAILY TREND (last 3 days) ━━━
+  2026-08-06: $422 spend | 14.9 convs | $1111 rev | 2.63x ROAS
+  2026-08-07: $511 spend | 10.0 convs | $2006 rev | 3.93x ROAS
+  2026-08-08: $547 spend | 16.0 convs | $925 rev | 1.69x ROAS
+
+━━━ CAMPAIGNS THIS WEEK ━━━
+  Jeep Wrangler PMax [$162/day]: $784 spend | 627 clicks | 21.5 convs | $2817 rev | 3.59x
+  Gladiator PMax [$100/day]: $631 spend | 510 clicks | 27.5 convs | $1718 rev | 2.72x
+  Bronco Storage PMax [$22/day]: $169 spend | 149 clicks | 2.6 convs | $136 rev | 0.81x
+  Jeep JK Seat Covers - Search [$20/day]: $121 spend | 87 clicks | 0.0 convs | $0 rev | 0.00x
+  Competitors - Search [$15/day]: $118 spend | 66 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Wrangler JL - Search [$26/day]: $100 spend | 51 clicks | 3.3 convs | $280 rev | 2.81x
+  Tacoma PMax [$10/day]: $65 spend | 59 clicks | 2.0 convs | $202 rev | 3.12x
+  Paracord Grab Handles Bronco - Search [$20/day]: $64 spend | 31 clicks | 2.0 convs | $160 rev | 2.48x
+  MOLLE Accessories - Search [$20/day]: $64 spend | 43 clicks | 0.0 convs | $0 rev | 0.00x
+  Fire Extinguisher Holders - Search [$25/day]: $18 spend | 14 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Gladiator - Search [$5/day]: $17 spend | 12 clicks | 0.0 convs | $0 rev | 0.00x
+  Gladiator Seat Covers - Search NEW [$20/day]: $17 spend | 6 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles TJ - Search [$20/day]: $16 spend | 22 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles JK - Search [$20/day]: $10 spend | 10 clicks | 0.0 convs | $0 rev | 0.00x
+  Bronco Storage - Search NEW [$5/day]: $9 spend | 6 clicks | 0.0 convs | $0 rev | 0.00x
+  Jeep TJ Seat Covers - Search [$20/day]: $2 spend | 2 clicks | 0.0 convs | $0 rev | 0.00x
+
+━━━ FLAGS ━━━
+  ⚠️ TRUE SALES ROAS this week: 2.41x — BELOW 4x minimum
+  🔴 Jeep JK Seat Covers - Search: $121 spent this week, 0 conversions
+  🔴 MOLLE Accessories - Search: $64 spent this week, 0 conversions
+  🔴 Competitors - Search: $118 spent this week, 0 conversions
+
+━━━ BUDGET ADJUSTMENTS ━━━
+  No automatic adjustments made today.
+
+💰 Total daily budget: $525/day
+
+Saved to /home/ubuntu/.openclaw/workspace/memory/ads-audit-2026-08-09.md
+Telegram report sent.
+◇ injected env (3) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+📊 BARTACT GOOGLE ADS DAILY AUDIT — 2026-08-10
+
+━━━ GOOGLE-ATTRIBUTED ROAS ━━━
+This week: $110 spend → **0.00x ROAS** (Google-attributed conversions only)
+Last week: $2748 spend → **2.37x ROAS**
+Shopify total this week: $277 revenue, 4 orders (includes ALL channels — do NOT divide by Google spend)
+Google-reported ROAS this week: 0.00x
+Target: 4x min / 5x goal
+
+━━━ DAILY TREND (last 3 days) ━━━
+  2026-08-07: $511 spend | 10.0 convs | $2006 rev | 3.93x ROAS
+  2026-08-08: $549 spend | 18.0 convs | $1051 rev | 1.91x ROAS
+  2026-08-09: $614 spend | 16.4 convs | $1068 rev | 1.74x ROAS
+
+━━━ CAMPAIGNS THIS WEEK ━━━
+  Jeep Wrangler PMax [$162/day]: $31 spend | 13 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles TJ - Search [$20/day]: $30 spend | 60 clicks | 0.0 convs | $0 rev | 0.00x
+  Gladiator PMax [$100/day]: $28 spend | 15 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Wrangler JL - Search [$26/day]: $7 spend | 3 clicks | 0.0 convs | $0 rev | 0.00x
+  Jeep JK Seat Covers - Search [$20/day]: $4 spend | 3 clicks | 0.0 convs | $0 rev | 0.00x
+  Bronco Storage - Search NEW [$5/day]: $4 spend | 1 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles JK - Search [$20/day]: $2 spend | 2 clicks | 0.0 convs | $0 rev | 0.00x
+  Bronco Storage PMax [$22/day]: $2 spend | 1 clicks | 0.0 convs | $0 rev | 0.00x
+  Tacoma PMax [$10/day]: $2 spend | 2 clicks | 0.0 convs | $0 rev | 0.00x
+
+━━━ BUDGET ADJUSTMENTS ━━━
+  No automatic adjustments made today.
+
+💰 Total daily budget: $525/day
+
+Saved to /home/ubuntu/.openclaw/workspace/memory/ads-audit-2026-08-10.md
+Telegram report sent.
+◇ injected env (3) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+📊 BARTACT GOOGLE ADS DAILY AUDIT — 2026-08-11
+
+━━━ GOOGLE-ATTRIBUTED ROAS ━━━
+This week: $515 spend → **0.39x ROAS** (Google-attributed conversions only)
+Last week: $2748 spend → **2.41x ROAS**
+Shopify total this week: $5047 revenue, 28 orders (includes ALL channels — do NOT divide by Google spend)
+Google-reported ROAS this week: 0.39x
+Target: 4x min / 5x goal
+
+━━━ DAILY TREND (last 3 days) ━━━
+  2026-08-08: $549 spend | 18.0 convs | $1051 rev | 1.91x ROAS
+  2026-08-09: $614 spend | 20.4 convs | $1187 rev | 1.93x ROAS
+  2026-08-10: $470 spend | 2.0 convs | $202 rev | 0.43x ROAS
+
+━━━ CAMPAIGNS THIS WEEK ━━━
+  Gladiator PMax [$100/day]: $144 spend | 51 clicks | 2.0 convs | $202 rev | 1.40x
+  Jeep Wrangler PMax [$97/day]: $118 spend | 68 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Wrangler JL - Search [$26/day]: $49 spend | 21 clicks | 0.0 convs | $0 rev | 0.00x
+  Jeep JK Seat Covers - Search [$20/day]: $45 spend | 32 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles TJ - Search [$20/day]: $40 spend | 84 clicks | 0.0 convs | $0 rev | 0.00x
+  Competitors - Search [$15/day]: $22 spend | 9 clicks | 0.0 convs | $0 rev | 0.00x
+  MOLLE Accessories - Search [$20/day]: $21 spend | 15 clicks | 0.0 convs | $0 rev | 0.00x
+  Bronco Storage PMax [$22/day]: $21 spend | 22 clicks | 0.0 convs | $0 rev | 0.00x
+  Fire Extinguisher Holders - Search [$25/day]: $13 spend | 9 clicks | 0.0 convs | $0 rev | 0.00x
+  Tacoma PMax [$10/day]: $12 spend | 9 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Gladiator - Search [$5/day]: $11 spend | 5 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles JK - Search [$20/day]: $6 spend | 5 clicks | 0.0 convs | $0 rev | 0.00x
+  Bronco Storage - Search NEW [$5/day]: $5 spend | 2 clicks | 0.0 convs | $0 rev | 0.00x
+  Jeep TJ Seat Covers - Search [$20/day]: $4 spend | 2 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Bronco - Search [$20/day]: $3 spend | 2 clicks | 0.0 convs | $0 rev | 0.00x
+
+━━━ FLAGS ━━━
+  ⚠️ TRUE SALES ROAS this week: 0.39x — BELOW 4x minimum
+  🔴 Jeep Wrangler PMax: $118 spent this week, 0 conversions
+
+━━━ BUDGET ADJUSTMENTS MADE ━━━
+  📉 Jeep Wrangler PMax: $97/day → $58/day (0 convs on significant spend)
+
+💰 Total daily budget: $460/day
+
+Saved to /home/ubuntu/.openclaw/workspace/memory/ads-audit-2026-08-11.md
+Telegram report sent.

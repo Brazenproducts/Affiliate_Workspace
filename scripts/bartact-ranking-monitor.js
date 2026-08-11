@@ -37,6 +37,8 @@ const PRIORITY_KEYWORDS = [
   'best seat covers for jeep wrangler',
   'best jeep gladiator seat covers',
   'best ford bronco seat covers',
+  'bronco seat covers',
+  'jeep tj seat covers',
 ];
 
 const BRAND_TERMS = ['bartact', 'bartac', 'bar tact'];

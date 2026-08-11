@@ -14,6 +14,30 @@ Creds file: `/home/ubuntu/.openclaw/workspace/.google-ads-credentials.json`
 
 ⛔ NEVER send Mitch to OAuth Playground. NEVER ask him to paste tokens. Run the local server, give him one URL, catch the callback yourself.
 
+## ⛔ CRON MODEL RULES — HARD RULE (updated 2026-08-11)
+- ALL cron isolated sessions (all agents) MUST use `anthropic/claude-haiku-4-5` — cheap, fast, bills Anthropic directly
+- Interactive sessions use `anthropic/claude-sonnet-4-6`
+- NEVER use `myclaw/` prefix models for anything — they bill myclaw credits directly, not Anthropic
+- `anthropic/` prefix routes through myclaw proxy to Anthropic billing — this is correct
+- There is ONE main agent (slashdaddy). It sees ALL crons. No separate "main agent" to delegate to.
+- Default model in openclaw.json: `anthropic/claude-sonnet-4-6` (interactive); crons override to `anthropic/claude-haiku-4-5`
+- NEVER set `agents.defaults.model.primary` to any `myclaw/` ID — that burns myclaw credits on everything
+- All 13 live crons patched to `anthropic/claude-haiku-4-5` with empty fallbacks on 2026-08-11
+- myclaw credits drained 2026-08-11 because crons were wrongly set to `myclaw/gpt-5.4`
+
+## ⛔ GOOGLE ADS — NEVER TOUCH CAMPAIGNS WITHOUT EXPLICIT INSTRUCTION (confirmed 15+ times)
+NEVER pause, enable, adjust budgets, change bids, or modify any Google Ads campaign, ad group, or setting without Mitch explicitly saying to do it.
+
+**WHY — and this is critical to understand:**
+- Google's Smart Bidding (PMax and Search) uses machine learning that builds up over time
+- If a campaign is PAUSED, Google's learning resets completely — when it restarts, it has to start from zero and goes through a new learning phase (typically 2–6 weeks of suboptimal performance)
+- If BUDGET CHANGES, Google's algorithm recalibrates how to spend the new amount from scratch — same learning reset effect
+- Even "helping" by pausing a zero-revenue campaign destroys weeks of accumulated signal
+- Mitch knows this and manages it deliberately — a campaign spending with no conversions may be in a trough, seasonally slow, or part of a longer strategy
+- Our job is to REPORT what we see, not to fix it
+
+**Rule:** Observe and report only. Mitch decides all actions. No exceptions, no matter how obvious the fix seems.
+
 ## ⛔ NO SUBAGENTS WITHOUT MITCH'S APPROVAL — HARD RULE (2026-07-21)
 - NEVER spawn a subagent (sessions_spawn) without explicit approval from Mitch first
 - Subagents use weaker models and have caused problems (timeouts, bad output, breaking things)
@@ -48,6 +72,15 @@ Creds file: `/home/ubuntu/.openclaw/workspace/.google-ads-credentials.json`
 - **FAQ answers**: Never answer "No" to "is there ADD from China" — answer must note the 2025 investigation
 - Script to check: `grep -r "not subject to US anti-dumping" elipacko-sites/ --include="*.html"`
 
+## BULL STRAP BACKLINK RULE — ALL AUTOMOTIVE SITES (standing rule, 2026-08-11)
+Every affiliate/content site that is automotive-related MUST include Bull Strap product backlinks woven naturally into content. This applies to ALL automotive sites — not just bronco cluster.
+- **Jeep/Wrangler sites**: link to bullstrap.com/collections/grab-handles (JL/JK/TJ/Gladiator grab handles, limit straps)
+- **Bronco sites**: link to bullstrap.com/collections/grab-handles (Bronco-specific SKUs), bullstrap.com/collections/limit-straps
+- **Tacoma/4Runner/truck sites**: link to applicable Bull Strap grab handle collections
+- Links should be natural editorial mentions — "top pick", "featured", "made in USA" — not raw link dumps
+- Filli is responsible for implementing and maintaining this across all sites
+- Audit status as of 2026-08-11: UNKNOWN — Filli was supposed to implement on broadest sites but status unconfirmed; audit in progress
+
 ## BARTACT SEO RULES — PROPAGATED 2026-07-20 (apply to any Bartact-related work)
 - **Title tags**: keyword FIRST, brand LAST, max 65 chars. Pattern: `[Keyword] — [Differentiator] | Bartact`. Never start with "Bartact" unless brand IS the product name.
 - **Meta descriptions**: max 160 chars (hard), min 80 chars. Must include: vehicle fitment, key material/feature, "Made in USA".
@@ -75,6 +108,18 @@ Creds file: `/home/ubuntu/.openclaw/workspace/.google-ads-credentials.json`
 - **Actor**: `Xb8osYTtOjlsgI6k9` (Google Maps Reviews Scraper — 142M runs)
 - **Scraper script**: `skipatip/scripts/data-pipeline/apify-reviews.js`
 - **Usage**: `node apify-reviews.js --city=Temecula --state=CA --limit=100`
+
+## ⚠️ GSC VERIFICATION GAP — DISCOVERED 2026-08-10
+- **61/66 affiliate sites ARE verified under service account** — Indexing API IS working for those
+- **BUT none of the 96 sites appear in Mitch’s GSC dashboard** — zero keyword data, coverage reports, or sitemap visibility for any affiliate site
+- Root cause: Site Verification API (service account) ≠ Search Console dashboard (OAuth2). Both required. Only the first was done.
+- 4 sites still pending verification (GitHub Pages propagation in progress)
+- **OAuth2 credentials for info@brazenauto.com are expired (invalid_grant)** — blocks programmatic SC dashboard management (Steps 3-6 in playbook)
+- **Fix in progress (Filli):** pushing HTML verification files to remaining 4 sites
+- **Mitch must:** reauth info@brazenauto.com OAuth via local server port 9876 (2 min), then we can automate SC dashboard property add + sitemap submission for all 96
+- Alternatively Mitch can manually add properties in GSC browser UI (slower but works now)
+- SEO_PLAYBOOK.md Section 0 (full 6-step mandatory new site setup) added 2026-08-10
+- This is now Non-Negotiable #11 in the playbook
 
 ## ELIPACKO DOMAIN AVAILABILITY CHECK — 2026-08-03
 Available to buy on GoDaddy:
@@ -228,6 +273,22 @@ The priority sweep script enforces this order automatically.
 **State:** `memory/bullstrap-collection-seo-state.json`
 **IndexNow key:** `b4f7e2a1c3d5f6789012345678a4b5c6`
 
+## BARTACT INTENTIONALLY UNPUBLISHED COLLECTIONS — DO NOT REPUBLISH (confirmed 2026-08-10)
+These Shopify collections are permanently unpublished by Mitch's decision. Never auto-republish them:
+- molle-storage-strips
+- roll-bar-covers
+- hitch-covers
+- hitch-receivers
+- seat-belt-safety-harnesses
+- seat-belts-harnesses
+- face-masks
+- motorcycle-gear
+- flashlights
+- ebay-collection
+- winch-shackle-1
+- winch-covers
+- Any handle ending in -1 (old duplicates — jeep-gladiator-seat-covers-1, jeep-wrangler-seat-covers-1, toyota-tacoma-seat-covers-1, etc.)
+
 ## ⛔ PROTECTED / DO-NOT-TOUCH SITES — HARD RULE
 These are real brand or protected sites. No bot touches them. No Amazon links expected. Never audit for affiliate tags. Never run scripts on them.
 
@@ -246,3 +307,53 @@ These are real brand or protected sites. No bot touches them. No Amazon links ex
 - **truckdubai.com / truckuae.com** — international sites, no Amazon affiliate program.
 
 Affiliate health check script exempts all of the above automatically as of 2026-08-07.
+
+## BOT MEMORY MAINTENANCE — PREVENT CONTEXT BLOWOUT (2026-08-10)
+- Filli's memory dir hit 512KB of daily notes — /new failed entirely because startup context was already maxed
+- Fix: archived all July files to memory/archive/, kept only August — dropped to 84KB
+- **Rule: audit all bot memory/ dirs monthly** — files >30 days old go to memory/archive/
+- **Never send a bot multiple rapid messages in one session** — each one grows context; batch into ONE message
+- Filli context window is 150-200K tokens. 512KB of notes = ~128K tokens before conversation even starts
+- Signs of impending blowout: short/confused answers → then context too large errors on /new
+- molleattachments.com: IS ours (Mitch confirmed) — was missing from first GoDaddy API page (500 domain limit)
+- GoDaddy API pagination: we have >500 domains — always query individual domains by name, don't rely on list endpoint
+
+## ⚡ EXISTENTIAL ALERT — ADAPT OR BECOME OBSOLETE (2026-08-10)
+Mitch's direct message to all bots: **Competitors will soon be running Claude too.**
+The only edge we have is that we learn faster, improvise smarter, and improve continuously.
+Do not wait for instructions to improve a playbook, fix a broken pattern, or suggest a better approach.
+- If you notice something isn't working → fix it or flag it immediately, don't log it and move on
+- If a strategy is stale → update it
+- If a competitor would do it better → do it better
+- Proactive beats reactive. Adaptive beats scripted. Thinking beats templating.
+This isn't a nice-to-have. This is survival.
+
+## BARTACT UNPUBLISHED COLLECTIONS — CONFIRMED INTENTIONAL (2026-08-10)
+Mitch confirmed all 15 unpublished collections stay unpublished permanently. Do NOT republish any of these:
+molle-storage-strips, roll-bar-covers, hitch-covers, hitch-receivers, seat-belt-safety-harnesses,
+seat-belts-harnesses, face-masks, motorcycle-gear, flashlights, ebay-collection, winch-shackle-1,
+winch-covers, jeep-gladiator-seat-covers-1, jeep-wrangler-seat-covers-1, toyota-tacoma-seat-covers-1.
+Rule: any handle ending in -1 = old duplicate, always excluded.
+All locked into NEVER_REPUBLISH list in bartact-collection-health-check.js.
+
+## BARTACT SHOPIFY COLLECTION ID MAP (confirmed 2026-08-10 via health check)
+All IDs verified live. Use these — do not guess.
+- jeep-wrangler-seat-covers → custom/275720732715
+- jeep-wrangler-jl-seat-covers → smart/688526164011
+- jeep-wrangler-jk-seat-covers → custom/687837380651 ⚠️ (NOT 688530260011 — that was wrong)
+- jeep-gladiator-seat-covers → smart/688530751531
+- ford-bronco-seat-covers → smart/265140207659
+- toyota-tacoma-seat-covers → custom/275721355307
+- jeep-wrangler-grab-handles → smart/688348856363
+- ford-bronco-grab-handles → smart/688348921899
+- jeep-gladiator-grab-handles → smart/688348889131
+- jeep-wrangler-jl-storage-bags → smart/688526622763
+- ford-bronco-storage-bags → smart/688526786603
+- jeep-wrangler-jl-molle-accessories → smart/688526196779
+
+## BARTACT 4XE STANDING RULE (2026-08-10)
+Any content mentioning 4xe compatibility MUST include the rear bench caveat:
+- Front seats: identical across ALL JL trim levels including 4xe ✅
+- Rear bench: 4xe edition uses a DIFFERENT geometry — dedicated 4xe rear bench SKU required
+- Language to use: "Front seat covers fit all JL trims including 4xe. If you have a JLU 4xe, select the dedicated 4xe rear bench cover at checkout."
+- NEVER say "all trim levels are fully compatible" without this distinction

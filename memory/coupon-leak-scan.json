@@ -1,51 +1,23 @@
 {
-  "date": "2026-05-18T22:00:00Z",
+  "date": "2026-08-10T22:00:00Z",
+  "scan_time": "Monday, August 10th, 2026 - 10:00 PM UTC",
   "sites_checked": [
     "retailmenot.com",
     "wethrift.com",
     "honey.com",
     "knoji.com",
-    "couponfollow.com",
-    "hotdeals.com",
-    "dealspotr.com",
-    "startupworld.com",
-    "joincheckmate.com",
-    "strimoo.com",
-    "wadav.com",
-    "clothingric.com",
-    "greenpromocode.com"
+    "couponfollow.com"
   ],
-  "codes_found": [
-    {
-      "code": "LAURIE",
-      "source": "hotdeals.com",
-      "claimed_discount": "up to 50% OFF",
-      "notes": "Listed as verified discount code for Vehicle Seat Covers, Grab Handles, etc."
-    },
-    {
-      "code": "BF200",
-      "source": "wadav.com",
-      "claimed_discount": "up to 20% off",
-      "notes": "Listed among most redeemed promo codes"
-    },
-    {
-      "code": "FREESHIP2",
-      "source": "wadav.com",
-      "claimed_discount": "free shipping",
-      "notes": "Listed among most redeemed promo codes"
-    },
-    {
-      "code": "MOM15",
-      "source": "wadav.com",
-      "claimed_discount": "up to 20% off",
-      "notes": "Listed among most redeemed promo codes"
-    }
+  "search_queries": [
+    "bartact coupon code site:retailmenot.com OR site:wethrift.com OR site:honey.com OR site:knoji.com OR site:couponfollow.com",
+    "bartact promo code 2026",
+    "bartact discount code 2026"
   ],
-  "watched_codes_status": {
-    "SAVE5": "not found in any search results",
-    "WELCOME5": "not found in any search results"
-  },
-  "notes": "Multiple coupon aggregator sites list Bartact codes. The codes LAURIE, BF200, FREESHIP2, and MOM15 were explicitly named in search snippets. Many sites claim high numbers of codes (13-25) but don't reveal them in snippets — actual code lists require visiting the pages. Knoji has a dedicated Bartact page with 4 active codes. Watched codes SAVE5 and WELCOME5 were NOT found exposed. No Bartact-specific pages found on retailmenot.com, wethrift.com, honey.com, or couponfollow.com.",
-  "alert_required": true,
-  "alert_reason": "4 codes found publicly listed on coupon sites"
+  "codes_found": [],
+  "known_codes_monitored": [
+    "SAVE5",
+    "WELCOME5"
+  ],
+  "notes": "Web search tool is unavailable in current environment. Scan could not be completed. Manual verification or alternative search method required.",
+  "status": "incomplete"
 }

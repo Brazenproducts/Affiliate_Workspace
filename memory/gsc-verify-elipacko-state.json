@@ -1,0 +1,196 @@
+{
+  "runAt": "2026-08-10T16:42:25.148Z",
+  "results": {
+    "verified": [],
+    "pending": [
+      {
+        "domain": "elipacko-usa.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://elipacko-usa.com/"
+      },
+      {
+        "domain": "cardboardproduceboxes.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://cardboardproduceboxes.com/"
+      },
+      {
+        "domain": "corrugatedplasticboxes.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://corrugatedplasticboxes.com/"
+      },
+      {
+        "domain": "corrugatedplasticusa.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://corrugatedplasticusa.com/"
+      },
+      {
+        "domain": "corrugatedslipsheet.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://corrugatedslipsheet.com/"
+      },
+      {
+        "domain": "corrugatedslipsheets.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://corrugatedslipsheets.com/"
+      },
+      {
+        "domain": "corrugatesheet.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://corrugatesheet.com/"
+      },
+      {
+        "domain": "customplasticcorrugate.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://customplasticcorrugate.com/"
+      },
+      {
+        "domain": "gaylordboxesplastic.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://gaylordboxesplastic.com/"
+      },
+      {
+        "domain": "heavydutypallets.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://heavydutypallets.com/"
+      },
+      {
+        "domain": "heavydutyplasticpallets.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://heavydutyplasticpallets.com/"
+      },
+      {
+        "domain": "meatlugs.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://meatlugs.com/"
+      },
+      {
+        "domain": "plasticcorrugatedbox.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://plasticcorrugatedbox.com/"
+      },
+      {
+        "domain": "plasticgaylord.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://plasticgaylord.com/"
+      },
+      {
+        "domain": "plasticgaylordbox.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://plasticgaylordbox.com/"
+      },
+      {
+        "domain": "plasticgaylordboxes.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://plasticgaylordboxes.com/"
+      },
+      {
+        "domain": "polypropylenebox.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://polypropylenebox.com/"
+      },
+      {
+        "domain": "polypropylenecontainer.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://polypropylenecontainer.com/"
+      },
+      {
+        "domain": "poultryboxes.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://poultryboxes.com/"
+      },
+      {
+        "domain": "poultrycrates.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://poultrycrates.com/"
+      },
+      {
+        "domain": "poultryshippingboxes.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://poultryshippingboxes.com/"
+      },
+      {
+        "domain": "ppcontainers.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://ppcontainers.com/"
+      },
+      {
+        "domain": "ppcorrugate.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://ppcorrugate.com/"
+      },
+      {
+        "domain": "ppcorrugatebox.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://ppcorrugatebox.com/"
+      },
+      {
+        "domain": "ppcorrugatedboxes.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://ppcorrugatedboxes.com/"
+      },
+      {
+        "domain": "producecrates.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://producecrates.com/"
+      },
+      {
+        "domain": "reusableshippingboxes.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://reusableshippingboxes.com/"
+      },
+      {
+        "domain": "vegetablecrates.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://vegetablecrates.com/"
+      },
+      {
+        "domain": "waxproduceboxes.com",
+        "token": "googlec55128789f00e1a7.html",
+        "url": "https://waxproduceboxes.com/"
+      }
+    ],
+    "failed": []
+  },
+  "step2": {
+    "runAt": "2026-08-10T16:46:33.152Z",
+    "verified": [
+      "https://cardboardproduceboxes.com/",
+      "https://corrugatedplasticboxes.com/",
+      "https://corrugatedplasticusa.com/",
+      "https://corrugatedslipsheet.com/",
+      "https://corrugatedslipsheets.com/",
+      "https://corrugatesheet.com/",
+      "https://gaylordboxesplastic.com/",
+      "https://heavydutypallets.com/",
+      "https://heavydutyplasticpallets.com/",
+      "https://meatlugs.com/",
+      "https://plasticcorrugatedbox.com/",
+      "https://plasticgaylord.com/",
+      "https://plasticgaylordbox.com/",
+      "https://plasticgaylordboxes.com/",
+      "https://polypropylenebox.com/",
+      "https://polypropylenecontainer.com/",
+      "https://poultryboxes.com/",
+      "https://poultrycrates.com/",
+      "https://poultryshippingboxes.com/",
+      "https://ppcontainers.com/",
+      "https://ppcorrugate.com/",
+      "https://ppcorrugatebox.com/",
+      "https://ppcorrugatedboxes.com/",
+      "https://producecrates.com/",
+      "https://reusableshippingboxes.com/",
+      "https://vegetablecrates.com/",
+      "https://waxproduceboxes.com/"
+    ],
+    "failed": [
+      {
+        "url": "https://elipacko-usa.com/",
+        "error": "The necessary verification token could not be found on your site."
+      },
+      {
+        "url": "https://customplasticcorrugate.com/",
+        "error": "The necessary verification token could not be found on your site."
+      }
+    ]
+  }
+}

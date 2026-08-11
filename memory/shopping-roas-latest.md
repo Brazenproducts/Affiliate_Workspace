@@ -1,33 +1,63 @@
-# Shopping ROAS Monitor - 2026-08-06 10:00 UTC
+# Shopping ROAS Monitor - 2026-08-11 10:00 AM
 
-**Status:** ⚠️ API ERROR
+**Report Date:** Tuesday, August 11th, 2026  
+**Data Period:** August 10, 2026 (yesterday)  
+**Monitor Time:** 10:00 AM UTC
 
-## Run Details
-- **Timestamp:** Thursday, August 6th, 2026 - 10:00 AM UTC
-- **Checked Date:** 2026-08-05 (yesterday)
-- **Alert Threshold:** ROAS < 2.0x | Budget: $250/day
+## 🚨 CRITICAL ALERT
 
-## Result
-❌ **Unable to retrieve data** — Google Ads API error 404
+| Metric | Value | Status |
+|--------|-------|--------|
+| **Total ROAS** | **0.74x** | 🔴 CRITICAL (< 1.5x threshold) |
+| **Total Spend** | $273.49 | ⚠️  OVER BUDGET (109% of $250) |
+| **Total Revenue** | $201.98 | ⚠️  Barely positive |
 
-### Error Details
-- Script tried to fetch Shopping campaign data via Google Ads API v19 → failed, retried v23
-- API returned: `404 Not Found` on `/v23/customers/1770651698/googleAds:search`
-- Authentication confirmed as working (✅ Auth: OK)
+## Active Campaigns (Spend > $0)
 
-### Possible Causes
-1. Invalid API endpoint version (v19/v23 mismatch)
-2. Customer ID mismatch (1770651698)
-3. API credentials have expired or lack proper scope
-4. Google Ads API service outage
+| Campaign | Spend | Revenue | ROAS | Conv | Status |
+|----------|-------|---------|------|------|--------|
+| Gladiator PMax | $136.79 | $201.98 | 1.48x | 2.0 | ENABLED ✅ |
+| Jeep Wrangler PMax | $106.16 | $0.00 | 0.00x | 0.0 | ENABLED ❌ |
+| Bronco Storage PMax | $20.34 | $0.00 | 0.00x | 0.0 | ENABLED ❌ |
+| Tacoma PMax | $10.21 | $0.00 | 0.00x | 0.0 | ENABLED ❌ |
 
-## Action Required
-- Verify Google Ads API credentials and scopes
-- Check if customer ID is correct for the Bartact Shopping account
-- Confirm API version compatibility with current Google Ads API
+## Summary
 
-## Escalation
-**No message to Mitch** — This is an infrastructure issue, not a ROAS problem. Will retry on next run.
+**Total Spend:** $273.49 (109% of $250 budget)  
+**Total Revenue:** $201.98  
+**Total ROAS:** 0.74x  
+**Total Conversions:** 2.0  
+**Total Clicks:** 127  
+**Total Impressions:** 10,123
+
+## Issues Identified
+
+1. **ROAS Well Below Threshold:** 0.74x is critically low compared to the 2.0x alert threshold and historical baseline of 4-5x (before April 25 SEO changes).
+
+2. **Three Campaigns Zero ROAS:**
+   - Jeep Wrangler PMax: $106.16 spend, $0 revenue
+   - Bronco Storage PMax: $20.34 spend, $0 revenue
+   - Tacoma PMax: $10.21 spend, $0 revenue
+
+3. **Budget Overrun:** Spending $273.49 vs $250 budget cap (+$23.49).
+
+4. **Barely Positive:** At current ROAS, generating $201.98 revenue on $273.49 spend is marginally profitable.
+
+## Recovery Target
+
+- Historical ROAS baseline: 4-5x (before SEO changes on 4/25)
+- Target recovery: 3.0x+
+- Current gap: **2.26x below target**
+
+## Recommended Actions
+
+- **Pause underperforming campaigns:** Jeep Wrangler, Bronco Storage, and Tacoma PMax are burning budget with zero conversions
+- **Review Gladiator PMax:** Only campaign with conversions (1.48x ROAS); analyze creative/audience to scale
+- **Investigate ROAS decline:** Understand root cause of post-April 25 drop from 4-5x to 0.74x
+- **Budget reallocation:** Redirect budget from zero-ROAS campaigns to top performer
 
 ---
-_Last checked: 2026-08-06 10:00 UTC_
+
+**⚠️ CONDITION MET FOR NOTIFICATION:** ROAS 0.74x is < 1.5x threshold with spend > $0
+
+**Last Updated:** 2026-08-11 10:00 AM UTC

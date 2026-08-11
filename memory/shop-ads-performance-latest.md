@@ -1,37 +1,42 @@
-# Bartact Shop Ads Performance Check
-**Report Date:** Saturday, August 1st, 2026 - 12:00 AM UTC
+# Shop Ads Performance Report - Bartact
+**Date:** Saturday, August 8th, 2026 - 12:00 AM (UTC)  
+**Status:** BLOCKED - Manual Access Required
 
-## Status: Unable to Complete ⚠️
+## Issue
+Unable to access Shopify admin dashboard to retrieve Shop Ads performance data.
 
-**Issue:** Cloudflare verification challenge blocking access to Shopify admin
-- Attempted to navigate to `https://admin.shopify.com`
-- Hit verification wall requiring human interaction
-- Automated browser cannot proceed through Cloudflare challenge
+**Blocker:** Cloudflare security verification
+- The Shopify admin interface is protected by Cloudflare's "Verify you are human" challenge
+- Headless browser environment cannot complete this verification automatically
+- This is a standard security measure that requires human interaction (clicking checkbox, solving CAPTCHA, etc.)
 
-## Required Actions
-
-To complete this performance check, you'll need to:
-
-1. **Manually access** Shopify admin at https://admin.shopify.com
-2. **Navigate to:** Shop channel > Advertising
-3. **Pull stats for 'Grow sales - 03' campaign** (created 4/8/2026):
-   - ROAS
-   - Customers acquired
-   - Spend
-   - AOV (Average Order Value)
-   - Weekly data
-
-4. **Also check:** The old 'Test' campaign status (stalled vs. picking up?)
-
-## Decision Logic
-
-Once you have the stats:
-- **If ROAS ≥ 4.0x:** Suggest creating similar campaign for Bull Strap (bullstrap.com)
-- **If ROAS < 4.0x:** Hold off on Bull Strap campaign launch (Mitch requires 4.0x+ ROAS)
+## Required Campaign Data (Not Yet Retrieved)
+- **Campaign:** 'Grow sales - 03' (created 4/8/2026)
+- **Metrics Needed:**
+  - ROAS (Return on Ad Spend)
+  - Customers Acquired
+  - Spend (weekly)
+  - AOV (Average Order Value)
+- **Secondary Campaign:** 'Test' campaign status check
 
 ## Next Steps
+To complete this report, one of the following is required:
 
-Please access the Shopify admin directly and share the campaign metrics. I can then:
-1. Calculate and analyze the data
-2. Make recommendations for Bull Strap campaign
-3. Update this report with findings
+1. **Use the user's logged-in browser session** (profile="user")
+   - Requires the user's Chrome browser to be running with remote debugging enabled
+   - This would bypass the Cloudflare verification
+
+2. **Manual access via iMac browser**
+   - Open Shopify admin directly on the iMac
+   - Navigate to: Shopify Admin > Settings > Shop channel > Advertising
+   - Find 'Grow sales - 03' campaign
+   - Pull the performance stats for the past week
+
+## Important Note for Follow-Up
+Once ROAS data is obtained, apply this decision logic:
+- **If ROAS > 4.0x:** Recommend creating similar campaign for Bull Strap (bullstrap.com) — this meets Mitch's 4.0x threshold requirement
+- **If ROAS ≤ 4.0x:** Hold on Bull Strap campaign launch until Bartact campaign improves
+
+---
+**Access Method Attempted:** Headless browser (openclaw profile)  
+**Access Method Failed:** Cloudflare verification required

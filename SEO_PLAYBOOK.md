@@ -1,5 +1,5 @@
 # SEO_PLAYBOOK.md — Master SEO Guide for All Bots
-**Last updated:** 2026-08-08
+**Last updated:** 2026-08-11
 **Maintained by:** Slashdaddy (main session)
 **All bots must read this file before doing any SEO work.**
 
@@ -7,16 +7,163 @@
 
 ## ⚡ TL;DR — THE NON-NEGOTIABLES
 
-1. **Submit to ALL search engines every time** — Google Indexing API + IndexNow (Bing + Yandex + others in one call)
+1. **Submit to ALL search engines after EVERY push, no exceptions** — Google Indexing API + IndexNow (Bing + Yandex) must both fire after every single git push, every single Shopify update, every individual file change. "Major pushes only" is not acceptable. IndexNow does NOT cover Google — they are separate and both required.
 2. **Title tag: keyword FIRST, brand LAST, max 65 chars**
 3. **Meta description: 80–160 chars, include fitment + material + "Made in USA"**
-4. **No thin content** — 1,500w TARGET on every Bartact collection page (competitors are at 1,000–1,500w — to rank #1 we must beat them, not match them); 800w absolute floor everywhere else
+4. **No thin content** — 1,500w TARGET on every Bartact collection page (competitors are at 1,000–1,500w — to rank #1 we must beat them, not match them); floors are MINIMUMS everywhere else, always aim for the target column in the pre-task gate table
 5. **Bartact is ALWAYS #1** on any page featuring their product categories
 6. **Never fabricate product specs, patent claims, or material details**
 7. **Blog posts = backlinks = authority** — every site needs a blog with internal links
 8. **A job is NOT done until 100% of pages meet the standard** — not the first batch, not "most" of them
 9. **Always audit scope BEFORE starting** — count total pages, report X/total so everyone knows the real picture
 10. **IndexNow is always available** — if Google Indexing API scope is missing, use IndexNow; never block progress on a credential issue
+11. **GSC setup is mandatory before any SEO work** — every new site must have GSC property added, ownership verified, service account added as Owner, and sitemap submitted BEFORE Indexing API or any SEO work is considered started. No GSC = phantom submissions. See Section 0.
+12. **Pull the canonical site list before any network-wide task** — never work from memory or a cached list. Pull from the source file, count it, confirm it, then proceed. See Section 0.5.
+
+---
+
+## ⛔ MANDATORY PRE-TASK GATE — EVERY BOT, EVERY SESSION, NO EXCEPTIONS
+
+**Before writing a single word of content for ANY site, run this checklist. Do not skip steps. Do not work from memory.**
+
+### Step 1 — Identify the site type
+| Site | Absolute Floor (MINIMUM — do not stop here) | Target (AIM FOR THIS) |
+|---|---|---|
+| Bartact collection pages | 1,000w | 1,500w |
+| Bartact product pages | 700w | 1,000w |
+| Bull Strap collection/product pages | 700w | 1,500w |
+| Owned site homepages (Ballkinis, limitstraps, etc.) | 700w | 1,000w |
+| Affiliate site homepages | 800w | 1,500w |
+| Affiliate site inner pages | 700w | 1,000w |
+| Blog posts | 1,000w | 1,500–2,500w |
+| Any page under 400w | FIX IMMEDIATELY | — |
+
+⚠️ **The floor is the MINIMUM — it is NOT the goal. Always aim for the target column. Writing to the floor and stopping is a failure. If you hit the floor and have more to say, keep writing. The target is where you should land.**
+
+**The Bartact 1,500w target does NOT apply universally. Do not apply it to Ballkinis, affiliate sites, or other owned properties unless they are in a competitive keyword battle. Check this table before writing.**
+
+### Step 2 — Fetch current word count from the live source
+- Shopify: fetch `body_html` from the Admin API and count words from the response — NOT from your script's input
+- GitHub Pages / static HTML: fetch the live page via curl and strip tags
+- Never self-report a word count. Always verify from the source.
+
+### Step 3 — Audit scope before starting
+- Count total pages needing work
+- Report: X/total complete, not "done" when only some are fixed
+- A job is NOT done until 100% of pages meet the floor
+
+### Step 4 — After every push, verify from API response
+- Shopify sanitizer can reduce word count below what you wrote
+- Always check `body_html` in the PUT response, not the input
+- If the response count is below floor, expand and re-push immediately
+
+### Step 5 — Submit to search engines after every push
+- Google Indexing API + IndexNow both fire. Always. No exceptions.
+
+**If you cannot confirm the live post-push word count from the API or live page, the task is NOT done. Do not report it as done to Mitch.**
+
+---
+
+## 0. NEW SITE MANDATORY SETUP — DO THIS BEFORE ANY SEO WORK
+
+⚠️ **Discovered 2026-08-10: GSC dashboard visibility was missing for 96 affiliate sites. Indexing API was working for 61/66 verified sites, but Mitch had zero dashboard access for any of them — no keyword data, no coverage reports, no crawl errors, no sitemap confirmation.**
+
+**Two separate systems. Both required. Don’t confuse them:**
+- **Site Verification API** (service account) → enables Indexing API. Already automated.
+- **Search Console dashboard** (OAuth2 / info@brazenauto.com) → enables keyword data, coverage reports, sitemap UI, crawl errors. Was never set up.
+
+### STEP 1 — Verify domain under service account (automated)
+- Use Site Verification API with `axl-348@proud-stage-397621.iam.gserviceaccount.com`
+- HTML file method for GitHub Pages: push verification token to repo root
+- This is what enables the **Indexing API** to accept submissions
+- Script: already automated in Filli’s pipeline
+
+### STEP 2 — Add service account as delegated owner (automated)
+- Grants `axl-348@...` full programmatic control
+- Run immediately after Step 1 verifies
+
+### STEP 3 — Add property to GSC dashboard via webmasters API
+- Requires valid OAuth2 credentials for `info@brazenauto.com` — **currently expired (invalid_grant)**
+- Until reathed: add manually via browser at [search.google.com/search-console](https://search.google.com/search-console)
+- Add Property → URL prefix → `https://yourdomain.com`
+- This is what puts the site in **Mitch’s dashboard**
+
+### STEP 4 — Submit sitemap via SC API (or manually)
+- `https://yourdomain.com/sitemap.xml`
+- Programmatic: `webmasters.sitemaps.submit()` using OAuth2 credentials
+- Manual fallback: GSC → Sitemaps → Add new
+
+### STEP 5 — Submit initial URLs via Indexing API
+- Blast all existing pages after Steps 1-2 are complete
+- 199 URL/day quota per property
+
+### STEP 6 — Confirm coverage in GSC dashboard
+- Verify sitemap is accepted (not pending)
+- Confirm no coverage errors in first 24-48h
+- Check that impressions begin appearing within 1-2 weeks
+
+### VERIFICATION BEFORE CLAIMING DONE
+- After any DNS change: confirm via registrar API (not just bot's word) before reporting to Mitch
+- After GSC verification: confirm service account shows as Owner in the GSC property, not just that the script ran
+- After sitemap submission: confirm GSC API returns 200 and sitemap shows as "Success"
+- A task is NOT done until the API/endpoint independently confirms it — never relay a bot's self-report as confirmation
+
+### ALERTING PROTOCOL — WHEN TO NOTIFY MITCH
+- GSC verification fails after 3 retries → notify Mitch with: site name, exact error, what we tried, what's blocking
+- DNS change applied but site still not resolving after 2 hours → notify Mitch
+- Any site stuck for >24h at a step → notify Mitch with status
+- Do NOT alert for propagation delays under 2 hours (normal)
+- Slashdaddy is the alerting layer — bots report to Slashdaddy, Slashdaddy tells Mitch only when action is needed
+
+**Current status (2026-08-10): 61/66 affiliate sites verified (Steps 1-2 done). Steps 3-6 done for 0 sites. OAuth2 for info@brazenauto.com expired — reauth required before Steps 3-6 can be automated. 4 sites still pending Step 1 (GitHub Pages propagation).
+
+**Reauth:** Same procedure as Google Ads reauth — local OAuth server port 9876, Mitch opens one URL, clicks Allow. Takes 2 minutes.
+
+---
+
+## 0.5 SCOPE VERIFICATION BEFORE ANY WORK — MANDATORY
+
+**Added 2026-08-10. Triggered by: Filli spent a full day adding 66 sites to GSC when the real number is 112. The missing 46 were skipped because Filli worked from a memorized subset instead of pulling the actual confirmed list.**
+
+### The Rule
+
+Before executing ANY network-wide task — GSC setup, sitemap submission, indexing, content injection, affiliate tag audits, image pushes, schema updates, or anything that touches multiple sites — every bot MUST:
+
+1. **Pull the full authoritative site list from the canonical source file** (see below)
+2. **Count the entries** — print/log the exact number
+3. **Confirm the count matches expectations** — if it's different from what you remember, the file is correct, your memory is wrong
+4. **Then proceed** — using only the list from the file, not from memory or a previously cached list
+
+Memory does not count. A previously used list does not count. The file is the truth.
+
+### Canonical Source Files
+
+| Scope | Canonical File |
+|---|---|
+| All affiliate sites (Filli) | `/home/ubuntu/.openclaw/agents/filli/workspace/memory/associates-site-lists-confirmed.md` |
+| Elipacko backlink sites (Fern Allen) | Fern Allen's confirmed site list in her workspace memory |
+| Bull Strap GSC properties | Confirmed from live GSC API — always query, never assume |
+| Bartact | Single site — `https://www.bartact.com/` |
+
+### What This Looks Like in Practice
+
+```
+# WRONG — never do this
+"I'll process the 66 affiliate sites like last time"
+
+# RIGHT — always do this
+cat /home/ubuntu/.openclaw/agents/filli/workspace/memory/associates-site-lists-confirmed.md | grep -c 'http'
+# Output: 112
+# Confirmed: 112 sites. Proceeding with full list.
+```
+
+### The Cost of Getting This Wrong
+
+Filli spent a full day processing 66 sites when the real number was 112. 46 sites got zero GSC work done. That's hours of wasted effort and incomplete coverage. This rule exists because that already happened.
+
+### Applies To
+
+All bots. Every task. Every time. No exceptions for "quick" tasks or "I remember the list."
 
 ---
 
@@ -99,6 +246,13 @@ await fetch('https://api.indexnow.org/indexnow', {
 - Pattern: `[Brand] [Product Type] — [Vehicle Fitment] | Bull Strap`
 - Priority: Suspension → Lift Kits → Wheels/Tires → Exterior → Interior
 
+### ⚠️ Limit Strap Content Rule (limitingstraps.com + any limit strap pages)
+- **Lead with trucks, UTVs, and off-road racing — NOT Jeep/Bronco**
+- Core audience: prerunner trucks, long-travel builds, desert racing, UTVs (Can-Am, Polaris RZR, Yamaha YXZ), rock crawlers, sand rails
+- Jeep and Bronco are secondary/compatibility mentions — never the hero
+- Feature ALL brands Bull Strap makes limit straps for: Kartek, ORW (Off Road Warehouse), Carli Suspension — confirm others before adding
+- Jeep-first angle will alienate the serious off-road builder who is the actual buyer
+
 ---
 
 ## 3. META DESCRIPTIONS
@@ -115,10 +269,11 @@ await fetch('https://api.indexnow.org/indexnow', {
 ## 4. CONTENT — WORD COUNT & AUTHORITY
 
 ### Minimum Word Counts
-- **Product/collection pages:** 700 words minimum to avoid "thin content" flag
-- **Blog posts:** 1,000+ words for authority; 1,500–2,500 for pillar content
-- **Affiliate site homepages:** 800+ words
+- **Product/collection pages:** 700w floor — TARGET 1,000w+
+- **Blog posts:** 1,000w floor — TARGET 1,500–2,500w for pillar content
+- **Affiliate site homepages:** 800w floor — TARGET 1,500w
 - **Thin content threshold:** Under 400 words = fix immediately
+- **Floors are minimums, not goals.** Hitting 701w on a product page is a near-miss, not a win.
 
 ### Authority Signals That Work
 - **Specific fitment data** — year/make/model callouts (Google rewards specificity)
@@ -345,6 +500,12 @@ FAQPage JSON-LD **cannot** be placed in `body_html` — it gets stripped by the 
 ```
 Metafield: `custom.faq_schema`, type `multi_line_text_field`. Push via Admin API metafields endpoint, not body_html.
 
+**IndexNow key on Shopify — correct method:** Theme file assets don't serve at the root domain URL. The working approach is a Liquid page template:
+1. Create `templates/page.indexnow-key.liquid` containing just the key string
+2. Create a Shopify Page with handle = the key value (e.g. `b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5`), assign that template
+3. Verify: `curl -sL https://yourdomain.com/pages/{key}` returns just the key
+4. Submit to IndexNow with `keyLocation: https://yourdomain.com/pages/{key}`
+
 ⚠️ **VERIFY RENDERING — metafield existing ≠ schema rendering.** After patching the theme, confirm with:
 ```
 curl -s https://yourdomain.com/collections/your-handle | grep -c "application/ld+json"
@@ -536,8 +697,15 @@ Must return 1 or more. If it returns 0, the theme patch failed — check that th
 - **IndexNow submissions** → Bing/Yandex pickup within 24h (vs weeks without)
 - **Fixing title tags to keyword-first** → CTR improvement visible in GSC
 - **noindexing thin/duplicate pages** → concentrates authority on quality pages
-- **Backlinks from affiliate network** → 28+ bullstrap.com backlinks from owned sites
+- **Backlinks from affiliate network** → 6,911 Bartact backlinks from Filli's 96 affiliate sites (as of 2026-08-08)
 - **Vehicle-specific fitment content** → Google rewards specificity
+- **FAQ schema across ALL collection pages** → 106/106 Bartact collections now have FAQPage JSON-LD (confirmed via curl, Aug 2026) — every collection page is now featured snippet eligible
+- **Canonical fabric comparison chart** → Bartact Grade A scoring deployed across all 16 seat cover affiliate sites (Aug 2026) — shows neoprene as NOT seat-heater compatible, Bartact as only brand with MOLLE + machine-washable + waterproof
+- **1,500w expansion across affiliate network** → 2,332 pages across 96 affiliate sites expanded to 1,500w+ with FAQPage schema (Aug 2026)
+- **Blog at 6x/day with 3 backlinks per post** → Bull Strap getting 18 real internal backlinks/day to Turn14 collection pages; 249-collection rotation prevents repeats for 40+ days
+- **SkipATip root IndexNow key fix** → valid root key file went live on 2026-08-08; first real bulk submission was 190 URLs after all prior 202 responses had been silently discarded
+- **Faithful Passages full-page expansion pattern** → 28/29 pages now at 1,000w+ and 22/29 at 1,500w+ with live Article + FAQPage schema verification, showing the prayer/devotional niche responds to scripture expansion + FAQ blocks
+- **Bull Strap FAQ schema via metafield render** → `custom.faq_schema` rendered successfully on 5 priority collections with live 1,523-1,560w post-sanitizer counts verified from Shopify API
 
 ### Confirmed Losers
 - **Universal/generic copy** — never ranks against vehicle-specific pages
@@ -546,6 +714,121 @@ Must return 1 or more. If it returns 0, the theme patch failed — check that th
 - **Missing IndexNow key file** — silently kills all IndexNow submissions
 - **Duplicate Amazon tracking tags** — loses commission AND gets flagged
 - **Fabricated specs/claims** — legal risk + trust loss if caught
+- **Shopify canonical header on CDN assets** — Shopify's `Link: <cdn.shopify.com/...>; rel="canonical"` header on theme assets causes Bing IndexNow to see a domain mismatch and silently reject all submissions. Fix: Shopify Page + URL Redirect pattern (proven on Bartact), or Cloudflare Worker proxy.
+- **GCP credential expiry with no alert** — both Bull Strap and brazenauto Google Indexing API credentials have expired without visible failure (stalled logs only). Set calendar reminders or credential health crons. Bull Strap indexing stalled 9+ days before detection (Aug 2026).
+- **Trusting bot self-reports of Telegram sends** — scripts log "sent ✅" even when TELEGRAM_TOKEN is missing — all Telegram sends from Bartact monitoring were silently failing. Always verify the token exists in env before trusting success logs.
+
+---
+
+## 17. ISSUE ROUTING — HOW PROBLEMS BECOME PLAYBOOK RULES
+
+**This playbook is a living document. Every bug, failure, and gap a bot encounters is a potential playbook entry.**
+
+### The Chain
+
+```
+Bot hits a problem or question
+        ↓
+Bot sends it to Slashdaddy (NOT Mitch)
+        ↓
+Slashdaddy reviews:
+  → Can fix it directly? Fix it + update playbook if it's a pattern
+  → Can't fix it / needs a decision? Bring it to Mitch with context + recommendation
+        ↓
+Mitch decides
+        ↓
+Fix applied + rule added to playbook
+```
+
+### How Bots Send Issues to Slashdaddy
+
+Use `sessions_send` with this exact session key:
+```
+sessionKey: "agent:slashdaddy:telegram:slashdaddy:direct:7550065844"
+```
+
+Format your message as:
+- **What happened** (brief, factual)
+- **What you tried**
+- **What you need** (a fix, a decision, or just a heads-up)
+
+### What Counts as an Issue Worth Routing
+
+**Route to Slashdaddy immediately:**
+- Auth errors or credential failures
+- A script behaved differently than the playbook says it should
+- You're blocked and can't proceed without a decision
+- You caught a gap the playbook doesn't cover
+- Something broke that was working
+- You're about to do something irreversible and want a second opinion
+
+**Handle silently (don't route):**
+- Normal quota limits (expected behavior)
+- Propagation delays under 2 hours
+- Routine task completion
+- Things the playbook already covers clearly
+
+### What Slashdaddy Does With Issues
+
+1. **Verifies** the issue is real (doesn't just take the bot's word for it)
+2. **Fixes directly** when possible — updates configs, patches crons, corrects instructions
+3. **Escalates to Mitch** only when it needs a decision, budget, or external action
+4. **Adds to playbook** when the issue reveals a pattern or gap
+
+### What Makes a Good Playbook Addition
+
+A playbook rule is worth adding when:
+- The same type of problem has happened more than once
+- A bot made an incorrect assumption that the playbook could have prevented
+- A fix was non-obvious and others would benefit from knowing it
+- A tool, API, or platform behaved unexpectedly
+
+**Format for new entries:** Short heading + what went wrong + the correct approach. Put it in the most relevant existing section, or create a new one if it doesn't fit.
+
+---
+
+## 18. UNIVERSAL vs VERTICAL-SPECIFIC SCOPE
+
+Not all bots work on ecommerce/affiliate SEO. This section defines what applies to everyone vs what is vertical-specific.
+
+### Universal — Applies to ALL Bots
+
+- Submit to search engines after every push (Google Indexing API + IndexNow)
+- GSC property setup before any indexing work (Section 0)
+- Pull canonical site list before any network-wide task (Section 0.5)
+- Content must be substantive — no thin/duplicate pages
+- Schema markup where appropriate for content type
+- Image alt text on all images
+- Verify before claiming done — API confirmation required
+- Issue routing: problems go to Slashdaddy, not Mitch (Section 17)
+
+### Ecommerce/Affiliate Only (Filli, Bull Strap, Bartact, Fern Allen)
+
+- Amazon tracking tag rules
+- Shopify sanitizer rules
+- Turn14 sync protection
+- Patent claim rules
+- Bartact #1 ranking rule
+- Protected domain list
+- Google Ads / Merchant Center rules
+
+### Faithful Passages — Scope
+
+Universal standards apply. Ecommerce rules do NOT apply. Specific notes:
+- Content: prayer/devotional/scripture — quality and depth matter for E-E-A-T
+- Indexing: Google Indexing API + IndexNow after every content push
+- Schema: Article + FAQPage where appropriate (already confirmed working)
+- GSC: standard setup — sitemap submitted, service account verified
+- Word count: 800w floor universal minimum; 1,000w+ target for key pages
+- No affiliate rules, no Amazon tags, no Shopify rules apply
+
+### SkipaTip — Scope
+
+Universal standards apply. Ecommerce rules do NOT apply. Specific notes:
+- This is a review/app site — structured data (LocalBusiness, Review schema) matters
+- Indexing: all new pages/reviews pushed to Google Indexing API + IndexNow
+- GSC: standard setup maintained
+- Affiliate/ecommerce rules do not apply
 
 ---
 
@@ -577,13 +860,436 @@ Must return 1 or more. If it returns 0, the theme patch failed — check that th
 - Ranking state: `memory/bartact-ranking-state.json`
 - Update THIS file when new lessons are learned
 
+### Playbook Change Log
+- 2026-08-06: Playbook created
+- 2026-08-10: Section 0.5 added (canonical site list rule)
+- 2026-08-10: Section 17 added (issue routing + living playbook protocol)
+- 2026-08-10: Universal vs vertical-specific bot scope clarified
+- 2026-08-11: Section 20 added — Google Ads campaign modification rules (NEVER pause to replace; root cause: Bronco Storage PMax destruction July 31)
+- 2026-08-11: Section 21 added — Existing Bartact collection page compliance audit rule; "invented by Bartact" mandatory on all grab handle pages
+- 2026-08-11: Section 22 added — Compliance Verification Protocol (never self-report, mandatory weekly sweep, word count standards by page type)
+- 2026-08-11: Section 23 added — Mandatory Full Audit standing rule (ALL 119 collections + ALL 255 products, every session before content work begins, plus Sunday sweeps)
+- 2026-08-11: Section 24 added — Operational Failure Rules (5 rules from Mitch-flagged failures: phase large tasks, always paginate, IndexNow covers all 4 URL types, verify cron model on create, verify bulk ops with API count before reporting done)
+- 2026-08-11: Section 25 added — Google Indexing API quota priority: our pages first, Turn14 last. Bartact cron expanded to all 638 URLs, Bull Strap Turn14 pushed to 23:00 UTC.
+
 ### Key Dates
 - 2026-04-16: Bull Strap 97,200 pages noindexed; 28 backlinks added from affiliate network
 - 2026-04-20: Bull Strap SEO diagnosis — problem is low baseline, not ranking decay
 - 2026-07-20: Bartact SEO rules propagated to all bots
 - 2026-08-05: Bartact collection SEO cron running; daily blog publishing started
 - 2026-08-06: This playbook created
+- 2026-08-07: Bartact 106/106 collection pages — FAQPage schema deployed and curl-verified. Gladiator seat covers expanded 406→756w. Clicks -18% WoW (440 vs 537) — monitor trend.
+- 2026-08-08: Filli milestone — 2,332 pages across 96 affiliate sites at 1,500w+; 6,911 Bartact backlinks; canonical fabric chart on all 16 seat cover sites; 307 bad mil-spec instances stripped. Bull Strap indexing confirmed stalled (9 days). GCP reauth needed for both brazenauto and Bull Strap.
+- 2026-08-08: SkipATip IndexNow root key file fixed and verified; first valid 190-URL bulk submission accepted after prior silent failures.
+- 2026-08-09: Bull Strap 5 priority collections confirmed live with FAQPage schema in `custom.faq_schema` plus 1,523-1,560w post-sanitizer body counts.
+- 2026-08-07: Faithful Passages expanded 28/29 pages to 1,000w+, with 22/29 at 1,500w+ and live Article + FAQPage schema verification across expanded pages.
 
 ---
 
 *This file is maintained by Slashdaddy. All bots should read it at the start of any SEO task. Update it when you discover something new that works or doesn't work.*
+
+---
+
+## 19. COMPETITOR MONITORING & DAILY SEO AUTO-IMPROVEMENT
+
+### The Rule
+**Every bot checks its ranking daily. If we're not #1, we improve until we are.**
+Competitors will have Claude too. The only edge is moving faster, improving smarter, learning continuously.
+
+### How It Works — The Daily Loop
+
+```
+[6am] bartact-ranking-monitor.js
+        ↓ pulls GSC data
+        ↓ identifies keywords not on page 1
+        ↓ writes memory/bartact-seo-fix-queue.json
+        ↓ sends Telegram report
+
+[6:05am] seo-auto-improve.js --brand=bartact
+        ↓ reads fix queue
+        ↓ Grok live SERP → who's #1 right now?
+        ↓ fetch competitor page → word count, H2s, schema
+        ↓ if we trail by >100 words or missing schema → generate improved content via Grok
+        ↓ push to Shopify via GraphQL
+        ↓ submit to Google Indexing API + IndexNow
+        ↓ Telegram report to Mitch: what improved, what still needs work
+```
+
+### SERP Data Source
+- **Grok live search** (`grok-4-fast` with `search_parameters.mode=on`) — real-time Google results, no SERP API cost
+- Grok key in `.env` as `GROK_API_KEY` (or hardcoded in serp scripts)
+- Bing positions: `bartact-bing-rank-check.js` (Bing Webmaster API, key: in script)
+- Google positions: GSC via service account (`bartact-ranking-monitor.js`)
+
+### What Triggers an Auto-Improvement
+
+| Condition | Action |
+|-----------|--------|
+| Keyword not in top 10 AND competitor page >100w more than ours | Rewrite body_html, push, index |
+| Keyword not in top 10 AND competitor has FAQ schema, we don't | Flag for schema run |
+| Keyword in top 10 but #3-10 AND word count already competitive | Flag for backlink/CTR work |
+| We're already #1 | Skip — no action |
+
+### Competitor Analysis — What We Check
+1. **Word count** — beat them by 200+ words minimum
+2. **H2 structure** — match depth, improve specificity
+3. **FAQPage schema** — if they have it and we don't, we're at a schema disadvantage
+4. **Title tag** — Grok returns their title; compare to ours
+5. **Content gaps** — topics they cover that we don't (fitment, comparison, install guide)
+
+### Competitors to Watch (Bartact)
+- `wranglerspecs.com` — fitment content hub; deep JL coverage; tracked in `memory/raj-competitive-tracking.md`
+- Smittybilt, Rough Country, PRP Seats, Covercraft — product pages on those domains
+- Amazon listings — if Amazon ranks above us, improve our PDP + target long-tail
+- `extremeterrain.com`, `quadratec.com` — category aggregators
+
+### Target Config Files
+- `scripts/seo-targets-bartact.json` — keyword → Shopify handle mapping
+- `scripts/seo-targets-bullstrap.json` — (add when Bull Strap loop is live)
+- Add new keywords here as they enter the priority list
+
+### Cron Schedule
+```
+Daily 6am UTC  — Keyword Ranking Pull (76f90c7b)
+                 runs bartact-ranking-monitor.js → writes fix queue
+Daily 6:10am UTC — SEO Auto-Improve (new cron)
+                 runs seo-auto-improve.js --brand=bartact
+                 reads fix queue, checks SERP, improves, indexes
+```
+
+### Alert Thresholds — When to Wake Mitch
+- 🔴 Any priority keyword dropped 3+ positions since last week → immediate Telegram
+- 🔴 We're no longer in top 10 for a keyword that was page 1 → immediate
+- 🟡 Competitor published new content targeting our exact keyword → flag next morning
+- 🟡 Our word count now trails top competitor by >300 words → auto-improve
+- ✅ We hit #1 for a target keyword → celebrate in morning report
+
+### Extending to Other Bots
+Each bot runs the same loop for their own vertical:
+- **Filli**: affiliate site keyword monitoring — GSC per site, fix queue per site, web fetch competitor affiliate pages
+- **Bull Strap**: limit straps, recovery gear keywords — same script with `--brand=bullstrap`
+- **Faithful Passages**: travel/faith keywords — GSC + content improvement
+- Every bot should have its own `seo-targets-[brand].json` and daily cron
+
+### Playbook Change Log
+- 2026-08-10: Section 19 added — Grok-powered daily competitor SERP check + auto-improvement loop
+
+---
+
+## 20. GOOGLE ADS — CAMPAIGN MODIFICATION RULES (NON-NEGOTIABLE)
+
+**Added 2026-08-11. Root cause: Bartact bot created a brand new "Bronco Storage PMax" at $22/day on July 31 and paused the original "Bronco Storage" PMax that was running at 13.35x ROAS, $100/day. Revenue dropped from $5,067/day (Jul 29) to ~$464/day by Aug 1. Account is still recovering.**
+
+### The Prime Directive
+**NEVER pause an active Google Ads campaign to replace it with a new one. Ever. For any reason.**
+
+Creating a new campaign means Google's machine learning starts from zero. A working campaign's learning history — bidding signals, auction behavior, conversion patterns — is worth thousands of dollars and weeks of time. You cannot transfer that history. You destroy it the moment you pause the campaign.
+
+### What You CAN Do (within an existing campaign)
+- Update ad copy
+- Update keywords
+- Update landing pages
+- Adjust budget up or down
+- Add/remove ad groups
+- Pause individual ad groups or ads (NOT the campaign)
+- Update bidding strategy targets (e.g., tROAS)
+
+### What You CANNOT Do (without explicit dual instruction from Mitch)
+- ❌ Create a new campaign to replace a working one
+- ❌ Pause an active campaign for any reason
+- ❌ Reduce budget below what's needed for Smart Bidding to function
+- ❌ Change campaign type (e.g., PMax → Standard Shopping)
+
+### The ONLY Exception
+Mitch explicitly instructs you to:
+1. Create a new campaign — AND
+2. Pause the old one
+
+**Both instructions must come directly from Mitch in the same instruction set.** Inferring one from the other is not allowed.
+
+### Applies To
+ALL bots. ALL campaign types: Performance Max, Standard Shopping, Search, Display, Demand Gen. No exceptions.
+
+### Why Google's ML Learning Matters
+- PMax and Smart Bidding use machine learning that builds up auction data over weeks
+- Pausing a campaign resets this learning completely — restart is treated as a brand-new campaign
+- Restarting goes through a learning phase (typically 2–6 weeks of suboptimal performance)
+- Even budget changes trigger ML recalibration — make budget changes gradually (≤20% per week)
+- A campaign spending with zero reported conversions may be in a trough, seasonally slow, or benefiting from view-through attribution — check Shopify gclid data before drawing conclusions
+
+---
+
+## 21. BARTACT COLLECTION PAGE CONTENT COMPLIANCE — EXISTING PAGES
+
+**Added 2026-08-11. Root cause: The 1,500-word rule in Section 9 was being applied to NEW pages only. Existing pages were never audited or brought into compliance. `/collections/jeep-wrangler-jk-jku-grab-handles` is at #27.9 in GSC with 34 impressions and 0 clicks — thin content on a page where Bartact invented the category.**
+
+### The Rule
+**Every Bartact collection page — existing or new — must meet the 1,500-word target and 1,000-word minimum.** There is no grandfathering. A page that was "good enough" when it was published is not good enough now if it's below standard.
+
+### "Invented by Bartact" — Mandatory on All Grab Handle Pages
+Bartact invented the paracord grab handle. This is a unique authority signal no competitor can copy or claim. It MUST appear on EVERY grab handle collection page:
+- `/collections/jeep-wrangler-grab-handles`
+- `/collections/jeep-wrangler-jl-jlu-grab-handles`
+- `/collections/jeep-wrangler-jk-jku-grab-handles`
+- `/collections/jeep-gladiator-grab-handles`
+- `/collections/ford-bronco-grab-handles`
+
+Suggested framing: *"Bartact invented the paracord grab handle — the original, custom-engineered for Jeep Wrangler. Every grab handle on the market today is following Bartact's lead."*
+
+### Compliance Audit Process
+1. Pull ALL Bartact collection page handles via Shopify API
+2. For each page, fetch current `body_html` from Shopify API response (NOT input — post-sanitizer count)
+3. Count words in the API response body
+4. Any page under 1,000 words → immediately queue for expansion
+5. Any page between 1,000–1,500 words → queue for expansion within 7 days
+6. Report: X/total pages compliant
+7. The audit is NOT complete until EVERY page meets the standard — not "most", not "the priority ones"
+
+### Content Must Be Verified at Source
+- **Compliance is not determined by what you wrote** — it's determined by what the Shopify API returns after sanitization
+- Always verify word count from the API response body after every push
+- A page that looked 1,800 words in your script can come back 900 words after Shopify processes it
+- See Section 8 (Shopify sanitizer rules) for word count buffer guidance
+
+---
+
+## 22. COMPLIANCE VERIFICATION PROTOCOL — MANDATORY FOR ALL BOTS
+
+**Added 2026-08-11. Root cause: bots self-reported pages as compliant without re-fetching live word counts. Pages claimed as done had 278–419 words. The rule was always there — enforcement was missing.**
+
+### Rule 1: Never Self-Report Compliance
+
+A page is **NOT** compliant because you wrote content for it. It is compliant when:
+1. You push the content to Shopify via GraphQL mutation
+2. You read back `collection.descriptionHtml` from the **mutation response** (not from your script's input variable)
+3. You count words on that response body
+4. The count meets the floor
+
+If you cannot confirm the live word count from the API response, the task is NOT done. Do not tell Mitch it's done.
+
+### Rule 2: Weekly Word Count Sweep — Every Sunday
+
+Every Sunday, run a word count check across all priority Bartact collection pages (the 14 in the priority list at minimum — ideally all 119). If any page drops below 1,500 words from any cause (theme update, bulk edit, botched push), flag to Mitch immediately and fix same day. The sweep script is: `scripts/bartact-full-audit.js`.
+
+### Rule 3: Audit Existing Pages Before Writing New Content
+
+Before writing content for any new collection page, run `bartact-full-audit.js` to confirm existing priority pages are compliant. Do not add new content to a noncompliant house.
+
+### Rule 4: The 1,500-Word Rule Is Retroactive — No Grandfathering
+
+Every Bartact collection page — whether it was published in 2018 or 2026 — must meet the 1,500-word floor. There is no "was compliant when it was published" exception. If it's below 1,500 words today, it needs to be fixed.
+
+### Rule 5: Word Count Standards by Page Type
+
+| Page Type | Minimum | Target | Notes |
+|---|---|---|---|
+| Collection pages | 1,500w | 1,700w | Buffer above floor — edits and theme updates can shrink pages |
+| Hero product pages (seat covers, grab handles) | 500w | 700w | Full fitment, material specs, FAQ |
+| Standard product pages | 300w | 400w | At minimum: what it is, what it fits, why Bartact |
+| Blog posts | 800w | 1,200w | Thin blog posts don't rank |
+| Utility pages (gift card, patches, accessories) | 100w | 200w | Floor is lower — these don't rank for money keywords |
+
+### Rule 6: Reporting Format — No Exceptions
+
+No bot may tell Mitch a content task is "done" without providing all three:
+1. **Live word count** — from the API response body, not from the script input
+2. **IndexNow status** — HTTP status code from `api.indexnow.org`
+3. **Google Indexing API status** — "submitted" or specific error (quota, creds missing, etc.)
+
+Example compliant report:
+```
+✅ jeep-gladiator-grab-handles: 1,910w live | IndexNow: 200 OK | Google Indexing: submitted
+```
+
+Example non-compliant report (never send this):
+```
+✅ jeep-gladiator-grab-handles: done
+```
+
+### Rule 7: Product Page Floor Is Now Enforced
+
+Full audit run 2026-08-11 found 147/255 active products below 300w. Fix priority:
+1. Hero products (seat covers, grab handles, fire extinguisher mounts) — 500w target
+2. Storage bags, MOLLE panels, console covers — 300w minimum
+3. Accessories, patches, keychains — 100w floor (lowest priority)
+
+Product descriptions must include at minimum: what the product is, exact vehicle fitment (year/make/trim), key material/feature, and why Bartact.
+
+---
+
+## 25. GOOGLE INDEXING API QUOTA PRIORITY — NON-NEGOTIABLE
+
+**Added 2026-08-11. Mitch's direct directive.**
+
+All properties using the `axl-348@proud-stage-397621` service account share a single 199 URL/day Google Indexing API quota. Bull Strap has 78,820+ Turn14 product URLs being dripped at 199/day — if Turn14 runs before our money pages, our own sites get nothing.
+
+### The Rule: Our Pages Eat First, Turn14 Eats Last
+
+Priority order — quota must be consumed in this order every day:
+
+1. **Bartact.com** — always first. 638 URLs rotating (products 318 + collections 119 + blog posts ~170 + pages ~31)
+2. **Our owned properties** — SkipATip, Faithful Passages, brazenauto.com, and the DO NOT TOUCH sites (factorfilters.com, thedailycheer.com, recentratings.com, hspseats.com, fernallern.com, thornwoodaccord.com)
+3. **Affiliate sites** — Filli's network (~112 sites)
+4. **Bull Strap Turn14 bulk catalog** — LAST. Low-priority filler on bullstrap.com. It will never finish anyway (78,820 URLs ÷ 199/day = 396 days). There is zero reason to let it starve our real pages.
+
+### Cron Schedule — Enforced Order (UTC)
+
+| Time (UTC) | Cron | Priority |
+|---|---|---|
+| 0:15 | **Bartact Full-Site Indexing** | ✅ #1 — Bartact always first |
+| 0:30 | Owned properties (SkipATip, Faithful Passages, DO NOT TOUCH sites) | ✅ #2 — our owned sites |
+| 0:45 | Affiliate Sites Indexing (daily) | ✅ #3 — affiliate network |
+| 12:00 | Filli Google Indexing API | ✅ #3 continued — additional affiliate coverage |
+| 23:00 | Bull Strap Full Catalog (Turn14 on bullstrap.com) | ⬇️ #4 — leftover quota only |
+
+### What Changed 2026-08-11
+- Bartact indexing cron (`7c688931`) expanded from 73 seat cover URLs → **all 638 Bartact URLs** rotating at 199/day. Script: `scripts/bartact-full-site-indexing.js`
+- Bull Strap Full Catalog cron (`81210002`) moved from **12:00 UTC → 23:00 UTC** (last slot)
+- Bartact cron fallbacks cleared to `[]`
+
+### Applies To Any New Indexing Cron
+Whenever a new Google Indexing API cron is created, it must be scheduled BEFORE `23:00 UTC` and BEFORE the Bull Strap Turn14 cron. Turn14 always runs last. No exceptions.
+
+### Bartact Full-Site Indexing — How It Works
+- Script: `scripts/bartact-full-site-indexing.js`
+- Fetches all 4 URL types from Shopify API with full pagination on first run, caches for 7 days
+- Rotates through ~638 total URLs at 199/day → full rotation every ~4 days
+- State file: `memory/bartact-full-indexing-state.json` (tracks position in rotation)
+- Every page gets submitted to Google roughly twice a week
+
+---
+
+## 24. OPERATIONAL FAILURE RULES — LEARNED 2026-08-11
+
+**Added 2026-08-11. All five rules below came from direct Mitch flags during the Bartact product audit. Non-negotiable.**
+
+### Rule 1: Large Tasks Must Be Phased With Checkpoints
+
+Any task involving 100+ API calls, content generation, AND indexing submissions in a single session WILL blow the context window (138K token limit confirmed). When it blows, the session crashes mid-task and Mitch has to manually intervene.
+
+**The rule:** Break large multi-phase tasks into explicit phases. Checkpoint between each phase by writing progress state to a file. If continuing in a new session or cron, read that state file first.
+
+Phase structure for large Bartact tasks:
+1. **Audit phase** — fetch all records, count them, write results to JSON state file
+2. **Fix phase** — read state file, process in batches of 25-50, write progress after each batch
+3. **Verify phase** — re-fetch counts from API, confirm numbers match, THEN report
+4. **Index phase** — submit to IndexNow + Google Indexing API as a separate step after verify
+
+Never combine all four phases in a single session run. Write state between phases.
+
+### Rule 2: Always Paginate Shopify API Calls — No Exceptions
+
+Shopify's REST API returns **250 records max per page**. GraphQL has its own pagination limits. If you don't paginate, you get a partial dataset and report a wrong number.
+
+**The rule:** Every bulk Shopify fetch MUST paginate until no `Link: <...>; rel="next"` header is present (REST) or `pageInfo.hasNextPage` is false (GraphQL). After any bulk operation, verify the processed count against the `/count.json` endpoint (or `totalCount` in GraphQL) before reporting done.
+
+```js
+// REST — correct pagination pattern
+let url = `https://${SHOP}/admin/api/2024-01/products.json?limit=250&status=active`;
+let allProducts = [];
+while (url) {
+  const res = await fetch(url, { headers: { 'X-Shopify-Access-Token': TOKEN } });
+  const data = await res.json();
+  allProducts.push(...data.products);
+  const link = res.headers.get('Link') || '';
+  const next = link.match(/<([^>]+)>;\s*rel="next"/);
+  url = next ? next[1] : null;
+}
+// Then verify:
+const countRes = await fetch(`https://${SHOP}/admin/api/2024-01/products/count.json?status=active`, ...);
+const { count } = await countRes.json();
+if (allProducts.length !== count) throw new Error(`Pagination gap: got ${allProducts.length}, expected ${count}`);
+```
+
+**Confirmed failure:** 2026-08-11 audit reported 255 active products. Actual count: 318. 63 products missed. Bartact bot had to fix the remaining 192 thin products after the session crashed.
+
+### Rule 3: Full-Site IndexNow Blast = ALL Four URL Types
+
+A Bartact "full site IndexNow submission" covers **638 indexable URLs** across four types:
+- Products: 318 active
+- Collections: 119 published
+- Blog posts: ~170
+- Static pages: ~31
+
+**The rule:** Never submit only one URL type and call it a full submission. Use the Shopify API to fetch all four types:
+- Products: `/admin/api/2024-01/products.json?limit=250&status=active` (paginate)
+- Collections: `/admin/api/2024-01/custom_collections.json` + `/admin/api/2024-01/smart_collections.json` (paginate both)
+- Blog posts: `/admin/api/2024-01/blogs/{blog_id}/articles.json?published_status=published` (paginate)
+- Pages: `/admin/api/2024-01/pages.json?published_status=published`
+
+Build the full URL list from all four, then submit in a single IndexNow POST (max 10,000 URLs per call).
+
+**Confirmed failure:** 2026-08-11 — only product URLs submitted to IndexNow. 320 collections + blog posts + pages missed entirely.
+
+### Rule 4: Every New Cron Must Explicitly Set Model — Then Verify
+
+Crons that don't explicitly set the model field inherit the default, which may be a myclaw/ model that burns myclaw credits. This has happened repeatedly.
+
+**The rule:** Every time you create a new cron:
+1. Set `model: "anthropic/claude-haiku-4-5"` explicitly in the cron config
+2. Set `fallbacks: []` explicitly (empty array — no fallback that could route to myclaw/)
+3. After creating, immediately read the cron record back and confirm those two fields are set correctly
+4. Do NOT mark the cron creation as done until the verification read confirms it
+
+This is not optional. This is not "probably fine." Every cron. Every time.
+
+### Rule 5: Bulk Operation Completion Requires a Final Verification Read
+
+Section 22 already says this for content tasks. Expanding it to ALL bulk operations.
+
+**The rule:** No bulk operation is complete until you've done a final independent verification:
+- Bulk product update → hit `/products/count.json` and confirm count matches what you processed
+- Bulk collection update → hit `/custom_collections/count.json` + `/smart_collections/count.json`
+- Bulk IndexNow submission → confirm the response was HTTP 200 and log the URL count submitted
+- Bulk Google Indexing API → confirm no quota errors and log URLs submitted vs quota remaining
+
+The verification must come from the API — not from your script's input variables, not from your loop counter. The API is truth. Your counter is a guess.
+
+**Format for reporting bulk operations:**
+```
+✅ Products: processed 318/318 (verified via /count.json = 318)
+✅ IndexNow: submitted 638 URLs (products 318 + collections 119 + posts 170 + pages 31) — HTTP 200
+✅ Google Indexing API: 199 submitted, 0 quota errors, 119 remaining in today's quota
+```
+
+---
+
+## 23. MANDATORY FULL AUDIT — ALL COLLECTIONS + ALL PRODUCTS (STANDING RULE)
+
+**Added 2026-08-11. Root cause: the 119-collection + 255-product audit only happened because the session crashed and a new session caught the gap. The audit should be a standing, scheduled process — not a one-time catch-up.**
+
+### The Rule
+**Before ANY Bartact SEO content work begins in a session, run `bartact-full-audit.js` first.** Do not write new content for a page until you know whether existing pages are compliant. Do not add to a noncompliant house.
+
+### Mandatory Audit Triggers
+The full audit (`scripts/bartact-full-audit.js`) MUST be run:
+1. **Before any session starts Bartact SEO work** — always. No exceptions.
+2. **Every Sunday** — standing weekly sweep (Section 22, Rule 2)
+3. **After any bulk content push** — confirm pages held their word count post-sanitizer
+4. **After any Shopify theme update** — theme changes can strip metafields and body_html
+
+### What the Audit Covers
+- ALL published Bartact collections (currently 119) — word count from `descriptionHtml` via GraphQL
+- ALL active Bartact products (currently 255) — word count from `bodyHtml` via GraphQL
+- Results saved to `memory/bartact-full-audit.json`
+
+### Audit Report Format — Required
+```
+BART ACT FULL AUDIT — [date]
+Collections: X/119 compliant (≥1,500w) | Y flagged (under floor)
+Products: X/255 compliant (≥300w hero / ≥100w utility) | Y flagged
+Next: [what gets fixed first]
+```
+
+### Why This Is Standing — Not One-Time
+- Shopify sanitizer can silently shrink pages on theme updates or bulk edits
+- New collections get added — each starts at 0w and needs content
+- Product descriptions reset when Turn14/DH2T sync runs — must be re-verified
+- The scope changes: 119 collections today, might be 125 next month
+- No audit = flying blind. The Aug 11 crash revealed 9 priority pages were non-compliant after months of "done" being claimed.
+
+### Scope as of 2026-08-11
+- 107/119 collections compliant (≥1,500w)
+- 12 under floor: overstock-clearance (113w), bull-strap (129w), all (154w), bull-strap-tie-downs-and-recovery (158w), accessories (158w), barktact-dog-gear (158w), uncategorized (0w), miscellaneous-1 (54w), new-products (62w), best-sellers (62w), hvac-filters (62w), bull-strap-heavy-duty-2-ratchet-tie-downs (86w)
+- 108/255 products compliant | 147 thin | 4 empty (morale patches)
+- Hero seat cover SKUs: 260–300w → target 500w+

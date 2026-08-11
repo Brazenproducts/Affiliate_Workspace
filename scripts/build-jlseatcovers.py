@@ -593,3 +593,7 @@ if __name__ == '__main__':
     print(f"\nDone. Built {len(built)} subpages.")
     print("Now update index.html vehicle selector tabs to match these pages.")
     print("Run: cd /home/ubuntu/.openclaw/workspace/sites/jlseatcovers.com && git add -A && git commit -m 'Rebuild subpages via canonical builder' && git push")
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+post_build_submit('jlseatcovers.com')

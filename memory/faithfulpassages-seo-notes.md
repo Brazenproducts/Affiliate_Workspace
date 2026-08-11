@@ -15,7 +15,7 @@
 
 ## STANDING RULES (from playbook)
 
-1. Submit to Google Indexing API + IndexNow after every publish/update
+1. Submit to Google Indexing API + IndexNow after EVERY push — no exceptions. Single file fix, SSL commit, minor edit — all of them. IndexNow does NOT cover Google; they are separate and both required.
 2. Title tags: keyword FIRST, brand LAST, max 65 chars
 3. Meta descriptions: 80–160 chars
 4. Article schema on EVERY post — verified live, not just pushed

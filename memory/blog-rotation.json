@@ -1,7 +1,7 @@
 {
   "stores": ["bartact", "bullstrap"],
-  "lastPublished": "bartact",
-  "nextStore": "bullstrap",
+  "lastPublished": "bullstrap",
+  "nextStore": "bartact",
   "history": [
     {
       "store": "bartact",
@@ -9,6 +9,13 @@
       "articleId": 566883844139,
       "title": "Cordura vs Neoprene Seat Covers: Which Material Lasts Longer Off-Road?",
       "handle": "cordura-vs-neoprene-seat-covers-which-material-lasts-longer-off-road"
+    },
+    {
+      "store": "bullstrap",
+      "date": "2026-08-10",
+      "articleId": 684175917329,
+      "title": "What Are Limit Straps and Why Your Truck Needs Them",
+      "handle": "what-are-limit-straps-and-why-your-truck-needs-them"
     }
   ]
 }

@@ -494,3 +494,94 @@ Telegram alert: NOT SENT (no credentials)
 Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-06.md
 
 === DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-09 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 3 / 18 keywords
+  #3 — jeep wrangler seat covers
+  #3 — jeep wrangler jl seat covers
+  #3 — jeep gladiator seat covers
+  Not ranked (top 20): jeep wrangler grab handles, jeep wrangler jl grab handles, paracord grab handles jeep, ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 417ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 3/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-09.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-10 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 1 / 18 keywords
+  #3 — paracord grab handles jeep
+  Not ranked (top 20): jeep wrangler seat covers, jeep wrangler jl seat covers, jeep gladiator seat covers, jeep wrangler grab handles, jeep wrangler jl grab handles, ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, jeep wrangler tj seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 356ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 1/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-10.md
+
+=== DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-11 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 3 / 18 keywords
+  #3 — ford bronco grab handles
+  #3 — jeep wrangler tj seat covers
+  #4 — ford bronco seat covers
+  Not ranked (top 20): jeep wrangler seat covers, jeep wrangler jl seat covers, jeep gladiator seat covers, jeep wrangler grab handles, jeep wrangler jl grab handles, paracord grab handles jeep, toyota tacoma seat covers, jeep wrangler jk seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, molle seat covers jeep, molle attachments, roll bar fire extinguisher holder, jeep wrangler fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 451ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 3/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-11.md
+
+=== DONE ===

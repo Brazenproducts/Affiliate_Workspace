@@ -1,5 +1,5 @@
 {
-  "lastIndex": 3,
+  "lastIndex": 7,
   "published": [
     {
       "date": "2026-08-03",
@@ -24,6 +24,24 @@
       "title": "Toyota Tacoma Seat Covers — Custom Fit vs Universal",
       "handle": "toyota-tacoma-seat-covers-custom-fit",
       "id": 568459329579
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Jeep Wrangler JL Grab Handles: Bolt-On vs Wrap-Around and Which Option Fits Your Build",
+      "handle": "jeep-wrangler-jl-grab-handles-bolt-on-vs-wrap",
+      "id": 568525979691
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Limit Straps for Jeep Wrangler and UTV Builds: What They Do and Why You Need Them",
+      "handle": "limit-straps-jeep-wrangler-utv-guide",
+      "id": 568536694827
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Best Ford Bronco Grab Handles — Roll Bar and Headrest Options",
+      "handle": "best-ford-bronco-grab-handles-roll-bar",
+      "id": 568578179115
     }
   ]
 }

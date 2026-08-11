@@ -1,71 +1,71 @@
 {
-  "date": "2026-08-07T16:03:25.948Z",
+  "date": "2026-08-11T16:00:53.729Z",
   "actions": [
     {
       "kw": "jeep wrangler jl seat covers",
       "handle": "jeep-wrangler-jl-seat-covers",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 746
+      "words": 1871
+    },
+    {
+      "kw": "ford bronco seat covers",
+      "handle": "ford-bronco-seat-covers",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 1823
     },
     {
       "kw": "toyota tacoma seat covers",
       "handle": "toyota-tacoma-seat-covers",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 784
-    },
-    {
-      "kw": "jeep grab handles",
-      "handle": "jeep-grab-handles",
-      "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 1058
+      "words": 2072
     },
     {
       "kw": "ford bronco grab handles",
       "handle": "ford-bronco-grab-handles",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 771
+      "words": 1938
     },
     {
       "kw": "jeep wrangler grab handles",
       "handle": "jeep-wrangler-grab-handles",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 1058
+      "words": 1844
     },
     {
       "kw": "molle seat covers",
       "handle": "molle-accessories",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 605
+      "words": 1535
     },
     {
       "kw": "jeep molle accessories",
       "handle": "molle-accessories",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 605
+      "words": 1535
     },
     {
       "kw": "jeep fire extinguisher mount",
       "handle": "fire-extinguisher-holders",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 797
+      "words": 1822
     },
     {
       "kw": "roll bar fire extinguisher",
       "handle": "roll-bar-fire-extinguisher-holder",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 797
+      "words": 1746
     },
     {
       "kw": "jeep storage bags",
       "handle": "jeep-wrangler-storage-bags-organizers",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 820
+      "words": 1606
     },
     {
       "kw": "ford bronco storage",
       "handle": "ford-bronco-storage-bags",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 775
+      "words": 1733
     },
     {
       "kw": "winch cover",
@@ -77,13 +77,29 @@
       "kw": "jeep limit straps",
       "handle": "jeep-wrangler-suspension-limit-straps",
       "action": "CONTENT_OK_CHECK_LINKS",
-      "words": 612
+      "words": 1519
     },
     {
       "kw": "best jeep gladiator seat covers",
       "handle": "jeep-gladiator-seat-covers",
-      "action": "COULD_BE_DEEPER",
-      "words": 406
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 1803
+    },
+    {
+      "kw": "best ford bronco seat covers",
+      "handle": "ford-bronco-seat-covers",
+      "action": "CONTENT_OK_CHECK_LINKS",
+      "words": 1823
+    },
+    {
+      "kw": "bronco seat covers",
+      "action": "NEEDS_BLOG_ARTICLE",
+      "reason": "No collection mapped — need dedicated blog article targeting this keyword"
+    },
+    {
+      "kw": "jeep tj seat covers",
+      "action": "NEEDS_BLOG_ARTICLE",
+      "reason": "No collection mapped — need dedicated blog article targeting this keyword"
     }
   ]
 }

@@ -21,10 +21,10 @@
 ## Queued (Batch 3 — target May 1-7)
 13. [x] Best Seat Covers for F-150 (2026 Buyer's Guide) — published 2026-05-18
 14. [x] Tactical Seat Cover Maintenance: How to Clean & Care — published 2026-05-18
-15. [ ] MOLLE Accessories: Best Pouches for Your Seat Covers
-16. [ ] Silverado vs F-150: Which Truck Has Better Cover Options?
-17. [ ] Why Berry Amendment Compliance Matters for Seat Covers
-18. [ ] Best Seat Covers for Work Trucks
+15. [x] MOLLE Accessories: Best Pouches for Your Seat Covers — published 2026-07-06
+16. [x] Silverado vs F-150: Which Truck Has Better Cover Options? — published 2026-07-09
+17. [x] Why Berry Amendment Compliance Matters for Seat Covers — published 2026-08-10
+18. [ ] Best Seat Covers for Work Trucks (published as variant)
 
 ## Evergreen Topics (ongoing)
 - Best [Vehicle] Seat Covers [Year] — update annually

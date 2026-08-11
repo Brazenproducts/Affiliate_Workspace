@@ -14,7 +14,7 @@ const STATE_FILE = '/home/ubuntu/.openclaw/workspace/memory/bartact-blog-daily-s
 const TOPICS = [
   { title: 'Best Jeep Wrangler JL Seat Covers for 2024 and 2025', handle: 'best-jeep-wrangler-jl-seat-covers-2024-2025', primaryCollection: '/collections/jeep-wrangler-jl-seat-covers', keywords: 'jeep wrangler jl seat covers' },
   { title: 'Jeep Gladiator Seat Covers — Why Fitment Matters', handle: 'jeep-gladiator-seat-covers-fitment', primaryCollection: '/collections/jeep-gladiator-seat-covers-1', keywords: 'jeep gladiator seat covers' },
-  { title: 'Ford Bronco Seat Covers — 2021, 2022, 2023, 2024 Guide', handle: 'ford-bronco-seat-covers-guide', primaryCollection: '/collections/ford-bronco-seat-covers', keywords: 'ford bronco seat covers' },
+  { title: 'Ford Bronco Seat Covers — 2021–2026 Complete Guide', handle: 'ford-bronco-seat-covers-guide', primaryCollection: '/collections/ford-bronco-seat-covers', keywords: 'ford bronco seat covers' },
   { title: 'Toyota Tacoma Seat Covers — Custom Fit vs Universal', handle: 'toyota-tacoma-seat-covers-custom-fit', primaryCollection: '/collections/toyota-tacoma-seat-covers', keywords: 'toyota tacoma seat covers' },
   { title: 'MOLLE Seat Covers for Jeep Wrangler — Storage and Organization', handle: 'molle-seat-covers-jeep-wrangler', primaryCollection: '/collections/molle-accessories', keywords: 'molle seat covers jeep' },
   { title: 'Jeep Wrangler JL Grab Handles — Bolt-On vs Wrap-Around', handle: 'jeep-wrangler-jl-grab-handles-bolt-on-vs-wrap', primaryCollection: '/collections/jeep-wrangler-jl-jlu-grab-handles', keywords: 'jeep wrangler jl grab handles' },

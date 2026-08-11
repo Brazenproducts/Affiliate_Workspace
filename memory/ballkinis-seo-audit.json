@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-08-11T18:38:05.008Z",
+  "totalUrls": 22,
+  "products": 17,
+  "collections": 4,
+  "googleResults": {
+    "ok": 3,
+    "fail": 19,
+    "errors": [
+      {
+        "url": "https://ballkinis.com/",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/collections/accessories",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/collections/ballkinis-bottoms",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/collections/new-arrivals",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-chocolate-bikini-bottom",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-mocha-bikini-bottom",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-vanilla-bikini-bottom",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-breast-cancer-awareness-golf-ball-holder-mocha-bikini-top",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-breast-cancer-awareness-golf-ball-holder-vanilla-bikini-top",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-chocolate-usa-bikini-bottom",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-mocha-usa-bikini-bottom",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-chocolate-bikini-top-usa",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis-funny-golf-ball-holder-mocha-bikini-top-usa",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis™-top-usa-bikini-funny-golf-ball-holder-vanilla-bikini-top-usa",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis-ball-cap",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis-bottom-vanilla-yellow-polka-dot-bikini-golf-ball-holder",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis-top-vanilla-breast-cancer-golf-ball-holder",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis-bottom-vanilla-usa-golf-ball-holder",
+        "status": 429
+      },
+      {
+        "url": "https://ballkinis.com/products/ballkinis-top-vanilla-usa-golf-ball-holder",
+        "status": 429
+      }
+    ]
+  },
+  "thinPages": [
+    {
+      "url": "https://ballkinis.com/collections/accessories",
+      "title": "Accessories",
+      "wordCount": 0
+    },
+    {
+      "url": "https://ballkinis.com/collections/ballkinis-bottoms",
+      "title": "Ballkinis Bottoms",
+      "wordCount": 0
+    },
+    {
+      "url": "https://ballkinis.com/collections/ballkinis-tops",
+      "title": "Ballkinis Tops",
+      "wordCount": 0
+    },
+    {
+      "url": "https://ballkinis.com/collections/new-arrivals",
+      "title": "New Arrivals",
+      "wordCount": 0
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-chocolate-bikini-bottom",
+      "title": "Ballkinis™ Yellow Polka Dot Bikini Golf Ball Holder Chocolate Bikini Bottom",
+      "wordCount": 132
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-mocha-bikini-bottom",
+      "title": "Ballkinis™ Yellow Polka Dot Bikini Golf Ball Holder Mocha Bikini Bottom",
+      "wordCount": 132
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-vanilla-bikini-bottom",
+      "title": "Ballkinis™ Yellow Polka Dot Bikini Golf Ball Holder Vanilla Bikini Bottom",
+      "wordCount": 132
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-chocolate-usa-bikini-bottom",
+      "title": "Ballkinis™ Funny Golf Ball Holder Chocolate USA Bikini Bottom",
+      "wordCount": 129
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-mocha-usa-bikini-bottom",
+      "title": "Ballkinis™ Funny Golf Ball Holder Mocha USA Bikini Bottom",
+      "wordCount": 129
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-vanilla-usa-bikini-bottom",
+      "title": "Ballkinis™ Funny Golf Ball Holder Vanilla USA Bikini Bottom",
+      "wordCount": 130
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-chocolate-bikini-top-usa",
+      "title": "Ballkinis™ Funny Golf Ball Holder - Chocolate Bikini Top USA",
+      "wordCount": 130
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis-funny-golf-ball-holder-mocha-bikini-top-usa",
+      "title": "Ballkinis™ Funny Golf Ball Holder - Mocha Bikini Top USA",
+      "wordCount": 131
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis™-top-usa-bikini-funny-golf-ball-holder-vanilla-bikini-top-usa",
+      "title": "Ballkinis™ Funny Golf Ball Holder - Vanilla Bikini Top USA",
+      "wordCount": 131
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis-ball-cap",
+      "title": "Ballkinis Ball Cap",
+      "wordCount": 95
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis-bottom-vanilla-yellow-polka-dot-bikini-golf-ball-holder",
+      "title": "Ballkinis™ Bottom Yellow Polka Dot Bikini Golf Ball Holder",
+      "wordCount": 130
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis-bottom-vanilla-usa-golf-ball-holder",
+      "title": "Ballkinis™ Bottom USA Bikini Funny Golf Ball Holder Pouch Sack Gift Innovative Souvenirs Club Storage",
+      "wordCount": 127
+    },
+    {
+      "url": "https://ballkinis.com/products/ballkinis-top-vanilla-usa-golf-ball-holder",
+      "title": "Ballkinis™ Top USA Bikini Funny Golf Gift Ball Holder Pouch Storage",
+      "wordCount": 127
+    }
+  ],
+  "urls": [
+    "https://ballkinis.com/",
+    "https://ballkinis.com/collections/accessories",
+    "https://ballkinis.com/collections/ballkinis-bottoms",
+    "https://ballkinis.com/collections/ballkinis-tops",
+    "https://ballkinis.com/collections/new-arrivals",
+    "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-chocolate-bikini-bottom",
+    "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-mocha-bikini-bottom",
+    "https://ballkinis.com/products/ballkinis™-yellow-polka-dot-bikini-golf-ball-holder-vanilla-bikini-bottom",
+    "https://ballkinis.com/products/ballkinis™-breast-cancer-awareness-golf-ball-holder-chocolate-bikini-top",
+    "https://ballkinis.com/products/ballkinis™-breast-cancer-awareness-golf-ball-holder-mocha-bikini-top",
+    "https://ballkinis.com/products/ballkinis™-breast-cancer-awareness-golf-ball-holder-vanilla-bikini-top",
+    "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-chocolate-usa-bikini-bottom",
+    "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-mocha-usa-bikini-bottom",
+    "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-vanilla-usa-bikini-bottom",
+    "https://ballkinis.com/products/ballkinis™-funny-golf-ball-holder-chocolate-bikini-top-usa",
+    "https://ballkinis.com/products/ballkinis-funny-golf-ball-holder-mocha-bikini-top-usa",
+    "https://ballkinis.com/products/ballkinis™-top-usa-bikini-funny-golf-ball-holder-vanilla-bikini-top-usa",
+    "https://ballkinis.com/products/ballkinis-ball-cap",
+    "https://ballkinis.com/products/ballkinis-bottom-vanilla-yellow-polka-dot-bikini-golf-ball-holder",
+    "https://ballkinis.com/products/ballkinis-top-vanilla-breast-cancer-golf-ball-holder",
+    "https://ballkinis.com/products/ballkinis-bottom-vanilla-usa-golf-ball-holder",
+    "https://ballkinis.com/products/ballkinis-top-vanilla-usa-golf-ball-holder"
+  ]
+}

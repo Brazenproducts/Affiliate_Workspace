@@ -285,6 +285,35 @@ async function main() {
 
   const url = `${SITE_URL}/${slug}.html`;
   const audioStatus = (enOk && esOk) ? 'Audio EN+ES generated' : (enOk ? 'Audio EN only' : 'Audio skipped');
+
+  // 5. Submit to IndexNow (Bing + Yandex) — Rule #1: every push, no exceptions
+  console.log('\n── IndexNow submission ──');
+  const INDEXNOW_KEY = 'b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5';
+  const indexNowBody = JSON.stringify({
+    host: 'faithfulpassages.com',
+    key: INDEXNOW_KEY,
+    keyLocation: `https://faithfulpassages.com/${INDEXNOW_KEY}.txt`,
+    urlList: [url, `${SITE_URL}/sitemap.xml`]
+  });
+  await new Promise((resolve) => {
+    const https = require('https');
+    const req = https.request({
+      hostname: 'api.indexnow.org',
+      path: '/indexnow',
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(indexNowBody) }
+    }, res => {
+      console.log(`✓ IndexNow: ${res.statusCode}`);
+      resolve();
+    });
+    req.on('error', e => { console.error('IndexNow error:', e.message); resolve(); });
+    req.write(indexNowBody);
+    req.end();
+  });
+  // NOTE: Google Indexing API for faithfulpassages.com is not yet wired up.
+  // Blocked on: verify faithfulpassages.com in GSC under axl-348@proud-stage-397621.iam.gserviceaccount.com
+  // TODO: add Google Indexing API call here once service account is verified.
+
   console.log(`\n✅ Published ${type}: ${content.title} — ${url} — ${audioStatus}`);
   process.stdout.write(`RESULT:${JSON.stringify({ url, type, title: content.title, slug, audioStatus })}\n`);
 }

@@ -389,3 +389,7 @@ for filename, html in pages:
     print(f"  {'✅' if ok else '⚠️ '} {filename}: {amz} AMZ, {words} words")
 
 print(f"\nBuilt {len(pages)} pages, {total_words:,} total words for {SITE}")
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+post_build_submit('jtseatcovers.com')

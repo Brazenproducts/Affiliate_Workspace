@@ -1,0 +1,12 @@
+{
+  "sinceId": 0,
+  "smartSinceId": 0,
+  "doneSmarts": false,
+  "totalPushed": 0,
+  "totalVerifiedAboveTarget": 0,
+  "totalVerifiedAboveFloor": 0,
+  "totalFailed": 0,
+  "dailyCount": 0,
+  "dailyDate": "",
+  "lastRun": null
+}

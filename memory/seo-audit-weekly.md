@@ -120,3 +120,82 @@ High-volume queries likely served by multiple URLs (collection page vs product p
 - "best bronco accessories" — pos 53.6 → 55.7 (Δ+2.0)
   URL: https://bestbroncoaccessories.com/
 
+
+---
+
+## Weekly SEO Audit — 2026-08-10
+
+**Period:** 2026-08-03 – 2026-08-09 vs 2026-07-27 – 2026-08-02
+**Source:** Google Search Console API (JWT service account)
+**Run at:** 2026-08-10 18:05 UTC
+
+### Overview
+
+| Site | Queries Visible | Drops >1 pos | Page 1 Drops |
+|------|----------------|-------------|--------------|
+| bestseatcover.com | 0 | 0 | 0 |
+| jeepseatcover.com | 3 | 0 | 0 |
+| wranglerseatcover.com | 0 | 0 | 0 |
+| tacticalseats.com | 8 | 1 | 0 |
+| bestbroncoaccessories.com | 5 | 1 | 0 |
+
+**🟢 No page 1 drops detected across all 5 sites this week.**
+
+---
+
+### bestseatcover.com
+- **0 query rows** returned for the period — no impressions recorded in GSC for these 7 days.
+- ⚠️ Possible data gap or traffic is negligible. Monitor next week.
+
+---
+
+### jeepseatcover.com
+- 3 queries visible (all below page 5, positions 73–84).
+- No drops. Actually improving:
+  - "best jeep seat covers": 76.3 → 73.0 (↑3.3 pos)
+  - "best jeep wrangler seat covers": 99.0 → 76.0 (↑23 pos — big gain)
+- No page 1 exposure. Site remains deep-buried organically.
+
+---
+
+### wranglerseatcover.com
+- **0 query rows** for the period — same as bestseatcover.com.
+- No data to audit. Site may have near-zero GSC impressions.
+
+---
+
+### tacticalseats.com
+- 8 queries visible (positions 35–80, all far below page 1).
+- **1 drop flagged:**
+  - "bartact jeep seat covers" — 47.0 → 80.0 (Δ+33) | URL: https://tacticalseats.com/
+  - ⚠️ Note: This is a branded competitor query. The significant drop suggests Google de-prioritized tacticalseats.com for Bartact-branded searches — not a true content ranking issue.
+- **Wins this week:**
+  - "bartact seat covers": 39.8 → 35.8 (↑4.0)
+  - "tactical seat covers": 69.7 → 67.2 (↑2.5)
+- 0 page 1 rankings. All queries deep in SERPs.
+
+---
+
+### bestbroncoaccessories.com
+- 5 queries visible (positions 37–70).
+- **1 drop flagged:**
+  - "best bronco accessories 2022" — 35.0 → 37.0 (Δ+2.0) | URL: https://bestbroncoaccessories.com/
+  - Minor slip, year-specific query, low volume (1 impression/week). Not actionable.
+- **Win this week:**
+  - "best ford bronco track bar": 95.5 → 69.5 (↑26 pos — significant gain)
+- 0 page 1 rankings.
+
+---
+
+### Observations & Flags
+
+1. **No page 1 rankings across any of the 5 affiliate sites.** All sites are in positions 30–100+. These are thin affiliate sites that haven't earned strong organic presence.
+2. **bestseatcover.com and wranglerseatcover.com returned zero data** — these sites may have been inactive, de-indexed partially, or have no impressions this period. Worth checking manually in GSC UI.
+3. **Tacticalseats.com "bartact jeep seat covers" drop (+33 pos) is notable** but it's a competitor brand query, not an own-brand organic keyword. Not a content action item.
+4. **No alert triggered** — no page 1 meaningful drops detected this week.
+
+### Action Items
+- [ ] Manually verify bestseatcover.com + wranglerseatcover.com in GSC dashboard — confirm no indexing issues
+- [ ] Monitor tacticalseats.com for further drops on non-branded terms ("tactical seat covers" etc.)
+- [ ] Continue monitoring bestbroncoaccessories.com — "best bronco accessories" at pos 44 has potential with content investment
+

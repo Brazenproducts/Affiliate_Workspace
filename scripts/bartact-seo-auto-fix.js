@@ -14,9 +14,9 @@ const KEYWORD_COLLECTION_MAP = {
   'jeep seat covers': { handle: 'jeep-wrangler-seat-covers', id: 275720732715, type: 'custom' },
   'jeep wrangler seat covers': { handle: 'jeep-wrangler-seat-covers', id: 275720732715, type: 'custom' },
   'jeep wrangler jl seat covers': { handle: 'jeep-wrangler-jl-seat-covers', id: 688526164011, type: 'smart' },
-  'jeep wrangler jk seat covers': { handle: 'jeep-wrangler-jk-seat-covers', id: 688530260011, type: 'smart' },
+  'jeep wrangler jk seat covers': { handle: 'jeep-wrangler-jk-seat-covers', id: 687837380651, type: 'smart' },
   'jeep gladiator seat covers': { handle: 'jeep-gladiator-seat-covers', id: 688530751531, type: 'smart' },
-  'ford bronco seat covers': { handle: 'ford-bronco-seat-covers', id: 688526098475, type: 'smart' },
+  'ford bronco seat covers': { handle: 'ford-bronco-seat-covers', id: 265140207659, type: 'smart' },
   'toyota tacoma seat covers': { handle: 'toyota-tacoma-seat-covers', id: 275721355307, type: 'custom' },
   'jeep grab handles': { handle: 'jeep-grab-handles', id: 688907452459, type: 'custom' },
   'paracord grab handles': { handle: 'paracord-grab-handles', id: 73832005, type: 'custom' },
@@ -33,7 +33,7 @@ const KEYWORD_COLLECTION_MAP = {
   'jeep limit straps': { handle: 'jeep-wrangler-suspension-limit-straps', id: 688526458923, type: 'smart' },
   'best seat covers for jeep wrangler': { handle: 'jeep-wrangler-seat-covers', id: 275720732715, type: 'custom' },
   'best jeep gladiator seat covers': { handle: 'jeep-gladiator-seat-covers', id: 688530751531, type: 'smart' },
-  'best ford bronco seat covers': { handle: 'ford-bronco-seat-covers', id: 688526098475, type: 'smart' },
+  'best ford bronco seat covers': { handle: 'ford-bronco-seat-covers', id: 265140207659, type: 'smart' },
 };
 
 async function getCollectionContent(type, id) {

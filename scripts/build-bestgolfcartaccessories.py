@@ -199,3 +199,7 @@ for filename, html in pages:
     print(f"  {'✅' if amz>=3 or filename=='index.html' else '⚠️ '} {filename}: {amz} AMZ links")
 
 print(f"\nBuilt {len(pages)} pages for {SITE}")
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+post_build_submit('bestgolfcartaccessories.com')

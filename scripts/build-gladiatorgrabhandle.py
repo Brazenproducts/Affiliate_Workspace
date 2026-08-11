@@ -177,3 +177,7 @@ def build():
 
 if __name__ == '__main__':
     build()
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+post_build_submit('gladiatorgrabhandle.com')

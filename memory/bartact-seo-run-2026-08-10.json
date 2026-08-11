@@ -1,0 +1,77 @@
+{
+  "run_date": "2026-08-10T17:58:56Z",
+  "step1_ranking_monitor": {
+    "status": "success",
+    "period": "2026-08-01 to 2026-08-07",
+    "overall": {
+      "clicks": 455,
+      "clicks_wow_pct": -7,
+      "impressions": 5346,
+      "page1_keywords": 127,
+      "top3_keywords": 33
+    },
+    "failing_priority_count": 15,
+    "telegram_sent": false,
+    "telegram_note": "Monitor script printed OK but TELEGRAM_TOKEN not in .env — bot token in google-ads-daily-audit.js returns 401 (revoked). Needs new token."
+  },
+  "step2_auto_fix": {
+    "status": "success",
+    "collections_checked": 13,
+    "thin_content_count": 0,
+    "needs_blog_count": 0,
+    "ford_bronco_seat_covers": "API fetch failed — collection may be unpublished or deleted",
+    "action_statuses": "all CONTENT_OK_CHECK_LINKS (600w+)"
+  },
+  "step3_action_report": {
+    "thin_content": [],
+    "needs_blog_article": [],
+    "content_ok_check_links": [
+      "jeep-wrangler-jl-seat-covers (1531w)",
+      "toyota-tacoma-seat-covers (2072w)",
+      "ford-bronco-grab-handles (1678w)",
+      "jeep-wrangler-grab-handles (1844w)",
+      "molle-accessories (1535w)",
+      "fire-extinguisher-holders (1822w)",
+      "roll-bar-fire-extinguisher-holder (1746w)",
+      "jeep-wrangler-storage-bags-organizers (1606w)",
+      "ford-bronco-storage-bags (1733w)",
+      "winch-covers (879w)",
+      "jeep-wrangler-suspension-limit-straps (1519w)",
+      "jeep-gladiator-seat-covers (880w)"
+    ]
+  },
+  "step4_content_fixes": {
+    "status": "skipped",
+    "reason": "No THIN_CONTENT collections found"
+  },
+  "step5_blog_articles": {
+    "status": "skipped",
+    "reason": "No NEEDS_BLOG_ARTICLE keywords found"
+  },
+  "step6_indexnow": {
+    "status": "success",
+    "http_status": 200,
+    "urls_submitted": 13,
+    "key": "b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5",
+    "urls": [
+      "https://www.bartact.com/collections/jeep-wrangler-jl-seat-covers",
+      "https://www.bartact.com/collections/ford-bronco-seat-covers",
+      "https://www.bartact.com/collections/toyota-tacoma-seat-covers",
+      "https://www.bartact.com/collections/ford-bronco-grab-handles",
+      "https://www.bartact.com/collections/jeep-wrangler-grab-handles",
+      "https://www.bartact.com/collections/molle-accessories",
+      "https://www.bartact.com/collections/fire-extinguisher-holders",
+      "https://www.bartact.com/collections/roll-bar-fire-extinguisher-holder",
+      "https://www.bartact.com/collections/jeep-wrangler-storage-bags-organizers",
+      "https://www.bartact.com/collections/ford-bronco-storage-bags",
+      "https://www.bartact.com/collections/winch-covers",
+      "https://www.bartact.com/collections/jeep-wrangler-suspension-limit-straps",
+      "https://www.bartact.com/collections/jeep-gladiator-seat-covers"
+    ]
+  },
+  "step7_telegram_summary": {
+    "status": "failed",
+    "reason": "TELEGRAM_TOKEN not in .env; hardcoded token in google-ads-daily-audit.js (8899729921:AAE...) returns HTTP 401 — token likely revoked. Need to add valid TELEGRAM_TOKEN to .env."
+  },
+  "action_needed": "Add TELEGRAM_TOKEN=<valid_bot_token> to /home/ubuntu/.openclaw/workspace/.env to enable Telegram reporting"
+}

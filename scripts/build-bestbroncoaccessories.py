@@ -231,7 +231,7 @@ nav a:hover,.nav-active{background:#e67e22;color:#fff!important;text-decoration:
 .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin:20px 0 40px}
 .cat-card{background:#fff;border:1px solid #e0e0e0;border-radius:10px;padding:20px 16px;text-align:center;transition:box-shadow .2s;border-top:3px solid #e67e22}
 .cat-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.1);text-decoration:none}
-.cat-card .icon{font-size:2em;margin-bottom:8px}
+
 .cat-card h3{font-size:.95em;font-weight:800;color:#1c2833;margin-bottom:4px}
 .cat-card p{font-size:.8em;color:#666;line-height:1.5}
 .year-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;margin:16px 0 32px}
@@ -344,14 +344,8 @@ def page_shell(title, meta_desc, canonical, body, active=''):
 
 def build_index():
     cat_cards = ''
-    icons = {'seat-covers':'&#128186;','grab-handles':'&#128076;','floor-mats':'&#129704;',
-             'bumpers':'&#128663;','lift-kits':'&#128205;','roof-accessories':'&#9925;',
-             'lighting':'&#128161;','storage':'&#128230;','winches':'&#9875;',
-             'tires':'&#129514;','recovery':'&#129522;','cargo-liners':'&#128218;'}
     for key, name, slug, desc in CATEGORIES:
-        icon = icons.get(key,'&#127863;')
         cat_cards += f'''<a class="cat-card" href="/{slug}.html">
-<div class="icon">{icon}</div>
 <h3>{name}</h3>
 <p>{desc}</p>
 </a>'''
@@ -635,3 +629,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+post_build_submit('bestbroncoaccessories.com')

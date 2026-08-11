@@ -4,7 +4,7 @@
 // Uses GraphQL (not REST) to accurately read seo.title / seo.description fields.
 // Only fixes genuinely missing/empty SEO fields — never overwrites good hand-crafted metadata.
 // Also checks key collection titles for tampering.
-require('dotenv').config({ path: require('path').resolve(__dirname, '../../.env') });
+require('dotenv').config({ path: require('path').resolve(__dirname, '../.env') });
 const https = require('https');
 
 const SHOP = 'bartact.myshopify.com';

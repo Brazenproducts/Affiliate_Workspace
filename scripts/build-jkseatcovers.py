@@ -713,3 +713,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+post_build_submit('jkseatcovers.com')

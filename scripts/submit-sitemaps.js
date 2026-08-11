@@ -1,48 +1,39 @@
-const {google} = require('googleapis');
+const { google } = require('googleapis');
+const fs = require('fs');
 
-const SITES = [
-  'whatarebest.com','bestseatcover.com','jeepseatcover.com','bestbroncoaccessories.com',
-  'besttruckaccessories.com','besttonneaucovers.com','bestcordlesstools.com','bestfirestick.com',
-  'bestmeshwifi.com','bestgarageorganizer.com','bestinstantpot.com','bestsmokergrill.com',
-  'tacticalseatcovers.com','wranglerseatcover.com','jlseatcovers.com','tacomaseats.com',
-  'bestoffroadbrands.com','broncograbhandles.com','homehvacfilters.com','bestwindshieldwiper.com',
-  'autopartsreviewed.com','topoffroadstores.com','gladiatorseatcover.com','broncoseatcover.com',
-  'tacticalseats.com'
-];
+const SA = JSON.parse(fs.readFileSync('/home/ubuntu/.openclaw/workspace/.gcp-service-account.json'));
+const SITES = JSON.parse(fs.readFileSync('/tmp/verified-sites.json'));
+
+const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function run() {
-  const auth = new google.auth.GoogleAuth({
-    keyFile: '.gcp-service-account.json',
+  const auth = new google.auth.JWT({
+    email: SA.client_email,
+    key: SA.private_key,
     scopes: ['https://www.googleapis.com/auth/webmasters']
   });
-  const client = await auth.getClient();
-  const wm = google.searchconsole({version: 'v1', auth: client});
-
-  // List current properties
-  const props = await wm.sites.list();
-  const existing = (props.data.siteEntry || []).map(s => s.siteUrl);
-  console.log('Properties now:', existing.length);
+  await auth.authorize();
+  const sc = google.searchconsole({ version: 'v1', auth });
   
-  let submitted = 0;
+  let ok = 0, failed = [];
+  console.log(`Submitting sitemaps for ${SITES.length} verified sites...`);
+  
   for (const domain of SITES) {
-    const scDomain = `sc-domain:${domain}`;
-    const httpsUrl = `https://${domain}/`;
-    
-    // Try sc-domain first, then https prefix
-    for (const siteUrl of [scDomain, httpsUrl]) {
-      try {
-        await wm.sitemaps.submit({siteUrl, feedpath: `https://${domain}/sitemap.xml`});
-        console.log(`✅ ${domain} — sitemap submitted via ${siteUrl}`);
-        submitted++;
-        break;
-      } catch(e) {
-        const msg = e.message.substring(0,60);
-        if (siteUrl === httpsUrl) console.log(`❌ ${domain} — ${msg}`);
-      }
+    const siteUrl = `https://${domain}/`;
+    try {
+      await sc.sitemaps.submit({ siteUrl, feedpath: `${siteUrl}sitemap.xml` });
+      ok++;
+      console.log(`✓ ${domain}`);
+    } catch(e) {
+      const msg = (e.message||'').slice(0,100);
+      failed.push(`${domain}: ${msg}`);
+      console.log(`✗ ${domain}: ${msg}`);
     }
-    await new Promise(r => setTimeout(r, 1000));
+    await sleep(300);
   }
-  console.log(`\n=== ${submitted}/25 sitemaps submitted ===`);
+  
+  console.log(`\n=== DONE === Submitted: ${ok}/${SITES.length} | Failed: ${failed.length}`);
+  if (failed.length) { console.log('Failed:'); failed.forEach(f => console.log(' ', f)); }
 }
 
-run().catch(e => console.error('Fatal:', e.message));
+run().catch(console.error);

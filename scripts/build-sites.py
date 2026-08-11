@@ -326,3 +326,7 @@ img{max-width:100%;border-radius:8px}
 
 # I'll generate remaining sites in subsequent functions
 print("Site generator loaded")
+
+# Post-build: submit to Google Indexing API + IndexNow
+from build_utils import post_build_submit
+post_build_submit("autopartsreviewed.com")
