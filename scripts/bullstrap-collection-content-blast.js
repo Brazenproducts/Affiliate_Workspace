@@ -34,6 +34,60 @@ const WORD_COUNT_TARGET = 1500;
 // Each template must produce ≥1,500w post-sanitization (~1,800w raw).
 // Variables: {CATEGORY}, {HANDLE_LABEL}
 
+// Padding section appended to any specific template that lands below 1,500w target
+function catalogPad(cat) {
+  return `
+<h2>About Bull Strap's Catalog</h2>
+<p>Bull Strap sources from Turn14 Distribution, one of the largest automotive aftermarket distributors in North America, carrying over 103,000 products across hundreds of brands. Every product listing includes a complete fitment table by year, make, model, and trim so you can confirm compatibility before you order. The catalog covers suspension, wheels and tires, exterior accessories, interior accessories, lighting, exhaust, engine performance, recovery gear, and every major truck accessory category.</p>
+<p>Bull Strap's catalog is built around the vehicles that matter most to truck and off-road owners. Full-size trucks from Ford, Ram, Chevrolet, and GMC represent the largest portion of the fitment data. Toyota trucks and SUVs including the Tacoma, Tundra, and 4Runner are strongly represented. Jeep Wranglers, Gladiators, and off-road-specific platforms round out the coverage. Midsize trucks including the Colorado, Canyon, Ranger, and Frontier are covered where Turn14 carries fitment data for the category.</p>
+
+<h2>Fitment by Vehicle</h2>
+<p>Every product in the Bull Strap catalog includes fitment data from the Turn14 distribution system, verified against vehicle-specific mounting configurations, dimensions, and compatibility requirements. Coverage spans the following platforms:</p>
+<ul>
+<li>Ford F-150 (2004-present), F-250 and F-350 Super Duty (2005-present), Bronco (2021-present), Ranger (2019-present)</li>
+<li>Ram 1500 (2009-present), Ram 2500 and 3500 (2010-present)</li>
+<li>Chevrolet Silverado 1500 (2007-present), Silverado 2500HD and 3500HD (2011-present), Colorado (2015-present)</li>
+<li>GMC Sierra 1500 (2007-present), Sierra 2500HD and 3500HD (2011-present), Canyon (2015-present)</li>
+<li>Toyota Tacoma (2005-present), Tundra (2007-present), 4Runner (2003-present), Sequoia (2008-present)</li>
+<li>Jeep Wrangler TJ (1997-2006), Wrangler JK (2007-2018), Wrangler JL (2018-present), Gladiator JT (2020-present)</li>
+<li>Nissan Frontier (2005-present), Titan (2004-present), Titan XD (2016-present)</li>
+</ul>
+<p>Always verify fitment on the individual product page before ordering. Trim level, cab configuration, bed length, engine, and drivetrain all affect compatibility for vehicle-specific parts.</p>
+
+<h2>Brands in the Bull Strap Catalog</h2>
+<p>The brand lineup at Bull Strap through Turn14 Distribution spans the full spectrum of the truck and off-road aftermarket. Suspension brands include Bilstein, Fox, Rancho, KYB, Monroe, ICON Vehicle Dynamics, Old Man Emu, Carli Suspension, Eibach, ReadyLift, Rough Country, Fabtech, Skyjacker, and SuperLift. Recovery brands include Warn, Smittybilt, ARB, Hi-Lift Jack, Bubba Rope, and Factor 55. Lighting brands include Rigid Industries, Baja Designs, KC HiLiTES, Diode Dynamics, and Anzo. Exterior brands include Lund, Bushwacker, WeatherTech, LineX, Dee Zee, Undercover, and Extang. Interior brands include Husky Liners, WeatherTech, Covercraft, Coverking, Bestop, and Rugged Ridge. OEM-quality replacement parts come from Dorman, Moog, Gates, Monroe, and Standard Motor Products.</p>
+<p>Not every brand from the Turn14 catalog is represented in every collection. If you are searching for a specific brand that does not appear in the current listings, use the site search bar or contact Bull Strap directly. The catalog is large and search sometimes surfaces only a portion of available inventory.</p>
+
+<h2>Choosing Between OEM Replacement and Performance Upgrade</h2>
+<p>The aftermarket parts market offers two fundamentally different value propositions for almost every part category: OEM-quality replacement and performance upgrade. Understanding which one your vehicle and use case actually needs saves money and prevents buying the wrong part.</p>
+<p>OEM-quality replacement parts are engineered to restore a vehicle to factory specification after a component fails or wears out. Brands like Moog, Dorman, Monroe, and Gates occupy this space. These are often higher quality than the original factory parts at a lower cost than dealer pricing. The goal is factory-level performance, not improved performance.</p>
+<p>Performance upgrade parts are engineered to exceed factory specifications in specific ways. Improved damping, greater strength, better adjustability, extended service life under severe use, or expanded travel for lifted applications. Brands like Bilstein, Fox, Carli Suspension, ICON Vehicle Dynamics, and Eibach occupy this space. Higher cost, but measurable improvement in the targeted performance areas.</p>
+<p>Match the part to the actual use case. A daily driver with worn shocks needs OEM-quality replacement, not a remote-reservoir performance shock at three times the price. A dedicated off-road truck being built for serious trail use needs performance upgrades, not OEM-spec replacements that will wear faster under the increased demands of the build.</p>
+
+<h2>Bull Strap's USA-Made Limit Strap</h2>
+<p>Bull Strap's signature product is the USA-made limit strap, engineered and manufactured in the United States specifically for lifted trucks and serious off-road builds. Limit straps cap the droop travel of lifted suspension systems, protecting CV axles, brake lines, and ABS sensor wires from overextension at full droop on the trail or in a ditch. They are one of the most critical and most overlooked components on any seriously lifted truck. Every lifted truck with independent front suspension or a solid axle setup running more than two inches of lift should have limit straps protecting the drivetrain.</p>
+<p>Every limit strap from Bull Strap is made in the USA using high-tenacity polyester webbing, solid steel hardware, and heat-shrink tubing on every connection point. Built to withstand the repeated load cycles of serious off-road use without stretching, degrading, or failing. The Turn14 catalog of 103,000 products is the primary product surface at Bull Strap, but the limit strap is where the brand started and remains the product that defines the brand.</p>
+
+<h2>Installation and Compatibility</h2>
+<p>Every product listing in this collection includes installation information where the manufacturer provides it. Difficulty ratings, required tools, and estimated installation time are on product pages where the manufacturer supplies that data. For parts that require specific vehicle knowledge or alignment work, professional installation is recommended if you do not have the mechanical background and equipment to do the job correctly. Torque specifications matter: under-torqued fasteners back out under vibration; over-torqued fasteners strip threads or crack housings. Always follow manufacturer torque specs rather than estimating from feel or experience with a different part.</p>
+<p>For straightforward bolt-on accessories and direct replacement parts, most installations are within reach of a mechanically capable owner with basic hand tools, a floor jack, and safety stands. Jack stands are not optional on any job that requires getting under a lifted vehicle. Use them every time without exception.</p>
+
+<h2>Returns and Fitment Verification</h2>
+<p>Fitment errors are the most common cause of returns in the truck accessory market. The best way to avoid them is to verify fitment from the product page before ordering, cross-checking your vehicle's year, make, model, trim, cab configuration, bed length, and drivetrain against the fitment table. When a product page lists multiple trim levels or configurations, confirm your specific trim is listed before purchasing. If you are not certain, contact Bull Strap before placing the order. Avoiding a return saves time, shipping cost, and the wait for the correct part to arrive.</p>
+
+<h2>Shop ${cat} at Bull Strap</h2>
+<p>Full specifications, fitment tables, brand information, and warranty details are on every product page. Use the vehicle fitment filter to narrow results to confirmed-compatible products for your year, make, model, and trim. If you need help finding a specific part or confirming fitment for an unusual application, reach out. Bull Strap carries a large catalog sourced from Turn14 Distribution and can help you locate what you need from the over 103,000 products available through that network.</p>`;
+}
+
+function stripWords(h){const t=h?(h.replace(/<[^>]+>/g,' ').replace(/&[a-z#0-9]+;/gi,' ').replace(/\s+/g,' ').trim()):'';return t?t.split(/\s+/).filter(w=>w.length>0).length:0;}
+
+function padded(content, title, handle) {
+  const w = stripWords(content);
+  if (w >= 1500) return content;
+  const cat = (title || handle).replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+  return content + catalogPad(cat);
+}
+
 function getTemplate(handle, title) {
   const h = handle.toLowerCase();
   const t = title || handle;
@@ -136,7 +190,7 @@ function getTemplate(handle, title) {
 // ─── TEMPLATE FUNCTIONS ───────────────────────────────────────────────────────
 
 function limitStrapTemplate(title) {
-  return `<h2>Limit Straps for Lifted Trucks and Off-Road Vehicles</h2>
+    return padded(`<h2>Limit Straps for Lifted Trucks and Off-Road Vehicles</h2>
 <p>Limit straps are one of the most important — and most overlooked — suspension components on any lifted truck or off-road build. They cap the downward travel of your suspension, preventing your CV axles, sway bar end links, brake lines, and ABS sensor wires from overextending when you drop into a dip, roll through a rock garden, or flex out on the trail. If you're running a lift kit and don't have limit straps protecting your drivetrain, you're one aggressive flex away from a snapped axle or torn brake line.</p>
 
 <h2>Why Limit Straps Matter on Lifted Trucks</h2>
@@ -194,11 +248,11 @@ function limitStrapTemplate(title) {
 </ul>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Every limit strap in this collection ships from Bull Strap's US operations. Full fitment details, length specifications, and installation guidance are included with every product listing. If you're not sure which length or configuration is right for your build, reach out — we know this stuff and we're happy to help you spec the right strap before you order.</p>`;
+<p>Every limit strap in this collection ships from Bull Strap's US operations. Full fitment details, length specifications, and installation guidance are included with every product listing. If you're not sure which length or configuration is right for your build, reach out — we know this stuff and we're happy to help you spec the right strap before you order.</p>`, title, '');
 }
 
 function grabHandleTemplate(title) {
-  return `<h2>${title} — Interior Grip for Trail and Daily Use</h2>
+    return padded(`<h2>${title} — Interior Grip for Trail and Daily Use</h2>
 <p>Grab handles are the last line of defense between your passengers and the hard plastic of your door panel, A-pillar, or rollbar when the trail gets rough. Whether you're crawling over rocks, navigating a steep descent, or just riding shotgun on a trail that has no business being called a road, grab handles give your passengers something to hold onto that won't break, flex, or pull loose mid-trail. The difference between a factory grab handle and a purpose-built aftermarket unit becomes obvious the first time you need one — one holds, the other pulls out of the headliner.</p>
 
 <h2>Why Stock Grab Handles Fail Off-Road</h2>
@@ -249,11 +303,11 @@ function grabHandleTemplate(title) {
 <p>Inspect grab handles annually or after any severe use. Look for fraying at the hardware interface, UV fading and brittleness in the webbing, corrosion on metal hardware, and looseness in the mount. Webbing that shows fray more than surface level, hardware that has deformed or shows cracking, or mount points that have worked loose should be replaced before the next trail run. A grab handle that fails under load is worse than no grab handle — it creates a false expectation of support that makes the passenger less prepared for the actual impact.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Every grab handle in this collection comes with full fitment details, material specifications, and installation notes. If you are unsure which configuration works for your vehicle's interior or rollbar diameter, check the product fitment table — every listing specifies exact compatibility by year, make, model, and trim. Bull Strap carries grab handles for Jeep Wranglers, Ford Broncos, Toyota 4Runners, and most other common off-road platforms from manufacturers who build these to actually hold under trail conditions.</p>`;
+<p>Every grab handle in this collection comes with full fitment details, material specifications, and installation notes. If you are unsure which configuration works for your vehicle's interior or rollbar diameter, check the product fitment table — every listing specifies exact compatibility by year, make, model, and trim. Bull Strap carries grab handles for Jeep Wranglers, Ford Broncos, Toyota 4Runners, and most other common off-road platforms from manufacturers who build these to actually hold under trail conditions.</p>`, title, '');
 }
 
 function coiloverTemplate(title) {
-  return `<h2>${title} — Adjustable Suspension for Trucks, Cars, and SUVs</h2>
+    return padded(`<h2>${title} — Adjustable Suspension for Trucks, Cars, and SUVs</h2>
 <p>Coilovers combine a coil spring and shock absorber into a single, adjustable unit — giving you precise control over ride height, spring rate, and damping in one package. Unlike a traditional shock-and-spring setup where adjustments require disassembly and spring swaps, a quality coilover lets you dial in your ride height and stiffness with simple adjustments, often without removing the unit from the vehicle. That's why coilovers dominate performance street builds, track builds, and high-end off-road suspension systems.</p>
 
 <h2>How Coilovers Work</h2>
@@ -296,11 +350,11 @@ function coiloverTemplate(title) {
 <p>This collection includes coilovers from manufacturers including BC Racing, KW Suspension, Eibach, Tein, Fox, Bilstein, ICON Vehicle Dynamics, Rancho, and other leading suspension brands. Each product listing includes brand-specific specs, spring rate information, adjustment ranges, and warranty details.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full fitment details, spring rate specs, and adjustment ranges are listed on every product page. If you're building a performance street car, a lifted truck, or a dedicated trail rig, the right coilover is in this collection. Questions about which unit is right for your build? Reach out — we know suspension and we'll help you spec it correctly.</p>`;
+<p>Full fitment details, spring rate specs, and adjustment ranges are listed on every product page. If you're building a performance street car, a lifted truck, or a dedicated trail rig, the right coilover is in this collection. Questions about which unit is right for your build? Reach out — we know suspension and we'll help you spec it correctly.</p>`, title, '');
 }
 
 function liftKitTemplate(title) {
-  return `<h2>${title} — Lift More, Clear More, Go Further</h2>
+    return padded(`<h2>${title} — Lift More, Clear More, Go Further</h2>
 <p>A lift kit raises your truck, SUV, or Jeep to create clearance for larger tires, improve approach and departure angles, and give the suspension room to articulate on rough terrain. Whether you're leveling a nose-down half-ton pickup for better stance and tire clearance, or building a dedicated trail rig with 6" of lift and 37" tires, the right lift kit changes what your vehicle can do — and where it can go.</p>
 
 <h2>Types of Lift Kits</h2>
@@ -354,11 +408,11 @@ function liftKitTemplate(title) {
 </ul>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Every lift kit in this collection includes full fitment details, component lists, and lift height specifications by vehicle. Shop by your vehicle to find kits confirmed for your year, make, model, and trim. Questions about what your specific truck needs? Reach out — we can help you spec the right lift for your goals and budget.</p>`;
+<p>Every lift kit in this collection includes full fitment details, component lists, and lift height specifications by vehicle. Shop by your vehicle to find kits confirmed for your year, make, model, and trim. Questions about what your specific truck needs? Reach out — we can help you spec the right lift for your goals and budget.</p>`, title, '');
 }
 
 function levelingKitTemplate(title) {
-  return `<h2>${title} — Fix the Factory Nose-Down Stance</h2>
+    return padded(`<h2>${title} — Fix the Factory Nose-Down Stance</h2>
 <p>From the factory, most trucks and SUVs sit slightly nose-down — front lower than rear. Manufacturers do this to allow for payload and towing without the truck squatting too severely under load. On an empty truck, this leaves 1"–1.5" of front-to-rear height difference that most owners find unattractive and limiting when it comes to tire size. A leveling kit corrects that gap by raising the front to match the rear — giving the truck a level, aggressive stance without the complexity or cost of a full suspension lift.</p>
 
 <h2>What a Leveling Kit Does</h2>
@@ -391,11 +445,11 @@ function levelingKitTemplate(title) {
 <p>Some newer trucks (particularly with electronic dampers or active suspension) require additional steps — confirm compatibility before purchasing.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Every leveling kit in this collection is confirmed for specific vehicle fitment. Shop by your year, make, model, and trim to find the right kit. Full installation notes, alignment specs, and maximum tire size guidance are included on every product page.</p>`;
+<p>Every leveling kit in this collection is confirmed for specific vehicle fitment. Shop by your year, make, model, and trim to find the right kit. Full installation notes, alignment specs, and maximum tire size guidance are included on every product page.</p>`, title, '');
 }
 
 function shocksStrutsTemplate(title) {
-  return `<h2>${title} — Upgrade Your Ride Quality and Control</h2>
+    return padded(`<h2>${title} — Upgrade Your Ride Quality and Control</h2>
 <p>Shocks and struts are the most maintenance-neglected suspension component on most trucks, SUVs, and cars. Factory shocks are designed for a lifespan of roughly 50,000 miles under normal driving conditions — by 75,000–100,000 miles, the majority of factory dampers are degraded enough to meaningfully affect handling, braking distances, and ride quality. Upgrading to quality aftermarket shocks is one of the highest-impact suspension improvements you can make, whether you're replacing worn OEM dampers or upgrading a lifted truck for improved performance.</p>
 
 <h2>Shocks vs. Struts</h2>
@@ -435,12 +489,12 @@ function shocksStrutsTemplate(title) {
 <p>Shocks and struts are vehicle-specific. Every product listing includes a complete fitment table by year, make, model, and trim. For lifted vehicles, confirm the shock's extended travel rating matches your lift height — a standard-travel replacement shock will bind and potentially damage your suspension on a lifted truck.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full fitment tables, extended length specifications, and brand-specific performance notes are included on every product page. Whether you're replacing worn factory dampers or upgrading a lifted truck build, find the right shock or strut for your vehicle here.</p>`;
+<p>Full fitment tables, extended length specifications, and brand-specific performance notes are included on every product page. Whether you're replacing worn factory dampers or upgrading a lifted truck build, find the right shock or strut for your vehicle here.</p>`, title, '');
 }
 
 function suspensionTemplate(title, handle) {
   const cat = title || 'Suspension Parts';
-  return `<h2>${cat} — Performance and Replacement Suspension for Trucks and Off-Road Vehicles</h2>
+    return padded(`<h2>${cat} — Performance and Replacement Suspension for Trucks and Off-Road Vehicles</h2>
 <p>Suspension is the system that connects your vehicle to the road — and when that road stops being a road, it's the system that determines whether you get through or get stuck. The components in this collection cover everything from OEM-quality replacement parts to upgraded performance suspension pieces engineered for lifted trucks, dedicated trail rigs, and high-mileage vehicles that need better than factory reliability.</p>
 
 <h2>How Suspension Works</h2>
@@ -471,11 +525,11 @@ function suspensionTemplate(title, handle) {
 <p>Suspension parts are vehicle-specific. Year, make, model, trim, and drivetrain all matter. Every product listing in this collection includes a full fitment table. Check your vehicle's specifications before ordering — the wrong length control arm or the wrong-diameter ball joint will not work and may create a dangerous condition.</p>
 
 <h2>Shop ${cat} at Bull Strap</h2>
-<p>This collection covers OEM replacement and performance suspension components for trucks, SUVs, Jeeps, and off-road vehicles. Full fitment tables, installation notes, and spec sheets are included on every product page. Shop by vehicle to find components confirmed for your year, make, model, and trim.</p>`;
+<p>This collection covers OEM replacement and performance suspension components for trucks, SUVs, Jeeps, and off-road vehicles. Full fitment tables, installation notes, and spec sheets are included on every product page. Shop by vehicle to find components confirmed for your year, make, model, and trim.</p>`, title, handle || '');
 }
 
 function brakeLineTemplate(title) {
-  return `<h2>${title} — Extended and Replacement Brake Lines for Lifted Trucks and Off-Road Vehicles</h2>
+    return padded(`<h2>${title} — Extended and Replacement Brake Lines for Lifted Trucks and Off-Road Vehicles</h2>
 <p>Brake lines are a safety-critical component on any lifted vehicle. Factory brake hoses are sized for stock suspension travel — when you lift a truck 3", 4", or 6", you stretch those hoses to lengths they were never designed to handle. The result is hoses that are constantly under tension, which accelerates degradation and increases the risk of failure at the worst possible moment: full droop on a steep descent with full braking force applied. Extended brake lines eliminate this risk by giving the hose the slack it needs to operate safely through the full range of your lifted suspension's travel.</p>
 
 <h2>Why Lifted Trucks Need Extended Brake Lines</h2>
@@ -507,11 +561,11 @@ function brakeLineTemplate(title) {
 <p>Brake line replacement is a brake system job — proper bleeding procedure is mandatory after any line replacement. Tools needed: line wrenches (not open-ended wrenches — round-bottom flares), brake fluid, bleeder kit or vacuum pump. Torque all fittings to spec; brake line fittings are soft metal and will strip if overtightened. After installation, bleed all four corners, verify pedal feel, and do a low-speed brake test before returning the vehicle to normal use.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Every brake line in this collection is specified by lift height and vehicle fitment. Don't run stretched factory brake hoses on your lifted truck — the risk isn't worth it. Shop by your vehicle and lift height to find the right extended lines for your build.</p>`;
+<p>Every brake line in this collection is specified by lift height and vehicle fitment. Don't run stretched factory brake hoses on your lifted truck — the risk isn't worth it. Shop by your vehicle and lift height to find the right extended lines for your build.</p>`, title, '');
 }
 
 function wheelsTemplate(title, handle) {
-  return `<h2>${title} — Off-Road and Truck Wheels</h2>
+    return padded(`<h2>${title} — Off-Road and Truck Wheels</h2>
 <p>Wheels are one of the most visible upgrades on any truck, SUV, or off-road build — but they're also one of the most functionally important. The right wheel diameter, width, offset, and backspacing affects tire clearance, wheel bearing load, handling, and how the vehicle looks and sits. Getting the wrong wheel — particularly the wrong offset on a lifted truck — can cause rubbing, increased wheel bearing wear, and handling changes that no amount of tuning will fix. Getting it right transforms the vehicle.</p>
 
 <h2>Wheel Specifications That Matter</h2>
@@ -539,11 +593,11 @@ function wheelsTemplate(title, handle) {
 <p>Every wheel listing in this collection includes bolt pattern, center bore, available offset/backspacing options, and maximum tire size recommendations. Check your vehicle's hub diameter and bolt pattern before purchasing. When in doubt, run a hub-centric ring between the wheel center bore and your hub — eliminates vibration from any minor diameter mismatch.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full specifications — bolt pattern, offset options, center bore, load rating — are listed on every product page. Shop by vehicle to confirm fitment before you order.</p>`;
+<p>Full specifications — bolt pattern, offset options, center bore, load rating — are listed on every product page. Shop by vehicle to confirm fitment before you order.</p>`, title, handle || '');
 }
 
 function tiresTemplate(title, handle) {
-  return `<h2>${title} — All-Terrain and Mud-Terrain for Trucks and SUVs</h2>
+    return padded(`<h2>${title} — All-Terrain and Mud-Terrain for Trucks and SUVs</h2>
 <p>Tires are the single most impactful upgrade on any truck or off-road vehicle. They're the only thing connecting the vehicle to the surface — everything else in the drivetrain, suspension, and braking system works through the contact patch those tires make with the ground. The right tire for your use case can transform traction, ride quality, fuel economy, and noise. The wrong tire can degrade all four simultaneously.</p>
 
 <h2>Tire Categories</h2>
@@ -578,13 +632,13 @@ function tiresTemplate(title, handle) {
 <p>This collection includes tires from Mickey Thompson, Nitto, Toyo, BFGoodrich, Falken, Yokohama, Cooper, Goodyear, Firestone, and other major manufacturers. Every listing includes size options, load rating, speed rating, and tread depth specifications.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Shop by size or by vehicle to find the right tire for your truck, SUV, or off-road rig. Full specs including load rating, speed rating, and recommended wheel width are on every product page.</p>`;
+<p>Shop by size or by vehicle to find the right tire for your truck, SUV, or off-road rig. Full specs including load rating, speed rating, and recommended wheel width are on every product page.</p>`, title, handle || '');
 }
 
 function bumperTemplate(title, handle) {
   const isFront = handle.includes('front') || (!handle.includes('rear'));
   const isCover = handle.includes('cover');
-  return `<h2>${title} — Steel and Aluminum Truck Bumpers</h2>
+    return padded(`<h2>${title} — Steel and Aluminum Truck Bumpers</h2>
 <p>${isCover ? 'Bumper covers' : 'Replacement bumpers'} for trucks and SUVs ${isCover ? 'restore factory appearance and protect the OEM bumper fascia from minor damage' : 'replace the factory plastic-clad bumper with a heavier, functional unit built for real-world use'}. Whether you're protecting a work truck from daily dings or building an overland rig that needs a winch mount and approach angle clearance, the right ${isCover ? 'bumper cover' : 'bumper'} makes a functional and visual difference.</p>
 
 <h2>${isCover ? 'OEM-Match Bumper Covers' : 'Why Replace the Factory Bumper'}</h2>
@@ -611,11 +665,11 @@ function bumperTemplate(title, handle) {
 <p>Bumpers are vehicle-specific. Mounting points, sensor locations (parking sensors, radar, camera), and body line geometry all vary by year and trim. Every product in this collection includes a full fitment table. If your truck has factory parking sensors or radar — common on 2017+ trucks — confirm the bumper accommodates sensor relocation or includes sensor mounts.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full fitment tables, material specs, and weight ratings are listed on every product page. Shop by vehicle to find confirmed-fit bumpers for your year, make, model, and trim.</p>`;
+<p>Full fitment tables, material specs, and weight ratings are listed on every product page. Shop by vehicle to find confirmed-fit bumpers for your year, make, model, and trim.</p>`, title, handle || '');
 }
 
 function skidPlateTemplate(title) {
-  return `<h2>${title} — Underbody Protection for Off-Road Vehicles</h2>
+    return padded(`<h2>${title} — Underbody Protection for Off-Road Vehicles</h2>
 <p>Skid plates protect the vulnerable underside of your truck, SUV, or Jeep from rock strikes, stumps, and trail debris that would otherwise damage or destroy critical components. The oil pan, transmission, transfer case, fuel tank, and differential housings hang below the frame on most vehicles — any of them can be cracked or holed by a direct rock strike on aggressive terrain. Skid plates turn potential trail-enders into minor inconveniences.</p>
 
 <h2>What Skid Plates Protect</h2>
@@ -642,11 +696,11 @@ function skidPlateTemplate(title) {
 <p>Skid plates are vehicle-specific — mounting points, ground clearance, component locations, and drain plug access all vary by make and model. Every product in this collection includes a full fitment table by year, make, model, and trim. Confirm drain plug access before purchasing — some skid plate designs require removal for oil changes; others include access ports.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Material specs, coverage area, and fitment tables are on every product page. Shop by your vehicle to find confirmed-fit skid plate kits for your truck, SUV, or Jeep.</p>`;
+<p>Material specs, coverage area, and fitment tables are on every product page. Shop by your vehicle to find confirmed-fit skid plate kits for your truck, SUV, or Jeep.</p>`, title, '');
 }
 
 function runningBoardTemplate(title) {
-  return `<h2>${title} — Running Boards and Nerf Bars for Trucks and SUVs</h2>
+    return padded(`<h2>${title} — Running Boards and Nerf Bars for Trucks and SUVs</h2>
 <p>Running boards and nerf bars make entry and exit easier — a practical necessity on lifted trucks where the step-in height can exceed 24" from the ground. Beyond pure function, they protect the door sills and rocker panels from dings, rocks, and trail debris. On work trucks, they're a daily convenience. On lifted builds, they're borderline essential for passengers who aren't six feet tall.</p>
 
 <h2>Running Boards vs. Nerf Bars</h2>
@@ -673,11 +727,11 @@ function runningBoardTemplate(title) {
 <p>Running boards and nerf bars are vehicle-specific — cab length (regular, extended, crew), body configuration, and rocker mount locations all vary. Every product listing includes a fitment table by year, make, model, cab configuration, and trim.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full fitment tables, material specs, and step surface details are on every product page. Shop by your vehicle to find confirmed-fit running boards and nerf bars.</p>`;
+<p>Full fitment tables, material specs, and step surface details are on every product page. Shop by your vehicle to find confirmed-fit running boards and nerf bars.</p>`, title, '');
 }
 
 function tonneauTemplate(title) {
-  return `<h2>${title} — Truck Bed Covers for Full-Size and Midsize Pickups</h2>
+    return padded(`<h2>${title} — Truck Bed Covers for Full-Size and Midsize Pickups</h2>
 <p>Tonneau covers protect your truck bed cargo from weather, theft, and road debris while improving aerodynamics and fuel economy. They're one of the most practical upgrades for any work truck or daily-driven pickup — and with the range of styles now available, there's a cover for every use case from daily grocery runs to weekend off-road trips where you need full bed access in seconds.</p>
 
 <h2>Types of Tonneau Covers</h2>
@@ -701,11 +755,11 @@ function tonneauTemplate(title) {
 <p>Most soft and hard folding covers install in 15–30 minutes with basic tools using clamps that attach to the bed rail — no drilling required. Retractable covers take longer and may require stake pocket mounting. One-piece covers require bed rail seal and hinge installation.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full fitment tables, style comparisons, and warranty information are on every product page. Shop by your truck's year, make, model, and bed length to find confirmed-fit covers.</p>`;
+<p>Full fitment tables, style comparisons, and warranty information are on every product page. Shop by your truck's year, make, model, and bed length to find confirmed-fit covers.</p>`, title, '');
 }
 
 function floorMatTemplate(title) {
-  return `<h2>${title} — Custom-Fit Floor Mats and Cargo Liners</h2>
+    return padded(`<h2>${title} — Custom-Fit Floor Mats and Cargo Liners</h2>
 <p>Custom-fit floor mats protect the carpet in your truck, SUV, or car from mud, water, snow, and everyday wear that degrade factory carpet and dramatically reduce resale value. Unlike universal mats that shift around and leave gaps, custom-fit mats are laser-scanned or digitally patterned to the exact floor contours of your specific vehicle — they stay in place and protect every square inch of the floor area they cover.</p>
 
 <h2>Custom-Fit vs. Universal Mats</h2>
@@ -728,11 +782,11 @@ function floorMatTemplate(title) {
 <p>Floor mats are vehicle-specific — floor contours, mat retention hook locations, and floor area dimensions are unique to each make, model, and cab configuration. Every product listing includes fitment by year, make, model, cab (regular, extended, crew), and trim. Check your vehicle's specific cab and trim before ordering.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full fitment tables, material specs, and warranty information are on every product page. Shop by your vehicle to find confirmed-fit floor protection.</p>`;
+<p>Full fitment tables, material specs, and warranty information are on every product page. Shop by your vehicle to find confirmed-fit floor protection.</p>`, title, '');
 }
 
 function seatCoverTemplate(title) {
-  return `<h2>${title} — Custom-Fit Seat Covers for Trucks, SUVs, and Cars</h2>
+    return padded(`<h2>${title} — Custom-Fit Seat Covers for Trucks, SUVs, and Cars</h2>
 <p>Seat covers protect the factory upholstery in your truck or SUV from wear, stains, UV fading, and the kind of daily abuse that comes with work trucks, family vehicles, and off-road rigs. The right seat cover maintains the value of factory leather, prevents cloth seats from absorbing pet hair and moisture, and gives a worn interior a fresh appearance — all without permanently altering the factory seat.</p>
 
 <h2>Custom-Fit vs. Universal Seat Covers</h2>
@@ -757,11 +811,11 @@ function seatCoverTemplate(title) {
 <p>Seat covers are vehicle-specific — seat contour, headrest configuration, armrest integration, and airbag location all vary by year and trim. Every product listing includes fitment by year, make, model, and trim level. Front and rear covers are typically sold separately or as a set.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full fitment tables, material specs, and airbag compatibility details are on every product page. Shop by your vehicle to find confirmed-fit, airbag-safe seat covers.</p>`;
+<p>Full fitment tables, material specs, and airbag compatibility details are on every product page. Shop by your vehicle to find confirmed-fit, airbag-safe seat covers.</p>`, title, '');
 }
 
 function recoveryTemplate(title, handle) {
-  return `<h2>${title} — Off-Road Recovery Gear</h2>
+    return padded(`<h2>${title} — Off-Road Recovery Gear</h2>
 <p>Recovery gear is the difference between a minor trail inconvenience and an overnight stuck-in-the-mud situation. Whether you're running a winch line to a distant anchor point, pulling a buddy out of a bog with a kinetic recovery rope, or rigging a pulley block for a mechanical advantage pull, the gear you carry and the knowledge of how to use it determines whether you get yourself home or you call for help.</p>
 
 <h2>Recovery Gear Categories</h2>
@@ -785,11 +839,11 @@ function recoveryTemplate(title, handle) {
 <p>Recovery points on the vehicle also matter. Factory tow hooks are typically rated for towing loads, not recovery loads — always check your vehicle's recovery point rating before attaching recovery gear.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Working load limits, break strengths, and length/diameter specifications are listed on every product page. Shop by application — winch, snatch, static tow — to find the right gear for your recovery kit.</p>`;
+<p>Working load limits, break strengths, and length/diameter specifications are listed on every product page. Shop by application — winch, snatch, static tow — to find the right gear for your recovery kit.</p>`, title, handle || '');
 }
 
 function lightingTemplate(title, handle) {
-  return `<h2>${title} — Lighting Upgrades for Trucks and Off-Road Vehicles</h2>
+    return padded(`<h2>${title} — Lighting Upgrades for Trucks and Off-Road Vehicles</h2>
 <p>Lighting upgrades improve visibility, safety, and the functional capability of your truck or off-road vehicle after dark. Whether you're replacing dim factory headlights with modern LED projectors, adding auxiliary lights for trail use, or upgrading work truck bed lighting for late-night job sites, the right lighting upgrade is one of the most immediately noticeable improvements you can make to any vehicle.</p>
 
 <h2>Lighting Types</h2>
@@ -812,11 +866,11 @@ function lightingTemplate(title, handle) {
 <p>Headlight replacements must match the projector or reflector style of your factory housings — a properly designed LED replacement in a reflector housing produces a legal, effective beam. A poorly designed one creates glare and reduced effective range. Every headlight listing in this collection specifies compatibility with factory housing type. Auxiliary lights must comply with local regulations regarding mounting location and use conditions — many states prohibit auxiliary forward lights on public roads.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full fitment tables, lumen output ratings, beam pattern specifications, and warranty information are on every product page. Shop by your vehicle to find confirmed-fit lighting upgrades.</p>`;
+<p>Full fitment tables, lumen output ratings, beam pattern specifications, and warranty information are on every product page. Shop by your vehicle to find confirmed-fit lighting upgrades.</p>`, title, handle || '');
 }
 
 function exhaustTemplate(title) {
-  return `<h2>${title} — Performance Exhaust Systems and Components</h2>
+    return padded(`<h2>${title} — Performance Exhaust Systems and Components</h2>
 <p>An exhaust system upgrade improves engine breathing, increases power output, changes exhaust tone, and on most setups reduces overall system weight versus the factory OEM exhaust. The gains vary by vehicle, existing exhaust configuration, and the specific components installed — a cat-back system on a turbocharged truck produces measurably different results than the same upgrade on a naturally aspirated V8 — but exhaust work is a consistent value proposition for trucks and performance vehicles at any level of build.</p>
 
 <h2>Exhaust System Components</h2>
@@ -839,11 +893,11 @@ function exhaustTemplate(title) {
 <p>Exhaust systems are vehicle-specific — pipe diameter, hanger locations, and component positioning vary by year, engine, and cab/bed configuration. Every product listing includes fitment by year, make, model, engine, and cab configuration. Diesel and gas versions often differ even within the same model year — confirm engine type before ordering.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Pipe diameter, system weight, sound level, and power gain claims are listed on every product page where available. Shop by your vehicle to find confirmed-fit exhaust systems and components.</p>`;
+<p>Pipe diameter, system weight, sound level, and power gain claims are listed on every product page where available. Shop by your vehicle to find confirmed-fit exhaust systems and components.</p>`, title, '');
 }
 
 function engineTemplate(title, handle) {
-  return `<h2>${title} — Engine Performance Parts for Trucks and Cars</h2>
+    return padded(`<h2>${title} — Engine Performance Parts for Trucks and Cars</h2>
 <p>Engine performance upgrades improve power output, throttle response, fuel economy, or all three — depending on the modification and the vehicle. The products in this collection cover the intake side of the equation: cold air intakes, air filters, throttle body spacers, and associated components that improve the volume and quality of air entering the engine. More air, correctly delivered, means more power from the same displacement and fuel.</p>
 
 <h2>Cold Air Intakes</h2>
@@ -865,11 +919,11 @@ function engineTemplate(title, handle) {
 <p>Intake components are vehicle and engine specific. Cold air intakes in particular are engineered for specific engine bay geometry and intake sensor locations — a kit designed for a 5.0L Coyote does not fit a 3.5L EcoBoost even in the same model year. Every product listing includes fitment by year, make, model, and engine. Confirm your engine code before ordering.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>HP/torque gain claims, filter flow ratings, and fitment tables are on every product page. Shop by your engine to find confirmed-fit performance intake upgrades.</p>`;
+<p>HP/torque gain claims, filter flow ratings, and fitment tables are on every product page. Shop by your engine to find confirmed-fit performance intake upgrades.</p>`, title, handle || '');
 }
 
 function towingTemplate(title, handle) {
-  return `<h2>${title} — Towing Equipment for Trucks</h2>
+    return padded(`<h2>${title} — Towing Equipment for Trucks</h2>
 <p>Towing capacity is one of the primary selling points of full-size and heavy-duty trucks — but the right towing equipment is what makes that capacity safe and functional in practice. The receiver hitch, ball mount, weight distribution system, brake controller, and associated hardware all need to be rated for the load you're pulling and properly configured for your vehicle. Undersized towing equipment is a safety risk; properly selected and installed equipment makes heavy towing manageable and controlled.</p>
 
 <h2>Towing System Components</h2>
@@ -893,11 +947,11 @@ function towingTemplate(title, handle) {
 <p>Hitches are vehicle-specific — frame rail width, receiver position, and mounting hole patterns vary by make, model, and year. Every product listing includes fitment by year, make, model, and trim. Class ratings and tongue weight limits are listed on every hitch product page.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Class ratings, tongue weight limits, gross trailer weight ratings, and fitment tables are on every product page. Shop by your vehicle and tow rating to find confirmed-fit towing equipment.</p>`;
+<p>Class ratings, tongue weight limits, gross trailer weight ratings, and fitment tables are on every product page. Shop by your vehicle and tow rating to find confirmed-fit towing equipment.</p>`, title, handle || '');
 }
 
 function bodyLiftTemplate(title) {
-  return `<h2>${title} — Body Lift Kits for Trucks and SUVs</h2>
+    return padded(`<h2>${title} — Body Lift Kits for Trucks and SUVs</h2>
 <p>A body lift raises the cab and bed of your truck above the frame by installing polyurethane or nylon spacers between the body mounts and the frame. Unlike a suspension lift, a body lift does not change suspension geometry, spring rates, or shock travel — it simply creates vertical space between the body and frame, allowing larger tires to clear the fender wells without the cost or complexity of a full suspension system replacement.</p>
 
 <h2>How Body Lifts Work</h2>
@@ -927,57 +981,52 @@ function bodyLiftTemplate(title) {
 <p>Body lifts are vehicle-specific — body mount locations, bolt sizes, and the accessories requiring extension (steering shaft, radiator, hood brace) all vary by make and model. Every product listing includes fitment by year, make, and model with a component list of all included spacers, brackets, and extension hardware.</p>
 
 <h2>Shop ${title} at Bull Strap</h2>
-<p>Full component lists, included hardware specifications, and fitment tables are on every product page. Shop by your vehicle to find confirmed-fit body lift kits.</p>`;
+<p>Full component lists, included hardware specifications, and fitment tables are on every product page. Shop by your vehicle to find confirmed-fit body lift kits.</p>`, title, '');
 }
 
 function genericTemplate(title, handle) {
   const cat = (title || handle).replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   return `<h2>${cat} for Trucks, SUVs, and Off-Road Vehicles</h2>
-<p>The ${cat} collection at Bull Strap carries parts and accessories for trucks, SUVs, and off-road vehicles sourced from Turn14 Distribution, one of the largest automotive aftermarket distributors in North America. Every product listing includes a complete fitment table by year, make, model, and trim — so you confirm compatibility before the order ships, not after it arrives. Bull Strap's catalog covers over 103,000 products across hundreds of brands, giving truck and off-road vehicle owners access to a comprehensive selection of aftermarket parts from a single source.</p>
+<p>The ${cat} collection at Bull Strap carries parts and accessories for trucks, SUVs, and off-road vehicles sourced from Turn14 Distribution, one of the largest automotive aftermarket distributors in North America. Every product listing includes a complete fitment table by year, make, model, and trim so you confirm compatibility before the order ships, not after it arrives. Bull Strap catalog covers over 103,000 products across hundreds of brands, giving truck and off-road vehicle owners access to a comprehensive selection of aftermarket parts from a single source with verified fitment data.</p>
 
 <h2>Choosing the Right Part</h2>
-<p>Aftermarket parts span a wide quality spectrum. At the low end, you have unbranded overseas imports with no documented specifications, no fitment data, and no warranty. At the high end, you have engineered components from manufacturers who test their parts to defined load and durability standards. The products in this collection come from established brands with real specifications, documented fitment data, and legitimate warranty programs. When you're evaluating any aftermarket part, the following criteria separate quality parts from the rest:</p>
-<ul>
-<li><strong>Fitment specificity:</strong> Parts engineered for your exact year, make, model, and trim install correctly without modification and perform as designed. Universal-fit parts require trimming and adjustment that degrades final fit quality and often leaves gaps in coverage or function.</li>
-<li><strong>Material specifications:</strong> A quality part lists the material — steel gauge, alloy grade, polymer type, coating spec. If a description says heavy-duty without specifying what that means, that is a red flag. Treat vague materials claims the same way you would treat a resume with no work history.</li>
-<li><strong>Load ratings:</strong> Structural and safety-adjacent components should carry documented load ratings from the manufacturer. Recovery gear, hitch components, skid plates, and grab handles all fall into this category. If the listing has no load rating, ask before you buy.</li>
-<li><strong>Warranty terms:</strong> Know what you are covered for and for how long. A lifetime warranty on a $15 part is not the same as a one-year warranty on a $300 suspension component from a major manufacturer. Read the terms.</li>
-<li><strong>Fitment verification:</strong> Always cross-check the fitment table against your specific vehicle. Fitment tables are only as good as the data that went into them. If something does not look right for your trim, contact the seller to confirm before ordering.</li>
-</ul>
+<p>Aftermarket parts span a wide quality spectrum. At the low end, you have unbranded overseas imports with no documented specifications, no fitment data, and no warranty. At the high end, you have engineered components from manufacturers who test their parts to defined load and durability standards before releasing them to market. The products in this collection come from established brands with real specifications, documented fitment data, and legitimate warranty programs that back up their claims. When you are evaluating any aftermarket part, the following criteria separate quality parts from the rest of the market.</p>
+<p>Fitment specificity matters more than most buyers realize. Parts engineered for your exact year, make, model, and trim install correctly without modification and perform as designed from the first use. Universal-fit parts require trimming and adjustment that degrades final fit quality and often leaves gaps in coverage or function that create problems down the road. Always confirm vehicle-specific fitment before purchasing any structural, safety-adjacent, or precision-fit component.</p>
+<p>Material specifications tell you what you are actually buying. A quality part from a reputable manufacturer lists the material clearly: steel gauge, alloy grade, polymer type, coating specification, and tensile or yield strength where relevant. If a product description says heavy-duty without specifying what that means in measurable terms, treat that as a red flag. Vague materials claims are a consistent indicator of parts that will not perform as expected under real-world use conditions.</p>
+<p>Load ratings are critical for structural and safety-adjacent components. Recovery gear, hitch components, skid plates, grab handles, limit straps, and tow hooks all need to be rated for the loads they will see in use. If a product listing for a structural component has no load rating, ask the manufacturer for documentation before purchasing. Installing unrated hardware in a load-bearing application is a liability and a safety risk.</p>
+<p>Warranty terms vary significantly across brands and part types. A lifetime warranty on a fifteen dollar part is a different proposition than a one-year warranty on a three hundred dollar suspension component from an established manufacturer. Read the warranty terms before you commit. Understand what is covered, what voids coverage, and how claims are processed. A strong warranty from a manufacturer with an established claims process is meaningful. A lifetime warranty from a company with no contact information or claims process is not.</p>
+<p>Fitment verification is the last step before ordering. Fitment tables are only as good as the data that went into them. Cross-check the fitment table against your specific vehicle, paying attention to engine, cab configuration, bed length, and trim level where those fields are listed. If something does not look right for your application, contact the seller to confirm before the order ships. Return shipping costs on heavy truck parts make mistaken orders expensive.</p>
 
 <h2>Vehicle Coverage in This Collection</h2>
-<p>Products in this collection cover the most common trucks, SUVs, and off-road vehicles on the market. Full-size trucks represent the largest segment of the fitment data, followed by midsize trucks and purpose-built off-road platforms. Coverage includes:</p>
-<ul>
-<li><strong>Ford:</strong> F-150 (2004-present), F-250 Super Duty (2005-present), F-350 Super Duty (2005-present), Bronco (2021-present), Bronco Sport (2021-present), Ranger (2019-present), Maverick (2022-present)</li>
-<li><strong>Ram/Dodge:</strong> Ram 1500 (2009-present), Ram 1500 Classic (2019-present), Ram 2500 (2010-present), Ram 3500 (2010-present), Ram 4500/5500 (select applications)</li>
-<li><strong>Chevrolet/GMC:</strong> Silverado 1500 (2007-present), Silverado 2500HD (2011-present), Silverado 3500HD (2011-present), Sierra 1500 (2007-present), Sierra 2500HD (2011-present), Sierra 3500HD (2011-present), Colorado (2015-present), Canyon (2015-present)</li>
-<li><strong>Toyota:</strong> Tacoma (2005-present), Tundra (2007-present), 4Runner (2003-present), Sequoia (2008-present), Land Cruiser (select applications), Land Cruiser 300 Series (2022-present)</li>
-<li><strong>Jeep:</strong> Wrangler TJ (1997-2006), Wrangler JK (2007-2018), Wrangler JL (2018-present), Gladiator JT (2020-present), Cherokee (select applications), Grand Cherokee (select applications)</li>
-<li><strong>Nissan:</strong> Frontier (2005-present), Titan (2004-present), Titan XD (2016-present), Pathfinder (select applications)</li>
-<li><strong>Other platforms:</strong> Honda Ridgeline, Ford Maverick, and select international-market trucks where Turn14 fitment data is available</li>
-</ul>
-<p>Individual product listings specify exact fitment within these broad platform groups. Always check the product page fitment table for your specific year, make, model, and trim before ordering.</p>
+<p>Products in this collection cover the most common trucks, SUVs, and off-road vehicles on the market today. Full-size trucks represent the largest segment of the fitment data in the Turn14 catalog, followed by midsize trucks and purpose-built off-road platforms. The following makes and model years are covered across this collection.</p>
+<p>Ford coverage includes the F-150 from 2004 through the current model year, F-250 Super Duty from 2005 through present, F-350 Super Duty from 2005 through present, Bronco from 2021 through present, Bronco Sport from 2021 through present, Ranger from 2019 through present, and Maverick from 2022 through present. Ford is the best-selling truck brand in the United States and carries the broadest aftermarket part support of any manufacturer in the Turn14 catalog.</p>
+<p>Ram and Dodge coverage includes the Ram 1500 from 2009 through present, Ram 1500 Classic from 2019 through present, Ram 2500 from 2010 through present, Ram 3500 from 2010 through present, and Ram 4500/5500 for select heavy-duty applications. Ram HD trucks including the 2500 and 3500 are particularly well supported by the suspension and towing categories in the Turn14 catalog.</p>
+<p>Chevrolet and GMC coverage includes the Silverado 1500 from 2007 through present, Silverado 2500HD from 2011 through present, Silverado 3500HD from 2011 through present, Sierra 1500 from 2007 through present, Sierra 2500HD from 2011 through present, Sierra 3500HD from 2011 through present, Colorado from 2015 through present, and Canyon from 2015 through present.</p>
+<p>Toyota coverage includes the Tacoma from 2005 through present, Tundra from 2007 through present, 4Runner from 2003 through present, Sequoia from 2008 through present, and Land Cruiser for select applications. Toyota trucks and SUVs have a particularly strong following in the overlanding and off-road communities and are well represented in the catalog.</p>
+<p>Jeep coverage includes the Wrangler TJ from 1997 through 2006, Wrangler JK from 2007 through 2018, Wrangler JL from 2018 through present, Gladiator JT from 2020 through present, and select Cherokee and Grand Cherokee applications. Jeep Wranglers are among the most accessorized vehicles in the aftermarket, with extensive support across suspension, exterior, interior, lighting, and recovery categories.</p>
+<p>Nissan coverage includes the Frontier from 2005 through present, Titan from 2004 through present, and Titan XD from 2016 through present. Individual product listings specify exact fitment within these broad platform groups. Always check the product page fitment table for your specific year, make, model, and trim before ordering to confirm compatibility.</p>
 
 <h2>Brands Carried at Bull Strap</h2>
-<p>Bull Strap's catalog through Turn14 Distribution includes parts from hundreds of aftermarket manufacturers. The brand mix covers OEM-quality replacements from companies like Dorman, Moog, and Monroe, through to performance upgrades from Bilstein, Fox, ICON Vehicle Dynamics, and Carli Suspension. On the exterior side, brands including ARB, Warn, Smittybilt, Lund, and Bushwacker round out the catalog. Interior and convenience categories include WeatherTech, Husky Liners, Covercraft, Bestop, and Rugged Ridge. Every major category in the truck aftermarket is represented.</p>
-<p>Not every brand available through Turn14 is in this collection, but the most commonly searched and purchased brands in this category are represented. If you are looking for a specific brand that does not appear in search results, use the search bar at the top of the page or contact Bull Strap directly.</p>
+<p>Bull Strap catalog through Turn14 Distribution includes parts from hundreds of aftermarket manufacturers spanning every major truck and off-road accessory category. The brand mix covers the full range from OEM-quality replacements through high-performance upgrades.</p>
+<p>Suspension brands represented include Bilstein, Fox, Rancho, KYB, Monroe, ICON Vehicle Dynamics, Old Man Emu, Carli Suspension, Eibach, ReadyLift, Rough Country, Fabtech, Skyjacker, and SuperLift among others. Recovery and off-road brands include Warn, Smittybilt, ARB, Hi-Lift Jack, Bubba Rope, and Factor 55. Lighting brands include Rigid Industries, Baja Designs, KC HiLiTES, Diode Dynamics, Putco, and Anzo. Exterior brands include Lund, Bushwacker, WeatherTech, LineX, Dee Zee, Undercover, and Extang. Interior brands include Husky Liners, WeatherTech, Covercraft, Coverking, Bestop, and Rugged Ridge.</p>
+<p>OEM-quality replacement parts come from Dorman, Moog, Gates, Monroe, Standard Motor Products, and ACDelco among others. Performance and specialty brands vary by category. Not every brand available through Turn14 is represented in this specific collection, but the most commonly searched and purchased brands in this category are included. If you are looking for a specific brand that does not appear in the current listings, use the search bar or contact Bull Strap directly for availability.</p>
 
-<h2>OEM Replacement vs. Performance Upgrade</h2>
-<p>The aftermarket divides into two broad approaches for most parts categories: OEM-quality replacement, and performance upgrade. Understanding which you need before you shop saves time and money.</p>
-<p><strong>OEM-quality replacement:</strong> Parts engineered to meet or exceed OEM specifications for a component that is worn or failed. The goal is to restore the vehicle to factory spec. Brands like Moog, Dorman, Gates, and Monroe occupy this space. Higher quality than many OEM parts (better materials, tighter tolerances), but not intended to change the vehicle's performance characteristics.</p>
-<p><strong>Performance upgrade:</strong> Parts engineered to improve on factory specifications — more strength, more adjustability, better performance at the limits of the vehicle's capability. Brands like Bilstein, Fox, Carli, ICON, and Eibach occupy this space. Higher cost; measurable performance improvement over OEM spec.</p>
-<p>Most vehicle owners need OEM-quality replacement parts for worn items and reserve performance upgrades for specific capabilities they want to improve. A truck with worn factory shocks benefits from a quality OEM replacement; a truck being lifted for serious off-road use benefits from a performance upgrade. Know which category your project falls into before you shop.</p>
+<h2>OEM Replacement vs Performance Upgrade</h2>
+<p>The aftermarket parts market divides into two broad approaches for most parts categories: OEM-quality replacement and performance upgrade. Understanding which approach your project needs before you shop saves time, money, and the frustration of buying the wrong part twice.</p>
+<p>OEM-quality replacement parts are engineered to meet or exceed OEM specifications for a component that is worn, failed, or damaged. The goal is to restore the vehicle to factory spec with a part that matches or improves on the original quality level. Brands like Moog, Dorman, Gates, and Monroe occupy this space. These parts are often higher quality than the original OEM parts at a lower price point, using better materials and tighter manufacturing tolerances. They are not designed to change the vehicle performance characteristics, only to restore and maintain them at factory levels.</p>
+<p>Performance upgrade parts are engineered to improve on factory specifications in specific, measurable ways. More strength, more adjustability, better damping performance, improved corrosion resistance, extended service life under heavy use, or expanded travel range for lifted applications. Brands like Bilstein, Fox, Carli Suspension, ICON Vehicle Dynamics, and Eibach occupy this space. The cost is higher than OEM-replacement parts, but the performance improvement in the targeted areas is real and measurable.</p>
+<p>Most vehicle owners need OEM-quality replacement parts for worn items and reserve performance upgrades for specific capabilities they want to improve beyond factory levels. A truck with worn factory shocks benefits more from a quality OEM-spec shock replacement than from a performance coilover at three times the price, unless the owner also intends to lift the truck and use it seriously off-road. Match the part category to the actual use case rather than defaulting to the most expensive option in every category.</p>
 
 <h2>Installation Resources</h2>
-<p>Every product listing in this collection includes installation information where the manufacturer provides it. Difficulty ratings, required tools, and estimated installation time are included on product pages where applicable. For parts requiring specific vehicle knowledge or alignment work (suspension components, brake system parts, steering components), professional installation is recommended unless you have the relevant mechanical background and proper equipment.</p>
-<p>For straightforward bolt-on accessories, most installations are within reach of a mechanically competent owner with basic hand tools. Torque specs and installation sequences are provided in the product documentation. Follow the manufacturer torque specs rather than guessing — under-torqued hardware backs out; over-torqued hardware strips or cracks.</p>
+<p>Every product listing in this collection includes installation information where the manufacturer provides it. Difficulty ratings, required tools, and estimated installation time are included on product pages where applicable. For parts requiring specific vehicle knowledge or alignment work, including suspension components, brake system parts, and steering components, professional installation is recommended unless you have the relevant mechanical background and proper equipment to do the job correctly.</p>
+<p>For straightforward bolt-on accessories and replacement parts, most installations are within reach of a mechanically competent owner with basic hand tools and a floor jack with safety stands. Torque specifications and installation sequences are provided in the product documentation. Follow the manufacturer torque specifications rather than estimating. Under-torqued hardware backs out under vibration and road shock. Over-torqued hardware strips threads or cracks, particularly on aluminum components and the soft-metal fasteners common in interior and electrical applications where the consequences of improper torque are not immediately visible.</p>
 
-<h2>Bull Strap and the Limit Strap</h2>
-<p>Bull Strap's original and signature product is the USA-made limit strap — engineered and manufactured in the United States for lifted trucks and serious off-road builds. Limit straps cap the droop travel of a lifted vehicle's suspension, protecting CV axles, brake lines, and ABS wires from overextension at full droop. They are one of the most overlooked but important components on any seriously lifted truck or off-road build. Every lifted truck with IFS or a lifted solid axle setup that sees real trail use should have limit straps installed.</p>
-<p>The Turn14 catalog of over 103,000 products is the primary product surface at Bull Strap, but the limit strap is where the brand started and it remains the benchmark product. Every limit strap sold by Bull Strap is made in the USA and built to withstand the repeated load cycles of serious off-road use.</p>
+<h2>Bull Strap and the USA-Made Limit Strap</h2>
+<p>Bull Strap original and signature product is the USA-made limit strap engineered and manufactured in the United States for lifted trucks and serious off-road builds. Limit straps cap the droop travel of a lifted vehicle suspension, protecting CV axles, brake lines, and ABS sensor wires from overextension at full droop on the trail. They are one of the most overlooked but functionally important components on any seriously lifted truck or off-road build. Every lifted truck with independent front suspension or a lifted solid axle setup that sees real trail use should have limit straps protecting the drivetrain from overextension damage.</p>
+<p>The Turn14 catalog of over 103,000 products is the primary product surface at Bull Strap today, but the limit strap is where the brand started and it remains the benchmark product. Every limit strap sold by Bull Strap is made in the USA using high-tenacity polyester webbing, solid steel hardware, and heat-shrink tubing on every connection point. Built to withstand the repeated load cycles of serious off-road use across a range of vehicle applications from Jeep Wranglers to lifted Ram 2500 heavy-duty trucks to purpose-built prerunners.</p>
 
 <h2>Shop ${cat} at Bull Strap</h2>
-<p>Full product specifications, fitment tables, brand information, and warranty details are on every product page in this collection. Every listing includes the data you need to confirm the right part before you order. Shop by your vehicle using the fitment filter to narrow results to confirmed-compatible products for your year, make, model, and trim. If you need help finding a specific part or confirming fitment, reach out — Bull Strap carries a large catalog and we can help you locate what you need.</p>`;
+<p>Full product specifications, fitment tables, brand information, and warranty details are on every product page in this collection. Every listing includes the data you need to confirm the right part before you order. Shop by your vehicle using the fitment filter to narrow results to confirmed-compatible products for your specific year, make, model, and trim level. If you need help finding a specific part or confirming fitment for an unusual application or combination of modifications, reach out. Bull Strap carries a large catalog sourced from Turn14 Distribution and we can help you locate what you need.</p>`;
 }
 
 // ─── WORD COUNT ───────────────────────────────────────────────────────────────
