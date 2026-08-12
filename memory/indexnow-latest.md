@@ -1,22 +1,29 @@
-# IndexNow Submission Summary
+# IndexNow Submission Report — 2026-08-12
 
-**Date:** 2026-08-07T15:02:42.154Z (Friday, August 7th, 2026 - 3:02 PM UTC)
+**Date:** 2026-08-12 at 15:03:36 UTC  
+**Duration:** 129 seconds
 
 ## Results
 
-- **Sites Processed:** 104
-- **Total URLs:** 104
-- **Successfully Submitted:** 104
-- **Error Count:** 0
-- **Error Rate:** 0%
-- **Duration:** 126 seconds
+| Metric | Value |
+|--------|-------|
+| **Sites Processed** | 104 |
+| **Total URLs** | 104 |
+| **Successfully Submitted** | 102 |
+| **Error Count** | 2 |
+| **Error Rate** | 2% |
 
-## Status
+## Failed Domains
 
-✅ **All affiliate sites submitted successfully to IndexNow**
+Two domains encountered HTTP 403 (Forbidden) errors and failed to submit:
 
-All 104 domains had their URLs submitted without any errors. The submission completed in 2 minutes and 6 seconds.
+1. **bestbroncoaccessories.com** — HTTP 403
+2. **bestmeshwifi.com** — HTTP 403
 
-## Domains Submitted
+Both failures are due to authentication/permission issues with IndexNow API. These may require manual API key verification or domain verification updates.
 
-4x4stompers.com, allautodirect.com, amlandgoods.com, anzenhousing.com, autopartsreviewed.com, bestbroncoaccessories.com, bestcordlesstools.com, bestfirestick.com, bestgarageorganizer.com, besthomefilters.com, bestinstantpot.com, bestmeshwifi.com, bestseatcover.com, bestsmokergrill.com, besttonneaucovers.com, besttruckaccessories.com, bigrigcovers.com, bigrigseatcovers.com, broncobiminis.com, broncobumper.com, broncocargo.com, broncoexterior.com, broncofloormats.com, broncoheadliner.com, broncointerior.com, broncolift.com, broncomolle.com, broncorollbar.com, broncorollcage.com, broncoshade.com, broncotent.com, broncotents.com, broncotops.com, broncoupgrade.com, commandeerseats.com, cybertruckbumper.com, cybertruckbumpers.com, cybertruckgen1.com, cybertruckseat.com, cybertruckseatcover.com, cybertruckseatcovers.com, cybertruckseats.com, cybertruckshell.com, cybertruckstorage.com, cybertrucktires.com, elipacko-usa.com, fordbroncoaccessories.com, gladiatorseatcover.com, industrialstrap.com, jeepbenchcovers.com, jeepseatcover.com, jlcovers.com, jlscrambler.com, jlseatcover.com, jlseats.com, jluseatcovers.com, jlutops.com, jlutruck.com, kawasakiridgeutv.com, kilndriedcookingwood.com, magnetoaccessories.com, molleattachments.com, molletop.com, outdoorseatingcushion.com, packagingstrap.com, packagingstraps.com, palletstrap.com, palletstraps.com, pincerusa.com, qualityoutdoorcushion.com, r1sparts.com, r1sstorage.com, r1tparts.com, r1tstorage.com, r2sparts.com, r2tparts.com, ramrevparts.com, rangewolf.com, ridgeupgrades.com, ridgeutv.com, rivianaftermarket.com, scoutaccessories.com, scoutbumpers.com, scoutruvparts.com, scoutsuspension.com, scoutsuvparts.com, scoutterraparts.com, scoutupgrades.com, semiseats.com, slatetruckparts.com, sportadventurevehicleparts.com, strapratchets.com, swalmy.com, tacomaseats.com, tacticaltailgate.com, toyotarangga.com, trektop.com, usaseatcushion.com, volconaccessories.com, volconaftermarket.com, volconparts.com, volconseats.com, whatarebest.com, wranglerseatcover.com
+## Summary
+
+✅ Strong submission performance with 98% success rate (102/104 domains).  
+⚠️ Two domains require attention for API credentials or domain verification.  
+🎯 Ready for follow-up indexing and SEO checks on affected domains.

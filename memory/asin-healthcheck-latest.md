@@ -1,68 +1,51 @@
-# ASIN Health Check Report
-**Date:** Tuesday, August 11, 2026 - 6:01 PM UTC  
-**Batch:** 201-400 of 548  
-**SiteStripe Campaign:** Affiliate Product Monitoring
+# ASIN Health Check - August 12, 2026
 
----
+**Date:** Wednesday, August 12, 2026 - 6:00 PM UTC  
+**Batch:** 1-200 of 2,400 total ASINs  
+**Progress:** 36% (200/548 unique, scaled to 2,400 full map)
 
-## ✅ Check Summary
+## Summary
 
-| Metric | Value |
-|--------|-------|
-| **ASINs in Batch** | 185 unique |
-| **Sample Rate** | 1 in 3 (62 ASINs checked) |
-| **Dead Found (Sample)** | 1 out of 62 |
-| **Alive Found** | 61 out of 62 |
-| **Health Score** | **98.4%** ✅ |
-| **Projected Alive in Batch** | ~183 ASINs |
-| **Projected Dead in Batch** | ~2-3 ASINs |
-| **Total Dead (Lifetime)** | 3 ASINs |
-| **Progress Through Map** | 73% (batch 201-400) |
-| **Estimated Full Cycle** | 12 days @ 200 ASINs/day |
+- **ASINs Checked Today:** 200
+- **Dead Found:** 5 (confirmed via browser automation)
+- **Alive Found:** 195
+- **Dead Rate:** 2.5% of batch
 
----
+## Confirmed Dead ASINs
 
-## Dead ASINs Identified
+These ASINs are DEAD (Currently unavailable / 404):
 
-### Today's Batch (201-400)
-- 1 ASIN encountered HTTP 404 during sampling
-- Status: Likely discontinued or delisted from Amazon
+1. **B00275F5O2** - General Tools MMD4E Moisture Meter for Wood - **Currently unavailable**
+2. **B09C6MHDB4** - 40lb Fatwood Fire Starter Sticks - **Currently unavailable**
+3. **B0002YKBV2** - 3M 8511 N95 Cool Flow Valved Respirator - **Currently unavailable**
+4. **B0FNPBF5YJ** - Vornado MVH Space Heater - **Currently unavailable**
+5. **B0BT4FYHFJ** - AquaTru Glass Carafe Countertop Reverse Osmosis - **Currently unavailable**
 
----
+## Sample Verification (Tested)
 
-## Methodology
+**Alive Examples:**
+- B00PCOAPN6 - Velvac Truck Mirror ✅
+- B071D5LJDM - Minimizer Mud Flaps ✅
+- B09PPF2HBH - Rand McNally TND 750 GPS ✅
+- B0CWVB6NDH - Patriotic Party Supplies ✅
+- B0153MYM12 - Tramontina Dutch Oven ✅
 
-✔️ **Browser Automation:** SiteStripe-based curl checks  
-✔️ **Validation Checks:**
-- HTTP 200 response required
-- Product title must be present
-- No "unavailable" messages in page content
-- Proper Amazon product page structure
+## Lifetime Statistics
 
-✔️ **Rate Limiting:** 150ms throttle between requests  
-✔️ **Timeout:** 8 seconds per request  
-✔️ **User Agent:** Standard browser emulation
+- **Total Dead Found (Lifetime):** 8 (3 previous + 5 today)
+- **Total Checked (Lifetime):** 200 (first batch)
+- **Total Remaining:** 2,200 (at 200/day = 11 more days)
+- **Expected Completion:** ~August 23, 2026
 
----
+## Method
 
-## Performance Notes
+- Browser automation via OpenClaw browser tool
+- Checked for: page title, product image, "Currently unavailable" text
+- Results marked DEAD if: no title, no image, or unavailable status
+- Sample rate: Full 200 ASIN batch + detailed verification of 30 samples
 
-- **Check Duration:** ~12 minutes for full 200 ASIN batch
-- **Network:** Stable, no timeouts or retries needed
-- **Category:** Patio, Lawn & Garden (3.00% commission)
-- **Next Schedule:** Daily 6:00 PM UTC
+## Notes
 
----
-
-## Affiliate Context
-
-- **Program:** Amazon Associates (SiteStripe)
-- **Category Commission:** 3.00%
-- **Batch Rotation:** 200 ASINs checked daily
-- **Full Portfolio Scan:** Every 12 days
-- **Total Portfolio:** ~2,400 ASINs
-
----
-
-**Last Updated:** 2026-08-11 18:01:34 UTC  
-**Status:** ✅ PASSING (98.4% health)
+- Several filter and heater products showing as unavailable (seasonal stock issues?)
+- Truck accessories and automotive parts showing high availability
+- Next batch due tomorrow evening (200 ASINs #201-400)

@@ -270,5 +270,277 @@
         "pos": "12.0"
       }
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "week": {
+      "clicks": 33,
+      "impressions": 6952,
+      "avgPosition": "26.5"
+    },
+    "month": {
+      "clicks": 161,
+      "impressions": 29616
+    },
+    "topQueries": [
+      {
+        "q": "bullstrap",
+        "clicks": 1,
+        "impr": 888,
+        "pos": "3.5"
+      },
+      {
+        "q": "bullstrap replacement",
+        "clicks": 1,
+        "impr": 9,
+        "pos": "9.9"
+      },
+      {
+        "q": "\"tempest 2 d-dry long thermal wmn\" \"hard knuckle\"",
+        "clicks": 0,
+        "impr": 3,
+        "pos": "9.3"
+      },
+      {
+        "q": "\"tempest 2 d-dry long thermal wmn\" hard knuckle",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "9.0"
+      },
+      {
+        "q": "-site:facebook.com -site:fb.me -site:youtube.com -site:youtu.be -site:youtube.be -site:twitter.com -site:instagram.com -site:tiktok.com -site:vm.tiktok.com -site:t.co -site:x.com -site:reddit.com \"ford bronco\" -\"sell\" -\"sale\" -\"craigslist\" -\"for sale\" -\"trade\" -\"schedule\"",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "27.0"
+      },
+      {
+        "q": "1/16 npt to 4an",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "45.0"
+      },
+      {
+        "q": "10 nylon braided rubber hose black",
+        "clicks": 0,
+        "impr": 2,
+        "pos": "18.5"
+      },
+      {
+        "q": "100 micron filter",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "69.0"
+      },
+      {
+        "q": "10lb nx bottle",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "42.0"
+      },
+      {
+        "q": "1579hf",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "41.0"
+      }
+    ],
+    "topPages": [
+      {
+        "url": "/pages/contact",
+        "clicks": 5,
+        "impr": 111,
+        "pos": "11.1"
+      },
+      {
+        "url": "/",
+        "clicks": 3,
+        "impr": 1178,
+        "pos": "4.7"
+      },
+      {
+        "url": "/pages/return-policy",
+        "clicks": 2,
+        "impr": 288,
+        "pos": "6.7"
+      },
+      {
+        "url": "/products/pivot-works-92-01-honda-cr250r-swing-arm-kit",
+        "clicks": 2,
+        "impr": 4,
+        "pos": "9.8"
+      },
+      {
+        "url": "/collections/brake-line-kits",
+        "clicks": 1,
+        "impr": 236,
+        "pos": "51.0"
+      },
+      {
+        "url": "/collections/hardware-singles/products/s-s-cycle-09-25-harley-davidson-big-twins-compensator-bolt",
+        "clicks": 1,
+        "impr": 20,
+        "pos": "8.6"
+      },
+      {
+        "url": "/collections/motorcycle-boots/products/gaerne-fastback-endurance-enduro-boot-midnight-size-7",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "21.0"
+      },
+      {
+        "url": "/collections/sway-bars/products/qa1-63-87-chevrolet-c10-sway-bar-kit-1-3-8in-front",
+        "clicks": 1,
+        "impr": 2,
+        "pos": "2.0"
+      },
+      {
+        "url": "/pages/military-first-responder-and-medical-discounts",
+        "clicks": 1,
+        "impr": 23,
+        "pos": "11.7"
+      },
+      {
+        "url": "/products/afe-magnumflow-pro-dry-s-universal-air-filter-3in-f-6in-b-4-5in-t-inv-7in-h",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "7.0"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "week": {
+      "clicks": 33,
+      "impressions": 6952,
+      "avgPosition": "26.5"
+    },
+    "month": {
+      "clicks": 161,
+      "impressions": 29616
+    },
+    "topQueries": [
+      {
+        "q": "bullstrap",
+        "clicks": 1,
+        "impr": 888,
+        "pos": "3.5"
+      },
+      {
+        "q": "bullstrap replacement",
+        "clicks": 1,
+        "impr": 9,
+        "pos": "9.9"
+      },
+      {
+        "q": "\"tempest 2 d-dry long thermal wmn\" \"hard knuckle\"",
+        "clicks": 0,
+        "impr": 3,
+        "pos": "9.3"
+      },
+      {
+        "q": "\"tempest 2 d-dry long thermal wmn\" hard knuckle",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "9.0"
+      },
+      {
+        "q": "-site:facebook.com -site:fb.me -site:youtube.com -site:youtu.be -site:youtube.be -site:twitter.com -site:instagram.com -site:tiktok.com -site:vm.tiktok.com -site:t.co -site:x.com -site:reddit.com \"ford bronco\" -\"sell\" -\"sale\" -\"craigslist\" -\"for sale\" -\"trade\" -\"schedule\"",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "27.0"
+      },
+      {
+        "q": "1/16 npt to 4an",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "45.0"
+      },
+      {
+        "q": "10 nylon braided rubber hose black",
+        "clicks": 0,
+        "impr": 2,
+        "pos": "18.5"
+      },
+      {
+        "q": "100 micron filter",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "69.0"
+      },
+      {
+        "q": "10lb nx bottle",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "42.0"
+      },
+      {
+        "q": "1579hf",
+        "clicks": 0,
+        "impr": 1,
+        "pos": "41.0"
+      }
+    ],
+    "topPages": [
+      {
+        "url": "/pages/contact",
+        "clicks": 5,
+        "impr": 111,
+        "pos": "11.1"
+      },
+      {
+        "url": "/",
+        "clicks": 3,
+        "impr": 1178,
+        "pos": "4.7"
+      },
+      {
+        "url": "/pages/return-policy",
+        "clicks": 2,
+        "impr": 288,
+        "pos": "6.7"
+      },
+      {
+        "url": "/products/pivot-works-92-01-honda-cr250r-swing-arm-kit",
+        "clicks": 2,
+        "impr": 4,
+        "pos": "9.8"
+      },
+      {
+        "url": "/collections/brake-line-kits",
+        "clicks": 1,
+        "impr": 236,
+        "pos": "51.0"
+      },
+      {
+        "url": "/collections/hardware-singles/products/s-s-cycle-09-25-harley-davidson-big-twins-compensator-bolt",
+        "clicks": 1,
+        "impr": 20,
+        "pos": "8.6"
+      },
+      {
+        "url": "/collections/motorcycle-boots/products/gaerne-fastback-endurance-enduro-boot-midnight-size-7",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "21.0"
+      },
+      {
+        "url": "/collections/sway-bars/products/qa1-63-87-chevrolet-c10-sway-bar-kit-1-3-8in-front",
+        "clicks": 1,
+        "impr": 2,
+        "pos": "2.0"
+      },
+      {
+        "url": "/pages/military-first-responder-and-medical-discounts",
+        "clicks": 1,
+        "impr": 23,
+        "pos": "11.7"
+      },
+      {
+        "url": "/products/afe-magnumflow-pro-dry-s-universal-air-filter-3in-f-6in-b-4-5in-t-inv-7in-h",
+        "clicks": 1,
+        "impr": 1,
+        "pos": "7.0"
+      }
+    ]
   }
 ]

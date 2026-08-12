@@ -1,31 +1,45 @@
-# Affiliate Site Health Check — August 12, 2026
+# Affiliate Health Report — 2026-08-12
 
-**Scan Date:** Wednesday, August 12, 2026 - 6:00 AM UTC
-**Mode:** Full live HTTPS checks
+**Date:** Wednesday, August 12, 2026 - 3:03 PM UTC
 
 ## Summary
 
-- **Total Sites Scanned:** 738
-- **✅ Healthy (OK):** 47 sites
-- **⚠️ Warning Issues:** 294 sites
-- **🔴 Critical Issues:** 386 sites
-- **🔴 Down (live check failed):** 268 sites
+- **Total Sites:** 738
+- **✅ OK:** 135 (18.3%)
+- **⚠️ Warning:** 432 (58.5%)
+- **🔴 Critical:** 160 (21.7%)
 
-## Delta vs Last Live Run (2026-08-09)
+## Critical Issues Found
 
-- **Previous down count:** 270
-- **Today's down count:** 268
-- **New sites down:** 0
-- **Recovered sites:** 2 (bestlabel-maker.com, shedwithoutpermit.com)
-- **Critical threshold (>10 new down):** ❌ NOT triggered
+**160 sites have CRITICAL problems** — sites with:
+- Missing affiliate tags (unprofitable)
+- No Amazon links (zero monetization)
+- Missing robots.txt, privacy.html, sitemap.xml
+- Broken internal links
 
-## Root Cause (ongoing)
+### Top Critical Sites (sample):
 
-The bulk of outages remain the GitHub Pages SSL cert mismatch issue first detected 2026-08-02. Custom domain certs presenting GitHub's wildcard cert instead of the domain cert. This is a persistent GitHub Pages infrastructure issue.
+1. **whatarebest.com** — 1,833 links missing affiliate tags (largest issue)
+2. **airfilterforpets-com** — 120 missing tags
+3. **allergenairfilter-com** — 120 missing tags
+4. **18wheelgear.com** — 68 missing tags
+5. **4x4king.com** — 80 missing tags
+6. **4x4stomper.com** — 80 missing tags
 
-## Dashboard
+### Zero-Monetization Sites:
+- **4runnerseats.com** — no Amazon links
+- **broncointerior.com** — no Amazon links
+- **indexing-credentials** — no Amazon links
+- **whatsizehvacfilter.com** — no Amazon links
+- **wholehouseairfilter.com** — no Amazon links
+- **wranglerseat.com** — no Amazon links
 
-Rebuilt and pushed: https://brazenproducts.github.io/axl-dashboard/
-Audit run: 2026-08-12 06:00 UTC
-Previous live audit: 2026-08-09
-Change: -2 sites (slight improvement, 2 recovered)
+## Actions Required
+
+1. **High Priority:** Fix affiliate tagging for 160 critical sites
+2. **Monetization:** Add Amazon links to zero-revenue sites
+3. **SEO Compliance:** Add missing robots.txt, privacy.html, sitemap.xml
+
+---
+
+*Full critical list saved to `affiliate-health-CRITICAL.md`*

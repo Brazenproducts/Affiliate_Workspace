@@ -1,8 +1,8 @@
 {
   "phase": 4,
-  "brandIndex": 1,
-  "sinceId": 10520599265553,
-  "totalFixed": 16271,
+  "brandIndex": 6,
+  "sinceId": 10413037420817,
+  "totalFixed": 17558,
   "totalIndexed": 1064,
   "dailyCount": 195,
   "dailyDate": "2026-08-12",
@@ -12,5 +12,5 @@
     "Phase 3 — Exterior",
     "Phase 4 — Interior"
   ],
-  "lastRun": "2026-08-12T12:52:13.913Z"
+  "lastRun": "2026-08-12T20:55:08.883Z"
 }

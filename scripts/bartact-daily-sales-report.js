@@ -122,6 +122,35 @@ async function getAllOrders(minDate, maxDate) {
   return orders;
 }
 
+// ─── Google Ads ROAS ─────────────────────────────────────────────────────────
+
+async function getGoogleAdsRoas(adsToken, dateStr) {
+  const creds = JSON.parse(fs.readFileSync('/home/ubuntu/.openclaw/workspace/.google-ads-credentials.json','utf8'));
+  const CID = creds.customer_id.replace(/-/g,'');
+  const body = JSON.stringify({ query: `
+    SELECT
+      campaign.name,
+      campaign.status,
+      metrics.cost_micros,
+      metrics.conversions_value,
+      metrics.conversions
+    FROM campaign
+    WHERE segments.date = '${dateStr}'
+      AND metrics.cost_micros > 0
+    ORDER BY metrics.cost_micros DESC
+  `});
+  const data = await fetchJson(`https://googleads.googleapis.com/v23/customers/${CID}/googleAds:search`, {
+    method: 'POST',
+    headers: {
+      'Authorization': 'Bearer ' + adsToken,
+      'developer-token': creds.dev_token,
+      'Content-Type': 'application/json'
+    },
+    body
+  });
+  return data.results || [];
+}
+
 // ─── GSC Rankings ────────────────────────────────────────────────────────────
 
 async function getGscToken() {
@@ -281,6 +310,7 @@ async function main() {
     getAllOrders(minDate, maxDate),
     getGscToken()
   ]);
+  const adsRows = await getGoogleAdsRoas(gscToken, ystStr).catch(() => []);
 
   const paid = orders.filter(o => !['voided', 'refunded'].includes(o.financial_status));
   console.log(`Orders: ${orders.length} total, ${paid.length} paid`);
@@ -331,6 +361,23 @@ async function main() {
     if (paid.length < 5) flags.push('⚠️ Very low order count');
     if (!byChannel['Google Ads']) flags.push('⚠️ No Google Ads orders');
     if (flags.length) salesMsg += '\n' + flags.join('\n');
+  }
+
+  // ── Google Ads ROAS section ──
+  if (adsRows.length > 0) {
+    const totalSpend = adsRows.reduce((s,r) => s + (r.metrics.costMicros||0)/1e6, 0);
+    const totalRev = adsRows.reduce((s,r) => s + (r.metrics.conversionsValue||0), 0);
+    const totalRoas = totalSpend > 0 ? totalRev/totalSpend : 0;
+    salesMsg += `\n📢 <b>Google Ads (${dateLabel})</b>\n`;
+    salesMsg += `<b>$${totalSpend.toFixed(0)} spend → $${totalRev.toFixed(0)} rev = ${totalRoas.toFixed(2)}x ROAS</b> <i>(Google-attributed)</i>\n`;
+    for (const r of adsRows) {
+      const spend = (r.metrics.costMicros||0)/1e6;
+      const rev = r.metrics.conversionsValue||0;
+      const roas = spend > 0 ? rev/spend : 0;
+      const icon = rev === 0 ? '🔴' : roas >= 3 ? '🟢' : roas >= 1.5 ? '🟡' : '🔴';
+      const name = r.campaign.name.length > 32 ? r.campaign.name.slice(0,30)+'…' : r.campaign.name;
+      salesMsg += `  ${icon} ${name}: $${spend.toFixed(0)} → $${rev.toFixed(0)} (${roas.toFixed(1)}x)\n`;
+    }
   }
 
   // ── Rankings message (appended) ──

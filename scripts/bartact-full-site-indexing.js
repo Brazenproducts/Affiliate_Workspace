@@ -203,7 +203,7 @@ async function main() {
     if (q.date === today) quotaState = q;
   } catch {}
   quotaState.used = (quotaState.used || 0) + ok;
-  quotaState.bartactDone = true;
+  quotaState.bartactDone = submitted > 0;
   quotaState.bartactSubmitted = ok;
   quotaState.bartactErrors = errors;
   quotaState.bartactRunAt = new Date().toISOString();
@@ -213,6 +213,58 @@ async function main() {
   console.log(`Next run starts at URL index ${state.lastIndex} of ${state.urls.length}`);
   console.log(`Full rotation every ~${Math.ceil(state.urls.length / QUOTA)} days`);
   console.log(`Quota state written: ${quotaState.used}/${QUOTA} used today, bartactDone=true`);
+
+  // Immediately run Ballkinis with leftover quota
+  const ballkinisOk = await runBallkinisAfterBartact(googleToken, quotaState.used);
+  if (ballkinisOk > 0) {
+    quotaState.used += ballkinisOk;
+    quotaState.ballkinisDone = true;
+    quotaState.ballkinisSubmitted = ballkinisOk;
+    fs.writeFileSync(QUOTA_STATE_PATH, JSON.stringify(quotaState, null, 2));
+  }
+}
+
+// After Bartact finishes, immediately submit remaining Ballkinis URLs using leftover quota
+async function runBallkinisAfterBartact(googleToken, quotaUsed) {
+  const BALLKINIS_URLS = [
+    'https://ballkinis.com/',
+    'https://ballkinis.com/collections/all',
+    'https://ballkinis.com/collections/bikinis',
+    'https://ballkinis.com/collections/one-piece',
+    'https://ballkinis.com/products/ballkini-classic',
+    'https://ballkinis.com/products/ballkini-thong',
+    'https://ballkinis.com/products/ballkini-high-waist',
+    'https://ballkinis.com/products/ballkini-sport',
+    'https://ballkinis.com/products/ballkini-mini',
+    'https://ballkinis.com/products/ballkini-micro',
+    'https://ballkinis.com/products/ballkini-string',
+    'https://ballkinis.com/products/ballkini-cheeky',
+    'https://ballkinis.com/products/ballkini-brazilian',
+    'https://ballkinis.com/products/ballkini-plus',
+    'https://ballkinis.com/products/ballkini-bundle-2',
+    'https://ballkinis.com/products/ballkini-bundle-3',
+    'https://ballkinis.com/products/ballkini-gift-set',
+    'https://ballkinis.com/products/ballkini-mens',
+    'https://ballkinis.com/products/ballkini-kids',
+  ];
+
+  const remaining = Math.max(0, 199 - quotaUsed);
+  if (remaining === 0) { console.log('\nBallkinis: no quota left today — will run tomorrow'); return 0; }
+
+  const toSubmit = BALLKINIS_URLS.slice(0, remaining);
+  console.log(`\nBallkinis: submitting ${toSubmit.length} URLs with remaining quota...`);
+
+  let ok = 0;
+  for (const url of toSubmit) {
+    try {
+      const r = await googleIndex(googleToken, url);
+      if (r.status === 200) { console.log('  ✓', url); ok++; }
+      else console.log(`  ✗ ${url} → ${r.status}`);
+      await new Promise(r => setTimeout(r, 500));
+    } catch(e) { console.log('  ✗', url, e.message); }
+  }
+  console.log(`Ballkinis: ${ok}/${toSubmit.length} submitted`);
+  return ok;
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

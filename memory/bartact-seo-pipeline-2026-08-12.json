@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-12T16:06:00Z",
+  "pipeline": "bartact-daily-seo",
+  "rankings": {
+    "clicks": 442,
+    "clicks_wow": -1,
+    "impressions": 5025,
+    "page1_keywords": 119,
+    "top3_keywords": 24,
+    "big_drops": [
+      {"kw": "best jeep gladiator seat covers", "from": 6.6, "to": 29.8, "drop": 23.2},
+      {"kw": "2021 ford bronco accessories", "from": 2.8, "to": 11.0, "drop": 8.2},
+      {"kw": "best jeep tj seat covers", "from": 4.6, "to": 12.7, "drop": 8.1},
+      {"kw": "1997 jeep wrangler seat covers", "from": 6.8, "to": 14.8, "drop": 8.0}
+    ]
+  },
+  "content_audit": {
+    "thin_content_fixed": 0,
+    "all_collections_healthy": true,
+    "note": "All 15 mapped collections between 879-2072 words. No Shopify API edits required."
+  },
+  "blog_articles_published": [
+    {
+      "keyword": "bronco seat covers",
+      "title": "Best Bronco Seat Covers in 2026: What Every Ford Bronco Owner Needs to Know",
+      "shopify_id": 568603017259,
+      "handle": "best-bronco-seat-covers-in-2026-what-every-ford-bronco-owner-needs-to-know",
+      "url": "https://www.bartact.com/blogs/news/best-bronco-seat-covers-in-2026-what-every-ford-bronco-owner-needs-to-know",
+      "word_count_approx": 980
+    },
+    {
+      "keyword": "jeep tj seat covers",
+      "title": "Jeep TJ Seat Covers: The Complete Guide for Wrangler 1997-2006 Owners",
+      "shopify_id": 568603050027,
+      "handle": "jeep-tj-seat-covers-the-complete-guide-for-wrangler-1997-2006-owners",
+      "url": "https://www.bartact.com/blogs/news/jeep-tj-seat-covers-the-complete-guide-for-wrangler-1997-2006-owners",
+      "word_count_approx": 1050
+    }
+  ],
+  "indexnow": {
+    "status": 200,
+    "urls_submitted": [
+      "https://www.bartact.com/blogs/news/best-bronco-seat-covers-in-2026-what-every-ford-bronco-owner-needs-to-know",
+      "https://www.bartact.com/blogs/news/jeep-tj-seat-covers-the-complete-guide-for-wrangler-1997-2006-owners"
+    ]
+  },
+  "telegram_summary": {
+    "status": "failed",
+    "reason": "TELEGRAM_TOKEN not found in .env — token missing from credentials store"
+  },
+  "issues_to_watch": [
+    "TELEGRAM_TOKEN missing from .env — Telegram delivery is broken; monitor script prints success but never actually sends",
+    "best jeep gladiator seat covers dropped from #6.6 to #29.8 — consider internal link audit for /collections/jeep-gladiator-seat-covers next cycle"
+  ]
+}

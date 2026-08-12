@@ -1,3 +1,10 @@
+## 🔑 BARTACT SHOPIFY TOKEN — HOW TO GET IT (NEVER ASK MITCH)
+When SHOPIFY_TOKEN_BARTACT goes 401:
+1. POST to `https://bartact.myshopify.com/admin/oauth/access_token` with `{client_id: "78fd9505a467f0795d035e5f4a6dfb06", client_secret: "REDACTED_SHOPIFY_APP_SECRET", grant_type: "client_credentials"}`
+2. Save the returned `access_token` to `.env` as `SHOPIFY_TOKEN_BARTACT`
+3. Done. NEVER ask Mitch for this. NEVER ask for a shpat_ directly. Just run the exchange.
+Client ID: `78fd9505a467f0795d035e5f4a6dfb06` | Secret: `REDACTED_SHOPIFY_APP_SECRET`
+
 ## 🔑 GOOGLE ADS RE-AUTH — HOW TO DO IT (30 SECONDS, NOT 45 MINUTES)
 When `.google-ads-credentials.json` is missing or has invalid_grant:
 1. Run local OAuth server on port 9876 (node script that catches the callback)
@@ -357,3 +364,44 @@ Any content mentioning 4xe compatibility MUST include the rear bench caveat:
 - Rear bench: 4xe edition uses a DIFFERENT geometry — dedicated 4xe rear bench SKU required
 - Language to use: "Front seat covers fit all JL trims including 4xe. If you have a JLU 4xe, select the dedicated 4xe rear bench cover at checkout."
 - NEVER say "all trim levels are fully compatible" without this distinction
+
+## BULL STRAP SHOPIFY API — HOW IT ACTUALLY WORKS (learned 2026-08-12, confirmed by Mitch)
+- The `shpss_` secret IS what you need from Mitch — Client ID + Secret from Shopify Partners → App → Settings → Credentials
+- The `shpss_` does NOT go directly into X-Shopify-Access-Token header — it must be exchanged via OAuth: POST to `/admin/oauth/access_token` with `{client_id, client_secret, grant_type: 'client_credentials'}` → returns a working `access_token`
+- That returned `access_token` is what goes in `.env` as `SHOPIFY_TOKEN_BULLSTRAP` and in the X-Shopify-Access-Token header
+- Bull Strap Client ID: `82c2f4b0214133f49a9520c283a97840`
+- DO NOT ask Mitch to uninstall/reinstall the app — confirmed pointless, went in circles on this twice
+- DO NOT ask Mitch for a `shpat_` — he can't get one from the UI; the OAuth exchange above generates the working token
+- If token goes 401: re-run the OAuth exchange with the current `shpss_` to get a fresh token — that's all that's needed
+- Store: `bull-strap-78.myshopify.com`
+
+## ⛔ NEVER COMMIT CREDENTIALS TO GIT — HARD RULE (learned 2026-08-12, the hard way)
+- A bot pushed the Shopify app secret (`shpss_`) to a public GitHub repo
+- Shopify detected it, threatened to revoke API access and shut down both stores
+- Mitch had to spend time rotating secrets and responding to Shopify Partner Governance
+- **This must never happen again**
+
+**The rule:** NEVER push any file to GitHub that contains tokens, secrets, API keys, passwords, or credentials of any kind. No exceptions. Not in code. Not in comments. Not in memory files. Not in logs.
+
+**Before every git push:** `git diff --cached | grep -iE "token|secret|key|password|shp|ghp|bearer|sk-"` — if it matches anything, STOP.
+
+**Shopify secret rotation (what it actually is):**
+- Rotate the `shpss_` app secret via Shopify Partners → App → Settings → Credentials → Rotate
+- Revoke the old one after confirming the new one is saved
+- Reply to Shopify: "I have rotated and revoked the exposed API secret key. The old credentials are no longer valid."
+- Do NOT uninstall/reinstall the app. Do NOT touch `shpat_` tokens.
+
+**2026-08-12 rotation complete:**
+- Bartact: `REDACTED_SHOPIFY_APP_SECRET` (old revoked ✅)
+- Bull Strap: `REDACTED_SHOPIFY_APP_SECRET_BULLSTRAP` (old revoked ✅)
+- Shopify ticket `40c8a24b-1c17-45cb-a4a0-a8ccdb43b2e4` — responded and resolved ✅
+
+Full rules in SEO_PLAYBOOK.md Section 26.
+
+## BULL STRAP — NO ADS (margins too thin)
+- Turn14 distributor products = margins sometimes 25% or less
+- At 25% margin, even 4x ROAS = break even after ad spend — ads don't pencil out
+- **NEVER suggest Google Ads for Bull Strap** — organic SEO is the only viable channel
+- Sales data (Aug 12): declining trend — June $1,443 / July $764 / Aug ~$568 partial
+- Google organic IS driving 21/34 orders (62%) — SEO is working, volume is the problem
+- Average GSC position: 26.9 — page 3; needs to get to page 1 to move the needle

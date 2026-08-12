@@ -31,7 +31,7 @@
 |---|---|---|
 | Bartact collection pages | 1,000w | 1,500w |
 | Bartact product pages | 700w | 1,000w |
-| Bull Strap collection/product pages | 700w | 1,500w |
+| Bull Strap collection/product pages | 1,500w | 1,500w |
 | Owned site homepages (Ballkinis, limitstraps, etc.) | 700w | 1,000w |
 | Affiliate site homepages | 800w | 1,500w |
 | Affiliate site inner pages | 700w | 1,000w |
@@ -1310,3 +1310,171 @@ Next: [what gets fixed first]
 - 12 under floor: overstock-clearance (113w), bull-strap (129w), all (154w), bull-strap-tie-downs-and-recovery (158w), accessories (158w), barktact-dog-gear (158w), uncategorized (0w), miscellaneous-1 (54w), new-products (62w), best-sellers (62w), hvac-filters (62w), bull-strap-heavy-duty-2-ratchet-tie-downs (86w)
 - 108/255 products compliant | 147 thin | 4 empty (morale patches)
 - Hero seat cover SKUs: 260–300w → target 500w+
+
+---
+
+## 26. CREDENTIALS SECURITY — NON-NEGOTIABLE (added 2026-08-12)
+
+**Root cause:** Shopify app secret (`shpss_`) was exposed in a public GitHub repository. Shopify detected it and threatened to revoke API access and shut down the store. This cost Mitch time and stress and should never happen again.
+
+### The Rules
+
+1. **NEVER commit credentials to git. Ever.** No API keys, no tokens, no secrets, no passwords — not in code, not in comments, not in memory files, not in logs pushed to GitHub.
+
+2. **`.env` is the ONLY place credentials live.** `.env` must be in `.gitignore`. Verify it is before any push.
+
+3. **Before every git push, run:** `git diff --cached | grep -E "shp|token|secret|key|password|credential"` — if anything matches, STOP and do not push.
+
+4. **Memory files (`memory/*.md`) must never contain live credentials.** If a credential is written to a memory file, it must be redacted before that file is ever pushed to any repo.
+
+5. **Shopify secret rotation = rotate the `shpss_` app secret via Shopify Partners → App → Settings → Credentials → Rotate.** This is all Shopify requires. Do NOT uninstall/reinstall the app. Do NOT touch `shpat_` tokens unless explicitly instructed.
+
+6. **If Shopify sends a credential exposure email:**
+   - Rotate the exposed secret immediately (see rule 5)
+   - Revoke the old secret after the new one is confirmed saved
+   - Reply to Shopify: "I have rotated and revoked the exposed API secret key. The old credentials are no longer valid."
+   - Respond before the deadline stated in the email
+
+7. **All bots are responsible for their own credential hygiene.** Before pushing any file to GitHub, check it for secrets. No exceptions.
+
+### What Was Exposed (2026-08-12)
+- Shopify app secret (`shpss_`) for the Axl app on both Bartact and Bull Strap stores was found in a public GitHub repo
+- Both secrets rotated and old ones revoked on 2026-08-12
+- Shopify notified, ticket `40c8a24b-1c17-45cb-a4a0-a8ccdb43b2e4` resolved
+- `shpat_` tokens confirmed NOT in git history — only `.env` (gitignored)
+
+### Pre-Push Checklist (mandatory for every git push)
+```
+□ No API keys or tokens in staged files
+□ No shpss_, shpat_, ghp_, AIza, sk-, Bearer tokens in staged files
+□ .env is in .gitignore
+□ memory/*.md files contain no live credentials
+□ If any doubt: git diff --cached | grep -iE "token|secret|key|password|shp|ghp|bearer"
+```
+
+---
+
+## 27. DH2T / CATALOG FEED OVERWRITE PROTECTION (added 2026-08-12)
+
+**Root cause:** DH2T (Turn14 distributor feed) syncs daily and overwrites `body_html` on all products. Any SEO content written to `body_html` gets wiped the next day. Fighting it with a patch cron doesn't work at 84k products — the feed wins every time.
+
+### The Rule: Never Write SEO Content to `body_html` on Feed-Managed Stores
+
+If a store uses an automated catalog feed (DH2T, Salsify, any Turn14/distributor sync):
+- **`body_html` is owned by the feed** — do not write SEO content there
+- **Metafields are untouchable by feeds** — always use metafields for SEO content
+
+### Correct Architecture
+
+| Field | Owner | Purpose |
+|---|---|---|
+| `body_html` | DH2T/feed | Inventory, pricing, spec sync — leave it alone |
+| `custom.seo_content` | Bull Strap bot | SEO descriptions, long-form content, FAQs |
+| `custom.faq_schema` | Bull Strap bot | FAQPage structured data |
+
+### Implementation Steps (one-time setup)
+1. Create metafield definition: namespace=`custom`, key=`seo_content`, type=`multi_line_text_field`, resource=Product
+2. Migrate all existing good SEO content from `body_html` → `custom.seo_content` before next DH2T sync
+3. Update product template liquid to render `custom.seo_content` below product info:
+```liquid
+{% if product.metafields.custom.seo_content != blank %}
+  <div class="seo-content">{{ product.metafields.custom.seo_content }}</div>
+{% endif %}
+```
+4. All future SEO writes go to `custom.seo_content` only — never `body_html`
+5. Stop any "recent-fix" crons that patch `body_html` after DH2T sync — they can't win
+
+### Applies To
+- Bull Strap (DH2T/Turn14 feed, 84k products)
+- Any other store using an automated distributor catalog feed
+
+### Why This Matters
+- DH2T syncs ~9am PT daily and overwrites every product's `body_html`
+- A patch cron running every 15 min cannot keep up with 84k overwrites
+- Google crawls a page, sees 30 words (post-overwrite), treats it as thin content, doesn't rank it
+- All SEO investment is wasted if the content disappears the next morning
+- Metafields are the permanent fix — feeds never touch them
+
+---
+
+## 28. BULL STRAP BACKLINK STANDARDS — MANDATORY FOR FILLI (added 2026-08-12)
+
+**Root cause:** Filli was adding Bull Strap backlinks from irrelevant sites (bath heaters, blockchain apps) and linking to the homepage/collections/all instead of specific collections. These are worthless to Google. This section defines the exact rules — no babysitting required.
+
+### Rule 1: Automotive Sites Only
+Bull Strap backlinks ONLY go on sites that are topically relevant to automotive, off-road, overlanding, 4x4, Jeep, Bronco, Tacoma, truck, recovery, or tactical gear. Never add Bull Strap links to:
+- Air filters, bath heaters, kitchen products, supplements, crypto, dining apps, or ANY non-automotive topic
+- If the site topic has nothing to do with vehicles or off-road — no Bull Strap link, period
+
+### Rule 2: Specific Collection Pages Only — Never Homepage
+Every Bull Strap link must point to a specific collection, not the homepage or /collections/all.
+
+| Site Topic | Link To |
+|---|---|
+| Jeep Wrangler JL/JK/TJ | /collections/grab-handles + /collections/jeep-wrangler-seat-covers-1 |
+| Jeep Gladiator | /collections/grab-handles + /collections/jeep-gladiator-2019-22-accessories |
+| Ford Bronco | /collections/ford-bronco-accessories + /collections/grab-handles + /collections/roll-cages |
+| Toyota Tacoma | /collections/2016-19-toyota-tacoma + /collections/grab-handles |
+| Toyota 4Runner | /collections/grab-handles + /collections/bull-strap-tie-downs-and-recovery |
+| MOLLE / tactical | /collections/molle-accessories |
+| Off-road / overland / recovery | /collections/limit-straps + /collections/bull-strap-tie-downs-and-recovery |
+| Fire extinguisher / safety | /collections/fire-extinguishers-mounts |
+| Suspension / lift kits | /collections/carli-suspension |
+| General truck/4x4 | /collections/grab-handles + /collections/limit-straps |
+
+### Rule 3: Anchor Text Must Be Natural and Descriptive
+- ✅ "Bull Strap's Jeep grab handles" → links to /collections/grab-handles
+- ✅ "Bull Strap limit straps for off-road" → links to /collections/limit-straps
+- ❌ "Bull Strap" → links to bullstrap.com (homepage — useless)
+- ❌ "shop here" → links to /collections/all (useless)
+
+### Rule 4: Minimum Link Targets (Filli must hit these)
+These are the MINIMUM number of backlinks across the full affiliate network — check monthly:
+- /collections/grab-handles — target 2,000+ links
+- /collections/limit-straps — target 2,500+ links (already near target)
+- /collections/carli-suspension — target 2,500+ links (already near target)
+- /collections/molle-accessories — target 1,000+ links
+- /collections/ford-bronco-accessories — target 1,000+ links
+- /collections/jeep-wrangler-seat-covers-1 — target 1,000+ links
+- /collections/bull-strap-tie-downs-and-recovery — target 500+ links
+- /collections/2016-19-toyota-tacoma — target 500+ links
+- /collections/jeep-gladiator-2019-22-accessories — target 500+ links
+- /collections/roll-cages — target 500+ links
+- /collections/fire-extinguishers-mounts — target 200+ links
+
+### Rule 5: Push + IndexNow After Every Site Update
+Every site that gets updated with Bull Strap backlinks must be pushed to GitHub and submitted to IndexNow immediately. No exceptions.
+
+### Rule 6: Replace Useless Links
+Any existing link to bullstrap.com (homepage) or bullstrap.com/collections/all must be replaced with the appropriate specific collection link based on the site's topic.
+
+---
+
+## 29. MANDATORY INDEXING AFTER EVERY CONTENT WRITE (added 2026-08-12)
+
+**Rule: Writing content and not indexing it immediately is a failure. Every content write must be followed by indexing the same day.**
+
+### Required Steps After Any Content Write (products, collections, pages, blogs)
+
+1. **IndexNow** — submit ALL updated URLs immediately after every write batch. No daily cap — submit everything same day. Covers Bing and Yandex.
+
+2. **Google Indexing API** — submit every updated URL. Respect the 199 URL/day quota. Priority order:
+   - Bartact.com first (always)
+   - Own-brand products (limit straps, grab handles, Bartact products on Bull Strap)
+   - Owned properties second
+   - Affiliate sites third
+   - Turn14 bulk catalog last
+
+3. **Do not batch content writes across multiple days without indexing** — if you wrote it today, index it today. Don't leave Google waiting.
+
+### Applies To
+- Every bot, every store, every site
+- Products, collections, blog posts, static pages
+- Metafield content writes (same rule — if Google can see it on the page, submit the URL)
+- Affiliate site HTML updates — push to GitHub AND submit IndexNow same commit
+
+### Why This Matters
+- Content that isn't indexed doesn't rank — period
+- Google may not crawl a page for weeks without a push
+- IndexNow is free, instant, and has no daily cap — there is no excuse not to submit
+- Every day of delay is a day of lost ranking opportunity
