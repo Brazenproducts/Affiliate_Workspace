@@ -1,57 +1,31 @@
-# Affiliate Site Health Check — August 11, 2026
+# Affiliate Site Health Check — August 12, 2026
 
-**Scan Date:** Tuesday, August 11, 2026 - 3:00 PM UTC  
-**Mode:** Local-only (live HTTPS checks skipped)
+**Scan Date:** Wednesday, August 12, 2026 - 6:00 AM UTC
+**Mode:** Full live HTTPS checks
 
 ## Summary
 
 - **Total Sites Scanned:** 738
-- **✅ Healthy (OK):** 135 sites
-- **⚠️ Warning Issues:** 431 sites
-- **🔴 Critical Issues:** 161 sites
+- **✅ Healthy (OK):** 47 sites
+- **⚠️ Warning Issues:** 294 sites
+- **🔴 Critical Issues:** 386 sites
+- **🔴 Down (live check failed):** 268 sites
 
-## Critical Status
+## Delta vs Last Live Run (2026-08-09)
 
-**161 CRITICAL sites** found with severe monetization and compliance issues.
+- **Previous down count:** 270
+- **Today's down count:** 268
+- **New sites down:** 0
+- **Recovered sites:** 2 (bestlabel-maker.com, shedwithoutpermit.com)
+- **Critical threshold (>10 new down):** ❌ NOT triggered
 
-### Common Critical Issues:
-1. **Missing Affiliate Tags** — Most common (120+ sites)
-2. **No Amazon Links** — Zero monetization (6+ sites)
-3. **Missing robots.txt** — SEO/indexing impact (50+ sites)
-4. **Missing privacy.html** — Legal compliance (140+ sites)
-5. **Missing sitemap.xml** — SEO discovery (50+ sites)
-6. **Broken Internal Links** — User experience/crawlability (80+ sites)
+## Root Cause (ongoing)
 
-### Critical Sites Requiring Immediate Attention
+The bulk of outages remain the GitHub Pages SSL cert mismatch issue first detected 2026-08-02. Custom domain certs presenting GitHub's wildcard cert instead of the domain cert. This is a persistent GitHub Pages infrastructure issue.
 
-**Zero Monetization (6 sites):**
-- 4runnerseats.com
-- bestprotein-powder.com
-- indexing-credentials
-- whatsizehvacfilter.com
-- wholehouseairfilter.com
-- wranglerseat.com
+## Dashboard
 
-**Most Severe (100+ missing affiliate tags):**
-- whatarebest.com — 1,833 missing links
-- airfilterforpets-com — 120 missing links
-- allergenairfilter-com — 120 missing links
-- bestantiagingsupplement.com — 120 missing links
-- bestblockchainapp.com — 120 missing links
-- bestcryptocurrencyapp.com — 120 links
-- bestdiningapp.com — 120 links
-- bestdiningapps.com — 120 links
-- bestdogtrainingcourse.com — 120 missing links
-- bestfatburnerpills.com — 120 missing links
-
-## Next Steps
-
-1. Prioritize sites with **zero Amazon links** (no revenue)
-2. Add missing affiliate tags to top 20 critical sites
-3. Generate robots.txt and sitemap.xml for SEO compliance
-4. Create privacy.html pages (legal requirement)
-5. Fix broken internal links (user experience + SEO)
-
-## Full Critical List
-
-See `affiliate-health-CRITICAL.md` for complete list with per-site details.
+Rebuilt and pushed: https://brazenproducts.github.io/axl-dashboard/
+Audit run: 2026-08-12 06:00 UTC
+Previous live audit: 2026-08-09
+Change: -2 sites (slight improvement, 2 recovered)

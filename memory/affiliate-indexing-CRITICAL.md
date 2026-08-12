@@ -30,3 +30,4 @@ Mitch must reauthorize immediately:
 ## Timeline
 - **July 29, 2026 12:00 PM:** Token first detected as dead
 - **August 5, 2026 12:00 PM:** Weekly check confirms still dead — token is unrecoverable
+- **August 12, 2026 12:00 PM:** STILL DEAD — Weekly check confirms token remains invalid_grant

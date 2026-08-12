@@ -11,29 +11,9 @@ const WORKSPACE = path.join(__dirname, '..');
 const CREDS_FILE = path.join(WORKSPACE, '.bullstrap-indexing-credentials.json');
 const URLS_FILE = path.join(WORKSPACE, 'memory/bullstrap-all-urls-for-indexing.json');
 const STATE_FILE = path.join(WORKSPACE, 'memory/bullstrap-full-indexing-state.json');
-// Shared quota — read this FIRST to know how many submissions remain today.
-// Priority sweep (119 cap) runs every 15 min; full-indexing gets the rest.
-const SHARED_QUOTA_FILE = path.join(WORKSPACE, 'memory/bullstrap-indexing-shared-quota.json');
 const LOG_PREFIX = '[FULL-INDEX]';
-const PRIORITY_SWEEP_CAP = 119; // priority-sweep's hard daily cap
-const TOTAL_DAILY_QUOTA = 199; // Google's hard limit for this OAuth2 credential
-const FULL_INDEXING_MAX = TOTAL_DAILY_QUOTA - PRIORITY_SWEEP_CAP; // = 80 max for full-indexing
+const DAILY_LIMIT = 199;
 const BATCH_SIZE = 50; // Push in batches of 50 with small delays
-
-function loadSharedQuota() {
-  const today = new Date().toISOString().slice(0, 10);
-  try {
-    const q = JSON.parse(fs.readFileSync(SHARED_QUOTA_FILE, 'utf8'));
-    if (q.date !== today) return { date: today, prioritySweepCount: 0, fullIndexingCount: 0, totalCount: 0 };
-    return q;
-  } catch (e) {
-    return { date: today, prioritySweepCount: 0, fullIndexingCount: 0, totalCount: 0 };
-  }
-}
-
-function saveSharedQuota(quota) {
-  fs.writeFileSync(SHARED_QUOTA_FILE, JSON.stringify(quota, null, 2));
-}
 
 function log(msg) { console.log(`${LOG_PREFIX} ${new Date().toISOString()} ${msg}`); }
 
@@ -103,17 +83,13 @@ async function main() {
     state.dailyDate = today;
   }
 
-  // Check shared quota — full-indexing gets max 80/day (199 total - 119 for priority sweep)
-  const sharedQuota = loadSharedQuota();
-  const fullIndexingRemaining = FULL_INDEXING_MAX - sharedQuota.fullIndexingCount;
-  if (fullIndexingRemaining <= 0) {
-    log(`Full-indexing daily cap reached (${sharedQuota.fullIndexingCount}/${FULL_INDEXING_MAX}). Priority sweep gets first ${PRIORITY_SWEEP_CAP}.`);
-    log(`Shared quota today: priority=${sharedQuota.prioritySweepCount} fullIndexing=${sharedQuota.fullIndexingCount} total=${sharedQuota.totalCount}/${TOTAL_DAILY_QUOTA}`);
+  // Check if we've hit daily limit
+  const remaining = DAILY_LIMIT - state.dailyCount;
+  if (remaining <= 0) {
+    log(`Daily limit reached (${state.dailyCount}/${DAILY_LIMIT}). Next reset tomorrow.`);
     log(`Progress: ${state.totalPushed}/${allUrls.length} total (${(state.totalPushed/allUrls.length*100).toFixed(1)}%)`);
     process.exit(0);
   }
-  const remaining = fullIndexingRemaining;
-  log(`Full-indexing budget today: ${remaining}/${FULL_INDEXING_MAX} (shared quota: priority=${sharedQuota.prioritySweepCount}/${PRIORITY_SWEEP_CAP})`);
 
   // Find URLs not yet pushed
   const pushedSet = new Set(state.pushed);
@@ -143,15 +119,6 @@ async function main() {
         state.pushed.push(url);
         state.totalPushed++;
         state.dailyCount++;
-        sharedQuota.fullIndexingCount++;
-        sharedQuota.totalCount++;
-        saveSharedQuota(sharedQuota); // write after every successful submission
-        // Check if we've hit full-indexing cap
-        if (sharedQuota.fullIndexingCount >= FULL_INDEXING_MAX) {
-          log(`⛔ Full-indexing daily cap hit (${FULL_INDEXING_MAX}). Stopping to preserve priority sweep quota.`);
-          quotaHit = true;
-          break;
-        }
       } else if (status === 429) {
         log(`QUOTA HIT after ${ok} pushes`);
         quotaHit = true;

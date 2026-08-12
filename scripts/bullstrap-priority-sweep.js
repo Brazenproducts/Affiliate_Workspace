@@ -57,19 +57,11 @@ const SHOP = 'bull-strap-78.myshopify.com';
 const STATE_FILE = path.join(__dirname, '..', 'memory', 'bullstrap-priority-sweep-state.json');
 const LOCK_FILE = path.join(__dirname, '..', 'memory', 'bullstrap-priority-sweep.lock');
 const INDEXING_CREDS_FILE = path.join(__dirname, '..', 'sites', 'indexing-credentials', '.bullstrap-merchant-center-credentials.json');
-// Shared quota state — all Bull Strap crons that use the Google Indexing API
-// must read/write this file to stay under the 199/day hard cap.
-// Priority sweep is hard-capped at 119/day. Full-indexing cron gets the rest.
-const SHARED_QUOTA_FILE = path.join(__dirname, '..', 'memory', 'bullstrap-indexing-shared-quota.json');
 const DELAY_MS = 600;
 const MAX_PER_RUN = 200; // products per 15-min cron run
-const INDEXING_DAILY_LIMIT = 119; // HARD CAP — priority sweep never exceeds 119/day
-                                   // Bartact gets first 80 of the 199/day total quota;
-                                   // Bull Strap gets the remaining 119 MAX.
-                                   // NOTE: Bull Strap uses separate OAuth2 creds from Bartact
-                                   // (axl-348@ vs bullstrap-merchant-center OAuth2) so quotas
-                                   // are technically independent — but this cap is non-negotiable
-                                   // per Mitch's directive 2026-08-12.
+const INDEXING_DAILY_LIMIT = 195; // leave buffer below Google's 199/day quota
+                                   // Bull Strap uses its own OAuth2 credentials — completely
+                                   // separate quota from Bartact's axl-348@ service account.
 
 // ─── CATEGORY PHASES ────────────────────────────────────────────────────────
 
@@ -327,26 +319,6 @@ function fixImageAlt(alt, title, index) {
 
 // ─── STATE / LOCK ────────────────────────────────────────────────────────────
 
-// ─── SHARED QUOTA ───────────────────────────────────────────────────────────
-// All Bull Strap crons that use Google Indexing API share this state file.
-// priority-sweep: hard cap 119/day
-// full-indexing: gets whatever remains (max 80)
-
-function loadSharedQuota() {
-  const today = new Date().toISOString().slice(0, 10);
-  try {
-    const q = JSON.parse(fs.readFileSync(SHARED_QUOTA_FILE, 'utf8'));
-    if (q.date !== today) return { date: today, prioritySweepCount: 0, fullIndexingCount: 0, totalCount: 0 };
-    return q;
-  } catch (e) {
-    return { date: today, prioritySweepCount: 0, fullIndexingCount: 0, totalCount: 0 };
-  }
-}
-
-function saveSharedQuota(quota) {
-  fs.writeFileSync(SHARED_QUOTA_FILE, JSON.stringify(quota, null, 2));
-}
-
 function loadState() {
   try { return JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')); }
   catch (e) {
@@ -384,12 +356,7 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10);
   if (state.dailyDate !== today) { state.dailyCount = 0; state.dailyDate = today; }
 
-  // Load shared quota — hard stop at 119 regardless of local count
-  const sharedQuota = loadSharedQuota();
-  if (sharedQuota.prioritySweepCount >= INDEXING_DAILY_LIMIT) {
-    console.log(`Daily indexing cap reached: priority sweep has submitted ${sharedQuota.prioritySweepCount}/${INDEXING_DAILY_LIMIT} today. Skipping indexing this run.`);
-    // Still run SEO fixes — just no indexing submissions
-  }
+
 
   // Check if all phases complete
   if (state.phase >= PHASES.length) {
@@ -519,23 +486,11 @@ async function main() {
       }
 
       // 5. Submit to Google Indexing API immediately
-      //    Hard cap: priority sweep never exceeds 119/day (shared quota file)
-      if (product.handle && sharedQuota.prioritySweepCount < INDEXING_DAILY_LIMIT) {
+      if (product.handle && state.dailyCount < INDEXING_DAILY_LIMIT) {
         const url = `https://bullstrap.com/products/${product.handle}`;
-        const submitted = await submitToIndexingAPI(url, sharedQuota.prioritySweepCount);
-        if (submitted) {
-          state.dailyCount++;
-          sharedQuota.prioritySweepCount++;
-          sharedQuota.totalCount++;
-          saveSharedQuota(sharedQuota); // write after every submission
-          indexed++;
-        }
+        const submitted = await submitToIndexingAPI(url, state.dailyCount);
+        if (submitted) { state.dailyCount++; indexed++; }
         await sleep(200);
-      } else if (sharedQuota.prioritySweepCount >= INDEXING_DAILY_LIMIT) {
-        // Hard cap hit — stop submitting but continue SEO fixes
-        if (sharedQuota.prioritySweepCount === INDEXING_DAILY_LIMIT) {
-          console.log(`⛔ Priority sweep indexing cap hit (${INDEXING_DAILY_LIMIT}/day). Continuing SEO fixes without indexing.`);
-        }
       }
 
       if (didFix) {
@@ -554,8 +509,7 @@ async function main() {
 
     console.log(`\nRun complete: processed=${processed} fixed=${fixed} indexed=${indexed}`);
     console.log(`Total: fixed=${state.totalFixed} indexed=${state.totalIndexed}`);
-    console.log(`Priority sweep daily cap: ${sharedQuota.prioritySweepCount}/${INDEXING_DAILY_LIMIT}`);
-    console.log(`Shared quota today: priority=${sharedQuota.prioritySweepCount} fullIndexing=${sharedQuota.fullIndexingCount} total=${sharedQuota.totalCount}/199`);
+    console.log(`Daily indexing quota used: ${state.dailyCount}/${INDEXING_DAILY_LIMIT}`);
 
   } catch (e) {
     console.error('Error:', e.message);

@@ -1,47 +1,98 @@
-# SkipATip Daily Places Collection — Tuesday, August 11, 2026
+# SkipATip Places Collection — Daily Run Summary
 
-## 📊 24-Hour Summary
-
-**Run Time:** 2026-08-11 09:00 UTC (36 minutes total)
-
-### Key Metrics
-
-| Metric | Value |
-|--------|-------|
-| **Total Places in DB** | 525,819 |
-| **Places Added (24h)** | +5,993 |
-| **Cities Processed Today** | 100 |
-| **Unique Cities Total** | 2,015 |
-| **States/Regions Covered** | 52 |
-
-### Collection Run Details
-
-- **Cities in this run:** 100 small US cities (~25,000–27,000 population)
-- **Places collected:** 13,346
-- **Duplicates handled:** Auto-reset of stuck cities worked; duplicate key errors gracefully managed
-- **API calls:** 100 cities processed across 3 API keys (balanced usage)
-- **Errors:** 0 failures — run completed cleanly
-
-### 24-Hour Deltas
-
-```
-Places:    525,819 total  (+5,993 from 24h ago)
-Reviews:   151,191 total  (+0 review syncs in 24h)
-Cities:    14 unique in latest batch
-```
-
-### Daily Collection Trend
-
-This run contributed **13,346 new place records** from 100 mid-sized cities. Auto-city-queue-reset feature prevented stalls from prior interrupted sessions.
-
-### Next Steps
-
-- Reviews collection (`04-collect-reviews.js`) is queued for next pipeline run
-- Homepage stats on Vercel updated with current counts (525,819 places across 2,015 cities)
-- Ready for tomorrow's collection cycle
+**Date:** Wednesday, August 12th, 2026 - 9:00 AM UTC  
+**Run Duration:** ~37 minutes (2,208 seconds)  
+**Status:** ✅ **SUCCESS**
 
 ---
 
-**Status:** ✅ Complete  
-**Collection Quality:** Good — balanced API key distribution, clean error handling  
-**Database Health:** Stable — 525k+ places indexed and queryable
+## 📊 Collection Results
+
+### Total Database Stats
+- **Total Places in DB:** 738,653
+- **Total Cities:** 2,115
+- **Total States:** 52
+
+### 24-Hour Delta (Last 24 Hours)
+- **Places Added:** +212,834
+- **Reviews Synced:** +1,131 places
+- **Unique Cities Processed Today:** 12
+
+---
+
+## 🏙️ Today's Run Details
+
+### Cities Processed This Run
+- **Total:** 100 cities
+- **Places Collected:** 14,316 new places
+- **API Keys Used:** 3 (balanced load)
+  - Key 1: 34 queries
+  - Key 2: 33 queries
+  - Key 3: 33 queries
+
+### Processing Summary
+- **Alvin, TX** → 98 places
+- **Key West, FL** → 202 places
+- **Randolph, NJ** → 115 places
+- **Long Island City, NY** → 277 places
+- **South Portland, ME** → 222 places
+- **West Whittier-Los Nietos, CA** → 253 places
+- **Lebanon, PA** → 118 places
+- **Melrose Park, IL** → 261 places
+- **Starkville, MS** → 115 places
+- **Lochearn, MD** → 206 places
+- **Castlewood, CO** → 247 places
+- **Grandview, MO** → 85 places
+- **Clinton, MS** → 85 places
+- **Whitehall Township, PA** → 130 places
+- **Cliffside Park, NJ** → 263 places
+- **Elmwood Park, IL** → 270 places
+- **Vineyard, CA** → 84 places
+- **Lodi, NJ** → 258 places
+- **Coronado, CA** → 260 places
+- **Hillside, NY** → 265 places
+- **Eagle River, AK** → 56 places
+- **South Salt Lake, UT** → 282 places
+- **Paris, TX** → 96 places
+- **Mō'ili'ili, HI** → 277 places
+- **Northport, AL** → 170 places
+- **University Park, TX** → 286 places
+- **Uniondale, NY** → 276 places
+- **Ponca City, OK** → 79 places
+- **Muskego, WI** → 63 places
+- **Collinsville, IL** → 86 places
+- **Reading, MA** → 166 places
+- **Short Pump, VA** → 172 places
+- **Belmont, MA** → 234 places
+- _(+ 67 additional cities)_
+
+---
+
+## ⚠️ Notes
+
+### Data Quality
+- **Duplicate Filters Active:** Yes
+  - Many 409 conflicts encountered (expected — places already in DB)
+  - Non-restaurant places excluded automatically (Walmart Bakery, Whole Foods, etc.)
+  - Zero critical errors during collection
+
+### Vercel Deployment
+- Environment variables updated successfully for production/preview
+- **PLACES_RAW_COUNT:** 738,653
+- **PLACES_RAW_CITIES:** 2,115
+- **PLACES_RAW_STATES:** 52
+- Status: Awaiting next deploy/revalidate from Vercel
+
+---
+
+## 📈 Next Steps
+
+The pipeline is ready for:
+1. **Reviews Collection** (`04-collect-reviews.js`) — Can run next
+2. **Data Refinement** — Normal daily maintenance
+3. **Site Revalidation** — Vercel will pick up new counts on next build
+
+---
+
+**Cron Job:** `cron:efa5d28b-a5ee-4681-834e-8d905e1d4e91`  
+**Session:** Main cron-triggered collection pipeline
