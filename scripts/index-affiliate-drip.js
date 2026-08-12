@@ -1,6 +1,43 @@
 const {google} = require('googleapis');
 const fs = require('fs');
 
+// Shared GCP quota guard — Bartact gets priority (runs at 0:01 UTC)
+// This script must not consume quota until Bartact has had its turn
+const QUOTA_STATE_PATH = '/home/ubuntu/.openclaw/workspace/memory/gcp-indexing-quota.json';
+const GCP_DAILY_LIMIT = 199;
+const BARTACT_RESERVED = 80; // minimum reserved for Bartact each night
+
+function getQuotaState() {
+  try {
+    const d = JSON.parse(fs.readFileSync(QUOTA_STATE_PATH, 'utf8'));
+    const today = new Date().toISOString().slice(0, 10);
+    if (d.date !== today) return { date: today, used: 0, bartactDone: false };
+    return d;
+  } catch { return { date: new Date().toISOString().slice(0, 10), used: 0, bartactDone: false }; }
+}
+
+function saveQuotaState(state) {
+  fs.writeFileSync(QUOTA_STATE_PATH, JSON.stringify(state, null, 2));
+}
+
+function checkQuota() {
+  const state = getQuotaState();
+  const now = new Date();
+  const utcHour = now.getUTCHours();
+  const utcMin = now.getUTCMinutes();
+  const afterBartact = utcHour > 0 || (utcHour === 0 && utcMin >= 15);
+  if (!afterBartact && !state.bartactDone) {
+    console.log('Bartact cron has not run yet (before 0:15 UTC) — skipping to preserve quota');
+    process.exit(0);
+  }
+  const remaining = GCP_DAILY_LIMIT - state.used;
+  if (remaining <= 0) {
+    console.log(`GCP quota exhausted for today (${state.used}/${GCP_DAILY_LIMIT} used) — skipping`);
+    process.exit(0);
+  }
+  return { state, remaining };
+}
+
 const QUEUE_FILE = '/home/ubuntu/.openclaw/workspace/memory/indexing-affiliate-queue.json';
 
 const ALL_URLS = [

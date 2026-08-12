@@ -1,0 +1,161 @@
+{
+  "lastRun": "2026-08-12T00:34:50.210Z",
+  "results": [
+    {
+      "domain": "thedailycheer.com",
+      "urls": [
+        "https://thedailycheer.com/"
+      ],
+      "homepageWords": 1470,
+      "issues": [
+        "🟡 Below target: 1470w (target: 1500w)"
+      ],
+      "googleOk": 0,
+      "googleErr": 1,
+      "indexNowStatus": 200,
+      "title": "The Daily Cheer — Your Daily Dose of Good News & Positivity",
+      "desc": "The Daily Cheer brings you uplifting stories, good news, feel-good moments, and daily inspiration. Start your day with something that makes you smile."
+    },
+    {
+      "domain": "hspseats.com",
+      "urls": [
+        "https://hspseats.com/"
+      ],
+      "homepageWords": 4186,
+      "issues": [
+        "Meta desc too long (176 chars)"
+      ],
+      "googleOk": 0,
+      "googleErr": 1,
+      "indexNowStatus": 200,
+      "title": "Best Semi Truck Seat Covers 2026 — Big Rig & CDL Driver Guide",
+      "desc": "Best semi truck seat covers for 2026. Top picks for Freightliner, Peterbilt, Kenworth, Volvo &amp; Mack — ranked by durability, fit, and long-haul comfort. Updated August 2026."
+    },
+    {
+      "domain": "brazenauto.com",
+      "urls": [
+        "https://brazenauto.com/",
+        "https://brazenauto.com/sitemap_agentic_discovery.xml",
+        "https://brazenauto.com/sitemap_products_1.xml?from=7613800546466&amp;to=7663479914658",
+        "https://brazenauto.com/sitemap_pages_1.xml?from=92254011554&amp;to=113809621154",
+        "https://brazenauto.com/sitemap_collections_1.xml?from=223104794786&amp;to=289148764322",
+        "https://brazenauto.com/sitemap_blogs_1.xml"
+      ],
+      "homepageWords": 2479,
+      "issues": [],
+      "googleOk": 0,
+      "googleErr": 6,
+      "indexNowStatus": 202,
+      "title": "Welcome to Brazen Auto | Brazen Auto",
+      "desc": "Brazen Auto Offer the Highest Quality Off Road Automotive Products in the industry at affordable prices."
+    },
+    {
+      "domain": "ballkinis.com",
+      "urls": [
+        "https://ballkinis.com/",
+        "https://ballkinis.com/sitemap_agentic_discovery.xml",
+        "https://ballkinis.com/sitemap_products_1.xml?from=7995707326741&amp;to=9446021234965",
+        "https://ballkinis.com/sitemap_pages_1.xml?from=104555774229&amp;to=139698929941",
+        "https://ballkinis.com/sitemap_collections_1.xml?from=427204051221&amp;to=427830739221",
+        "https://ballkinis.com/sitemap_blogs_1.xml"
+      ],
+      "homepageWords": 5673,
+      "issues": [
+        "Meta desc too long (313 chars)"
+      ],
+      "googleOk": 0,
+      "googleErr": 6,
+      "indexNowStatus": 202,
+      "title": "Ballkinis Golf Products – ballkinis",
+      "desc": "Ballkinis are the funniest golf accessories available. We are proud to donate a portion of all Pink Ribbon products to Breast Cancer research or families affected by breast cancer. Our Patent Pending Ballkinis Golf Ball holders are sure to make you the most popular golfer in your foursome...even the entire club."
+    },
+    {
+      "domain": "bowtiefilters.com",
+      "urls": [
+        "https://bowtiefilters.com/",
+        "https://bowtiefilters.com/about.html",
+        "https://bowtiefilters.com/contact.html",
+        "https://bowtiefilters.com/how-to-choose-the-best-paint-booth-filters-for-your-shop.html",
+        "https://bowtiefilters.com/paint-booth-filter-maintenance-how-often-should-you-change-your-filters.html",
+        "https://bowtiefilters.com/new-product-alert-bowtie-paint-filters-for-durr-ecopaint-booths.html"
+      ],
+      "homepageWords": 1252,
+      "issues": [
+        "Title too long (72 chars, max 65)",
+        "🟡 Below target: 1252w (target: 1500w)"
+      ],
+      "googleOk": 0,
+      "googleErr": 6,
+      "indexNowStatus": 200,
+      "title": "BowTie Filters | Patented Paint Booth Exhaust Filters by Walk Industrial",
+      "desc": "Patented paint booth exhaust pocket filters engineered to last up to 22x longer than conventional filters. Made in USA by Walk Industrial."
+    },
+    {
+      "domain": "limitstraps.com",
+      "urls": [
+        "https://limitstraps.com/",
+        "https://limitstraps.com/best-limit-straps.html",
+        "https://limitstraps.com/jeep-limit-straps.html",
+        "https://limitstraps.com/truck-limit-straps.html",
+        "https://limitstraps.com/what-are-limit-straps.html",
+        "https://limitstraps.com/limit-strap-installation.html",
+        "https://limitstraps.com/limit-strap-sizing-guide.html",
+        "https://limitstraps.com/buyers-guide.html",
+        "https://limitstraps.com/about.html"
+      ],
+      "homepageWords": 1579,
+      "issues": [],
+      "googleOk": 0,
+      "googleErr": 9,
+      "indexNowStatus": 200,
+      "title": "Limit Straps — Everything You Need to Know | LimitStraps.com",
+      "desc": "The complete guide to limit straps for off-road vehicles. Learn what limit straps are, why they matter, and find the best options for Jeeps, trucks, and UTVs."
+    },
+    {
+      "domain": "factorfilters.com",
+      "urls": [
+        "https://factorfilters.com/"
+      ],
+      "homepageWords": 0,
+      "issues": [
+        "Homepage fetch error: certificate has expired"
+      ],
+      "googleOk": 0,
+      "googleErr": 1,
+      "indexNowStatus": 200
+    }
+  ],
+  "needsAttention": [
+    {
+      "domain": "thedailycheer.com",
+      "issues": [
+        "🟡 Below target: 1470w (target: 1500w)"
+      ]
+    },
+    {
+      "domain": "hspseats.com",
+      "issues": [
+        "Meta desc too long (176 chars)"
+      ]
+    },
+    {
+      "domain": "ballkinis.com",
+      "issues": [
+        "Meta desc too long (313 chars)"
+      ]
+    },
+    {
+      "domain": "bowtiefilters.com",
+      "issues": [
+        "Title too long (72 chars, max 65)",
+        "🟡 Below target: 1252w (target: 1500w)"
+      ]
+    },
+    {
+      "domain": "factorfilters.com",
+      "issues": [
+        "Homepage fetch error: certificate has expired"
+      ]
+    }
+  ]
+}

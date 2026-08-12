@@ -10,17 +10,17 @@ const fs = require('fs');
 const path = require('path');
 
 const SHOP = 'bartact.myshopify.com';
-const TOKEN = process.env.BARTACT_SHOPIFY_TOKEN || (() => {
+const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT || process.env.BARTACT_SHOPIFY_TOKEN || (() => {
   try {
     const env = fs.readFileSync('/home/ubuntu/.openclaw/workspace/.env', 'utf8');
-    const m = env.match(/BARTACT_SHOPIFY_TOKEN=(.+)/);
+    const m = env.match(/SHOPIFY_TOKEN_BARTACT=(.+)/) || env.match(/BARTACT_SHOPIFY_TOKEN=(.+)/);
     return m ? m[1].trim() : null;
   } catch { return null; }
 })();
 
 const KEY_PATH = '/home/ubuntu/.openclaw/workspace/sites/besttirepatch.com/.google-indexing-service-account.json';
 const STATE_PATH = '/home/ubuntu/.openclaw/workspace/memory/bartact-full-indexing-state.json';
-const BLOG_ID = '96543015185'; // confirmed
+const BLOG_ID = '19510597'; // confirmed 2026-08-12 — single blog: News (news)
 const QUOTA = 199;
 
 function httpReq(o, d) {
@@ -194,9 +194,25 @@ async function main() {
   state.lastBatchErrors = errors;
   fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2));
 
+  // Write to shared quota state so other scripts know Bartact has run and how much was used
+  const QUOTA_STATE_PATH = '/home/ubuntu/.openclaw/workspace/memory/gcp-indexing-quota.json';
+  const today = new Date().toISOString().slice(0, 10);
+  let quotaState = { date: today, used: 0, bartactDone: false };
+  try {
+    const q = JSON.parse(fs.readFileSync(QUOTA_STATE_PATH, 'utf8'));
+    if (q.date === today) quotaState = q;
+  } catch {}
+  quotaState.used = (quotaState.used || 0) + ok;
+  quotaState.bartactDone = true;
+  quotaState.bartactSubmitted = ok;
+  quotaState.bartactErrors = errors;
+  quotaState.bartactRunAt = new Date().toISOString();
+  fs.writeFileSync(QUOTA_STATE_PATH, JSON.stringify(quotaState, null, 2));
+
   console.log(`\n✅ Done: ${ok} submitted, ${errors} errors`);
   console.log(`Next run starts at URL index ${state.lastIndex} of ${state.urls.length}`);
   console.log(`Full rotation every ~${Math.ceil(state.urls.length / QUOTA)} days`);
+  console.log(`Quota state written: ${quotaState.used}/${QUOTA} used today, bartactDone=true`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

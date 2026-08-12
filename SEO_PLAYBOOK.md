@@ -871,6 +871,7 @@ Universal standards apply. Ecommerce rules do NOT apply. Specific notes:
 - 2026-08-11: Section 23 added — Mandatory Full Audit standing rule (ALL 119 collections + ALL 255 products, every session before content work begins, plus Sunday sweeps)
 - 2026-08-11: Section 24 added — Operational Failure Rules (5 rules from Mitch-flagged failures: phase large tasks, always paginate, IndexNow covers all 4 URL types, verify cron model on create, verify bulk ops with API count before reporting done)
 - 2026-08-11: Section 25 added — Google Indexing API quota priority: our pages first, Turn14 last. Bartact cron expanded to all 638 URLs, Bull Strap Turn14 pushed to 23:00 UTC.
+- 2026-08-12: Section 25 updated — Bull Strap internal quota split enforced: priority sweep hard-capped at 119/day, full-indexing gets max 80. Shared quota state file: `memory/bullstrap-indexing-shared-quota.json`. Credential note added: Bull Strap uses separate OAuth2 creds from Bartact (axl-348@ service account), but cap is non-negotiable per Mitch's directive.
 
 ### Key Dates
 - 2026-04-16: Bull Strap 97,200 pages noindexed; 28 backlinks added from affiliate network
@@ -1122,6 +1123,22 @@ Product descriptions must include at minimum: what the product is, exact vehicle
 **Added 2026-08-11. Mitch's direct directive.**
 
 All properties using the `axl-348@proud-stage-397621` service account share a single 199 URL/day Google Indexing API quota. Bull Strap has 78,820+ Turn14 product URLs being dripped at 199/day — if Turn14 runs before our money pages, our own sites get nothing.
+
+**NOTE on credentials:** Bartact/affiliates use `axl-348@proud-stage-397621` (service account). Bull Strap's crons use separate OAuth2 user credentials (`.bullstrap-merchant-center-credentials.json` / `.bullstrap-indexing-credentials.json`) — technically a different 199/day quota pool. However, Mitch's directive (2026-08-12) imposes a hard cap of 119/day on Bull Strap's priority sweep regardless, implemented via shared quota state file (`memory/bullstrap-indexing-shared-quota.json`).
+
+### Bull Strap Internal Quota Split (enforced 2026-08-12)
+
+Within Bull Strap's own 199/day OAuth2 quota, the two indexing crons are hard-capped:
+
+| Cron | Script | Daily Cap | Priority |
+|---|---|---|---|
+| Priority Sweep | `bullstrap-priority-sweep.js` | **119 MAX** | #1 — high-value Carli/suspension products |
+| Full Catalog | `bullstrap-full-indexing.js` | **80 MAX** (199 − 119) | #2 — Turn14 long tail |
+
+- Both crons read/write `memory/bullstrap-indexing-shared-quota.json` (resets midnight UTC)
+- Priority sweep hard-stops at 119 regardless of time of day — continues SEO fixes without submitting
+- Full-indexing reads shared quota first; gets max 80 of whatever the priority sweep left unused
+- Check today's usage: `cat memory/bullstrap-indexing-shared-quota.json`
 
 ### The Rule: Our Pages Eat First, Turn14 Eats Last
 
