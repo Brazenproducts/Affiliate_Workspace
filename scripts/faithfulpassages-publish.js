@@ -44,6 +44,18 @@ if (!fs.existsSync(contentFile)) {
 const content = JSON.parse(fs.readFileSync(contentFile, 'utf8'));
 const { type, slug, date } = content;
 
+// ── Validation gate — catch bad fields before writing HTML ────────────────────
+const REQUIRED_FIELDS = { prayer: ['title','theme','slug','date','prayer_en','prayer_es'], song: ['title','theme','slug','date','lyrics_en','lyrics_es','scripture','style'], scripture: ['title','theme','slug','date','body_en','body_es'] };
+const required = REQUIRED_FIELDS[type] || [];
+const missing = required.filter(f => !content[f] || content[f] === 'undefined' || String(content[f]).trim() === '');
+if (missing.length) { console.error(`VALIDATION ERROR: Missing required fields: ${missing.join(', ')}`); process.exit(1); }
+// Title must be ≤65 chars when appended with " — Faithful Passages" (20 chars)
+const titleWithBrand = `${content.title} — Faithful Passages`;
+if (titleWithBrand.length > 65) { const max = 65 - 20; console.warn(`WARN: title too long (${titleWithBrand.length}c). Truncating at ${max}c.`); content.title = content.title.slice(0, max).replace(/[\s—|]+$/, ''); }
+// Meta desc must be 80–160 chars
+const themeLen = String(content.theme || '').length;
+if (themeLen < 80 || themeLen > 160) { console.warn(`WARN: theme/meta-desc is ${themeLen} chars (need 80–160). Please fix in content JSON.`); }
+
 console.log(`Publishing ${type}: ${content.title} (${slug})`);
 
 // ── TTS via gTTS ─────────────────────────────────────────────────────────────
