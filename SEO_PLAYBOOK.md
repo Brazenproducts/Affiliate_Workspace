@@ -1550,6 +1550,70 @@ PYEOF
 - Image alt pattern (if images ever added): `[Topic] — [context] | Faithful Passages`
 - `privacy.html` and other legal pages: add `<meta name="robots" content="noindex">` instead of padding with fake content
 
+### Next.js Audit One-Liner (SkipATip)
+
+Run this after every content push to verify no regressions across all static page.tsx files:
+
+```bash
+python3 << 'PYEOF'
+import os, re
+
+base = "/home/ubuntu/.openclaw/workspace/skipatip/app/"
+SKIP = {
+    "admin/login/page.tsx", "admin/page.tsx", "beta-login/page.tsx",
+    "contact/page.tsx", "dashboard/page.tsx", "get-featured/page.tsx",
+    "locked/page.tsx", "login/page.tsx", "near-me/page.tsx",
+    "owner/page.tsx", "report/page.tsx", "restaurants/page.tsx",
+    "split/page.tsx", "submit/page.tsx", "verified/page.tsx"
+}
+pages = []
+for root, dirs, files in os.walk(base):
+    for f in files:
+        if f == "page.tsx":
+            pages.append(os.path.join(root, f))
+static_pages = [p for p in pages if "[" not in p]
+issues = []
+for path in static_pages:
+    rel = path.replace(base, "")
+    if rel in SKIP: continue
+    with open(path) as f:
+        text = f.read()
+    title_m = re.search(r'title:\s*["\`]([^"\`]+)["\`]', text)
+    title = title_m.group(1) if title_m else None
+    desc_m = re.search(r'description:\s*["\`]([^"\`]+)["\`]', text)
+    desc = desc_m.group(1) if desc_m else None
+    img_tags = re.findall(r'<(?:Image|img)[^>]+>', text, re.DOTALL)
+    pi = []
+    if title and len(title) > 65: pi.append(f"TITLE {len(title)}c: {title}")
+    if desc:
+        if len(desc) > 160: pi.append(f"DESC LONG {len(desc)}c")
+        if len(desc) < 80: pi.append(f"DESC SHORT {len(desc)}c")
+    for img in img_tags:
+        alt_m = re.search(r'alt=\{?"([^"]*)"', img)
+        alt = alt_m.group(1) if alt_m else None
+        if alt and re.match(r'^(?:skipatip|SkipATip)', alt, re.I):
+            pi.append(f"IMG BRAND-FIRST: '{alt}'")
+        if alt == "": pi.append("IMG EMPTY ALT")
+    if pi: issues.append((rel, pi))
+if issues:
+    print(f"❌ {len(issues)} pages with issues:")
+    for rel, pi in issues:
+        print(f"  {rel}")
+        for i in pi: print(f"    {i}")
+else:
+    print("✅ All SkipATip SEO pages clean")
+PYEOF
+```
+
+### What Happened (2026-08-12) — SkipATip Audit Results
+
+- Slashdaddy ran the same network-wide SEO audit that caught Bartact issues
+- SkipATip audit found: 2 titles >65 chars, 37 meta descriptions >160 chars, 1 brand-first image alt (`alt="SkipATip logo"`)
+- Also caught a broken `</html>` tag in the san-diego page that was causing a Vercel build failure
+- 40 files patched in one commit (`70fe3ad`) — all static SEO pages now clean
+- **Root cause of long descriptions**: batch content expansion in batches 5–10 added new metadata to pages without enforcing the 160c limit during writing
+- **Prevention**: run the Next.js audit one-liner above after every batch commit
+
 ### What Happened (2026-08-13) — Why This Section Exists
 
 - Bartact audit caught title tags starting with brand name, over 65 chars, and images with empty alt text across multiple sites
