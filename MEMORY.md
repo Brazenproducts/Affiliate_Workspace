@@ -88,14 +88,21 @@ Every affiliate/content site that is automotive-related MUST include Bull Strap 
 - Filli is responsible for implementing and maintaining this across all sites
 - Audit status as of 2026-08-11: UNKNOWN — Filli was supposed to implement on broadest sites but status unconfirmed; audit in progress
 
-## BARTACT SEO RULES — PROPAGATED 2026-07-20 (apply to any Bartact-related work)
-- **Title tags**: keyword FIRST, brand LAST, max 65 chars. Pattern: `[Keyword] — [Differentiator] | Bartact`. Never start with "Bartact" unless brand IS the product name.
+## BARTACT SEO RULES — PROPAGATED 2026-07-20 (updated 2026-08-13)
+- **Title tags**: keyword FIRST, brand LAST, max 65 chars. Pattern: `[Keyword] — [Differentiator] | Bartact`. Never start with "Bartact" unless brand IS the product name (merch: gift cards, caps, beanies are OK).
 - **Meta descriptions**: max 160 chars (hard), min 80 chars. Must include: vehicle fitment, key material/feature, "Made in USA".
 - **Patent/legal claims — CRITICAL**: ONLY use "patent pending" or "patented" if the product description ALREADY says it. Products WITH patents: winch covers, sun shades (JL/JLU/Gladiator), MOLLE seat back panel, Bronco door storage, Bronco console organizer, console organizer door pouch (JL/JLU/Gladiator), JLU aluminum roll bar fire extinguisher mount. Products WITHOUT patents: grab handles, standard roll bar fire extinguisher holder. When in doubt: DO NOT add "patent pending."
 - **Keyword cannibalization**: each collection/product page owns ONE distinct keyword. Link to SPECIFIC vehicle collections, not umbrella.
 - **Bartact differentiators**: "custom-cut not universal fit", "Cordura 400D/1000D", "Berry Amendment compliant", "invented by Bartact" (grab handles), "only manufacturer".
-- **Image alt text**: Pattern: `[Product Name] — [vehicle fitment] — [key material] | Bartact`. Never blank. Vary across multiple images. No keyword stuffing.
+- **Image alt text**: Pattern: `[Product Name] — [vehicle fitment] — [key material] | Bartact`. NEVER blank. NEVER start with "Bartact" — keyword/product name goes first. Vary across multiple images. No keyword stuffing.
 - Full brief at: `memory/bartact-seo-intel-2026-07-20.md`
+
+## BARTACT SEO STANDING AUDIT CHECKS (added 2026-08-13 — run every audit)
+These checks must be included in every Bartact SEO audit pass. Found and fixed 2026-08-13:
+- **Products**: no SEO title | title >65 chars | title <30 chars | title starts with "Bartact" (non-merch) | no meta desc | desc >160 chars | desc <80 chars | desc missing "Made in USA" | blank image alt | image alt starts with "Bartact"
+- **Collections**: no SEO title | title >65 chars | title starts with "Bartact" | no meta desc | desc >160 chars | desc <80 chars | desc missing "Made in USA" | blank collection image alt
+- Audit script saved at: `scripts/bartact-seo-collection-fix.js`
+- After fixing: submit all changed URLs to IndexNow
 
 ## YELP API CREDENTIALS
 - **API Key**: `lhArGjZT4ldEagxumH5QxVMkSV58_CZwPOnFGOIhfYLe9onwj_t4LQBvQZNl-hZND5A6SPi1GaYAEu1JXlDiAdyMLqB8vsM9V6qRf3ik4WMp0rAO8eO6FMd8T0tqanYx`
@@ -399,6 +406,14 @@ Any content mentioning 4xe compatibility MUST include the rear bench caveat:
 
 Full rules in SEO_PLAYBOOK.md Section 26.
 
+## GOOGLE ADS ROAS — SHOPIFY IS SOURCE OF TRUTH (hard rule, 2026-08-13)
+- **NEVER use Google's self-reported `metrics.conversions_value` for ROAS calculations** — Google overcounts, double-counts, and attributes view-through conversions that aren't real sales
+- **Correct method**: Pull Shopify orders where `landing_site` contains `gclid=` OR `utm_source=google` — that is the real Google Ads revenue
+- ROAS formula: `Shopify revenue from gclid/utm_source=google orders ÷ Google Ads cost`
+- This is committed in `bartact-daily-sales-report.js` — do NOT revert to metrics.conversions_value
+- Any audit script, report, or analysis that computes ROAS must use this Shopify-first method
+- Google's numbers are useful for impressions/clicks/cost — NOT for revenue or ROAS
+
 ## BULL STRAP — NO ADS (margins too thin)
 - Turn14 distributor products = margins sometimes 25% or less
 - At 25% margin, even 4x ROAS = break even after ad spend — ads don't pencil out
@@ -406,3 +421,39 @@ Full rules in SEO_PLAYBOOK.md Section 26.
 - Sales data (Aug 12): declining trend — June $1,443 / July $764 / Aug ~$568 partial
 - Google organic IS driving 21/34 orders (62%) — SEO is working, volume is the problem
 - Average GSC position: 26.9 — page 3; needs to get to page 1 to move the needle
+
+## ⛔ ALL BOTS — NEVER FORGET THIS LIST (hard rule, 2026-08-13)
+When broadcasting instructions to "all bots", EVERY one of these must be notified. No exceptions.
+
+- **Bartact**: `agent:main:telegram:bartact:direct:7550065844`
+- **Filli**: `agent:filli:main`
+- **Fern Allern**: `agent:main:telegram:fernallern:direct:7550065844`
+- **SkipATip**: `agent:main:telegram:skipatip:direct:7550065844`
+- **Faithful Passages**: `agent:main:telegram:faithfulpassages:direct:7550065844`
+- **Bull Strap**: notify via Filli (Bull Strap site work owned by Filli)
+- **Recent Ratings**: notify via Filli
+
+If you ever say "all bots notified" without hitting all 5 session keys above, you are wrong.
+
+## ELIPACKO AFFILIATE SITES — RECURRING SEO AUDIT CHECKLIST (added 2026-08-12)
+Run this audit before every major push and after any content generation. Script: `/home/ubuntu/.openclaw/workspace/fix-seo-titles.py`
+
+### Checks to run:
+1. **Title > 65 chars** → shorten to keyword-first, brand-last, max 65 chars. `fix-seo-titles.py` handles this automatically.
+2. **Meta desc > 160 chars** → truncate at last word boundary before 160
+3. **Meta desc < 80 chars** (index pages only) → expand with keyword + differentiator + "factory-direct from Elipacko"
+4. **Missing meta desc on index pages** → add keyword + material + CTA
+5. **Img alt text starting with brand name** → rewrite keyword-first: `[Product] — [vehicle/use] — [material] | Elipacko`
+6. **Img with empty alt text on elipacko-assets/ images** → always add descriptive alt
+7. **Banned images** — reject immediately on sight, never use: `82.jpg`, `84.jpg`, `cherry-box.jpg`, `vegetable-crate.jpg`, `produce------.jpg`, `poultry-box.jpg`
+
+### After every audit push:
+- IndexNow: `node run-full-indexing.js` (all 28 sites → Bing + Yandex)
+- Google Indexing API: blocked until brazenauto OAuth reauth — queue for when that's resolved
+
+### 2026-08-12 Audit Results:
+- 258 title tags fixed (over 65 chars) across 28 sites + elipacko-usa.com
+- 3 short meta descs fixed
+- 0 missing alts on elipacko-assets images
+- 0 alt-brand-first issues found
+- All 29 repos pushed, 451 URLs submitted to IndexNow (200/202)

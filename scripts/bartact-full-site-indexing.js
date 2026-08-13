@@ -203,7 +203,7 @@ async function main() {
     if (q.date === today) quotaState = q;
   } catch {}
   quotaState.used = (quotaState.used || 0) + ok;
-  quotaState.bartactDone = submitted > 0;
+  quotaState.bartactDone = ok > 0;
   quotaState.bartactSubmitted = ok;
   quotaState.bartactErrors = errors;
   quotaState.bartactRunAt = new Date().toISOString();
@@ -215,7 +215,7 @@ async function main() {
   console.log(`Quota state written: ${quotaState.used}/${QUOTA} used today, bartactDone=true`);
 
   // Immediately run Ballkinis with leftover quota
-  const ballkinisOk = await runBallkinisAfterBartact(googleToken, quotaState.used);
+  const ballkinisOk = await runBallkinisAfterBartact(accessToken, quotaState.used);
   if (ballkinisOk > 0) {
     quotaState.used += ballkinisOk;
     quotaState.ballkinisDone = true;
@@ -257,10 +257,16 @@ async function runBallkinisAfterBartact(googleToken, quotaUsed) {
   let ok = 0;
   for (const url of toSubmit) {
     try {
-      const r = await googleIndex(googleToken, url);
+      const body = JSON.stringify({ url, type: 'URL_UPDATED' });
+      const r = await httpReq({
+        hostname: 'indexing.googleapis.com',
+        path: '/v3/urlNotifications:publish',
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
+      }, body);
       if (r.status === 200) { console.log('  ✓', url); ok++; }
       else console.log(`  ✗ ${url} → ${r.status}`);
-      await new Promise(r => setTimeout(r, 500));
+      await sleep(500);
     } catch(e) { console.log('  ✗', url, e.message); }
   }
   console.log(`Ballkinis: ${ok}/${toSubmit.length} submitted`);

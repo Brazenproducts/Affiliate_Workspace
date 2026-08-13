@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-13T16:01:00.000Z",
+  "pipeline_run": "Bartact Daily SEO Rankings",
+  "ranking_report": {
+    "period": "2026-08-04 to 2026-08-10",
+    "clicks": 461,
+    "clicks_wow": "+35 (+8%)",
+    "impressions": 5367,
+    "page1_keywords": 119,
+    "top3_keywords": 22,
+    "notable_drops": [
+      {"kw": "best jeep gladiator seat covers", "drop": -21.3, "new_pos": 28.5},
+      {"kw": "best jeep tj seat covers", "drop": -13.8, "new_pos": 17.3},
+      {"kw": "2021 ford bronco accessories", "drop": -8.5, "new_pos": 11.4}
+    ],
+    "notable_gains": [
+      {"kw": "bronco accessories", "gain": +5.7, "new_pos": 7.5},
+      {"kw": "2 door bronco seat covers", "gain": +3.1, "new_pos": 5.7}
+    ]
+  },
+  "content_audit": {
+    "thin_content_fixed": 0,
+    "note": "All collection pages exceed 400 words — no Shopify PUT updates required"
+  },
+  "blog_articles_published": [
+    {
+      "id": "568626446379",
+      "keyword": "bronco seat covers",
+      "title": "Bronco Seat Covers: Complete Guide for Ford Bronco Owners (2021–2025)",
+      "url": "https://bartact.com/blogs/news/bronco-seat-covers-complete-guide-for-ford-bronco-owners-2021-2025",
+      "words": 1050
+    },
+    {
+      "id": "568626511915",
+      "keyword": "jeep tj seat covers",
+      "title": "Jeep TJ Seat Covers: The Complete Buyer's Guide (1997–2006 Wrangler)",
+      "url": "https://bartact.com/blogs/news/jeep-tj-seat-covers-the-complete-buyers-guide-1997-2006-wrangler",
+      "words": 980
+    }
+  ],
+  "indexnow": {
+    "status": 200,
+    "urls_submitted": [
+      "https://bartact.com/blogs/news/bronco-seat-covers-complete-guide-for-ford-bronco-owners-2021-2025",
+      "https://bartact.com/blogs/news/jeep-tj-seat-covers-the-complete-buyers-guide-1997-2006-wrangler"
+    ]
+  },
+  "telegram": {
+    "sent": false,
+    "reason": "TELEGRAM_TOKEN missing from .env — token has never been configured"
+  }
+}

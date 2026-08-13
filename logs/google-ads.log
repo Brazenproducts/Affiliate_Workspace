@@ -789,3 +789,49 @@ Target: 4x min / 5x goal
 
 Saved to /home/ubuntu/.openclaw/workspace/memory/ads-audit-2026-08-12.md
 Telegram report sent.
+◇ injected env (6) from .env // tip: ⌘ suppress logs { quiet: true }
+📊 BARTACT GOOGLE ADS DAILY AUDIT — 2026-08-13
+
+━━━ GOOGLE-ATTRIBUTED ROAS ━━━
+This week: $1111 spend → **1.90x ROAS** (Google-attributed conversions only)
+Last week: $2430 spend → **2.67x ROAS**
+Shopify total this week: $12181 revenue, 71 orders (includes ALL channels — do NOT divide by Google spend)
+Google-reported ROAS this week: 1.90x
+Target: 4x min / 5x goal
+
+━━━ DAILY TREND (last 3 days) ━━━
+  2026-08-10: $418 spend | 2.7 convs | $387 rev | 0.92x ROAS
+  2026-08-11: $247 spend | 17.1 convs | $1224 rev | 4.95x ROAS
+  2026-08-12: $300 spend | 5.0 convs | $495 rev | 1.65x ROAS
+
+━━━ CAMPAIGNS THIS WEEK ━━━
+  Gladiator PMax [$100/day]: $295 spend | 240 clicks | 15.6 convs | $1243 rev | 4.22x
+  Jeep Wrangler PMax [$35/day]: $174 spend | 120 clicks | 6.1 convs | $705 rev | 4.05x
+  Jeep JK Seat Covers - Search [$20/day]: $109 spend | 76 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles TJ - Search [$20/day]: $97 spend | 195 clicks | 0.0 convs | $0 rev | 0.00x
+  MOLLE Accessories - Search [$20/day]: $96 spend | 66 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Wrangler JL - Search [$26/day]: $95 spend | 43 clicks | 1.1 convs | $72 rev | 0.76x
+  Wrangler Storage [$75/day]: $79 spend | 108 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Bronco - Search [$20/day]: $44 spend | 17 clicks | 2.0 convs | $86 rev | 1.95x
+  Fire Extinguisher Holders - Search [$25/day]: $32 spend | 21 clicks | 0.0 convs | $0 rev | 0.00x
+  Tacoma PMax [$10/day]: $26 spend | 23 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles Gladiator - Search [$5/day]: $22 spend | 10 clicks | 0.0 convs | $0 rev | 0.00x
+  Competitors Campaign [$23/day]: $22 spend | 17 clicks | 0.0 convs | $0 rev | 0.00x
+  Paracord Grab Handles JK - Search [$20/day]: $13 spend | 11 clicks | 0.0 convs | $0 rev | 0.00x
+  Jeep TJ Seat Covers - Search [$20/day]: $4 spend | 2 clicks | 0.0 convs | $0 rev | 0.00x
+  Gladiator Seat Covers - Search NEW [$20/day]: $3 spend | 2 clicks | 0.0 convs | $0 rev | 0.00x
+
+━━━ FLAGS ━━━
+  ⚠️ TRUE SALES ROAS this week: 1.90x — BELOW 4x minimum
+  🔴 Wrangler Storage: $79 spent this week, 0 conversions
+  🔴 Jeep JK Seat Covers - Search: $109 spent this week, 0 conversions
+  🔴 MOLLE Accessories - Search: $96 spent this week, 0 conversions
+  🔴 Paracord Grab Handles TJ - Search: $97 spent this week, 0 conversions
+
+━━━ BUDGET ADJUSTMENTS MADE ━━━
+  📉 Wrangler Storage: $75/day → $45/day (0 convs on significant spend)
+
+💰 Total daily budget: $554/day
+
+Saved to /home/ubuntu/.openclaw/workspace/memory/ads-audit-2026-08-13.md
+Telegram report sent.

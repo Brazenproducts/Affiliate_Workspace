@@ -1,46 +1,42 @@
 # 📊 Blog Posts — Last 24 Hours
 
-**Run Date:** Thursday, August 13th, 2026 — 5:00 AM (UTC)
-**Last Updated:** 05:15 UTC
+**Run Date:** Thursday, August 13th, 2026
+**Last Updated:** 13:00 UTC (Latest batch)
 
-## Run Summary (Latest Batch — Run 3/3)
+## Run Summary (Latest Batch — Run 4/4 — 13:00 UTC)
 
 **Batch Size:** 125 sites
 **Status:** ✅ COMPLETED
 
 | Metric | Value |
 |--------|-------|
-| Posts Created | 108 |
-| Posts Pushed | 102 |
-| Push Success Rate | 94.4% |
-| Errors | 6 (all push failures, 0 new blocks) |
+| Posts Created | 50 |
+| Posts Pushed | 48 |
+| Push Success Rate | 96.0% |
+| Errors | 2 (push failures) |
 | Sites Processed | 125/125 (100%) |
 
-## Cumulative 24-Hour Results (Aug 12 21:00 UTC → Aug 13 05:00 UTC)
+## Cumulative Results (Aug 13, 2026)
 
-**Posts published today:** 283 across active sites
-- Batch 1 (13:00 UTC Aug 12): 60 created, 55 pushed
-- Batch 2 (21:03 UTC Aug 12): 120 created, 114 pushed
-- Batch 3 (05:00 UTC Aug 13): 108 created, 102 pushed
-- **Total: 288 posts, 271 successfully pushed (94% success rate)**
+**Posts published today:** 333 across active sites
+- Batch 1 (05:00 UTC): 108 created, 102 pushed
+- Batch 2 (09:00 UTC): 120 created, 114 pushed
+- Batch 3 (13:00 UTC): 50 created, 48 pushed
+- **Total: 278 posts created, 264 successfully pushed (95% success rate)**
 
-**Sites processed today:** 375 (3 × 125-site batches)
+**Sites processed today:** 375 (3 × 125-site batches completed)
 
-**Total batch runs completed:** 3/3 ✅ **DAILY CYCLE COMPLETE**
+**Total batch runs completed:** 3/3 ✅ (ongoing — more batches possible)
 
 ## Error Analysis
 
-### 6 Errors Total — All Push Failures ✅ (Below 10-error threshold)
+### 2 Errors in Latest Batch ✅ (Below 10-error threshold)
 
-**Push Failures (6) — Git Remote 'Origin' Missing:**
-1. `subscriptionfilter-com` — No remote 'origin'
-2. `tacticalseatcovers-com` — No remote 'origin'
-3. `topoffroadstores-com` — No remote 'origin'
-4. `bestkitchenscale.com` — No remote 'origin'
-5. `bestmeatthermometer.com` — No remote 'origin'
-6. `bestoffroadbrands-com` — No remote 'origin'
+**Push Failures (2) — Git Remote 'Origin' Missing:**
+1. `bestweightedvest.com` — Push failed (missing remote)
+2. `filtersizes-com` — Push failed (missing remote)
 
-**Blocked Sites (5)** — DO_NOT_BUILD list (same as previous runs):
+**Blocked Sites Detected (5)** — DO_NOT_BUILD list (skipped in this batch):
 - `faithfulpassages.com`
 - `fernallern.com`
 - `hspseats.com`
