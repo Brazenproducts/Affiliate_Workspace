@@ -1,7 +1,7 @@
 {
   "stores": ["bartact", "bullstrap"],
-  "lastPublished": "bartact",
-  "nextStore": "bullstrap",
+  "lastPublished": "bullstrap",
+  "nextStore": "bartact",
   "history": [
     {
       "store": "bartact",
@@ -23,6 +23,13 @@
       "articleId": 568602099755,
       "title": "Best UV-Proof Truck Seat Covers: Why 1000D Cordura Wins",
       "handle": "best-uv-proof-truck-seat-covers-cordura"
+    },
+    {
+      "store": "bullstrap",
+      "date": "2026-08-13",
+      "articleId": 684198986001,
+      "title": "How to Choose Limit Straps for Your Truck Setup",
+      "handle": "how-to-choose-limit-straps-truck-setup"
     }
   ]
 }

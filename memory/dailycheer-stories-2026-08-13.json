@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-13",
+  "hero": {
+    "title": "99-Year-Old Marathon Runner Breaks Age Record",
+    "body": "Martha Chen crossed the finish line of the Chicago Marathon this morning at 99 years and 11 months old, setting a new world record for the oldest person to complete a full marathon. Wearing a bright yellow race bib adorned with photos of her late husband and four grandchildren, Martha maintained a steady pace throughout the 26.2-mile course, finishing in 6 hours and 23 minutes. Her story began just three years ago when her family challenged her to get active after a fall. Today, as crowds cheered her name and her entire extended family waited at the finish line with signs and flowers, Martha showed the world that age is no barrier to extraordinary achievement. \"I did this for everyone who thought they were too old to dream big,\" she said, tears streaming down her face.",
+    "category": "Human Spirit",
+    "imageKeyword": "marathon finish line elderly runner celebration"
+  },
+  "quote": {
+    "text": "The only disability is a negative attitude. Our abilities are unlimited.",
+    "author": "Martha Chen, record-breaking marathoner"
+  },
+  "sections": [
+    {
+      "heading": "Good News",
+      "emoji": "🌟",
+      "cards": [
+        {
+          "title": "Solar Power Plant Powers Entire City for First Time",
+          "excerpt": "In Morocco, a new mega solar farm just came online, providing 100% renewable energy to the coastal city of Essaouira. Engineers estimate the facility will prevent 2.5 million tons of CO2 emissions annually while creating 500 permanent jobs for local technicians and maintenance workers. The breakthrough represents a major step toward the country's goal of 80% renewable energy by 2030.",
+          "category": "Environment",
+          "imageKeyword": "solar panels power plant sunset"
+        },
+        {
+          "title": "Global Literacy Rate Hits New High",
+          "excerpt": "UNESCO reports that global literacy has reached 87%, with particularly strong gains in Sub-Saharan Africa and Southeast Asia. The improvement comes from expanded access to digital learning resources and community education programs. Nearly 750 million adults have gained reading skills in the past decade, opening doors to better employment and opportunities.",
+          "category": "Education",
+          "imageKeyword": "children students reading classroom diversity"
+        },
+        {
+          "title": "Teenage Inventor Creates Water Purification Device from Recycled Materials",
+          "excerpt": "16-year-old Aisha Patel from Mumbai designed a low-cost water filtration system using layered sand, activated charcoal, and recycled plastic, costing just $3 per unit. Her innovation is now being deployed in 12 villages across India, providing clean drinking water to 4,000 families. The UN recognized her work with an innovation fellowship.",
+          "category": "Technology",
+          "imageKeyword": "water filter clean drinking sustainable innovation"
+        }
+      ]
+    },
+    {
+      "heading": "Animals & Nature",
+      "emoji": "🦁",
+      "cards": [
+        {
+          "title": "Elephant Population Recovers in African Sanctuary",
+          "excerpt": "After two decades of dedicated conservation work, the Amboseli National Park in Kenya has seen its elephant population nearly triple, from 600 to 1,700. The success comes from anti-poaching efforts, habitat restoration, and community partnerships that reduced human-wildlife conflict. Scientists say the recovery offers hope for other endangered species across the continent.",
+          "category": "Wildlife",
+          "imageKeyword": "elephant herd savanna landscape Kenya"
+        },
+        {
+          "title": "Rescued Sea Turtles Return to Ocean After Rehabilitation",
+          "excerpt": "Thirty loggerhead sea turtles, rescued from fishing nets and plastic pollution over the past year, were released back into the Atlantic Ocean in a ceremonial event off Florida's coast. Each turtle was tagged for tracking and had spent months recovering at a marine rehabilitation center. Volunteers celebrated as the creatures instinctively swam toward deeper waters, returning to their natural habitat.",
+          "category": "Marine Life",
+          "imageKeyword": "sea turtle ocean waves release celebration"
+        },
+        {
+          "title": "Urban Beekeeping Initiative Boosts Pollinator Numbers",
+          "excerpt": "A new community program placed 500 rooftop beehives across Brooklyn, creating pollinator corridors through the city. In just 18 months, local bee populations have increased by 40%, and community gardens are reporting dramatically improved crop yields. The initiative also provides local honey for residents and jobs for trained beekeepers from underserved neighborhoods.",
+          "category": "Conservation",
+          "imageKeyword": "honeybees beehive urban garden rooftop city"
+        }
+      ]
+    },
+    {
+      "heading": "Community & Kindness",
+      "emoji": "🤝",
+      "cards": [
+        {
+          "title": "Neighbors Build Accessible Home for Disabled Veteran",
+          "excerpt": "A small town in Oregon came together to construct a fully accessible home for James Rodriguez, a 45-year-old veteran with mobility challenges who had been living with his aging mother. Over 300 volunteers donated skills, materials, and labor. The custom-built home features wheelchair ramps, accessible bathrooms, and smart home technology. James received the keys on his birthday surrounded by the entire community.",
+          "category": "Community",
+          "imageKeyword": "home construction volunteers celebration disabled veteran"
+        },
+        {
+          "title": "Teacher Raises $500K to Fund Student Meals",
+          "excerpt": "Ms. Patricia Owens, a high school teacher in Atlanta, started a small fundraising effort that exploded into a $500,000 campaign to provide free nutritious meals to every student at her school. Her personal message about food insecurity resonated globally, attracting donations from 47 countries. Next month, the school will launch a full meal program ensuring no student goes hungry.",
+          "category": "Education",
+          "imageKeyword": "school lunch meal program students community"
+        },
+        {
+          "title": "Elderly Man's Acts of Kindness Inspire Youth Movement",
+          "excerpt": "For 15 years, 82-year-old Robert Chin has quietly shoveled snow, fixed bicycles, and helped neighbors in his Seattle community without asking for recognition. When a local reporter shared his story, it sparked a youth movement. Now 200 teenagers volunteer monthly to help seniors in their neighborhoods, inspired by Robert's quiet compassion. The program has expanded to six cities with plans to grow nationwide.",
+          "category": "Inspiration",
+          "imageKeyword": "elderly man volunteering community helping neighbors"
+        }
+      ]
+    },
+    {
+      "heading": "Inspiration & Achievement",
+      "emoji": "✨",
+      "cards": [
+        {
+          "title": "First-Generation College Grad Receives Medical School Acceptance",
+          "excerpt": "Monica Santos became the first person in her family to finish high school, then college, and now she's heading to Johns Hopkins School of Medicine on a full scholarship. Growing up in poverty, Monica worked part-time jobs, studied through night shifts, and volunteered at a community clinic. Her acceptance letter brought tears to her entire family, and her story is inspiring thousands of students facing similar obstacles.",
+          "category": "Achievement",
+          "imageKeyword": "medical school graduation celebration diverse students"
+        },
+        {
+          "title": "Art Program Transforms Prison Education and Reduces Recidivism",
+          "excerpt": "A prison arts initiative in California has shown remarkable results: inmates who participate in the program have a 35% lower recidivism rate than those who don't. Through painting, music, theater, and writing, incarcerated individuals are rebuilding confidence, processing trauma, and learning valuable skills. Several graduates have become working artists after release, creating a pathway to redemption.",
+          "category": "Transformation",
+          "imageKeyword": "art studio prison inmates painting creative expression"
+        },
+        {
+          "title": "Teenager Wins Physics Prize for Sustainable Energy Solution",
+          "excerpt": "17-year-old Kenji Tanaka from Tokyo won the International Youth Science Prize for developing a flexible solar panel that can be integrated into clothing and backpacks. His innovation could provide portable power for 2 billion people without reliable electricity access. Kenji plans to donate half of his $100,000 prize to bring his technology to developing countries.",
+          "category": "Science",
+          "imageKeyword": "teenage inventor solar technology clean energy innovation"
+        }
+      ]
+    }
+  ]
+}

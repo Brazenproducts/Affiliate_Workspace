@@ -1,20 +1,20 @@
 {
-  "lastRun": "2026-08-12T00:34:50.210Z",
+  "lastRun": "2026-08-13T07:32:48.418Z",
   "results": [
     {
       "domain": "thedailycheer.com",
       "urls": [
         "https://thedailycheer.com/"
       ],
-      "homepageWords": 1470,
+      "homepageWords": 1484,
       "issues": [
-        "🟡 Below target: 1470w (target: 1500w)"
+        "🟡 Below target: 1484w (target: 1500w)"
       ],
       "googleOk": 0,
       "googleErr": 1,
       "indexNowStatus": 200,
-      "title": "The Daily Cheer — Your Daily Dose of Good News & Positivity",
-      "desc": "The Daily Cheer brings you uplifting stories, good news, feel-good moments, and daily inspiration. Start your day with something that makes you smile."
+      "title": "The Daily Cheer — Good News Thursday, August 13, 2026",
+      "desc": "Your daily dose of uplifting, feel-good news and inspiring stories — Thursday, August 13, 2026. Real good news, updated every morning."
     },
     {
       "domain": "hspseats.com",
@@ -129,7 +129,7 @@
     {
       "domain": "thedailycheer.com",
       "issues": [
-        "🟡 Below target: 1470w (target: 1500w)"
+        "🟡 Below target: 1484w (target: 1500w)"
       ]
     },
     {

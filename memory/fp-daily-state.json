@@ -1,6 +1,6 @@
 {
-  "lastType": "prayer",
-  "count": 19,
+  "lastType": "song",
+  "count": 20,
   "dates": [
     {"date": "2026-07-24", "type": "prayer", "title": "A Prayer for the Parent of a Prodigal", "slug": "prayer-for-parent-of-prodigal-2026-07-24"},
     {"date": "2026-07-25", "type": "song", "title": "Even Here", "slug": "song-even-here-2026-07-25"},
@@ -20,6 +20,7 @@
     {"date": "2026-08-09", "type": "prayer", "title": "A Prayer for the Anxious Mind", "slug": "prayer-for-anxiety-2026-08-09"},
     {"date": "2026-08-10", "type": "song", "title": "Not by Sight", "slug": "song-not-by-sight-2026-08-10"},
     {"date": "2026-08-11", "type": "scripture", "title": "Lamentations 3:22-23 — Mercy That Resets Every Morning", "slug": "lamentations-3-22-23-mercy-resets-every-morning-2026-08-11"},
-    {"date": "2026-08-12", "type": "prayer", "title": "A Prayer for the One Estranged from Family", "slug": "prayer-for-estrangement-2026-08-12"}
+    {"date": "2026-08-12", "type": "prayer", "title": "A Prayer for the One Estranged from Family", "slug": "prayer-for-estrangement-2026-08-12"},
+    {"date": "2026-08-13", "type": "song", "title": "Hold the Darkness", "slug": "song-hold-the-darkness-2026-08-13"}
   ]
 }

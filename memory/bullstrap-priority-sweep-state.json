@@ -1,10 +1,10 @@
 {
   "phase": 4,
-  "brandIndex": 7,
-  "sinceId": 10413033586961,
-  "totalFixed": 19156,
-  "totalIndexed": 1064,
-  "dailyCount": 0,
+  "brandIndex": 8,
+  "sinceId": 10412452905233,
+  "totalFixed": 20392,
+  "totalIndexed": 1300,
+  "dailyCount": 195,
   "dailyDate": "2026-08-13",
   "completedPhases": [
     "Phase 1 — Suspension",
@@ -12,5 +12,6 @@
     "Phase 3 — Exterior",
     "Phase 4 — Interior"
   ],
-  "lastRun": "2026-08-13T04:55:54.766Z"
+  "lastRun": "2026-08-13T12:46:25.870Z",
+  "locked": false
 }
