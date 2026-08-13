@@ -18,7 +18,7 @@ const TOKEN = process.env.SHOPIFY_TOKEN_BARTACT || process.env.BARTACT_SHOPIFY_T
   } catch { return null; }
 })();
 
-const KEY_PATH = '/home/ubuntu/.openclaw/workspace/sites/besttirepatch.com/.google-indexing-service-account.json';
+const KEY_PATH = '/home/ubuntu/.openclaw/workspace/.bartact-indexing-service-account.json';
 const STATE_PATH = '/home/ubuntu/.openclaw/workspace/memory/bartact-full-indexing-state.json';
 const BLOG_ID = '19510597'; // confirmed 2026-08-12 — single blog: News (news)
 const QUOTA = 199;
@@ -185,7 +185,20 @@ async function main() {
   console.log(`Submitting batch: URLs ${start}–${(start + batch.length - 1) % state.urls.length} of ${state.urls.length}`);
 
   const accessToken = await getAccessToken(sa);
-  const { ok, errors } = await submitUrls(batch, accessToken);
+
+  // Submit 10 test URLs first, verify they work before doing the full batch
+  const testBatch = batch.slice(0, 10);
+  const restBatch = batch.slice(10);
+  console.log('Submitting 10 test URLs first...');
+  const testResult = await submitUrls(testBatch, accessToken);
+  console.log(`Test result: ${testResult.ok}/10 OK, ${testResult.errors} errors`);
+  if (testResult.ok === 0) {
+    console.error('❌ All 10 test URLs failed — aborting. Check credentials and quota.');
+    process.exit(1);
+  }
+  console.log(`✅ Test passed (${testResult.ok}/10 OK) — submitting remaining ${restBatch.length} URLs...`);
+  const restResult = await submitUrls(restBatch, accessToken);
+  const { ok, errors } = { ok: testResult.ok + restResult.ok, errors: testResult.errors + restResult.errors };
 
   // Advance pointer
   state.lastIndex = (start + QUOTA) % state.urls.length;

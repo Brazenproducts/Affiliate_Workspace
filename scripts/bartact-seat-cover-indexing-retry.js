@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Load service account key
-const keyPath = '/home/ubuntu/.openclaw/workspace/sites/besttirepatch.com/.google-indexing-service-account.json';
+const keyPath = '/home/ubuntu/.openclaw/workspace/.bartact-indexing-service-account.json';
 let serviceAccount = null;
 try {
   if (fs.existsSync(keyPath)) {

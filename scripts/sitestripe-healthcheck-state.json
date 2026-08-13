@@ -1,5 +1,5 @@
 {
-  "lastBatchIndex": 200,
+  "lastBatchIndex": 400,
   "totalAsinsChecked": 200,
   "deadAsinsFound": [
     "B00275F5O2",
@@ -8,7 +8,7 @@
     "B0FNPBF5YJ",
     "B0BT4FYHFJ"
   ],
-  "lastRunDate": "2026-08-12",
+  "lastRunDate": "2026-08-13",
   "lastCheck": "2026-08-12T18:00:00Z",
   "batch": "1-200",
   "batchProgress": "36%",

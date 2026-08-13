@@ -158,14 +158,14 @@ const SLUGS = [
   n=>`what-we-look-for-${n}-${year}`, n=>`${n}-tested-ranked-${year}`,
 ];
 const METAS = [
-  (n,y)=>`Honest ${n} guide for ${y}. Real comparisons, no fluff. Updated ${month} ${y}.`,
-  (n,y)=>`Looking for ${n}? We tested the top options in ${y}. See our picks.`,
-  (n,y)=>`${y} ${n} buyer's guide. What's worth it and where to get the best value.`,
-  (n,y)=>`Cut through the noise on ${n}. Our ${y} guide covers what matters.`,
-  (n,y)=>`Real ${n} reviews for ${y}. Tested, compared, ranked.`,
-  (n,y)=>`${n} shopping in ${y} simplified. Our guide has you covered.`,
-  (n,y)=>`The ${n} market in ${y}: what changed and what to buy. Updated monthly.`,
-  (n,y)=>`Practical ${n} advice for ${y}. Skip the marketing, get the facts.`,
+  (n,y)=>`Honest ${n} guide for ${y}. Real-world testing, no sponsored fluff. Updated ${month} ${y}.`,
+  (n,y)=>`Looking for ${n}? We tested the top options in ${y}. See our picks and why they made the cut.`,
+  (n,y)=>`${y} ${n} buyer's guide. What's worth it, what to skip, and where to get the best value.`,
+  (n,y)=>`Cut through the noise on ${n}. Our ${y} guide covers what actually matters and what doesn't.`,
+  (n,y)=>`Honest ${n} reviews for ${y}. We tested, compared, and ranked the top options so you don't have to.`,
+  (n,y)=>`${n} shopping in ${y} made simple. Our independent guide covers the top picks and what to avoid.`,
+  (n,y)=>`The ${n} market in ${y}: what changed, what to buy, and what to skip. Updated ${month} ${y}.`,
+  (n,y)=>`Practical ${n} advice for ${y}. Skip the marketing spin — we cover what's actually worth buying.`,
 ];
 
 function buildArticle(niche, domain, products, rng) {
@@ -275,7 +275,7 @@ function genHTML(title, slug, body, domain, meta) {
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>${title} | ${domain}</title>
+<title>${(title + ' | ' + domain).length > 65 ? title.substring(0, 62 - domain.length).replace(/[,\s]+$/, '') + ' | ' + domain : title + ' | ' + domain}</title>
 <meta name="description" content="${meta}">
 <link rel="canonical" href="https://${domain}/${slug}.html">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"${title.replace(/"/g,'\\"')}","datePublished":"${dateStr}","dateModified":"${dateStr}","publisher":{"@type":"Organization","name":"${domain}"}}</script>

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bartact-ghost-cleanup",
+  "private_key_id": "REDACTED_GCP_KEY_ID",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6W+WYMEkJmMzD\nxCOYFM/suVWY5oFKFrFE0O4Am89dO6DuLJT+o/VnpkEiEpZrKswXqLOJifQ2P/3d\nrx0dB+WdZ0eqs9h8DDgBJAUjnC625SiITegVdE1Nt5Xvnxitkwe2+IKJ6mNkcFaU\nIkJdxVxkP6E3Pg4dITvfjfe2Vt6ynkh+/UHZA1yvsl71XDrSRx82mrp+8DjedG5x\nXEsZQeuzqli7eiuTQvy9DcS33489PlBpXUUknXqfaw4lL36WosGNQqF/ZKw+/rOM\nGYWNbpkICnGFhU7SIMTtjgyXFZ7SSbW/vAIF84KTX77tr17h3KXSnElNb7gh5P6Y\nUcIUk6B7AgMBAAECggEARsw5ta8GWEyB4g+GHDUv5rVkJPHRBVYIo2WiPX3z8e4A\nzesG8ZRVWzqofOrF1VHNdmGDT4mmyuNVrR3lOA2zeDBv5BRt9nZn4lsOTsB7aMU3\nOE0skdX8tj08C2wMIoj8gdD4Oq/ecZ5R7fXz847Sck1QEF4VW5CwH9Zd2Jo5AW8F\njkW6DZDq12WkfHdwe5sIBo6cwoHTWfzIbSfroZ5uhSZSe2iLYQ6EtDx4137KWOD6\nSLe4WoGHSlOKcmyQRDJ6CfQj2iR35c4qjuKesKPQkgEf9klxlXljjetpXy2Vjd8u\nEGB6wkKjUDe6X6p/tsABxxH/FT3lUs8Ckj29IZwYjQKBgQDdv5e+LYlL9ekS92SC\n3JQ4xo12CEEsU4VQRd5NKdpaRG/Fx/y4HcZHTv79HlyT1f6jkZk2ed4YBRQxu4mX\nlTzv63wJisccmJjPdXqdq0eqLr4mm1/KEk6QNSjz08rdE7TCkZsyteD4CacC5zE1\ns1/G4XnR1wCkRFhRu/kHO1ahrQKBgQDXJO4QLCiHXkka8e7jAWubgr5NZxhcPIqg\nRppGcx5LyEYemdw2q3bhlYIw4la8AcajF+VHOL7SXcTTaomQEoE2l9iz09ptCuZ5\n066bGpc+KtAdiQWzpaXuQOViW0HyoFROgXbv2SPImPBUQ5naGVXJwTeLIpVHwJIq\nyfLZtkgfxwKBgGHqt0u/+c9z//5jBZwPYNgNPOvwyy6SltySbY4vO/7+F0kDfSGj\n7CkSxd/pZ0HUjcOWiEwY1ixPGdK4GBK6UJU0q6nfAPssmtWI76LtvhB04XxUwaCO\nIujkwHeifwLOL9R2zUxAKd39DSVoBz/KPDGq4Mr7IIpor4Mv+M/rsN5lAoGBAM7E\nPkuqtNTMh8PuqiDfN5UAhXaMU3wp7yz0TcbRUleQxdsZEew0xA8vii0DCkqsBkSu\nbXsSjUpONiDdrhGZxzc5nlnNjInpxPFmwNNuLdbgfJ02GBW8aIlfM1Vg0TOmZQAC\nKtV+QYbDfY3uXkmeubUqDgCZHxETgSbAabZVGmH3AoGANMG3ZuOPDP5/GRHIIJ+H\nG35B6Oplepl9z7dr6N9vBC6YPlnI7b70vXOdg+ftKaEs4thtsaIsI16injmSgw3c\n5OzVb413yWfr31NU+zV7bifJylysUXFSLyvwKTejFpRkuhCfbWr5ERVyflOsN9jB\nhnyBP1gymfhJa2vIJrRW6A4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "REDACTED_GCP_SERVICE_ACCOUNT",
+  "client_id": "110911619991083430042",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bartact-indexing%40bartact-ghost-cleanup.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

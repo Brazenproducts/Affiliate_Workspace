@@ -13,7 +13,7 @@ const { createSign } = require('crypto');
 const SITE_DIR = '/home/ubuntu/.openclaw/workspace/sites/thedailycheer.com';
 const ARCHIVE_DIR = path.join(SITE_DIR, 'archive');
 const STATE_PATH = '/home/ubuntu/.openclaw/workspace/memory/dailycheer-state.json';
-const KEY_PATH = '/home/ubuntu/.openclaw/workspace/sites/besttirepatch.com/.google-indexing-service-account.json';
+const KEY_PATH = '/home/ubuntu/.openclaw/workspace/.bartact-indexing-service-account.json';
 const INDEXNOW_KEY = 'b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5';
 const BASE_URL = 'https://thedailycheer.com';
 

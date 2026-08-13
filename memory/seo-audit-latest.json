@@ -1,0 +1,41 @@
+{
+  "generated": "2026-08-13T17:43:29.484Z",
+  "titleTooLong": [
+    {
+      "file": "sites/whatsizehvacfilter-com/blog/how-to-choose.html",
+      "len": 70,
+      "title": "How to Choose the Best Whatsizehvacfilter in 2026 | Whatsizehvacfilter"
+    },
+    {
+      "file": "sites/whatsizehvacfilter-com/blog/installation-guide.html",
+      "len": 75,
+      "title": "Whatsizehvacfilter Installation Guide — What to Expect | Whatsizehvacfilter"
+    },
+    {
+      "file": "sites/wholehouseairfilter-com/index.html",
+      "len": 69,
+      "title": "Whole House Air Filter Guide for Homeowners | WholeHouseAirFilter.com"
+    },
+    {
+      "file": "sites/wholehouseairfilter-com/blog/how-to-choose.html",
+      "len": 72,
+      "title": "How to Choose the Best Wholehouseairfilter in 2026 | Wholehouseairfilter"
+    },
+    {
+      "file": "sites/wholehouseairfilter-com/blog/installation-guide.html",
+      "len": 77,
+      "title": "Wholehouseairfilter Installation Guide — What to Expect | Wholehouseairfilter"
+    }
+  ],
+  "descMissing": [
+    {
+      "file": "sites/factorfilters.com/index.html"
+    }
+  ],
+  "descTooLong": [],
+  "descTooShort": [],
+  "blankAlt": [],
+  "total": {
+    "pages": 18242
+  }
+}

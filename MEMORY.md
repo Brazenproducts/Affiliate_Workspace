@@ -1,3 +1,47 @@
+## ⛔ GOOGLE ADS AUDIT — MANDATORY FIRST STEPS (added 2026-08-13, HARD RULE)
+Every single time. Before keywords, negatives, geo, copy — ANYTHING:
+
+1. **Bidding strategy + tROAS FIRST**
+   - Pull every enabled campaign's bidding strategy type and tROAS target before touching anything else
+   - MAXIMIZE_CONVERSION_VALUE with NO tROAS target = Google has zero floor = will spend at 1x-2x happily
+   - Every campaign MUST have tROAS 400% (4x) minimum set
+   - MAXIMIZE_CONVERSIONS = count-based, not value-based = WRONG for revenue goals, convert it
+   - MANUAL_CPC = zero ROAS guidance = convert to smart bidding with 4x tROAS
+
+2. **Verify ROAS with Shopify ONLY — never Google's numbers**
+   - Google `metrics.conversions_value` ALWAYS overstates (view-through, cross-device, assisted)
+   - TRUE ROAS = Shopify orders with `gclid=` or `utm_source=google` in landing_site ÷ Google Ads spend
+   - Script: `scripts/bartact-true-roas.js`
+   - 4x TRUE ROAS = profitability floor. Below 4x = losing money.
+   - NEVER cite Google's ROAS in any report or recommendation
+
+3. **Pull search terms weekly — proactively, not when asked**
+   - Add negatives for: competitor brands, wrong vehicle terms, irrelevant categories
+   - Cross-vehicle pollution (JK campaign getting JL traffic) = wasted spend, add vehicle negatives
+
+4. **Budget check**
+   - Proven 4x+ winners should have adequate budget — underfunding winners is leaving money on the table
+   - Underperforming campaigns should not have large budgets with no tROAS floor
+
+Lessons learned the hard way: campaigns ran without tROAS targets for months at 2x TRUE ROAS. Mitch caught it. Never again.
+
+## ⛔ NEVER CONFIRM SUCCESS WITHOUT VERIFYING — HARD RULE (2026-08-13)
+Before telling Mitch ANYTHING succeeded (indexing ran, URLs submitted, script worked, file saved, etc.):
+1. READ the output/file/state — don't trust what the script printed if the setup might be broken
+2. CHECK that credentials/keys are valid before running (cat the file, verify private_key field exists and is complete)
+3. VERIFY the actual result — check state files, API responses, logs
+4. If anything is uncertain, SAY SO — never report success and then walk it back when asked
+Mitch caught me reporting "199 submitted" when the key file had no private key. That is an unacceptable lie. Verify everything before confirming.
+
+## 🔑 BARTACT INDEXING SERVICE ACCOUNT (added 2026-08-13)
+- File: `/home/ubuntu/.openclaw/workspace/.bartact-indexing-service-account.json`
+- Account: `REDACTED_GCP_SERVICE_ACCOUNT`
+- Project: `bartact-ghost-cleanup`
+- Added as Owner to bartact.com AND https://www.bartact.com in Search Console
+- Script: `scripts/bartact-full-site-indexing.js` — KEY_PATH points to this file
+- Completely separate from Bull Strap (OAuth2) and the old axl-348 shared account
+- NEVER go back to axl-348 or besttirepatch.com credentials for Bartact
+
 ## 🔑 BARTACT SHOPIFY TOKEN — HOW TO GET IT (NEVER ASK MITCH)
 When SHOPIFY_TOKEN_BARTACT goes 401:
 1. POST to `https://bartact.myshopify.com/admin/oauth/access_token` with `{client_id: "78fd9505a467f0795d035e5f4a6dfb06", client_secret: "REDACTED_SHOPIFY_APP_SECRET", grant_type: "client_credentials"}`
