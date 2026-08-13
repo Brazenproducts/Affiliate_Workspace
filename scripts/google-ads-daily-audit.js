@@ -3,8 +3,9 @@
  * Google Ads Daily Audit — Bartact
  * Runs at 9 AM PST daily via cron
  * Goal: maintain 3.0-3.5x TRUE SALES ROAS minimum, 4x+ target
- * ROAS = Google-attributed conversion value / Google Ads spend (honest number)
- * Shopify revenue shown as context only — never divide total Shopify rev by Google spend
+ * ROAS = Shopify revenue from Google-sourced orders / Google Ads spend (TRUE number)
+ * We match Shopify orders where landing_site contains gclid or utm_source=google
+ * This is NOT Google's self-reported attribution — it's actual Shopify sales data.
  * NEVER suggests pausing campaigns — only budget adjustments
  */
 
@@ -142,11 +143,29 @@ async function run() {
     gaQuery(token, `SELECT campaign.name, campaign.status, campaign_budget.resource_name, campaign_budget.amount_micros FROM campaign WHERE campaign.status = 'ENABLED' ORDER BY campaign_budget.amount_micros DESC`),
   ]);
 
-  // ── 2. Fetch Shopify orders for true revenue ──
+  // ── 2. Fetch Shopify orders — with landing_site + referring_site for Google matching ──
   const [shopifyTW, shopifyLW] = await Promise.all([
-    shopifyGet(`/admin/api/2024-01/orders.json?status=any&created_at_min=${fmtDateISO(thisMonday)}T00:00:00-07:00&created_at_max=${fmtDateISO(today)}T23:59:59-07:00&limit=250&fields=id,total_price,financial_status,created_at`),
-    shopifyGet(`/admin/api/2024-01/orders.json?status=any&created_at_min=${fmtDateISO(lastMonday)}T00:00:00-07:00&created_at_max=${fmtDateISO(lastSunday)}T23:59:59-07:00&limit=250&fields=id,total_price,financial_status,created_at`),
+    shopifyGet(`/admin/api/2024-01/orders.json?status=any&created_at_min=${fmtDateISO(thisMonday)}T00:00:00-07:00&created_at_max=${fmtDateISO(today)}T23:59:59-07:00&limit=250&fields=id,total_price,financial_status,created_at,landing_site,referring_site,source_name`),
+    shopifyGet(`/admin/api/2024-01/orders.json?status=any&created_at_min=${fmtDateISO(lastMonday)}T00:00:00-07:00&created_at_max=${fmtDateISO(lastSunday)}T23:59:59-07:00&limit=250&fields=id,total_price,financial_status,created_at,landing_site,referring_site,source_name`),
   ]);
+
+  // Determine if a Shopify order came from Google Ads
+  // Match: landing_site contains gclid= OR utm_source=google
+  function isGoogleAdsOrder(order) {
+    const land = (order.landing_site || '').toLowerCase();
+    const ref = (order.referring_site || '').toLowerCase();
+    if (land.includes('gclid=')) return true;
+    if (land.includes('utm_source=google')) return true;
+    if (land.includes('utm_medium=cpc') && ref.includes('google')) return true;
+    return false;
+  }
+
+  // Extract utm_campaign from landing_site for campaign-level matching
+  function getCampaignFromOrder(order) {
+    const land = order.landing_site || '';
+    const m = land.match(/[?&]utm_campaign=([^&]+)/i);
+    return m ? decodeURIComponent(m[1]).toLowerCase() : null;
+  }
 
   function shopifyRevenue(orders) {
     return (orders || [])
@@ -154,10 +173,35 @@ async function run() {
       .reduce((s, o) => s + parseFloat(o.total_price), 0);
   }
 
-  const shopifyRevTW = shopifyRevenue(shopifyTW.orders);
-  const shopifyRevLW = shopifyRevenue(shopifyLW.orders);
-  const shopifyOrdersTW = (shopifyTW.orders || []).filter(o => o.financial_status !== 'voided').length;
-  const shopifyOrdersLW = (shopifyLW.orders || []).filter(o => o.financial_status !== 'voided').length;
+  function googleAdsRevenue(orders) {
+    return (orders || [])
+      .filter(o => o.financial_status !== 'voided' && o.financial_status !== 'refunded')
+      .filter(isGoogleAdsOrder)
+      .reduce((s, o) => s + parseFloat(o.total_price), 0);
+  }
+
+  const allOrdersTW = shopifyTW.orders || [];
+  const allOrdersLW = shopifyLW.orders || [];
+
+  const shopifyRevTW = shopifyRevenue(allOrdersTW);
+  const shopifyRevLW = shopifyRevenue(allOrdersLW);
+  const shopifyOrdersTW = allOrdersTW.filter(o => o.financial_status !== 'voided').length;
+  const shopifyOrdersLW = allOrdersLW.filter(o => o.financial_status !== 'voided').length;
+
+  // TRUE Google Ads revenue — Shopify orders that came from Google
+  const trueGoogleRevTW = googleAdsRevenue(allOrdersTW);
+  const trueGoogleRevLW = googleAdsRevenue(allOrdersLW);
+  const trueGoogleOrdersTW = allOrdersTW.filter(o => o.financial_status !== 'voided' && isGoogleAdsOrder(o)).length;
+
+  // Campaign-level Shopify revenue mapping (best effort via utm_campaign)
+  const shopifyCampaignRevTW = {};
+  for (const order of allOrdersTW) {
+    if (!isGoogleAdsOrder(order) || order.financial_status === 'voided' || order.financial_status === 'refunded') continue;
+    const camp = getCampaignFromOrder(order);
+    if (camp) {
+      shopifyCampaignRevTW[camp] = (shopifyCampaignRevTW[camp] || 0) + parseFloat(order.total_price);
+    }
+  }
 
   // ── 3. Roll up campaign data ──
   function rollup(rows) {
@@ -180,12 +224,12 @@ async function run() {
   const totalRevTW = Object.values(tw).reduce((s, c) => s + c.rev, 0);
   const totalSpendLW = Object.values(lw).reduce((s, c) => s + c.spend, 0);
 
-  // Google-attributed ROAS (the only honest number — don't attribute all Shopify revenue to Google)
+  // TRUE ROAS = Shopify revenue from Google-sourced orders / Google Ads spend
+  const trueRoasTW = totalSpendTW > 0 ? trueGoogleRevTW / totalSpendTW : 0;
+  const trueRoasLW = totalSpendLW > 0 ? trueGoogleRevLW / totalSpendLW : 0;
+  // Google self-reported ROAS kept for comparison only
   const googleRoasTW = totalSpendTW > 0 ? totalRevTW / totalSpendTW : 0;
   const googleRoasLW = totalSpendLW > 0 ? Object.values(lw).reduce((s,c)=>s+c.rev,0) / totalSpendLW : 0;
-  // Shopify total shown separately as context only — NOT divided by Google spend
-  const trueRoasTW = googleRoasTW; // alias for flag logic below
-  const trueRoasLW = googleRoasLW;
 
   // ── 4. Daily trend (last 3 days) ──
   const byDay = {};
@@ -281,11 +325,11 @@ async function run() {
   lines.push('');
 
   // True ROAS summary
-  lines.push('━━━ GOOGLE-ATTRIBUTED ROAS ━━━');
-  lines.push(`This week: $${totalSpendTW.toFixed(0)} spend → **${googleRoasTW.toFixed(2)}x ROAS** (Google-attributed conversions only)`);
-  lines.push(`Last week: $${totalSpendLW.toFixed(0)} spend → **${googleRoasLW.toFixed(2)}x ROAS**`);
-  lines.push(`Shopify total this week: $${shopifyRevTW.toFixed(0)} revenue, ${shopifyOrdersTW} orders (includes ALL channels — do NOT divide by Google spend)`);
-  lines.push(`Google-reported ROAS this week: ${googleRoasTW.toFixed(2)}x`);
+  lines.push('━━━ TRUE SHOPIFY ROAS (from Shopify order data) ━━━');
+  lines.push(`This week: $${totalSpendTW.toFixed(0)} spend → **${trueRoasTW.toFixed(2)}x TRUE ROAS** (Shopify orders from Google clicks)`);
+  lines.push(`Google-claimed ROAS this week: ${googleRoasTW.toFixed(2)}x (for reference only)`);
+  lines.push(`Last week: $${totalSpendLW.toFixed(0)} spend → **${trueRoasLW.toFixed(2)}x TRUE ROAS**`);
+  lines.push(`Shopify: $${trueGoogleRevTW.toFixed(0)} from ${trueGoogleOrdersTW} Google orders | $${shopifyRevTW.toFixed(0)} total store rev (${shopifyOrdersTW} orders all channels)`);
   lines.push(`Target: ${TARGET_ROAS_MIN}x min / ${TARGET_ROAS_GOAL}x goal`);
   lines.push('');
 
@@ -336,11 +380,11 @@ async function run() {
   console.log(`\nSaved to ${outPath}`);
 
   // Build Telegram summary
-  const roasEmoji = googleRoasTW >= TARGET_ROAS_GOAL ? '✅' : googleRoasTW >= TARGET_ROAS_MIN ? '⚠️' : '🔴';
+  const roasEmoji = trueRoasTW >= TARGET_ROAS_GOAL ? '✅' : trueRoasTW >= TARGET_ROAS_MIN ? '⚠️' : '🔴';
   const tgLines = [
     `${roasEmoji} *Bartact Ads — ${fmtDateISO(today)}*`,
-    `Spend: $${totalSpendTW.toFixed(0)} | ROAS: ${googleRoasTW.toFixed(2)}x (target: ${TARGET_ROAS_MIN}x+)`,
-    `Shopify revenue: $${shopifyRevTW.toFixed(0)} (${shopifyOrdersTW} orders, all channels)`,
+    `Spend: $${totalSpendTW.toFixed(0)} | TRUE ROAS: ${trueRoasTW.toFixed(2)}x (Shopify-verified) | Google claims: ${googleRoasTW.toFixed(2)}x`,
+    `Google orders: $${trueGoogleRevTW.toFixed(0)} (${trueGoogleOrdersTW} orders) | Store total: $${shopifyRevTW.toFixed(0)} (${shopifyOrdersTW} orders)`,
     '',
   ];
 
