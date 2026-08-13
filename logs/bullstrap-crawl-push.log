@@ -1605,3 +1605,106 @@ Skipped IndexNow submission because Bull Strap root key file is not live.
 Sitemaps: 82
 Total URLs: 79437
 IndexNow submitted: 0
+=== Bull Strap Crawl Push ===
+
+Root key URL: 301 (https://bullstrap.com/b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5.txt)
+CDN key URL: 200 (https://cdn.shopify.com/s/files/1/0739/5930/9585/t/5/assets/b4f7e2a1c3d5e6f7a8b9c0d1e2f3a4b5.txt)
+
+IndexNow BLOCKED for Bull Strap: key file is not available at the root domain.
+Shopify CDN asset exists, but IndexNow requires a same-host key location.
+Needed next step: Cloudflare Worker/root route OR Bing Webmaster Tools API credentials.
+
+Sitemap index: 200, 10714 bytes
+Sitemaps found: 82
+  sitemap_agentic_discovery.xml: 1 URLs
+  sitemap_products_1.xml: 905 URLs
+  sitemap_products_2.xml: 1000 URLs
+  sitemap_products_3.xml: 1000 URLs
+  sitemap_products_4.xml: 1000 URLs
+  sitemap_products_5.xml: 1000 URLs
+  sitemap_products_6.xml: 1000 URLs
+  sitemap_products_7.xml: 1000 URLs
+  sitemap_products_8.xml: 1000 URLs
+  sitemap_products_9.xml: 1000 URLs
+  sitemap_products_10.xml: 1000 URLs
+  sitemap_products_11.xml: 1000 URLs
+  sitemap_products_12.xml: 1000 URLs
+  sitemap_products_13.xml: 1000 URLs
+  sitemap_products_14.xml: 1000 URLs
+  sitemap_products_15.xml: 1000 URLs
+  sitemap_products_16.xml: 1000 URLs
+  sitemap_products_17.xml: 1000 URLs
+  sitemap_products_18.xml: 1000 URLs
+  sitemap_products_19.xml: 1000 URLs
+  sitemap_products_20.xml: 1000 URLs
+  sitemap_products_21.xml: 1000 URLs
+  sitemap_products_22.xml: 1000 URLs
+  sitemap_products_23.xml: 1000 URLs
+  sitemap_products_24.xml: 1000 URLs
+  sitemap_products_25.xml: 1000 URLs
+  sitemap_products_26.xml: 1000 URLs
+  sitemap_products_27.xml: 1000 URLs
+  sitemap_products_28.xml: 1000 URLs
+  sitemap_products_29.xml: 1000 URLs
+  sitemap_products_30.xml: 1000 URLs
+  sitemap_products_31.xml: 1000 URLs
+  sitemap_products_32.xml: 1000 URLs
+  sitemap_products_33.xml: 1000 URLs
+  sitemap_products_34.xml: 1000 URLs
+  sitemap_products_35.xml: 1000 URLs
+  sitemap_products_36.xml: 1000 URLs
+  sitemap_products_37.xml: 1000 URLs
+  sitemap_products_38.xml: 1000 URLs
+  sitemap_products_39.xml: 1000 URLs
+  sitemap_products_40.xml: 1000 URLs
+  sitemap_products_41.xml: 1000 URLs
+  sitemap_products_42.xml: 1000 URLs
+  sitemap_products_43.xml: 1000 URLs
+  sitemap_products_44.xml: 1000 URLs
+  sitemap_products_45.xml: 1000 URLs
+  sitemap_products_46.xml: 1000 URLs
+  sitemap_products_47.xml: 1000 URLs
+  sitemap_products_48.xml: 1000 URLs
+  sitemap_products_49.xml: 1000 URLs
+  sitemap_products_50.xml: 1000 URLs
+  sitemap_products_51.xml: 1000 URLs
+  sitemap_products_52.xml: 1000 URLs
+  sitemap_products_53.xml: 1000 URLs
+  sitemap_products_54.xml: 1000 URLs
+  sitemap_products_55.xml: 1000 URLs
+  sitemap_products_56.xml: 1000 URLs
+  sitemap_products_57.xml: 1000 URLs
+  sitemap_products_58.xml: 1000 URLs
+  sitemap_products_59.xml: 1000 URLs
+  sitemap_products_60.xml: 1000 URLs
+  sitemap_products_61.xml: 1000 URLs
+  sitemap_products_62.xml: 1000 URLs
+  sitemap_products_63.xml: 1000 URLs
+  sitemap_products_64.xml: 1000 URLs
+  sitemap_products_65.xml: 1000 URLs
+  sitemap_products_66.xml: 1000 URLs
+  sitemap_products_67.xml: 1000 URLs
+  sitemap_products_68.xml: 1000 URLs
+  sitemap_products_69.xml: 1000 URLs
+  sitemap_products_70.xml: 1000 URLs
+  sitemap_products_71.xml: 1000 URLs
+  sitemap_products_72.xml: 1000 URLs
+  sitemap_products_73.xml: 1000 URLs
+  sitemap_products_74.xml: 1000 URLs
+  sitemap_products_75.xml: 1000 URLs
+  sitemap_products_76.xml: 1000 URLs
+  sitemap_products_77.xml: 1000 URLs
+  sitemap_products_78.xml: 64 URLs
+  sitemap_pages_1.xml: 750 URLs
+  sitemap_collections_1.xml: 958 URLs
+  sitemap_blogs_1.xml: 160 URLs
+
+Total URLs collected: 78838
+
+=== IndexNow Submission ===
+Skipped IndexNow submission because Bull Strap root key file is not live.
+
+=== RESULTS ===
+Sitemaps: 82
+Total URLs: 78838
+IndexNow submitted: 0

@@ -179,6 +179,7 @@ Already taken (don't try):
 - vegetable-crate.jpg — salad bowl stock photo, not a crate
 - poultry-box.jpg — live chickens stock photo, not a PP box
 - 82.jpg — "CHARRIES" box (Elipacko misspelling of cherries) — Mitch explicitly banned this
+- 84.jpg — SECOND CHARRIES BOX — different file, same banned product — discovered 2026-08-12, removed from all 23 files across 8 repos
 - cherry-box.jpg — same charries product, do not use
 - produce------.jpg — crab box, not a produce/agriculture photo
 
