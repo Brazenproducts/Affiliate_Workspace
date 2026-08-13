@@ -1478,3 +1478,83 @@ Any existing link to bullstrap.com (homepage) or bullstrap.com/collections/all m
 - Google may not crawl a page for weeks without a push
 - IndexNow is free, instant, and has no daily cap — there is no excuse not to submit
 - Every day of delay is a day of lost ranking opportunity
+
+---
+
+## 30. MANDATORY SEO TAG AUDIT — ALL SITES, AUTO-CHECKS (added 2026-08-13)
+
+**Origin:** Bartact audit found title/meta/alt issues across the network. All bots must run these checks on every site they manage, not just Bartact. Regressed sites must be fixed same session.
+
+### The 5 Checks — Run After Every Content Push
+
+| # | Check | Pass Criteria | Fix |
+|---|---|---|---|
+| 1 | **Title tag length** | ≤65 chars | Shorten: keep keyword first, move brand to end, abbreviate "Faithful Passages" → "FP" if needed |
+| 2 | **Title tag format** | Keyword FIRST, brand LAST | Reorder: `[Keyword] — [Differentiator] \| [Brand]` |
+| 3 | **Meta description** | 80–160 chars, present on all pages | Write to improve CTR — describe the content + value proposition |
+| 4 | **Image alt text** | Every `<img>` has non-empty alt; alt starts with keyword not brand | `[Keyword] — [context] \| [Brand]` |
+| 5 | **Rogue/template pages** | No affiliate templates, placeholder pages, or "undefined" content | Delete or repurpose immediately |
+
+### Shell Audit One-Liner (Faithful Passages)
+
+Run this after every push to verify no regressions:
+
+```bash
+SITE=/path/to/site
+python3 - << 'PYEOF'
+import os, re
+SITE = '/home/ubuntu/.openclaw/workspace/sites/faithfulpassages.com'
+issues = []
+for f in sorted(os.listdir(SITE)):
+    if not f.endswith('.html'): continue
+    html = open(os.path.join(SITE, f)).read()
+    t = (re.search(r'<title>([^<]+)</title>', html) or ['',''])[1]
+    d = (re.search(r'<meta name="description" content="([^"]+)"', html) or ['',''])[1]
+    imgs = re.findall(r'<img[^>]*>', html)
+    if len(t) > 65: issues.append(f'TITLE[{len(t)}] {f}: {t}')
+    if not d and 'noindex' not in html: issues.append(f'DESC_MISSING {f}')
+    elif d == 'undefined': issues.append(f'DESC_UNDEFINED {f}')
+    elif d and len(d) < 80: issues.append(f'DESC_SHORT[{len(d)}] {f}')
+    elif len(d) > 160: issues.append(f'DESC_LONG[{len(d)}] {f}')
+    for img in imgs:
+        if 'alt=' not in img or 'alt=""' in img or "alt=''" in img:
+            issues.append(f'IMG_ALT {f}: {img[:80]}')
+if issues:
+    print(f'ISSUES ({len(issues)}):')
+    for i in issues: print(f'  {i}')
+else:
+    print('✅ CLEAN — all titles, descs, and alt text pass')
+PYEOF
+```
+
+### Triggers — When to Run the Audit
+
+- After every content push (mandatory)
+- At the start of any new session working on the site
+- Before every SEO report (Friday 5pm PST, Monday 5am PST)
+- Whenever a new page is created
+
+### Issue Thresholds
+
+- **Title >65 chars:** Fix same session, same commit
+- **Meta desc missing or "undefined":** Fix immediately — these show up as crawl errors in GSC
+- **Meta desc <80 chars:** Fix same session
+- **Image alt empty or missing:** Fix same session
+- **Rogue/affiliate template pages:** Delete immediately, submit URL removal in GSC if already indexed
+
+### Faithful Passages Specific Rules (Section 18 overrides Bartact defaults)
+
+- Title: keyword first, `| FP` or `| Faithful Passages` brand suffix — max 65 chars total
+- Meta desc: 80–160 chars; for scripture pages include verse reference + honest hook; for prayers include the situation (anxiety, grief, etc.)
+- No "Made in USA" or fitment language — FP is devotional content, not product pages
+- Image alt pattern (if images ever added): `[Topic] — [context] | Faithful Passages`
+- `privacy.html` and other legal pages: add `<meta name="robots" content="noindex">` instead of padding with fake content
+
+### What Happened (2026-08-13) — Why This Section Exists
+
+- Bartact audit caught title tags starting with brand name, over 65 chars, and images with empty alt text across multiple sites
+- Slashdaddy ran the same audit on FP — found 12 titles over 65 chars, 6 bad meta descriptions (including 2 containing the word "undefined"), and 1 rogue affiliate template page (`truth-about-faithfulpassages-2026.html`) that had been sitting indexed on the site
+- **"undefined"** appeared in two meta descriptions because the catch-up posts (Aug 7–10) were generated from a template where the description field was not populated before HTML was written — auto-publish scripts must validate all fields before writing
+- Fix: all 17 affected files patched in one pass; rogue page deleted; `privacy.html` given noindex; IndexNow submitted for all 18 URLs
+- This Section 30 added to prevent regression
+
