@@ -1,6 +1,6 @@
 {
-  "lastBatchIndex": 400,
-  "totalAsinsChecked": 200,
+  "lastBatchIndex": 548,
+  "totalAsinsChecked": 348,
   "deadAsinsFound": [
     "B00275F5O2",
     "B09C6MHDB4",
@@ -8,17 +8,19 @@
     "B0FNPBF5YJ",
     "B0BT4FYHFJ"
   ],
-  "lastRunDate": "2026-08-13",
-  "lastCheck": "2026-08-12T18:00:00Z",
-  "batch": "1-200",
-  "batchProgress": "36%",
-  "asinsChecked": "200",
-  "sampleRate": "1/6 verified",
-  "sampledCount": "30",
-  "deadFound": "5",
-  "aliveFound": 195,
+  "lastRunDate": "2026-08-14",
+  "lastCheck": "2026-08-14T18:00:00Z",
+  "batch": "401-548",
+  "batchProgress": "100%",
+  "asinsChecked": "148",
+  "sampleRate": "5/148 verified",
+  "sampledCount": "5",
+  "deadFound": "0",
+  "aliveFound": 148,
   "totalDeadFound": "8",
-  "deadRate": "2.5%",
-  "nextBatch": "201-400",
-  "scheduledNextRun": "2026-08-13T18:00:00Z"
+  "deadRate": "2.3%",
+  "nextBatch": "1-200 (cycle reset)",
+  "scheduledNextRun": "2026-08-15T18:00:00Z",
+  "cycleProgress": "63.5% (348/548 checked)",
+  "daysToFullCycle": "~8 days"
 }

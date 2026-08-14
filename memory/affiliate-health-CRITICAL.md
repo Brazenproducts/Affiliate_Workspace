@@ -1,110 +1,47 @@
-# 🚨 AFFILIATE HEALTH CRITICAL — August 13, 2026
+# CRITICAL AFFILIATE ISSUES - 2026-08-14
 
-**Alert Date:** Thursday, August 13th, 2026 - 3:00 PM UTC  
-**Critical Count:** 157 sites
+**Alert Date:** Friday, August 14th, 2026 - 3:02 PM UTC
 
-## Immediate Action Sites
+## 151 Sites in Critical Status
 
-### Tier 1: Catastrophic Monetization Issues
+### Primary Failure Modes
 
-**whatarebest.com**
-- **1,833 missing affiliate links** — massive monetization gap
-- No privacy.html
-- 3 broken internal links
-- STATUS: Effectively unmoneized
+#### 1. Missing Affiliate Tags (Most Common)
+Affecting ~120 sites — no Amazon monetization detected.
 
-**Zero-Monetization Sites** (no Amazon links at all):
+**Sample Critical Sites:**
+- 120sfshed.com (20 links, no tags)
+- 18wheelgear.com (72 links, no tags)
+- 4x4king.com (85 links, no tags)
+- 4x4stomper.com (85 links, no tags)
+- accordionfilter.com (85 links, no tags)
+- airfilterforpets-com (120 links, no tags)
+- allbrandsdirect.com (90 links, no tags)
+- allergenairfilter-com (120 links, no tags)
+- And **140+ more...**
+
+#### 2. Zero Amazon Links (No Monetization)
 - indexing-credentials
 - whatsizehvacfilter.com
 - wholehouseairfilter.com
 - wranglerseat.com
 
-### Tier 2: Major Missing Content (145+ links unmonetized each)
-
-- cagewraps.com (145 missing)
-- canopyjacket.com (145 missing)
-- cushions4u.com (145 missing)
-- custompatchesembroidered.com (145 missing)
-- fabricoutletusa.com (145 missing)
-- kidskinleather.com (145 missing)
-- lasermats.com (145 missing)
-
-### Tier 3: Infrastructure Failures
-
-**Missing robots.txt + sitemap.xml + privacy.html** (60+ sites with this combo):
-- 18wheelgear.com (68 missing affiliate tags)
-- 4x4king.com (80 missing affiliate tags)
-- 4x4stomper.com (80 missing affiliate tags)
-- accordionfilter.com (80 missing affiliate tags)
-- airfilterforpets-com (120 missing affiliate tags)
-- allbrandsdirect.com (85 missing affiliate tags)
-- allergenairfilter-com (120 missing affiliate tags)
-- altitudeparts.com (80 missing affiliate tags)
-- americapartygoods.com (100 missing affiliate tags)
-- americapartyproducts.com (105 missing affiliate tags)
-- americapartysupply.com (100 missing affiliate tags)
-- amerikantool.com (100 missing affiliate tags)
-- amishfirewood.com (100 missing affiliate tags)
-- amishhardwood.com (100 missing affiliate tags)
-- amishlandfirewood.com (100 missing affiliate tags)
-- amishlandhardwood.com (100 missing affiliate tags)
-- amishlandwood.com (100 missing affiliate tags)
-- andesvirusfilter.com (100 missing affiliate tags)
-- andesvirusmask.com (115 missing affiliate tags)
-- andesvirusmasks.com (115 missing affiliate tags)
-- andesvirusoutbreak.com (120 missing affiliate tags)
-- andesvirustransmission.com (100 missing affiliate tags)
-- andesvirustreatment.com (115 missing affiliate tags)
-- appalachianfirewood.com (115 missing affiliate tags)
-- autopartsreviewed-com (115 missing affiliate tags)
-- autopartstorenearme.com (115 missing affiliate tags)
-- autoshipfilter-com (50 missing affiliate tags)
-- autoshipfilter.com (115 missing affiliate tags)
-- barkstrap.com (110 missing affiliate tags)
-- batheater.com (115 missing affiliate tags)
-- batheaters.com (110 missing affiliate tags)
-- bestblockchainapp.com (120 missing affiliate tags)
-- bestcarwashkits.com (110 missing affiliate tags)
-- bestcryptocurrencyapp.com (120 missing affiliate tags)
-- bestdiningapp.com (120 missing affiliate tags)
-- bestdiningapps.com (120 missing affiliate tags)
-- bestdogtrainingcourse.com (120 missing affiliate tags)
-- bestfatburnerpills.com (20 missing affiliate tags)
-- bestfiltering.com (88 missing affiliate tags)
-- besthvacfilter-com (100 missing affiliate tags)
-- bestofficefilters.com (40 missing affiliate tags)
-- bestorbitalsandpaper.com (40 missing affiliate tags)
-- bestresistance-bands.com (16 missing affiliate tags)
-- bestvibrationplate.com (35 missing affiliate tags)
-- bestwaterfilterpitcher.com (35 missing affiliate tags)
-- bestweightedvest.com (46 missing affiliate tags)
-- bestwindshieldwiper-com (75 missing affiliate tags)
-- broncocage.com (46 missing affiliate tags)
-- furnaceprefilter-com (65 missing affiliate tags)
-- ifrclothing.com (85 missing affiliate tags)
-- kidskingloves.com (85 missing affiliate tags)
-- muricantool.com (70 missing affiliate tags)
-- purchasefilters.com (90 missing affiliate tags)
-- topchainsaw.com (25 missing affiliate tags)
-- topespressomaker.com (6 missing affiliate tags)
-- topgaragedooropener.com (25 missing affiliate tags)
-- toppelletgrill.com (25 missing affiliate tags)
-- topportablepowerstation.com (25 missing affiliate tags)
-- topsnowblower.com (25 missing affiliate tags)
-- topwalkingpad.com (25 missing affiliate tags)
-- weldapron.com (70 missing affiliate tags)
-- weldingsleeve.com (65 missing affiliate tags)
-- whicharebest.com (60 missing affiliate tags)
-
-## Recommendation
-
-**Immediate:** 
-1. Fix whatarebest.com (1833 links = highest revenue potential)
-2. Monetize zero-link sites
-3. Batch-fix the 7 sites with 145+ missing links
-4. Generate missing infrastructure files for robots.txt/sitemap/privacy
-
-**Timeline:** Next 48 hours minimum
+#### 3. Combined SEO + Compliance Failures
+Most critical sites are missing:
+- robots.txt
+- sitemap.xml
+- privacy.html
+- Internal links (2-27 broken per site)
 
 ---
-Generated by affiliate health check cron job
+
+## Recommended Action Plan
+1. **Immediate:** Add affiliate tags to all 120+ sites missing them
+2. **High Priority:** Generate privacy.html for compliance
+3. **SEO Recovery:** Create robots.txt + sitemap.xml
+4. **Link Audit:** Fix broken internal links (27 on besttirepatch.com)
+5. **Strategy Review:** Decide on 4 zero-monetization sites
+
+---
+
+*Full health data: /home/ubuntu/.openclaw/workspace/memory/affiliate-health-2026-08-14.json*

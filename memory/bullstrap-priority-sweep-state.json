@@ -1,6 +1,6 @@
 {
-  "phase": 4,
-  "brandIndex": 13,
+  "phase": 1,
+  "brandIndex": 4,
   "sinceId": 0,
   "totalFixed": 21310,
   "totalIndexed": 1300,
@@ -16,8 +16,11 @@
     "Phase 1 — Suspension",
     "Phase 2 — Wheels & Tires",
     "Phase 3 — Exterior",
-    "Phase 4 — Interior"
+    "Phase 4 — Interior",
+    "Phase 5 — Performance",
+    "Phase 6 — Everything Else",
+    "Phase 1 — Suspension"
   ],
-  "lastRun": "2026-08-14T12:58:42.982Z",
+  "lastRun": "2026-08-14T20:58:45.454Z",
   "locked": false
 }

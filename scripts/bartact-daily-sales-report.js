@@ -144,6 +144,7 @@ async function getGoogleAdsRoas(adsToken, dateStr) {
     headers: {
       'Authorization': 'Bearer ' + adsToken,
       'developer-token': creds.dev_token,
+      'login-customer-id': creds.login_customer_id || '3931546976',
       'Content-Type': 'application/json'
     },
     body
@@ -312,6 +313,11 @@ async function main() {
   ]);
   const adsRows = await getGoogleAdsRoas(gscToken, ystStr).catch(() => []);
 
+  // Shopify-verified Google Ads revenue (gclid-attributed orders only)
+  const shopifyGoogleRev = orders
+    .filter(o => !['voided','refunded'].includes(o.financial_status))
+    .reduce((s, o) => getChannel(o) === 'Google Ads' ? s + parseFloat(o.total_price || 0) : s, 0);
+
   const paid = orders.filter(o => !['voided', 'refunded'].includes(o.financial_status));
   console.log(`Orders: ${orders.length} total, ${paid.length} paid`);
 
@@ -366,17 +372,23 @@ async function main() {
   // ── Google Ads ROAS section ──
   if (adsRows.length > 0) {
     const totalSpend = adsRows.reduce((s,r) => s + (r.metrics.costMicros||0)/1e6, 0);
-    const totalRev = adsRows.reduce((s,r) => s + (r.metrics.conversionsValue||0), 0);
-    const totalRoas = totalSpend > 0 ? totalRev/totalSpend : 0;
+    const googleTrackedRev = adsRows.reduce((s,r) => s + (r.metrics.conversionsValue||0), 0);
+    const trueRoas = totalSpend > 0 ? shopifyGoogleRev/totalSpend : 0;
+    const roasIcon = trueRoas >= 4 ? '🟢' : trueRoas >= 2 ? '🟡' : '🔴';
     salesMsg += `\n📢 <b>Google Ads (${dateLabel})</b>\n`;
-    salesMsg += `<b>$${totalSpend.toFixed(0)} spend → $${totalRev.toFixed(0)} rev = ${totalRoas.toFixed(2)}x ROAS</b> <i>(Google-attributed)</i>\n`;
+    salesMsg += `${roasIcon} <b>$${totalSpend.toFixed(0)} spend → $${shopifyGoogleRev.toFixed(0)} Shopify rev = ${trueRoas.toFixed(2)}x TRUE ROAS</b>\n`;
+    // Pixel health check
+    if (totalSpend > 10 && googleTrackedRev < shopifyGoogleRev * 0.7) {
+      const capturePct = shopifyGoogleRev > 0 ? Math.round((googleTrackedRev/shopifyGoogleRev)*100) : 0;
+      salesMsg += `  ⚠️ Pixel gap: Google tracking $${googleTrackedRev.toFixed(0)} vs Shopify $${shopifyGoogleRev.toFixed(0)} (${capturePct}% capture) — conversion pixel may be broken\n`;
+    }
+    salesMsg += `<i>Spend by campaign (Google-tracked rev in parens):</i>\n`;
     for (const r of adsRows) {
       const spend = (r.metrics.costMicros||0)/1e6;
-      const rev = r.metrics.conversionsValue||0;
-      const roas = spend > 0 ? rev/spend : 0;
-      const icon = rev === 0 ? '🔴' : roas >= 3 ? '🟢' : roas >= 1.5 ? '🟡' : '🔴';
+      if (spend < 1) continue;
+      const gRev = r.metrics.conversionsValue||0;
       const name = r.campaign.name.length > 32 ? r.campaign.name.slice(0,30)+'…' : r.campaign.name;
-      salesMsg += `  ${icon} ${name}: $${spend.toFixed(0)} → $${rev.toFixed(0)} (${roas.toFixed(1)}x)\n`;
+      salesMsg += `  • ${name}: $${spend.toFixed(0)} spend ($${gRev.toFixed(0)} G-tracked)\n`;
     }
   }
 

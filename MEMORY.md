@@ -25,6 +25,16 @@ Every single time. Before keywords, negatives, geo, copy — ANYTHING:
 
 Lessons learned the hard way: campaigns ran without tROAS targets for months at 2x TRUE ROAS. Mitch caught it. Never again.
 
+## ⛔ SHOPIFY SEO FIELD — HARD RULE (added 2026-08-14)
+The Shopify SEO meta description is a SEPARATE field from body_html/product description.
+- API field: `metafields` with namespace `global`, key `description_tag` (or via `seo.description` in GraphQL)
+- Writing to `body_html` does NOT populate the SEO meta description field — Google sees nothing
+- Every script that writes SEO content MUST write to BOTH: `body_html` (content) AND `seo.description` / `description_tag` (meta)
+- Same applies to title: `title` (product name) is separate from `seo.title` / `title_tag`
+- VERIFICATION: After any SEO script runs, spot-check 5-10 products in Shopify Admin → product page → scroll to bottom → "Search engine listing" section — the meta description must be populated there
+- This burned Bartact (305 products, zero meta descs) and likely Bull Strap too
+- APPLIES TO ALL BOTS: Bartact, Filli (Bull Strap), and any other Shopify store
+
 ## ⛔ NEVER CONFIRM SUCCESS WITHOUT VERIFYING — HARD RULE (2026-08-13)
 Before telling Mitch ANYTHING succeeded (indexing ran, URLs submitted, script worked, file saved, etc.):
 1. READ the output/file/state — don't trust what the script printed if the setup might be broken
