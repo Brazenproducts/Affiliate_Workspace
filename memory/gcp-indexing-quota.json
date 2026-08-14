@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-13",
-  "used": 0,
-  "bartactDone": false,
-  "bartactSubmitted": 0,
+  "date": "2026-08-14",
+  "used": 199,
+  "bartactDone": true,
+  "bartactSubmitted": 199,
   "bartactErrors": 0,
-  "bartactRunAt": "2026-08-13T17:29:22.377Z"
+  "bartactRunAt": "2026-08-14T07:01:36.395Z"
 }

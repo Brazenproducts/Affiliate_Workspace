@@ -9946,3 +9946,11 @@ Batch done: processed 5000 | fixed 44 | images 0 | skipped 4955 | since_id 10508
 This run: 44 products, 0 images fixed
 Cumulative: 46999 products, 0 images
 Next since_id: 10508665061649
+◇ injected env (6) from ../../.env // tip: ⌘ enable debugging { debug: true }
+Resuming from since_id: 10508665061649 | Total fixed: 46999 | Images fixed: 0
+No more products — ALL DONE!
+
+=== RUN COMPLETE ===
+This run: 0 products, 0 images fixed
+Cumulative: 46999 products, 0 images
+Next since_id: 10508665061649

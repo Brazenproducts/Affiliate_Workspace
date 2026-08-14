@@ -1,26 +1,132 @@
 {
-  "lastType": "song",
-  "count": 20,
+  "lastType": "scripture",
+  "count": 21,
   "dates": [
-    {"date": "2026-07-24", "type": "prayer", "title": "A Prayer for the Parent of a Prodigal", "slug": "prayer-for-parent-of-prodigal-2026-07-24"},
-    {"date": "2026-07-25", "type": "song", "title": "Even Here", "slug": "song-even-here-2026-07-25"},
-    {"date": "2026-07-26", "type": "scripture", "title": "Jeremiah 29:11 — More Than a Promise for Your Plans", "slug": "jeremiah-29-11-more-than-a-promise-2026-07-26"},
-    {"date": "2026-07-27", "type": "prayer", "title": "A Prayer for When You've Lost Yourself", "slug": "prayer-for-lost-identity-2026-07-27"},
-    {"date": "2026-07-28", "type": "song", "title": "Where Else Would I Go", "slug": "song-where-else-would-i-go-2026-07-28"},
-    {"date": "2026-07-29", "type": "scripture", "title": "Romans 8:28 — Not a Promise That Everything Is Good", "slug": "romans-8-28-not-everything-is-good-2026-07-29"},
-    {"date": "2026-07-30", "type": "prayer", "title": "A Prayer for Those Carrying Financial Shame", "slug": "prayer-for-financial-shame-2026-07-30"},
-    {"date": "2026-07-31", "type": "song", "title": "Still My God", "slug": "song-still-my-god-2026-07-31"},
-    {"date": "2026-08-02", "type": "scripture", "title": "Psalm 22:1 — When God Feels Silent", "slug": "psalm-22-1-when-god-feels-silent-2026-08-02"},
-    {"date": "2026-08-03", "type": "prayer", "title": "A Prayer for Those Who Grieve a Baby Never Held", "slug": "prayer-for-miscarriage-grief-2026-08-03"},
-    {"date": "2026-08-04", "type": "song", "title": "Though I Cannot See", "slug": "song-though-i-cannot-see-2026-08-04"},
-    {"date": "2026-08-05", "type": "scripture", "title": "Philippians 4:13 — It Was Never About What You Can Do", "slug": "philippians-4-13-never-about-what-you-can-do-2026-08-05"},
-    {"date": "2026-08-06", "type": "prayer", "title": "A Prayer for the Exhausted Caregiver", "slug": "prayer-for-exhausted-caregiver-2026-08-06"},
-    {"date": "2026-08-07", "type": "song", "title": "Faithful Still", "slug": "song-faithful-still-2026-08-07"},
-    {"date": "2026-08-08", "type": "scripture", "title": "Matthew 11:28-30 — The Invitation You Keep Missing", "slug": "matthew-11-28-30-come-to-me-all-who-are-weary-2026-08-08"},
-    {"date": "2026-08-09", "type": "prayer", "title": "A Prayer for the Anxious Mind", "slug": "prayer-for-anxiety-2026-08-09"},
-    {"date": "2026-08-10", "type": "song", "title": "Not by Sight", "slug": "song-not-by-sight-2026-08-10"},
-    {"date": "2026-08-11", "type": "scripture", "title": "Lamentations 3:22-23 — Mercy That Resets Every Morning", "slug": "lamentations-3-22-23-mercy-resets-every-morning-2026-08-11"},
-    {"date": "2026-08-12", "type": "prayer", "title": "A Prayer for the One Estranged from Family", "slug": "prayer-for-estrangement-2026-08-12"},
-    {"date": "2026-08-13", "type": "song", "title": "Hold the Darkness", "slug": "song-hold-the-darkness-2026-08-13"}
+    {
+      "date": "2026-07-24",
+      "type": "prayer",
+      "title": "A Prayer for the Parent of a Prodigal",
+      "slug": "prayer-for-parent-of-prodigal-2026-07-24"
+    },
+    {
+      "date": "2026-07-25",
+      "type": "song",
+      "title": "Even Here",
+      "slug": "song-even-here-2026-07-25"
+    },
+    {
+      "date": "2026-07-26",
+      "type": "scripture",
+      "title": "Jeremiah 29:11 \u2014 More Than a Promise for Your Plans",
+      "slug": "jeremiah-29-11-more-than-a-promise-2026-07-26"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "prayer",
+      "title": "A Prayer for When You've Lost Yourself",
+      "slug": "prayer-for-lost-identity-2026-07-27"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "song",
+      "title": "Where Else Would I Go",
+      "slug": "song-where-else-would-i-go-2026-07-28"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "scripture",
+      "title": "Romans 8:28 \u2014 Not a Promise That Everything Is Good",
+      "slug": "romans-8-28-not-everything-is-good-2026-07-29"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "prayer",
+      "title": "A Prayer for Those Carrying Financial Shame",
+      "slug": "prayer-for-financial-shame-2026-07-30"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "song",
+      "title": "Still My God",
+      "slug": "song-still-my-god-2026-07-31"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "scripture",
+      "title": "Psalm 22:1 \u2014 When God Feels Silent",
+      "slug": "psalm-22-1-when-god-feels-silent-2026-08-02"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "prayer",
+      "title": "A Prayer for Those Who Grieve a Baby Never Held",
+      "slug": "prayer-for-miscarriage-grief-2026-08-03"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "song",
+      "title": "Though I Cannot See",
+      "slug": "song-though-i-cannot-see-2026-08-04"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "scripture",
+      "title": "Philippians 4:13 \u2014 It Was Never About What You Can Do",
+      "slug": "philippians-4-13-never-about-what-you-can-do-2026-08-05"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "prayer",
+      "title": "A Prayer for the Exhausted Caregiver",
+      "slug": "prayer-for-exhausted-caregiver-2026-08-06"
+    },
+    {
+      "date": "2026-08-07",
+      "type": "song",
+      "title": "Faithful Still",
+      "slug": "song-faithful-still-2026-08-07"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "scripture",
+      "title": "Matthew 11:28-30 \u2014 The Invitation You Keep Missing",
+      "slug": "matthew-11-28-30-come-to-me-all-who-are-weary-2026-08-08"
+    },
+    {
+      "date": "2026-08-09",
+      "type": "prayer",
+      "title": "A Prayer for the Anxious Mind",
+      "slug": "prayer-for-anxiety-2026-08-09"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "song",
+      "title": "Not by Sight",
+      "slug": "song-not-by-sight-2026-08-10"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "scripture",
+      "title": "Lamentations 3:22-23 \u2014 Mercy That Resets Every Morning",
+      "slug": "lamentations-3-22-23-mercy-resets-every-morning-2026-08-11"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "prayer",
+      "title": "A Prayer for the One Estranged from Family",
+      "slug": "prayer-for-estrangement-2026-08-12"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "song",
+      "title": "Hold the Darkness",
+      "slug": "song-hold-the-darkness-2026-08-13"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "scripture",
+      "title": "Habakkuk 3:17-18 \u2014 Praising God When Nothing Has Changed",
+      "slug": "habakkuk-3-17-18-praising-when-nothing-has-changed-2026-08-14"
+    }
   ]
 }

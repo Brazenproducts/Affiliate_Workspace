@@ -649,3 +649,40 @@ Telegram alert: NOT SENT (no credentials)
 Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-13.md
 
 === DONE ===
+
+=== BARTACT DAILY SEO HEALTH CHECK — 2026-08-14 ===
+
+--- Google Rank Results ---
+  Ranked in top 20: 9 / 18 keywords
+  #1 — paracord grab handles jeep
+  #2 — molle seat covers jeep
+  #4 — jeep wrangler jk seat covers
+  #4 — jeep wrangler fire extinguisher holder
+  #5 — jeep wrangler jl seat covers
+  #7 — jeep wrangler seat covers
+  #7 — molle attachments
+  #8 — jeep gladiator seat covers
+  #8 — jeep wrangler tj seat covers
+  Not ranked (top 20): jeep wrangler grab handles, jeep wrangler jl grab handles, ford bronco grab handles, ford bronco seat covers, toyota tacoma seat covers, suspension limit straps utv, suspension limit straps, limit straps off road, roll bar fire extinguisher holder
+
+--- Bing Rank Results ---
+  No Bing top pages data
+
+--- Technical SEO Health ---
+Sitemap OK — URLs: 0, Sitemaps: 5
+Homepage OK — 479ms | Title: true | H1: false | Canonical: true | Schema: true
+
+--- Summary ---
+⚠️  5 issue(s) found:
+  • Only 9/18 target keywords rank in Google top 20
+  • Bing top pages data unavailable
+  • Bing API: Pages API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • Bing API: Keywords API error: status=400, body={"ErrorCode":3,"Message":"ERROR!!! InvalidApiKey"}
+  • robots.txt may be blocking all crawlers!
+No Telegram credentials configured — skipping alert
+
+Telegram alert: NOT SENT (no credentials)
+
+Daily SEO report written to /home/ubuntu/.openclaw/workspace/memory/seo-daily-2026-08-14.md
+
+=== DONE ===

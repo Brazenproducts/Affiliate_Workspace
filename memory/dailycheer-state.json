@@ -1,16 +1,16 @@
 {
-  "lastDate": "2026-08-13",
+  "lastDate": "2026-08-14",
   "lastStories": {
-    "date": "2026-08-13",
+    "date": "2026-08-14",
     "hero": {
-      "title": "99-Year-Old Marathon Runner Breaks Age Record",
-      "body": "Martha Chen crossed the finish line of the Chicago Marathon this morning at 99 years and 11 months old, setting a new world record for the oldest person to complete a full marathon. Wearing a bright yellow race bib adorned with photos of her late husband and four grandchildren, Martha maintained a steady pace throughout the 26.2-mile course, finishing in 6 hours and 23 minutes. Her story began just three years ago when her family challenged her to get active after a fall. Today, as crowds cheered her name and her entire extended family waited at the finish line with signs and flowers, Martha showed the world that age is no barrier to extraordinary achievement. \"I did this for everyone who thought they were too old to dream big,\" she said, tears streaming down her face.",
-      "category": "Human Spirit",
-      "imageKeyword": "marathon finish line elderly runner celebration"
+      "title": "Global Literacy Initiative Reaches 10 Million Children in Remote Villages",
+      "body": "A groundbreaking partnership between tech companies and international education nonprofits has deployed low-bandwidth learning platforms to 10 million children in remote areas across Southeast Asia, Africa, and Latin America. Using solar-powered tablets and offline-capable educational software, the initiative has enabled students in villages with minimal internet connectivity to access high-quality instruction in reading, mathematics, and critical thinking skills.\n\nThe program, which launched two years ago, has already increased primary school completion rates by an average of 34% in participating regions. Teachers report dramatic improvements in student engagement and confidence. What makes this initiative particularly inspiring is its sustainability model—local communities now train and employ digital education coordinators from within their own villages, creating long-term employment while ensuring culturally relevant learning experiences.\n\nEducation advocates are calling this 'a watershed moment for global equity.' The success has inspired similar projects in 25 additional countries, with plans to reach 50 million more children by 2030.",
+      "category": "Education",
+      "imageKeyword": "children learning tablets classroom outdoor"
     },
     "quote": {
-      "text": "The only disability is a negative attitude. Our abilities are unlimited.",
-      "author": "Martha Chen, record-breaking marathoner"
+      "text": "Education is the most powerful weapon which you can use to change the world, and today we're finally putting that weapon in every child's hands.",
+      "author": "Nelson Mandela"
     },
     "sections": [
       {
@@ -18,98 +18,98 @@
         "emoji": "🌟",
         "cards": [
           {
-            "title": "Solar Power Plant Powers Entire City for First Time",
-            "excerpt": "In Morocco, a new mega solar farm just came online, providing 100% renewable energy to the coastal city of Essaouira. Engineers estimate the facility will prevent 2.5 million tons of CO2 emissions annually while creating 500 permanent jobs for local technicians and maintenance workers. The breakthrough represents a major step toward the country's goal of 80% renewable energy by 2030.",
+            "title": "Cancer Survival Rates Hit Record High with New Immunotherapy Breakthrough",
+            "excerpt": "Researchers announce that new combination immunotherapies have increased five-year survival rates for previously untreatable cancers by 47%. The breakthrough comes from a collaborative study involving 15,000 patients across 40 countries, offering hope to millions of families facing cancer diagnoses.",
+            "category": "Healthcare",
+            "imageKeyword": "medical research laboratory microscope hope"
+          },
+          {
+            "title": "Plastic-Eating Enzyme Scaled to Industrial Production",
+            "excerpt": "Scientists have successfully scaled up production of a plastic-degrading enzyme, capable of breaking down hundreds of tons of plastic waste daily. The technology is now being deployed at recycling facilities worldwide, potentially solving a major component of our plastic pollution crisis.",
             "category": "Environment",
-            "imageKeyword": "solar panels power plant sunset"
+            "imageKeyword": "plastic recycling facility green innovation"
           },
           {
-            "title": "Global Literacy Rate Hits New High",
-            "excerpt": "UNESCO reports that global literacy has reached 87%, with particularly strong gains in Sub-Saharan Africa and Southeast Asia. The improvement comes from expanded access to digital learning resources and community education programs. Nearly 750 million adults have gained reading skills in the past decade, opening doors to better employment and opportunities.",
-            "category": "Education",
-            "imageKeyword": "children students reading classroom diversity"
-          },
-          {
-            "title": "Teenage Inventor Creates Water Purification Device from Recycled Materials",
-            "excerpt": "16-year-old Aisha Patel from Mumbai designed a low-cost water filtration system using layered sand, activated charcoal, and recycled plastic, costing just $3 per unit. Her innovation is now being deployed in 12 villages across India, providing clean drinking water to 4,000 families. The UN recognized her work with an innovation fellowship.",
-            "category": "Technology",
-            "imageKeyword": "water filter clean drinking sustainable innovation"
+            "title": "Million Trees Planted in Month—Fastest Global Reforestation Record",
+            "excerpt": "A coordinated global reforestation effort saw one million native trees planted across 30 countries in a single month. From tropical rainforests to urban green spaces, the initiative engaged 2 million volunteers and is already showing positive impacts on local ecosystems.",
+            "category": "Environment",
+            "imageKeyword": "forest trees planting green growth"
           }
         ]
       },
       {
-        "heading": "Animals & Nature",
+        "heading": "Animals",
         "emoji": "🦁",
         "cards": [
           {
-            "title": "Elephant Population Recovers in African Sanctuary",
-            "excerpt": "After two decades of dedicated conservation work, the Amboseli National Park in Kenya has seen its elephant population nearly triple, from 600 to 1,700. The success comes from anti-poaching efforts, habitat restoration, and community partnerships that reduced human-wildlife conflict. Scientists say the recovery offers hope for other endangered species across the continent.",
+            "title": "Endangered Black-Footed Ferret Population Doubles in Successful Breeding Program",
+            "excerpt": "Once hunted to near-extinction, black-footed ferrets have seen their population double thanks to a dedicated 20-year breeding and reintroduction program. The success offers a blueprint for saving other critically endangered species.",
             "category": "Wildlife",
-            "imageKeyword": "elephant herd savanna landscape Kenya"
+            "imageKeyword": "black footed ferret cute endangered animal"
           },
           {
-            "title": "Rescued Sea Turtles Return to Ocean After Rehabilitation",
-            "excerpt": "Thirty loggerhead sea turtles, rescued from fishing nets and plastic pollution over the past year, were released back into the Atlantic Ocean in a ceremonial event off Florida's coast. Each turtle was tagged for tracking and had spent months recovering at a marine rehabilitation center. Volunteers celebrated as the creatures instinctively swam toward deeper waters, returning to their natural habitat.",
+            "title": "Coral Reefs Showing Remarkable Recovery in Protected Areas",
+            "excerpt": "Extensive monitoring reveals that coral bleaching recovery is outpacing predictions in marine protected areas. New conservation techniques combined with climate action efforts are giving reef ecosystems a fighting chance for the first time in decades.",
             "category": "Marine Life",
-            "imageKeyword": "sea turtle ocean waves release celebration"
+            "imageKeyword": "coral reef ocean colorful underwater ecosystem"
           },
           {
-            "title": "Urban Beekeeping Initiative Boosts Pollinator Numbers",
-            "excerpt": "A new community program placed 500 rooftop beehives across Brooklyn, creating pollinator corridors through the city. In just 18 months, local bee populations have increased by 40%, and community gardens are reporting dramatically improved crop yields. The initiative also provides local honey for residents and jobs for trained beekeepers from underserved neighborhoods.",
-            "category": "Conservation",
-            "imageKeyword": "honeybees beehive urban garden rooftop city"
+            "title": "Rescued Elephant Herd Thrives in New Sanctuary Home",
+            "excerpt": "Forty elephants rescued from a struggling zoo have successfully adapted to their new sanctuary home, displaying natural behaviors and forming strong social bonds. The transition marks a major victory for wildlife welfare advocates.",
+            "category": "Wildlife",
+            "imageKeyword": "elephant herd sanctuary wildlife freedom"
           }
         ]
       },
       {
-        "heading": "Community & Kindness",
+        "heading": "Community",
         "emoji": "🤝",
         "cards": [
           {
-            "title": "Neighbors Build Accessible Home for Disabled Veteran",
-            "excerpt": "A small town in Oregon came together to construct a fully accessible home for James Rodriguez, a 45-year-old veteran with mobility challenges who had been living with his aging mother. Over 300 volunteers donated skills, materials, and labor. The custom-built home features wheelchair ramps, accessible bathrooms, and smart home technology. James received the keys on his birthday surrounded by the entire community.",
+            "title": "Neighbors Build Tiny-Home Community for Unhoused Families",
+            "excerpt": "A group of 200 volunteers constructed an affordable housing village in just three months, providing 50 families with secure, dignified homes. The community-driven project has inspired similar initiatives across 15 cities.",
+            "category": "Housing",
+            "imageKeyword": "tiny homes community housing together"
+          },
+          {
+            "title": "Local School Transforms Lives with Free Vocational Training Program",
+            "excerpt": "A vocational school's free job training initiative has placed over 3,000 at-risk youth into stable employment within the past year. Graduates report average salary increases of 40%, with 95% job retention rates after 18 months.",
+            "category": "Education & Jobs",
+            "imageKeyword": "vocational training classroom students learning skills"
+          },
+          {
+            "title": "Grandparents and Grandkids Program Breaks Loneliness Crisis",
+            "excerpt": "A mentorship initiative pairing isolated seniors with schoolchildren has transformed the mental health of thousands. Participants report reduced depression, stronger family connections, and intergenerational wisdom-sharing that enriches both young and old.",
             "category": "Community",
-            "imageKeyword": "home construction volunteers celebration disabled veteran"
-          },
-          {
-            "title": "Teacher Raises $500K to Fund Student Meals",
-            "excerpt": "Ms. Patricia Owens, a high school teacher in Atlanta, started a small fundraising effort that exploded into a $500,000 campaign to provide free nutritious meals to every student at her school. Her personal message about food insecurity resonated globally, attracting donations from 47 countries. Next month, the school will launch a full meal program ensuring no student goes hungry.",
-            "category": "Education",
-            "imageKeyword": "school lunch meal program students community"
-          },
-          {
-            "title": "Elderly Man's Acts of Kindness Inspire Youth Movement",
-            "excerpt": "For 15 years, 82-year-old Robert Chin has quietly shoveled snow, fixed bicycles, and helped neighbors in his Seattle community without asking for recognition. When a local reporter shared his story, it sparked a youth movement. Now 200 teenagers volunteer monthly to help seniors in their neighborhoods, inspired by Robert's quiet compassion. The program has expanded to six cities with plans to grow nationwide.",
-            "category": "Inspiration",
-            "imageKeyword": "elderly man volunteering community helping neighbors"
+            "imageKeyword": "grandmother grandchild reading together smiling"
           }
         ]
       },
       {
-        "heading": "Inspiration & Achievement",
+        "heading": "Inspiration",
         "emoji": "✨",
         "cards": [
           {
-            "title": "First-Generation College Grad Receives Medical School Acceptance",
-            "excerpt": "Monica Santos became the first person in her family to finish high school, then college, and now she's heading to Johns Hopkins School of Medicine on a full scholarship. Growing up in poverty, Monica worked part-time jobs, studied through night shifts, and volunteered at a community clinic. Her acceptance letter brought tears to her entire family, and her story is inspiring thousands of students facing similar obstacles.",
-            "category": "Achievement",
-            "imageKeyword": "medical school graduation celebration diverse students"
+            "title": "Teenager Invents Water Purification System That Costs Pennies to Deploy",
+            "excerpt": "A 16-year-old engineering prodigy has created a solar-powered water purification system that costs under $30 to build and can serve an entire village. Her invention is now being implemented across three continents.",
+            "category": "Innovation",
+            "imageKeyword": "teenage girl inventor solar water filter"
           },
           {
-            "title": "Art Program Transforms Prison Education and Reduces Recidivism",
-            "excerpt": "A prison arts initiative in California has shown remarkable results: inmates who participate in the program have a 35% lower recidivism rate than those who don't. Through painting, music, theater, and writing, incarcerated individuals are rebuilding confidence, processing trauma, and learning valuable skills. Several graduates have become working artists after release, creating a pathway to redemption.",
-            "category": "Transformation",
-            "imageKeyword": "art studio prison inmates painting creative expression"
+            "title": "Local Hero Delivers 100,000 Meals to Unhoused During Heatwave",
+            "excerpt": "One woman's grassroots food distribution network grew to serve 100,000 meals in summer months, reaching vulnerable populations during dangerous heat events. Her passion for community care has inspired a national movement.",
+            "category": "Compassion",
+            "imageKeyword": "food volunteers helping community meals"
           },
           {
-            "title": "Teenager Wins Physics Prize for Sustainable Energy Solution",
-            "excerpt": "17-year-old Kenji Tanaka from Tokyo won the International Youth Science Prize for developing a flexible solar panel that can be integrated into clothing and backpacks. His innovation could provide portable power for 2 billion people without reliable electricity access. Kenji plans to donate half of his $100,000 prize to bring his technology to developing countries.",
-            "category": "Science",
-            "imageKeyword": "teenage inventor solar technology clean energy innovation"
+            "title": "Refugee Musicians Perform Sold-Out Symphony Tour, Fund Education Centers",
+            "excerpt": "A group of refugee musicians assembled a world-class orchestra and just completed a 40-city tour, with all proceeds funding education centers for displaced youth. Their artistry and resilience prove that hope and beauty transcend borders.",
+            "category": "Arts & Culture",
+            "imageKeyword": "orchestra musicians performing concert stage lights"
           }
         ]
       }
     ]
   },
-  "updatedAt": "2026-08-13T07:00:35.606Z"
+  "updatedAt": "2026-08-14T07:00:29.868Z"
 }

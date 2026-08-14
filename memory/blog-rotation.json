@@ -1,7 +1,7 @@
 {
   "stores": ["bartact", "bullstrap"],
-  "lastPublished": "bullstrap",
-  "nextStore": "bartact",
+  "lastPublished": "bartact",
+  "nextStore": "bullstrap",
   "history": [
     {
       "store": "bartact",
@@ -30,6 +30,13 @@
       "articleId": 684198986001,
       "title": "How to Choose Limit Straps for Your Truck Setup",
       "handle": "how-to-choose-limit-straps-truck-setup"
+    },
+    {
+      "store": "bartact",
+      "date": "2026-08-14",
+      "articleId": 568649842731,
+      "title": "How to Keep Your Truck Seats Protected from Sun Damage",
+      "handle": "how-to-keep-your-truck-seats-protected-from-sun-damage"
     }
   ]
 }

@@ -24,7 +24,8 @@
 15. [x] MOLLE Accessories: Best Pouches for Your Seat Covers — published 2026-07-06
 16. [x] Silverado vs F-150: Which Truck Has Better Cover Options? — published 2026-07-09
 17. [x] Why Berry Amendment Compliance Matters for Seat Covers — published 2026-08-10
-18. [ ] Best Seat Covers for Work Trucks (published as variant)
+18. [x] Best Seat Covers for Work Trucks (published as variant) — published 2026-07-16
+19. [x] Best Seat Covers for Honda Pilot (2009–2026 Buyer's Guide) — published 2026-08-13
 
 ## Evergreen Topics (ongoing)
 - Best [Vehicle] Seat Covers [Year] — update annually

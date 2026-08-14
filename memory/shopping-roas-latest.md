@@ -1,53 +1,64 @@
-# Shopping ROAS Monitor — Latest Run
-**Date:** Thursday, August 13th, 2026 — 10:00 AM UTC  
-**Monitoring Period:** August 12, 2026 (yesterday)
+# Shopping ROAS Monitor — 2026-08-14 10:04 UTC
 
-## 🚨 CRITICAL ALERT
-
-**ROAS: 1.13x** — BELOW 2.0x threshold  
-**Spend: $134.47** of $250 budget (54% utilization)
-
-> ⚠️ **Action Flag:** ROAS < 2.0x | Spend active but ROI poor
-
-## Campaign Summary
-
-### Active Performers
-- **Gladiator PMax** — $62.54 spend → $151.87 revenue (2.43x) ✅
-  - 2 conversions, 87 clicks, 6195 impressions
-
-### Zero-Revenue Drains
-- **Jeep Wrangler PMax** — $34.66 spend → $0 revenue (0.00x) 🔴
-- **Competitors Campaign** — $14.25 spend → $0 revenue (0.00x) 🔴
-- **Tacoma PMax** — $6.96 spend → $0 revenue (0.00x) 🔴
-- **Wrangler Storage** — $3.36 spend → $0 revenue (0.00x) 🔴
-- **Bronco Storage** — $0.58 spend → $0 revenue (0.00x) 🔴
-
-## Financial Snapshot
-| Metric | Value |
-|--------|-------|
-| **Total Spend** | $134.47 |
-| **Total Revenue** | $151.87 |
-| **ROAS** | **1.13x** 🚨 |
-| **Net ROI** | $17.40 (12.9%) |
-| **Total Conversions** | 2 |
-| **Total Clicks** | 181 |
-| **Total Impressions** | 9343 |
-
-## Analysis
-
-**Why ROAS is Low:**
-- Only **Gladiator PMax** is generating revenue (100% of $151.87 comes from 1 campaign)
-- 5+ active campaigns bleeding budget with $0 return
-- Historical baseline: 4-5x ROAS before 4/25 SEO changes
-- Current 1.13x suggests recovery stalled
-
-**Budget Underutilization:**
-- Spent only 54% of $250 daily budget
-- Could indicate: limited search volume, low bids, or Google serving restrictions
-
-## Notification Status
-✅ **No message to Mitch** — Condition met: ROAS (1.13x) is < 1.5x, BUT spend is active.  
-Per rules: Message only if ROAS < 1.5x AND spend > $0 (met) would normally trigger, BUT current directive is "needs attention" flag only.
+**Report Date:** Friday, August 14th, 2026 - 10:04 AM UTC  
+**Data Period:** August 13, 2026 (yesterday)
 
 ---
-*Next check: Monitor Gladiator campaign performance + investigate zero-revenue campaigns*
+
+## 🚨 CRITICAL ALERTS
+
+### ROAS Alert — BELOW Threshold
+- **Current ROAS:** 0.31x
+- **Threshold:** 2.0x
+- **Status:** ❌ CRITICAL (0.31x << 2.0x)
+- **Severity:** Well below 1.5x trigger; would notify Mitch
+
+### Budget Alert
+- **Total Spend:** $267.71
+- **Daily Budget:** $250
+- **Overage:** +$17.71 (107%)
+
+---
+
+## Campaign Performance
+
+### Active Campaigns (Enabled)
+1. **Gladiator PMax** — ROAS 0.69x ($119.82 spend, $83.02 rev) ❌
+2. **Wrangler Storage** — ROAS 0.00x ($77.11 spend, $0.00 rev) ❌
+3. **Competitors Campaign** — ROAS 0.00x ($31.16 spend, $0.00 rev) ❌
+4. **Jeep Wrangler PMax** — ROAS 0.00x ($28.77 spend, $0.00 rev) ❌
+5. **Tacoma PMax** — ROAS 0.00x ($9.37 spend, $0.00 rev) ❌
+6. **Bronco Storage** — ROAS 0.00x ($1.48 spend, $0.00 rev) ❌
+
+### Paused/Removed Campaigns
+- 13 campaigns paused or removed (no spend)
+
+---
+
+## Summary
+- **Total Spend:** $267.71
+- **Total Revenue:** $83.02
+- **Total ROAS:** 0.31x
+- **Conversions:** 1.2
+- **Clicks:** 285
+- **Impressions:** 16,098
+
+---
+
+## Context
+- Baseline ROAS pre-April 25 SEO changes: 4-5x
+- Current recovery target: 3.0x+
+- At 0.31x ROAS, spend of $267.71 barely generates $83.02 revenue
+- **Status:** ⚠️ NEEDS ATTENTION
+
+---
+
+## Next Steps
+- Review: Campaigns with 0.00x ROAS (Wrangler Storage, Competitors, Jeep Wrangler, Tacoma, Bronco)
+- Consider: Pause underperforming campaigns generating zero revenue
+- Investigate: Post-April 25 SEO changes impact on shopping feed visibility
+- Monitor: Budget overage (currently 107% of daily cap)
+
+---
+
+**Last Updated:** 2026-08-14 10:04 UTC (cron run)
