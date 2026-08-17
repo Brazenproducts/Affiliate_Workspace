@@ -1,5 +1,5 @@
 # SEO_PLAYBOOK.md — Master SEO Guide for All Bots
-**Last updated:** 2026-08-11
+**Last updated:** 2026-08-17
 **Maintained by:** Slashdaddy (main session)
 **All bots must read this file before doing any SEO work.**
 
@@ -308,6 +308,8 @@ H2: Internal links to related pages
 ### CTR Is a Separate Problem From Ranking
 - High rank + terrible CTR = wasted position — you're invisible even when you're visible
 - **Any keyword at positions 1–10 with CTR under 1% requires immediate title tag + meta description rewrite**
+- **AUTOMATED ALERT (added 2026-08-17):** The daily rank check script now flags any page with >100 impressions + <0.5% CTR as a CTR opportunity. These appear in every daily Telegram report. When flagged → rewrite title tag and meta description immediately, submit to IndexNow.
+- **GSC data window: ALWAYS 28 days minimum.** Never use 7-day windows — low-volume keywords drop out entirely and show ❓ when they're actually ranking fine.
 - CTR benchmarks by position:
   - Position 1: expect 25–35%
   - Position 3: expect 10–15%
@@ -1028,14 +1030,24 @@ ALL bots. ALL campaign types: Performance Max, Standard Shopping, Search, Displa
 **Every Bartact collection page — existing or new — must meet the 1,500-word target and 1,000-word minimum.** There is no grandfathering. A page that was "good enough" when it was published is not good enough now if it's below standard.
 
 ### "Invented by Bartact" — Mandatory on All Grab Handle Pages
-Bartact invented the paracord grab handle. This is a unique authority signal no competitor can copy or claim. It MUST appear on EVERY grab handle collection page:
+Bartact builds the best paracord grab handles — the only USA manufacturer of this type. Every other brand imports knockoffs from China. This is a unique authority signal no competitor can copy or claim. It MUST appear on EVERY grab handle collection page:
 - `/collections/jeep-wrangler-grab-handles`
 - `/collections/jeep-wrangler-jl-jlu-grab-handles`
 - `/collections/jeep-wrangler-jk-jku-grab-handles`
 - `/collections/jeep-gladiator-grab-handles`
 - `/collections/ford-bronco-grab-handles`
 
-Suggested framing: *"Bartact invented the paracord grab handle — the original, custom-engineered for Jeep Wrangler. Every grab handle on the market today is following Bartact's lead."*
+⛔ **HARD RULE — CORRECTED 2026-08-17:** Do NOT say "Bartact builds the best paracord grab handles — the only USA manufacturer of this type. Every other brand imports knockoffs from China." This is NOT accurate and must never appear in any copy.
+
+CORRECT messaging (required on ALL grab handle pages, ALL bots):
+- Bartact built the **best** paracord grab handles and set the standard for quality
+- Bartact is the **ONLY company manufacturing this TYPE of paracord grab handle in the USA**
+- Every other brand imports from China — knockoffs of knockoffs
+- Bartact was **first to market** with paracord grab handles for the Ford Bronco (2021)
+- The quality difference is real: 550 paracord, solid steel core, hand-wrapped in USA
+- Bartact is the **ONLY company manufacturing SRS roll bar safe grab handles of ANY type** for 2024+ Jeep Wrangler JL/JLU and Gladiator — these vehicles have SRS airbags in the roll bars; every other grab handle on the market will interfere with airbag deployment; Bartact engineered around this, nobody else has
+
+Suggested framing: *"Bartact builds the best paracord grab handles in the USA — the only manufacturer making this type of handle domestically. Every other brand imports knockoffs from China. For 2024+ JL/JLU and Gladiator, Bartact is the only brand with SRS airbag-safe roll bar grab handles — a critical safety distinction no competitor has addressed."*
 
 ### Compliance Audit Process
 1. Pull ALL Bartact collection page handles via Shopify API
@@ -1622,3 +1634,131 @@ PYEOF
 - Fix: all 17 affected files patched in one pass; rogue page deleted; `privacy.html` given noindex; IndexNow submitted for all 18 URLs
 - This Section 30 added to prevent regression
 
+
+---
+
+## 31. SHOPIFY TOKEN AUTO-REFRESH — ALL BOTS (added 2026-08-17)
+
+**Root cause:** Bull Strap Shopify token expired and every Filli cron was dead for 24+ hours before anyone caught it. Zero blog posts published, zero SEO fixes, zero collection updates. Sales: $0 on Aug 16–17.
+
+### The Rule — ALL Shopify bots
+Shopify OAuth tokens expire in ~24h (86,399 seconds). **Every bot with a Shopify integration MUST have a daily token refresh cron.** Never hardcode a token and assume it will last.
+
+### How to refresh (Client Credentials flow — works for Bartact + Bull Strap)
+```
+POST https://{store}.myshopify.com/admin/oauth/access_token
+Body: { client_id, client_secret, grant_type: "client_credentials" }
+→ Returns access_token — save to .env as SHOPIFY_TOKEN_{STORE}
+```
+
+### Stores + credentials
+- **Bull Strap** (`bull-strap-78.myshopify.com`): Client ID `82c2f4b0214133f49a9520c283a97840` | Secret in `.env` as `SHOPIFY_SECRET_BULLSTRAP`
+- **Bartact** (`bartact.myshopify.com`): Client ID `78fd9505a467f0795d035e5f4a6dfb06` | Secret in `.env` as `SHOPIFY_SECRET_BARTACT`
+
+### Refresh scripts
+- Bull Strap: `node scripts/bullstrap-token-refresh.js`
+- Bartact: `node scripts/bartact-token-refresh.js`
+- Both crons run at 6am PST daily
+
+### What NEVER to do
+- NEVER ask Mitch for a `shpat_` token — refresh it yourself
+- NEVER tell Mitch `shpss_` is wrong — it IS the client secret, use it for the exchange
+- NEVER report a Shopify cron as running if the token is 401 — check auth FIRST
+- NEVER use `grant_type: client_credentials` against the wrong store URL (e.g., `bull-strap-78` not `bullstrap`)
+
+### Metafield writes — use REST, not GraphQL
+The `shopify` namespace is permission-blocked via GraphQL `collectionUpdate` mutation. Use REST API instead:
+```
+GET  /admin/api/2024-01/collections/{id}/metafields.json?namespace=global
+PUT  /admin/api/2024-01/collections/{id}/metafields/{mf_id}.json  ← update existing
+POST /admin/api/2024-01/collections/{id}/metafields.json          ← create new
+```
+Same pattern applies to products. Always check for existing metafield ID before creating — don't duplicate.
+
+---
+
+## 32. CANONICAL TAGS — BULL STRAP + ALL SHOPIFY STORES (added 2026-08-17)
+
+**Problem:** Product pages on Bull Strap rank for category-level keywords, steal clicks from collection pages, and convert at 5x worse rate. No canonical tags existed on any product page.
+
+### The fix
+Every product page should have a `canonical_url` metafield pointing to its primary collection page. This tells Google the collection page is the authoritative version for category keywords.
+
+### Script
+`scripts/bullstrap-canonical-tags.js` — runs every 4h via cron, processes 100 products per batch.
+
+### Collection priority (most specific wins)
+```
+grab-handles > paracord-grab-handles > plastic-rubber-grip-grab-handles >
+limit-straps > seat-covers > winch-covers > sun-shades >
+roll-bar-accessories > molle-storage-strips > recovery
+```
+Skip generic collections: `all`, `frontpage`, `hidden`, `printify`.
+
+### Metafield spec
+- Namespace: `global`
+- Key: `canonical_url`  
+- Type: `url`
+- Value: `https://bullstrap.com/collections/{handle}`
+
+### After setting canonicals
+Submit all updated product URLs to IndexNow immediately.
+
+### Applies to
+Bull Strap initially. Bartact and other Shopify stores should audit for the same product→collection cannibalization pattern.
+
+---
+
+## 33. CTR ZERO-CLICK EMERGENCY PROTOCOL — ALL SITES (added 2026-08-17)
+
+**Root cause:** Multiple Bartact pages ranking top-10 with hundreds of impressions getting zero clicks. These are the highest-value fixes available — you're already on page 1, you just need people to click.
+
+### Alert threshold (automated)
+Any page with **>100 impressions + <0.5% CTR** = immediate fix queue. The daily Bartact rank check Telegram report now flags these automatically.
+
+### Fix protocol (do this same day, not queued for later)
+1. Pull the page's current title tag and meta description
+2. Rewrite title: keyword-first, specific, includes year/vehicle if applicable, under 65 chars
+3. Rewrite meta: what you get, why it's better, CTA — 80–160 chars
+4. Submit URL to IndexNow immediately after update
+5. Check GSC in 7 days for CTR improvement
+
+### Known CTR emergencies fixed 2026-08-17 (Bartact)
+- "winch cover" — pos 6.0, 968 imp, 0 clicks → fixed (empty collection body written from scratch)
+- "jeep wrangler grab handles" — pos 3.8, 230 imp, 0 clicks → fixed today
+- "ford bronco seat covers" — pos 9.2, 718 imp, 1 click → still needs work
+
+### GSC data window
+**Always 28 days minimum.** Never use 7-day windows — low-volume keywords fall out entirely and appear as ❓ when they're actually ranking fine. 28 days is the standard across all bots and all scripts.
+
+### Applies to
+ALL sites: Bartact, Bull Strap, Elipacko, SkipATip, RecentRatings, Fern Allen, FaithfulPassages, Brazen, BestTirePatch, Ballkinis — everywhere we track GSC data.
+
+---
+
+## 34. AUTHORITY CONTENT — BARTACT BRAND HISTORY (added 2026-08-17)
+
+**Problem:** Bartact has been making products since 2012. Competitors with shorter histories outrank them because they've published authority content establishing timeline and firsts. Bartact has zero indexed authority content about their history.
+
+### Mandatory authority blog posts to write (Bartact)
+1. **"Bartact JK Seat Covers: The Original Since 2012"** — establish Bartact as the OG JK seat cover brand
+2. **"Bartact and the Jeep Gladiator: First to Market in 2019"** — launch-day presence, full lineup from day one
+3. **"Bartact Ford Bronco Accessories: First to Market in 2021"** — Bronco launch, first grab handles, first seat covers
+4. **"Why Bartact Paracord Grab Handles Are the Only Made-in-USA Option"** — USA manufacturing, SRS airbag safety engineering, quality vs China imports
+
+### Messaging rules for all authority content
+- ✅ "Bartact builds the BEST paracord grab handles and set the quality standard"
+- ✅ "ONLY company manufacturing this TYPE of paracord grab handle in the USA"
+- ✅ "Every other brand imports from China — knockoffs of knockoffs"
+- ✅ "First to market with paracord grab handles for the Ford Bronco (2021)"
+- ✅ "ONLY company manufacturing SRS roll bar safe grab handles of ANY type for 2024+ JL/JLU/Gladiator"
+- ❌ NEVER "Bartact builds the best paracord grab handles — the only USA manufacturer of this type. Every other brand imports knockoffs from China. Bull Strap, Elipacko, affiliate sites — write authority content relevant to their own products/categories using the same pattern.
+
+---
+
+### CHANGELOG ADDITIONS — 2026-08-17
+- Section 31 added — Shopify token auto-refresh (all bots); metafield REST vs GraphQL rule
+- Section 32 added — Canonical tags protocol (Bull Strap + all Shopify stores)
+- Section 33 added — CTR zero-click emergency protocol (all sites); 28-day GSC window rule
+- Section 34 added — Bartact authority content mandate; corrected paracord grab handle messaging
+- Grab handle "invented by Bartact" language corrected throughout (Section 22) — use "ONLY USA manufacturer" and "best quality" instead
