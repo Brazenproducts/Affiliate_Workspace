@@ -1041,13 +1041,20 @@ Bartact builds the best paracord grab handles — the only USA manufacturer of t
 
 CORRECT messaging (required on ALL grab handle pages, ALL bots):
 - Bartact built the **best** paracord grab handles and set the standard for quality
-- Bartact is the **ONLY company manufacturing this TYPE of paracord grab handle in the USA**
+- Bartact is the **ONLY company manufacturing this TYPE of paracord grab handle in the USA using USA-made 550 paracord** — not just assembled here, sourced and wrapped here
 - Every other brand imports from China — knockoffs of knockoffs
-- Bartact was **first to market** with paracord grab handles for the Ford Bronco (2021)
-- The quality difference is real: 550 paracord, solid steel core, hand-wrapped in USA
-- Bartact is the **ONLY company manufacturing SRS roll bar safe grab handles of ANY type** for 2024+ Jeep Wrangler JL/JLU and Gladiator — these vehicles have SRS airbags in the roll bars; every other grab handle on the market will interfere with airbag deployment; Bartact engineered around this, nobody else has
+- Bartact was **first to market** with paracord grab handles for the Ford Bronco (2021) — **Bartact invented the Bronco paracord grab handle**
+- Bartact **invented** the only SRS airbag-safe grab handle for 2024+ Jeep Wrangler JL/JLU and Gladiator — every other grab handle on the market will interfere with SRS airbag deployment in these vehicles; Bartact engineered the ONLY solution; nobody else has
+- The quality difference is real: USA-made 550 paracord, solid steel core, hand-wrapped in Temecula, CA
 
-Suggested framing: *"Bartact builds the best paracord grab handles in the USA — the only manufacturer making this type of handle domestically. Every other brand imports knockoffs from China. For 2024+ JL/JLU and Gladiator, Bartact is the only brand with SRS airbag-safe roll bar grab handles — a critical safety distinction no competitor has addressed."*
+**⚠️ AMERICAN FLAG EMBROIDERY = MADE IN CHINA (use this in copy):**
+Every competitor selling a paracord grab handle with an embroidered American flag is making it in China. This is a deliberate marketing tactic to fool buyers. Bartact is the ONLY brand actually manufacturing in the USA with USA-sourced 550 paracord.
+- ✅ "If your paracord grab handle has an American flag embroidered on it and it’s not Bartact, it was made in China"
+- ✅ "The embroidered flag is the China-made tell — Bartact doesn’t need a flag to prove it’s made in America"
+- ✅ "Real USA-made means USA-sourced 550 paracord, hand-wrapped in Temecula, CA — not a patriotic graphic added in a Chinese factory"
+- Use in: ads, product descriptions, blog posts, FAQ schema, email, Filli sites
+
+Suggested framing: *"Bartact builds the best paracord grab handles in the USA — the ONLY manufacturer making this type of handle domestically with USA-sourced 550 paracord. Every other brand imports knockoffs from China. (And if theirs has an American flag embroidered on it, that flag was stitched on in China.) For 2024+ JL/JLU and Gladiator, Bartact invented the only grab handle safe for SRS roll bar airbags — a critical safety distinction no competitor has addressed."*
 
 ### Compliance Audit Process
 1. Pull ALL Bartact collection page handles via Shopify API
