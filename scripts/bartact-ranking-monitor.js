@@ -3,13 +3,115 @@
 // Pulls GSC data, compares week-over-week, identifies winners/losers, reports to Telegram
 
 const fs = require('fs');
+const https = require('https');
 const { createSign } = require('crypto');
 
-const TELEGRAM_TOKEN = (() => {
+function getEnv() {
   const env = {};
   fs.readFileSync('/home/ubuntu/.openclaw/workspace/.env','utf8').split('\n').forEach(l=>{const[k,...v]=l.split('=');if(k&&v.length)env[k.trim()]=v.join('=').trim();});
-  return env.TELEGRAM_TOKEN;
-})();
+  return env;
+}
+const ENV = getEnv();
+const SHOPIFY_TOKEN = ENV.SHOPIFY_TOKEN_BARTACT;
+const SHOPIFY_SHOP = 'bartact.myshopify.com';
+
+function shopifyGet(path) {
+  return new Promise((res, rej) => {
+    const req = https.request({
+      hostname: SHOPIFY_SHOP, path, method: 'GET',
+      headers: { 'X-Shopify-Access-Token': SHOPIFY_TOKEN, 'Content-Type': 'application/json' },
+      timeout: 15000
+    }, r => { let b = ''; r.on('data', d => b += d); r.on('end', () => { try { res({ s: r.statusCode, b: JSON.parse(b) }); } catch(e) { res({ s: r.statusCode, b }); } }); });
+    req.on('error', rej); req.end();
+  });
+}
+
+// Known Shopify source_name codes
+const SOURCE_LABELS = {
+  'web': 'Organic/Direct',
+  'online_store': 'Organic/Direct',
+  'google': 'Google Shopping',
+  'facebook': 'Facebook/Meta',
+  'instagram': 'Instagram',
+  'shopify_draft_order': 'Draft Order',
+  'pos': 'Point of Sale',
+  'iphone': 'Shopify Mobile',
+  'android': 'Shopify Mobile',
+  '3890849': 'Shop Pay / Shop App',
+  '2329312': 'Facebook/Instagram Channel',
+  '580111': 'Google Shopping Channel',
+};
+
+function classifyOrders(orders) {
+  const channels = {};
+  let totalRevenue = 0;
+  orders.forEach(order => {
+    const src = order.source_name || 'unknown';
+    let channel = SOURCE_LABELS[src] || ('Channel: ' + src);
+    // Google Ads overrides everything — gclid = paid click
+    const noteAttrs = order.note_attributes || [];
+    const hasGclid = noteAttrs.some(a => a.name === 'gclid' && a.value);
+    if (hasGclid || (order.landing_site || '').includes('gclid=')) channel = 'Google Ads';
+    const total = parseFloat(order.total_price || 0);
+    if (!channels[channel]) channels[channel] = { orders: 0, revenue: 0 };
+    channels[channel].orders++;
+    channels[channel].revenue += total;
+    totalRevenue += total;
+  });
+  return { orders: orders.length, revenue: totalRevenue, channels };
+}
+
+function getPSTDateString(date) {
+  // Always use America/Los_Angeles — handles PST/PDT automatically
+  return date.toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }); // en-CA = YYYY-MM-DD
+}
+
+function getPSTMidnightUTC(dateStr) {
+  // Given a PST date string like '2026-08-18', return the UTC ISO string of midnight PST/PDT
+  // America/Los_Angeles midnight = find offset dynamically
+  const testDate = new Date(dateStr + 'T12:00:00Z'); // noon UTC as proxy
+  const pstOffset = -new Date(testDate.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' })).getTimezoneOffset?.() || 0;
+  // Simpler: just use the known offsets — PDT = UTC-7 (Mar-Nov), PST = UTC-8 (Nov-Mar)
+  const month = parseInt(dateStr.split('-')[1]);
+  const offsetHours = (month >= 3 && month <= 11) ? 7 : 8;
+  return dateStr + `T0${offsetHours}:00:00Z`;
+}
+
+async function getSalesData() {
+  try {
+    const now = new Date();
+    const todayPST = getPSTDateString(now);
+
+    // Yesterday PST
+    const ystDate = new Date(now);
+    ystDate.setDate(ystDate.getDate() - 1);
+    const ystPST = getPSTDateString(ystDate);
+
+    const todayStartUTC = getPSTMidnightUTC(todayPST);
+    const ystStartUTC   = getPSTMidnightUTC(ystPST);
+    // Yesterday end = 1 second before today midnight PST
+    const ystEndDate = new Date(todayStartUTC);
+    ystEndDate.setSeconds(ystEndDate.getSeconds() - 1);
+    const ystEndUTC = ystEndDate.toISOString();
+
+    const [todayR, ystR] = await Promise.all([
+      shopifyGet(`/admin/api/2024-01/orders.json?status=any&limit=250&created_at_min=${todayStartUTC}&financial_status=paid`),
+      shopifyGet(`/admin/api/2024-01/orders.json?status=any&limit=250&created_at_min=${ystStartUTC}&created_at_max=${ystEndUTC}&financial_status=paid`)
+    ]);
+
+    if (todayR.s !== 200 || ystR.s !== 200) return null;
+
+    return {
+      today: { date: todayPST, ...classifyOrders(todayR.b.orders || []) },
+      yesterday: { date: ystPST, ...classifyOrders(ystR.b.orders || []) }
+    };
+  } catch(e) {
+    console.error('Sales fetch error:', e.message);
+    return null;
+  }
+}
+
+const TELEGRAM_TOKEN = ENV.TELEGRAM_TOKEN;
 const CHAT_ID = '7550065844';
 
 // Key money keywords to always track
@@ -198,6 +300,28 @@ async function main() {
   if (newKws.length > 0) {
     msg += `\n<b>✨ New Keywords Appearing</b>\n`;
     newKws.forEach(r => { msg += `#${r.pos.toFixed(1)} — ${r.kw} (${r.impr} impr)\n`; });
+  }
+
+  // Sales by channel — yesterday full day + today so far
+  const sales = await getSalesData();
+  if (sales) {
+    const { today, yesterday } = sales;
+
+    msg += `\n<b>💰 Yesterday — ${yesterday.date} (full day)</b>\n`;
+    Object.entries(yesterday.channels).sort((a,b) => b[1].revenue - a[1].revenue).forEach(([ch, data]) => {
+      const pct = yesterday.revenue > 0 ? ((data.revenue / yesterday.revenue)*100).toFixed(0) : 0;
+      msg += `  ${ch}: ${data.orders} orders / $${data.revenue.toFixed(2)} (${pct}%)\n`;
+    });
+    msg += `  <b>Total: ${yesterday.orders} orders / $${yesterday.revenue.toFixed(2)}</b>\n`;
+
+    msg += `\n<b>💰 Today — ${today.date} (so far)</b>\n`;
+    Object.entries(today.channels).sort((a,b) => b[1].revenue - a[1].revenue).forEach(([ch, data]) => {
+      const pct = today.revenue > 0 ? ((data.revenue / today.revenue)*100).toFixed(0) : 0;
+      msg += `  ${ch}: ${data.orders} orders / $${data.revenue.toFixed(2)} (${pct}%)\n`;
+    });
+    msg += `  <b>Total: ${today.orders} orders / $${today.revenue.toFixed(2)}</b>\n`;
+  } else {
+    msg += `\n<b>💰 Sales</b>: unavailable (Shopify error)\n`;
   }
 
   // Save state for trend tracking

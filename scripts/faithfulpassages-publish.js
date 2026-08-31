@@ -18,7 +18,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const SITE_DIR = path.join(__dirname, '../sites/faithfulpassages.com');
+const SITE_DIR = process.env.SITE_DIR || path.join(__dirname, '../sites/faithfulpassages.com');
 const AUDIO_DIR = path.join(SITE_DIR, 'audio');
 const SITE_URL = 'https://faithfulpassages.com';
 
@@ -100,10 +100,20 @@ except Exception as e:
 }
 
 // ── HTML Builder ──────────────────────────────────────────────────────────────
-const nav = `<nav><a class="nav-brand" href="/">Faithful <span>Passages</span></a><ul class="nav-links"><li><a href="/prayers.html">Prayers</a></li><li><a href="/songs.html">Songs</a></li><li><a href="/scripture.html">Scripture</a></li><li><a href="/about.html">About</a></li></ul></nav>`;
-const footer = `<div class="email-section"><h2>Get Daily Prayers Delivered Free</h2><p>A new prayer every morning. Real words for real life.</p><form class="email-form" onsubmit="handleSignup(event)"><input type="email" placeholder="Your email address" required><button type="submit">Subscribe Free</button></form></div>
+const STRIPE_DONATE_URL = 'https://donate.stripe.com/faithfulpassages';
+const nav = `<nav><a class="nav-brand" href="/">Faithful <span>Passages</span></a><ul class="nav-links"><li><a href="/prayers.html">Prayers</a></li><li><a href="/songs.html">Songs</a></li><li><a href="/scripture.html">Scripture</a></li><li><a href="/about.html">About</a></li><li><a href="${STRIPE_DONATE_URL}" class="nav-donate" target="_blank" rel="noopener">❤️ Support</a></li></ul></nav>`;
+const footer = `<div class="donate-section" style="background:linear-gradient(135deg,#7A9E7E 0%,#5a7a5e 100%);color:white;text-align:center;padding:48px 24px;">
+<h2 style="font-size:1.7rem;margin-bottom:12px;">Keep This Free for Everyone</h2>
+<p style="font-size:1.05rem;opacity:0.9;max-width:520px;margin:0 auto 28px;">Faithful Passages is free — no ads, no paywalls, no algorithms. If these words have helped you, consider supporting the work.</p>
+<a href="${STRIPE_DONATE_URL}" target="_blank" rel="noopener" style="display:inline-block;background:white;color:#5a7a5e;font-weight:700;font-size:1.05rem;padding:14px 36px;border-radius:50px;text-decoration:none;box-shadow:0 4px 20px rgba(0,0,0,0.2);">❤️ Give a Gift</a>
+<p style="font-size:0.8rem;opacity:0.7;margin-top:16px;">Secure · Any amount · Cancel anytime</p>
+</div>
+<div class="email-section"><h2>Get Daily Prayers Delivered Free</h2><p>A new prayer every morning. Real words for real life.</p><form class="email-form" onsubmit="handleSignup(event)"><input type="email" placeholder="Your email address" required><button type="submit">Subscribe Free</button></form></div>
 <footer><div class="footer-links"><a href="/prayers.html">Prayers</a><a href="/songs.html">Songs</a><a href="/scripture.html">Scripture</a><a href="/about.html">About</a><a href="/privacy.html">Privacy</a></div><p>© 2026 Faithful Passages</p></footer>
 <script src="/app.js"></script>`;
+
+// Canonical URL helper
+const canonicalUrl = (c) => `${SITE_URL}/${c.slug}.html`;
 
 const ldJson = (c) => JSON.stringify({
   "@context": "https://schema.org",
@@ -122,6 +132,7 @@ function buildPrayerHtml(c) {
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${c.title} — Faithful Passages</title>
 <meta name="description" content="${c.theme}">
+<link rel="canonical" href="${canonicalUrl(c)}">
 <link rel="stylesheet" href="/style.css">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">${ldJson(c)}</script>
@@ -156,6 +167,7 @@ function buildSongHtml(c) {
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${c.title} — Faithful Passages</title>
 <meta name="description" content="${c.theme}">
+<link rel="canonical" href="${canonicalUrl(c)}">
 <link rel="stylesheet" href="/style.css">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">${ldJson(c)}</script>
@@ -187,14 +199,22 @@ ${footer}
 }
 
 function buildScriptureHtml(c) {
-  const readingEn = c.reading_en.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>\n');
-  const readingEs = c.reading_es.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>\n');
+  // Support both old (reading_en/verse/ref) and new (body_en/scripture_text/scripture_ref) field names
+  const rawEn = c.body_en || c.reading_en || '';
+  const rawEs = c.body_es || c.reading_es || '';
+  // If content is already HTML (contains tags), use as-is; otherwise convert newlines
+  const isHtml = (s) => /<[a-z][\s\S]*>/i.test(s);
+  const readingEn = isHtml(rawEn) ? rawEn : rawEn.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>\n');
+  const readingEs = isHtml(rawEs) ? rawEs : rawEs.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>\n');
+  const verseText = c.scripture_text || c.verse || '';
+  const verseRef = c.scripture_ref || c.ref || '';
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${c.title} — Faithful Passages</title>
 <meta name="description" content="${c.theme}">
+<link rel="canonical" href="${canonicalUrl(c)}">
 <link rel="stylesheet" href="/style.css">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">${ldJson(c)}</script>
@@ -204,22 +224,22 @@ ${nav}
 <div class="hero" style="padding:56px 24px 48px;"><p class="hero-eyebrow">Scripture · ${c.date}</p><h1>${c.title}</h1><p>${c.theme}</p></div>
 <section>
 <div class="prayer-card" style="background:#f0ebe3;border-left:4px solid #7A9E7E;padding:24px 28px;">
-<p style="font-size:1.15rem;font-style:italic;line-height:1.8;">"${c.verse}"</p>
-<p style="font-size:0.85rem;color:#888;margin-top:8px;">— ${c.ref}</p>
+<p style="font-size:1.15rem;font-style:italic;line-height:1.8;">"${verseText}"</p>
+<p style="font-size:0.85rem;color:#888;margin-top:8px;">— ${verseRef}</p>
 </div>
 <div class="prayer-card">
 <p style="font-size:0.85rem;color:#888;margin-bottom:8px;">▶ Listen in English</p>
 <audio controls preload="none" style="width:100%;border-radius:8px;margin-bottom:20px;"><source src="/audio/${c.slug}-en.mp3" type="audio/mpeg"></audio>
 <p>${readingEn}</p>
 </div>
-<div class="prayer-card" style="background:#f9f7f4;">
+${c.misconception ? `<div class="prayer-card" style="background:#f9f7f4;">
 <h3 style="font-size:1rem;color:#7A9E7E;">What People Often Think</h3>
 <p>${c.misconception}</p>
 <h3 style="font-size:1rem;color:#7A9E7E;margin-top:16px;">What It Actually Means</h3>
 <p>${c.real_meaning}</p>
 <h3 style="font-size:1rem;color:#7A9E7E;margin-top:16px;">How to Apply It</h3>
 <p>${c.application}</p>
-</div>
+</div>` : ''}
 <hr class="divider">
 <div class="prayer-card">
 <p class="section-label">En Español</p>
@@ -251,8 +271,8 @@ function updateSitemap(slug) {
 async function main() {
   // 1. Generate audio
   console.log('\n── Generating audio ──');
-  const audioText = content.prayer_en || content.lyrics_en || content.reading_en || content.text_en;
-  const audioTextEs = content.prayer_es || content.lyrics_es || content.reading_es || content.text_es;
+  const audioText = content.prayer_en || content.lyrics_en || content.reading_en || content.text_en || content.body_en;
+  const audioTextEs = content.prayer_es || content.lyrics_es || content.reading_es || content.text_es || content.body_es;
 
   const enPath = path.join(AUDIO_DIR, `${slug}-en.mp3`);
   const esPath = path.join(AUDIO_DIR, `${slug}-es.mp3`);

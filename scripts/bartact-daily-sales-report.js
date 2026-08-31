@@ -124,9 +124,23 @@ async function getAllOrders(minDate, maxDate) {
 
 // ─── Google Ads ROAS ─────────────────────────────────────────────────────────
 
-async function getGoogleAdsRoas(adsToken, dateStr) {
+async function getGoogleAdsRoas(oauthToken, dateStr) {
   const creds = JSON.parse(fs.readFileSync('/home/ubuntu/.openclaw/workspace/.google-ads-credentials.json','utf8'));
-  const CID = creds.customer_id.replace(/-/g,'');
+  // Refresh token fresh — don't reuse GSC token
+  const refreshed = await fetchJson('https://oauth2.googleapis.com/token', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      client_id: creds.client_id,
+      client_secret: creds.client_secret,
+      refresh_token: creds.refresh_token,
+      grant_type: 'refresh_token'
+    }).toString()
+  });
+  const adsToken = refreshed.access_token;
+  if (!adsToken) throw new Error('Google Ads token refresh failed: ' + JSON.stringify(refreshed));
+
+  const CID = '1770651698'; // Confirmed correct customer ID
   const body = JSON.stringify({ query: `
     SELECT
       campaign.name,
@@ -139,13 +153,13 @@ async function getGoogleAdsRoas(adsToken, dateStr) {
       AND metrics.cost_micros > 0
     ORDER BY metrics.cost_micros DESC
   `});
-  const data = await fetchJson(`https://googleads.googleapis.com/v23/customers/${CID}/googleAds:search`, {
+  const data = await fetchJson(`https://googleads.googleapis.com/v25/customers/${CID}/googleAds:search`, {
     method: 'POST',
     headers: {
       'Authorization': 'Bearer ' + adsToken,
-      'developer-token': creds.dev_token,
-      'login-customer-id': creds.login_customer_id || '3931546976',
+      'developer-token': creds.developer_token || creds.dev_token,
       'Content-Type': 'application/json'
+      // NO login-customer-id header — causes CUSTOMER_NOT_FOUND for this account
     },
     body
   });
@@ -155,17 +169,25 @@ async function getGoogleAdsRoas(adsToken, dateStr) {
 // ─── GSC Rankings ────────────────────────────────────────────────────────────
 
 async function getGscToken() {
-  const creds = JSON.parse(fs.readFileSync('/home/ubuntu/.openclaw/workspace/.google-ads-credentials.json','utf8'));
+  const { createSign } = require('crypto');
+  const key = JSON.parse(fs.readFileSync('/home/ubuntu/.openclaw/workspace/.gcp-service-account.json', 'utf8'));
+  const now = Math.floor(Date.now() / 1000);
+  const hdr = Buffer.from(JSON.stringify({ alg: 'RS256', typ: 'JWT' })).toString('base64url');
+  const pay = Buffer.from(JSON.stringify({
+    iss: key.client_email,
+    scope: 'https://www.googleapis.com/auth/webmasters.readonly',
+    aud: 'https://oauth2.googleapis.com/token',
+    iat: now, exp: now + 3600
+  })).toString('base64url');
+  const sign = createSign('RSA-SHA256');
+  sign.update(hdr + '.' + pay);
+  const jwt = hdr + '.' + pay + '.' + sign.sign(key.private_key, 'base64url');
   const data = await fetchJson('https://oauth2.googleapis.com/token', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({
-      client_id: creds.client_id,
-      client_secret: creds.client_secret,
-      refresh_token: creds.refresh_token,
-      grant_type: 'refresh_token'
-    }).toString()
+    body: 'grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=' + jwt
   });
+  if (!data.access_token) throw new Error('GSC SA token failed: ' + JSON.stringify(data));
   return data.access_token;
 }
 
@@ -295,12 +317,23 @@ async function buildRankingsMessage(token) {
 
 async function main() {
   const now = new Date();
-  const ystDay = new Date(now);
-  ystDay.setUTCDate(ystDay.getUTCDate() - 1);
-  const ystStr = ystDay.toISOString().slice(0, 10);
-  const todayStr = now.toISOString().slice(0, 10);
-  const minDate = ystStr + 'T07:00:00Z';
-  const maxDate = todayStr + 'T07:00:00Z';
+  // Always use America/Los_Angeles — handles PST/PDT automatically
+  const todayPST = now.toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' }); // YYYY-MM-DD
+  const ystDate = new Date(now); ystDate.setDate(ystDate.getDate() - 1);
+  const ystStr  = ystDate.toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+
+  // PST/PDT midnight in UTC: use Intl to find offset dynamically
+  function pstMidnightUTC(dateStr) {
+    // Find what UTC time = midnight in LA on that date
+    const probe = new Date(dateStr + 'T12:00:00Z');
+    const laString = probe.toLocaleString('en-US', { timeZone: 'America/Los_Angeles', hour12: false });
+    const laDate = new Date(laString + ' UTC');
+    const offsetMs = probe.getTime() - laDate.getTime();
+    return new Date(new Date(dateStr + 'T00:00:00Z').getTime() + offsetMs).toISOString();
+  }
+
+  const minDate = pstMidnightUTC(ystStr);
+  const maxDate = pstMidnightUTC(todayPST);
 
   const dateLabel = new Date(ystStr + 'T12:00:00Z').toLocaleDateString('en-US', {
     weekday: 'short', month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles'

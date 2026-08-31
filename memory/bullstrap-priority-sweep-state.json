@@ -1,11 +1,11 @@
 {
   "phase": 1,
-  "brandIndex": 4,
-  "sinceId": 0,
-  "totalFixed": 21310,
+  "brandIndex": 6,
+  "sinceId": 11180262064401,
+  "totalFixed": 21318,
   "totalIndexed": 1300,
   "dailyCount": 0,
-  "dailyDate": "2026-08-14",
+  "dailyDate": "2026-08-19",
   "completedPhases": [
     "Phase 1 — Suspension",
     "Phase 2 — Wheels & Tires",
@@ -21,6 +21,6 @@
     "Phase 6 — Everything Else",
     "Phase 1 — Suspension"
   ],
-  "lastRun": "2026-08-14T20:58:45.454Z",
+  "lastRun": "2026-08-19T05:07:29.103Z",
   "locked": false
 }
