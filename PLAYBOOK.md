@@ -125,7 +125,13 @@ Before ANY bot publishes, pushes, or modifies content on ANY site, it MUST verif
 1. **No bulk content publishing without review** — Maximum 1-2 pieces of content per day per site. More than that = spam signal to Google.
 2. **Blog post cleanup is MANDATORY when cron is shut off** — Shutting off a blog cron is NOT enough. Every article published by that cron must be deleted the same day the cron is killed. DO NOT leave spam articles live.
 3. **Never declare indexing successful without verification** — Check which script ran, verify the queue was non-empty, confirm submitted count matches queue size. Reading the wrong result file and declaring victory is a firing offense.
-4. **IndexNow 403 = key file missing** — After EVERY IndexNow submission, verify the HTTP response. 403 means key file is missing. Fix immediately, don't log it silently.
+4. **IndexNow 403 = key file missing OR domain unverified in Bing** — After EVERY IndexNow submission, verify the HTTP response code. 403 has two causes:
+   - **Key file missing/wrong:** curl `https://domain.com/<key>.txt` — must return exactly the key string, no HTML, no trailing newline
+   - **Domain unverified in Bing Webmaster Tools:** Bing blocks IndexNow for unverified domains (e.g. after DNS migration). Fix: log into BWT (info@brazenauto.com), verify via BingSiteAuth.xml, then switch to **BWT URL Submission API** as primary Bing method while verification propagates.
+   - **BWT URL Submission API (fallback for all Bing 403s):** `POST https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey=KEY` — key in TOOLS.md. Returns HTTP 200 on success.
+   - **Yandex IndexNow** (`yandex.com/indexnow`) runs on separate infrastructure — keep submitting to Yandex even when Bing 403s.
+   - **Future BWT API migration:** When `/api.svc/json/` endpoint dies, migrate to `api.bing.microsoft.com/webmaster/v1.0/sites/{encodedSiteUrl}/urlsubmission` with `Ocp-Apim-Subscription-Key` header.
+   - **RESOLVED EXAMPLE (elipacko.com, Sept 1 2026):** DNS switch Aug 15 caused Bing domain unverification. Fixed via BingSiteAuth.xml + BWT URL Submission API. 29 URLs submitted successfully.
 5. **GSC quota = priority URLs only** — The Google Indexing API 200/day quota is for RECENTLY CHANGED high-priority pages only. Do NOT bulk-submit the entire catalog through GSC API. Use IndexNow for bulk.
 
 ### Post-Fix Verification (MANDATORY — No exceptions)
@@ -298,14 +304,7 @@ The PLAYBOOK only gets better if bots actively contribute to it. This is not opt
 
 ### Every bot must:
 
-1. **Log a PLAYBOOK attestation at the start of every cron run.** First line of every cron log output must be:
-   ```
-   [PLAYBOOK] Sections checked: <list>. Operating under rule: <specific rule>.
-   ```
-   Example: `[PLAYBOOK] Sections checked: Turn14 Injection Scope, Brand Page Standards. Operating under rule: automotive domains only, min 3 products/category.`
-   If a cron run produces zero PLAYBOOK log lines, it will be flagged as non-compliant by the weekly audit.
-
-2. **Review the PLAYBOOK at the start of any new task.** Before executing, ask: is what I'm about to do covered? If not, flag the gap before starting.
+1. **Review the PLAYBOOK at the start of any new task.** Before executing, ask: is what I'm about to do covered? If not, flag the gap before starting.
 
 2. **Flag gaps in real time.** If you encounter a situation the PLAYBOOK doesn't address, you write to `memory/playbook-escalations.md` immediately — not after you finish, not "when you get a chance." Right then.
 
@@ -456,66 +455,6 @@ In priority order:
 7. **Click-through rate** — meta description must earn the click; a 140-160 char desc that answers the search query
 
 A page that hits all 7 wins. A page missing #1 and #2 will not rank regardless of everything else.
-
----
-
-## IndexNow 403 Persistent Failure Protocol
-
-If IndexNow returns 403 consistently for a domain despite a valid key file:
-
-1. **Verify the key file is live** — curl `https://domain.com/<key>.txt` and confirm 200 + correct key content
-2. **Check DNS** — is the domain actually resolving? A domain in DNS limbo (e.g., recently migrated to GitHub Pages) will 403 permanently until DNS propagates
-3. **After 3 consecutive 403s on the same domain** — stop IndexNow for that domain, switch to Google Indexing API only, and write to escalation log
-4. **Root cause for elipacko.com specifically:** DNS switched to GitHub Pages Aug 15 — GSC/IndexNow data takes 2-4 weeks to stabilize. Expected resolution: ~Aug 29. If still 403 after Sept 1, escalate to Slashdaddy with full error log.
-5. **Never alert Mitch** for IndexNow 403 on a recently migrated domain — this is expected behavior during DNS transition
-
----
-
-## GCP Org Policy Blocked — Escalation Path
-
-When GCP service account key creation is blocked by org policy (`iam.disableServiceAccountKeyCreation`):
-
-1. **Do not retry** — retrying will not work, this is an org-level hard block
-2. **Do not create workarounds** (downloading keys via browser, using another account, etc.)
-3. **Write to escalation log immediately** with: which GCP project, which operation was blocked, what the bot was trying to do
-4. **Slashdaddy notifies Mitch** — this is one of the rare cases that genuinely requires Mitch's action:
-   - GCP Console → info@brazenauto.com → IAM & Admin → Organization Policies → "Disable service account key creation" → Not Enforced
-5. **Bot waits** — do not attempt the blocked operation again until Slashdaddy confirms the policy has been changed
-
-Current known blocked project: `affiliate-indexing-501320` (brazenauto.com org)
-
----
-
-## GitHub Pages Domain Conflict Resolution
-
-If GitHub Pages reports "domain already taken" when verifying a custom domain:
-
-1. **Check if the domain is verified under another GitHub account** — this is the most common cause
-2. **Do not delete and re-add the CNAME** — that won't fix an account-level domain conflict
-3. **Write to escalation log** with: domain name, which repo you're trying to add it to, exact error message
-4. **Slashdaddy investigates** — may require Mitch to:
-   - Verify via DNS TXT record at the org level (github.com → Settings → Pages → Verified domains)
-   - Or contact GitHub support if domain is stuck on a deleted account
-5. **Bot does not attempt to push alternative CNAME or domain workarounds** — these break SSL cert provisioning
-
----
-
-## GSC Coverage for Backlink Sites
-
-Elipacko backlink sites that are not in GSC have no indexing visibility — Google may never find them.
-
-**For any site being used as a backlink source:**
-1. It must be submitted to GSC as a property (DNS TXT verification or HTML file)
-2. Sitemap must be submitted in GSC after verification
-3. IndexNow must be running for that domain
-4. If a site cannot be verified in GSC within 2 weeks of launch, flag to escalation log
-
-**Current known gap:** 28 elipacko backlink sites not in GSC as of 2026-09-01. Fern Allern to add these progressively — minimum 5 per week.
-
-**Verification method for GitHub Pages sites:**
-- Add `google-site-verification=<token>` as a DNS TXT record, OR
-- Add verification HTML file to root of repo and push
-- Confirm GSC shows "Ownership verified" before considering the site active
 
 ---
 
