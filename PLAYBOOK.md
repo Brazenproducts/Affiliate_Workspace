@@ -298,7 +298,14 @@ The PLAYBOOK only gets better if bots actively contribute to it. This is not opt
 
 ### Every bot must:
 
-1. **Review the PLAYBOOK at the start of any new task.** Before executing, ask: is what I'm about to do covered? If not, flag the gap before starting.
+1. **Log a PLAYBOOK attestation at the start of every cron run.** First line of every cron log output must be:
+   ```
+   [PLAYBOOK] Sections checked: <list>. Operating under rule: <specific rule>.
+   ```
+   Example: `[PLAYBOOK] Sections checked: Turn14 Injection Scope, Brand Page Standards. Operating under rule: automotive domains only, min 3 products/category.`
+   If a cron run produces zero PLAYBOOK log lines, it will be flagged as non-compliant by the weekly audit.
+
+2. **Review the PLAYBOOK at the start of any new task.** Before executing, ask: is what I'm about to do covered? If not, flag the gap before starting.
 
 2. **Flag gaps in real time.** If you encounter a situation the PLAYBOOK doesn't address, you write to `memory/playbook-escalations.md` immediately — not after you finish, not "when you get a chance." Right then.
 
