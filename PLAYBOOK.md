@@ -452,6 +452,66 @@ A page that hits all 7 wins. A page missing #1 and #2 will not rank regardless o
 
 ---
 
+## IndexNow 403 Persistent Failure Protocol
+
+If IndexNow returns 403 consistently for a domain despite a valid key file:
+
+1. **Verify the key file is live** — curl `https://domain.com/<key>.txt` and confirm 200 + correct key content
+2. **Check DNS** — is the domain actually resolving? A domain in DNS limbo (e.g., recently migrated to GitHub Pages) will 403 permanently until DNS propagates
+3. **After 3 consecutive 403s on the same domain** — stop IndexNow for that domain, switch to Google Indexing API only, and write to escalation log
+4. **Root cause for elipacko.com specifically:** DNS switched to GitHub Pages Aug 15 — GSC/IndexNow data takes 2-4 weeks to stabilize. Expected resolution: ~Aug 29. If still 403 after Sept 1, escalate to Slashdaddy with full error log.
+5. **Never alert Mitch** for IndexNow 403 on a recently migrated domain — this is expected behavior during DNS transition
+
+---
+
+## GCP Org Policy Blocked — Escalation Path
+
+When GCP service account key creation is blocked by org policy (`iam.disableServiceAccountKeyCreation`):
+
+1. **Do not retry** — retrying will not work, this is an org-level hard block
+2. **Do not create workarounds** (downloading keys via browser, using another account, etc.)
+3. **Write to escalation log immediately** with: which GCP project, which operation was blocked, what the bot was trying to do
+4. **Slashdaddy notifies Mitch** — this is one of the rare cases that genuinely requires Mitch's action:
+   - GCP Console → info@brazenauto.com → IAM & Admin → Organization Policies → "Disable service account key creation" → Not Enforced
+5. **Bot waits** — do not attempt the blocked operation again until Slashdaddy confirms the policy has been changed
+
+Current known blocked project: `affiliate-indexing-501320` (brazenauto.com org)
+
+---
+
+## GitHub Pages Domain Conflict Resolution
+
+If GitHub Pages reports "domain already taken" when verifying a custom domain:
+
+1. **Check if the domain is verified under another GitHub account** — this is the most common cause
+2. **Do not delete and re-add the CNAME** — that won't fix an account-level domain conflict
+3. **Write to escalation log** with: domain name, which repo you're trying to add it to, exact error message
+4. **Slashdaddy investigates** — may require Mitch to:
+   - Verify via DNS TXT record at the org level (github.com → Settings → Pages → Verified domains)
+   - Or contact GitHub support if domain is stuck on a deleted account
+5. **Bot does not attempt to push alternative CNAME or domain workarounds** — these break SSL cert provisioning
+
+---
+
+## GSC Coverage for Backlink Sites
+
+Elipacko backlink sites that are not in GSC have no indexing visibility — Google may never find them.
+
+**For any site being used as a backlink source:**
+1. It must be submitted to GSC as a property (DNS TXT verification or HTML file)
+2. Sitemap must be submitted in GSC after verification
+3. IndexNow must be running for that domain
+4. If a site cannot be verified in GSC within 2 weeks of launch, flag to escalation log
+
+**Current known gap:** 28 elipacko backlink sites not in GSC as of 2026-09-01. Fern Allern to add these progressively — minimum 5 per week.
+
+**Verification method for GitHub Pages sites:**
+- Add `google-site-verification=<token>` as a DNS TXT record, OR
+- Add verification HTML file to root of repo and push
+- Confirm GSC shows "Ownership verified" before considering the site active
+
+---
+
 ## Implementation Status
 - [ ] Walk Industrial content integrity cron
 - [ ] Bartact meta description verification cron  
