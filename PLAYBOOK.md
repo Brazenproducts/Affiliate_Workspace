@@ -458,6 +458,31 @@ A page that hits all 7 wins. A page missing #1 and #2 will not rank regardless o
 
 ---
 
+## GSC Service Account Access — Mandatory for Every Affiliate Site
+
+**Every affiliate site MUST have the indexing SA added to its GSC property before or at launch. No exceptions.**
+
+- SA to add: `axl-348@proud-stage-397621.iam.gserviceaccount.com`
+- Permission level: **Restricted User** (read-only, enough for ranking data)
+- Without this: ranking data is completely unavailable. We are flying blind on SEO performance.
+
+**How to add one site manually:**
+1. GSC → select property → Settings → Users and permissions → Add user
+2. Email: `axl-348@proud-stage-397621.iam.gserviceaccount.com`, Permission: Restricted User
+
+**Bulk grant (programmatic):**
+`POST https://www.googleapis.com/webmasters/v3/sites/{encodedSiteUrl}/permissions`
+Body: `{"permissionLevel": "siteRestrictedUser", "email": "axl-348@proud-stage-397621.iam.gserviceaccount.com"}`
+Auth: OAuth for info@brazenauto.com with scope `https://www.googleapis.com/auth/webmasters`
+
+**For new sites:** Filli adds SA access to GSC as the final step of site launch. A site is not considered live until GSC is set up.
+
+**Fallback when GSC unavailable:** Run scraper-based rank checker (query Google/DuckDuckGo for target keywords, parse position). Slower and rate-limited but covers all sites without GSC access.
+
+**Known backfill needed:** ~90 existing affiliate sites have no SA access as of Sept 2, 2026. Filli to bulk-grant programmatically using OAuth credentials at `.gmail-brazenauto-credentials.json`.
+
+---
+
 ## Implementation Status
 - [ ] Walk Industrial content integrity cron
 - [ ] Bartact meta description verification cron  
