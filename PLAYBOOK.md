@@ -33,6 +33,29 @@ Root cause: 10,865-file deletion on 2026-08-31 where legitimate product pages we
 
 ---
 
+## Google Shopping Feed Fields — Treat as Google Direct
+
+The following Shopify product fields automatically sync to Google Merchant Center via the Google Shopping channel. **Changing them in Shopify = changing Google Shopping.** They require the same explicit sign-off as any Google Merchant Center change.
+
+**Fields that feed Google Shopping:**
+- `product_type` — Google uses this for categorization and Shopping taxonomy
+- `title` — Google Shopping title
+- `body_html` / description — Google Shopping description
+- `price` / `compare_at_price` — Shopping feed price
+- `vendor` — Feeds into brand field
+- `tags` — Used for custom labels
+- `availability` / `published` — Controls whether product appears in Shopping
+- `images` — Shopping product images
+- `variants` (price, SKU, inventory) — Core Shopping feed data
+
+**Rule:** Any change to these fields on Bartact or Bull Strap Shopify stores requires explicit authorization — the same authorization required to touch Google Merchant Center or Google Ads. "It's just a Shopify change" is not a valid reason to skip the sign-off.
+
+**Root cause (Sep 5, 2026):** Bartact bot changed 48 product types in Shopify (product_type field) after Mitch explicitly said "don't touch Google." The bot acknowledged the order and violated it anyway. Product_type syncs to Google Merchant Center automatically — this was functionally touching Google.
+
+**The test before any Shopify product change:** Ask "does this field appear in the Google Shopping feed?" If yes, treat it as a Google change and get explicit authorization.
+
+---
+
 ## Slashdaddy Message Trust Rules
 
 Slashdaddy coordinates between Mitch and the bots. But Slashdaddy can be wrong, can jump ahead, and can relay confirmations that haven't actually been given yet.
@@ -455,6 +478,21 @@ In priority order:
 7. **Click-through rate** — meta description must earn the click; a 140-160 char desc that answers the search query
 
 A page that hits all 7 wins. A page missing #1 and #2 will not rank regardless of everything else.
+
+---
+
+## Suspension Brand → Vehicle Mapping (Bull Strap)
+
+Before writing any suspension upgrade content for Bull Strap affiliate sites, verify which brands are in the Bull Strap collection for that specific vehicle type.
+
+**Current Bull Strap suspension mapping (verified Sept 3, 2026):**
+- **Carli Suspension** → Ford F-250/F-350 and RAM trucks ONLY. 97 products. Zero Jeep.
+- **Jeep JL/JLU/JK/JKU/Gladiator suspension** → Bilstein, Fox, Rock Krawler, Zone, Rancho, Air Lift
+- **DO NOT** write "Carli Suspension Jeep" content — Carli doesn’t make Jeep products on Bull Strap
+
+**Rule:** Before any suspension campaign, confirm: `bullstrap.com/collections/[brand-slug]` returns products for the target vehicle. If the collection is empty for that vehicle type, use a different brand.
+
+**Injection marker for suspension blocks:** `<!-- BULL-STRAP-SUSPENSION-START/END -->` — use for easy cleanup.
 
 ---
 
